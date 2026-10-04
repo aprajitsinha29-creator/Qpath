@@ -721,3 +721,491 @@ Career paths (1:1 with scored subfields):
 
 Each path also stores a 1–2 sentence description and `typical_titles` (the agent drafts; you review in M-07).
 
+---
+
+## 5. Build phases
+
+Conventions used in every phase: **Deliverable** = what works at the end. **Manual prerequisites** = tasks from Section 2 you finish *before* delegating. **Steps** are numbered and must be done in order. **Acceptance checks** are commands/behaviors you verify yourself. **Do not** = scope fences for the agent.
+
+Repo root folder on your machine is `Qpath`; the tree in Section 3.1 uses the name `quantum-pathfinder` only as a label.
+
+---
+
+### Phase 0 — Foundation
+
+**Deliverable:** from a fresh clone, `make setup` then `make dev-backend` and `make dev-frontend` start both servers. The browser shows the app shell with a **"Backend: OK"** badge fed by `GET /api/v1/health`. The SerpApi client works in fixture mode, the taxonomy/vocabulary are seeded into SQLite, real SerpApi fixtures are recorded, and lint + tests pass.
+
+**Manual prerequisites:** M-01, M-02, M-05 done; `AGENTS.md`, `knowledge.md`, `docs/BUILD_PLAN.md` already in the repo. M-03 and M-06 happen **mid-phase** (after step 0.5), as marked below.
+
+**Steps**
+
+**0.1 Repo skeleton and project files**
+1. Create the folder tree from Section 3.1 (empty packages get `__init__.py`). Files that already exist (`AGENTS.md`, `knowledge.md`, `README.md`, `docs/BUILD_PLAN.md`) must **not** be overwritten; verify `AGENTS.md` matches Section 3 and report differences.
+2. Create `.gitignore` (at minimum: `.env`, `*.db`, `*.sqlite*`, `.venv/`, `node_modules/`, `dist/`, `__pycache__/`, `.pytest_cache/`, `.ruff_cache/`, `coverage/`, `backend/data/`), `.editorconfig`, `.github/copilot-instructions.md` (one line pointing to `AGENTS.md`), and `docs/ARCHITECTURE.md` (headings only for now).
+3. Create `Makefile` with targets: `setup`, `dev-backend`, `dev-frontend`, `test`, `lint`, `format`, `record-fixtures`, `seed-demo`. `setup` creates `backend/.venv` with `python3 -m venv`, installs `pip install -e ".[dev]"` inside it, and runs `npm ci`/`npm install` in `frontend/`. Never run `pip install` against the system Python (it is externally managed on this machine).
+
+**0.2 Backend scaffolding**
+1. `backend/pyproject.toml`: project metadata, dependencies from Section 3.2 (APScheduler pinned `>=3.10,<4`), dev extras (pytest, pytest-cov, ruff), `[tool.setuptools.packages.find] include = ["app*"]`, ruff and pytest config.
+2. `app/core/config.py`: `Settings` (pydantic-settings) with every variable in Section 4.2, typed, with validators (positive cap; the fail-fast rule for live mode without a key). Expose `get_settings()` cached.
+3. `app/core/logging.py`, `app/core/errors.py` (domain exceptions: `NotFoundError`, `ConflictError`, `SerpApiError`, `SerpApiCapExceeded`, `FixtureMissingError`, `LLMOutputError` + handlers returning the error shape from 4.4).
+4. `app/db/base.py`, `app/db/session.py` (engine with `check_same_thread=False`, WAL pragma on connect, `SessionLocal`, `get_db`).
+5. `app/main.py`: `create_app()` factory, CORS from settings, router mounted at `/api/v1`, lifespan that creates tables and runs the seed loader (scheduler hook left as a stub for Phase 5).
+6. `app/api/v1/health.py` + `router.py`: `GET /health` → `{status, version, env, db}` (the `db` field comes from a trivial `SELECT 1`).
+
+**0.3 Reference data models and seeding**
+1. Models: `subfields`, `concepts`, `skills`, `career_paths`, `serpapi_call_log` (Section 4.3).
+2. Create `app/data/taxonomy.json` (subfields + concepts, from 4.9), `career_paths.json` (4.9; draft descriptions/typical titles), `skills_vocab.json` (4.8; `"all"` expands to the six scored subfields).
+3. `app/db/seed.py`: idempotent upsert loader with validation: every referenced id exists; concept prerequisites resolve; **no prerequisite cycles**; skill `subfield_ids` valid. Invalid data → fail at startup with a clear message.
+
+**0.4 SerpApi client** (`app/integrations/serpapi/`)
+1. `client.py` — class `SerpApiClient(settings, db_session_factory, http_client=None)` with `search(engine, params, *, fixture_variant: str) -> dict`:
+   - Fixture mode: read `tests/fixtures/serpapi/<engine>__<slug(q)>__<fixture_variant>.json`; missing file → `FixtureMissingError` (callers treat it as "no more data", log it).
+   - Live mode: check today's live-call count in `serpapi_call_log` against `SERPAPI_DAILY_CALL_CAP` → `SerpApiCapExceeded`; `GET https://serpapi.com/search.json` with `engine`, params and `api_key`; timeout 30 s; one retry on timeout/5xx; body with an `error` key → `SerpApiError`.
+   - Every call (either mode) writes a `serpapi_call_log` row (engine, query, source, status). The key is never logged or stored.
+2. Typed helpers: `search_jobs(query, *, location=None, gl=None, next_page_token=None, fixture_variant)` and `search_scholar(query, *, num=20, recent_only=True, fixture_variant)` (`recent_only` → `scisbd=1`). `hl=en` always.
+3. `queries.py`: `QuerySpec` dataclass and the plans from Section 4.6 (`JOB_QUERY_PLAN`, `SCHOLAR_QUERY_PLAN`, `FIXTURE_PLAN`). Fixture variants: jobs `global_p1`, `global_p2`, `india_p1`; scholar `recent`.
+
+**0.5 Fixture recorder**
+1. `scripts/record_fixtures.py`: runs the `FIXTURE_PLAN` against the **live** API (requires `SERPAPI_USE_FIXTURES=false` and a key; refuses otherwise), saves pretty-printed JSON to `tests/fixtures/serpapi/` using the same naming as the client, scrubs `api_key`, skips existing files unless `--force`, prints a credit estimate before asking `y/N`, and prints a summary after.
+2. **→ You now do M-03 (put the key in `backend/.env`) and M-06 (run `make record-fixtures`, inspect, confirm no key inside, commit the fixtures).** Then continue with 0.6+.
+
+**0.6 Frontend scaffolding**
+1. Create the Vite + React + TypeScript app in `frontend/`; set up Tailwind per its current official docs; add React Router, TanStack Query, Recharts, Vitest + React Testing Library, ESLint, Prettier.
+2. `src/lib/apiClient.ts` (base URL from env; typed `get/post/put`; normalizes the backend error shape into a thrown `ApiError`).
+3. `src/app/` (providers with `QueryClientProvider` and an error boundary, router), `components/layout/AppShell.tsx` (header with nav: **Pulse**, **Diagnostic** (disabled "coming soon"), **Method**), pages `PulsePage` (placeholder card), `MethodPage` (placeholder), `NotFoundPage`.
+4. `features/health/` with a `HealthBadge` that shows "Backend: OK" / "Backend: unreachable" using `GET /health` (loading, error states included).
+
+**0.7 Tooling and docs**
+1. Configure ruff (lint + format), pytest (`testpaths`, markers), ESLint + Prettier; wire `make lint`/`make format`/`make test` (runs backend and frontend tests).
+2. `README.md`: what the project is, **two-command setup**, env explanation, project structure, and a "Status" line (Phase 0).
+3. Fill `docs/ARCHITECTURE.md` with the layer diagram, folder responsibilities, and the decision log so far (sync stack, SQLite + `create_all`, fixtures-first SerpApi).
+
+**0.8 Tests**
+- `test_health_returns_ok`; `test_settings_fail_fast_without_key_in_live_mode`; `test_seed_is_idempotent`; `test_taxonomy_has_no_prerequisite_cycles`; `test_skill_vocab_references_valid_subfields`.
+- `test_serpapi_client_reads_fixture`, `test_serpapi_client_raises_when_fixture_missing`, `test_serpapi_client_enforces_daily_cap` and `test_serpapi_client_raises_on_error_body` (live path via `httpx.MockTransport`; no real network).
+- `test_fixtures_contain_no_api_key`.
+- Frontend: `HealthBadge` renders OK and error states.
+
+**Acceptance checks**
+```bash
+make setup                         # succeeds, creates backend/.venv
+make lint && make test             # both clean
+make dev-backend                   # in one terminal
+curl -s localhost:8000/api/v1/health      # {"status":"ok",...,"db":"ok"}
+make dev-frontend                  # second terminal; open http://localhost:5173 -> "Backend: OK"
+ls backend/tests/fixtures/serpapi | wc -l # ≈ 15-17 files (after M-06)
+grep -ri "api_key" backend/tests/fixtures # prints nothing
+git log --oneline | head           # several small Conventional Commits
+```
+
+**Do not:** build ingestion, any Pulse logic, Gemini code, or any model beyond those listed.
+Commit and tag `phase-0`.
+
+---
+
+### Phase 1 — Market Pulse v1 (SerpApi jobs, no AI)
+
+**Deliverable:** the Pulse page shows six subfield cards with **active postings, new this week (when meaningful), internship count, top companies**, an expandable posting list with apply links, an **India/Global toggle**, a dev-only **Refresh** button, and a **SerpApi activity panel**. Works fully in fixture mode (no keys, no credits) and in live mode.
+
+**Manual prerequisites:** M-06 done (fixtures committed); M-07 (taxonomy/query plan reviewed).
+
+**Steps**
+
+**1.1 Models:** `job_postings`, `job_posting_subfields`, `refresh_runs`, `pulse_snapshots` (Section 4.3). `dedupe_key` unique.
+
+**1.2 Parsers** (`integrations/serpapi/parsers.py`)
+1. `parse_job_result(raw) -> ParsedJob | None`: requires `title` and `company_name`, otherwise skip + log. Everything else via `.get()` with defaults. `apply_url` = first `apply_options[].link`, else `share_link`, else `source_link`, else `None`. `extensions` normalized to a list of strings.
+2. `detect_internship(title, extensions)`: regex `\bintern(ship)?s?\b` (case-insensitive) — must not match "internal"/"international".
+3. `make_dedupe_key(title, company, location)`: lowercase, strip non-alphanumerics, sha1.
+4. `parse_next_page_token(raw)` from `serpapi_pagination.next_page_token`.
+
+**1.3 Ingestion service** (`services/ingestion_service.py`)
+1. `refresh_jobs(db, client, *, mode, region, subfield_ids=None)`: `bootstrap` → all queries for the chosen subfields, follow `next_page_token` up to `SERPAPI_JOBS_MAX_PAGES`; `daily` → core queries, 1 page. India region passes `location="India", gl="in"`.
+2. For each parsed job: upsert by `dedupe_key` (insert with `first_seen_at=now`; otherwise update `last_seen_at`, `serp_job_id`, `is_active=true`); link to the subfield with `region` and `source_query`.
+3. Per-query `try/except`: one failure (including `FixtureMissingError`, which just ends pagination) never aborts the run; collect errors in `refresh_runs.details`.
+4. After the run: mark postings not seen for 14 days `is_active=false`; compute and upsert today's `pulse_snapshots` per subfield/region.
+5. Write a `refresh_runs` row with call counts and a summary (`postings_seen`, `postings_new`, `errors`).
+
+**1.4 Pulse service** (`services/pulse_service.py`)
+- `get_pulse_cards(db, region)`: per subfield → `active_postings`, `internship_postings`, `top_companies` (top 5), `new_this_week` and `tracking_since`. **`new_this_week` is `null` until the corpus spans ≥ 2 distinct ingestion days**; the UI then shows "tracking since <date>" instead of a misleading number. `low_data = active_postings < 8`.
+- `list_postings(db, subfield_id, region, internship, limit, offset)`.
+
+**1.5 API:** `GET /taxonomy`, `GET /pulse`, `GET /pulse/{subfield_id}/postings`, `GET /meta/serpapi-activity` (today's live calls, cap, last 20 calls, mode), `POST /admin/refresh/jobs` (header `X-Admin-Token`; body `{mode, region, subfield_id?}`; returns the run summary). Schemas: `PulseCard`, `PostingOut` (`id, title, company, location, via, apply_url, is_internship, first_seen_at, snippet` where snippet = first ~240 chars), `RefreshSummary`, `SerpApiActivity`.
+
+**1.6 Frontend**
+- `features/pulse/`: `SubfieldCard` (counts, low-data badge, top companies), `PostingList` (accordion; apply link opens in a new tab with `rel="noopener noreferrer"`), `RegionToggle`, `InternshipFilter`, `SerpApiActivityPanel`, `RefreshButton` (asks for the admin token, stores it in `sessionStorage`, dev-only affordance).
+- `PulsePage` composes them. Loading skeletons, empty ("no postings captured yet — run a refresh"), and error states for each region.
+
+**1.7 Tests**
+- Parser tests on the recorded fixtures, including the India fixture that lacks `job_highlights`; malformed item is skipped; `detect_internship` table-driven (`"Quantum Intern"` yes, `"Internal Tools Engineer"` no).
+- `test_refresh_jobs_is_idempotent` (run twice → same row counts, `last_seen_at` moves forward), `test_dedupe_across_queries`, `test_pagination_stops_when_fixture_missing`, `test_new_this_week_is_null_for_single_day_corpus`, `test_pulse_cards_aggregate_counts`.
+- Endpoint tests with `TestClient`: admin endpoint rejects a missing/wrong token; `GET /pulse` returns six cards.
+- Frontend: card renders counts; empty state; region toggle changes the request.
+
+**Acceptance checks**
+```bash
+make test
+curl -s -X POST localhost:8000/api/v1/admin/refresh/jobs -H "X-Admin-Token: change-me" \
+  -H "Content-Type: application/json" -d '{"mode":"bootstrap","region":"global"}'   # postings_new > 0
+# run the same command again -> postings_new == 0, no duplicates
+curl -s localhost:8000/api/v1/pulse | head       # 6 cards
+```
+In the browser: cards show counts; toggling to India changes numbers (or shows empty states); the activity panel lists fixture calls.
+
+**Do not:** call Gemini, parse skills, or fetch Scholar. Commit and tag `phase-1`.
+
+---
+
+### Phase 2 — Intelligence layer (Gemini skills + Scholar themes)
+
+**Deliverable:** each Pulse card shows **top skills (with % of postings)**, **seniority/PhD/internship mix**, and a **Research focus** strip of 3–5 themes drawn from recent Scholar papers. A subfield detail page (`/pulse/:subfieldId`) shows the full skill list, themes (each linking to its papers) and postings. AI-derived items carry an "AI-extracted" label.
+
+**Manual prerequisites:** M-04 (Gemini key + model + rate limit in `.env`); M-09 (vocabulary reviewed). **After the phase:** M-10 (spot-check 20 postings).
+
+**Steps**
+
+**2.1 Models:** `job_posting_skills`, `paper_snapshots`, `research_themes`; add extraction fields to `job_postings` (already in 4.3).
+
+**2.2 Gemini client** (`integrations/gemini/client.py`): `StructuredLLM` Protocol (`generate_structured(prompt, schema) -> BaseModel`), a real implementation using `google-genai` per Section 3.5 (rate limiter, backoff, validation, one retry on invalid output → `LLMOutputError`), and `FakeStructuredLLM` for tests.
+
+**2.3 Prompts and schemas** (`prompts.py`, `schemas.py`) exactly as in Section 4.7 (`PostingExtraction`, `ExtractionBatch`, `Theme`, `ThemeSet`).
+
+**2.4 Extraction service** (`services/extraction_service.py`)
+1. Select postings with `extraction_status in (pending, failed)` and `extraction_attempts < 3`, in batches of 5; truncate descriptions to ~3,000 chars.
+2. Call the LLM; post-validate (unknown skill ids → `unmapped_skills`, invalid subfield → null, count/ref mismatch → retry once then mark failed).
+3. Persist skills (`job_posting_skills`), `seniority`, `requires_phd`, `is_internship` (rule-based OR model), `extraction_status=done`. Idempotent: never re-extract `done` postings.
+4. `POST /admin/extract?limit=` runs it and returns counts (`done`, `failed`, `skipped`).
+
+**2.5 Scholar ingestion** (`integrations/serpapi/parsers.py`, `services/research_service.py`)
+1. `parse_scholar_result(raw)`: `title` required; `snippet`, `link`, `publication_info.summary`, `inline_links.cited_by.total` optional; `year` = last 4-digit year (19xx/20xx) found in the summary, else null.
+2. `refresh_scholar(db, client, llm, subfield_ids)`: one query per subfield (`SCHOLAR_QUERY_PLAN`, `scisbd=1`, `num=20`), store a new `batch_id` of `paper_snapshots`, then generate themes with the LLM (validated paper indexes) and store `research_themes`.
+3. `POST /admin/refresh/scholar`. **No counts or growth rates are computed from Scholar.**
+
+**2.6 Pulse service update:** add `top_skills` (skill id, name, share of the subfield's active extracted postings), `seniority_mix`, `phd_share`, `extraction_coverage` (% of postings extracted) and `themes` (label, summary, papers with title/link). New endpoint `GET /pulse/{subfield_id}` returns this detail; `GET /pulse` cards include `top_skills[:5]` and `themes[:3]`.
+
+**2.7 Frontend:** `SkillBars`, `MixChips` (seniority/PhD/internship), `ResearchFocus` (themes with expandable paper links), `SubfieldDetailPage` + route `/pulse/:subfieldId`, an "AI-extracted from posting text" tooltip, and an extraction-coverage note when coverage < 100%. All with loading/empty/error states.
+
+**2.8 Tests**
+- Extraction: unknown skill ids are dropped to `unmapped`; wrong item count marks the batch failed and retries once; attempts stop at 3; `done` postings are skipped; model `is_internship=false` cannot override a rule-based `true`.
+- Scholar: `year` parsing table-driven (`"A Smith - Phys Rev, 2025 - nature.com"`), theme paper indexes validated, themes with no valid index dropped.
+- Services use `FakeStructuredLLM`; endpoints tested end to end against fixtures.
+- A test ensures no code path computes trends from `search_information.total_results`.
+
+**Acceptance checks**
+```bash
+make test
+curl -s -X POST "localhost:8000/api/v1/admin/extract?limit=50" -H "X-Admin-Token: change-me"   # done >= 90% of attempted
+curl -s -X POST localhost:8000/api/v1/admin/refresh/scholar -H "X-Admin-Token: change-me"
+curl -s localhost:8000/api/v1/pulse/qec | head -c 1200     # skills + themes present
+```
+Browser: skill bars and research themes render on cards; detail page works. **Then do M-10** and record your measured accuracy.
+
+**Do not:** build the quiz, scoring, or recommendations. Commit and tag `phase-2`.
+
+---
+
+### Phase 3 — Orientation diagnostic
+
+**Deliverable:** the user sets six interest sliders, answers 18 questions (one per screen, with **"Not sure"**), submits, and sees a **radar chart of readiness per subfield** with an interest overlay and per-question feedback. An anonymous profile (UUID in `localStorage`) stores results; retakes are kept as history.
+
+**Manual prerequisites:** **M-08** — the verified quiz bank (`app/data/quiz_questions.json`, Section 6). While you finish verification, the agent may build with `ALLOW_UNVERIFIED_QUESTIONS=true` and placeholder questions; the phase is **not complete** until every one of the 18 served questions has `"verified": true` set by you.
+
+**Steps**
+
+**3.1 Models and seed:** `questions`, `profiles`, `assessments`. Seed questions from `quiz_questions.json` with schema validation (4 options, `correct_index` 0–3, `difficulty` 1–3, `subfield_id`/`concept_id` exist). Exclude `verified=false` unless `ALLOW_UNVERIFIED_QUESTIONS=true`. The quiz endpoint refuses (clear error) if any scored subfield has fewer than 3 servable questions.
+
+**3.2 Schemas:** `QuizQuestionOut` (**no `correct_index`, no `explanation`**), `AnswerIn {question_id, selected_index | null}` (`null` = Not sure), `AssessmentIn {interests: dict[str,int 1–5], answers: list[AnswerIn]}`, `AssessmentOut {scores, interests, per_question: [{question_id, correct, explanation, concept_id}], weak_concepts}`.
+
+**3.3 Quiz service** (`services/quiz_service.py`, `services/scoring_service.py`)
+- `build_quiz()` returns questions ordered by `sort_order`.
+- `score_assessment(...)` per Section 4.5 (difficulty points, no negative marking). Unanswered or `null` → 0. Reject unknown question ids and duplicate answers (422).
+- `weak_concepts` = concepts of wrong/not-sure answers, deduplicated.
+
+**3.4 API:** `GET /quiz`, `POST /profiles` (returns `{profile_id}`), `GET /profiles/{id}`, `POST /profiles/{id}/assessment` (stores interests on the profile, creates the assessment, returns `AssessmentOut`), `GET /profiles/{id}/assessments/latest`.
+
+**3.5 Frontend**
+- `lib/profileId.ts` (create/get UUID via `POST /profiles`, stored in `localStorage`).
+- `DiagnosticPage`: `InterestStep` (six sliders with labels), `QuestionStep` (progress bar, back/next, "Not sure" button, keyboard navigable), draft answers saved to `sessionStorage` so a refresh doesn't lose progress, confirm-before-submit.
+- `ResultsPage`: `ReadinessRadar` (Recharts radar with a text table alternative), `ScoreBars`, `FeedbackList` (expandable explanations; correct/incorrect/not-sure states), "Retake" action, link to Pulse.
+- Enable the **Diagnostic** nav item.
+
+**3.6 Tests**
+- Scoring table-driven: all correct → 100 in every subfield; all "Not sure" → 0; mixed difficulties compute exactly (e.g. correct on difficulties 1 and 3 only → 4/6 ≈ 66.7).
+- `test_quiz_endpoint_never_returns_correct_answers` (asserts the keys are absent), unverified-question exclusion, the "<3 questions per subfield" guard, invalid answer rejection.
+- Frontend: stepper navigation, Not sure selection, draft persistence.
+
+**Acceptance checks**
+```bash
+make test
+curl -s localhost:8000/api/v1/quiz | grep -c correct_index     # 0
+```
+Browser: complete the quiz; results match a hand calculation of your answers; refresh mid-quiz keeps your progress; the DB contains the assessment.
+
+**Do not:** recommend paths or call Gemini here. Commit and tag `phase-3`.
+
+---
+
+### Phase 4 — Path matcher (**first submittable build**)
+
+**Deliverable:** after the diagnostic, the user sees **six career paths ranked by score** (top 3 highlighted) with a transparent breakdown (interest / readiness / demand), **live evidence** from the Pulse data (posting counts, top skills, PhD share, sample postings), and a **grounded Gemini explanation** per path. A skills picker records the user's declared skills. The full loop works end to end: Pulse → diagnostic → recommendations.
+
+**Manual prerequisites:** Phase 3 complete with verified questions; Phase 2 data present (run extraction/scholar refresh in fixture mode); M-07 reviewed `career_paths.json`.
+
+**Steps**
+
+**4.1 Models:** `path_explanations` (Section 4.3). `career_paths` already seeded in Phase 0.
+
+**4.2 Scoring** (`services/scoring_service.py`): add the pure functions from Section 4.5: `interest_n`, `readiness_n`, `demand_n`, `path_score`, `rank_paths` (tie-break: demand desc, then id), with `W_INTEREST/W_DEMAND/W_READINESS` as named module constants and a docstring explaining the rationale. `low_data` flag at `active < 8`; saturation note when ≥ 4 of 6 subfields hit the page cap in the latest bootstrap (read from `refresh_runs.details`).
+
+**4.3 Paths service** (`services/paths_service.py`): `get_ranked_paths(db, profile_id, region="global")` — requires an assessment (else `ConflictError` → HTTP 409 with code `assessment_required`). For each path assemble evidence from `pulse_service`: `active_postings`, `internship_postings`, `top_skills`, `phd_share`, `sample_postings` (3), `low_data`. Return `PathResult {path_id, title, subfield_id, rank, score, breakdown{interest, readiness, demand, weights}, is_top3, low_data, evidence, explanation | null}`.
+
+**4.4 Explanation service** (`services/explanation_service.py`)
+1. Build the grounded JSON input from the path result (numbers and items only).
+2. `evidence_hash` = hash of that JSON; return the cached `path_explanations` row if the hash matches (same profile/assessment/path).
+3. Otherwise call the LLM with the Section 4.7 prompt and schema (`headline`, `reasons[3]`, `caveat`, `next_step`); validate lengths and that exactly 3 reasons exist.
+4. On failure (twice) build a **deterministic template** from the same JSON, set `generated_by="template"`; never return an error to the UI for this.
+
+**4.5 API:** `GET /profiles/{id}/paths`, `POST /profiles/{id}/paths/{path_id}/explanation`, `PUT /profiles/{id}/skills` (body `{skill_ids}`; unknown ids → 422).
+
+**4.6 Frontend**
+- Route `/paths` (linked from the results page): `PathCard` ×6 with rank badge, `ScoreBreakdown` (three labeled bars + weights), `EvidencePanel` (counts, top skills, PhD share, sample postings with links), `ExplanationBlock` (loading skeleton, "Generated by AI from the data shown" label, template fallback labelled honestly), `LowDataNotice`.
+- `SkillPicker`: searchable multi-select over the vocabulary, saved via `PUT /skills`.
+- If no assessment exists, redirect to the diagnostic with a short message.
+
+**4.7 Tests**
+- Scoring table-driven: zero postings everywhere (demand 0, no division by zero); one dominant subfield; tie-breaks; weights sum to 1; interest-only vs. demand-only edge cases.
+- `test_ranked_paths_requires_assessment` (409), evidence assembly, explanation caching (second call does not hit the LLM), cache invalidation when evidence changes, template fallback when the fake LLM raises.
+- Full flow test with fixtures + `FakeStructuredLLM`: seed postings → create profile → submit assessment → fetch six ranked paths → fetch an explanation.
+- Frontend: card renders breakdown; template-labelled explanation; redirect without an assessment.
+
+**4.8 Docs:** update README (end-to-end usage with screenshots placeholders) and `ARCHITECTURE.md`.
+
+**Acceptance checks**
+```bash
+make test
+# Browser: Pulse -> Diagnostic -> Results -> /paths
+#   six ranked paths; changing an interest slider and retaking changes the ranking sensibly;
+#   an explanation appears and only cites numbers shown in the evidence panel.
+```
+Check by hand: pick one path and recompute its score from the displayed interest/readiness/demand and weights — it must match.
+
+**Milestone:** tag **`v0.1-mvp`** (and `phase-4`). If you must submit early, jump to Phase 7.
+
+**Do not:** build the scheduler, tracking, or gap analysis. Never let the LLM change scores or ranks.
+
+---
+
+### Phase 5 — Opportunity tracker (continuous tracking)
+
+**Deliverable:** the user clicks **"Track this path"**; an **Opportunities** page lists matching jobs/internships with **match scores**, an internship toggle, India/Global toggle, **"New since your last visit"** badges, and a "Last refreshed" indicator. Pulse cards gain a **trend sparkline** from daily snapshots. A scheduler (off by default) refreshes data automatically; admin can still run refreshes manually.
+
+**Manual prerequisites:** M-12 (decide scheduler policy; keep `SCHEDULER_ENABLED=false` while developing).
+
+**Steps**
+
+**5.1 Profile fields and endpoints:** use `chosen_path_id` and `last_seen_at` on `profiles`. `PUT /profiles/{id}/chosen-path` (validates path id), `GET /profiles/{id}/opportunities`, `POST /profiles/{id}/seen` (sets `last_seen_at=now`). **`GET` never changes `last_seen_at`** — the frontend calls `/seen` explicitly when the user has viewed the list, so badges don't vanish on refresh by accident.
+
+**5.2 Match service** (`services/match_service.py`): implement the posting match formula from Section 4.5 as a pure function; `null` when the posting has no extracted skills.
+
+**5.3 Tracker service** (`services/tracker_service.py`): fetch active postings for the chosen path's subfield and region; compute `match` per posting using declared skills and the latest assessment; `is_new = first_seen_at > profile.last_seen_at` (all postings are "new" if `last_seen_at` is null **but** the response then sets `first_visit=true` so the UI doesn't shout "NEW" on everything); sort by match desc (nulls last), then `first_seen_at` desc; paginate; internship filter.
+
+**5.4 Scheduler** (`scheduler/jobs.py`, wired in `main.py` lifespan **only if** `SCHEDULER_ENABLED`)
+- `BackgroundScheduler` with three cron jobs from env: daily global core jobs refresh (+ extraction of new postings), weekly India core refresh, weekly Scholar refresh + themes.
+- Each job: opens its **own** DB session, catches all exceptions into `refresh_runs`, respects the daily call cap, `max_instances=1`, `coalesce=True`; shuts down cleanly with the app.
+- `GET /meta/refresh-status` returns the last run per kind (time, status, calls, counts); `GET /pulse/{subfield_id}/trend` returns snapshot series (date, active, new, internships).
+
+**5.5 Frontend:** `TrackPathButton` on `PathCard`; `OpportunitiesPage` (route `/opportunities`; nav item enabled once a path is tracked) with `OpportunityCard` (match badge or "not enough info", `NEW` badge, apply link), filters (internship, region), `LastRefreshedPill`, "Mark all as seen" (calls `/seen`), `TrendSparkline` on Pulse cards (renders only with ≥ 2 snapshots; otherwise "tracking started <date>").
+
+**5.6 Tests**
+- Match formula table-driven (including `null`); `is_new` logic with controlled timestamps (no `sleep`); `first_visit` behavior; `GET` leaves `last_seen_at` unchanged, `POST /seen` updates it.
+- Scheduler: job registration reflects env flags; a job failure writes a failed `refresh_runs` row and does not crash; overlapping runs are prevented (test by invoking twice with a held lock).
+- Trend endpoint returns ordered series; frontend tests for badges and the sparkline hidden state.
+
+**Acceptance checks**
+```bash
+make test
+# Simulate two days: run a bootstrap refresh, then insert/modify first_seen_at on a few postings
+# (via a test helper or SQL) and re-fetch /opportunities -> only the newer ones are is_new=true.
+# Set SCHEDULER_ENABLED=true briefly: GET /meta/refresh-status shows jobs registered; set it back to false.
+```
+Browser: track a path, see matched opportunities, mark as seen, badges clear.
+
+**Do not:** send emails/notifications, track per user in SerpApi, or enable the scheduler permanently during development. Commit and tag `phase-5`.
+
+---
+
+### Phase 6 — Gap analysis and learning path (stretch)
+
+**Deliverable:** for the tracked path, a **ranked skill-gap list** (what employers ask for × what you lack) and an **ordered concept learning plan** that respects prerequisites. Users mark concepts complete and the plan updates. Each concept explains **why it matters** ("appears in N postings").
+
+**Manual prerequisites:** M-11.
+
+**Steps**
+
+**6.1 Skill→concept mapping:** the agent proposes `concept_ids` for each skill in `skills_vocab.json` (only where a real relationship exists; many skills legitimately have none) and lists its choices in a short review note. **You approve or edit (M-11) before step 6.2.**
+
+**6.2 Gap service** (`services/gap_service.py`): formulas from Section 4.5 (`freq_k`, `proficiency_k`, `gap_k`); input = chosen path's subfield, declared skills, latest assessment; output = ranked list `{skill_id, name, frequency, proficiency, gap, n_postings}`, top 8 flagged.
+
+**6.3 Plan service** (`services/plan_service.py`): collect concepts from the top gap skills, add transitive prerequisites, drop completed, topologically sort (Kahn) with tie-break by summed gap weight desc then id; each item carries `why` ("N postings mention <skills>") and `prerequisites`. Detect cycles defensively (raise a data error).
+
+**6.4 API:** `GET /profiles/{id}/gap-analysis`, `GET /profiles/{id}/plan`, `PUT /profiles/{id}/plan/concepts/{concept_id}` (`{completed: bool}`; unknown concept → 404). Requires a chosen path (409 `path_required` otherwise).
+
+**6.5 Resources:** `app/data/resources.json` = `{concept_id: [{title, url}]}`, **hand-curated by you**, validated at seed time (URL must start with `https://`, title non-empty). Never generated by an LLM. Concepts without resources simply show none.
+
+**6.6 Frontend:** `PlanPage` (route `/plan`): `GapChart` (bar chart + table alternative), `ConceptTimeline` (ordered cards with prerequisite chips, why-it-matters, resources, completion toggle), progress bar. Link from Opportunities ("skills these postings want that you lack").
+
+**6.7 Tests:** gap math table-driven; topological order respects every prerequisite (property-style test over the real taxonomy); completed concepts excluded; cycle detection; endpoint tests; frontend completion toggle updates the list.
+
+**Acceptance checks:** for a profile weak in error correction who tracks `qec_engineer`, the plan shows foundations before stabilizer codes before surface code before decoding; marking a concept complete removes it and reorders nothing illegally.
+
+**Do not:** invent resource links or add pages beyond `/plan`. Commit and tag `phase-6`.
+
+---
+
+### Phase 7 — Submission hardening
+
+**Deliverable:** a **judge-ready repository**: a Method & Data page, a README that gets a stranger running in two commands, an honest account of data limits, a demo script, and a clean history with no secrets.
+
+**Manual prerequisites:** M-12 (enable the scheduler **≥ 4 days before the deadline** so real history accumulates), M-13, M-14, M-15.
+
+**Steps**
+
+**7.1 Method & Data page:** `GET /meta/method` + `MethodPage`: data sources and engines used; refresh cadence; **what each number means** (counts are a sampled indicator, not a census; Scholar themes are qualitative; no trends from Scholar totals); AI-extraction accuracy from M-10 (a number you supply in a small `docs/DATA_AND_METHOD.md`); SerpApi usage by engine (from `serpapi_call_log`); the scoring formula and weights; known limits (thin subfields, India volume, vocabulary coverage).
+
+**7.2 Demo data policy (honesty rule):** the preferred history is **real**: the scheduler's snapshots from the final days. If real history is too short, `scripts/seed_demo_history.py` may generate a **synthetic** series, and with `DEMO_MODE=true` the UI must label it clearly (**"Synthetic demo data"**) on every chart that uses it. Never present synthetic data as real.
+
+**7.3 README:** pitch; screenshots; a short architecture diagram; **two-command setup** (`make setup`, then the two dev commands); required env vars (fixture mode needs none); a table of SerpApi engines used and **why each is material** (jobs → every pulse number, skills, feed and tracking; Scholar → research themes); AI tools used (Freebuff, Antigravity CLI, Copilot, Gemini API at runtime); limitations; license. State plainly that this is a new project that shares design ideas with Ananta.
+
+**7.4 Hygiene:** LICENSE present; `.env.example` complete; DB and venv ignored; fixtures contain no keys (test exists); `make lint` and `make test` clean; frontend `npm run build` passes; remove dead code and stray TODOs; commit messages tidy (no giant squashes).
+
+**7.5 Quality pass:** keyboard navigation through the main flow; loading/empty/error states checked on every page; no console errors; responsive at laptop width.
+
+**7.6 `docs/DEMO_SCRIPT.md`:** a 3-minute shot list: (1) Pulse with the SerpApi activity panel and a live "Refresh now" (≈ 25 s); (2) diagnostic quick run (≈ 35 s, pre-filled); (3) ranked paths and one grounded explanation (≈ 40 s); (4) tracked opportunities with NEW badges and last-refreshed pill (≈ 30 s); (5) plan (if built) (≈ 25 s); (6) Method page and repo structure (≈ 25 s). Show the app running **locally**.
+
+**Acceptance checks**
+```bash
+git clone <your repo> /tmp/qp-check && cd /tmp/qp-check
+make setup && make test               # works from a clean clone with no .env (fixture mode)
+# follow the README only; the app must start and the full flow must work
+```
+Then M-13 (secret scan), make the repo public, M-14, M-15. Tag `v1.0-submission`.
+
+---
+
+## 6. Quiz question verification method
+
+**Why this matters:** judges and users who know quantum computing will notice a wrong question immediately, and an LLM will happily write confident, wrong physics. Questions are served only if **you** set `"verified": true`.
+
+### 6.1 What to author
+
+- **18 questions**, 3 per scored subfield: difficulty **1** (definition/recognition), **2** (applied), **3** (reasoning). Write 24–30 drafts and keep the best 18.
+- Conceptual and answerable in under a minute; no heavy math; no vendor trivia that goes stale; four options; exactly one defensible answer; distractors are *plausible misconceptions*; no "all of the above"; no trick wording.
+- Tag each with `concept_id` from Section 4.9.
+
+### 6.2 Data format (`app/data/quiz_questions.json`)
+
+```json
+{
+  "id": "qec-1",
+  "subfield_id": "qec",
+  "concept_id": "qec.stabilizer_codes",
+  "difficulty": 1,
+  "stem": "In a quantum error-correcting code, what do syndrome measurements do?",
+  "options": [
+    "They read out the value of the encoded logical qubit",
+    "They reveal information about which error occurred without revealing the encoded logical information",
+    "They reset all physical qubits to the zero state",
+    "They apply the logical gate to the encoded data"
+  ],
+  "correct_index": 1,
+  "explanation": "Syndrome measurements extract error information while leaving the encoded logical state undisturbed.",
+  "source_refs": ["<book/paper + chapter or section you checked>"],
+  "verified": false,
+  "verified_by": "",
+  "verified_on": ""
+}
+```
+(The example is illustrative; verify it like any other question before setting `verified`.)
+
+### 6.3 Drafting with Gemini (optional)
+
+```text
+Draft 6 multiple-choice questions for the quantum computing concept "<concept name>"
+(subfield: <subfield>), two each at difficulty 1, 2 and 3.
+Constraints: four options, exactly one correct, conceptual (no long calculations),
+distractors must be plausible misconceptions, no "all of the above". For each, give
+a one-sentence explanation and name the textbook topic where the answer can be checked.
+Output JSON matching this schema: <paste the schema above>.
+```
+Treat every output as an **unverified draft**.
+
+### 6.4 The verification procedure (do all steps for every question)
+
+1. **Locate the answer in an authoritative source** and write the reference into `source_refs`. If you cannot find it in a textbook, review article or official document, drop or rewrite the question.
+2. **Check the stem for ambiguity**: could a knowledgeable person defend a second option? If yes, rewrite.
+3. **Check every distractor is actually wrong**, and note *why* (this becomes the explanation).
+4. **Blind cross-check:** ask a *different* model (or a fresh chat) to answer the question without the key. If it disagrees, investigate — the disagreement is often an ambiguous stem, sometimes a wrong key.
+5. **Compute, don't recall:** for any question involving circuit outputs, state probabilities or gate identities, **simulate it** in Qiskit/Cirq (or by hand) and confirm.
+6. **Time-sensitivity check:** does the answer depend on a record, a vendor claim, or a recent result that could change? If so, rephrase around the durable concept.
+7. **Peer spot-check:** have a classmate, senior, or lecturer solve ~20% of the questions, especially the difficulty-3 ones, and note confusion.
+8. **Sign off:** only then set `verified: true`, `verified_by`, `verified_on`.
+
+**Per-question log (keep in a sheet or `docs/QUIZ_VERIFICATION.md`):**
+
+| id | source checked | blind cross-check agrees? | simulated/computed? | distractors explained | peer check | verified |
+|---|---|---|---|---|---|---|
+
+### 6.5 Suggested authoritative sources (confirm exact chapters/sections yourself)
+
+| Area | Sources |
+|---|---|
+| Foundations, algorithms | Nielsen & Chuang, *Quantum Computation and Quantum Information*; IBM Quantum Learning (the former Qiskit Textbook); Preskill's lecture notes |
+| Error correction | Nielsen & Chuang (error-correction chapters); Gottesman's thesis on stabilizer codes; Fowler et al. 2012, "Surface codes: Towards practical large-scale quantum computation" |
+| Hardware | Kjaergaard et al. 2020 (superconducting qubits review); Bruzewicz et al. 2019 (trapped-ion review); Henriet et al. 2020 (neutral atoms); Kok et al. 2007 (linear-optical quantum computing) |
+| Software / mitigation | Qiskit and Cirq official docs; Preskill 2018, "Quantum Computing in the NISQ era and beyond"; Temme et al. 2017 (error mitigation) |
+| Algorithms | Nielsen & Chuang; Cerezo et al. 2021, "Variational quantum algorithms" |
+| Quantum ML | Biamonte et al. 2017, "Quantum machine learning"; McClean et al. 2018 (barren plateaus); Havlíček et al. 2019 (quantum feature spaces) |
+| Cryptography / networking | NIST FIPS 203, 204 and 205 (post-quantum standards); Gisin et al. 2002, "Quantum cryptography"; Wehner, Elkouss & Hanson 2018, "Quantum internet: a vision for the road ahead" |
+
+I could not verify page numbers or exact section titles; check the citations yourself.
+
+### 6.6 Red flags (rewrite or delete)
+
+Two options that are both arguably correct; a stem that depends on a convention (qubit ordering, sign) without stating it; "always/never" claims; questions answerable by test-taking tricks (longest option wins); anything you could only verify by asking the same LLM that wrote it.
+
+### 6.7 Difficulty calibration
+
+Take the quiz yourself and with two friends of different levels. Difficulty-1 questions should be answered correctly by nearly everyone with basic exposure; difficulty-3 should split people. Adjust the tags (not the scoring weights) accordingly.
+
+---
+
+## 7. Submission checklist
+
+- [ ] Repo is **public**, setup works from a clean clone (README only), `make test` green (M-13 secret scan done, no keys in history or fixtures).
+- [ ] Demo video **< 3 minutes**, shows the project **running locally** with SerpApi data driving the main screens; link opens in a private window (M-14).
+- [ ] Track chosen: **Knowledge & Public Interest**.
+- [ ] Project description covers *what it does, who it helps, how SerpApi is used*. Draft:
+  > Quantum Pathfinder helps students and early-career engineers decide where to specialize in quantum computing. It uses SerpApi's **Google Jobs** engine to continuously capture live quantum job and internship postings per subfield (the source of every demand number, skill ranking, tracked opportunity and "new since your last visit" badge) and **Google Scholar** to surface what recent research in each subfield is about. A short diagnostic measures the user's readiness and interests; deterministic scoring combines these with live demand to rank career paths, and Gemini only extracts structure from postings and explains results using the supplied data. Without SerpApi the app would have no market signal to recommend from.
+- [ ] Pre-existing project? → new project; mention it shares design ideas with Ananta Quantum Studio (M-15).
+- [ ] AI tools disclosed: Freebuff, Antigravity CLI, GitHub Copilot, Claude (planning/consultation), Gemini API (runtime).
+- [ ] Participant details ready; Rules and Terms accepted; **press "Submit project" before Oct 10, 2026, 23:59 IST** (a saved draft does not count).
+- [ ] Submit early — the site records the first submission time and you can edit afterwards.
+
+---
+
+## 8. Risks and fallbacks
+
+| Risk | Likelihood | Fallback |
+|---|---|---|
+| Thin posting volume for some subfields (esp. India, crypto/networking) | High | Global default + India toggle; `low_data` flags; the Method page reports it honestly (a finding, not a bug) |
+| Gemini extraction errors or hallucinated skills | Medium | Controlled vocabulary + validation; measure accuracy in M-10 and publish it; unmapped skills never counted |
+| Gemini free-tier limits or model changes | Medium | Env-driven model/rate; batching and persistence; fixtures-based dev; template fallback for explanations |
+| Quiz questions contain errors | Medium | Section 6 procedure; unverified questions never served; peer spot-check |
+| SerpApi credit exhaustion | Medium | Fixture mode, daily cap, scheduler off during dev; ask organizers for credits (M-16) |
+| Scholar yields noisy results | Medium | Themes are qualitative and show source papers; drop the research strip if unusable (Pulse still stands on Jobs) |
+| Not enough real history for "tracking" | Medium | Enable scheduler ≥ 4 days before deadline; else clearly labeled synthetic series |
+| Vibe-coded code the owner can't explain | Medium | Comment rules (3.8), `ARCHITECTURE.md` per phase, and reading each phase's diff before tagging |
+| Schedule slip | High | Cut line: Phase 4 submittable → Phase 7 → then Phase 5/6 if time remains |
+| Judges see "just another jobs dashboard" | Medium | Lead the demo with the diagnostic → ranked paths → tracked decision, not the feed; emphasize the research-to-career decision layer qubitsok-style aggregators lack |
+
+*End of build plan.*
