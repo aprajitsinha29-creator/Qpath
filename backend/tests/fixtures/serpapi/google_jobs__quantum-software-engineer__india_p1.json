@@ -1,0 +1,518 @@
+{
+  "search_metadata": {
+    "id": "6ac27343526c48cc9df388f4",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/e4HddJmcjAt2zHJxbpyIv-TxUjHhNrSFE3O-FS65hWk/6ac27343526c48cc9df388f4.json",
+    "markdown_endpoint": "https://serpapi.com/searches/e4HddJmcjAt2zHJxbpyIv-TxUjHhNrSFE3O-FS65hWk/6ac27343526c48cc9df388f4.md",
+    "created_at": "2026-10-04 15:39:47 UTC",
+    "processed_at": "2026-10-04 15:39:47 UTC",
+    "google_jobs_url": "https://www.google.com/search?q=quantum+software+engineer&uule=w+CAIQICIFSW5kaWE&hl=en&gl=in&udm=8",
+    "raw_html_file": "https://serpapi.com/searches/e4HddJmcjAt2zHJxbpyIv-TxUjHhNrSFE3O-FS65hWk/6ac27343526c48cc9df388f4.html",
+    "total_time_taken": 4.54
+  },
+  "search_parameters": {
+    "q": "quantum software engineer",
+    "engine": "google_jobs",
+    "location_requested": "India",
+    "location_used": "India",
+    "google_domain": "google.com",
+    "hl": "en",
+    "gl": "in"
+  },
+  "filters": [
+    {
+      "name": "Remote",
+      "parameters": {
+        "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rqi--IS5qqFykt0uxkCtW_OlM8-YmPPKUY2iL9PXts6ytLguQ6IsI9DZ18nfBarIFrcvzqMhLvy0xYfdLBfjTZVRgWDV0DhoPYPdg9Bv8mVI3fhfLp1KREsu8zExrL6kTH-Z1q8W1VIM42kivau_kjaVODq9NjJ_deBskT9-4V5eHoDwG",
+        "q": "quantum software engineer remote"
+      },
+      "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&gl=in&sxsrf=APpeQnu92Ee1SqmxRXpnZ6y6E0zkyySQYA:1791128391242&q=quantum+software+engineer+remote&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rqi--IS5qqFykt0uxkCtW_OlM8-YmPPKUY2iL9PXts6ytLguQ6IsI9DZ18nfBarIFrcvzqMhLvy0xYfdLBfjTZVRgWDV0DhoPYPdg9Bv8mVI3fhfLp1KREsu8zExrL6kTH-Z1q8W1VIM42kivau_kjaVODq9NjJ_deBskT9-4V5eHoDwG&udm=8&sa=X&ved=2ahUKEwiJ64ac2aCXAxVlFVkFHSEIIu4QxKsJKAB6BAgYEAE&ictx=0",
+      "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=quantum+software+engineer+remote&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rqi--IS5qqFykt0uxkCtW_OlM8-YmPPKUY2iL9PXts6ytLguQ6IsI9DZ18nfBarIFrcvzqMhLvy0xYfdLBfjTZVRgWDV0DhoPYPdg9Bv8mVI3fhfLp1KREsu8zExrL6kTH-Z1q8W1VIM42kivau_kjaVODq9NjJ_deBskT9-4V5eHoDwG"
+    },
+    {
+      "name": "Job type",
+      "options": [
+        {
+          "name": "Full time",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4r2YIQD5S0wiJLM8D3QoSGRY8JcSFxjaYQ7CJjTmWTEsMQQE4zN3KBZJMSm5OJNh0YM1y84ndCxog0floLP5fQwjHRF1ooOKKH-0M7jN3jlzOUAFZyISdi7PBGm3DvOghblOAjqiZ3HCdLU5LGpkYw7ML5VXYjBWLccekgccUN9cr93Xr4X8hIeStLgJ5RLJ7LCybxhRiUqP4YTYSqSH9D7z4jArxTmoaCyW-H5IpvQBHhE1-byzFEVOO1JtBtamG5bv_dOjpaHllqNDy-D1zriUlLXlohLnfDfacmjHAPchz1s5G0zFQaJRivH2XCUjD6_txK9Aedg4KIQWBjBG-fxHaJ-TU",
+            "q": "quantum software engineer full time"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&gl=in&sxsrf=APpeQnu92Ee1SqmxRXpnZ6y6E0zkyySQYA:1791128391242&q=quantum+software+engineer+full+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r2YIQD5S0wiJLM8D3QoSGRY8JcSFxjaYQ7CJjTmWTEsMQQE4zN3KBZJMSm5OJNh0YM1y84ndCxog0floLP5fQwjHRF1ooOKKH-0M7jN3jlzOUAFZyISdi7PBGm3DvOghblOAjqiZ3HCdLU5LGpkYw7ML5VXYjBWLccekgccUN9cr93Xr4X8hIeStLgJ5RLJ7LCybxhRiUqP4YTYSqSH9D7z4jArxTmoaCyW-H5IpvQBHhE1-byzFEVOO1JtBtamG5bv_dOjpaHllqNDy-D1zriUlLXlohLnfDfacmjHAPchz1s5G0zFQaJRivH2XCUjD6_txK9Aedg4KIQWBjBG-fxHaJ-TU&udm=8&sa=X&ved=2ahUKEwiJ64ac2aCXAxVlFVkFHSEIIu4QkbEKegQIGhAC",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=quantum+software+engineer+full+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r2YIQD5S0wiJLM8D3QoSGRY8JcSFxjaYQ7CJjTmWTEsMQQE4zN3KBZJMSm5OJNh0YM1y84ndCxog0floLP5fQwjHRF1ooOKKH-0M7jN3jlzOUAFZyISdi7PBGm3DvOghblOAjqiZ3HCdLU5LGpkYw7ML5VXYjBWLccekgccUN9cr93Xr4X8hIeStLgJ5RLJ7LCybxhRiUqP4YTYSqSH9D7z4jArxTmoaCyW-H5IpvQBHhE1-byzFEVOO1JtBtamG5bv_dOjpaHllqNDy-D1zriUlLXlohLnfDfacmjHAPchz1s5G0zFQaJRivH2XCUjD6_txK9Aedg4KIQWBjBG-fxHaJ-TU"
+        },
+        {
+          "name": "Part time",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4r2YIQD5S0wiJLM8D3QoSGRY8JcSFxjaYQ7CJjTmWTEsMQQE4zN3KBZJMSm5OJNh0YAaDph_Fddoms4SVHuiiSXaDFOuY3PgLqzi0tz_qAUyVudTGK9U75QHi6YJTPkGjSDRl6gxUzH_3C8XqerOy6HHfQHUk2UomiAqe5Rj_4sW7XQxMgVO_EJ6bW_UkeZkODLQg5XEGgeDGtZhInQljgKWVqpWQVMZlP4WplqKLA_DafRJS7GvCGhTkRrHDU5l4vfzkhnLAb6ByxuaT3v50uUOsNzMdZR0dF_qn29vJiV4kHT2-obSU1GQ-5HHGAbZQs_3hhs2uNCfUR87QUGTBrzqWqRug",
+            "q": "quantum software engineer part time"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&gl=in&sxsrf=APpeQnu92Ee1SqmxRXpnZ6y6E0zkyySQYA:1791128391242&q=quantum+software+engineer+part+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r2YIQD5S0wiJLM8D3QoSGRY8JcSFxjaYQ7CJjTmWTEsMQQE4zN3KBZJMSm5OJNh0YAaDph_Fddoms4SVHuiiSXaDFOuY3PgLqzi0tz_qAUyVudTGK9U75QHi6YJTPkGjSDRl6gxUzH_3C8XqerOy6HHfQHUk2UomiAqe5Rj_4sW7XQxMgVO_EJ6bW_UkeZkODLQg5XEGgeDGtZhInQljgKWVqpWQVMZlP4WplqKLA_DafRJS7GvCGhTkRrHDU5l4vfzkhnLAb6ByxuaT3v50uUOsNzMdZR0dF_qn29vJiV4kHT2-obSU1GQ-5HHGAbZQs_3hhs2uNCfUR87QUGTBrzqWqRug&udm=8&sa=X&ved=2ahUKEwiJ64ac2aCXAxVlFVkFHSEIIu4QkbEKegQIGhAD",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=quantum+software+engineer+part+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r2YIQD5S0wiJLM8D3QoSGRY8JcSFxjaYQ7CJjTmWTEsMQQE4zN3KBZJMSm5OJNh0YAaDph_Fddoms4SVHuiiSXaDFOuY3PgLqzi0tz_qAUyVudTGK9U75QHi6YJTPkGjSDRl6gxUzH_3C8XqerOy6HHfQHUk2UomiAqe5Rj_4sW7XQxMgVO_EJ6bW_UkeZkODLQg5XEGgeDGtZhInQljgKWVqpWQVMZlP4WplqKLA_DafRJS7GvCGhTkRrHDU5l4vfzkhnLAb6ByxuaT3v50uUOsNzMdZR0dF_qn29vJiV4kHT2-obSU1GQ-5HHGAbZQs_3hhs2uNCfUR87QUGTBrzqWqRug"
+        },
+        {
+          "name": "Contract",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4r_fsZOgCf8TVkDLsBPFXvEokKZLeKqCZjTEQVcPcG5r_KHeb3qbsMZWE8EMiQMnEL3qhotEbirJt7Azmor2rw2JzE6ic0V2fNZlR75wPANETuyW8I2JVIHYIAs8y6A-oLMOsxMkO9dh7Y_v9cBDNhNxwg3LlTp4SNVRkHAG1u85vtuar2Psxt5i4-vAOEX_MOshORkdD2icjODwbnSmHo1qhifUzsucfyfpfRi3BlVIb3IgunHWLcrGbdjNE8kY6T3IGeHCG8bqS0IuUD8geZ7SAMGJvtTzr8VmRx3g33-w40_9KLuBMtcWMryIpeevIlY7xl5Q",
+            "q": "quantum software engineer contract"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&gl=in&sxsrf=APpeQnu92Ee1SqmxRXpnZ6y6E0zkyySQYA:1791128391242&q=quantum+software+engineer+contract&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r_fsZOgCf8TVkDLsBPFXvEokKZLeKqCZjTEQVcPcG5r_KHeb3qbsMZWE8EMiQMnEL3qhotEbirJt7Azmor2rw2JzE6ic0V2fNZlR75wPANETuyW8I2JVIHYIAs8y6A-oLMOsxMkO9dh7Y_v9cBDNhNxwg3LlTp4SNVRkHAG1u85vtuar2Psxt5i4-vAOEX_MOshORkdD2icjODwbnSmHo1qhifUzsucfyfpfRi3BlVIb3IgunHWLcrGbdjNE8kY6T3IGeHCG8bqS0IuUD8geZ7SAMGJvtTzr8VmRx3g33-w40_9KLuBMtcWMryIpeevIlY7xl5Q&udm=8&sa=X&ved=2ahUKEwiJ64ac2aCXAxVlFVkFHSEIIu4QkbEKegQIGhAE",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=quantum+software+engineer+contract&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r_fsZOgCf8TVkDLsBPFXvEokKZLeKqCZjTEQVcPcG5r_KHeb3qbsMZWE8EMiQMnEL3qhotEbirJt7Azmor2rw2JzE6ic0V2fNZlR75wPANETuyW8I2JVIHYIAs8y6A-oLMOsxMkO9dh7Y_v9cBDNhNxwg3LlTp4SNVRkHAG1u85vtuar2Psxt5i4-vAOEX_MOshORkdD2icjODwbnSmHo1qhifUzsucfyfpfRi3BlVIb3IgunHWLcrGbdjNE8kY6T3IGeHCG8bqS0IuUD8geZ7SAMGJvtTzr8VmRx3g33-w40_9KLuBMtcWMryIpeevIlY7xl5Q"
+        },
+        {
+          "name": "Internship",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rAcot_iWY5OTyFR6kR7h3sc5RVhTCJ7YV6qPS949HwRmJZgf_ggKnVHFL9gYWkpz2gcbjjNjtAa4TOP25Ck_EbWc6EZghtJXWOpkxDWqwH8Obp8OPI_yAvswy_HnMqCGY3K8XTyClpNTHERa6rUkLKq7RSrIA2YdjhTZn8YVnWYPBGFI_6BcxWrbFZRVyvl6jCv4wicxfgCmG3bmPkudubU2FBBPovUSwuZY7-ewQR35ijOeBdlOL9AAnwE5q7jnBE4Z46MdTs48outPSMkUutwFvCsUbJ9r21UnJH4kdVTwgM2cXlFS65Nu7VqOxntA767CgHA",
+            "q": "quantum software engineer internship"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&gl=in&sxsrf=APpeQnu92Ee1SqmxRXpnZ6y6E0zkyySQYA:1791128391242&q=quantum+software+engineer+internship&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rAcot_iWY5OTyFR6kR7h3sc5RVhTCJ7YV6qPS949HwRmJZgf_ggKnVHFL9gYWkpz2gcbjjNjtAa4TOP25Ck_EbWc6EZghtJXWOpkxDWqwH8Obp8OPI_yAvswy_HnMqCGY3K8XTyClpNTHERa6rUkLKq7RSrIA2YdjhTZn8YVnWYPBGFI_6BcxWrbFZRVyvl6jCv4wicxfgCmG3bmPkudubU2FBBPovUSwuZY7-ewQR35ijOeBdlOL9AAnwE5q7jnBE4Z46MdTs48outPSMkUutwFvCsUbJ9r21UnJH4kdVTwgM2cXlFS65Nu7VqOxntA767CgHA&udm=8&sa=X&ved=2ahUKEwiJ64ac2aCXAxVlFVkFHSEIIu4QkbEKegQIGhAF",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=quantum+software+engineer+internship&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rAcot_iWY5OTyFR6kR7h3sc5RVhTCJ7YV6qPS949HwRmJZgf_ggKnVHFL9gYWkpz2gcbjjNjtAa4TOP25Ck_EbWc6EZghtJXWOpkxDWqwH8Obp8OPI_yAvswy_HnMqCGY3K8XTyClpNTHERa6rUkLKq7RSrIA2YdjhTZn8YVnWYPBGFI_6BcxWrbFZRVyvl6jCv4wicxfgCmG3bmPkudubU2FBBPovUSwuZY7-ewQR35ijOeBdlOL9AAnwE5q7jnBE4Z46MdTs48outPSMkUutwFvCsUbJ9r21UnJH4kdVTwgM2cXlFS65Nu7VqOxntA767CgHA"
+        }
+      ]
+    },
+    {
+      "name": "Job type",
+      "options": [
+        {
+          "name": "Full time",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4r2YIQD5S0wiJLM8D3QoSGRY8JcSFxjaYQ7CJjTmWTEsMQQE4zN3KBZJMSm5OJNh0YM1y84ndCxog0floLP5fQwjHRF1ooOKKH-0M7jN3jlzOUAFZyISdi7PBGm3DvOghblOAjqiZ3HCdLU5LGpkYw7ML5VXYjBWLccekgccUN9cr93Xr4X8hIeStLgJ5RLJ7LCybxhRiUqP4YTYSqSH9D7z4jArxTmoaCyW-H5IpvQBHhE1-byzFEVOO1JtBtamG5bv_dOjpaHllqNDy-D1zriUlLXlohLnfDfacmjHAPchz1s5G0zFQaJRivH2XCUjD6_txK9Aedg4KIQWBjBG-fxHaJ-TU",
+            "q": "quantum software engineer full time"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&gl=in&sxsrf=APpeQnu92Ee1SqmxRXpnZ6y6E0zkyySQYA:1791128391242&q=quantum+software+engineer+full+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r2YIQD5S0wiJLM8D3QoSGRY8JcSFxjaYQ7CJjTmWTEsMQQE4zN3KBZJMSm5OJNh0YM1y84ndCxog0floLP5fQwjHRF1ooOKKH-0M7jN3jlzOUAFZyISdi7PBGm3DvOghblOAjqiZ3HCdLU5LGpkYw7ML5VXYjBWLccekgccUN9cr93Xr4X8hIeStLgJ5RLJ7LCybxhRiUqP4YTYSqSH9D7z4jArxTmoaCyW-H5IpvQBHhE1-byzFEVOO1JtBtamG5bv_dOjpaHllqNDy-D1zriUlLXlohLnfDfacmjHAPchz1s5G0zFQaJRivH2XCUjD6_txK9Aedg4KIQWBjBG-fxHaJ-TU&udm=8&sa=X&ved=2ahUKEwiJ64ac2aCXAxVlFVkFHSEIIu4QkbEKegQIGhAC",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=quantum+software+engineer+full+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r2YIQD5S0wiJLM8D3QoSGRY8JcSFxjaYQ7CJjTmWTEsMQQE4zN3KBZJMSm5OJNh0YM1y84ndCxog0floLP5fQwjHRF1ooOKKH-0M7jN3jlzOUAFZyISdi7PBGm3DvOghblOAjqiZ3HCdLU5LGpkYw7ML5VXYjBWLccekgccUN9cr93Xr4X8hIeStLgJ5RLJ7LCybxhRiUqP4YTYSqSH9D7z4jArxTmoaCyW-H5IpvQBHhE1-byzFEVOO1JtBtamG5bv_dOjpaHllqNDy-D1zriUlLXlohLnfDfacmjHAPchz1s5G0zFQaJRivH2XCUjD6_txK9Aedg4KIQWBjBG-fxHaJ-TU"
+        },
+        {
+          "name": "Part time",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4r2YIQD5S0wiJLM8D3QoSGRY8JcSFxjaYQ7CJjTmWTEsMQQE4zN3KBZJMSm5OJNh0YAaDph_Fddoms4SVHuiiSXaDFOuY3PgLqzi0tz_qAUyVudTGK9U75QHi6YJTPkGjSDRl6gxUzH_3C8XqerOy6HHfQHUk2UomiAqe5Rj_4sW7XQxMgVO_EJ6bW_UkeZkODLQg5XEGgeDGtZhInQljgKWVqpWQVMZlP4WplqKLA_DafRJS7GvCGhTkRrHDU5l4vfzkhnLAb6ByxuaT3v50uUOsNzMdZR0dF_qn29vJiV4kHT2-obSU1GQ-5HHGAbZQs_3hhs2uNCfUR87QUGTBrzqWqRug",
+            "q": "quantum software engineer part time"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&gl=in&sxsrf=APpeQnu92Ee1SqmxRXpnZ6y6E0zkyySQYA:1791128391242&q=quantum+software+engineer+part+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r2YIQD5S0wiJLM8D3QoSGRY8JcSFxjaYQ7CJjTmWTEsMQQE4zN3KBZJMSm5OJNh0YAaDph_Fddoms4SVHuiiSXaDFOuY3PgLqzi0tz_qAUyVudTGK9U75QHi6YJTPkGjSDRl6gxUzH_3C8XqerOy6HHfQHUk2UomiAqe5Rj_4sW7XQxMgVO_EJ6bW_UkeZkODLQg5XEGgeDGtZhInQljgKWVqpWQVMZlP4WplqKLA_DafRJS7GvCGhTkRrHDU5l4vfzkhnLAb6ByxuaT3v50uUOsNzMdZR0dF_qn29vJiV4kHT2-obSU1GQ-5HHGAbZQs_3hhs2uNCfUR87QUGTBrzqWqRug&udm=8&sa=X&ved=2ahUKEwiJ64ac2aCXAxVlFVkFHSEIIu4QkbEKegQIGhAD",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=quantum+software+engineer+part+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r2YIQD5S0wiJLM8D3QoSGRY8JcSFxjaYQ7CJjTmWTEsMQQE4zN3KBZJMSm5OJNh0YAaDph_Fddoms4SVHuiiSXaDFOuY3PgLqzi0tz_qAUyVudTGK9U75QHi6YJTPkGjSDRl6gxUzH_3C8XqerOy6HHfQHUk2UomiAqe5Rj_4sW7XQxMgVO_EJ6bW_UkeZkODLQg5XEGgeDGtZhInQljgKWVqpWQVMZlP4WplqKLA_DafRJS7GvCGhTkRrHDU5l4vfzkhnLAb6ByxuaT3v50uUOsNzMdZR0dF_qn29vJiV4kHT2-obSU1GQ-5HHGAbZQs_3hhs2uNCfUR87QUGTBrzqWqRug"
+        },
+        {
+          "name": "Contract",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4r_fsZOgCf8TVkDLsBPFXvEokKZLeKqCZjTEQVcPcG5r_KHeb3qbsMZWE8EMiQMnEL3qhotEbirJt7Azmor2rw2JzE6ic0V2fNZlR75wPANETuyW8I2JVIHYIAs8y6A-oLMOsxMkO9dh7Y_v9cBDNhNxwg3LlTp4SNVRkHAG1u85vtuar2Psxt5i4-vAOEX_MOshORkdD2icjODwbnSmHo1qhifUzsucfyfpfRi3BlVIb3IgunHWLcrGbdjNE8kY6T3IGeHCG8bqS0IuUD8geZ7SAMGJvtTzr8VmRx3g33-w40_9KLuBMtcWMryIpeevIlY7xl5Q",
+            "q": "quantum software engineer contract"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&gl=in&sxsrf=APpeQnu92Ee1SqmxRXpnZ6y6E0zkyySQYA:1791128391242&q=quantum+software+engineer+contract&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r_fsZOgCf8TVkDLsBPFXvEokKZLeKqCZjTEQVcPcG5r_KHeb3qbsMZWE8EMiQMnEL3qhotEbirJt7Azmor2rw2JzE6ic0V2fNZlR75wPANETuyW8I2JVIHYIAs8y6A-oLMOsxMkO9dh7Y_v9cBDNhNxwg3LlTp4SNVRkHAG1u85vtuar2Psxt5i4-vAOEX_MOshORkdD2icjODwbnSmHo1qhifUzsucfyfpfRi3BlVIb3IgunHWLcrGbdjNE8kY6T3IGeHCG8bqS0IuUD8geZ7SAMGJvtTzr8VmRx3g33-w40_9KLuBMtcWMryIpeevIlY7xl5Q&udm=8&sa=X&ved=2ahUKEwiJ64ac2aCXAxVlFVkFHSEIIu4QkbEKegQIGhAE",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=quantum+software+engineer+contract&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r_fsZOgCf8TVkDLsBPFXvEokKZLeKqCZjTEQVcPcG5r_KHeb3qbsMZWE8EMiQMnEL3qhotEbirJt7Azmor2rw2JzE6ic0V2fNZlR75wPANETuyW8I2JVIHYIAs8y6A-oLMOsxMkO9dh7Y_v9cBDNhNxwg3LlTp4SNVRkHAG1u85vtuar2Psxt5i4-vAOEX_MOshORkdD2icjODwbnSmHo1qhifUzsucfyfpfRi3BlVIb3IgunHWLcrGbdjNE8kY6T3IGeHCG8bqS0IuUD8geZ7SAMGJvtTzr8VmRx3g33-w40_9KLuBMtcWMryIpeevIlY7xl5Q"
+        },
+        {
+          "name": "Internship",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rAcot_iWY5OTyFR6kR7h3sc5RVhTCJ7YV6qPS949HwRmJZgf_ggKnVHFL9gYWkpz2gcbjjNjtAa4TOP25Ck_EbWc6EZghtJXWOpkxDWqwH8Obp8OPI_yAvswy_HnMqCGY3K8XTyClpNTHERa6rUkLKq7RSrIA2YdjhTZn8YVnWYPBGFI_6BcxWrbFZRVyvl6jCv4wicxfgCmG3bmPkudubU2FBBPovUSwuZY7-ewQR35ijOeBdlOL9AAnwE5q7jnBE4Z46MdTs48outPSMkUutwFvCsUbJ9r21UnJH4kdVTwgM2cXlFS65Nu7VqOxntA767CgHA",
+            "q": "quantum software engineer internship"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&gl=in&sxsrf=APpeQnu92Ee1SqmxRXpnZ6y6E0zkyySQYA:1791128391242&q=quantum+software+engineer+internship&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rAcot_iWY5OTyFR6kR7h3sc5RVhTCJ7YV6qPS949HwRmJZgf_ggKnVHFL9gYWkpz2gcbjjNjtAa4TOP25Ck_EbWc6EZghtJXWOpkxDWqwH8Obp8OPI_yAvswy_HnMqCGY3K8XTyClpNTHERa6rUkLKq7RSrIA2YdjhTZn8YVnWYPBGFI_6BcxWrbFZRVyvl6jCv4wicxfgCmG3bmPkudubU2FBBPovUSwuZY7-ewQR35ijOeBdlOL9AAnwE5q7jnBE4Z46MdTs48outPSMkUutwFvCsUbJ9r21UnJH4kdVTwgM2cXlFS65Nu7VqOxntA767CgHA&udm=8&sa=X&ved=2ahUKEwiJ64ac2aCXAxVlFVkFHSEIIu4QkbEKegQIGhAF",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=quantum+software+engineer+internship&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rAcot_iWY5OTyFR6kR7h3sc5RVhTCJ7YV6qPS949HwRmJZgf_ggKnVHFL9gYWkpz2gcbjjNjtAa4TOP25Ck_EbWc6EZghtJXWOpkxDWqwH8Obp8OPI_yAvswy_HnMqCGY3K8XTyClpNTHERa6rUkLKq7RSrIA2YdjhTZn8YVnWYPBGFI_6BcxWrbFZRVyvl6jCv4wicxfgCmG3bmPkudubU2FBBPovUSwuZY7-ewQR35ijOeBdlOL9AAnwE5q7jnBE4Z46MdTs48outPSMkUutwFvCsUbJ9r21UnJH4kdVTwgM2cXlFS65Nu7VqOxntA767CgHA"
+        }
+      ]
+    },
+    {
+      "name": "Date posted",
+      "options": [
+        {
+          "name": "Yesterday",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rbEuBYaSZikTI9rl4Hr1eirGp40taeGLDMyZ5EDU_ypdzIv0HzMudl2dIOQ2tzt-CYpUnP2L9hPB_fKK2y2XtVevmVPoX9VwwQsZ6_FrzWbOjZfVN1pPeI5Xc6qJW7M2t6zT1Zu-byahgsElSk10FTcV41BwMAQNniKa7H0c-GBkXd_FKyXYj2QWPhmEpkLOPkl_BgZOhgs26t-_hJorSqlkpyQD2sdT1SGqBlhqqVHWV2CjK1lsJQu2OBKFBZ2g10X7vfasYw9QC-orcafmQAYMedQFB9YWVci29t-h7uSwP2m0DYXhhkvgTCsZ_2mmUOAfGM23ZubXRQ3miwKkRhDEs5WA",
+            "q": "quantum software engineer since yesterday"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&gl=in&sxsrf=APpeQnu92Ee1SqmxRXpnZ6y6E0zkyySQYA:1791128391242&q=quantum+software+engineer+since+yesterday&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rbEuBYaSZikTI9rl4Hr1eirGp40taeGLDMyZ5EDU_ypdzIv0HzMudl2dIOQ2tzt-CYpUnP2L9hPB_fKK2y2XtVevmVPoX9VwwQsZ6_FrzWbOjZfVN1pPeI5Xc6qJW7M2t6zT1Zu-byahgsElSk10FTcV41BwMAQNniKa7H0c-GBkXd_FKyXYj2QWPhmEpkLOPkl_BgZOhgs26t-_hJorSqlkpyQD2sdT1SGqBlhqqVHWV2CjK1lsJQu2OBKFBZ2g10X7vfasYw9QC-orcafmQAYMedQFB9YWVci29t-h7uSwP2m0DYXhhkvgTCsZ_2mmUOAfGM23ZubXRQ3miwKkRhDEs5WA&udm=8&sa=X&ved=2ahUKEwiJ64ac2aCXAxVlFVkFHSEIIu4QkbEKegQIGxAC",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=quantum+software+engineer+since+yesterday&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rbEuBYaSZikTI9rl4Hr1eirGp40taeGLDMyZ5EDU_ypdzIv0HzMudl2dIOQ2tzt-CYpUnP2L9hPB_fKK2y2XtVevmVPoX9VwwQsZ6_FrzWbOjZfVN1pPeI5Xc6qJW7M2t6zT1Zu-byahgsElSk10FTcV41BwMAQNniKa7H0c-GBkXd_FKyXYj2QWPhmEpkLOPkl_BgZOhgs26t-_hJorSqlkpyQD2sdT1SGqBlhqqVHWV2CjK1lsJQu2OBKFBZ2g10X7vfasYw9QC-orcafmQAYMedQFB9YWVci29t-h7uSwP2m0DYXhhkvgTCsZ_2mmUOAfGM23ZubXRQ3miwKkRhDEs5WA"
+        },
+        {
+          "name": "Last 3 days",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4r3M11scUDrwafc40twrp9CbGT-v7lbxyS6G4-48mRDCAVGeD22rQ8VFh5QeBeYSksBCAcAcGLWYfy10a-8GF6693R0czKIZ9JMziG6h0Pn9W2w-J52YQ9-bUe-TBQDJi4eoUIJu_qlRsuTKchjmWAtgpXRKZCJGIeUxvoTntdBJR92bvWQT_UX9LTTf1dmpPwjODu6mWo31bdodt4xmOeU7WRDyiUfqtjtPz1C4WbGq5_x8ALo5xuZt_TX5R3UBHtqaoDphkLuynsNWeA-cMaeohiFE4TOIOq2rueSft3rPWcvsQQ_URlimreb-qljpCALA9l7_a7IpIYjzJCIAt9uqzXPLaUAeF8l_eoC5eiEb6xO1rN",
+            "q": "quantum software engineer in the last 3 days"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&gl=in&sxsrf=APpeQnu92Ee1SqmxRXpnZ6y6E0zkyySQYA:1791128391242&q=quantum+software+engineer+in+the+last+3+days&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r3M11scUDrwafc40twrp9CbGT-v7lbxyS6G4-48mRDCAVGeD22rQ8VFh5QeBeYSksBCAcAcGLWYfy10a-8GF6693R0czKIZ9JMziG6h0Pn9W2w-J52YQ9-bUe-TBQDJi4eoUIJu_qlRsuTKchjmWAtgpXRKZCJGIeUxvoTntdBJR92bvWQT_UX9LTTf1dmpPwjODu6mWo31bdodt4xmOeU7WRDyiUfqtjtPz1C4WbGq5_x8ALo5xuZt_TX5R3UBHtqaoDphkLuynsNWeA-cMaeohiFE4TOIOq2rueSft3rPWcvsQQ_URlimreb-qljpCALA9l7_a7IpIYjzJCIAt9uqzXPLaUAeF8l_eoC5eiEb6xO1rN&udm=8&sa=X&ved=2ahUKEwiJ64ac2aCXAxVlFVkFHSEIIu4QkbEKegQIGxAD",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=quantum+software+engineer+in+the+last+3+days&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r3M11scUDrwafc40twrp9CbGT-v7lbxyS6G4-48mRDCAVGeD22rQ8VFh5QeBeYSksBCAcAcGLWYfy10a-8GF6693R0czKIZ9JMziG6h0Pn9W2w-J52YQ9-bUe-TBQDJi4eoUIJu_qlRsuTKchjmWAtgpXRKZCJGIeUxvoTntdBJR92bvWQT_UX9LTTf1dmpPwjODu6mWo31bdodt4xmOeU7WRDyiUfqtjtPz1C4WbGq5_x8ALo5xuZt_TX5R3UBHtqaoDphkLuynsNWeA-cMaeohiFE4TOIOq2rueSft3rPWcvsQQ_URlimreb-qljpCALA9l7_a7IpIYjzJCIAt9uqzXPLaUAeF8l_eoC5eiEb6xO1rN"
+        },
+        {
+          "name": "Last week",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rssXSLnlwh_Uqo_dly6Sqr8DeBt2MvB--m6NoQIpaPlR0ffvHEJYuFW5-7v8mAfsN9YjEES-gHZTzqA2V8dRpVrZOw-zkUAbDUk8HbcviZNNlsx3ZbY2aUMQ3KP41cFB78hvZuE5RWXjBEmSh5cfcIlOfs8fKiZEVcqoDOTEWB-oe9Nyq6Yj_O7W8CdS3X5dBBkPZLkcLA-1eHL7QEBQs_W3o4xCMb6j3bAY2QBGKxaoCOEHF9-u0fqTIYh1M_1O3pTupVjP3sQJpHvILAIpfeg7afC-R8pulo6jpSzxFl7dLpUOZEt0qrBWmScOTFlfTDaulEcpJeCBX2w1WqC-tUQCgmygZpYwykSxkidqdMke5hjUA",
+            "q": "quantum software engineer in the last week"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&gl=in&sxsrf=APpeQnu92Ee1SqmxRXpnZ6y6E0zkyySQYA:1791128391242&q=quantum+software+engineer+in+the+last+week&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rssXSLnlwh_Uqo_dly6Sqr8DeBt2MvB--m6NoQIpaPlR0ffvHEJYuFW5-7v8mAfsN9YjEES-gHZTzqA2V8dRpVrZOw-zkUAbDUk8HbcviZNNlsx3ZbY2aUMQ3KP41cFB78hvZuE5RWXjBEmSh5cfcIlOfs8fKiZEVcqoDOTEWB-oe9Nyq6Yj_O7W8CdS3X5dBBkPZLkcLA-1eHL7QEBQs_W3o4xCMb6j3bAY2QBGKxaoCOEHF9-u0fqTIYh1M_1O3pTupVjP3sQJpHvILAIpfeg7afC-R8pulo6jpSzxFl7dLpUOZEt0qrBWmScOTFlfTDaulEcpJeCBX2w1WqC-tUQCgmygZpYwykSxkidqdMke5hjUA&udm=8&sa=X&ved=2ahUKEwiJ64ac2aCXAxVlFVkFHSEIIu4QkbEKegQIGxAE",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=quantum+software+engineer+in+the+last+week&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rssXSLnlwh_Uqo_dly6Sqr8DeBt2MvB--m6NoQIpaPlR0ffvHEJYuFW5-7v8mAfsN9YjEES-gHZTzqA2V8dRpVrZOw-zkUAbDUk8HbcviZNNlsx3ZbY2aUMQ3KP41cFB78hvZuE5RWXjBEmSh5cfcIlOfs8fKiZEVcqoDOTEWB-oe9Nyq6Yj_O7W8CdS3X5dBBkPZLkcLA-1eHL7QEBQs_W3o4xCMb6j3bAY2QBGKxaoCOEHF9-u0fqTIYh1M_1O3pTupVjP3sQJpHvILAIpfeg7afC-R8pulo6jpSzxFl7dLpUOZEt0qrBWmScOTFlfTDaulEcpJeCBX2w1WqC-tUQCgmygZpYwykSxkidqdMke5hjUA"
+        },
+        {
+          "name": "Last month",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rhwv6lC8BOkQKjt06vuXHMQKUBxsCpwqiUNh3d43QJYkxkpo2pIr-X785vD-pOK6486CH1-_jNMx3LAuJ0OJEL8y9GzayCcBlAvrB314b2gwXL1r6n0gpisr1AVpuoz3UyS1Z0QMQLPNEyUJA_rn_zGwLEsb3F8dktEJXOUCDkEL_DUcYKsettE9FIpOMGANSgnri5GZCRAYP5GqrRj0EFJGhZ7vF9c7t-tUjBb3GknCk_m3ddqNyRrueqJ6zrGGw7f_ORQ7DuChQ49Wc1OOvDswENHPbBezxSSvresE6bLxk_fM79HPF2dkQfXojcSC5F2qHl3_A09T5MwaWBETTmc05jMxLByKnx53TdMe7QEDTwvfM",
+            "q": "quantum software engineer in the last month"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&gl=in&sxsrf=APpeQnu92Ee1SqmxRXpnZ6y6E0zkyySQYA:1791128391242&q=quantum+software+engineer+in+the+last+month&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rhwv6lC8BOkQKjt06vuXHMQKUBxsCpwqiUNh3d43QJYkxkpo2pIr-X785vD-pOK6486CH1-_jNMx3LAuJ0OJEL8y9GzayCcBlAvrB314b2gwXL1r6n0gpisr1AVpuoz3UyS1Z0QMQLPNEyUJA_rn_zGwLEsb3F8dktEJXOUCDkEL_DUcYKsettE9FIpOMGANSgnri5GZCRAYP5GqrRj0EFJGhZ7vF9c7t-tUjBb3GknCk_m3ddqNyRrueqJ6zrGGw7f_ORQ7DuChQ49Wc1OOvDswENHPbBezxSSvresE6bLxk_fM79HPF2dkQfXojcSC5F2qHl3_A09T5MwaWBETTmc05jMxLByKnx53TdMe7QEDTwvfM&udm=8&sa=X&ved=2ahUKEwiJ64ac2aCXAxVlFVkFHSEIIu4QkbEKegQIGxAF",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=quantum+software+engineer+in+the+last+month&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rhwv6lC8BOkQKjt06vuXHMQKUBxsCpwqiUNh3d43QJYkxkpo2pIr-X785vD-pOK6486CH1-_jNMx3LAuJ0OJEL8y9GzayCcBlAvrB314b2gwXL1r6n0gpisr1AVpuoz3UyS1Z0QMQLPNEyUJA_rn_zGwLEsb3F8dktEJXOUCDkEL_DUcYKsettE9FIpOMGANSgnri5GZCRAYP5GqrRj0EFJGhZ7vF9c7t-tUjBb3GknCk_m3ddqNyRrueqJ6zrGGw7f_ORQ7DuChQ49Wc1OOvDswENHPbBezxSSvresE6bLxk_fM79HPF2dkQfXojcSC5F2qHl3_A09T5MwaWBETTmc05jMxLByKnx53TdMe7QEDTwvfM"
+        }
+      ]
+    },
+    {
+      "name": "Date posted",
+      "options": [
+        {
+          "name": "Yesterday",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rbEuBYaSZikTI9rl4Hr1eirGp40taeGLDMyZ5EDU_ypdzIv0HzMudl2dIOQ2tzt-CYpUnP2L9hPB_fKK2y2XtVevmVPoX9VwwQsZ6_FrzWbOjZfVN1pPeI5Xc6qJW7M2t6zT1Zu-byahgsElSk10FTcV41BwMAQNniKa7H0c-GBkXd_FKyXYj2QWPhmEpkLOPkl_BgZOhgs26t-_hJorSqlkpyQD2sdT1SGqBlhqqVHWV2CjK1lsJQu2OBKFBZ2g10X7vfasYw9QC-orcafmQAYMedQFB9YWVci29t-h7uSwP2m0DYXhhkvgTCsZ_2mmUOAfGM23ZubXRQ3miwKkRhDEs5WA",
+            "q": "quantum software engineer since yesterday"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&gl=in&sxsrf=APpeQnu92Ee1SqmxRXpnZ6y6E0zkyySQYA:1791128391242&q=quantum+software+engineer+since+yesterday&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rbEuBYaSZikTI9rl4Hr1eirGp40taeGLDMyZ5EDU_ypdzIv0HzMudl2dIOQ2tzt-CYpUnP2L9hPB_fKK2y2XtVevmVPoX9VwwQsZ6_FrzWbOjZfVN1pPeI5Xc6qJW7M2t6zT1Zu-byahgsElSk10FTcV41BwMAQNniKa7H0c-GBkXd_FKyXYj2QWPhmEpkLOPkl_BgZOhgs26t-_hJorSqlkpyQD2sdT1SGqBlhqqVHWV2CjK1lsJQu2OBKFBZ2g10X7vfasYw9QC-orcafmQAYMedQFB9YWVci29t-h7uSwP2m0DYXhhkvgTCsZ_2mmUOAfGM23ZubXRQ3miwKkRhDEs5WA&udm=8&sa=X&ved=2ahUKEwiJ64ac2aCXAxVlFVkFHSEIIu4QkbEKegQIGxAC",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=quantum+software+engineer+since+yesterday&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rbEuBYaSZikTI9rl4Hr1eirGp40taeGLDMyZ5EDU_ypdzIv0HzMudl2dIOQ2tzt-CYpUnP2L9hPB_fKK2y2XtVevmVPoX9VwwQsZ6_FrzWbOjZfVN1pPeI5Xc6qJW7M2t6zT1Zu-byahgsElSk10FTcV41BwMAQNniKa7H0c-GBkXd_FKyXYj2QWPhmEpkLOPkl_BgZOhgs26t-_hJorSqlkpyQD2sdT1SGqBlhqqVHWV2CjK1lsJQu2OBKFBZ2g10X7vfasYw9QC-orcafmQAYMedQFB9YWVci29t-h7uSwP2m0DYXhhkvgTCsZ_2mmUOAfGM23ZubXRQ3miwKkRhDEs5WA"
+        },
+        {
+          "name": "Last 3 days",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4r3M11scUDrwafc40twrp9CbGT-v7lbxyS6G4-48mRDCAVGeD22rQ8VFh5QeBeYSksBCAcAcGLWYfy10a-8GF6693R0czKIZ9JMziG6h0Pn9W2w-J52YQ9-bUe-TBQDJi4eoUIJu_qlRsuTKchjmWAtgpXRKZCJGIeUxvoTntdBJR92bvWQT_UX9LTTf1dmpPwjODu6mWo31bdodt4xmOeU7WRDyiUfqtjtPz1C4WbGq5_x8ALo5xuZt_TX5R3UBHtqaoDphkLuynsNWeA-cMaeohiFE4TOIOq2rueSft3rPWcvsQQ_URlimreb-qljpCALA9l7_a7IpIYjzJCIAt9uqzXPLaUAeF8l_eoC5eiEb6xO1rN",
+            "q": "quantum software engineer in the last 3 days"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&gl=in&sxsrf=APpeQnu92Ee1SqmxRXpnZ6y6E0zkyySQYA:1791128391242&q=quantum+software+engineer+in+the+last+3+days&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r3M11scUDrwafc40twrp9CbGT-v7lbxyS6G4-48mRDCAVGeD22rQ8VFh5QeBeYSksBCAcAcGLWYfy10a-8GF6693R0czKIZ9JMziG6h0Pn9W2w-J52YQ9-bUe-TBQDJi4eoUIJu_qlRsuTKchjmWAtgpXRKZCJGIeUxvoTntdBJR92bvWQT_UX9LTTf1dmpPwjODu6mWo31bdodt4xmOeU7WRDyiUfqtjtPz1C4WbGq5_x8ALo5xuZt_TX5R3UBHtqaoDphkLuynsNWeA-cMaeohiFE4TOIOq2rueSft3rPWcvsQQ_URlimreb-qljpCALA9l7_a7IpIYjzJCIAt9uqzXPLaUAeF8l_eoC5eiEb6xO1rN&udm=8&sa=X&ved=2ahUKEwiJ64ac2aCXAxVlFVkFHSEIIu4QkbEKegQIGxAD",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=quantum+software+engineer+in+the+last+3+days&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r3M11scUDrwafc40twrp9CbGT-v7lbxyS6G4-48mRDCAVGeD22rQ8VFh5QeBeYSksBCAcAcGLWYfy10a-8GF6693R0czKIZ9JMziG6h0Pn9W2w-J52YQ9-bUe-TBQDJi4eoUIJu_qlRsuTKchjmWAtgpXRKZCJGIeUxvoTntdBJR92bvWQT_UX9LTTf1dmpPwjODu6mWo31bdodt4xmOeU7WRDyiUfqtjtPz1C4WbGq5_x8ALo5xuZt_TX5R3UBHtqaoDphkLuynsNWeA-cMaeohiFE4TOIOq2rueSft3rPWcvsQQ_URlimreb-qljpCALA9l7_a7IpIYjzJCIAt9uqzXPLaUAeF8l_eoC5eiEb6xO1rN"
+        },
+        {
+          "name": "Last week",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rssXSLnlwh_Uqo_dly6Sqr8DeBt2MvB--m6NoQIpaPlR0ffvHEJYuFW5-7v8mAfsN9YjEES-gHZTzqA2V8dRpVrZOw-zkUAbDUk8HbcviZNNlsx3ZbY2aUMQ3KP41cFB78hvZuE5RWXjBEmSh5cfcIlOfs8fKiZEVcqoDOTEWB-oe9Nyq6Yj_O7W8CdS3X5dBBkPZLkcLA-1eHL7QEBQs_W3o4xCMb6j3bAY2QBGKxaoCOEHF9-u0fqTIYh1M_1O3pTupVjP3sQJpHvILAIpfeg7afC-R8pulo6jpSzxFl7dLpUOZEt0qrBWmScOTFlfTDaulEcpJeCBX2w1WqC-tUQCgmygZpYwykSxkidqdMke5hjUA",
+            "q": "quantum software engineer in the last week"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&gl=in&sxsrf=APpeQnu92Ee1SqmxRXpnZ6y6E0zkyySQYA:1791128391242&q=quantum+software+engineer+in+the+last+week&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rssXSLnlwh_Uqo_dly6Sqr8DeBt2MvB--m6NoQIpaPlR0ffvHEJYuFW5-7v8mAfsN9YjEES-gHZTzqA2V8dRpVrZOw-zkUAbDUk8HbcviZNNlsx3ZbY2aUMQ3KP41cFB78hvZuE5RWXjBEmSh5cfcIlOfs8fKiZEVcqoDOTEWB-oe9Nyq6Yj_O7W8CdS3X5dBBkPZLkcLA-1eHL7QEBQs_W3o4xCMb6j3bAY2QBGKxaoCOEHF9-u0fqTIYh1M_1O3pTupVjP3sQJpHvILAIpfeg7afC-R8pulo6jpSzxFl7dLpUOZEt0qrBWmScOTFlfTDaulEcpJeCBX2w1WqC-tUQCgmygZpYwykSxkidqdMke5hjUA&udm=8&sa=X&ved=2ahUKEwiJ64ac2aCXAxVlFVkFHSEIIu4QkbEKegQIGxAE",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=quantum+software+engineer+in+the+last+week&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rssXSLnlwh_Uqo_dly6Sqr8DeBt2MvB--m6NoQIpaPlR0ffvHEJYuFW5-7v8mAfsN9YjEES-gHZTzqA2V8dRpVrZOw-zkUAbDUk8HbcviZNNlsx3ZbY2aUMQ3KP41cFB78hvZuE5RWXjBEmSh5cfcIlOfs8fKiZEVcqoDOTEWB-oe9Nyq6Yj_O7W8CdS3X5dBBkPZLkcLA-1eHL7QEBQs_W3o4xCMb6j3bAY2QBGKxaoCOEHF9-u0fqTIYh1M_1O3pTupVjP3sQJpHvILAIpfeg7afC-R8pulo6jpSzxFl7dLpUOZEt0qrBWmScOTFlfTDaulEcpJeCBX2w1WqC-tUQCgmygZpYwykSxkidqdMke5hjUA"
+        },
+        {
+          "name": "Last month",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rhwv6lC8BOkQKjt06vuXHMQKUBxsCpwqiUNh3d43QJYkxkpo2pIr-X785vD-pOK6486CH1-_jNMx3LAuJ0OJEL8y9GzayCcBlAvrB314b2gwXL1r6n0gpisr1AVpuoz3UyS1Z0QMQLPNEyUJA_rn_zGwLEsb3F8dktEJXOUCDkEL_DUcYKsettE9FIpOMGANSgnri5GZCRAYP5GqrRj0EFJGhZ7vF9c7t-tUjBb3GknCk_m3ddqNyRrueqJ6zrGGw7f_ORQ7DuChQ49Wc1OOvDswENHPbBezxSSvresE6bLxk_fM79HPF2dkQfXojcSC5F2qHl3_A09T5MwaWBETTmc05jMxLByKnx53TdMe7QEDTwvfM",
+            "q": "quantum software engineer in the last month"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&gl=in&sxsrf=APpeQnu92Ee1SqmxRXpnZ6y6E0zkyySQYA:1791128391242&q=quantum+software+engineer+in+the+last+month&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rhwv6lC8BOkQKjt06vuXHMQKUBxsCpwqiUNh3d43QJYkxkpo2pIr-X785vD-pOK6486CH1-_jNMx3LAuJ0OJEL8y9GzayCcBlAvrB314b2gwXL1r6n0gpisr1AVpuoz3UyS1Z0QMQLPNEyUJA_rn_zGwLEsb3F8dktEJXOUCDkEL_DUcYKsettE9FIpOMGANSgnri5GZCRAYP5GqrRj0EFJGhZ7vF9c7t-tUjBb3GknCk_m3ddqNyRrueqJ6zrGGw7f_ORQ7DuChQ49Wc1OOvDswENHPbBezxSSvresE6bLxk_fM79HPF2dkQfXojcSC5F2qHl3_A09T5MwaWBETTmc05jMxLByKnx53TdMe7QEDTwvfM&udm=8&sa=X&ved=2ahUKEwiJ64ac2aCXAxVlFVkFHSEIIu4QkbEKegQIGxAF",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=quantum+software+engineer+in+the+last+month&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rhwv6lC8BOkQKjt06vuXHMQKUBxsCpwqiUNh3d43QJYkxkpo2pIr-X785vD-pOK6486CH1-_jNMx3LAuJ0OJEL8y9GzayCcBlAvrB314b2gwXL1r6n0gpisr1AVpuoz3UyS1Z0QMQLPNEyUJA_rn_zGwLEsb3F8dktEJXOUCDkEL_DUcYKsettE9FIpOMGANSgnri5GZCRAYP5GqrRj0EFJGhZ7vF9c7t-tUjBb3GknCk_m3ddqNyRrueqJ6zrGGw7f_ORQ7DuChQ49Wc1OOvDswENHPbBezxSSvresE6bLxk_fM79HPF2dkQfXojcSC5F2qHl3_A09T5MwaWBETTmc05jMxLByKnx53TdMe7QEDTwvfM"
+        }
+      ]
+    }
+  ],
+  "jobs_results": [
+    {
+      "title": "Software Engineer - Hyperconverged Infrastructure",
+      "company_name": "Quantum",
+      "location": "Bengaluru, Karnataka",
+      "via": "LinkedIn",
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=quantum+software+engineer&htidocid=HQ12GVanN_axWuK_AAAAAA%3D%3D&hl=en-IN&shem=epsd1,esd2e,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xWNuw3CQAxARcsINLhGkCAkGuiQEL8KMUDkHM4lEOzI54PQsQNbMBaTEJpXvafX__T6-5MU9kAlWLOvmEhhAttnQ-qE76SezrDjQjGYRmexE7-vN1wkh0CorgRh2Ij4mgbL0qwJizQNoU58MLTKJU5uqTDl0qZdFP7IQtkNmxqNstl82iYN-9HwGJEt3qBiWBF7rKPGMRxQGQ2v-AOMlEvSrQAAAA&shmds=v1_ARwrE22oK4TIzyraVJjoEgSiqNUOC6yTa_3g20BhDiotaw9M2g&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=quantum+software+engineer&htidocid=HQ12GVanN_axWuK_AAAAAA%3D%3D",
+      "thumbnail": "https://serpapi.com/searches/6ac27343526c48cc9df388f4/images/46wAPCCH1xRA1jPKYZEyqk8z9FTb0DgqxbRTuJ1YbPM.jpeg",
+      "extensions": [
+        "16 days ago",
+        "Full–time"
+      ],
+      "source_link": "https://in.linkedin.com/jobs/view/software-engineer-hyperconverged-infrastructure-at-quantum-4440656046",
+      "job_title": "Software Engineer - Hyperconverged Infrastructure",
+      "description": "Quantum Corp. leads the world in helping organizations build modern, software-defined infrastructure that simplifies IT operations and accelerates digital transformation. Whether its delivering unified compute, storage, and networking for enterprise workloads, enabling seamless hybrid cloud deployments, powering mission-critical virtualized environments, or driving AI-ready hyperconverged infrastructure at scale, Quantum has the tools and technology to help you engineer the solution that works now - and scales for decades to come. You are applying to an exceptional team that contributes to enhancing our position as a proven global leader in hyperconverged and software-defined infrastructure.\n\nWe are seeking a high-caliber Senior HCI Software Engineer to join our Hyperconverged Infrastructure Team. In this role, you will be responsible for the core software stack that unifies compute, storage, and networking into a single, seamlessly managed platform: the HCI Software Stack. You will design, implement, and optimize the software layers that converge compute, storage, and networking resources into a unified, policy-driven infrastructure platform.\n\nThis is a full-stack infrastructure role requiring a passion for systems software, distributed resource management, and building platforms that make complex infrastructure simple to operate at scale.\n\nSpecific Duties Include But Are Not Limited To\n\n\n\nHCI Platform Architecture: Design and maintain the core HCI software stack including the distributed resource scheduler, software-defined storage engine, and virtual networking fabric that underpin Quantum's hyperconverged appliances.Performance & Resource Efficiency: Profile and optimize resource contention across compute, storage, and network layers. Work with technologies like iSCSI, NVMe-oF, SR-IOV, and DPDK to minimize overhead and maximize workload density on shared HCI nodes.Fault Tolerance & Self-Healing: Implement and maintain features such as automatic node failure detection, live VM migration, distributed snapshot management, and self-healing storage policies to ensure continuous availability of HCI workloads.Virtualization & Workload Management: Develop and extend integrations with hypervisors (KVM, VMware, Hyper-V) and container runtimes (Kubernetes, Docker) to enable seamless workload placement, live migration, and QoS enforcement across the HCI cluster.Scale-Out & Lifecycle Management: Ensure the HCI platform scales linearly as nodes are added, automating data rebalancing, capacity expansion, and rolling software upgrades without disrupting running workloads.\n\nJob Requirements\n\nMinimum 8 years of experience in systems or infrastructure software development using C/C++, Go, Python, or equivalent languages.Experience with hypervisors (KVM, VMware vSphere, Hyper-V) and container orchestration (Kubernetes, OpenShift) is a plus.Experience with software-defined networking (OVS, VXLAN, BGP) and Linux networking stack is a plus.Experience with HCI platforms such as Nutanix AOS, VMware vSAN, or Azure Stack HCI is a plus.Experience with AI/ML infrastructure workloads and GPU resource management is a plus.Experience with cloud integration (AWS Outposts, Azure Arc, Google Anthos) and hybrid cloud architectures is a plus.Ability to work in a team environment.Strong communication skills.Ability to work with a globally distributed team.Self-motivated, able to identify and solve problems on their own.Ability to collaborate cross functionally and integrate other components into the solution.Approach problems creatively and not just repeat the same mistakes made before them.Effective communicator to both technical and non-technical audiences.\n\nDesired Skills\n\nExperience with Linux OS administration including kernel tuning, performance profiling (perf, eBPF), and HCI node lifecycle managementExperience using GIT.Experience using JIRA.\n\nIdeal Candidate\n\nOur ideal candidate is passionate about simplifying infrastructure complexity, thrives at the intersection of hardware and software, and has hands-on experience designing or operating hyperconverged or software defined infrastructure environments.",
+      "apply_options": [
+        {
+          "title": "LinkedIn",
+          "link": "https://in.linkedin.com/jobs/view/software-engineer-hyperconverged-infrastructure-at-quantum-4440656046?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Foundit",
+          "link": "https://www.foundit.in/job/software-engineer-hyperconverged-infrastructure-quantum-bengaluru-bangalore-59180569?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Glassdoor",
+          "link": "https://www.glassdoor.co.in/job-listing/software-engineer-hyperconverged-infrastructure-364a-quantum-india-JV_KO0,47_KE48,66.htm?jl=1010201465839&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Hirist",
+          "link": "https://www.hirist.tech/j/moodys-software-engineer-cloud-infrastructure-1672892?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Jooble",
+          "link": "https://in.jooble.org/jdp/8321746143694715962?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "BeBee",
+          "link": "https://bebee.com/in/jobs/software-engineer-hyperconverged-infrastructure-quantum-default-brand-bengaluru--ss-in-4r742t?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "SimplyHired",
+          "link": "https://www.simplyhired.co.in/job/p6u-yTE8oRsn9BX8uZDiwX606MirLqv75D96Q_Hd3JiXlP3xq2mjAQ?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Jobaaj",
+          "link": "https://www.jobaaj.com/job/netapp-software-engineer-cloud-infrastructure-bangalore-1-to-2-years-734500?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJTb2Z0d2FyZSBFbmdpbmVlciAtIEh5cGVyY29udmVyZ2VkIEluZnJhc3RydWN0dXJlIiwiY29tcGFueV9uYW1lIjoiUXVhbnR1bSIsImh0aWRvY2lkIjoiSFExMkdWYW5OX2F4V3VLX0FBQUFBQT09IiwidXVsZSI6IncrQ0FJUUlDSUZTVzVrYVdFIiwiZ2wiOiJpbiIsImhsIjoiZW4iLCJmYyI6IkVzd0JDb3dCUVVwcFZEUjBURlZCVVhORmNUZEZjVzlWWVVoTFRuQm1UVE5MYjNocllWRmhjR2wxY21sWk5uQXdNVGM1WWxoV1ZGRnVVa0ZoV0U1WGJYaDZaakpIYjFKMVdUTlNRMVpWVFd0elpITktWWFpxYXpJeFFsaG5aM2xNV1c5ck5tdGtkM1pRTjBsR1gxRmxjMU10WmxGaWJFMVpPV2hEYldOQk1XbFJZbTVyTFRsT1RqbEdaekJJYVdGYWFFRVNGMUl6VUVOaGMyMXlSSFZYY1RWT2IxQnZXa05KT0ZFMEdpSkJSSE55T1daVWRtUlFUSFJQYkZGV2Nqa3lRbVJKYmtjd2RYVXpiMlo0TVVkUiIsImZjdiI6IjMiLCJmY19pZCI6IkhRMTJHVmFuTl9heFd1S19BQUFBQUE9PSJ9"
+    },
+    {
+      "title": "Quantum Software Developer",
+      "company_name": "Amrita University",
+      "location": "Kollam, Keralam",
+      "via": "Glassdoor",
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=quantum+software+engineer&htidocid=wWWWzOMGmXAGI2VyAAAAAA%3D%3D&hl=en-IN&shem=epsd1,esd2e,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xWMMQrCQBAAsc0TrLawEsmJYqOVIFikErEOm7AmF-5uj9tNjJ1_sPF9vsTYDNPMZJ9Ztr30GLT3cOW7PjARnGggx5ESfF9v6LgCIUx1CxzgzNw4mh9a1Sh7Y0Rc3oii2jqv2RsOVPFopkj-KKWdjtGhUrnZrcc8hma5OPpkFeEW7EBJrD7BBijYOfQrKCjhJD8lhzermwAAAA&shmds=v1_ARwrE22u0hbhTsM2c24u2v6LKaN109PyrWv2O7W1Kixcu0IidA&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=quantum+software+engineer&htidocid=wWWWzOMGmXAGI2VyAAAAAA%3D%3D",
+      "thumbnail": "https://serpapi.com/searches/6ac27343526c48cc9df388f4/images/XA2-rSFouFdDFTfnVj9hHCeZ-natXE_5bzNlp8s94U0.jpeg",
+      "extensions": [
+        "13 days ago",
+        "Full–time"
+      ],
+      "source_link": "https://www.glassdoor.co.in/job-listing/jv?jl=1010143035639",
+      "job_title": "Quantum Software Developer",
+      "description": "Amrita Vishwa Vidyapeetham, Amritapuri Campus is inviting applications from qualified candidates for the post of Quantum Software Developer .\n\nFor details contact: hr-cybersecurity@am.amrita.edu\n\nApply Now\n\n\n\nJob Title\n\nQuantum Software Developer – AI/ML Quantum Computing\n\n\n\nLocation\n\nAmritapuri, Kollam\n\n\n\nRequired Number\n\n2\n\n\n\nQualification\n\nBachelor’s or Master’s or Ph.D. in Computer Science, AI/ML Quantum Computing, Data Science\n\n\n\nJob Description\n\n\n\nWe are seeking highly skilled Quantum Software Developers with a strong background in computer science and artificial intelligence/machine learning.\n\n\n\nIn this role, you will bridge the gap between advanced machine learning and fault-tolerant quantum computing.\n\n\n\nYour primary mission will be to design, develop, and integrate AI/ML-driven decoding pipelines and predictive noise management modules into a production-grade Quantum Error Correction (QEC) and Quantum Error Mitigation (QEM) software appliance.\n\n\n\nKey Responsibility\n\n\n\nML-Assisted Decoding: Design and implement trained neural network or graph-based models for small stabilizer and surface codes, integrating them via scalable, plug-and-play API interfaces.\n\n\n\nPredictive Noise Modeling: Build adaptive error-suppression routines capable of processing live calibration data and simulated noise profiles to dynamically optimize circuit execution.\n\n\n\nPerformance Optimization: Benchmark machine-learning decoders against classical decoding algorithms to optimize decoding speed, accuracy, and computational overhead on the Rudra server backend.\n\n\n\nToolchain Integration: Develop modular software components that seamlessly ingest standard quantum circuits and automatically output hardware-optimized, error-resilient versions.\n\n\n\nJob category\n\nProject\n\n\n\nLast date to apply\n\nOctober 31, 2026",
+      "apply_options": [
+        {
+          "title": "Glassdoor",
+          "link": "https://www.glassdoor.co.in/job-listing/jv?jl=1010143035639&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Jobrapido.com",
+          "link": "https://in.jobrapido.com/jobpreview/2114610584644222976?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Kit Job",
+          "link": "https://www.kitjob.in/job/339774386/quantum-software-developer-kollam?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJRdWFudHVtIFNvZnR3YXJlIERldmVsb3BlciIsImNvbXBhbnlfbmFtZSI6IkFtcml0YSBVbml2ZXJzaXR5IiwiaHRpZG9jaWQiOiJ3V1dXek9NR21YQUdJMlZ5QUFBQUFBPT0iLCJ1dWxlIjoidytDQUlRSUNJRlNXNWthV0UiLCJnbCI6ImluIiwiaGwiOiJlbiIsImZjIjoiRXN3QkNvd0JRVXBwVkRSMFNsUkxWbUl3VUdkNmVIQXhWbmw2T1ZaMlIxTlpNREIxYUVVM1NXeERVMGQyYWpJeE5FVkpiV2QzTjFodFJIZDFUMnMxUTFwVFdtRktjWFE0ZUd3MU1HTlZSR0UwWldSRlltaElRVTQ0ZFhWcU1HcFhTMWRUZFdRME1FVnZjVjlzZDFKRlNETk5RMDUzUm5kSlJFZzRMVGhyVFVOV2FUWnVjR2hoYzBSS0xVVlZlbHBNZEhRU0YxSXpVRU5oYzIxeVJIVlhjVFZPYjFCdldrTkpPRkUwR2lKQlJITnlPV1pVT1RkbGRXTmFUek0yUjNWMFMyaEZSR0Z2U3pZMGIyTnVWRGgzIiwiZmN2IjoiMyIsImZjX2lkIjoid1dXV3pPTUdtWEFHSTJWeUFBQUFBQT09In0="
+    },
+    {
+      "title": "Quantum Software Developer",
+      "company_name": "Innocode Ventures",
+      "location": "Gurugram, Haryana",
+      "via": "JobLeads",
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=quantum+software+engineer&htidocid=QEO3ze12hzUEonNdAAAAAA%3D%3D&hl=en-IN&shem=epsd1,esd2e,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xWNMQoCMRAAsb0nWG1lIZKIYqOtoJYi2B57cc2d5LIhm-jZ-Qc7n-dLjM10M1N9RtXymNGn3MOJr-mBkWBLd3IcKML39YYbNyCE0bTAHnbM1tF406YUZK21iFNWEqbOKMO9Zk8ND7pI8kctbSkGh4nqxWo-qODtdHLwng1fCM5UzpEEulLOMduI_Qz2GJ_o8Qe9CADgnQAAAA&shmds=v1_ARwrE210ZhQvhIK5oSMafH4vuSXA2zQoCCTb5u-xe4gkpZ1k9A&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=quantum+software+engineer&htidocid=QEO3ze12hzUEonNdAAAAAA%3D%3D",
+      "extensions": [
+        "6 days ago",
+        "₹12L–₹18L a year",
+        "Full–time"
+      ],
+      "source_link": "https://www.jobleads.com/in/job/quantum-software-developer--gurgaon--e5d5905967cbf88caa12a527de0a6e572",
+      "job_title": "Quantum Software Developer",
+      "description": "Develop software experiments and tooling around quantum algorithms and simulators.\n\nResponsibilitiesOwn key deliverables for the engineering team in Gurgaon.Collaborate with cross-functional stakeholders to ship high-quality outcomes.Contribute to process improvements, documentation, and team best practices.Support hiring, mentoring, or customer-facing activities as needed for the role.RequirementsFamiliarity with quantum programming frameworksStrong software engineering fundamentalsInterest in emerging compute paradigmsSkillsQuantum Software\n\nPython\n\nAlgorithms\n\nSimulation\n\nResearch\n\nJob OverviewSalary Range\n\nWork Mode\n\nHybrid\n\nMix of office and remote work\n\nLocation\n\nGurgaon\n\nExperience\n\n1-2 years\n\nEmployment Type\n\nFull-time\n\nPosting Date\n\nFebruary 1, 2026",
+      "apply_options": [
+        {
+          "title": "JobLeads",
+          "link": "https://www.jobleads.com/in/job/quantum-software-developer--gurgaon--e5d5905967cbf88caa12a527de0a6e572?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "ResumeON",
+          "link": "https://resumeon.com/app/jobs/quantum-software-developer-innocode-ventures-l30a?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJRdWFudHVtIFNvZnR3YXJlIERldmVsb3BlciIsImNvbXBhbnlfbmFtZSI6Iklubm9jb2RlIFZlbnR1cmVzIiwiaHRpZG9jaWQiOiJRRU8zemUxMmh6VUVvbk5kQUFBQUFBPT0iLCJ1dWxlIjoidytDQUlRSUNJRlNXNWthV0UiLCJnbCI6ImluIiwiaGwiOiJlbiIsImZjIjoiRXN3QkNvd0JRVXBwVkRSMFMyRm5PSFZHWlhKaldtdDBjamN5UjJkSldWVnhjbE40V0ZaeGJ6ZG1UREZGYlZoak5rSnFOMjVITjJ0ZmRteEpYMTlYUTI1U2ExSmtlVXRqZUhKMU4yUjFWVGxpZFhwTVpUQXpUVEp3WjJWU1dubzJkR3R5VDFGMVExTk1NWE5JV2t0aWR6UTBWMngyTTFkRlFVUkhOR2RpUjFaT1dFcEVhVTlaTmpreFVIWkhRbkV5YlZFU0YxSXpVRU5oYzIxeVJIVlhjVFZPYjFCdldrTkpPRkUwR2lKQlJITnlPV1pVYWxaVlRqVktWMWxhVlhsTFFtdDVhamhuZW1kU1ZESjFaVlpCIiwiZmN2IjoiMyIsImZjX2lkIjoiUUVPM3plMTJoelVFb25OZEFBQUFBQT09In0="
+    },
+    {
+      "title": "Quantum Software Engineer Intern",
+      "company_name": "Physics Wallah",
+      "location": "Amritsar, Punjab",
+      "via": "MyInternships.in",
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=quantum+software+engineer&htidocid=XlexQGm9KbRfbWOuAAAAAA%3D%3D&hl=en-IN&shem=epsd1,esd2e,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xXMsQrCMBCAYVz7CE6Ho0gjgoM6OYi4VRwcyzXEJCW9K7kr1s13cPXpfBJ1-bfvL96TYnMekHTo4MI3vWN2cCAfybkMJ1KXCT7PF7TcgDjMNgATHJl9ctNdUO1la4xIKr0oarSl5c4wuYZH80PyTy3h9-0TqqtX6-VY9uTnsyo8JFqBK6aEASLBvstRBfMCqoFabL7g5YF_nwAAAA&shmds=v1_ARwrE23Q_snPh32dUD6P9uGmO5mfc0gecww7zudfoWfmAC03Qw&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=quantum+software+engineer&htidocid=XlexQGm9KbRfbWOuAAAAAA%3D%3D",
+      "thumbnail": "https://serpapi.com/searches/6ac27343526c48cc9df388f4/images/GM-ts5abPUkU3eXXvs8vCRR-y5VtmR7Q7_THYcc7kqI.png",
+      "extensions": [
+        "₹45K a month",
+        "Internship"
+      ],
+      "source_link": "https://myinternships.in/internships/physics-wallah-quantum-software-engineer-intern-amritsar-55072f",
+      "job_title": "Quantum Software Engineer Intern",
+      "description": "Physics Wallah has an open Quantum Software Engineer Intern position in Amritsar for motivated freshers and final-year students. You will work on live quantum computing projects and finish with something you can genuinely talk about in interviews.\n\nAbout the role\nAs a Quantum Software Engineer Intern at Physics Wallah, your core focus will be implementing and benchmarking quantum algorithms on simulators and hardware. You are attached to a named mentor, join the team's stand-ups and reviews, and are trusted with work that matters rather than filler tasks. Questions are encouraged, your output is reviewed properly, and you get the feedback you need to actually improve.\n\nWhat you'll do day to day\n• Work on implementing and benchmarking quantum algorithms on simulators and hardware alongside the core team\n• Use Qiskit, Cirq, Quantum Algorithm Design, Linear Algebra, Python on live, production-facing problems\n• Turn your work into clear documentation, notes or decks for reviewers\n• Take part in reviews and act on the feedback you receive\n• Collaborate across functions — engineering, product, design or business as the work demands\n• Follow the team's quality, testing and documentation standards\n• Track and report your own progress against an agreed plan\n\nSkills you'll build\nYou will build practical, demonstrable experience in Qiskit, Cirq, Quantum Algorithm Design, Linear Algebra, Python, Quantum Circuit Simulation, Error Mitigation Techniques, Complexity Analysis, Scientific Computing (NumPy), Technical Documentation — the exact toolkit that separates a hireable fresher from a CV full of coursework. No prior work experience is required. Curiosity, problem-solving ability and a willingness to learn matter far more here than a polished résumé, and every one of these skills is taught on the job.\n\nWho should apply\nStudents in their final year or recent graduates from B.E./B.Tech (CSE/ECE), B.Sc/M.Sc (Physics / Mathematics / CS) or M.Tech based in or willing to work from Amritsar. You should be willing to learn Qiskit, Cirq, Quantum Algorithm Design and able to communicate clearly in writing. Personal projects, coursework, certifications or open-source contributions strengthen your application, but none of them are mandatory.\n\nInternship details\nThis is a 3-month internship in Amritsar, Punjab, with a stipend of ₹45,000 per month. You will be given a defined project so that you leave with a quantum algorithm implementation with benchmarked results. Working hours follow the team's normal business hours and the internship includes a certificate on successful completion.\n\nYou will finish this internship with practical, demonstrable skills, real project work to point at, and a much clearer sense of how the industry actually operates day to day. Strong performers are considered for a Pre-Placement Offer (PPO) and a full-time role.\n\nHow to apply\nClick Apply Now. If you are not logged in you will be asked to sign in and register first, after which you will be taken to Physics Wallah's official careers page to complete your application. Applications are reviewed on a rolling basis and seats are limited, so apply early. Responsibilities: Work on implementing and benchmarking quantum algorithms on simulators and hardware alongside the core team; Apply Qiskit, Cirq, Quantum Algorithm Design, Linear Algebra to live, production-facing problems; Document your work clearly for reviewers and stakeholders; Participate in reviews and act on the feedback you receive; Collaborate across engineering, product, design or business as required; Follow the team's quality, testing and documentation standards. Requirements: Pursuing or recently completed B.E./B.Tech (CSE/ECE), B.Sc/M.Sc (Physics / Mathematics / CS) or M.Tech — 2026 freshers & final-year students welcome; Working knowledge of Qiskit, Cirq, Quantum Algorithm Design (or a genuine willingness to learn them); Strong fundamentals in your discipline and clear problem-solving ability; Care with detail and the discipline to document your work; Clear written and verbal communication in English; Based in or willing to work from Amritsar, Punjab.",
+      "apply_options": [
+        {
+          "title": "MyInternships.in",
+          "link": "https://myinternships.in/internships/physics-wallah-quantum-software-engineer-intern-amritsar-55072f?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Kit Job",
+          "link": "https://www.kitjob.in/job/327420573/software-engineer-intern-amritsar?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJRdWFudHVtIFNvZnR3YXJlIEVuZ2luZWVyIEludGVybiIsImNvbXBhbnlfbmFtZSI6IlBoeXNpY3MgV2FsbGFoIiwiaHRpZG9jaWQiOiJYbGV4UUdtOUtiUmZiV091QUFBQUFBPT0iLCJ1dWxlIjoidytDQUlRSUNJRlNXNWthV0UiLCJnbCI6ImluIiwiaGwiOiJlbiIsImZjIjoiRXN3QkNvd0JRVXBwVkRSMFNtbG1VVEF3VmsweGNUVmZRV04xUkZKNGEySnZSbkZHWld3d1pXcFFiM2cxTjFSMU9UazJOV2xDWlZsV1ZHdGlVVE5KU1VvM2VsZE1hRkZKWTE5TGFEWTJlVXgxUzFwYWVqRm5RMlZ2WmxSc1VqbFBaMEYwT0ZKcVQwbHJlVTlVY2pkSE4ySkhjVFJWUjNoWVVYcFFVMlUxVjNGV1pHNVJOSEl4WlZWbFRWSTRTa1UyYldNU0YxSXpVRU5oYzIxeVJIVlhjVFZPYjFCdldrTkpPRkUwR2lKQlJITnlPV1pTTjAwNVRWVlZkSGRxTldwS1RIUTRSSE4yWmtaaVRrUjVOMmxCIiwiZmN2IjoiMyIsImZjX2lkIjoiWGxleFFHbTlLYlJmYldPdUFBQUFBQT09In0="
+    },
+    {
+      "title": "Quantum Software Developer",
+      "company_name": "Amrita University",
+      "location": "Keralam",
+      "via": "Indeed",
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=quantum+software+engineer&htidocid=6N26m0-e534GrukpAAAAAA%3D%3D&hl=en-IN&shem=epsd1,esd2e,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xXMsQrCMBCAYVz7COJws0MjiotOQsHBScS5XMvZRJJcyF1r3XwEwTf0SazLv31_8Z4Vm3OPUfsAF77pAzNBRQN5TpTh-_rAnRsQwtxa4AhH5s7TfG9Vk-yMEfFlJ4rq2rLlYDhSw6OZkPxTi52OyaNSvd6uxjLFbrk4hOwU4RrdQFmcPsFFOFFGj-EH8djumpMAAAA&shmds=v1_ARwrE20bCm-19ucv6qQvXM9sa2GWplsBvo3-txt9QyQTpgzPew&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=quantum+software+engineer&htidocid=6N26m0-e534GrukpAAAAAA%3D%3D",
+      "thumbnail": "https://serpapi.com/searches/6ac27343526c48cc9df388f4/images/YHZW_IlbnbR1SxHFJCyoHiozd-fgZbIvVIe1h3d8tPQ.jpeg",
+      "extensions": [
+        "Full–time"
+      ],
+      "source_link": "https://in.indeed.com/viewjob?jk=0f8d766355e0223a",
+      "job_title": "Quantum Software Developer",
+      "description": "Amrita Vishwa Vidyapeetham, Amritapuri Campus is inviting applications from qualified candidates for the post of Quantum Software Developer . \n\nFor details contact: hr-cybersecurity@am.amrita.edu \n\n\n Apply Now \n\n\n\n\n Job Title \n\n\n Quantum Software Developer – AI/ML Quantum Computing \n\n\n\n\n Location \n\n\n Amritapuri, Kollam \n\n\n\n\n Required Number \n\n\n 2 \n\n\n\n\n Qualification \n\n\n Bachelor’s or Master’s or Ph.D. in Computer Science, AI/ML Quantum Computing, Data Science \n\n\n\n\n Job Description \n\n\n\n\n We are seeking highly skilled Quantum Software Developers with a strong background in computer science and artificial intelligence/machine learning. \n\n\n\n\n In this role, you will bridge the gap between advanced machine learning and fault-tolerant quantum computing. \n\n\n\n\n Your primary mission will be to design, develop, and integrate AI/ML-driven decoding pipelines and predictive noise management modules into a production-grade Quantum Error Correction (QEC) and Quantum Error Mitigation (QEM) software appliance. \n\n\n\n\n Key Responsibility \n\n\n\nML-Assisted Decoding: Design and implement trained neural network or graph-based models for small stabilizer and surface codes, integrating them via scalable, plug-and-play API interfaces. \n\n\n\nPredictive Noise Modeling: Build adaptive error-suppression routines capable of processing live calibration data and simulated noise profiles to dynamically optimize circuit execution. \n\n\n\nPerformance Optimization: Benchmark machine-learning decoders against classical decoding algorithms to optimize decoding speed, accuracy, and computational overhead on the Rudra server backend. \n\n\n\nToolchain Integration: Develop modular software components that seamlessly ingest standard quantum circuits and automatically output hardware-optimized, error-resilient versions. \n\n\n\n\n Job category \n\n\n Project \n\n\n\n\n Last date to apply \n\n\n October 31, 2026",
+      "apply_options": [
+        {
+          "title": "Indeed",
+          "link": "https://in.indeed.com/viewjob?jk=0f8d766355e0223a&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJRdWFudHVtIFNvZnR3YXJlIERldmVsb3BlciIsImNvbXBhbnlfbmFtZSI6IkFtcml0YSBVbml2ZXJzaXR5IiwiaHRpZG9jaWQiOiI2TjI2bTAtZTUzNEdydWtwQUFBQUFBPT0iLCJ1dWxlIjoidytDQUlRSUNJRlNXNWthV0UiLCJnbCI6ImluIiwiaGwiOiJlbiIsImZjIjoiRXN3QkNvd0JRVXBwVkRSMFMyOW5XRmRJTlRGTVozQkdTWE5JU2xCbmNEZ3RPR05NVFdWUVVGbFVOVXBTVG01dlVrRnRTVGRHUlRGVFoxQk5YMlZ5VG5BMVpXNURWRFJQUTIxT04xTm5UVmxpYzE5NFNEZHRURFZPTFRWa1lVd3pjRzQxYW1od1VWRklNRlZsVW5kdU56UkpVR3g1WjNGcFJEUlhkRkJqTlVsZlFVaGlZMjh5VUhsc2J6UTBZM2haUTJjU0YxSXpVRU5oYzIxeVJIVlhjVFZPYjFCdldrTkpPRkUwR2lKQlJITnlPV1pTVjNScVpWZDVTMlpVVXpOaFNuSmlZV3R6UkdkQ2RqaHZSMjFuIiwiZmN2IjoiMyIsImZjX2lkIjoiNk4yNm0wLWU1MzRHcnVrcEFBQUFBQT09In0="
+    },
+    {
+      "title": "Quantum Software Engineer Intern",
+      "company_name": "Entropik",
+      "location": "Mumbai, Maharashtra",
+      "via": "MyInternships.in",
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=quantum+software+engineer&htidocid=Qtj3Vv79K9S6HGg4AAAAAA%3D%3D&hl=en-IN&shem=epsd1,esd2e,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xWMMQ7CMAwAxdonsOAZoQYhMQBzhRg6IB6A3MokgdaOYld05A9MfI-XUJab7q74zIrdeUC2oYeL3OyJmaBiH5kow4mNMsP39Ya7NKCEuQ0gDEcR39H8EMyS7p1T7UqvhhbbspXeCVMjo5si_eOqYfqmDo2um-16LBP75aJiy5LiAyJDPfQNxhXUOJmowTL-AKP8ZxacAAAA&shmds=v1_ARwrE21g4ZsG9keToh_svLxK39Yoo1VL4URBY1x3NSC3iAh82g&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=quantum+software+engineer&htidocid=Qtj3Vv79K9S6HGg4AAAAAA%3D%3D",
+      "thumbnail": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAADgAAAAdCAMAAADIOV-pAAAAxlBMVEX___-V39Xp6ekAr9i86eYAvcT8_v0AvckXvNr0_PwAs9l-z-nf9fCkpKTP8Ory-_lVx98At9kArNij3O4Axa3C6-XO7PO_5vHE7tyB37i769uG3sNq17xx2cBo1cE5zLar5dx3181k0syn4uJYzs5mztjC6u2L1-JBxdh10d-B0-dQwean58lD1JiO4b5i16tD0KiP4MtA0LAlx7hOzcMAwL5J1KCW3N9tzeKy5OrZ2dl3d3iwsbHAwcGZmZpo2qOHh4d41dUy5m1WAAABRklEQVQ4je3Ry3KCMBQG4B-USzSAFUPFtt5ARQQqKFqt0PL-L9VEN3a0LjrddMZ_kclk8s3JOQHuuecPoprWtePWA2nbNyHtsGvHziOpXcKu63bRezKfX0y1P-gP2cga1-H5vgcymc6COYEdCugsnHMXxcnrppcuszTLrHQwYtJqvTbHeeUrFdG0YK7rakvnkLQX586KI3XjIl1aYJkpniqthqC5B2yVqTbh79TtNw7DxjcHGieuCw75NmMnCNRzyoXiaTt-RQ85bDRqTUCW5b1YIEONeb0LSPOtqOicKu4E1G0-2P37wSiMQ6mWwEe8SZLeES6Z1RlIAqLKfV_Z8h61QA9w7BHNtoOyMAwZxuGTD5VGEUU35e2mFGzETEm0UK-qKSxt581nBLuZGvKJNm0U-1IujQLFzV8V8PaFn0J-C-_5L_kCM6whyQjBR8YAAAAASUVORK5CYII.png",
+      "extensions": [
+        "₹43K a month",
+        "Internship"
+      ],
+      "source_link": "https://myinternships.in/internships/entropik-quantum-software-engineer-intern-mumbai-691e1b",
+      "job_title": "Quantum Software Engineer Intern",
+      "description": "Entropik is hiring a Quantum Software Engineer Intern in Mumbai — a hands-on, mentor-led internship built for students and 2026 freshers who want real exposure to quantum computing rather than a certificate-only programme.\n\nAbout the role\nAs a Quantum Software Engineer Intern at Entropik, your core focus will be implementing and benchmarking quantum algorithms on simulators and hardware. You are attached to a named mentor, join the team's stand-ups and reviews, and are trusted with work that matters rather than filler tasks. Questions are encouraged, your output is reviewed properly, and you get the feedback you need to actually improve.\n\nWhat you'll do day to day\n• Work on implementing and benchmarking quantum algorithms on simulators and hardware alongside the core team\n• Use Qiskit, Cirq, Quantum Algorithm Design, Linear Algebra, Python on live, production-facing problems\n• Turn your work into clear documentation, notes or decks for reviewers\n• Take part in reviews and act on the feedback you receive\n• Collaborate across functions — engineering, product, design or business as the work demands\n• Follow the team's quality, testing and documentation standards\n• Track and report your own progress against an agreed plan\n\nSkills you'll build\nYou will build practical, demonstrable experience in Qiskit, Cirq, Quantum Algorithm Design, Linear Algebra, Python, Quantum Circuit Simulation, Error Mitigation Techniques, Complexity Analysis, Scientific Computing (NumPy), Technical Documentation — the exact toolkit that separates a hireable fresher from a CV full of coursework. No prior work experience is required. Curiosity, problem-solving ability and a willingness to learn matter far more here than a polished résumé, and every one of these skills is taught on the job.\n\nWho should apply\nStudents in their final year or recent graduates from B.E./B.Tech (CSE/ECE), B.Sc/M.Sc (Physics / Mathematics / CS) or M.Tech based in or willing to work from Mumbai. You should be willing to learn Qiskit, Cirq, Quantum Algorithm Design and able to communicate clearly in writing. Personal projects, coursework, certifications or open-source contributions strengthen your application, but none of them are mandatory.\n\nInternship details\nThis is a 3-month internship in Mumbai, Maharashtra, with a stipend of ₹43,000 per month. You will be given a defined project so that you leave with a quantum algorithm implementation with benchmarked results. Working hours follow the team's normal business hours and the internship includes a certificate on successful completion.\n\nBy the end of the internship you will have hands-on command of the tools and workflows used in the field, plus the confidence that comes from solving genuine problems rather than textbook ones. Interns who excel are regularly offered a PPO and a path into a full-time position.\n\nHow to apply\nClick Apply Now. If you are not logged in you will be asked to sign in and register first, after which you will be taken to Entropik's official careers page to complete your application. Applications are reviewed on a rolling basis and seats are limited, so apply early. Responsibilities: Work on implementing and benchmarking quantum algorithms on simulators and hardware alongside the core team; Apply Qiskit, Cirq, Quantum Algorithm Design, Linear Algebra to live, production-facing problems; Document your work clearly for reviewers and stakeholders; Participate in reviews and act on the feedback you receive; Collaborate across engineering, product, design or business as required; Follow the team's quality, testing and documentation standards. Requirements: Pursuing or recently completed B.E./B.Tech (CSE/ECE), B.Sc/M.Sc (Physics / Mathematics / CS) or M.Tech — 2026 freshers & final-year students welcome; Working knowledge of Qiskit, Cirq, Quantum Algorithm Design (or a genuine willingness to learn them); Strong fundamentals in your discipline and clear problem-solving ability; Care with detail and the discipline to document your work; Clear written and verbal communication in English; Based in or willing to work from Mumbai, Maharashtra.",
+      "apply_options": [
+        {
+          "title": "MyInternships.in",
+          "link": "https://myinternships.in/internships/entropik-quantum-software-engineer-intern-mumbai-691e1b?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJRdWFudHVtIFNvZnR3YXJlIEVuZ2luZWVyIEludGVybiIsImNvbXBhbnlfbmFtZSI6IkVudHJvcGlrIiwiaHRpZG9jaWQiOiJRdGozVnY3OUs5UzZIR2c0QUFBQUFBPT0iLCJ1dWxlIjoidytDQUlRSUNJRlNXNWthV0UiLCJnbCI6ImluIiwiaGwiOiJlbiIsImZjIjoiRXN3QkNvd0JRVXBwVkRSMFN6WkJTbUpTYzBKaWFEVXphRmR5VVUxS2FVRjBYMmhqY0VaRVJuSTJjM1JmZVhwNFkyMXFTVXhDVlhSMU1XNWZTVEJxYWxodllVZzBSRTkwWkZJMFkzVnFXamhUVm1wc1YwTndlR0Y1ZWw5RFV6QkhjV3hPYUdWTU1WZ3dNMncxZW1kS1NreHVRbVE0TjJVNFpFa3RXbWRtUTJoQlEweExkWHAxZDFCalltOXdOa050YjJFU0YxSXpVRU5oYzIxeVJIVlhjVFZPYjFCdldrTkpPRkUwR2lKQlJITnlPV1pUWTB4Mk0zbDZaRXRNVVZaT2NUZzJUMmxzVkZwUk5ETTBMWHAzIiwiZmN2IjoiMyIsImZjX2lkIjoiUXRqM1Z2NzlLOVM2SEdnNEFBQUFBQT09In0="
+    },
+    {
+      "title": "Quantum Software Engineer Intern",
+      "company_name": "Vedantu",
+      "location": "Anywhere",
+      "via": "MyInternships.in",
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=quantum+software+engineer&htidocid=ZkgkA1xqqiXIziTjAAAAAA%3D%3D&hl=en-IN&shem=epsd1,esd2e,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xWNMQ6CQBBFY8sNtJraGNaYWKg1IZaGxJYMOC4QmCE7s5HSO3BDTyI0P6957yfzJrk8IrLFAQp52wcDQca-ZaIAdzYKDL_vDJ1UoIShbkAYchHf0-7WmI16dU61T70aWluntQxOmCqZ3CLpOqU2S3fs0ag8nY9TOrLfb5_0Wo-hZShiQDtAHjtc4A_Zs7AOlgAAAA&shmds=v1_ARwrE23FseWN3yBFOiR50GSPRssl-QKL04EvAERelOBwJIidfQ&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=quantum+software+engineer&htidocid=ZkgkA1xqqiXIziTjAAAAAA%3D%3D",
+      "thumbnail": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAADgAAAAaCAMAAADVPG8RAAAAjVBMVEX____jRwDkTgDjSgDy8vL7-_vkVAnkUgD30sj76-fyuKj--_r99vTnbD_lVxTjRADmYCnsknb88e7r6-u_vr63trb1yr_vppH32M_0xbnlWhvrhmbvoozqgl_zwLLri2z54Nnxr5yMiomnpqXLy8rocknnaDjhNgDpelTmZDDtmYDa2tqcmpp6eHeEgoHUkXOaAAAB1UlEQVQ4jdWS65KbMAyFD3dzNzEmCZhbICzB6b7_41UknUlgO9Pp_lsx2MLos6RjAz_UDt_k2vLls_A_QLd_-Um_-1mY0T7-Wj9n32CvRX7cRZ0Mfw-yNHjuabztuQP9c--eGSu2KmTPKhRfxz-9ldtSfc55mZTmFgzd6lHyQgFTuvo9f_TI6kSBBVC1D2aE8DtExTt5fnRnNZSoLYwOU3yICTymqusQWKqKq0cj0xHRR_dOzhyn3uxQWP4pjXorxC1Al55hEZhUWGbaPIRXIEo34MGkBhLKYUakStySOAEWjtA4U0Yf2YyGQComSrfiBuWN1-tkksKuopoDzBmBBZRJ8tUEPqADvZucV046-rFLfTKP9EkaTBUii-FG96mtoCw66LWZQ_SxKdYtm8VjmVVV1tU8Lubcul4_e5ly6ZTamJkJqzzlc_fUt5tiC3OmbGiyrEBQH09zG6mbanjdT0CXlMWULn1qdHFafrl7_7YV-XLzvmW249iwhQDE6pJPg60BrcnTwhbQWJdp2thojzrP7xqOHPRllJDiV57nQK6l0APuubjkkp5hD8rR_nTuAs4w6PEiRynGz3ykH0IOtsRd2nct81EOF2dLOm_j7tP5S-CPst9eqSMu27bOngAAAABJRU5ErkJggg.png",
+      "extensions": [
+        "₹49K a month",
+        "Work from home",
+        "Internship"
+      ],
+      "source_link": "https://myinternships.in/internships/vedantu-quantum-software-engineer-intern-surat-897d51",
+      "job_title": "Quantum Software Engineer Intern",
+      "description": "Start your career in quantum computing with Vedantu as a Quantum Software Engineer Intern in Surat. You will sit with a working team, use the same tools and systems they do, and own a defined piece of work from day one.\n\nAbout the role\nAs a Quantum Software Engineer Intern at Vedantu, your core focus will be implementing and benchmarking quantum algorithms on simulators and hardware. You are attached to a named mentor, join the team's stand-ups and reviews, and are trusted with work that matters rather than filler tasks. Questions are encouraged, your output is reviewed properly, and you get the feedback you need to actually improve.\n\nWhat you'll do day to day\n• Work on implementing and benchmarking quantum algorithms on simulators and hardware alongside the core team\n• Use Qiskit, Cirq, Quantum Algorithm Design, Linear Algebra, Python on live, production-facing problems\n• Turn your work into clear documentation, notes or decks for reviewers\n• Take part in reviews and act on the feedback you receive\n• Collaborate across functions — engineering, product, design or business as the work demands\n• Follow the team's quality, testing and documentation standards\n• Track and report your own progress against an agreed plan\n\nSkills you'll build\nYou will build practical, demonstrable experience in Qiskit, Cirq, Quantum Algorithm Design, Linear Algebra, Python, Quantum Circuit Simulation, Error Mitigation Techniques, Complexity Analysis, Scientific Computing (NumPy), Technical Documentation — the exact toolkit that separates a hireable fresher from a CV full of coursework. No prior work experience is required. Curiosity, problem-solving ability and a willingness to learn matter far more here than a polished résumé, and every one of these skills is taught on the job.\n\nWho should apply\nStudents in their final year or recent graduates from B.E./B.Tech (CSE/ECE), B.Sc/M.Sc (Physics / Mathematics / CS) or M.Tech based in or willing to work from Surat. You should be willing to learn Qiskit, Cirq, Quantum Algorithm Design and able to communicate clearly in writing. Personal projects, coursework, certifications or open-source contributions strengthen your application, but none of them are mandatory.\n\nInternship details\nThis is a 3-month internship in Surat, Gujarat, with a stipend of ₹49,000 per month. You will be given a defined project so that you leave with a quantum algorithm implementation with benchmarked results. Working hours follow the team's normal business hours and the internship includes a certificate on successful completion.\n\nExpect to leave with real project experience, exposure to professional tooling and process, and mentorship that helps you plan a concrete next step in your career. Outstanding interns can convert to a full-time offer at the end of the internship.\n\nHow to apply\nClick Apply Now. If you are not logged in you will be asked to sign in and register first, after which you will be taken to Vedantu's official careers page to complete your application. Applications are reviewed on a rolling basis and seats are limited, so apply early. Responsibilities: Work on implementing and benchmarking quantum algorithms on simulators and hardware alongside the core team; Apply Qiskit, Cirq, Quantum Algorithm Design, Linear Algebra to live, production-facing problems; Document your work clearly for reviewers and stakeholders; Participate in reviews and act on the feedback you receive; Collaborate across engineering, product, design or business as required; Follow the team's quality, testing and documentation standards. Requirements: Pursuing or recently completed B.E./B.Tech (CSE/ECE), B.Sc/M.Sc (Physics / Mathematics / CS) or M.Tech — 2026 freshers & final-year students welcome; Working knowledge of Qiskit, Cirq, Quantum Algorithm Design (or a genuine willingness to learn them); Strong fundamentals in your discipline and clear problem-solving ability; Care with detail and the discipline to document your work; Clear written and verbal communication in English; Based in or willing to work from Surat, Gujarat.",
+      "apply_options": [
+        {
+          "title": "MyInternships.in",
+          "link": "https://myinternships.in/internships/vedantu-quantum-software-engineer-intern-surat-897d51?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJRdWFudHVtIFNvZnR3YXJlIEVuZ2luZWVyIEludGVybiIsImNvbXBhbnlfbmFtZSI6IlZlZGFudHUiLCJodGlkb2NpZCI6IlprZ2tBMXhxcWlYSXppVGpBQUFBQUE9PSIsInV1bGUiOiJ3K0NBSVFJQ0lGU1c1a2FXRSIsImdsIjoiaW4iLCJobCI6ImVuIiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwU21KaFQyMDNla3BOV0hkU0xWOUNkV2RXTjJWbGVsb3hSME5zZUhSYU5ITndUVWt3Ym1WSFpXWTNlV05RU21RemRFcFhNVFZ2V25CR2IwRllabnBQVEZZeVNXRm5iRjk1WjFFeFVUWklaMWhxVlU5cGVUWkpaRE0yYms5RE9HNUNaMTlOV0V4NE5HNHhWV3hoUTI1MFVVZDFSWGxuVmtGa1FtVlJURXhXZFZKM2IwY3piRXdTRjFJelVFTmhjMjF5UkhWWGNUVk9iMUJ2V2tOSk9GRTBHaUpCUkhOeU9XWlNSbDh4YlRWSVQwVm9Ua3haU0c1bVRsSm5kSFZhU1ZRMGIyVkIiLCJmY3YiOiIzIiwiZmNfaWQiOiJaa2drQTF4cXFpWEl6aVRqQUFBQUFBPT0ifQ=="
+    },
+    {
+      "title": "Quantum Engineer",
+      "company_name": "Artificial Brain",
+      "location": "Bengaluru, Karnataka",
+      "via": "BeBee",
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=quantum+software+engineer&htidocid=h1OJpb_SpVwox9wTAAAAAA%3D%3D&hl=en-IN&shem=epsd1,esd2e,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xXLMQrCQBBAUWxzBKspVSQrgo1WBsTCyhOEcRk3q5vZMDMLKT2D3tCTGOHzul-9Z9XyWpCt9HDiEJlI4Pv6wCPfQAnFd5AZzjmHRPNDZzbo3jnVVAc1tOhrn3uXmW55dNOkf1rtUGhIaNRud5uxHjisFkexeI8-YoJGMDJMNcQBU5GyhgsKo-ETf_JMfBqVAAAA&shmds=v1_ARwrE21J2ZXgBy5U2My9sgKVqnodD9mdDUx-ELG355ALl3kOYQ&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=quantum+software+engineer&htidocid=h1OJpb_SpVwox9wTAAAAAA%3D%3D",
+      "thumbnail": "https://serpapi.com/searches/6ac27343526c48cc9df388f4/images/aCdWd5KRY5xLQfaLG46FJ4HS_dDSWiU4AmP8jNQSxuo.jpeg",
+      "extensions": [
+        "26 days ago",
+        "Full–time"
+      ],
+      "source_link": "https://bebee.com/in/jobs/quantum-engineer-artificial-brain-bengaluru--techmap_in_4463849129",
+      "job_title": "Quantum Engineer",
+      "description": "About Artificial Brain\nArtificial Brain is a pioneering technology company at the forefront of quantum computing and artificial intelligence. We are dedicated to pushing the boundaries of innovation by developing cutting-edge quantum solutions integrated with quantum optimization and advanced machine learning techniques. Join our dynamic team in Bengaluru, Karnataka, to shape the future of quantum technology.\n\n\nRole Overview\nWe are seeking a highly skilled and motivated Quantum Engineer to join our R&D team in Bengaluru, Karnataka. The ideal candidate will have extensive expertise in both gate-based and annealing quantum computing approaches, combined with a strong background in machine learning. This role will focus on conducting advanced research and development to design, implement, and optimize quantum algorithms and systems for real-world applications.\n\n\nKey Responsibilities\n Quantum Algorithm Development: Design and develop quantum algorithms using gate-based and annealing quantum computing frameworks to solve complex computational problems. Machine Learning Integration: Integrate quantum computing solutions with machine learning models to enhance the performance and scalability of AI-driven applications. Research & Development: Conduct cutting-edge research to explore novel quantum computing techniques, hybrid quantum-classical algorithms, and their applications. System Optimization: Optimize quantum circuits and annealing schedules for performance, scalability, and error mitigation on various quantum hardware platforms. Collaboration: Work closely with cross-functional teams, including data scientists, software engineers, and physicists, to develop and deploy quantum-enhanced solutions. Prototyping & Testing: Build and test prototypes of quantum algorithms and systems, ensuring robustness and accuracy in real-world scenarios. Documentation & Reporting: Document research findings, prepare technical reports, and present results to internal teams and external stakeholders. Stay Updated: Keep abreast of the latest advancements in quantum computing, machine learning, and related fields to drive innovation. \nRequired Qualifications\nEducation\n Master’s or Ph.D. in Quantum Computing, Physics, Computer Science, Electrical Engineering, or a related field. \nExperience\n 2 years of hands-on experience in quantum computing, with expertise in both gate-based quantum computing (e.g., Qiskit, Cirq, or similar) and quantum annealing (e.g., D-Wave). Proven experience in applying machine learning techniques (e.g., supervised/unsupervised learning, deep learning, reinforcement learning) to real-world problems. Strong track record in research and development, preferably in quantum computing or a related field. \nTechnical Skills\n Proficiency in the Python programming language. Familiarity with quantum computing frameworks (e.g., Qiskit, Cirq) and ML libraries (e.g., TensorFlow, PyTorch, Scikit-learn). Knowledge of quantum hardware platforms and their limitations (e.g., IBM Quantum, Google Quantum, D-Wave). Experience with quantum machine learning (QML) algorithms Experience with hybrid quantum-classical algorithms and optimization techniques. \nResearch Skills\n Ability to conduct independent research, analyze complex datasets, and publish findings in peer-reviewed journals or conferences. \nSoft Skills\n Strong problem-solving skills, excellent communication, and ability to work collaboratively in a fast-paced, interdisciplinary environment. Ability to work with clients (on-site and off-site) \nWhy Join Artificial Brain\n Innovative Environment: Work on groundbreaking projects at the intersection of quantum computing and artificial intelligence. Impactful Work: Contribute to transformative technologies that have the potential to revolutionize industries. Growth Opportunities: Access to continuous learning, professional development, and collaboration with world-class experts. Inclusive Culture: Be part of a diverse and inclusive team that values creativity, curiosity, and innovation. \nLocation\n This position is based in Bengaluru, Karnataka, with opportunities for on-site work in the U.S., depending on project requirements.",
+      "apply_options": [
+        {
+          "title": "BeBee",
+          "link": "https://bebee.com/in/jobs/quantum-engineer-artificial-brain-bengaluru--techmap_in_4463849129?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Jobaaj",
+          "link": "https://www.jobaaj.com/job/artificial-brain-quantum-engineer-bengaluru-bangalore-karnataka-2-to-4-years-1695993?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Myjobb AI",
+          "link": "https://myjobb.ai/jobs/quantum-engineer/17196415?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJRdWFudHVtIEVuZ2luZWVyIiwiY29tcGFueV9uYW1lIjoiQXJ0aWZpY2lhbCBCcmFpbiIsImh0aWRvY2lkIjoiaDFPSnBiX1NwVndveDl3VEFBQUFBQT09IiwidXVsZSI6IncrQ0FJUUlDSUZTVzVrYVdFIiwiZ2wiOiJpbiIsImhsIjoiZW4iLCJmYyI6IkVzd0JDb3dCUVVwcFZEUjBTalp2T0hOSE1XSm1TSGxDZHpBNFprbGlTV0ZPY0ZWTlVuZHVTRTFXWDJWU04xRm9aR1JzYlV4Wk5FWk5NVlZYVWxFeU9YTnhVMlJYUzJ0U2RWaDJUazVOWTNCd1YwWlNUREJqTlRBM2RWSXpSVFV5WWt4SFduVkJWbFphTFdVMmVqSlBiRUZXV1dveVpqQXdlbGxPY3pob1NWRjNhblpzUVVoSVQwMXRRa1JoZUdFME1Hd1NGMUl6VUVOaGMyMXlSSFZYY1RWT2IxQnZXa05KT0ZFMEdpSkJSSE55T1daVFJWaFpRalI2WTBSeGRUbFVXWFJ6WjBoS04zVlVlbHBEYjNWUiIsImZjdiI6IjMiLCJmY19pZCI6ImgxT0pwYl9TcFZ3b3g5d1RBQUFBQUE9PSJ9"
+    },
+    {
+      "title": "Senior Quantum Application Engineer",
+      "company_name": "Barrington James",
+      "location": "Bengaluru, Karnataka",
+      "via": "Foundit",
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=quantum+software+engineer&htidocid=_1sGRAHw9lsoi-f3AAAAAA%3D%3D&hl=en-IN&shem=epsd1,esd2e,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xWMQQrCMBAA8doneNqjiDQieFEvFkTQk_iAsg1LGk13QzaBHv2Db_BjvsR6mcswU31m1eFO7CXBrSDnMsAxxuAtZi8MJ3aeiRJ8X294SAdKmGwPkzqLuEDzfZ9z1J0xqqF2mqfO1lYGI0ydjGaK9I9We0wUA2ZqN9v1WEd2y0WDKXl2efpdcCAFz9AQOwwllRVcMTFmfOIPQlra7agAAAA&shmds=v1_ARwrE23H4vFqQp4alhX-1xYMfvKOT_E7uTbK9BGJe-oZ1ShGLg&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=quantum+software+engineer&htidocid=_1sGRAHw9lsoi-f3AAAAAA%3D%3D",
+      "extensions": [
+        "26 days ago",
+        "Full–time"
+      ],
+      "source_link": "https://www.foundit.in/job/senior-quantum-application-engineer-barrington-james-bengaluru-bangalore-66327823",
+      "job_title": "Senior Quantum Application Engineer",
+      "description": "My client is seeking a Senior Quantum Field Engineer to join a multidisciplinary team working at the intersection of customers, product development, algorithms, and applications. This role focuses on translating emerging quantum technologies into real-world applications by working closely with enterprise partners and internal engineering teams.\n\n\n\nThe successful candidate will combine technical depth with strong client engagement skills, helping organizations explore and implement quantum computing use cases.\n\n\n\nKey Responsibilities\n\nPresent the company's quantum strategy, product portfolio, and applications to prospective clients while addressing technical questions.Guide enterprise clients through discussions on how quantum applications may be implemented within their business domains.Translate business requirements into technical proof-of-concept projects, collaborating with internal application and engineering teams.Map real-world industry problems (finance, bioscience, chemistry, materials science, optimization, generative AI, etc.) into quantum algorithms and application code.Provide feedback from customer engagements to product management and engineering teams to inform future development.Participate in conferences, industry events, and client meetings.Travel may be required for customer engagements and industry events.\n\nRequirements\n\nStrong technical understanding of Quantum Computing, specifically Quantum algorithms such as Qskit, VQE, QAOAStrong communication and stakeholder engagement skills, with the ability to explain complex technologies to both technical and non-technical audiences.Must be based in IndiaFluent in the local language\n\nFollowing your application Jake Phillips, a specialist recruiter will discuss the opportunity with you in detail. Jake will be more than happy to answer any questions relating to the industry and the potential for your career growth. The conversation can also progress further to discussing other opportunities, which are also available right now or will be imminently becoming available.\n\n\n\nThis position has been highly popular, and it is likely that it will close shortly. We recommend applying as soon as possible to avoid disappointment.\n\n\n\n[HIDDEN TEXT]",
+      "apply_options": [
+        {
+          "title": "Foundit",
+          "link": "https://www.foundit.in/job/senior-quantum-application-engineer-barrington-james-bengaluru-bangalore-66327823?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Jooble",
+          "link": "https://in.jooble.org/jdp/-2327534908987911123?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "BeBee",
+          "link": "https://bebee.com/in/jobs/senior-quantum-application-engineer-barrington-james-bengaluru--remote-i-XRUMDchwBm7aB-1FKWmxi-LB5Fa1lqM1TrHU?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "JobLeads",
+          "link": "https://www.jobleads.com/in/job/senior-engineer-application-management--bengaluru--e47e63de85ac4e12bf39b3c96656bf70a?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Jobrapido.com",
+          "link": "https://in.jobrapido.com/jobpreview/2369186387338461184?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJTZW5pb3IgUXVhbnR1bSBBcHBsaWNhdGlvbiBFbmdpbmVlciIsImNvbXBhbnlfbmFtZSI6IkJhcnJpbmd0b24gSmFtZXMiLCJodGlkb2NpZCI6Il8xc0dSQUh3OWxzb2ktZjNBQUFBQUE9PSIsInV1bGUiOiJ3K0NBSVFJQ0lGU1c1a2FXRSIsImdsIjoiaW4iLCJobCI6ImVuIiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwU3pnek1VeE9iVWxUUm1KbFNIQmhOR041WVd4eFlWWmhVakZOU0ZNd1ZFRmtRVGhmUlVjemJWQjRRMEZVTVRKR2JsTnRTSGwxTmtKblZFVXlkR040VkVwMFNGbG9ibXcwU0ZwdmVGWnljVVJJT1RaRVdqZEJWMFZ0VHprdGNtWlJUblZ2VGpoMFdqSTRkWFZGY0ZGbGJWSm1TVk5LZHpGcFdFUnFabEpMWm5Sdk5HaFRNM0VTRjFJelVFTmhjMjF5UkhWWGNUVk9iMUJ2V2tOSk9GRTBHaUpCUkhOeU9XWlNXVkozTVhodWVsVjJSWFJ0ZDFSUE5GZ3RTRlZVU2xGaWREZFIiLCJmY3YiOiIzIiwiZmNfaWQiOiJfMXNHUkFIdzlsc29pLWYzQUFBQUFBPT0ifQ=="
+    },
+    {
+      "title": "Associate Software Developer(Xamarin)",
+      "company_name": "Quantum IT Solutions",
+      "location": "India",
+      "via": "Glassdoor",
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=quantum+software+engineer&htidocid=Fz1Tt297cQ3xTl24AAAAAA%3D%3D&hl=en-IN&shem=epsd1,esd2e,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xWNMQrCQBAAsc0TBGFLtciJYKMgCIKkFC3swuZck5PL7XG70ZT-wdbX-RJjM93MZJ9Rtt2JsHWoBCe-6RMTwZ4e5DlSml6wxeTCDL6vN9y5AiFMtgEOcGCuPY03jWqUtTEiPq9FUZ3NLbeGA1Xcm0GSP0pphnT0w6hcrhZ9HkM9nxw7DNq1UJyHu-_UcRBwAYpwdfgDOyUr2Z8AAAA&shmds=v1_ARwrE21nXz7Q1AtQKAIxXx7JZmUaneYXbIGb194H93ua-gfvgA&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=quantum+software+engineer&htidocid=Fz1Tt297cQ3xTl24AAAAAA%3D%3D",
+      "thumbnail": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAADgAAAA4CAMAAACfWMssAAAAh1BMVEX_______38_Pz8_PoAAAD5_f3___uoqauXmJfl5-b09fO0tbGFio2goKGIhoKpqafU1dTe4N-2tLbIycnu7u6-vLLP0M2vra9DRES9vryemp3y8uyJlZh4bVxYVlLp6eyloJymr7F7engzLittbnJOU09vamQzNji2u751c26OkZKVkInl492NvfuJAAABEUlEQVRIie2R227DIAyGDSyHkZCYOCX1uq5NukOW9v2fb0DbbdLuqqlXfBLY2PyxcQASiUQi8a-IPw4IIeLJm2DjKbri2_fkV5U4C_zKo8nOCRU3lYGQPiVzfy-_fL8oH38a0NfCIq9q07QItiMA9EvqHn_1BasSHjqqNDocjF5z5ahr3VMGm2e9JQ0vsrc7Ymt75B1aHqyiqN-PXjhO3KzxYObX_q1a3vmjnb0QtgTKfrZuIYdFpfdGLIRcV6FbYRcasSzZNHbqXG0bLo7UrAj6EY4IJzo5ywbZcN_OiocNUwcyzExNBqQE6Z_uJ6BAKeWjMsRUiAD4WEiESxDjl-Hf_CdvVt5Y777lEolE4r58AYjWDeer1XiLAAAAAElFTkSuQmCC.png",
+      "extensions": [
+        "9 days ago",
+        "Full–time"
+      ],
+      "source_link": "https://www.glassdoor.co.in/job-listing/associate-software-developer-xamarin-quantum-it-solutions-JV_KO0,36_KE37,57.htm?jl=1007751950546",
+      "job_title": "Associate Software Developer(Xamarin)",
+      "description": "Experience level - 2 to 2.5 years of hands-on experience\n\n\n\n\n\nWe are looking for an experienced Developer who can design, develop, and support existing Mobile applications using Xamarin and C#.\n\n\nCandidate should have minimum 2 to 2.5 years of hands-on experience in developing scalable Mobile applications using Xamarin.\n\n\nThe main scope of work will include everything from back-end to client-side code, using optimal and efficient technologies, frameworks, and patterns.\n\n\nYour primary responsibilities will be to design and develop the applications. Therefore, it is essential that you are skilled at problem solving, solution design, and high-quality coding.\n\n\nYou will be directly involved with application coding, application debugging and testing, application deployment and application support.\n\n\nCandidate should have experience in developing and consuming REST API’s using C#.\n\n\nCandidate should have good knowledge in creating UI design with XAML.\n\n\nCandidate should have experience in SQLite, MSSQL RDBMS and DML queries.\n\n\nCandidate should have analytical mind with problem-solving aptitude.\n\n\nCandidate should be self-motivated and should work independently.\n\n\nExcellent communication skills are very important.\n\n\nCandidate should be willing to work extra hours whenever necessary.\n\n\nLocal candidates will be preferred.\n\n\nResponsibilities\nDeliver fully functional, cross platform and well tested mobile application developed according to quality standards.\nAnalyse, Design, Implement and Integrate functional requirements in new/existing solutions.\nWorking closely with team members to achieve project & organizational objectives.\nProducing detailed specifications and writing the program codes that performs efficiently.\nDeliver fully tested source code complying with code quality standards.\nPreparation of technical specification document.\nMaintaining the applications once they are up and running.\nWorking within a Team to determine needs and applying / customizing existing technology to meet those needs.\nReport to the line manager about the ongoing progress.\nSkills\nHands-on experience in design, architect, developing and delivering native mobile and cross platform Xamarin.Android, Xamarin.iOS and Xamarin.Forms applications.\nStrong knowledge in C#.net and SQLite Database with Entity Framework.\nStrong knowledge of developing REST API’s is an advantage.\nExperience in designing and developing custom controls for Android, Windows, and iOS.\nIndependent researching, solution finding, analysis and problem-solving skills and capabilities.\nShould have a strong knowledge of OOPS and intermediate knowledge of front-end GUI design and development.\nAbility to complete all phases of software development life cycle including analysis, design, functionality, testing and support.\nExperience Source Control like SVN & GitHub is preferred.\nMust be a team player and self-starter with ability to communicate clearly with clients and team-members in English as Main Language.",
+      "apply_options": [
+        {
+          "title": "Glassdoor",
+          "link": "https://www.glassdoor.co.in/job-listing/associate-software-developer-xamarin-quantum-it-solutions-JV_KO0,36_KE37,57.htm?jl=1007751950546&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Indeed",
+          "link": "https://in.indeed.com/viewjob?jk=5b7381b03d97830d&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Internshala",
+          "link": "https://internshala.com/job/detail/remote-associate-software-tester-job-at-appquarterz-technologies1791020761?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Glassdoor",
+          "link": "https://www.glassdoor.com/job-listing/associate-software-architecture-react-python-bebo-technologies-JV_IC2879615_KO0,44_KE45,62.htm?jl=1010215914156&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Jobaaj",
+          "link": "https://www.jobaaj.com/job/quantum-it-solutions-associate-software-developer-xamarin-all-india-2-to-6-years-949096?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "MySmartPros",
+          "link": "https://www.mysmartpros.com/remotepro/job/3461852?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Kit Job",
+          "link": "https://www.kitjob.in/job/336838062/software-associate-karnataka?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "CallCenterJob.co.in",
+          "link": "https://callcenterjob.co.in/associate-software-developerinternship-_620496?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJBc3NvY2lhdGUgU29mdHdhcmUgRGV2ZWxvcGVyKFhhbWFyaW4pIiwiY29tcGFueV9uYW1lIjoiUXVhbnR1bSBJVCBTb2x1dGlvbnMiLCJodGlkb2NpZCI6IkZ6MVR0Mjk3Y1EzeFRsMjRBQUFBQUE9PSIsInV1bGUiOiJ3K0NBSVFJQ0lGU1c1a2FXRSIsImdsIjoiaW4iLCJobCI6ImVuIiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwU1hkUVNFUnJjbU5JTVcxWFJtdFllVXBtWWpsNWRVaHpkelZwVGxRdE0wZzFORWhRYlRCWVZXaDZWVEpZVTNaWGRsTlhVbEowWWtWWFZIUlFXV3BFU1Vab1VERkNYMlZsUVZWcU9FVktMVk5XVEhSeGRVcDJVSEZtUWtwaWNrOUxhREprTFhrd01WSmxNbGhvTUVsQ1pqQkdiWGR5V25GZllWZzJORWsyUzFod2FubFBRM2tTRjFJelVFTmhjMjF5UkhWWGNUVk9iMUJ2V2tOSk9GRTBHaUpCUkhOeU9XWlVjbFoxUVV4YVlWVmtNRGhXZFhCS2JYRnJWV3RSTkVSVFVWUkIiLCJmY3YiOiIzIiwiZmNfaWQiOiJGejFUdDI5N2NRM3hUbDI0QUFBQUFBPT0ifQ=="
+    }
+  ],
+  "serpapi_pagination": {
+    "next_page_token": "eyJmYyI6IkVyY0VDdmNEUVVwcFZEUjBURkEzVGs1b1VtOXpVSGxWUVZCaVFsUlNSbEptWVc5RlNFbzVUMFZKUTFWWlEyNW1Ta1JFWjJWVmRUYzRibmRQVVVONWRXRllTRTV3YWxkUE1HdGxibnBCVkdGUFRGUkhhWHBxYkcwMVIxb3hiVWRJWTNsb2JEQlFPRTlrT1RRemJFMURZa05tWWxneVRUSTBWM2N3ZUdscVRWUlNkRkpQUkZsR1ZIUlFZMDVLT0RoUFMwZHRWVGh3VFVWclNsZEJTa1ZUTkVSdFlXMUJSVFowY0ZOclZUbDBSazFGVGw5ak1EaE9TV2wzTlhGU1NsQXlNRXhCYm01UWJqTnFaSFp6WVVvdGRIWkVSRk5IUjNNelYxVllSbXBTWkd0MFVrRlVkVWx4VUVvME5tSmFja053U1VoUVkxRk1SR1ZMWTFKa2QyeEZNMWN5T0VVdGNWcDVPV1YyVGtwelF6Sm1WbEJaWjJ0UVZrVnpWVE5WUVZWb04yZEdiRlEyUkcxS1REUjRjWFYxZUZkc1NYTjNWVE5FVGtnNWJuVXpVbUpVYVY4ME1XMWZSR0kzV0RJNVJUaDZMVTkyYnpCR2JFbEpXVEpVVHpZM2JVZG1RazVZVVVvelV6QjNRVXBqU25KRFNtSm1SMEZIWWw4MFdUQjVRV3hxYm1nNWVISkdUMGxUU0RRM2QyOHhSSFo2VTB4NVQxbG5TSFpuZEZrNU1sUkRRMjlhVURkQlRtVjBRM0V5Ymw5d1NsWkZVM0o0YVdwb2QyNXpjRTFLYjBORWMyWlhPVVp2TjNOTlNFVktXSGhEYjJ4bGRXVjNNMEZDY0drd1NUUkVibkJZUmxCSU1GRnVPSEo2U1U1a1lsWm5kVzFyZUcxTU4zTjVVREFTRjFJelVFTmhjMjF5UkhWWGNUVk9iMUJ2V2tOSk9GRTBHaUpCUkhOeU9XWlNNa2xXWWtKbFJVRkhTbUZ1VGs1d1QxZDZOMGx1Um01dWEyZFIiLCJmY3YiOiIzIn0=",
+    "next": "https://serpapi.com/search.json?engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&next_page_token=eyJmYyI6IkVyY0VDdmNEUVVwcFZEUjBURkEzVGs1b1VtOXpVSGxWUVZCaVFsUlNSbEptWVc5RlNFbzVUMFZKUTFWWlEyNW1Ta1JFWjJWVmRUYzRibmRQVVVONWRXRllTRTV3YWxkUE1HdGxibnBCVkdGUFRGUkhhWHBxYkcwMVIxb3hiVWRJWTNsb2JEQlFPRTlrT1RRemJFMURZa05tWWxneVRUSTBWM2N3ZUdscVRWUlNkRkpQUkZsR1ZIUlFZMDVLT0RoUFMwZHRWVGh3VFVWclNsZEJTa1ZUTkVSdFlXMUJSVFowY0ZOclZUbDBSazFGVGw5ak1EaE9TV2wzTlhGU1NsQXlNRXhCYm01UWJqTnFaSFp6WVVvdGRIWkVSRk5IUjNNelYxVllSbXBTWkd0MFVrRlVkVWx4VUVvME5tSmFja053U1VoUVkxRk1SR1ZMWTFKa2QyeEZNMWN5T0VVdGNWcDVPV1YyVGtwelF6Sm1WbEJaWjJ0UVZrVnpWVE5WUVZWb04yZEdiRlEyUkcxS1REUjRjWFYxZUZkc1NYTjNWVE5FVGtnNWJuVXpVbUpVYVY4ME1XMWZSR0kzV0RJNVJUaDZMVTkyYnpCR2JFbEpXVEpVVHpZM2JVZG1RazVZVVVvelV6QjNRVXBqU25KRFNtSm1SMEZIWWw4MFdUQjVRV3hxYm1nNWVISkdUMGxUU0RRM2QyOHhSSFo2VTB4NVQxbG5TSFpuZEZrNU1sUkRRMjlhVURkQlRtVjBRM0V5Ymw5d1NsWkZVM0o0YVdwb2QyNXpjRTFLYjBORWMyWlhPVVp2TjNOTlNFVktXSGhEYjJ4bGRXVjNNMEZDY0drd1NUUkVibkJZUmxCSU1GRnVPSEo2U1U1a1lsWm5kVzFyZUcxTU4zTjVVREFTRjFJelVFTmhjMjF5UkhWWGNUVk9iMUJ2V2tOSk9GRTBHaUpCUkhOeU9XWlNNa2xXWWtKbFJVRkhTbUZ1VGs1d1QxZDZOMGx1Um01dWEyZFIiLCJmY3YiOiIzIn0%3D&q=quantum+software+engineer"
+  }
+}

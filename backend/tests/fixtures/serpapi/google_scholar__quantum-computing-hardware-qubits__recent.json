@@ -1,0 +1,799 @@
+{
+  "search_metadata": {
+    "id": "6ac2734c1266d7aabbe7ef9b",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/VAH3rNnW4Erg73k-GkeBadQ9Rr-Int-eWHDZhue9ujs/6ac2734c1266d7aabbe7ef9b.json",
+    "markdown_endpoint": "https://serpapi.com/searches/VAH3rNnW4Erg73k-GkeBadQ9Rr-Int-eWHDZhue9ujs/6ac2734c1266d7aabbe7ef9b.md",
+    "created_at": "2026-10-04 15:39:56 UTC",
+    "processed_at": "2026-10-04 15:39:56 UTC",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=quantum+computing+hardware+qubits&hl=en&num=21&scisbd=1",
+    "raw_html_file": "https://serpapi.com/searches/VAH3rNnW4Erg73k-GkeBadQ9Rr-Int-eWHDZhue9ujs/6ac2734c1266d7aabbe7ef9b.html",
+    "total_time_taken": 9.33
+  },
+  "search_parameters": {
+    "engine": "google_scholar",
+    "q": "quantum computing hardware qubits",
+    "hl": "en",
+    "num": "20",
+    "scisbd": "1"
+  },
+  "search_information": {
+    "organic_results_state": "Results for exact spelling",
+    "total_results": 2010,
+    "time_taken_displayed": 0.2,
+    "query_displayed": "quantum computing hardware qubits"
+  },
+  "organic_results": [
+    {
+      "position": 1,
+      "title": "Adversarial Robustness in Fake Quantum Simulators",
+      "result_id": "bFXoDdl94vkJ",
+      "link": "https://arxiv.org/abs/2610.01574",
+      "snippet": "2 days ago - … of Quantum Machine Learning (QML) models using noisy simulators that mimic real quantum hardware… execution costs of larger quantum models (up to 8 qubits) based on …",
+      "publication_info": {
+        "summary": "M Maußner, V Reers - arXiv preprint arXiv:2610.01574, 2026 - arxiv.org",
+        "authors": [
+          {
+            "name": "M Maußner"
+          },
+          {
+            "name": "V Reers"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "arxiv.org",
+          "file_format": "PDF",
+          "link": "https://arxiv.org/pdf/2610.01574"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=bFXoDdl94vkJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:bFXoDdl94vkJ:scholar.google.com/&scioq=quantum+computing+hardware+qubits&hl=en&scisbd=1&num=20&as_sdt=0,5",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3AbFXoDdl94vkJ%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:bFXoDdl94vkJ:scholar.google.com/+quantum+computing+hardware+qubits&hl=en&scisbd=1&num=20&as_sdt=0,5"
+      }
+    },
+    {
+      "position": 2,
+      "title": "Constant-Per-Layer-Depth MPS-Pretrained Ansatz for Noisy Distributed Quantum Processors",
+      "result_id": "8-3vtzKVeIEJ",
+      "link": "https://arxiv.org/abs/2610.01099",
+      "snippet": "2 days ago - … to modular processors with one communication qubit per quantum processing unit (QPU); a … as a principle for variational quantum computation on noisy modular hardware. …",
+      "publication_info": {
+        "summary": "S Hong, W Lee, YS Kim, SSB Lee, J Lee - arXiv preprint arXiv:2610.01099, 2026 - arxiv.org",
+        "authors": [
+          {
+            "name": "S Hong"
+          },
+          {
+            "name": "W Lee"
+          },
+          {
+            "name": "YS Kim"
+          },
+          {
+            "name": "SSB Lee"
+          },
+          {
+            "name": "J Lee"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "arxiv.org",
+          "file_format": "PDF",
+          "link": "https://arxiv.org/pdf/2610.01099"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=8-3vtzKVeIEJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:8-3vtzKVeIEJ:scholar.google.com/&scioq=quantum+computing+hardware+qubits&hl=en&scisbd=1&num=20&as_sdt=0,5",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3A8-3vtzKVeIEJ%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:8-3vtzKVeIEJ:scholar.google.com/+quantum+computing+hardware+qubits&hl=en&scisbd=1&num=20&as_sdt=0,5"
+      }
+    },
+    {
+      "position": 3,
+      "title": "Learned parallel bit-flipping sequential belief propagation decoding of quantum LDPC codes",
+      "result_id": "fvC6Tqj0tMoJ",
+      "link": "https://arxiv.org/abs/2610.01068",
+      "snippet": "2 days ago - … Pauli decision of one qubit. The selected candidates … mainly increases parallel hardware resources rather than … encodes k logical qubits into n physical qubits and has …",
+      "publication_info": {
+        "summary": "M Moradi, T Kim, RA Chou - arXiv preprint arXiv:2610.01068, 2026 - arxiv.org",
+        "authors": [
+          {
+            "name": "M Moradi"
+          },
+          {
+            "name": "T Kim"
+          },
+          {
+            "name": "RA Chou"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "arxiv.org",
+          "file_format": "PDF",
+          "link": "https://arxiv.org/pdf/2610.01068"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=fvC6Tqj0tMoJ",
+        "cited_by": {
+          "total": 2,
+          "link": "https://scholar.google.com/scholar?cites=14606568495181918334&as_sdt=2005&sciodt=0,5&hl=en&num=20",
+          "cites_id": "14606568495181918334",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=14606568495181918334&engine=google_scholar&hl=en&num=20"
+        },
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:fvC6Tqj0tMoJ:scholar.google.com/&scioq=quantum+computing+hardware+qubits&hl=en&scisbd=1&num=20&as_sdt=0,5",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3AfvC6Tqj0tMoJ%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:fvC6Tqj0tMoJ:scholar.google.com/+quantum+computing+hardware+qubits&hl=en&scisbd=1&num=20&as_sdt=0,5"
+      }
+    },
+    {
+      "position": 4,
+      "title": "New QUBO Transformations to Improve Quantum and Simulated Annealing Performance for Quadratic Knapsack",
+      "result_id": "g1pt0hiOos8J",
+      "link": "https://dspace.networks.imdea.org/handle/20.500.12761/2104",
+      "snippet": "2 days ago - … Recent advancements in quantum computing have demonstrated significant potential … on emerging quantum hardware, since it also reduces the required number of qubits …",
+      "publication_info": {
+        "summary": "N Borrajo Carro… - … on Quantum …, 2026 - dspace.networks.imdea.org",
+        "authors": [
+          {
+            "name": "N Borrajo Carro"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "imdea.org",
+          "file_format": "PDF",
+          "link": "https://dspace.networks.imdea.org/bitstream/handle/20.500.12761/2104/2026_ICAART_quantum_scheduling_problem.pdf?sequence=1&isAllowed=y"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=g1pt0hiOos8J",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:g1pt0hiOos8J:scholar.google.com/&scioq=quantum+computing+hardware+qubits&hl=en&scisbd=1&num=20&as_sdt=0,5",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3Ag1pt0hiOos8J%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:g1pt0hiOos8J:scholar.google.com/+quantum+computing+hardware+qubits&hl=en&scisbd=1&num=20&as_sdt=0,5"
+      }
+    },
+    {
+      "position": 5,
+      "title": "Quantum-Classical Synergies for Simulations of Quantum Systems",
+      "result_id": "OWrjRbtVbxgJ",
+      "link": "https://infoscience.epfl.ch/entities/publication/fbf9808c-2c57-4d89-9775-097307258c5d",
+      "snippet": "3 days ago - … Quantum computers offer a natural platform for … by noise and limited qubit counts, drastically restricting the … , implement long-range gates with hardware-efficient circuits, or …",
+      "publication_info": {
+        "summary": "GF Gentinetta - 2026 - infoscience.epfl.ch",
+        "authors": [
+          {
+            "name": "GF Gentinetta"
+          }
+        ]
+      },
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=OWrjRbtVbxgJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:OWrjRbtVbxgJ:scholar.google.com/&scioq=quantum+computing+hardware+qubits&hl=en&scisbd=1&num=20&as_sdt=0,5",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3AOWrjRbtVbxgJ%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:OWrjRbtVbxgJ:scholar.google.com/+quantum+computing+hardware+qubits&hl=en&scisbd=1&num=20&as_sdt=0,5"
+      }
+    },
+    {
+      "position": 6,
+      "title": "Parallel algebraic surgery for qLDPC codes with constant shuttling depth",
+      "result_id": "VpJ5rvqCnrUJ",
+      "link": "https://arxiv.org/abs/2609.39874",
+      "snippet": "3 days ago - … important in high-rate quantum architectures, where … 11–13] emphasize low qubit overhead without directly … efficient hardware implementations of quantum memories …",
+      "publication_info": {
+        "summary": "TG Zhou, B Gu, J Eisert, C Zhao - arXiv preprint arXiv:2609.39874, 2026 - arxiv.org",
+        "authors": [
+          {
+            "name": "TG Zhou"
+          },
+          {
+            "name": "B Gu",
+            "link": "https://scholar.google.com/citations?user=-nMQDn8AAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "-nMQDn8AAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=-nMQDn8AAAAJ&engine=google_scholar_author&hl=en"
+          },
+          {
+            "name": "J Eisert",
+            "link": "https://scholar.google.com/citations?user=WawCci0AAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "WawCci0AAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=WawCci0AAAAJ&engine=google_scholar_author&hl=en"
+          },
+          {
+            "name": "C Zhao"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "arxiv.org",
+          "file_format": "PDF",
+          "link": "https://arxiv.org/pdf/2609.39874"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=VpJ5rvqCnrUJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:VpJ5rvqCnrUJ:scholar.google.com/&scioq=quantum+computing+hardware+qubits&hl=en&scisbd=1&num=20&as_sdt=0,5",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3AVpJ5rvqCnrUJ%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:VpJ5rvqCnrUJ:scholar.google.com/+quantum+computing+hardware+qubits&hl=en&scisbd=1&num=20&as_sdt=0,5"
+      }
+    },
+    {
+      "position": 7,
+      "title": "Opportunities and Challenges of Intelligent Quantum Image Processing with Deep Learning",
+      "result_id": "VgzyyLTUn5oJ",
+      "link": "https://www.atlantis-press.com/proceedings/icettacs-26/126027776",
+      "snippet": "3 days ago - … , quantum image processing (QIP) remains constrained by current hardware limitations, qubit noise, and fragile quantum … The process of quantum computing brings along …",
+      "publication_info": {
+        "summary": "R Hemalatha, JVS Bonam - … in Applications of Computer Science …, 2026 - atlantis-press.com",
+        "authors": [
+          {
+            "name": "R Hemalatha"
+          },
+          {
+            "name": "JVS Bonam"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "atlantis-press.com",
+          "file_format": "PDF",
+          "link": "https://www.atlantis-press.com/article/126027776.pdf"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=VgzyyLTUn5oJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:VgzyyLTUn5oJ:scholar.google.com/&scioq=quantum+computing+hardware+qubits&hl=en&scisbd=1&num=20&as_sdt=0,5",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3AVgzyyLTUn5oJ%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:VgzyyLTUn5oJ:scholar.google.com/+quantum+computing+hardware+qubits&hl=en&scisbd=1&num=20&as_sdt=0,5"
+      }
+    },
+    {
+      "position": 8,
+      "title": "Deterministic and programmable fusion for the scalable generation of photonic graph states",
+      "result_id": "i6F9mQduBhAJ",
+      "link": "https://www.nature.com/articles/s41567-026-03471-5",
+      "snippet": "4 days ago - … -based quantum computing and memoryless quantum … logical qubit state by projecting the three-qubit density … optical methods—ensures high hardware efficiency. By …",
+      "publication_info": {
+        "summary": "Y Li, Y Yang, Z Bao, J Yang, L Sun, Y Song, Y Wu… - Nature Physics, 2026 - nature.com",
+        "authors": [
+          {
+            "name": "Y Li"
+          },
+          {
+            "name": "Y Yang"
+          },
+          {
+            "name": "Z Bao",
+            "link": "https://scholar.google.com/citations?user=MCHo6x8AAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "MCHo6x8AAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=MCHo6x8AAAAJ&engine=google_scholar_author&hl=en"
+          },
+          {
+            "name": "J Yang"
+          },
+          {
+            "name": "L Sun",
+            "link": "https://scholar.google.com/citations?user=zX-ba_MAAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "zX-ba_MAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=zX-ba_MAAAAJ&engine=google_scholar_author&hl=en"
+          },
+          {
+            "name": "Y Song",
+            "link": "https://scholar.google.com/citations?user=I_x6qwIAAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "I_x6qwIAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=I_x6qwIAAAAJ&engine=google_scholar_author&hl=en"
+          },
+          {
+            "name": "Y Wu"
+          }
+        ]
+      },
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=i6F9mQduBhAJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:i6F9mQduBhAJ:scholar.google.com/&scioq=quantum+computing+hardware+qubits&hl=en&scisbd=1&num=20&as_sdt=0,5",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3Ai6F9mQduBhAJ%3Ascholar.google.com%2F&scisbd=1"
+      }
+    },
+    {
+      "position": 9,
+      "title": "Data-driven Hamiltonian correction of transmon qubits",
+      "result_id": "UWA2ynRBMyYJ",
+      "link": "https://link.springer.com/article/10.1007/s11128-026-05350-7",
+      "snippet": "4 days ago - … model of quantum computation [2] … Quantum currently precludes running new hardware experiments We also carried out optimizations on a 3 qubit case where 2 qubits are …",
+      "publication_info": {
+        "summary": "JG Francis, A Shaji - Quantum Information Processing, 2026 - Springer",
+        "authors": [
+          {
+            "name": "JG Francis"
+          },
+          {
+            "name": "A Shaji",
+            "link": "https://scholar.google.com/citations?user=Pp5t7VsAAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "Pp5t7VsAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=Pp5t7VsAAAAJ&engine=google_scholar_author&hl=en"
+          }
+        ]
+      },
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=UWA2ynRBMyYJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:UWA2ynRBMyYJ:scholar.google.com/&scioq=quantum+computing+hardware+qubits&hl=en&scisbd=1&num=20&as_sdt=0,5",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3AUWA2ynRBMyYJ%3Ascholar.google.com%2F&scisbd=1"
+      }
+    },
+    {
+      "position": 10,
+      "title": "Extending the DRAG method to Landau–Zener control via isoprobability twin models",
+      "result_id": "7vr2M2gsLSsJ",
+      "link": "https://iopscience.iop.org/article/10.1088/1361-6455/aeae8c/meta",
+      "snippet": "4 days ago - … quantum computing applications. For example, a number of common implementations of single-qubit quantum … We conclude with a hardware-suited numerical …",
+      "publication_info": {
+        "summary": "IS Mihov, NV Vitanov - Journal of Physics B: Atomic, Molecular …, 2026 - iopscience.iop.org",
+        "authors": [
+          {
+            "name": "IS Mihov"
+          },
+          {
+            "name": "NV Vitanov"
+          }
+        ]
+      },
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=7vr2M2gsLSsJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:7vr2M2gsLSsJ:scholar.google.com/&scioq=quantum+computing+hardware+qubits&hl=en&scisbd=1&num=20&as_sdt=0,5",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3A7vr2M2gsLSsJ%3Ascholar.google.com%2F&scisbd=1"
+      }
+    },
+    {
+      "position": 11,
+      "title": "Q-SODA: High-Precision Small Object Detection via Feature Refinement in Hilbert Space using Cross-Channel Interaction VQCs",
+      "result_id": "M5RD69_jrHIJ",
+      "type": "Html",
+      "link": "https://www.sciencedirect.com/science/article/pii/S2590123026043173",
+      "snippet": "4 days ago - … To interface the 2048-dimensional classical manifold with the 8-qubit quantum … 8-qubit register of the CCI-VQC. Eight qubits were determined to be the optimal hardware …",
+      "publication_info": {
+        "summary": "D Susitra, L Sharmila, C Arunvinodh - Results in Engineering, 2026 - Elsevier",
+        "authors": [
+          {
+            "name": "D Susitra"
+          },
+          {
+            "name": "L Sharmila"
+          },
+          {
+            "name": "C Arunvinodh"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "HTML",
+          "link": null
+        },
+        {
+          "title": "sciencedirect.com",
+          "file_format": "HTML",
+          "link": "https://www.sciencedirect.com/science/article/pii/S2590123026043173"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=M5RD69_jrHIJ",
+        "html_version": "https://www.sciencedirect.com/science/article/pii/S2590123026043173",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:M5RD69_jrHIJ:scholar.google.com/&scioq=quantum+computing+hardware+qubits&hl=en&scisbd=1&num=20&as_sdt=0,5",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3AM5RD69_jrHIJ%3Ascholar.google.com%2F&scisbd=1"
+      }
+    },
+    {
+      "position": 12,
+      "title": "Quantum Circuit Pruning: From NISQ Architectures to Fault-Tolerant Operations",
+      "result_id": "jGkTd4uHr7MJ",
+      "link": "https://arxiv.org/abs/2610.00669",
+      "snippet": "4 days ago - … two-qubit gates whose computational contribution is … -Scale Quantum (NISQ) and fault-tolerant quantum computing (… of NISQ hardware by encoding a single logical qubit …",
+      "publication_info": {
+        "summary": "P Escofet, CG Almudéver, S Abadal… - arXiv preprint arXiv …, 2026 - arxiv.org",
+        "authors": [
+          {
+            "name": "P Escofet"
+          },
+          {
+            "name": "CG Almudéver"
+          },
+          {
+            "name": "S Abadal"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "arxiv.org",
+          "file_format": "PDF",
+          "link": "https://arxiv.org/pdf/2610.00669"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=jGkTd4uHr7MJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:jGkTd4uHr7MJ:scholar.google.com/&scioq=quantum+computing+hardware+qubits&hl=en&scisbd=1&num=20&as_sdt=0,5",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3AjGkTd4uHr7MJ%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:jGkTd4uHr7MJ:scholar.google.com/+quantum+computing+hardware+qubits&hl=en&scisbd=1&num=20&as_sdt=0,5"
+      }
+    },
+    {
+      "position": 13,
+      "title": "Quantum--classical break-even in electronic dynamics of macrocyclic molecules",
+      "result_id": "ZSbLprjgHqcJ",
+      "link": "https://arxiv.org/abs/2609.39693",
+      "snippet": "4 days ago - … quantum algorithms is to perform quantum computation in … of the quantum hardware execution step as the quantum… -ranked qubits, we selected qubits sequentially and …",
+      "publication_info": {
+        "summary": "S Kanno, K Sugisaki, T Imamichi, T Itoko… - arXiv preprint arXiv …, 2026 - arxiv.org",
+        "authors": [
+          {
+            "name": "S Kanno"
+          },
+          {
+            "name": "K Sugisaki"
+          },
+          {
+            "name": "T Imamichi"
+          },
+          {
+            "name": "T Itoko"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "arxiv.org",
+          "file_format": "PDF",
+          "link": "https://arxiv.org/pdf/2609.39693"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=ZSbLprjgHqcJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:ZSbLprjgHqcJ:scholar.google.com/&scioq=quantum+computing+hardware+qubits&hl=en&scisbd=1&num=20&as_sdt=0,5",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3AZSbLprjgHqcJ%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:ZSbLprjgHqcJ:scholar.google.com/+quantum+computing+hardware+qubits&hl=en&scisbd=1&num=20&as_sdt=0,5"
+      }
+    },
+    {
+      "position": 14,
+      "title": "A simulator-based quantum framework for molecular dynamics and multiscale materials modeling",
+      "result_id": "Gm9kzzyRNFwJ",
+      "link": "https://www.academia.edu/3064-979X/3/3/10.20935/AcadQuant8550",
+      "snippet": "5 days ago - … : Quantum computing has the … hardware is limited by finite qubit counts, noise, and error accumulation, and is therefore categorized as Noisy Intermediate-Scale Quantum (…",
+      "publication_info": {
+        "summary": "Y Chen, S Xiao - Academia Quantum, 2026 - academia.edu",
+        "authors": [
+          {
+            "name": "Y Chen",
+            "link": "https://scholar.google.com/citations?user=AUz7L-wAAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "AUz7L-wAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=AUz7L-wAAAAJ&engine=google_scholar_author&hl=en"
+          },
+          {
+            "name": "S Xiao",
+            "link": "https://scholar.google.com/citations?user=aAwYk48AAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "aAwYk48AAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=aAwYk48AAAAJ&engine=google_scholar_author&hl=en"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "academia.edu",
+          "file_format": "PDF",
+          "link": "https://www.academia.edu/3064-979X/3/3/10.20935/AcadQuant8550/pdf"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=Gm9kzzyRNFwJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:Gm9kzzyRNFwJ:scholar.google.com/&scioq=quantum+computing+hardware+qubits&hl=en&scisbd=1&num=20&as_sdt=0,5",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3AGm9kzzyRNFwJ%3Ascholar.google.com%2F&scisbd=1",
+        "versions": {
+          "total": 2,
+          "link": "https://scholar.google.com/scholar?cluster=6644095040641855258&hl=en&scisbd=1&num=20&as_sdt=0,5",
+          "cluster_id": "6644095040641855258",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&cluster=6644095040641855258&engine=google_scholar&hl=en&num=20&scisbd=1"
+        },
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:Gm9kzzyRNFwJ:scholar.google.com/+quantum+computing+hardware+qubits&hl=en&scisbd=1&num=20&as_sdt=0,5"
+      }
+    },
+    {
+      "position": 15,
+      "title": "Qubit-Efficient Quantum Circuit for the Minimum Vertex Cover Problem Using Grover's Algorithm",
+      "result_id": "3E78RvKzE6QJ",
+      "link": "https://ieeexplore.ieee.org/abstract/document/11714519/",
+      "snippet": "5 days ago - … We analyze the trade-offs between qubit requirements and … these solvers on fault-tolerant quantum hardware. … tolerant quantum computers is severely constrained by qubit …",
+      "publication_info": {
+        "summary": "K Sarawit, K Suksen - IEEE Transactions on Quantum …, 2026 - ieeexplore.ieee.org",
+        "authors": [
+          {
+            "name": "K Sarawit"
+          },
+          {
+            "name": "K Suksen",
+            "link": "https://scholar.google.com/citations?user=ri2fvuYAAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "ri2fvuYAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=ri2fvuYAAAAJ&engine=google_scholar_author&hl=en"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "ieee.org",
+          "file_format": "PDF",
+          "link": "https://ieeexplore.ieee.org/iel8/8924785/8961200/11714519.pdf"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=3E78RvKzE6QJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:3E78RvKzE6QJ:scholar.google.com/&scioq=quantum+computing+hardware+qubits&hl=en&scisbd=1&num=20&as_sdt=0,5",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3A3E78RvKzE6QJ%3Ascholar.google.com%2F&scisbd=1"
+      }
+    },
+    {
+      "position": 16,
+      "title": "Quantum Error Correction Survey",
+      "result_id": "pUFIodn0S9UJ",
+      "link": "https://ieeexplore.ieee.org/abstract/document/11713481/",
+      "snippet": "5 days ago - … Abstract: This survey examines quantum error correction (QEC) as … quantum computing and protected quantum communication. It covers code and noise models, hardware …",
+      "publication_info": {
+        "summary": "R Jain, Z Yang, C Tian, R Kompella, R Nejabati… - IEEE …, 2026 - ieeexplore.ieee.org",
+        "authors": [
+          {
+            "name": "R Jain",
+            "link": "https://scholar.google.com/citations?user=runT3RsAAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "runT3RsAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=runT3RsAAAAJ&engine=google_scholar_author&hl=en"
+          },
+          {
+            "name": "Z Yang",
+            "link": "https://scholar.google.com/citations?user=gba_8H8AAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "gba_8H8AAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=gba_8H8AAAAJ&engine=google_scholar_author&hl=en"
+          },
+          {
+            "name": "C Tian",
+            "link": "https://scholar.google.com/citations?user=py0mjcEAAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "py0mjcEAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=py0mjcEAAAAJ&engine=google_scholar_author&hl=en"
+          },
+          {
+            "name": "R Kompella",
+            "link": "https://scholar.google.com/citations?user=uf9RZboAAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "uf9RZboAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=uf9RZboAAAAJ&engine=google_scholar_author&hl=en"
+          },
+          {
+            "name": "R Nejabati",
+            "link": "https://scholar.google.com/citations?user=FO1_4uIAAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "FO1_4uIAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=FO1_4uIAAAAJ&engine=google_scholar_author&hl=en"
+          }
+        ]
+      },
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=pUFIodn0S9UJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:pUFIodn0S9UJ:scholar.google.com/&scioq=quantum+computing+hardware+qubits&hl=en&scisbd=1&num=20&as_sdt=0,5",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3ApUFIodn0S9UJ%3Ascholar.google.com%2F&scisbd=1"
+      }
+    },
+    {
+      "position": 17,
+      "title": "Post-measurement readout and class-resolved hardware sensitivity of a variational quantum classifier on two IBM Heron r2 backends",
+      "result_id": "Jen1c4hrEPIJ",
+      "link": "https://link.springer.com/article/10.1140/epjqt/s40507-026-00570-3",
+      "snippet": "5 days ago - … We study a four-qubit VQC for three-class traffic-state classification on two IBM Heron r2 backends. In a single-seed comparison, a four-channel linear-projection readout …",
+      "publication_info": {
+        "summary": "H Yi - EPJ Quantum Technology, 2026 - Springer",
+        "authors": [
+          {
+            "name": "H Yi",
+            "link": "https://scholar.google.com/citations?user=EQUD_CQAAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "EQUD_CQAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=EQUD_CQAAAAJ&engine=google_scholar_author&hl=en"
+          }
+        ]
+      },
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=Jen1c4hrEPIJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:Jen1c4hrEPIJ:scholar.google.com/&scioq=quantum+computing+hardware+qubits&hl=en&scisbd=1&num=20&as_sdt=0,5",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3AJen1c4hrEPIJ%3Ascholar.google.com%2F&scisbd=1"
+      }
+    },
+    {
+      "position": 18,
+      "title": "High-speed gates in Kerr-cat qubits via fast-forward scaling",
+      "result_id": "58mD78ySyX4J",
+      "link": "https://link.aps.org/pdf/10.1103/6k22-99z2",
+      "snippet": "5 days ago - … a qubit is referred to as a Kerr-cat qubit or a KPO qubit [5–… can reduce hardware overhead for fault-tolerant quantum … -cat qubits a promising platform for scalable quantum …",
+      "publication_info": {
+        "summary": "T Aoki, S Masuda - Physical Review A, 2026 - APS",
+        "authors": [
+          {
+            "name": "T Aoki"
+          },
+          {
+            "name": "S Masuda",
+            "link": "https://scholar.google.com/citations?user=DLfSnxUAAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "DLfSnxUAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=DLfSnxUAAAAJ&engine=google_scholar_author&hl=en"
+          }
+        ]
+      },
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=58mD78ySyX4J",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:58mD78ySyX4J:scholar.google.com/&scioq=quantum+computing+hardware+qubits&hl=en&scisbd=1&num=20&as_sdt=0,5",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3A58mD78ySyX4J%3Ascholar.google.com%2F&scisbd=1",
+        "versions": {
+          "total": 2,
+          "link": "https://scholar.google.com/scholar?cluster=9135994727987136999&hl=en&scisbd=1&num=20&as_sdt=0,5",
+          "cluster_id": "9135994727987136999",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&cluster=9135994727987136999&engine=google_scholar&hl=en&num=20&scisbd=1"
+        }
+      }
+    },
+    {
+      "position": 19,
+      "title": "Roofline-Aware Performance Modeling and Scheduling for GPU-Accelerated Quantum Computing with CUDA-Q",
+      "result_id": "zi_kOCp6FuoJ",
+      "link": "https://par.nsf.gov/biblio/10716191",
+      "snippet": "6 days ago - … Existing approaches neither model which hardware resource dominates nor exploit … 80-qubit circuits across superconducting, trapped-ion, and neutral-atom hardware tiers…",
+      "publication_info": {
+        "summary": "J Gesseck, S Kan, I Zhou, P Christou, Y Mao - 2026 - par.nsf.gov",
+        "authors": [
+          {
+            "name": "J Gesseck"
+          },
+          {
+            "name": "S Kan",
+            "link": "https://scholar.google.com/citations?user=OPBypkkAAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "OPBypkkAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=OPBypkkAAAAJ&engine=google_scholar_author&hl=en"
+          },
+          {
+            "name": "I Zhou"
+          },
+          {
+            "name": "P Christou",
+            "link": "https://scholar.google.com/citations?user=f0DMnVAAAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "f0DMnVAAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=f0DMnVAAAAAJ&engine=google_scholar_author&hl=en"
+          },
+          {
+            "name": "Y Mao",
+            "link": "https://scholar.google.com/citations?user=s_oeuQUAAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "s_oeuQUAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=s_oeuQUAAAAJ&engine=google_scholar_author&hl=en"
+          }
+        ]
+      },
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=zi_kOCp6FuoJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:zi_kOCp6FuoJ:scholar.google.com/&scioq=quantum+computing+hardware+qubits&hl=en&scisbd=1&num=20&as_sdt=0,5",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3Azi_kOCp6FuoJ%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:zi_kOCp6FuoJ:scholar.google.com/+quantum+computing+hardware+qubits&hl=en&scisbd=1&num=20&as_sdt=0,5"
+      }
+    },
+    {
+      "position": 20,
+      "title": "Variational Real-Time Dynamics on Reduced Operator Manifolds",
+      "result_id": "bjxHQFkcDegJ",
+      "link": "https://ui.adsabs.harvard.edu/abs/2026arXiv260915272A/abstract",
+      "snippet": "6 days ago - … and near-term quantum hardware. We introduce operator-projected variational … up to 24 qubits. We further use OVQRTE to sample computational-basis states for quantum-…",
+      "publication_info": {
+        "summary": "A Ameera Anuar, PV Sriluckshmy, R Rossi… - arXiv e …, 2026 - ui.adsabs.harvard.edu",
+        "authors": [
+          {
+            "name": "A Ameera Anuar"
+          },
+          {
+            "name": "PV Sriluckshmy"
+          },
+          {
+            "name": "R Rossi",
+            "link": "https://scholar.google.com/citations?user=GLRKCyYAAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "GLRKCyYAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=GLRKCyYAAAAJ&engine=google_scholar_author&hl=en"
+          }
+        ]
+      },
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=bjxHQFkcDegJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:bjxHQFkcDegJ:scholar.google.com/&scioq=quantum+computing+hardware+qubits&hl=en&scisbd=1&num=20&as_sdt=0,5",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3AbjxHQFkcDegJ%3Ascholar.google.com%2F&scisbd=1"
+      }
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://scholar.google.com/scholar?start=20&q=quantum+computing+hardware+qubits&hl=en&scisbd=1&num=20&as_sdt=0,5",
+    "other_pages": {
+      "2": "https://scholar.google.com/scholar?start=20&q=quantum+computing+hardware+qubits&hl=en&scisbd=1&num=20&as_sdt=0,5",
+      "3": "https://scholar.google.com/scholar?start=40&q=quantum+computing+hardware+qubits&hl=en&scisbd=1&num=20&as_sdt=0,5",
+      "4": "https://scholar.google.com/scholar?start=60&q=quantum+computing+hardware+qubits&hl=en&scisbd=1&num=20&as_sdt=0,5",
+      "5": "https://scholar.google.com/scholar?start=80&q=quantum+computing+hardware+qubits&hl=en&scisbd=1&num=20&as_sdt=0,5",
+      "6": "https://scholar.google.com/scholar?start=100&q=quantum+computing+hardware+qubits&hl=en&scisbd=1&num=20&as_sdt=0,5",
+      "7": "https://scholar.google.com/scholar?start=120&q=quantum+computing+hardware+qubits&hl=en&scisbd=1&num=20&as_sdt=0,5",
+      "8": "https://scholar.google.com/scholar?start=140&q=quantum+computing+hardware+qubits&hl=en&scisbd=1&num=20&as_sdt=0,5",
+      "9": "https://scholar.google.com/scholar?start=160&q=quantum+computing+hardware+qubits&hl=en&scisbd=1&num=20&as_sdt=0,5",
+      "10": "https://scholar.google.com/scholar?start=180&q=quantum+computing+hardware+qubits&hl=en&scisbd=1&num=20&as_sdt=0,5"
+    }
+  },
+  "serpapi_pagination": {
+    "current": 1,
+    "next_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=quantum+computing+hardware+qubits&scisbd=1&start=20",
+    "next": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=quantum+computing+hardware+qubits&scisbd=1&start=20",
+    "other_pages": {
+      "2": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=quantum+computing+hardware+qubits&scisbd=1&start=20",
+      "3": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=quantum+computing+hardware+qubits&scisbd=1&start=40",
+      "4": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=quantum+computing+hardware+qubits&scisbd=1&start=60",
+      "5": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=quantum+computing+hardware+qubits&scisbd=1&start=80",
+      "6": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=quantum+computing+hardware+qubits&scisbd=1&start=100",
+      "7": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=quantum+computing+hardware+qubits&scisbd=1&start=120",
+      "8": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=quantum+computing+hardware+qubits&scisbd=1&start=140",
+      "9": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=quantum+computing+hardware+qubits&scisbd=1&start=160",
+      "10": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=quantum+computing+hardware+qubits&scisbd=1&start=180"
+    }
+  }
+}

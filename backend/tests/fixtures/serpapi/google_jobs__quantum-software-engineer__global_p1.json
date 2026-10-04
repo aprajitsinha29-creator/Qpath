@@ -1,0 +1,810 @@
+{
+  "search_metadata": {
+    "id": "6ac2732427c2b0510d95bdaf",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/D85nyklS4mQGKi3tsDCSpBquw49LUnIOXP42u-HRuZ4/6ac2732427c2b0510d95bdaf.json",
+    "markdown_endpoint": "https://serpapi.com/searches/D85nyklS4mQGKi3tsDCSpBquw49LUnIOXP42u-HRuZ4/6ac2732427c2b0510d95bdaf.md",
+    "created_at": "2026-10-04 15:39:16 UTC",
+    "processed_at": "2026-10-04 15:39:16 UTC",
+    "google_jobs_url": "https://www.google.com/search?q=quantum+software+engineer&hl=en&udm=8",
+    "raw_html_file": "https://serpapi.com/searches/D85nyklS4mQGKi3tsDCSpBquw49LUnIOXP42u-HRuZ4/6ac2732427c2b0510d95bdaf.html",
+    "total_time_taken": 1.74
+  },
+  "search_parameters": {
+    "q": "quantum software engineer",
+    "engine": "google_jobs",
+    "google_domain": "google.com",
+    "hl": "en"
+  },
+  "filters": [
+    {
+      "name": "No degree",
+      "parameters": {
+        "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rHlcD8FLtMwo1T10KpL1XB_UYyRKlC1FVQ1mgnosMzWlp2ZPGIXdj7tletQ25cbyyGdFi7Zt-TVvLM_B8ROXEIokuUVrYSVon6q81pC-f3gmbl_BuA8UrznlhmN1i1sfrd81Y1Shy_lQvD2tiVpXDLeorO8vULHpHsWhh6wxFA1kCKwIP",
+        "q": "quantum software engineer no degree"
+      },
+      "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&sxsrf=APpeQnsch3VnFwApgyY24COkEgX10YQOog:1791128357564&q=quantum+software+engineer+no+degree&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rHlcD8FLtMwo1T10KpL1XB_UYyRKlC1FVQ1mgnosMzWlp2ZPGIXdj7tletQ25cbyyGdFi7Zt-TVvLM_B8ROXEIokuUVrYSVon6q81pC-f3gmbl_BuA8UrznlhmN1i1sfrd81Y1Shy_lQvD2tiVpXDLeorO8vULHpHsWhh6wxFA1kCKwIP&udm=8&sa=X&ved=2ahUKEwj3pf-L2aCXAxX6l2oFHS09F4MQxKsJKAB6BAgXEAE&ictx=0",
+      "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=quantum+software+engineer+no+degree&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rHlcD8FLtMwo1T10KpL1XB_UYyRKlC1FVQ1mgnosMzWlp2ZPGIXdj7tletQ25cbyyGdFi7Zt-TVvLM_B8ROXEIokuUVrYSVon6q81pC-f3gmbl_BuA8UrznlhmN1i1sfrd81Y1Shy_lQvD2tiVpXDLeorO8vULHpHsWhh6wxFA1kCKwIP"
+    },
+    {
+      "name": "Remote",
+      "parameters": {
+        "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rqi--IS5qqFykt0uxkCtW_OlM8-YmPPKUY2iL9PXts6ytLguQ6IsI9DZ18nfBarIFrcvzqMhLvy0xYfdLBfjTZVRgWDV0DhoPYPdg9Bv8mVI3fhfLp1KREsu8zExrL6kTH-Z1q8W1VIM42kivau_kjaVODq9NjJ_deBskT9-4V5eHoDwG",
+        "q": "quantum software engineer remote"
+      },
+      "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&sxsrf=APpeQnsch3VnFwApgyY24COkEgX10YQOog:1791128357564&q=quantum+software+engineer+remote&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rqi--IS5qqFykt0uxkCtW_OlM8-YmPPKUY2iL9PXts6ytLguQ6IsI9DZ18nfBarIFrcvzqMhLvy0xYfdLBfjTZVRgWDV0DhoPYPdg9Bv8mVI3fhfLp1KREsu8zExrL6kTH-Z1q8W1VIM42kivau_kjaVODq9NjJ_deBskT9-4V5eHoDwG&udm=8&sa=X&ved=2ahUKEwj3pf-L2aCXAxX6l2oFHS09F4MQxKsJKAF6BAgYEAE&ictx=0",
+      "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=quantum+software+engineer+remote&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rqi--IS5qqFykt0uxkCtW_OlM8-YmPPKUY2iL9PXts6ytLguQ6IsI9DZ18nfBarIFrcvzqMhLvy0xYfdLBfjTZVRgWDV0DhoPYPdg9Bv8mVI3fhfLp1KREsu8zExrL6kTH-Z1q8W1VIM42kivau_kjaVODq9NjJ_deBskT9-4V5eHoDwG"
+    },
+    {
+      "name": "Date posted",
+      "options": [
+        {
+          "name": "Yesterday",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rbEuBYaSZikTI9rl4Hr1eirGp40taeGLDMyZ5EDU_ypdzIv0HzMudl2dIOQ2tzt-CYpUnP2L9hPB_fKK2y2XtVevmVPoX9VwwQsZ6_FrzWbOjZfVN1pPeI5Xc6qJW7M2t6zT1Zu-byahgsElSk10FTcV41BwMAQNniKa7H0c-GBkXd_FKyXYj2QWPhmEpkLOPkl_BgZOhgs26t-_hJorSqlkpyQD2sdT1SGqBlhqqVHWV2CjK1lsJQu2OBKFBZ2g10X7vfasYw9QC-orcafmQAYMedQFB9YWVci29t-h7uSwP2m0DYXhhkvgTCsZ_2mmUOAfGM23ZubXRQ3miwKkRhDEs5WA",
+            "q": "quantum software engineer since yesterday"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&sxsrf=APpeQnsch3VnFwApgyY24COkEgX10YQOog:1791128357564&q=quantum+software+engineer+since+yesterday&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rbEuBYaSZikTI9rl4Hr1eirGp40taeGLDMyZ5EDU_ypdzIv0HzMudl2dIOQ2tzt-CYpUnP2L9hPB_fKK2y2XtVevmVPoX9VwwQsZ6_FrzWbOjZfVN1pPeI5Xc6qJW7M2t6zT1Zu-byahgsElSk10FTcV41BwMAQNniKa7H0c-GBkXd_FKyXYj2QWPhmEpkLOPkl_BgZOhgs26t-_hJorSqlkpyQD2sdT1SGqBlhqqVHWV2CjK1lsJQu2OBKFBZ2g10X7vfasYw9QC-orcafmQAYMedQFB9YWVci29t-h7uSwP2m0DYXhhkvgTCsZ_2mmUOAfGM23ZubXRQ3miwKkRhDEs5WA&udm=8&sa=X&ved=2ahUKEwj3pf-L2aCXAxX6l2oFHS09F4MQkbEKegQIGhAC",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=quantum+software+engineer+since+yesterday&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rbEuBYaSZikTI9rl4Hr1eirGp40taeGLDMyZ5EDU_ypdzIv0HzMudl2dIOQ2tzt-CYpUnP2L9hPB_fKK2y2XtVevmVPoX9VwwQsZ6_FrzWbOjZfVN1pPeI5Xc6qJW7M2t6zT1Zu-byahgsElSk10FTcV41BwMAQNniKa7H0c-GBkXd_FKyXYj2QWPhmEpkLOPkl_BgZOhgs26t-_hJorSqlkpyQD2sdT1SGqBlhqqVHWV2CjK1lsJQu2OBKFBZ2g10X7vfasYw9QC-orcafmQAYMedQFB9YWVci29t-h7uSwP2m0DYXhhkvgTCsZ_2mmUOAfGM23ZubXRQ3miwKkRhDEs5WA"
+        },
+        {
+          "name": "Last 3 days",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4r3M11scUDrwafc40twrp9CbGT-v7lbxyS6G4-48mRDCAVGeD22rQ8VFh5QeBeYSksBCAcAcGLWYfy10a-8GF6693R0czKIZ9JMziG6h0Pn9W2w-J52YQ9-bUe-TBQDJi4eoUIJu_qlRsuTKchjmWAtgpXRKZCJGIeUxvoTntdBJR92bvWQT_UX9LTTf1dmpPwjODu6mWo31bdodt4xmOeU7WRDyiUfqtjtPz1C4WbGq5_x8ALo5xuZt_TX5R3UBHtqaoDphkLuynsNWeA-cMaeohiFE4TOIOq2rueSft3rPWcvsQQ_URlimreb-qljpCALA9l7_a7IpIYjzJCIAt9uqzXPLaUAeF8l_eoC5eiEb6xO1rN",
+            "q": "quantum software engineer in the last 3 days"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&sxsrf=APpeQnsch3VnFwApgyY24COkEgX10YQOog:1791128357564&q=quantum+software+engineer+in+the+last+3+days&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r3M11scUDrwafc40twrp9CbGT-v7lbxyS6G4-48mRDCAVGeD22rQ8VFh5QeBeYSksBCAcAcGLWYfy10a-8GF6693R0czKIZ9JMziG6h0Pn9W2w-J52YQ9-bUe-TBQDJi4eoUIJu_qlRsuTKchjmWAtgpXRKZCJGIeUxvoTntdBJR92bvWQT_UX9LTTf1dmpPwjODu6mWo31bdodt4xmOeU7WRDyiUfqtjtPz1C4WbGq5_x8ALo5xuZt_TX5R3UBHtqaoDphkLuynsNWeA-cMaeohiFE4TOIOq2rueSft3rPWcvsQQ_URlimreb-qljpCALA9l7_a7IpIYjzJCIAt9uqzXPLaUAeF8l_eoC5eiEb6xO1rN&udm=8&sa=X&ved=2ahUKEwj3pf-L2aCXAxX6l2oFHS09F4MQkbEKegQIGhAD",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=quantum+software+engineer+in+the+last+3+days&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r3M11scUDrwafc40twrp9CbGT-v7lbxyS6G4-48mRDCAVGeD22rQ8VFh5QeBeYSksBCAcAcGLWYfy10a-8GF6693R0czKIZ9JMziG6h0Pn9W2w-J52YQ9-bUe-TBQDJi4eoUIJu_qlRsuTKchjmWAtgpXRKZCJGIeUxvoTntdBJR92bvWQT_UX9LTTf1dmpPwjODu6mWo31bdodt4xmOeU7WRDyiUfqtjtPz1C4WbGq5_x8ALo5xuZt_TX5R3UBHtqaoDphkLuynsNWeA-cMaeohiFE4TOIOq2rueSft3rPWcvsQQ_URlimreb-qljpCALA9l7_a7IpIYjzJCIAt9uqzXPLaUAeF8l_eoC5eiEb6xO1rN"
+        },
+        {
+          "name": "Last week",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rssXSLnlwh_Uqo_dly6Sqr8DeBt2MvB--m6NoQIpaPlR0ffvHEJYuFW5-7v8mAfsN9YjEES-gHZTzqA2V8dRpVrZOw-zkUAbDUk8HbcviZNNlsx3ZbY2aUMQ3KP41cFB78hvZuE5RWXjBEmSh5cfcIlOfs8fKiZEVcqoDOTEWB-oe9Nyq6Yj_O7W8CdS3X5dBBkPZLkcLA-1eHL7QEBQs_W3o4xCMb6j3bAY2QBGKxaoCOEHF9-u0fqTIYh1M_1O3pTupVjP3sQJpHvILAIpfeg7afC-R8pulo6jpSzxFl7dLpUOZEt0qrBWmScOTFlfTDaulEcpJeCBX2w1WqC-tUQCgmygZpYwykSxkidqdMke5hjUA",
+            "q": "quantum software engineer in the last week"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&sxsrf=APpeQnsch3VnFwApgyY24COkEgX10YQOog:1791128357564&q=quantum+software+engineer+in+the+last+week&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rssXSLnlwh_Uqo_dly6Sqr8DeBt2MvB--m6NoQIpaPlR0ffvHEJYuFW5-7v8mAfsN9YjEES-gHZTzqA2V8dRpVrZOw-zkUAbDUk8HbcviZNNlsx3ZbY2aUMQ3KP41cFB78hvZuE5RWXjBEmSh5cfcIlOfs8fKiZEVcqoDOTEWB-oe9Nyq6Yj_O7W8CdS3X5dBBkPZLkcLA-1eHL7QEBQs_W3o4xCMb6j3bAY2QBGKxaoCOEHF9-u0fqTIYh1M_1O3pTupVjP3sQJpHvILAIpfeg7afC-R8pulo6jpSzxFl7dLpUOZEt0qrBWmScOTFlfTDaulEcpJeCBX2w1WqC-tUQCgmygZpYwykSxkidqdMke5hjUA&udm=8&sa=X&ved=2ahUKEwj3pf-L2aCXAxX6l2oFHS09F4MQkbEKegQIGhAE",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=quantum+software+engineer+in+the+last+week&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rssXSLnlwh_Uqo_dly6Sqr8DeBt2MvB--m6NoQIpaPlR0ffvHEJYuFW5-7v8mAfsN9YjEES-gHZTzqA2V8dRpVrZOw-zkUAbDUk8HbcviZNNlsx3ZbY2aUMQ3KP41cFB78hvZuE5RWXjBEmSh5cfcIlOfs8fKiZEVcqoDOTEWB-oe9Nyq6Yj_O7W8CdS3X5dBBkPZLkcLA-1eHL7QEBQs_W3o4xCMb6j3bAY2QBGKxaoCOEHF9-u0fqTIYh1M_1O3pTupVjP3sQJpHvILAIpfeg7afC-R8pulo6jpSzxFl7dLpUOZEt0qrBWmScOTFlfTDaulEcpJeCBX2w1WqC-tUQCgmygZpYwykSxkidqdMke5hjUA"
+        },
+        {
+          "name": "Last month",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rhwv6lC8BOkQKjt06vuXHMQKUBxsCpwqiUNh3d43QJYkxkpo2pIr-X785vD-pOK6486CH1-_jNMx3LAuJ0OJEL8y9GzayCcBlAvrB314b2gwXL1r6n0gpisr1AVpuoz3UyS1Z0QMQLPNEyUJA_rn_zGwLEsb3F8dktEJXOUCDkEL_DUcYKsettE9FIpOMGANSgnri5GZCRAYP5GqrRj0EFJGhZ7vF9c7t-tUjBb3GknCk_m3ddqNyRrueqJ6zrGGw7f_ORQ7DuChQ49Wc1OOvDswENHPbBezxSSvresE6bLxk_fM79HPF2dkQfXojcSC5F2qHl3_A09T5MwaWBETTmc05jMxLByKnx53TdMe7QEDTwvfM",
+            "q": "quantum software engineer in the last month"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&sxsrf=APpeQnsch3VnFwApgyY24COkEgX10YQOog:1791128357564&q=quantum+software+engineer+in+the+last+month&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rhwv6lC8BOkQKjt06vuXHMQKUBxsCpwqiUNh3d43QJYkxkpo2pIr-X785vD-pOK6486CH1-_jNMx3LAuJ0OJEL8y9GzayCcBlAvrB314b2gwXL1r6n0gpisr1AVpuoz3UyS1Z0QMQLPNEyUJA_rn_zGwLEsb3F8dktEJXOUCDkEL_DUcYKsettE9FIpOMGANSgnri5GZCRAYP5GqrRj0EFJGhZ7vF9c7t-tUjBb3GknCk_m3ddqNyRrueqJ6zrGGw7f_ORQ7DuChQ49Wc1OOvDswENHPbBezxSSvresE6bLxk_fM79HPF2dkQfXojcSC5F2qHl3_A09T5MwaWBETTmc05jMxLByKnx53TdMe7QEDTwvfM&udm=8&sa=X&ved=2ahUKEwj3pf-L2aCXAxX6l2oFHS09F4MQkbEKegQIGhAF",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=quantum+software+engineer+in+the+last+month&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rhwv6lC8BOkQKjt06vuXHMQKUBxsCpwqiUNh3d43QJYkxkpo2pIr-X785vD-pOK6486CH1-_jNMx3LAuJ0OJEL8y9GzayCcBlAvrB314b2gwXL1r6n0gpisr1AVpuoz3UyS1Z0QMQLPNEyUJA_rn_zGwLEsb3F8dktEJXOUCDkEL_DUcYKsettE9FIpOMGANSgnri5GZCRAYP5GqrRj0EFJGhZ7vF9c7t-tUjBb3GknCk_m3ddqNyRrueqJ6zrGGw7f_ORQ7DuChQ49Wc1OOvDswENHPbBezxSSvresE6bLxk_fM79HPF2dkQfXojcSC5F2qHl3_A09T5MwaWBETTmc05jMxLByKnx53TdMe7QEDTwvfM"
+        }
+      ]
+    },
+    {
+      "name": "Date posted",
+      "options": [
+        {
+          "name": "Yesterday",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rbEuBYaSZikTI9rl4Hr1eirGp40taeGLDMyZ5EDU_ypdzIv0HzMudl2dIOQ2tzt-CYpUnP2L9hPB_fKK2y2XtVevmVPoX9VwwQsZ6_FrzWbOjZfVN1pPeI5Xc6qJW7M2t6zT1Zu-byahgsElSk10FTcV41BwMAQNniKa7H0c-GBkXd_FKyXYj2QWPhmEpkLOPkl_BgZOhgs26t-_hJorSqlkpyQD2sdT1SGqBlhqqVHWV2CjK1lsJQu2OBKFBZ2g10X7vfasYw9QC-orcafmQAYMedQFB9YWVci29t-h7uSwP2m0DYXhhkvgTCsZ_2mmUOAfGM23ZubXRQ3miwKkRhDEs5WA",
+            "q": "quantum software engineer since yesterday"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&sxsrf=APpeQnsch3VnFwApgyY24COkEgX10YQOog:1791128357564&q=quantum+software+engineer+since+yesterday&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rbEuBYaSZikTI9rl4Hr1eirGp40taeGLDMyZ5EDU_ypdzIv0HzMudl2dIOQ2tzt-CYpUnP2L9hPB_fKK2y2XtVevmVPoX9VwwQsZ6_FrzWbOjZfVN1pPeI5Xc6qJW7M2t6zT1Zu-byahgsElSk10FTcV41BwMAQNniKa7H0c-GBkXd_FKyXYj2QWPhmEpkLOPkl_BgZOhgs26t-_hJorSqlkpyQD2sdT1SGqBlhqqVHWV2CjK1lsJQu2OBKFBZ2g10X7vfasYw9QC-orcafmQAYMedQFB9YWVci29t-h7uSwP2m0DYXhhkvgTCsZ_2mmUOAfGM23ZubXRQ3miwKkRhDEs5WA&udm=8&sa=X&ved=2ahUKEwj3pf-L2aCXAxX6l2oFHS09F4MQkbEKegQIGhAC",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=quantum+software+engineer+since+yesterday&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rbEuBYaSZikTI9rl4Hr1eirGp40taeGLDMyZ5EDU_ypdzIv0HzMudl2dIOQ2tzt-CYpUnP2L9hPB_fKK2y2XtVevmVPoX9VwwQsZ6_FrzWbOjZfVN1pPeI5Xc6qJW7M2t6zT1Zu-byahgsElSk10FTcV41BwMAQNniKa7H0c-GBkXd_FKyXYj2QWPhmEpkLOPkl_BgZOhgs26t-_hJorSqlkpyQD2sdT1SGqBlhqqVHWV2CjK1lsJQu2OBKFBZ2g10X7vfasYw9QC-orcafmQAYMedQFB9YWVci29t-h7uSwP2m0DYXhhkvgTCsZ_2mmUOAfGM23ZubXRQ3miwKkRhDEs5WA"
+        },
+        {
+          "name": "Last 3 days",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4r3M11scUDrwafc40twrp9CbGT-v7lbxyS6G4-48mRDCAVGeD22rQ8VFh5QeBeYSksBCAcAcGLWYfy10a-8GF6693R0czKIZ9JMziG6h0Pn9W2w-J52YQ9-bUe-TBQDJi4eoUIJu_qlRsuTKchjmWAtgpXRKZCJGIeUxvoTntdBJR92bvWQT_UX9LTTf1dmpPwjODu6mWo31bdodt4xmOeU7WRDyiUfqtjtPz1C4WbGq5_x8ALo5xuZt_TX5R3UBHtqaoDphkLuynsNWeA-cMaeohiFE4TOIOq2rueSft3rPWcvsQQ_URlimreb-qljpCALA9l7_a7IpIYjzJCIAt9uqzXPLaUAeF8l_eoC5eiEb6xO1rN",
+            "q": "quantum software engineer in the last 3 days"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&sxsrf=APpeQnsch3VnFwApgyY24COkEgX10YQOog:1791128357564&q=quantum+software+engineer+in+the+last+3+days&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r3M11scUDrwafc40twrp9CbGT-v7lbxyS6G4-48mRDCAVGeD22rQ8VFh5QeBeYSksBCAcAcGLWYfy10a-8GF6693R0czKIZ9JMziG6h0Pn9W2w-J52YQ9-bUe-TBQDJi4eoUIJu_qlRsuTKchjmWAtgpXRKZCJGIeUxvoTntdBJR92bvWQT_UX9LTTf1dmpPwjODu6mWo31bdodt4xmOeU7WRDyiUfqtjtPz1C4WbGq5_x8ALo5xuZt_TX5R3UBHtqaoDphkLuynsNWeA-cMaeohiFE4TOIOq2rueSft3rPWcvsQQ_URlimreb-qljpCALA9l7_a7IpIYjzJCIAt9uqzXPLaUAeF8l_eoC5eiEb6xO1rN&udm=8&sa=X&ved=2ahUKEwj3pf-L2aCXAxX6l2oFHS09F4MQkbEKegQIGhAD",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=quantum+software+engineer+in+the+last+3+days&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r3M11scUDrwafc40twrp9CbGT-v7lbxyS6G4-48mRDCAVGeD22rQ8VFh5QeBeYSksBCAcAcGLWYfy10a-8GF6693R0czKIZ9JMziG6h0Pn9W2w-J52YQ9-bUe-TBQDJi4eoUIJu_qlRsuTKchjmWAtgpXRKZCJGIeUxvoTntdBJR92bvWQT_UX9LTTf1dmpPwjODu6mWo31bdodt4xmOeU7WRDyiUfqtjtPz1C4WbGq5_x8ALo5xuZt_TX5R3UBHtqaoDphkLuynsNWeA-cMaeohiFE4TOIOq2rueSft3rPWcvsQQ_URlimreb-qljpCALA9l7_a7IpIYjzJCIAt9uqzXPLaUAeF8l_eoC5eiEb6xO1rN"
+        },
+        {
+          "name": "Last week",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rssXSLnlwh_Uqo_dly6Sqr8DeBt2MvB--m6NoQIpaPlR0ffvHEJYuFW5-7v8mAfsN9YjEES-gHZTzqA2V8dRpVrZOw-zkUAbDUk8HbcviZNNlsx3ZbY2aUMQ3KP41cFB78hvZuE5RWXjBEmSh5cfcIlOfs8fKiZEVcqoDOTEWB-oe9Nyq6Yj_O7W8CdS3X5dBBkPZLkcLA-1eHL7QEBQs_W3o4xCMb6j3bAY2QBGKxaoCOEHF9-u0fqTIYh1M_1O3pTupVjP3sQJpHvILAIpfeg7afC-R8pulo6jpSzxFl7dLpUOZEt0qrBWmScOTFlfTDaulEcpJeCBX2w1WqC-tUQCgmygZpYwykSxkidqdMke5hjUA",
+            "q": "quantum software engineer in the last week"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&sxsrf=APpeQnsch3VnFwApgyY24COkEgX10YQOog:1791128357564&q=quantum+software+engineer+in+the+last+week&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rssXSLnlwh_Uqo_dly6Sqr8DeBt2MvB--m6NoQIpaPlR0ffvHEJYuFW5-7v8mAfsN9YjEES-gHZTzqA2V8dRpVrZOw-zkUAbDUk8HbcviZNNlsx3ZbY2aUMQ3KP41cFB78hvZuE5RWXjBEmSh5cfcIlOfs8fKiZEVcqoDOTEWB-oe9Nyq6Yj_O7W8CdS3X5dBBkPZLkcLA-1eHL7QEBQs_W3o4xCMb6j3bAY2QBGKxaoCOEHF9-u0fqTIYh1M_1O3pTupVjP3sQJpHvILAIpfeg7afC-R8pulo6jpSzxFl7dLpUOZEt0qrBWmScOTFlfTDaulEcpJeCBX2w1WqC-tUQCgmygZpYwykSxkidqdMke5hjUA&udm=8&sa=X&ved=2ahUKEwj3pf-L2aCXAxX6l2oFHS09F4MQkbEKegQIGhAE",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=quantum+software+engineer+in+the+last+week&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rssXSLnlwh_Uqo_dly6Sqr8DeBt2MvB--m6NoQIpaPlR0ffvHEJYuFW5-7v8mAfsN9YjEES-gHZTzqA2V8dRpVrZOw-zkUAbDUk8HbcviZNNlsx3ZbY2aUMQ3KP41cFB78hvZuE5RWXjBEmSh5cfcIlOfs8fKiZEVcqoDOTEWB-oe9Nyq6Yj_O7W8CdS3X5dBBkPZLkcLA-1eHL7QEBQs_W3o4xCMb6j3bAY2QBGKxaoCOEHF9-u0fqTIYh1M_1O3pTupVjP3sQJpHvILAIpfeg7afC-R8pulo6jpSzxFl7dLpUOZEt0qrBWmScOTFlfTDaulEcpJeCBX2w1WqC-tUQCgmygZpYwykSxkidqdMke5hjUA"
+        },
+        {
+          "name": "Last month",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rhwv6lC8BOkQKjt06vuXHMQKUBxsCpwqiUNh3d43QJYkxkpo2pIr-X785vD-pOK6486CH1-_jNMx3LAuJ0OJEL8y9GzayCcBlAvrB314b2gwXL1r6n0gpisr1AVpuoz3UyS1Z0QMQLPNEyUJA_rn_zGwLEsb3F8dktEJXOUCDkEL_DUcYKsettE9FIpOMGANSgnri5GZCRAYP5GqrRj0EFJGhZ7vF9c7t-tUjBb3GknCk_m3ddqNyRrueqJ6zrGGw7f_ORQ7DuChQ49Wc1OOvDswENHPbBezxSSvresE6bLxk_fM79HPF2dkQfXojcSC5F2qHl3_A09T5MwaWBETTmc05jMxLByKnx53TdMe7QEDTwvfM",
+            "q": "quantum software engineer in the last month"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&sxsrf=APpeQnsch3VnFwApgyY24COkEgX10YQOog:1791128357564&q=quantum+software+engineer+in+the+last+month&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rhwv6lC8BOkQKjt06vuXHMQKUBxsCpwqiUNh3d43QJYkxkpo2pIr-X785vD-pOK6486CH1-_jNMx3LAuJ0OJEL8y9GzayCcBlAvrB314b2gwXL1r6n0gpisr1AVpuoz3UyS1Z0QMQLPNEyUJA_rn_zGwLEsb3F8dktEJXOUCDkEL_DUcYKsettE9FIpOMGANSgnri5GZCRAYP5GqrRj0EFJGhZ7vF9c7t-tUjBb3GknCk_m3ddqNyRrueqJ6zrGGw7f_ORQ7DuChQ49Wc1OOvDswENHPbBezxSSvresE6bLxk_fM79HPF2dkQfXojcSC5F2qHl3_A09T5MwaWBETTmc05jMxLByKnx53TdMe7QEDTwvfM&udm=8&sa=X&ved=2ahUKEwj3pf-L2aCXAxX6l2oFHS09F4MQkbEKegQIGhAF",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=quantum+software+engineer+in+the+last+month&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rhwv6lC8BOkQKjt06vuXHMQKUBxsCpwqiUNh3d43QJYkxkpo2pIr-X785vD-pOK6486CH1-_jNMx3LAuJ0OJEL8y9GzayCcBlAvrB314b2gwXL1r6n0gpisr1AVpuoz3UyS1Z0QMQLPNEyUJA_rn_zGwLEsb3F8dktEJXOUCDkEL_DUcYKsettE9FIpOMGANSgnri5GZCRAYP5GqrRj0EFJGhZ7vF9c7t-tUjBb3GknCk_m3ddqNyRrueqJ6zrGGw7f_ORQ7DuChQ49Wc1OOvDswENHPbBezxSSvresE6bLxk_fM79HPF2dkQfXojcSC5F2qHl3_A09T5MwaWBETTmc05jMxLByKnx53TdMe7QEDTwvfM"
+        }
+      ]
+    },
+    {
+      "name": "Job type",
+      "options": [
+        {
+          "name": "Full time",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4r2YIQD5S0wiJLM8D3QoSGRY8JcSFxjaYQ7CJjTmWTEsMQQE4zN3KBZJMSm5OJNh0YM1y84ndCxog0floLP5fQwjHRF1ooOKKH-0M7jN3jlzOUAFZyISdi7PBGm3DvOghblOAjqiZ3HCdLU5LGpkYw7ML5VXYjBWLccekgccUN9cr93Xr4X8hIeStLgJ5RLJ7LCybxhRiUqP4YTYSqSH9D7z4jArxTmoaCyW-H5IpvQBHhE1-byzFEVOO1JtBtamG5bv_dOjpaHllqNDy-D1zriUlLXlohLnfDfacmjHAPchz1s5G0zFQaJRivH2XCUjD6_txK9Aedg4KIQWBjBG-fxHaJ-TU",
+            "q": "quantum software engineer full time"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&sxsrf=APpeQnsch3VnFwApgyY24COkEgX10YQOog:1791128357564&q=quantum+software+engineer+full+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r2YIQD5S0wiJLM8D3QoSGRY8JcSFxjaYQ7CJjTmWTEsMQQE4zN3KBZJMSm5OJNh0YM1y84ndCxog0floLP5fQwjHRF1ooOKKH-0M7jN3jlzOUAFZyISdi7PBGm3DvOghblOAjqiZ3HCdLU5LGpkYw7ML5VXYjBWLccekgccUN9cr93Xr4X8hIeStLgJ5RLJ7LCybxhRiUqP4YTYSqSH9D7z4jArxTmoaCyW-H5IpvQBHhE1-byzFEVOO1JtBtamG5bv_dOjpaHllqNDy-D1zriUlLXlohLnfDfacmjHAPchz1s5G0zFQaJRivH2XCUjD6_txK9Aedg4KIQWBjBG-fxHaJ-TU&udm=8&sa=X&ved=2ahUKEwj3pf-L2aCXAxX6l2oFHS09F4MQkbEKegQIHRAC",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=quantum+software+engineer+full+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r2YIQD5S0wiJLM8D3QoSGRY8JcSFxjaYQ7CJjTmWTEsMQQE4zN3KBZJMSm5OJNh0YM1y84ndCxog0floLP5fQwjHRF1ooOKKH-0M7jN3jlzOUAFZyISdi7PBGm3DvOghblOAjqiZ3HCdLU5LGpkYw7ML5VXYjBWLccekgccUN9cr93Xr4X8hIeStLgJ5RLJ7LCybxhRiUqP4YTYSqSH9D7z4jArxTmoaCyW-H5IpvQBHhE1-byzFEVOO1JtBtamG5bv_dOjpaHllqNDy-D1zriUlLXlohLnfDfacmjHAPchz1s5G0zFQaJRivH2XCUjD6_txK9Aedg4KIQWBjBG-fxHaJ-TU"
+        },
+        {
+          "name": "Part time",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4r2YIQD5S0wiJLM8D3QoSGRY8JcSFxjaYQ7CJjTmWTEsMQQE4zN3KBZJMSm5OJNh0YAaDph_Fddoms4SVHuiiSXaDFOuY3PgLqzi0tz_qAUyVudTGK9U75QHi6YJTPkGjSDRl6gxUzH_3C8XqerOy6HHfQHUk2UomiAqe5Rj_4sW7XQxMgVO_EJ6bW_UkeZkODLQg5XEGgeDGtZhInQljgKWVqpWQVMZlP4WplqKLA_DafRJS7GvCGhTkRrHDU5l4vfzkhnLAb6ByxuaT3v50uUOsNzMdZR0dF_qn29vJiV4kHT2-obSU1GQ-5HHGAbZQs_3hhs2uNCfUR87QUGTBrzqWqRug",
+            "q": "quantum software engineer part time"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&sxsrf=APpeQnsch3VnFwApgyY24COkEgX10YQOog:1791128357564&q=quantum+software+engineer+part+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r2YIQD5S0wiJLM8D3QoSGRY8JcSFxjaYQ7CJjTmWTEsMQQE4zN3KBZJMSm5OJNh0YAaDph_Fddoms4SVHuiiSXaDFOuY3PgLqzi0tz_qAUyVudTGK9U75QHi6YJTPkGjSDRl6gxUzH_3C8XqerOy6HHfQHUk2UomiAqe5Rj_4sW7XQxMgVO_EJ6bW_UkeZkODLQg5XEGgeDGtZhInQljgKWVqpWQVMZlP4WplqKLA_DafRJS7GvCGhTkRrHDU5l4vfzkhnLAb6ByxuaT3v50uUOsNzMdZR0dF_qn29vJiV4kHT2-obSU1GQ-5HHGAbZQs_3hhs2uNCfUR87QUGTBrzqWqRug&udm=8&sa=X&ved=2ahUKEwj3pf-L2aCXAxX6l2oFHS09F4MQkbEKegQIHRAD",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=quantum+software+engineer+part+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r2YIQD5S0wiJLM8D3QoSGRY8JcSFxjaYQ7CJjTmWTEsMQQE4zN3KBZJMSm5OJNh0YAaDph_Fddoms4SVHuiiSXaDFOuY3PgLqzi0tz_qAUyVudTGK9U75QHi6YJTPkGjSDRl6gxUzH_3C8XqerOy6HHfQHUk2UomiAqe5Rj_4sW7XQxMgVO_EJ6bW_UkeZkODLQg5XEGgeDGtZhInQljgKWVqpWQVMZlP4WplqKLA_DafRJS7GvCGhTkRrHDU5l4vfzkhnLAb6ByxuaT3v50uUOsNzMdZR0dF_qn29vJiV4kHT2-obSU1GQ-5HHGAbZQs_3hhs2uNCfUR87QUGTBrzqWqRug"
+        },
+        {
+          "name": "Contract",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4r_fsZOgCf8TVkDLsBPFXvEokKZLeKqCZjTEQVcPcG5r_KHeb3qbsMZWE8EMiQMnEL3qhotEbirJt7Azmor2rw2JzE6ic0V2fNZlR75wPANETuyW8I2JVIHYIAs8y6A-oLMOsxMkO9dh7Y_v9cBDNhNxwg3LlTp4SNVRkHAG1u85vtuar2Psxt5i4-vAOEX_MOshORkdD2icjODwbnSmHo1qhifUzsucfyfpfRi3BlVIb3IgunHWLcrGbdjNE8kY6T3IGeHCG8bqS0IuUD8geZ7SAMGJvtTzr8VmRx3g33-w40_9KLuBMtcWMryIpeevIlY7xl5Q",
+            "q": "quantum software engineer contract"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&sxsrf=APpeQnsch3VnFwApgyY24COkEgX10YQOog:1791128357564&q=quantum+software+engineer+contract&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r_fsZOgCf8TVkDLsBPFXvEokKZLeKqCZjTEQVcPcG5r_KHeb3qbsMZWE8EMiQMnEL3qhotEbirJt7Azmor2rw2JzE6ic0V2fNZlR75wPANETuyW8I2JVIHYIAs8y6A-oLMOsxMkO9dh7Y_v9cBDNhNxwg3LlTp4SNVRkHAG1u85vtuar2Psxt5i4-vAOEX_MOshORkdD2icjODwbnSmHo1qhifUzsucfyfpfRi3BlVIb3IgunHWLcrGbdjNE8kY6T3IGeHCG8bqS0IuUD8geZ7SAMGJvtTzr8VmRx3g33-w40_9KLuBMtcWMryIpeevIlY7xl5Q&udm=8&sa=X&ved=2ahUKEwj3pf-L2aCXAxX6l2oFHS09F4MQkbEKegQIHRAE",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=quantum+software+engineer+contract&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r_fsZOgCf8TVkDLsBPFXvEokKZLeKqCZjTEQVcPcG5r_KHeb3qbsMZWE8EMiQMnEL3qhotEbirJt7Azmor2rw2JzE6ic0V2fNZlR75wPANETuyW8I2JVIHYIAs8y6A-oLMOsxMkO9dh7Y_v9cBDNhNxwg3LlTp4SNVRkHAG1u85vtuar2Psxt5i4-vAOEX_MOshORkdD2icjODwbnSmHo1qhifUzsucfyfpfRi3BlVIb3IgunHWLcrGbdjNE8kY6T3IGeHCG8bqS0IuUD8geZ7SAMGJvtTzr8VmRx3g33-w40_9KLuBMtcWMryIpeevIlY7xl5Q"
+        },
+        {
+          "name": "Internship",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rAcot_iWY5OTyFR6kR7h3sc5RVhTCJ7YV6qPS949HwRmJZgf_ggKnVHFL9gYWkpz2gcbjjNjtAa4TOP25Ck_EbWc6EZghtJXWOpkxDWqwH8Obp8OPI_yAvswy_HnMqCGY3K8XTyClpNTHERa6rUkLKq7RSrIA2YdjhTZn8YVnWYPBGFI_6BcxWrbFZRVyvl6jCv4wicxfgCmG3bmPkudubU2FBBPovUSwuZY7-ewQR35ijOeBdlOL9AAnwE5q7jnBE4Z46MdTs48outPSMkUutwFvCsUbJ9r21UnJH4kdVTwgM2cXlFS65Nu7VqOxntA767CgHA",
+            "q": "quantum software engineer internship"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&sxsrf=APpeQnsch3VnFwApgyY24COkEgX10YQOog:1791128357564&q=quantum+software+engineer+internship&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rAcot_iWY5OTyFR6kR7h3sc5RVhTCJ7YV6qPS949HwRmJZgf_ggKnVHFL9gYWkpz2gcbjjNjtAa4TOP25Ck_EbWc6EZghtJXWOpkxDWqwH8Obp8OPI_yAvswy_HnMqCGY3K8XTyClpNTHERa6rUkLKq7RSrIA2YdjhTZn8YVnWYPBGFI_6BcxWrbFZRVyvl6jCv4wicxfgCmG3bmPkudubU2FBBPovUSwuZY7-ewQR35ijOeBdlOL9AAnwE5q7jnBE4Z46MdTs48outPSMkUutwFvCsUbJ9r21UnJH4kdVTwgM2cXlFS65Nu7VqOxntA767CgHA&udm=8&sa=X&ved=2ahUKEwj3pf-L2aCXAxX6l2oFHS09F4MQkbEKegQIHRAF",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=quantum+software+engineer+internship&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rAcot_iWY5OTyFR6kR7h3sc5RVhTCJ7YV6qPS949HwRmJZgf_ggKnVHFL9gYWkpz2gcbjjNjtAa4TOP25Ck_EbWc6EZghtJXWOpkxDWqwH8Obp8OPI_yAvswy_HnMqCGY3K8XTyClpNTHERa6rUkLKq7RSrIA2YdjhTZn8YVnWYPBGFI_6BcxWrbFZRVyvl6jCv4wicxfgCmG3bmPkudubU2FBBPovUSwuZY7-ewQR35ijOeBdlOL9AAnwE5q7jnBE4Z46MdTs48outPSMkUutwFvCsUbJ9r21UnJH4kdVTwgM2cXlFS65Nu7VqOxntA767CgHA"
+        }
+      ]
+    },
+    {
+      "name": "Job type",
+      "options": [
+        {
+          "name": "Full time",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4r2YIQD5S0wiJLM8D3QoSGRY8JcSFxjaYQ7CJjTmWTEsMQQE4zN3KBZJMSm5OJNh0YM1y84ndCxog0floLP5fQwjHRF1ooOKKH-0M7jN3jlzOUAFZyISdi7PBGm3DvOghblOAjqiZ3HCdLU5LGpkYw7ML5VXYjBWLccekgccUN9cr93Xr4X8hIeStLgJ5RLJ7LCybxhRiUqP4YTYSqSH9D7z4jArxTmoaCyW-H5IpvQBHhE1-byzFEVOO1JtBtamG5bv_dOjpaHllqNDy-D1zriUlLXlohLnfDfacmjHAPchz1s5G0zFQaJRivH2XCUjD6_txK9Aedg4KIQWBjBG-fxHaJ-TU",
+            "q": "quantum software engineer full time"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&sxsrf=APpeQnsch3VnFwApgyY24COkEgX10YQOog:1791128357564&q=quantum+software+engineer+full+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r2YIQD5S0wiJLM8D3QoSGRY8JcSFxjaYQ7CJjTmWTEsMQQE4zN3KBZJMSm5OJNh0YM1y84ndCxog0floLP5fQwjHRF1ooOKKH-0M7jN3jlzOUAFZyISdi7PBGm3DvOghblOAjqiZ3HCdLU5LGpkYw7ML5VXYjBWLccekgccUN9cr93Xr4X8hIeStLgJ5RLJ7LCybxhRiUqP4YTYSqSH9D7z4jArxTmoaCyW-H5IpvQBHhE1-byzFEVOO1JtBtamG5bv_dOjpaHllqNDy-D1zriUlLXlohLnfDfacmjHAPchz1s5G0zFQaJRivH2XCUjD6_txK9Aedg4KIQWBjBG-fxHaJ-TU&udm=8&sa=X&ved=2ahUKEwj3pf-L2aCXAxX6l2oFHS09F4MQkbEKegQIHRAC",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=quantum+software+engineer+full+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r2YIQD5S0wiJLM8D3QoSGRY8JcSFxjaYQ7CJjTmWTEsMQQE4zN3KBZJMSm5OJNh0YM1y84ndCxog0floLP5fQwjHRF1ooOKKH-0M7jN3jlzOUAFZyISdi7PBGm3DvOghblOAjqiZ3HCdLU5LGpkYw7ML5VXYjBWLccekgccUN9cr93Xr4X8hIeStLgJ5RLJ7LCybxhRiUqP4YTYSqSH9D7z4jArxTmoaCyW-H5IpvQBHhE1-byzFEVOO1JtBtamG5bv_dOjpaHllqNDy-D1zriUlLXlohLnfDfacmjHAPchz1s5G0zFQaJRivH2XCUjD6_txK9Aedg4KIQWBjBG-fxHaJ-TU"
+        },
+        {
+          "name": "Part time",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4r2YIQD5S0wiJLM8D3QoSGRY8JcSFxjaYQ7CJjTmWTEsMQQE4zN3KBZJMSm5OJNh0YAaDph_Fddoms4SVHuiiSXaDFOuY3PgLqzi0tz_qAUyVudTGK9U75QHi6YJTPkGjSDRl6gxUzH_3C8XqerOy6HHfQHUk2UomiAqe5Rj_4sW7XQxMgVO_EJ6bW_UkeZkODLQg5XEGgeDGtZhInQljgKWVqpWQVMZlP4WplqKLA_DafRJS7GvCGhTkRrHDU5l4vfzkhnLAb6ByxuaT3v50uUOsNzMdZR0dF_qn29vJiV4kHT2-obSU1GQ-5HHGAbZQs_3hhs2uNCfUR87QUGTBrzqWqRug",
+            "q": "quantum software engineer part time"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&sxsrf=APpeQnsch3VnFwApgyY24COkEgX10YQOog:1791128357564&q=quantum+software+engineer+part+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r2YIQD5S0wiJLM8D3QoSGRY8JcSFxjaYQ7CJjTmWTEsMQQE4zN3KBZJMSm5OJNh0YAaDph_Fddoms4SVHuiiSXaDFOuY3PgLqzi0tz_qAUyVudTGK9U75QHi6YJTPkGjSDRl6gxUzH_3C8XqerOy6HHfQHUk2UomiAqe5Rj_4sW7XQxMgVO_EJ6bW_UkeZkODLQg5XEGgeDGtZhInQljgKWVqpWQVMZlP4WplqKLA_DafRJS7GvCGhTkRrHDU5l4vfzkhnLAb6ByxuaT3v50uUOsNzMdZR0dF_qn29vJiV4kHT2-obSU1GQ-5HHGAbZQs_3hhs2uNCfUR87QUGTBrzqWqRug&udm=8&sa=X&ved=2ahUKEwj3pf-L2aCXAxX6l2oFHS09F4MQkbEKegQIHRAD",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=quantum+software+engineer+part+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r2YIQD5S0wiJLM8D3QoSGRY8JcSFxjaYQ7CJjTmWTEsMQQE4zN3KBZJMSm5OJNh0YAaDph_Fddoms4SVHuiiSXaDFOuY3PgLqzi0tz_qAUyVudTGK9U75QHi6YJTPkGjSDRl6gxUzH_3C8XqerOy6HHfQHUk2UomiAqe5Rj_4sW7XQxMgVO_EJ6bW_UkeZkODLQg5XEGgeDGtZhInQljgKWVqpWQVMZlP4WplqKLA_DafRJS7GvCGhTkRrHDU5l4vfzkhnLAb6ByxuaT3v50uUOsNzMdZR0dF_qn29vJiV4kHT2-obSU1GQ-5HHGAbZQs_3hhs2uNCfUR87QUGTBrzqWqRug"
+        },
+        {
+          "name": "Contract",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4r_fsZOgCf8TVkDLsBPFXvEokKZLeKqCZjTEQVcPcG5r_KHeb3qbsMZWE8EMiQMnEL3qhotEbirJt7Azmor2rw2JzE6ic0V2fNZlR75wPANETuyW8I2JVIHYIAs8y6A-oLMOsxMkO9dh7Y_v9cBDNhNxwg3LlTp4SNVRkHAG1u85vtuar2Psxt5i4-vAOEX_MOshORkdD2icjODwbnSmHo1qhifUzsucfyfpfRi3BlVIb3IgunHWLcrGbdjNE8kY6T3IGeHCG8bqS0IuUD8geZ7SAMGJvtTzr8VmRx3g33-w40_9KLuBMtcWMryIpeevIlY7xl5Q",
+            "q": "quantum software engineer contract"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&sxsrf=APpeQnsch3VnFwApgyY24COkEgX10YQOog:1791128357564&q=quantum+software+engineer+contract&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r_fsZOgCf8TVkDLsBPFXvEokKZLeKqCZjTEQVcPcG5r_KHeb3qbsMZWE8EMiQMnEL3qhotEbirJt7Azmor2rw2JzE6ic0V2fNZlR75wPANETuyW8I2JVIHYIAs8y6A-oLMOsxMkO9dh7Y_v9cBDNhNxwg3LlTp4SNVRkHAG1u85vtuar2Psxt5i4-vAOEX_MOshORkdD2icjODwbnSmHo1qhifUzsucfyfpfRi3BlVIb3IgunHWLcrGbdjNE8kY6T3IGeHCG8bqS0IuUD8geZ7SAMGJvtTzr8VmRx3g33-w40_9KLuBMtcWMryIpeevIlY7xl5Q&udm=8&sa=X&ved=2ahUKEwj3pf-L2aCXAxX6l2oFHS09F4MQkbEKegQIHRAE",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=quantum+software+engineer+contract&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r_fsZOgCf8TVkDLsBPFXvEokKZLeKqCZjTEQVcPcG5r_KHeb3qbsMZWE8EMiQMnEL3qhotEbirJt7Azmor2rw2JzE6ic0V2fNZlR75wPANETuyW8I2JVIHYIAs8y6A-oLMOsxMkO9dh7Y_v9cBDNhNxwg3LlTp4SNVRkHAG1u85vtuar2Psxt5i4-vAOEX_MOshORkdD2icjODwbnSmHo1qhifUzsucfyfpfRi3BlVIb3IgunHWLcrGbdjNE8kY6T3IGeHCG8bqS0IuUD8geZ7SAMGJvtTzr8VmRx3g33-w40_9KLuBMtcWMryIpeevIlY7xl5Q"
+        },
+        {
+          "name": "Internship",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rAcot_iWY5OTyFR6kR7h3sc5RVhTCJ7YV6qPS949HwRmJZgf_ggKnVHFL9gYWkpz2gcbjjNjtAa4TOP25Ck_EbWc6EZghtJXWOpkxDWqwH8Obp8OPI_yAvswy_HnMqCGY3K8XTyClpNTHERa6rUkLKq7RSrIA2YdjhTZn8YVnWYPBGFI_6BcxWrbFZRVyvl6jCv4wicxfgCmG3bmPkudubU2FBBPovUSwuZY7-ewQR35ijOeBdlOL9AAnwE5q7jnBE4Z46MdTs48outPSMkUutwFvCsUbJ9r21UnJH4kdVTwgM2cXlFS65Nu7VqOxntA767CgHA",
+            "q": "quantum software engineer internship"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&sxsrf=APpeQnsch3VnFwApgyY24COkEgX10YQOog:1791128357564&q=quantum+software+engineer+internship&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rAcot_iWY5OTyFR6kR7h3sc5RVhTCJ7YV6qPS949HwRmJZgf_ggKnVHFL9gYWkpz2gcbjjNjtAa4TOP25Ck_EbWc6EZghtJXWOpkxDWqwH8Obp8OPI_yAvswy_HnMqCGY3K8XTyClpNTHERa6rUkLKq7RSrIA2YdjhTZn8YVnWYPBGFI_6BcxWrbFZRVyvl6jCv4wicxfgCmG3bmPkudubU2FBBPovUSwuZY7-ewQR35ijOeBdlOL9AAnwE5q7jnBE4Z46MdTs48outPSMkUutwFvCsUbJ9r21UnJH4kdVTwgM2cXlFS65Nu7VqOxntA767CgHA&udm=8&sa=X&ved=2ahUKEwj3pf-L2aCXAxX6l2oFHS09F4MQkbEKegQIHRAF",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=quantum+software+engineer+internship&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rAcot_iWY5OTyFR6kR7h3sc5RVhTCJ7YV6qPS949HwRmJZgf_ggKnVHFL9gYWkpz2gcbjjNjtAa4TOP25Ck_EbWc6EZghtJXWOpkxDWqwH8Obp8OPI_yAvswy_HnMqCGY3K8XTyClpNTHERa6rUkLKq7RSrIA2YdjhTZn8YVnWYPBGFI_6BcxWrbFZRVyvl6jCv4wicxfgCmG3bmPkudubU2FBBPovUSwuZY7-ewQR35ijOeBdlOL9AAnwE5q7jnBE4Z46MdTs48outPSMkUutwFvCsUbJ9r21UnJH4kdVTwgM2cXlFS65Nu7VqOxntA767CgHA"
+        }
+      ]
+    }
+  ],
+  "jobs_results": [
+    {
+      "title": "Quantum Software Engineer: Real-Time Hardware Orchestration",
+      "company_name": "Queracomputinginc",
+      "location": "Boston, GA",
+      "via": "Talents By Vaia",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "The position requires a degree in Computer Science or related fields, and significant experience in software development, particularly with Python and C/C++"
+          ]
+        },
+        {
+          "title": "Benefits",
+          "items": [
+            "The base salary ranges from $130,000 to $170,000",
+            "#J-18808-Ljbffr"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": [
+            "The ideal candidate will design systems for quantum experiments and maintain APIs linking hardware control layers"
+          ]
+        }
+      ],
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=quantum+software+engineer&htidocid=8AfeUHzKuEoiBTarAAAAAA%3D%3D&hl=en-US&shem=epsd1,esd2e,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_x2OsQrCQBBEsc0n2Li1mJwINrFSkIiNJNqHS1yTk8vtcbvBfJdf6MVmYGYewyTfRVKVo3YyDnCnl3x0QDi7zjjEkEOF2qYPMyBcdHj-y1toe2QJWgw5SOFKDTDqmEL0BVFncXnoRTznSjHbrGOJcJu1NChy2NCk3tTwLDX3cdNbLVjv9tsp865br8oRg460H8XMV1owDk7EQm4DxfEHmvYDibUAAAA&shmds=v1_ARwrE22wROuTfSvMlHv0d2JTRt0Q-84JqKebchVLrMPtoSWH5w&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=quantum+software+engineer&htidocid=8AfeUHzKuEoiBTarAAAAAA%3D%3D",
+      "extensions": [
+        "Full-time"
+      ],
+      "source_link": "https://talents.vaia.com/companies/queracomputinginc/boston/quantum-software-engineer-real-time-hardware-orchestration-135624531/",
+      "job_title": "Quantum Software Engineer: Real-Time Hardware Orchestration",
+      "description": "Queracomputinginc, located in Boston, Massachusetts, is seeking a Software Engineer to develop software for orchestrating and controlling quantum hardware. The ideal candidate will design systems for quantum experiments and maintain APIs linking hardware control layers.\n\nThe position requires a degree in Computer Science or related fields, and significant experience in software development, particularly with Python and C/C++. The base salary ranges from $130,000 to $170,000.\n\n #J-18808-Ljbffr",
+      "apply_options": [
+        {
+          "title": "Talents By Vaia",
+          "link": "https://talents.vaia.com/companies/queracomputinginc/boston/quantum-software-engineer-real-time-hardware-orchestration-135624531/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJRdWFudHVtIFNvZnR3YXJlIEVuZ2luZWVyOiBSZWFsLVRpbWUgSGFyZHdhcmUgT3JjaGVzdHJhdGlvbiIsImNvbXBhbnlfbmFtZSI6IlF1ZXJhY29tcHV0aW5naW5jIiwiaHRpZG9jaWQiOiI4QWZlVUh6S3VFb2lCVGFyQUFBQUFBPT0iLCJobCI6ImVuIiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwU2xWSFpXSjBTVGxHUW1sdmNtWm5hbGs1TURFMWMyZGtabUZQTFY5RU5qbGZZVkpLVURGeldUSnNabGhWWDFSM1ZGOW5aVlp1TjFvM1NuSlhRVkF3YWs1NldEUnlRMGxTUlUxcVQzazNOMngxVkVSVk5XRTBUVzh0UjNCVVEwSmxabnA0Tm01RllWVlhaM2R5YzBwYVdESnVSMWh5U25WNGVuaEpXRUkwTFU1VVZXWlJjM2dTRjBwWVVFTmhjbVpmU1daeGRuRjBjMUJ5Wm5KamJVRm5HaUpCUkhOeU9XWlJibkI1VkROeFgxTTBaM0YxUnpaVFkxODFSRzB5TjIxM1VHWlIiLCJmY3YiOiIzIiwiZmNfaWQiOiI4QWZlVUh6S3VFb2lCVGFyQUFBQUFBPT0ifQ=="
+    },
+    {
+      "title": "Quantum Software Engineer: VM & Hardware Emulation",
+      "company_name": "QuEra Computing Inc.",
+      "location": "Boston, GA",
+      "via": "Talents By Vaia",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "A Master's degree in Computer Science or equivalent experience is required"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": [
+            "The position involves working on high-level applications for neutral-atom quantum computers and collaborating with a diverse team of scientists",
+            "You will maintain a multi-level hardware virtual machine that emulates QuEra’s domain-specific language and work with Quantum Error Correction scientists to simulate features required for executing QEC algorithms"
+          ]
+        }
+      ],
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=quantum+software+engineer&htidocid=bUbzthVZz4CBg3sZAAAAAA%3D%3D&hl=en-US&shem=epsd1,esd2e,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_yWMvQrCMBRGce0jOF0cHEQTEVx0Uim1gkMRXEsaYxpp7g35wT6UD2nE5cB3-DjFZ1LUTRIYk4UbPeNbeAUlaoNK-R3crzCHs_CPv7dpENEQwgou1EFQwsse8q6I9KCm-z5GF3achzAwHWI-SybJckLV0chf1IUf2tDnnssx1W6265E51ItZk0ov4ETWpWhQQ42SgUE4UoiES6gOX2ToYuOvAAAA&shmds=v1_ARwrE22TbUPLkUuwn4_J-wJSAQLenFblRazTO8EmOJbjW2w9OA&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=quantum+software+engineer&htidocid=bUbzthVZz4CBg3sZAAAAAA%3D%3D",
+      "extensions": [
+        "Full-time"
+      ],
+      "source_link": "https://talents.vaia.com/companies/quera-computing-inc/boston/quantum-software-engineer-vm-hardware-emulation-128072424/",
+      "job_title": "Quantum Software Engineer: VM & Hardware Emulation",
+      "description": "QuEra Computing, Inc. in Boston, MA seeks a Scientific Software Engineer to develop integration tools for quantum computing. The position involves working on high-level applications for neutral-atom quantum computers and collaborating with a diverse team of scientists.\n\nYou will maintain a multi-level hardware virtual machine that emulates QuEra’s domain-specific language and work with Quantum Error Correction scientists to simulate features required for executing QEC algorithms. A Master's degree in Computer Science or equivalent experience is required.\n\n #J-18808-Ljbffr",
+      "apply_options": [
+        {
+          "title": "Talents By Vaia",
+          "link": "https://talents.vaia.com/companies/quera-computing-inc/boston/quantum-software-engineer-vm-hardware-emulation-128072424/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJRdWFudHVtIFNvZnR3YXJlIEVuZ2luZWVyOiBWTSBcdTAwMjYgSGFyZHdhcmUgRW11bGF0aW9uIiwiY29tcGFueV9uYW1lIjoiUXVFcmEgQ29tcHV0aW5nIEluYy4iLCJodGlkb2NpZCI6ImJVYnp0aFZaejRDQmczc1pBQUFBQUE9PSIsImhsIjoiZW4iLCJmYyI6IkVzd0JDb3dCUVVwcFZEUjBTM2R6VlRsbWRTMXpjMFZpTTJOeE16Vm9iekEyVWpoemIzUlhTekIwZW14UVQwOVFkMEprYW1SMk5YWk1ZMWh2TTBaVWIwOXBTblY2ZDNnMVlscEpTa05wU1dSU1ZGaElXSHBGZVdZMloyVTBlbmh6U2pOVlVUQkRWVnBZVEhoRE9IRnJlRTFmYjJWMFdtRmpVMWg2TTJvMGRuQklVMHRDU0VkaWJua3phWE01YTBOMlUyVVNGMHBZVUVOaGNtWmZTV1p4ZG5GMGMxQnlabkpqYlVGbkdpSkJSSE55T1daVWFISjJaVlZ6ZFRkclFXdERWa3hvTFhCNFdreGxOVlJyYW1kUiIsImZjdiI6IjMiLCJmY19pZCI6ImJVYnp0aFZaejRDQmczc1pBQUFBQUE9PSJ9"
+    },
+    {
+      "title": "Quantum Software Engineer: Compilers, SDKs & HPC (Remote)",
+      "company_name": "Blocq, Inc.",
+      "location": "New York, NY",
+      "via": "BeBee",
+      "job_highlights": [
+        {
+          "title": "Responsibilities",
+          "items": [
+            "You will join a team designing the world's first quantum digital computing applications and be responsible for the infrastructure and platform needed to execute quantum algorithms efficiently on hardware",
+            "You will mainly work in Python while choosing languages for performance, implement compilers and transpilers, and contribute to code quality in a Git-driven workflow, turning theoretical research into"
+          ]
+        }
+      ],
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=quantum+software+engineer&htidocid=vTm2PMxipiy1Fcb8AAAAAA%3D%3D&hl=en-US&shem=epsd1,esd2e,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xXNuw6CQBAF0Nj6CdrcyqhBMCY22vmIr4SgVFRk2YyALju4s0Y_yo9Um9Oe7qfTTc5PZf2zQcpX_1KOsLVlbYncAmtu2tqQkwDp5iQYYJ-sMbxQw55GmODIBYSU0xXYYsdcGuotK-9bWUSRiAlL8crXOtTcRGyp4Hd040L-5FL9utYoT_lsPn2HrS3H_ZVh_QhwsDpEbRHTCxm7e4A4-wJAA7QLrwAAAA&shmds=v1_ARwrE22EaaZYELSoMKFe12OdO9CjLcLGrfwFijx91u5Puyzvng&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=quantum+software+engineer&htidocid=vTm2PMxipiy1Fcb8AAAAAA%3D%3D",
+      "extensions": [
+        "2 days ago",
+        "Full-time",
+        "No degree mentioned"
+      ],
+      "detected_extensions": {
+        "qualifications": "No degree mentioned"
+      },
+      "source_link": "https://bebee.com/us/jobs/quantum-software-engineer-compilers-sdks-hpc-remote-blocq-inc-new-york--lensa-7428_c9afa8c1bb6302145d4b53649eba4110765ec6ce5366387d2bc4393da99e5050",
+      "job_title": "Quantum Software Engineer: Compilers, SDKs & HPC (Remote)",
+      "description": "BlocQ, Inc. is seeking a Software Engineer to build systems that run on quantum computers.You will join a team designing the world's first quantum digital computing applications and be responsible for the infrastructure and platform needed to execute quantum algorithms efficiently on hardware. You will mainly work in Python while choosing languages for performance, implement compilers and transpilers, and contribute to code quality in a Git-driven workflow, turning theoretical research into",
+      "apply_options": [
+        {
+          "title": "BeBee",
+          "link": "https://bebee.com/us/jobs/quantum-software-engineer-compilers-sdks-hpc-remote-blocq-inc-new-york--lensa-7428_c9afa8c1bb6302145d4b53649eba4110765ec6ce5366387d2bc4393da99e5050?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Jobrapido",
+          "link": "https://us.jobrapido.com/jobpreview/2415547192044421120?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Learn4Good",
+          "link": "https://www.learn4good.com/jobs/online_remote/software_development/5507648282/e/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJRdWFudHVtIFNvZnR3YXJlIEVuZ2luZWVyOiBDb21waWxlcnMsIFNES3MgXHUwMDI2IEhQQyAoUmVtb3RlKSIsImNvbXBhbnlfbmFtZSI6IkJsb2NxLCBJbmMuIiwiaHRpZG9jaWQiOiJ2VG0yUE14aXBpeTFGY2I4QUFBQUFBPT0iLCJobCI6ImVuIiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwU1V4VFFuQkVhVE4yZUdkVFJ5MVZkako2TlZob1ZtWjJTMmhUY1ZGWFJuQlJZVGxSUWxWeVJXcHhYMDFSY2poSFFVMUNXWEpNV1ZocVMxRkhiR04wYVZKZmRVdDViVmwxWVZWS2JHWjFaR1ZZTlZCNU5saHVSREJsUWpWVFFqTmlhMkpRTVZwd1QzSXhUVVppYjAxMVMwZGtWRkF6YlhGV1RuZFJRbXcxVVhZeGFqaG5hbFVTRjBwWVVFTmhjbVpmU1daeGRuRjBjMUJ5Wm5KamJVRm5HaUpCUkhOeU9XWlVkVWxrTVhKMWVqZDNTamcxY0RCemR6bEtUVEpyTVVaT09WbFIiLCJmY3YiOiIzIiwiZmNfaWQiOiJ2VG0yUE14aXBpeTFGY2I4QUFBQUFBPT0ifQ=="
+    },
+    {
+      "title": "Production-Grade Quantum Dynamics Software Engineer",
+      "company_name": "QuEra Computing Inc.",
+      "location": "Boston, GA",
+      "via": "Talents By Vaia",
+      "job_highlights": [
+        {
+          "title": "Responsibilities",
+          "items": [
+            "The role emphasizes translating research-grade models into reliable, scalable software for scientists and engineers, collaborating with physicists and engineers to create reusable components and robust workflows"
+          ]
+        }
+      ],
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=quantum+software+engineer&htidocid=t6VtRwUzy5u-TwcqAAAAAA%3D%3D&hl=en-US&shem=epsd1,esd2e,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xXMvQ6CMBAA4LjyCE4XRyNgTFx08ocQmTQ-ACmllhp61_SuER_Kd1SXb_yyzyxrrpH6pMUR5nVUvYFbUijJw_mNyjvNcKeHvFQ0UKF1aEyEHBrqgI2KegBCqInsaOb7QSTwriyZx8KyKHG60ORLQtPRVD6p4z8tD78ujEpMu9mupyKgXS5uqYoKTuRDEocWLqgLcAhHYiFcQX34AkVjdcywAAAA&shmds=v1_ARwrE23ipDSN60w7xGYMsKCMMamWcd9KUk-Mc0-xeKLlVZvGXg&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=quantum+software+engineer&htidocid=t6VtRwUzy5u-TwcqAAAAAA%3D%3D",
+      "extensions": [
+        "Full-time",
+        "No degree mentioned"
+      ],
+      "detected_extensions": {
+        "qualifications": "No degree mentioned"
+      },
+      "source_link": "https://talents.vaia.com/companies/quera-computing-inc/boston/production-grade-quantum-dynamics-software-engineer-140273734/",
+      "job_title": "Production-Grade Quantum Dynamics Software Engineer",
+      "description": "QuEra Computing Inc. seeks a Scientific Software Engineer to develop tools for modeling neutral-atom quantum processors. You will bridge AMO theory, scientific computing, and quantum software, building simulation and analysis tools for noise, decoherence, and control validation.\n\nThe role emphasizes translating research-grade models into reliable, scalable software for scientists and engineers, collaborating with physicists and engineers to create reusable components and robust workflows.\n\n #J-18808-Ljbffr",
+      "apply_options": [
+        {
+          "title": "Talents By Vaia",
+          "link": "https://talents.vaia.com/companies/quera-computing-inc/boston/production-grade-quantum-dynamics-software-engineer-140273734/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJQcm9kdWN0aW9uLUdyYWRlIFF1YW50dW0gRHluYW1pY3MgU29mdHdhcmUgRW5naW5lZXIiLCJjb21wYW55X25hbWUiOiJRdUVyYSBDb21wdXRpbmcgSW5jLiIsImh0aWRvY2lkIjoidDZWdFJ3VXp5NXUtVHdjcUFBQUFBQT09IiwiaGwiOiJlbiIsImZjIjoiRXN3QkNvd0JRVXBwVkRSMFNtUkVjM1J6TW1KVFJrMWlNVEJxUms5emFVbzNWVEV4ZVRoSVEyNVlZWFJVTVY4elN6UjBhVFpTU1VaS1lucE5PR3BxYWxSellrWlBSalY0UVV0aFNuTmtXbWRpWVU5dWFETTVNMGwxYXpaNkxVZG5hbXhRUVdOUWJIaHNhakIyTm1GeU1GRlZaa1JyVVhKRVVtUmZNV0p3ZG1zMVJtUjRlWFU0TkMxR01WSllNbmw0Y2pFU0YwcFlVRU5oY21aZlNXWnhkbkYwYzFCeVpuSmpiVUZuR2lKQlJITnlPV1pUU1ROcU9YbHdNMGw0Um1sVVNWTllSV042Vm05V1lrSmpWWFZuIiwiZmN2IjoiMyIsImZjX2lkIjoidDZWdFJ3VXp5NXUtVHdjcUFBQUFBQT09In0="
+    },
+    {
+      "title": "Quantum Computing Software Engineer",
+      "company_name": "Blocq, Inc.",
+      "location": "New Rochelle, NY",
+      "via": "Learn4Good",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "Master's degree or higher in computer science, physics, mathematics, or a related field - or equivalent professional expertise",
+            "3+ years of programming experience with C++, Rust, or Python",
+            "Experience in team-based software development using Git",
+            "Deep understanding of object-oriented design, data structures, and algorithms; ability to write clean, maintainable code",
+            "Probation: 3 months"
+          ]
+        },
+        {
+          "title": "Benefits",
+          "items": [
+            "Compensation & Benefits",
+            "Salary:",
+            "Annual: ¥6M - ¥20M (annualized)",
+            "Incentive:",
+            "Fully covered",
+            "Insurance:",
+            "Health, pension, employment, workers' compensation",
+            "Overtime pay:",
+            "Paid per standard rates",
+            "Remote-first (hybrid available)",
+            "Days off:",
+            "Saturdays, Sundays, national holidays, Golden Week, year-end/New Year",
+            "Paid leave: 10+ days from the 7th month of employment"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": [
+            "You will join a team designing the world's first quantum digital computing applications, responsible for designing and implementing the system infrastructure and development platform needed to execute quantum algorithms efficiently on hardware",
+            "Your primary work will be developing compilers and transpilers that optimize and transform quantum circuits for specific hardware configurations - implementing efficient mapping and scheduling algorithms that account for hardware architecture and resource constraints",
+            "You will also build SDKs that make it easy for users to write and run quantum programs",
+            "A key mission of this role is turning theoretical methods conceived by researchers into scalable, maintainable software",
+            "You will work primarily in Python while selecting the best language and libraries for performance requirements, and you will actively contribute to code quality and development process improvements in a team Git workflow",
+            "Design and implement quantum algorithms for hardware deployment",
+            "Develop transpilers and compilers for quantum circuits",
+            "Design and develop middleware and SDKs to execute quantum algorithms and QEC protocols conceived by the research team efficiently and scalably",
+            "Develop HPC backends leveraging multi-threaded and GPU parallel computation to accelerate large-scale quantum circuit simulation and decoding",
+            "Build seamless integration interfaces with major open-source quantum software (e.g., Qiskit) and internal new-feature stacks",
+            "(Senior) Select and design software architecture; lead product quality improvements and development process through CI/CD pipelines and test automation"
+          ]
+        }
+      ],
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=quantum+software+engineer&htidocid=2BdM6vA4GgLEt8PmAAAAAA%3D%3D&hl=en-US&shem=epsd1,esd2e,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xXMsQrCMBAAUFz7CS7eLDURwaVuiogOBXVyKmk4k0h6F5sr7bf4teryxld8ZkV1HQzJ0MGBuzRIIAd3fspoeoQjuUCIPazgwi1kNL31wAQnZhdxvvMiKVda5xyVy2IkWGW500zY8qRf3OY_Tfa_LkUj2Gy260klcsvFPrJ9l3AmqyAQ1DjCja3HGLGE-vEFQs18Q50AAAA&shmds=v1_ARwrE20wjpo_gNtd3JXgETX89vHtSkBXLrshC72O01Fm8x5pKg&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=quantum+software+engineer&htidocid=2BdM6vA4GgLEt8PmAAAAAA%3D%3D",
+      "extensions": [
+        "3 days ago",
+        "38K–127K a year",
+        "Full-time",
+        "Health insurance"
+      ],
+      "source_link": "https://www.learn4good.com/jobs/new-rochelle/new-york/software_development/5507915372/e/",
+      "job_title": "Quantum Computing Software Engineer",
+      "description": "About BlocQBlocQ, Inc. is a deep-tech startup headquartered in Tokyo and Silicon Valley, on a mission to solve cybersecurity challenges in the quantum computing era. We research and develop algorithms and software for quantum computers, bringing together world-class quantum researchers, software engineers, and cybersecurity experts - many with roots at the University of Tokyo - to extract peak performance from quantum hardware.We are working toward the world's first commercialization of quantum digital computing. If you want to be at the frontier of that effort, we'd love to meet you.Role Overview We are looking for a Software Engineer to build the systems that run on quantum computers. You will join a team designing the world's first quantum digital computing applications, responsible for designing and implementing the system infrastructure and development platform needed to execute quantum algorithms efficiently on hardware.Your primary work will be developing compilers and transpilers that optimize and transform quantum circuits for specific hardware configurations - implementing efficient mapping and scheduling algorithms that account for hardware architecture and resource constraints. You will also build SDKs that make it easy for users to write and run quantum programs. A key mission of this role is turning theoretical methods conceived by researchers into scalable, maintainable software. You will work primarily in Python while selecting the best language and libraries for performance requirements, and you will actively contribute to code quality and development process improvements in a team Git workflow.Key Responsibilities Design and implement quantum algorithms for hardware deploymentDevelop transpilers and compilers for quantum circuitsDesign and develop middleware and SDKs to execute quantum algorithms and QEC protocols conceived by the research team efficiently and scalablyDevelop HPC backends leveraging multi-threaded and GPU parallel computation to accelerate large-scale quantum circuit simulation and decodingBuild seamless integration interfaces with major open-source quantum software (e.g., Qiskit) and internal new-feature stacks(Senior) Select and design software architecture; lead product quality improvements and development process through CI/CD pipelines and test automationRequired Qualifications Master's degree or higher in computer science, physics, mathematics, or a related field - or equivalent professional expertise3+ years of programming experience with C++, Rust, or PythonExperience in team-based software development using GitDeep understanding of object-oriented design, data structures, and algorithms; ability to write clean, maintainable codePreferred Qualifications Research or development experience in quantum computing technologyExperience in compiler development, FPGA development, or low-level implementation of computing systemsExperience in high-performance computing (HPC) and parallel-accelerated computing using OpenMP, CUDA, MPI, or similarContributions to quantum computing OSS (Qiskit, Cirq, Stim, etc.) or experience designing and publishing complex libraries/APIsExperience building scalable compute platforms (API servers, batch processing) on cloud infrastructure such as AWS or GCPCompensation & BenefitsSalary: Annual: ¥6M - ¥20M (annualized)Incentive: Stock optionsRaises: Determined based on performanceTransportation: Fully coveredInsurance: Health, pension, employment, workers' compensationOvertime pay: Paid per standard ratesWork ConditionsEmployment type: Permanent (no fixed term)Probation: 3 monthsWorking hours: 9:00-18:00 (60-min break) - ~10-45 hrs overtime/monthLocation: Shibuya, Tokyo (5-min walk from Shibuya Station)Remote: Remote-first (hybrid available)Days off: Saturdays, Sundays, national holidays, Golden Week, year-end/New YearPaid leave: 10+ days from the 7th month of employmentSmoking: Non-smoking workplaceSelection Process2-3 interview rounds",
+      "apply_options": [
+        {
+          "title": "Learn4Good",
+          "link": "https://www.learn4good.com/jobs/new-rochelle/new-york/software_development/5507915372/e/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJRdWFudHVtIENvbXB1dGluZyBTb2Z0d2FyZSBFbmdpbmVlciIsImNvbXBhbnlfbmFtZSI6IkJsb2NxLCBJbmMuIiwiaHRpZG9jaWQiOiIyQmRNNnZBNEdnTEV0OFBtQUFBQUFBPT0iLCJobCI6ImVuIiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwU1ZkaGJIVXhVbUYzYnpOUmNrTnVkWGh3YmpVd2NYTktRMDFZWkdKeFEyRm5SRlk0ZUU5SloxQXlOR0p2VUhwWVlVZEVUa2w0VVZGUUxVWXpXbGRZYW0xVFZHRnVaR05PUVhKak5rRmhPRGN3U2pWUk1WcEdjRUprV1Y4M09GWjRPSHBsYUZOVlRGTlJabEZLY1c1U2EzcExRM0YxTVVacVZsQlVSRVpKU1RkWGVrNDVORFVTRjBwWVVFTmhjbVpmU1daeGRuRjBjMUJ5Wm5KamJVRm5HaUpCUkhOeU9XWlRhbEJRVm5Kbk1HdzNRbXB5YUUxSVMxUnlTMXAyTUZCYU0xOVIiLCJmY3YiOiIzIiwiZmNfaWQiOiIyQmRNNnZBNEdnTEV0OFBtQUFBQUFBPT0ifQ=="
+    },
+    {
+      "title": "Quantum Information Software Intern 2027",
+      "company_name": "IBM",
+      "location": "Massachusetts",
+      "via": "LinkedIn",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "Master's Degree",
+            "Required Technical And Professional Expertise",
+            "Familiarity with quantum information and quantum circuits",
+            "Ability to transform theoretical concepts to software prototypes"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": [
+            "As an intern in the Quantum Information Software group at IBM, you will work closely with researchers and developers to advance the state of the art in software for fault tolerant quantum computing",
+            "Compilation and optimization of high-level quantum algorithm primitives such as block encoding and arithmetic",
+            "Developing techniques to reduce the non-Clifford resource usage of specific quantum algorithms",
+            "Optimizing compilation for the bicycle architecture, including magic state factories and entanglement routing",
+            "Perform an implementation of existing optimization techniques from the literature"
+          ]
+        }
+      ],
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=quantum+software+engineer&htidocid=8zy8W0ze3WKbUT7zAAAAAA%3D%3D&hl=en-US&shem=epsd1,esd2e,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xWMMQrCQBAAsU1tZbW1YC4ERNBCsJEIKcQHhM2xyUWS3XC7wTzEB3s2UwzDZN9Ndn0uyLZMUHEncUIbhOElnX0wUpJGkaEsyhMc4CEtKGH0AVJ0F-lH2l2C2axn51THvFdLB597mZwwtbK6t7T6R6MhHecRjZryWKz5zP1-W91qGBhqVEUfFiUz_QEA7v0ClwAAAA&shmds=v1_ARwrE239Z71LWfsRi6E18jv0GZEQEk5FQkDMoGmmALVVibO2Vw&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=quantum+software+engineer&htidocid=8zy8W0ze3WKbUT7zAAAAAA%3D%3D",
+      "thumbnail": "https://serpapi.com/searches/6ac2732427c2b0510d95bdaf/images/59vS3d8Zz3vyRwthMSU5X5BgUSHGbYbWfvfHcEa0NBg.jpeg",
+      "extensions": [
+        "6 days ago",
+        "74,400–163,680 a year",
+        "Full-time"
+      ],
+      "source_link": "https://www.linkedin.com/jobs/view/quantum-information-software-intern-2027-at-ibm-4471201769",
+      "job_title": "Quantum Information Software Intern 2027",
+      "description": "Introduction\n\nAt IBM Research, we are the innovation engine of IBM. Exploring what’s next in computing and shaping the technologies the world will rely on tomorrow. From advancing AI and hybrid cloud to pioneering practical quantum computing, we anticipate challenges and unlock new opportunities for clients, partners, and society. Working in Research means j oining a team that accelerates discovery at the intersection of high-performance computing, AI, quantum, and cloud. You’ll collaborate with leading scientists, engineers, and visionaries to push boundaries and turn ideas into reality. With a culture built on curiosity, creativity, and collaboration, IBM Research offers the opportunity to grow your career while contributing to breakthroughs that transform industries and change the world.\n\nYour Role And Responsibilities\n\nAs an intern in the Quantum Information Software group at IBM, you will work closely with researchers and developers to advance the state of the art in software for fault tolerant quantum computing. Your role can include:\n\nResource estimation of quantum algorithmsCompilation and optimization of high-level quantum algorithm primitives such as block encoding and arithmeticDeveloping techniques to reduce the non-Clifford resource usage of specific quantum algorithms Optimizing compilation for the bicycle architecture, including magic state factories and entanglement routingPerform an implementation of existing optimization techniques from the literature\n\nPreferred Education\n\nMaster's Degree\n\nRequired Technical And Professional Expertise\n\nFamiliarity with quantum information and quantum circuits.Ability to transform theoretical concepts to software prototypes.\n\nPreferred Technical And Professional Experience\n\nTrack record of independent research and publication in quantum information science.Familiarity with modern quantum algorithms for simulation and cryptography.Expertise in quantum architectures based on qLDPC codes.Familiarity with error correction and simulations of QEC circuits.Familiarity with early fault tolerant quantum computing literature.",
+      "apply_options": [
+        {
+          "title": "LinkedIn",
+          "link": "https://www.linkedin.com/jobs/view/quantum-information-software-intern-2027-at-ibm-4471201769?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "BeBee",
+          "link": "https://bebee.com/us/jobs/quantum-information-software-intern-2027-ibm-cambridge--fj-2386568301?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Trabajo.org",
+          "link": "https://us.trabajo.org/job-4112-f2bebe08ca49b3436d1232adfd489bb3?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJRdWFudHVtIEluZm9ybWF0aW9uIFNvZnR3YXJlIEludGVybiAyMDI3IiwiY29tcGFueV9uYW1lIjoiSUJNIiwiaHRpZG9jaWQiOiI4enk4VzB6ZTNXS2JVVDd6QUFBQUFBPT0iLCJobCI6ImVuIiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwU1Uxd016RmxNR1V5Y0V4cFMyb3RWVzlvUXpKd1FrTXdhWEY0YVRjelpsbFpObWhUUjBnMVlYUktSbWxCVHpCRlJtbGxaekpRY1ZWaFNuUjNNVjlMYkV4TVN6VXlSMEZLYldKZlZVVjVUR0ZSZUZCcmRGWXhkWEUxVWxSV2EwbHZMVTEwVG1SU1JEWlBNMjlJYldoaVlVdDRia3hZZEV0allUa3hUVk56YkhGTGRETm5jbDhTRjBwWVVFTmhjbVpmU1daeGRuRjBjMUJ5Wm5KamJVRm5HaUpCUkhOeU9XWlVWbnBSYW1RekxVaHdRa1Z4UjNrMFNVNUlRV2x4YUhBeWNHdDMiLCJmY3YiOiIzIiwiZmNfaWQiOiI4enk4VzB6ZTNXS2JVVDd6QUFBQUFBPT0ifQ=="
+    },
+    {
+      "title": "Senior Software Engineer — Quantum Platform & Tools",
+      "company_name": "Canaan Partners",
+      "location": "New Haven, CT",
+      "via": "JobLeads",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "We are looking for an experienced software engineer who enjoys solving complex technical problems and building automated, scalable, resilient systems",
+            "You are thoughtful about engineering tradeoffs, passionate about delivering high-quality software, and motivated to raise technical standards through design leadership, mentorship, and collaboration",
+            "BS or higher in computer science, electrical/computer engineering, math, or physics",
+            "5+ years of hands-on professional software development experience",
+            "Strong Python software development experience and proficiency in at least one compiled or systems programming language, such as C++, Go, or Rust",
+            "Experience with scientific computing libraries such as NumPy",
+            "Experience contributing to open-source software projects",
+            "Competence with cloud platforms specifically AWS",
+            "Proficiency in database systems and SQL",
+            "Competence with Git version control, build tools, and CI/CD pipelines",
+            "Proficient with RESTful APIs",
+            "Use of software testing principles and practices including unit testing, integration testing, and end-to-end testing",
+            "Strong problem-solving skills, exceptional attention to detail, and the ability to collaborate effectively in a fast-paced team environment",
+            "Excellent communication and interpersonal skills with the ability to effectively document and communicate technical concepts",
+            "Experience with containerization and orchestration technologies (e.g",
+            "Docker, Kubernetes)",
+            "Experience with performance profiling and diagnosing system issues",
+            "A D-Waver's DNA",
+            "We look at the future and say “why not”; we see possibilities where others see problems or routines"
+          ]
+        },
+        {
+          "title": "Benefits",
+          "items": [
+            "During the interview process, your Recruiter will review our total rewards (base, equity, bonus, perks, benefit, culture) offerings"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": [
+            "Collaborate with product managers, scientists, and applications engineers to translate functional requirements into technical specifications and production solutions",
+            "Lead the architecture and implementation of reliable, maintainable systems spanning simulators, quantum processor services, and supporting platform infrastructure",
+            "Design and build the tooling and core software used to develop, operate, and monitor our quantum processors",
+            "Write clean, well-documented code, and participate in design and code reviews to ensure code quality and maintainability",
+            "Troubleshoot issues, identify bottlenecks, and implement solutions to optimize performance and improve the user experience",
+            "Contribute throughout the software lifecycle from requirements and architecture through implementation, deployment, and production support",
+            "Provide mentorship and guidance to junior engineers"
+          ]
+        }
+      ],
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=quantum+software+engineer&htidocid=Zt6la4SCloWSIjokAAAAAA%3D%3D&hl=en-US&shem=epsd1,esd2e,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xXNOwrCUBBGYWxdgtVfWYgmIthoGUQRkYj2YRImD0lmwp0bTeki3IabciXG5pTfGX9G49OVpVKHq-b-SY6xk6ISZofv641LR-K7BnFNPlfXYIqbam1Y4KgpjMllJVSwVy1qnmxL71vbhKFZHRTmyVdZkGkTqnCqfXjX1P5JrBxe7aByslov-6CVYoaIhEgQk_PCzlAJzvzEgR4sc0S3HxCZ4jCwAAAA&shmds=v1_ARwrE23-hI8nr3hRd99axgE4f8Q56HRtGumN99qi0kF5J5aeuA&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=quantum+software+engineer&htidocid=Zt6la4SCloWSIjokAAAAAA%3D%3D",
+      "thumbnail": "https://serpapi.com/searches/6ac2732427c2b0510d95bdaf/images/pZPAsgxbnm_N100XVdHwr41G5cps3ke4XS8BTQJropY.png",
+      "extensions": [
+        "5 days ago",
+        "130K–190K a year",
+        "Full-time"
+      ],
+      "source_link": "https://www.jobleads.com/us/job/senior-software-engineer-quantum-platform-tools--new-haven--eff8af956e55248e5a50f948b4c9bb805",
+      "job_title": "Senior Software Engineer — Quantum Platform & Tools",
+      "description": "D-Wave Quantum Inc. (NASDAQ: QBTS) is a leader in the development and delivery of quantum computing systems, software, and services. It is the world’s first commercial supplier of quantum computers, and the first and only to offer dual-platform quantum computing products and services, spanning both annealing and gate-model quantum computing technologies. D-Wave’s mission is to help customers realize the value of quantum today through enterprise-grade systems available on-premises and via its Leap™ quantum cloud service, which offers 99.9% availability and uptime. More than 100 organizations across commercial, government, and research sectors trust D-Wave to address complex computational challenges using quantum computing. Learn more about realizing the value of quantum computing today and how D-Wave is shaping the quantum-driven industrial and societal advancements of tomorrow: www.dwavequantum.com.\n\nAbout the role\n\nD-Wave is seeking a Senior Software Engineer to join our Systems Software Engineering team. In this role, you will design and build core platform infrastructure, backend services, and user-facing features that enable seamless access and reliable operation of our simulators and gate-model quantum computers. You will have the opportunity to help shape our products, contributing to highly visible, impactful projects that advance the future of quantum computing. We are looking for an experienced software engineer who enjoys solving complex technical problems and building automated, scalable, resilient systems. You are thoughtful about engineering tradeoffs, passionate about delivering high-quality software, and motivated to raise technical standards through design leadership, mentorship, and collaboration.\n\nWhat you'll do\n\nCollaborate with product managers, scientists, and applications engineers to translate functional requirements into technical specifications and production solutionsLead the architecture and implementation of reliable, maintainable systems spanning simulators, quantum processor services, and supporting platform infrastructureDesign and build the tooling and core software used to develop, operate, and monitor our quantum processorsWrite clean, well-documented code, and participate in design and code reviews to ensure code quality and maintainabilityTroubleshoot issues, identify bottlenecks, and implement solutions to optimize performance and improve the user experienceContribute throughout the software lifecycle from requirements and architecture through implementation, deployment, and production supportProvide mentorship and guidance to junior engineersAbout You\n\nBS or higher in computer science, electrical/computer engineering, math, or physics5+ years of hands-on professional software development experienceStrong Python software development experience and proficiency in at least one compiled or systems programming language, such as C++, Go, or RustExperience with scientific computing libraries such as NumPyExperience contributing to open-source software projectsCompetence with cloud platforms specifically AWSProficiency in database systems and SQLCompetence with Git version control, build tools, and CI/CD pipelinesProficient with RESTful APIsUse of software testing principles and practices including unit testing, integration testing, and end-to-end testingStrong problem-solving skills, exceptional attention to detail, and the ability to collaborate effectively in a fast-paced team environmentExcellent communication and interpersonal skills with the ability to effectively document and communicate technical conceptsExperience with containerization and orchestration technologies (e.g. Docker, Kubernetes)Experience with performance profiling and diagnosing system issuesA D-Waver's DNA\n\nWe look at the future and say “why not”; we see possibilities where others see problems or routines. We show the way ahead and are committed to achieving ambitious goals.We practice straight talk and listen generously to each other with empathy. We value different opinions and points of views. We ensure that we connect outside as well as inside to learn from others and inspire each other.We hold ourselves accountable for delivering results. We make decisions & take responsibility so that we can act & support each other.As leaders we motivate & engage our teams to undertake beyond what they originally thought possible, by developing our teams & creating the conditions for people to grow and empower themselves through enabling & coaching.Our Compensation Philosophy is Simple but Powerful:\n\nWe believe providing D-Wavers with company ownership, competitive pay, and a range of meaningful benefits is the start of creating a culture where people want to give the best they’ve got — not because they’re simply making money, but because they’ve fallen in love with our vision, mission, values, and team.\n\nDuring the interview process, your Recruiter will review our total rewards (base, equity, bonus, perks, benefit, culture) offerings. The final offer is determined by your proficiencies within this level.\n\nInclusion:\n\nWe celebrate diverse perspectives to drive innovation in our pursuit. Our employees range from distinguished domain experts with decades of experience in their respective fields, to bright and motivated graduates eager to make their mark. Our diverse and innovative team will make you feel appreciated, supported and empower your career growth at D-Wave.\n\nThe Fine Print:\n\nNo 3rd party candidates will be accepted\n\nIt is D-Wave policy to provide equal employment opportunity (EEO) to all persons regardless of race, color, religion, sex, national origin, age, sexual orientation, gender identity, genetic information, physical or mental disability, protected veteran status, or any other characteristic protected by federal, state/provincial, local law.\n\nThe base pay range for this role is:\n\n125,000 – 187,000 USD (New Haven)",
+      "apply_options": [
+        {
+          "title": "JobLeads",
+          "link": "https://www.jobleads.com/us/job/senior-software-engineer-quantum-platform-tools--new-haven--eff8af956e55248e5a50f948b4c9bb805?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJTZW5pb3IgU29mdHdhcmUgRW5naW5lZXIg4oCUIFF1YW50dW0gUGxhdGZvcm0gXHUwMDI2IFRvb2xzIiwiY29tcGFueV9uYW1lIjoiQ2FuYWFuIFBhcnRuZXJzIiwiaHRpZG9jaWQiOiJadDZsYTRTQ2xvV1NJam9rQUFBQUFBPT0iLCJobCI6ImVuIiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwVEU5clluaE5OM1o1T0cxVVJHRkhiblZDYVc1SFZWUkZTWG80YVZOa1lVRnpSVEUwYVVOU2NqQm1kazl4Y1V4TFVDMDRjRWgwV0VwRU9WUlRTWFphY1VGb1dsSlNRbkZFZFU5eFNrOUpkVFpRTmpKdVVWTm9Za2hoZWs1QlQwMVFSa05zWXpKeVNFZDRhSFJtTkhadFN6VnlWVFpMZERWdkxVcFdaM1JrVjJkUGNWbFJTbG9TRjBwWVVFTmhjbVpmU1daeGRuRjBjMUJ5Wm5KamJVRm5HaUpCUkhOeU9XWlJha1JMVUdaT2NGQjFOV3ByWlZreVdsSmZWelZIT0VKMk1tTjMiLCJmY3YiOiIzIiwiZmNfaWQiOiJadDZsYTRTQ2xvV1NJam9rQUFBQUFBPT0ifQ=="
+    },
+    {
+      "title": "Senior Software Engineer - QuantumBlack, AI by McKinsey",
+      "company_name": "McKinsey & Company",
+      "location": "Atlanta, GA",
+      "via": "Indeed",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "Driving lasting impact and building long-term capabilities with our clients is not easy work",
+            "You are the kind of person who thrives in a high performance/high reward culture - doing hard things, picking yourself up when you stumble, and having the resilience to try another way forward",
+            "In return for your drive, determination, and curiosity, we'll provide the resources, mentorship, and opportunities you need to become a stronger leader faster than you ever thought possible",
+            "Undergraduate or master’s degree; or equivalent experience",
+            "5+ years of experience developing full-stack applications, writing code that is readable, testable, maintainable, and scalable",
+            "Deep proficiency in at least two frontend or backend frameworks, with the ability to independently evaluate and select packages, define data structures, and deliver robust, scalable solutions across the full stack; hands-on experience with languages and frameworks including JavaScript/TypeScript, React, Angular, Next.js, Vue.js, Java, Spring, C#, or Node.js; SQL and NoSQL databases; cloud platforms (AWS, Azure, or GCP); and CI/CD tooling (Jenkins, Docker, CircleCI, or similar)",
+            "Demonstrated ability to design complex, secure APIs — including REST and GraphQL — with a focus on scalability and maintainability, implementing advanced features such as rate limiting, caching, and API gateways, grounded in expert knowledge of software design patterns including microservices and distributed architectures",
+            "Proficiency across two cloud providers with the ability to build complex IaC and CI/CD pipelines from scratch, implement zero downtime deployment strategies, and apply cloud-native architecture concepts to ensure scalability, reliability, and elasticity",
+            "Advanced proficiency in AI-assisted engineering, orchestrating specialized agents across parallel workstreams, building reusable agent tooling, and exercising sound technical judgment on AI safety and application boundaries",
+            "Experience architecting AI systems and ensuring engineering quality, utilizing robust LLM evaluation frameworks, guardrails, and validation methodologies to deliver reliable, production-grade AI applications",
+            "A security-first mindset, able to advocate for standards and compliance, implement authentication flows such as OAuth and OIDC, proactively identify and mitigate security issues during development, and mentor others in secure development practices; ensures quality through comprehensive testing strategies and performance optimization",
+            "Experience leading collaborative, cross-functional engineering teams and fostering a strong engineering culture",
+            "Exceptional time management to meet your responsibilities in a complex and largely autonomous work environment",
+            "Strong communication skills, both verbal and written, in English and local office language(s), with the ability to adjust your style to suit different perspectives and seniority levels"
+          ]
+        },
+        {
+          "title": "Benefits",
+          "items": [
+            "Your colleagues—at all levels—will invest deeply in your development, just as much as they invest in delivering exceptional results for clients",
+            "Every day, you'll receive apprenticeship, coaching, and exposure that will accelerate your growth in ways you won’t find anywhere else",
+            "Continuous learning: Our learning and apprenticeship culture, backed by structured programs, is all about helping you grow while creating an environment where feedback is clear, actionable, and focused on your development",
+            "World-class benefits: On top of a competitive salary (based on your location, experience, and skills), we provide a comprehensive benefits package to enable holistic well-being for you and your family"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": [
+            "You will bring deep technical expertise and engineering leadership to some of the most complex and high-impact challenges facing clients across industries",
+            "You will own architectural decisions, set the technical direction for your workstream, and ensure the team delivers scalable, production-ready solutions that create lasting value",
+            "You will work hands-on across the full stack, designing robust systems and making technical judgments — on architecture, framework selection, cloud design, and the thoughtful application of AI — that shape what your team builds and how they build it",
+            "You will mentor both client and internal teams, helping engineers at all levels grow their craft and adopt the engineering practices that make great software possible",
+            "Your technical leadership will be felt not just in the code you write, but in the standards, you set and the people you develop along the way",
+            "Your work will help solve some of the most complex and high-impact challenges facing clients across industries",
+            "Collaborating across QuantumBlack, AI by McKinsey and QuantumBlack Labs teams, you will help develop innovative software capabilities and scalable enterprise solutions",
+            "You will help build robust technical foundations for production-ready, AI-enabled systems",
+            "Your contributions will directly support the firm's ability to accelerate AI adoption, solve complex business problems at scale, and enable clients to achieve meaningful, lasting impact",
+            "Working in cross-functional teams, you'll collaborate closely with designers, product managers, and industry experts to deliver software solutions",
+            "By partnering with clients from technical teams to C-level executives, you'll help solve complex problems that drive tangible business value and continue to grow your skills as a client-facing technologist",
+            "You'll develop expertise at the intersection of technology and business by tackling diverse challenges in the evolving AI landscape",
+            "Working alongside multidisciplinary teams, you'll gain a holistic understanding of how software engineering enables advanced AI while collaborating with some of the leading technologists and AI experts in the industry"
+          ]
+        }
+      ],
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=quantum+software+engineer&htidocid=z1QL5E9kXxuglDVPAAAAAA%3D%3D&hl=en-US&shem=epsd1,esd2e,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_z2OsQrCMBRFce0nOD0XB6mNCC46VZGioiD9gJKGZxpN3wtJiu1f-YnWxeUuB865yWeS3Eokwx5KfsS39AhH0oYQPSzh3kmKXbu3Ur1SyE9QD3BVF0MBhxGfuYaA0qsGmKBg1hanuyZGF7ZChGAzHaKMRmWKW8GENffiyXX4TRWaseasjFitN6s-c6QXs799DgdunaQBDEEe7XhEplDkX2O8krKzAAAA&shmds=v1_ARwrE20N2z34Y0kvQJrXZy8GNhyqBS5QBdSPCI2v4XfhmIr9EQ&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=quantum+software+engineer&htidocid=z1QL5E9kXxuglDVPAAAAAA%3D%3D",
+      "thumbnail": "https://serpapi.com/searches/6ac2732427c2b0510d95bdaf/images/isgZDyg0tkRERyye0QN28Yq-1t4owbDsnJm_mnxLY5U.jpeg",
+      "extensions": [
+        "Full-time",
+        "No degree mentioned",
+        "Health insurance"
+      ],
+      "detected_extensions": {
+        "qualifications": "No degree mentioned"
+      },
+      "source_link": "https://www.indeed.com/viewjob?jk=ae2d8ccff2b67768",
+      "job_title": "Senior Software Engineer - QuantumBlack, AI by McKinsey",
+      "description": "Job ID: 105333\n\n\n \n \n  \n   Atlanta\n   Boston\n   Chicago\n   Denver\n   New Jersey\n   New York City\n   Raleigh\n  \n \n \n \n \n  \n   Do you want to do work that matters, alongside supportive leaders who will help you grow faster than you ever thought possible? Are you a creative problem-solver who is energized by challenges? You’ve come to the right place.\n  \n  \n   YOUR IMPACT\n   \n    \n     \n      You will bring deep technical expertise and engineering leadership to some of the most complex and high-impact challenges facing clients across industries.\n     \n     \n     \n      You will own architectural decisions, set the technical direction for your workstream, and ensure the team delivers scalable, production-ready solutions that create lasting value.\n     \n     \n     \n      You will work hands-on across the full stack, designing robust systems and making technical judgments — on architecture, framework selection, cloud design, and the thoughtful application of AI — that shape what your team builds and how they build it. You will mentor both client and internal teams, helping engineers at all levels grow their craft and adopt the engineering practices that make great software possible. Your technical leadership will be felt not just in the code you write, but in the standards, you set and the people you develop along the way.\n     \n     \n     \n      Your work will help solve some of the most complex and high-impact challenges facing clients across industries. Collaborating across QuantumBlack, AI by McKinsey and QuantumBlack Labs teams, you will help develop innovative software capabilities and scalable enterprise solutions. You will help build robust technical foundations for production-ready, AI-enabled systems. Your contributions will directly support the firm's ability to accelerate AI adoption, solve complex business problems at scale, and enable clients to achieve meaningful, lasting impact.\n     \n     \n     \n      Working in cross-functional teams, you'll collaborate closely with designers, product managers, and industry experts to deliver software solutions. By partnering with clients from technical teams to C-level executives, you'll help solve complex problems that drive tangible business value and continue to grow your skills as a client-facing technologist.\n     \n     \n     \n      Your work offers a unique opportunity to grow at the forefront of AI and software engineering. You'll develop expertise at the intersection of technology and business by tackling diverse challenges in the evolving AI landscape. Working alongside multidisciplinary teams, you'll gain a holistic understanding of how software engineering enables advanced AI while collaborating with some of the leading technologists and AI experts in the industry. \n      #LI-MP\n\n\n     \n    \n   \n  \n  \n   YOUR GROWTH\n   \n    \n     Driving lasting impact and building long-term capabilities with our clients is not easy work. You are the kind of person who thrives in a high performance/high reward culture - doing hard things, picking yourself up when you stumble, and having the resilience to try another way forward.\n    \n    \n    \n     In return for your drive, determination, and curiosity, we'll provide the resources, mentorship, and opportunities you need to become a stronger leader faster than you ever thought possible. Your colleagues—at all levels—will invest deeply in your development, just as much as they invest in delivering exceptional results for clients. Every day, you'll receive apprenticeship, coaching, and exposure that will accelerate your growth in ways you won’t find anywhere else.\n    \n    \n    \n     When you join us, you will have:\n    \n    \n    \n     \n      Continuous learning: Our learning and apprenticeship culture, backed by structured programs, is all about helping you grow while creating an environment where feedback is clear, actionable, and focused on your development. The real magic happens when you take the input from others to heart and embrace the fast-paced learning experience, owning your journey.\n      A voice that matters: From day one, we value your ideas and contributions. You’ll make a tangible impact by offering innovative ideas and practical solutions, all while upholding our unwavering commitment to ethics and integrity. We not only encourage diverse perspectives, but they are critical in driving us toward the best possible outcomes.\n      Global community: With colleagues across 65+ countries and over 100 different nationalities, our firm’s diversity fuels creativity and helps us come up with the best solutions for our clients. Plus, you’ll have the opportunity to learn from exceptional colleagues with diverse backgrounds and experiences.\n      World-class benefits: On top of a competitive salary (based on your location, experience, and skills), we provide a comprehensive benefits package to enable holistic well-being for you and your family.\n     \n    \n   \n  \n \n \n  \n   \n    YOUR QUALIFICATIONS AND SKILLS\n    \n     \n      \n       Undergraduate or master’s degree; or equivalent experience\n       5+ years of experience developing full-stack applications, writing code that is readable, testable, maintainable, and scalable\n       Deep proficiency in at least two frontend or backend frameworks, with the ability to independently evaluate and select packages, define data structures, and deliver robust, scalable solutions across the full stack; hands-on experience with languages and frameworks including JavaScript/TypeScript, React, Angular, Next.js, Vue.js, Java, Spring, C#, or Node.js; SQL and NoSQL databases; cloud platforms (AWS, Azure, or GCP); and CI/CD tooling (Jenkins, Docker, CircleCI, or similar)\n       Demonstrated ability to design complex, secure APIs — including REST and GraphQL — with a focus on scalability and maintainability, implementing advanced features such as rate limiting, caching, and API gateways, grounded in expert knowledge of software design patterns including microservices and distributed architectures\n       Proficiency across two cloud providers with the ability to build complex IaC and CI/CD pipelines from scratch, implement zero downtime deployment strategies, and apply cloud-native architecture concepts to ensure scalability, reliability, and elasticity\n       Advanced proficiency in AI-assisted engineering, orchestrating specialized agents across parallel workstreams, building reusable agent tooling, and exercising sound technical judgment on AI safety and application boundaries\n       Experience architecting AI systems and ensuring engineering quality, utilizing robust LLM evaluation frameworks, guardrails, and validation methodologies to deliver reliable, production-grade AI applications\n       A security-first mindset, able to advocate for standards and compliance, implement authentication flows such as OAuth and OIDC, proactively identify and mitigate security issues during development, and mentor others in secure development practices; ensures quality through comprehensive testing strategies and performance optimization\n       Experience leading collaborative, cross-functional engineering teams and fostering a strong engineering culture\n       Exceptional time management to meet your responsibilities in a complex and largely autonomous work environment\n       Strong communication skills, both verbal and written, in English and local office language(s), with the ability to adjust your style to suit different perspectives and seniority levels\n      \n     \n    \n   \n  \n \n \n  \n   \n    \n     Please review the additional requirements regarding essential job functions of McKinsey colleagues.\n    \n    \n     Our unwavering commitment to integrity drives everything we do, guiding us to always act in the best interests of our clients, our people, and the communities we serve.",
+      "apply_options": [
+        {
+          "title": "Indeed",
+          "link": "https://www.indeed.com/viewjob?jk=ae2d8ccff2b67768&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "LinkedIn",
+          "link": "https://www.linkedin.com/jobs/view/senior-software-engineer-quantumblack-ai-by-mckinsey-at-quantumblack-ai-by-mckinsey-4464652238?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "ZipRecruiter",
+          "link": "https://www.ziprecruiter.com/c/McKinsey-&-Company/Job/Senior-Software-Engineer-QuantumBlack,-AI-by-McKinsey/-in-Atlanta,GA?jid=cf81155d9e915702&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Monster",
+          "link": "https://www.monster.com/job-openings/senior-software-engineer-quantumblack-ai-by-mckinsey-atlanta-ga--5faee196-8d7e-44fc-8625-faa86c5f5ad5?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "JobLeads",
+          "link": "https://www.jobleads.com/us/job/senior-software-engineer-quantumblack-ai-by-mckinsey--atlanta--ef7b067422c34949f45e25ee3d5fa84b8?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Glassdoor",
+          "link": "https://www.glassdoor.com/job-listing/jv?jl=1010212083201&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "BeBee",
+          "link": "https://bebee.com/us/jobs/senior-ai-software-engineer-elixir-real-time-logistics-front-door-defense-atlanta--pureheal-28528_25199_98dfa9dcad476ee249c5812df1b7354c?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "CareerBuilder",
+          "link": "https://www.careerbuilder.com/job-details/senior-software-engineer-quantumblack-ai-by-mckinsey-atlanta-ga--5faee196-8d7e-44fc-8625-faa86c5f5ad5?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJTZW5pb3IgU29mdHdhcmUgRW5naW5lZXIgLSBRdWFudHVtQmxhY2ssIEFJIGJ5IE1jS2luc2V5IiwiY29tcGFueV9uYW1lIjoiTWNLaW5zZXkgXHUwMDI2IENvbXBhbnkiLCJodGlkb2NpZCI6InoxUUw1RTlrWHh1Z2xEVlBBQUFBQUE9PSIsImhsIjoiZW4iLCJmYyI6IkVzd0JDb3dCUVVwcFZEUjBTMWhYWkZWWFZqVndSRzlWUzFSbk9XTlZaVkJtVjNCWVZFZHRkMWhJZFdkamVHOVFPRXAwYlRaM2NpMXZWMmwyVnpGbVRtWkpaR0k1ZUVNdE0zRkJNblY2WHpreFdIUlROMGwwUnpoSlFYcGFjRmRWUVZKUFRuUmpSVkZzTUZaa2NqWnRja2czT0VWd2NHTmxNbFJmV0ZKWlFtMUxNVE41YjJvMU0ydFBjRXd3VFRGYWNUSVNGMHBZVUVOaGNtWmZTV1p4ZG5GMGMxQnlabkpqYlVGbkdpSkJSSE55T1daVWExVmxTa3gzY2tVNVNVTndiRWh1UVdGUWNEWkdaMXA0TlZCUiIsImZjdiI6IjMiLCJmY19pZCI6InoxUUw1RTlrWHh1Z2xEVlBBQUFBQUE9PSJ9"
+    },
+    {
+      "title": "Software Development Engineer II, Centre for Quantum Computing",
+      "company_name": "Amazon Development Center U.S., Inc.",
+      "location": "Pasadena, CA",
+      "via": "Indeed",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "3+ years of non-internship professional software development experience",
+            "2+ years of non-internship design or architecture (design patterns, reliability and scaling) of new and existing systems experience",
+            "3+ years of Object Oriented Design experience",
+            "Bachelor's degree or foreign equivalent in Computer Science, Engineering, Mathematics, or a related field",
+            "Experience programming with at least one software programming language",
+            "These include the duties and responsibilities listed above, as well as the abilities to adhere to company policies, exercise sound judgment, effectively manage stress and work safely and respectfully with others, exhibit trustworthiness and professionalism, and safeguard business operations and the Company’s reputation"
+          ]
+        },
+        {
+          "title": "Benefits",
+          "items": [
+            "Your Amazon package will include sign-on payments and restricted stock units (RSUs)",
+            "Final compensation will be determined based on factors including experience, qualifications, and location",
+            "Amazon also offers comprehensive benefits including health insurance (medical, dental, vision, prescription, Basic Life & AD&D insurance and option for Supplemental life plans, EAP, Mental Health Support, Medical Advice Line, Flexible Spending Accounts, Adoption and Surrogacy Reimbursement coverage), 401(k) matching, paid time off, and parental leave"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": [
+            "You will work at the intersection of software engineering, machine learning, and experimental science, building workflows and data infrastructure that connect scientists, hardware engineers, and AI models into a tightly integrated development loop",
+            "Design and build data lakes and pipelines that unify experimental, fabrication, and metrology data from heterogeneous sources into a single, queryable platform for scientists and engineers",
+            "Develop AI-native workflows that automate the experiment-analysis-recommendation cycle: ingest results, run ML models, surface insights, and propose next steps with minimal human intervention",
+            "Build LLM-powered tools and autonomous agents that allow researchers to query, visualize, and reason over fabrication and experimental data using natural language",
+            "Partner directly with research scientists, process engineers, and hardware teams to understand their problems deeply and translate research needs into working software",
+            "Implement ML-driven analysis systems (e.g., automated defect detection, yield prediction, process optimization) that operate on live fabrication data",
+            "Design and build recommendation engines that evaluate design-of-experiment tradeoffs (cost, time, performance) and surface actionable suggestions to research teams",
+            "Own the reliability, scalability, and operational health of the systems you build, including monitoring, alerting, and on-call support",
+            "Contribute to the technical direction of the Device Lifecycle team through design documents, architecture reviews, and code reviews"
+          ]
+        }
+      ],
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=quantum+software+engineer&htidocid=LRl-c9S5WE1szZs_AAAAAA%3D%3D&hl=en-US&shem=epsd1,esd2e,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_03OsQrCQAwGYFx9BKfMolcRXXQqKlInRZwlren1pJccvVTFR_SpPDeXDH_g_7_hZzC8nKXWJ3YEW3pQK8ETK-zYOibqoCgmsElJ-tfSwalH1t7DRnzo1bGFKRykhEjYVQ0Iw17EtjRaN6ohrrIsxtbYqKiuMpX4TJhKeWV3KePvXGOTtkOLStf5cvYyge14kXt8p65_0Q-RPBdzNhMouDLgGI4Y8UaMyZh_AZ30ylnNAAAA&shmds=v1_ARwrE21pzF-P-fYTFCBubIAoyj8D70XIzLb-YdRgfxdVM5fAoA&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=quantum+software+engineer&htidocid=LRl-c9S5WE1szZs_AAAAAA%3D%3D",
+      "thumbnail": "https://serpapi.com/searches/6ac2732427c2b0510d95bdaf/images/BrfPCiU0NhE-GQW3vegPswQoLW5BT4Jd7kCBI1mG19g.jpeg",
+      "extensions": [
+        "10 days ago",
+        "144K–194K a year",
+        "Full-time",
+        "Dental insurance",
+        "Health insurance",
+        "Paid time off"
+      ],
+      "source_link": "https://www.indeed.com/viewjob?jk=236d6e7d4324e184",
+      "job_title": "Software Development Engineer II, Centre for Quantum Computing",
+      "description": "DESCRIPTION\n \n  The Center for Quantum Computing (CQC) is hiring a Software Development Engineer to build AI-native systems that accelerate quantum device research and fabrication. You will work at the intersection of software engineering, machine learning, and experimental science, building workflows and data infrastructure that connect scientists, hardware engineers, and AI models into a tightly integrated development loop. \n  \n\n  \n\n   Key job responsibilities \n  \n\n  \n   Design and build data lakes and pipelines that unify experimental, fabrication, and metrology data from heterogeneous sources into a single, queryable platform for scientists and engineers\n  \n  \n\n  \n   Develop AI-native workflows that automate the experiment-analysis-recommendation cycle: ingest results, run ML models, surface insights, and propose next steps with minimal human intervention\n  \n  \n\n  \n   Build LLM-powered tools and autonomous agents that allow researchers to query, visualize, and reason over fabrication and experimental data using natural language\n  \n  \n\n  \n   Partner directly with research scientists, process engineers, and hardware teams to understand their problems deeply and translate research needs into working software\n  \n  \n\n  \n   Implement ML-driven analysis systems (e.g., automated defect detection, yield prediction, process optimization) that operate on live fabrication data\n  \n  \n\n  \n   Design and build recommendation engines that evaluate design-of-experiment tradeoffs (cost, time, performance) and surface actionable suggestions to research teams\n  \n  \n\n  \n   Own the reliability, scalability, and operational health of the systems you build, including monitoring, alerting, and on-call support\n  \n  \n\n  \n   Contribute to the technical direction of the Device Lifecycle team through design documents, architecture reviews, and code reviews\n  \n  \n\n   About the team \n  \n\n   You will be joining the Device Lifecycle software development team within the AWS Center for Quantum Computing. Our team builds the software that enables scaling up quantum computing technologies, from fabrication execution systems to AI-powered research tools. We are a small, high-impact team where every engineer's work directly shapes the pace of quantum device development.\n \n  BASIC QUALIFICATIONS\n \n  3+ years of non-internship professional software development experience\n  2+ years of non-internship design or architecture (design patterns, reliability and scaling) of new and existing systems experience\n  3+ years of Object Oriented Design experience\n  Bachelor's degree or foreign equivalent in Computer Science, Engineering, Mathematics, or a related field\n  Experience programming with at least one software programming language\n \n  PREFERRED QUALIFICATIONS\n \n  4+ years of full software development life cycle, including coding standards, code reviews, source control management, build processes, testing, and operations experience\n  Master's degree in computer science or equivalent\n  Knowledge of Machine Learning and LLM fundamentals, including transformer architecture, training/inference lifecycles, and optimization techniques\n  Experience in machine learning, data mining, information retrieval, statistics or natural language processing\n  Experience with research and investigation skills or equivalent\n  Experience in semiconductor fabrication, foundry operations, or cleanroom environments\n \n \n\n  Amazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status. \n \n\n \n\n  Los Angeles County applicants: Job duties for this position include: work safely and cooperatively with other employees, supervisors, and staff; adhere to standards of excellence despite stressful conditions; communicate effectively and respectfully with employees, supervisors, and staff to ensure exceptional customer service; and follow all federal, state, and local laws and Company policies. Criminal history may have a direct, adverse, and negative relationship with some of the material job duties of this position. These include the duties and responsibilities listed above, as well as the abilities to adhere to company policies, exercise sound judgment, effectively manage stress and work safely and respectfully with others, exhibit trustworthiness and professionalism, and safeguard business operations and the Company’s reputation. Pursuant to the Los Angeles County Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records. \n \n\n \n\n  Our inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you’re applying in isn’t listed, please contact your Recruiting Partner. \n \n\n   The base salary range for this position is listed below. Your Amazon package will include sign-on payments and restricted stock units (RSUs). Final compensation will be determined based on factors including experience, qualifications, and location. Amazon also offers comprehensive benefits including health insurance (medical, dental, vision, prescription, Basic Life & AD&D insurance and option for Supplemental life plans, EAP, Mental Health Support, Medical Advice Line, Flexible Spending Accounts, Adoption and Surrogacy Reimbursement coverage), 401(k) matching, paid time off, and parental leave. Learn more about our benefits at https://amazon.jobs/en/benefits.\n\n\n \n\n  USA, CA, Pasadena - 143,700.00 - 194,400.00 USD annually",
+      "apply_options": [
+        {
+          "title": "Indeed",
+          "link": "https://www.indeed.com/viewjob?jk=236d6e7d4324e184&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "LinkedIn",
+          "link": "https://www.linkedin.com/jobs/view/software-development-engineer-ii-centre-for-quantum-computing-at-amazon-web-services-aws-4471823065?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Anitab.org Job Board",
+          "link": "https://jobs.anitab.org/companies/amazon-3-60ad394d-c673-4474-9694-344b0cae748f/jobs/94806599-software-development-engineer-ii-centre-for-quantum-computing?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "ZipRecruiter",
+          "link": "https://www.ziprecruiter.com/c/amazon/Job/Software-Development-Engineer-II,-Centre-for-Quantum-Computing/-in-Pasadena,CA?jid=fffff3ceb97b6877&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "JobLeads",
+          "link": "https://www.jobleads.com/us/job/software-development-engineer-ii-centre-for-quantum-computing--pasadena--eceda7a2906f488f7d4ddf374fcabbcb5?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Monster",
+          "link": "https://www.monster.com/job-openings/software-development-engineer-ii-centre-for-quantum-computing-pasadena-ca--2d0d0e1b-4de8-4bf7-8343-c5ebd1e185e5?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Jooble",
+          "link": "https://jooble.org/jdp/-1366825357794460220?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Adzuna",
+          "link": "https://www.adzuna.com/details/5899373726?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJTb2Z0d2FyZSBEZXZlbG9wbWVudCBFbmdpbmVlciBJSSwgQ2VudHJlIGZvciBRdWFudHVtIENvbXB1dGluZyIsImNvbXBhbnlfbmFtZSI6IkFtYXpvbiBEZXZlbG9wbWVudCBDZW50ZXIgVS5TLiwgSW5jLiIsImh0aWRvY2lkIjoiTFJsLWM5UzVXRTFzelpzX0FBQUFBQT09IiwiaGwiOiJlbiIsImZjIjoiRXN3QkNvd0JRVXBwVkRSMFNUTlZNM0JuTTNabVZtZFNTSGRrY2xWTGVIazVSbEJZUkVWWlJIWnVkMHQxYWsxVlZWQlhPVmxHVmtORmNIUnpTWEI1ZUZobGNXNVZOVXhKZDNaaE9FZ3paVE5sTjBSRVVIRXRTMlozYjJKWmVYQTBUMWhVWTNCNmNEaElVa0ZqUmkxeU9VWk5jMFJwV0Voa2JVTjBWQzFQVDFneFRuUXpkVk42V0dSRE5YZDFZVGMwYTBZU0YwcFlVRU5oY21aZlNXWnhkbkYwYzFCeVpuSmpiVUZuR2lKQlJITnlPV1pTVEVKSVYwY3pOazB6Y1RKdVdUTlZSWGxpVVZkek9WSjBabTFCIiwiZmN2IjoiMyIsImZjX2lkIjoiTFJsLWM5UzVXRTFzelpzX0FBQUFBQT09In0="
+    },
+    {
+      "title": "Quantum Information Software Intern 2027",
+      "company_name": "IBM",
+      "location": "Chicago, IL",
+      "via": "LinkedIn",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "Master's Degree",
+            "Required Technical And Professional Expertise",
+            "Familiarity with quantum information and quantum circuits",
+            "Ability to transform theoretical concepts to software prototypes"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": [
+            "As an intern in the Quantum Information Software group at IBM, you will work closely with researchers and developers to advance the state of the art in software for fault tolerant quantum computing",
+            "Compilation and optimization of high-level quantum algorithm primitives such as block encoding and arithmetic",
+            "Developing techniques to reduce the non-Clifford resource usage of specific quantum algorithms",
+            "Optimizing compilation for the bicycle architecture, including magic state factories and entanglement routing",
+            "Perform an implementation of existing optimization techniques from the literature"
+          ]
+        }
+      ],
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=quantum+software+engineer&htidocid=0Cr1NAp-WqoxsUnWAAAAAA%3D%3D&hl=en-US&shem=epsd1,esd2e,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xWMsQrCMBBAce3o6HSzaFIKIugg6CAVHcQPKGlIk0p7F3JX7Hf4xcblDY_HK76L4vScDMo0Qo0dpdFITwgv6uRjkstSXEKoymoPW7hRC-xMsgFydCXyg1sdg0jkg9bMg_Is-WCVpVETupZm_aaW_2g45GMcjLim2pWziujXy_r8gB7hEnprPG2gvv8A5XH_xJUAAAA&shmds=v1_ARwrE22FJpfF4pGB-BMhARCCbUUCucQr8I3BVC5g74VmKJrd8g&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=quantum+software+engineer&htidocid=0Cr1NAp-WqoxsUnWAAAAAA%3D%3D",
+      "thumbnail": "https://serpapi.com/searches/6ac2732427c2b0510d95bdaf/images/GWGO4rpGDER6gZuihKFyUQ41ymqvpIZlXRLlKTtl45E.jpeg",
+      "extensions": [
+        "6 days ago",
+        "74,400–163,680 a year",
+        "Full-time"
+      ],
+      "source_link": "https://www.linkedin.com/jobs/view/quantum-information-software-intern-2027-at-ibm-4471210497",
+      "job_title": "Quantum Information Software Intern 2027",
+      "description": "Introduction\n\nAt IBM Research, we are the innovation engine of IBM. Exploring what’s next in computing and shaping the technologies the world will rely on tomorrow. From advancing AI and hybrid cloud to pioneering practical quantum computing, we anticipate challenges and unlock new opportunities for clients, partners, and society. Working in Research means j oining a team that accelerates discovery at the intersection of high-performance computing, AI, quantum, and cloud. You’ll collaborate with leading scientists, engineers, and visionaries to push boundaries and turn ideas into reality. With a culture built on curiosity, creativity, and collaboration, IBM Research offers the opportunity to grow your career while contributing to breakthroughs that transform industries and change the world.\n\nYour Role And Responsibilities\n\nAs an intern in the Quantum Information Software group at IBM, you will work closely with researchers and developers to advance the state of the art in software for fault tolerant quantum computing. Your role can include:\n\nResource estimation of quantum algorithmsCompilation and optimization of high-level quantum algorithm primitives such as block encoding and arithmeticDeveloping techniques to reduce the non-Clifford resource usage of specific quantum algorithms Optimizing compilation for the bicycle architecture, including magic state factories and entanglement routingPerform an implementation of existing optimization techniques from the literature\n\nPreferred Education\n\nMaster's Degree\n\nRequired Technical And Professional Expertise\n\nFamiliarity with quantum information and quantum circuits.Ability to transform theoretical concepts to software prototypes.\n\nPreferred Technical And Professional Experience\n\nTrack record of independent research and publication in quantum information science.Familiarity with modern quantum algorithms for simulation and cryptography.Expertise in quantum architectures based on qLDPC codes.Familiarity with error correction and simulations of QEC circuits.Familiarity with early fault tolerant quantum computing literature.",
+      "apply_options": [
+        {
+          "title": "LinkedIn",
+          "link": "https://www.linkedin.com/jobs/view/quantum-information-software-intern-2027-at-ibm-4471210497?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Bandana.com",
+          "link": "https://bandana.com/jobs/367787f1-ba95-4907-bdc7-10506250cac8?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "BeBee",
+          "link": "https://bebee.com/us/jobs/quantum-information-software-intern-2027-ibm-chicago--fj-2386570224?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Mployee.me",
+          "link": "https://www.mployee.me/us/jobs/view/quantum-information-software-intern-2027-in-chicago-il-at-ibm--jid--447121049721508/us1?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "JobLeads",
+          "link": "https://www.jobleads.com/us/job/quantum-information-software-intern-2027--chicago--e266b1d97a761a5702870e9f4bb4275b1?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "JobMesh.io",
+          "link": "https://jobmesh.io/job/655b3d53-3cab-4e78-aa2b-d1194d490e1b?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Jobrapido",
+          "link": "https://us.jobrapido.com/jobpreview/6732083882524409856?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Jobilize",
+          "link": "https://www.jobilize.com/job/us-il-chicago-quantum-information-software-intern-2027-ibm-hiring?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJRdWFudHVtIEluZm9ybWF0aW9uIFNvZnR3YXJlIEludGVybiAyMDI3IiwiY29tcGFueV9uYW1lIjoiSUJNIiwiaHRpZG9jaWQiOiIwQ3IxTkFwLVdxb3hzVW5XQUFBQUFBPT0iLCJobCI6ImVuIiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwVEhONlZURnRVblpzWW5GbFRGOTVRVmxOTFMxdVYzWmZlWFZRUTJOUFRXRTNlamxPUnpSQ2FXVnRORlJxWVV0clRUazVNMmxJY2xkNk5YbHhWVEV3TFdkRFFtVm5iRWt5ZFZGT0xWaFhia1F0VlZkWk9WSXRUMHBFTFdRdFFYUmhkRFZhUlRSVFVUQmtlWFIzZDFGTlNXb3dOa2N6UjFsV1gyTlFNRU5zWmpOV2RERnVjV0VTRjBwWVVFTmhjbVpmU1daeGRuRjBjMUJ5Wm5KamJVRm5HaUpCUkhOeU9XWlJOVnB1UXpSNlFVdFJPRzB3WVU5S1dEbE1RbXQ2ZEdwSWRVdDMiLCJmY3YiOiIzIiwiZmNfaWQiOiIwQ3IxTkFwLVdxb3hzVW5XQUFBQUFBPT0ifQ=="
+    }
+  ],
+  "serpapi_pagination": {
+    "next_page_token": "eyJmYyI6IkV2Y0VDcmNFUVVwcFZEUjBTVXhwWjFCbE5sUXhSRzFoWkVWSllVbFdSbUp2U2xnNFVTMVpTeTFEZUhsMFJ6UmxORXR6V1dWcVgwOUtXakpJWnkxc05IWkpTMUZOU0doU2FYaFVNbFZHTTFGNU1VTXRhbUozUTJSalRWQXhhWEJEUVdsWFgwRTBRMFp1TkVGcWMxWklSbWgxVm1SVmRIUmpkMHAwZURNM1VETmZjbVU0WDJscGVDMHdUbmcwV1dWM1EwTjZhVGgzU0djME4xcE1WV0pYWHpCNVZXcG9RMlp4YmpKWlVGbG9NblJSVDI1UmVWTkJjRkF3Tlc1QlNFRjJXWEZVYVRGd2NYSTFlblZZZDAxYWVVOTNSR3hTYUhOQk1WaHJaV3BQVGt4aWFuZzViVXh5YUdKZlpGbEhkbTg1UVRadmIzRkRORzlCWldscVYySnhUekprZGxNM05reERhbGh6TWxwMU0zUkVPRWhWY21WMGIxOVpSV05XZW1SR09FVTNYemhrY0U1cGRWUk5aamRZUkhSTFVHSmpabWRuVjJsa1l6WmxiMEpSVWs1aVRYUjNTMWgwVUd4aGVUWmZaV3RhWTBKWmMwWk9ObWRRV1RjNWRVSjVZMGRsWlRWUlNscDNWSEZETVU5VVNGWk5UR0Z5TXpkd1RreG9OREo2VWpkVlVqRkZNbkZRV2pOT01FbFpSbmRJZG1sU2NrNXBkMGRpUlZRMVJ6WlBVVVEwYWxkRVp6UnRRVWRaTVRaTGRXUTBkamhZYjNVdGJFbEZha1ZXT1UweVFtdEZiRGgxTjFSaVlqRk5Tbmh0WlV3eVVtNW9hM1V6WHpoemRWZzNUSEZEYzJWb1QweHlXSFUwUVhsZk9XOUNYMDl4Y2tSeE9HeElhSFJqWkU1UE4yVktTbEpUTUdkc2VqWmtTazR0ZEZSV1VUbFNaa0pqYVV3eVdFNDVWbU5HTVhCUFl6ZHhkMnRIZFU1RFpVOXRZM0pYUmxwV04xUndZa0ZaRWhkS1dGQkRZWEptWDBsbWNYWnhkSE5RY21aeVkyMUJaeG9pUVVSemNqbG1WREJHVms4MWJrNXVOMmxLWkY5dmJHcE9YMWRUU1hkS1MyNW1RUSIsImZjdiI6IjMifQ==",
+    "next": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&next_page_token=eyJmYyI6IkV2Y0VDcmNFUVVwcFZEUjBTVXhwWjFCbE5sUXhSRzFoWkVWSllVbFdSbUp2U2xnNFVTMVpTeTFEZUhsMFJ6UmxORXR6V1dWcVgwOUtXakpJWnkxc05IWkpTMUZOU0doU2FYaFVNbFZHTTFGNU1VTXRhbUozUTJSalRWQXhhWEJEUVdsWFgwRTBRMFp1TkVGcWMxWklSbWgxVm1SVmRIUmpkMHAwZURNM1VETmZjbVU0WDJscGVDMHdUbmcwV1dWM1EwTjZhVGgzU0djME4xcE1WV0pYWHpCNVZXcG9RMlp4YmpKWlVGbG9NblJSVDI1UmVWTkJjRkF3Tlc1QlNFRjJXWEZVYVRGd2NYSTFlblZZZDAxYWVVOTNSR3hTYUhOQk1WaHJaV3BQVGt4aWFuZzViVXh5YUdKZlpGbEhkbTg1UVRadmIzRkRORzlCWldscVYySnhUekprZGxNM05reERhbGh6TWxwMU0zUkVPRWhWY21WMGIxOVpSV05XZW1SR09FVTNYemhrY0U1cGRWUk5aamRZUkhSTFVHSmpabWRuVjJsa1l6WmxiMEpSVWs1aVRYUjNTMWgwVUd4aGVUWmZaV3RhWTBKWmMwWk9ObWRRV1RjNWRVSjVZMGRsWlRWUlNscDNWSEZETVU5VVNGWk5UR0Z5TXpkd1RreG9OREo2VWpkVlVqRkZNbkZRV2pOT01FbFpSbmRJZG1sU2NrNXBkMGRpUlZRMVJ6WlBVVVEwYWxkRVp6UnRRVWRaTVRaTGRXUTBkamhZYjNVdGJFbEZha1ZXT1UweVFtdEZiRGgxTjFSaVlqRk5Tbmh0WlV3eVVtNW9hM1V6WHpoemRWZzNUSEZEYzJWb1QweHlXSFUwUVhsZk9XOUNYMDl4Y2tSeE9HeElhSFJqWkU1UE4yVktTbEpUTUdkc2VqWmtTazR0ZEZSV1VUbFNaa0pqYVV3eVdFNDVWbU5HTVhCUFl6ZHhkMnRIZFU1RFpVOXRZM0pYUmxwV04xUndZa0ZaRWhkS1dGQkRZWEptWDBsbWNYWnhkSE5RY21aeVkyMUJaeG9pUVVSemNqbG1WREJHVms4MWJrNXVOMmxLWkY5dmJHcE9YMWRUU1hkS1MyNW1RUSIsImZjdiI6IjMifQ%3D%3D&q=quantum+software+engineer"
+  }
+}

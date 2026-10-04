@@ -1,0 +1,962 @@
+{
+  "search_metadata": {
+    "id": "6ac27355a289717e22aefad9",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/QBrRFrRC1YoqAgIDjiU0ftopdEZ6gV9OfTBHzw5iBqM/6ac27355a289717e22aefad9.json",
+    "markdown_endpoint": "https://serpapi.com/searches/QBrRFrRC1YoqAgIDjiU0ftopdEZ6gV9OfTBHzw5iBqM/6ac27355a289717e22aefad9.md",
+    "created_at": "2026-10-04 15:40:05 UTC",
+    "processed_at": "2026-10-04 15:40:05 UTC",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=quantum+compiler+transpilation&hl=en&num=21&scisbd=1",
+    "raw_html_file": "https://serpapi.com/searches/QBrRFrRC1YoqAgIDjiU0ftopdEZ6gV9OfTBHzw5iBqM/6ac27355a289717e22aefad9.html",
+    "total_time_taken": 0.68
+  },
+  "search_parameters": {
+    "engine": "google_scholar",
+    "q": "quantum compiler transpilation",
+    "hl": "en",
+    "num": "20",
+    "scisbd": "1"
+  },
+  "search_information": {
+    "organic_results_state": "Results for exact spelling",
+    "total_results": 35,
+    "time_taken_displayed": 0.15,
+    "query_displayed": "quantum compiler transpilation"
+  },
+  "organic_results": [
+    {
+      "position": 1,
+      "title": "Q-TranSim: Batch Quantum Circuit Simulation using Tensor Transpilation",
+      "result_id": "kql7C8VSWT8J",
+      "type": "Pdf",
+      "link": "https://tsung-wei-huang.github.io/papers/2026-PACT-Q-TranSim.pdf",
+      "snippet": "12 days ago - … , the PyTorch compiler can transpile (source-to-source compile) … transpiling a quantum circuit into a high-level tensor program, specifically targeting the PyTorch compiler to …",
+      "publication_info": {
+        "summary": "S Jiang, H Chen, TY Ho… - ACM International …, 2026 - tsung-wei-huang.github.io",
+        "authors": [
+          {
+            "name": "S Jiang"
+          },
+          {
+            "name": "H Chen"
+          },
+          {
+            "name": "TY Ho",
+            "link": "https://scholar.google.com/citations?user=TRDUYkAAAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "TRDUYkAAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=TRDUYkAAAAAJ&engine=google_scholar_author&hl=en"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "github.io",
+          "file_format": "PDF",
+          "link": "https://tsung-wei-huang.github.io/papers/2026-PACT-Q-TranSim.pdf"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=kql7C8VSWT8J",
+        "cited_by": {
+          "total": 2,
+          "link": "https://scholar.google.com/scholar?cites=4564770703571397010&as_sdt=2005&sciodt=0,5&hl=en&num=20",
+          "cites_id": "4564770703571397010",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=4564770703571397010&engine=google_scholar&hl=en&num=20"
+        },
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:kql7C8VSWT8J:scholar.google.com/&scioq=quantum+compiler+transpilation&hl=en&scisbd=1&num=20&as_sdt=0,5",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3Akql7C8VSWT8J%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:kql7C8VSWT8J:scholar.google.com/+quantum+compiler+transpilation&hl=en&scisbd=1&num=20&as_sdt=0,5"
+      }
+    },
+    {
+      "position": 2,
+      "title": "Towards Secure and Transparent Quantum Computing for the Future",
+      "result_id": "r_yey0d-j9IJ",
+      "link": "https://etda.libraries.psu.edu/catalog/27337rzr5509",
+      "snippet": "33 days ago - … , transpilation and outcomes, through forensic investigations. Opacities and potential vulnerabilities in the quantum compiling… used to transpile from the transpiled program. …",
+      "publication_info": {
+        "summary": "R Roy - 2026 - etda.libraries.psu.edu",
+        "authors": [
+          {
+            "name": "R Roy",
+            "link": "https://scholar.google.com/citations?user=rnklpWgAAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "rnklpWgAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=rnklpWgAAAAJ&engine=google_scholar_author&hl=en"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "psu.edu",
+          "file_format": "PDF",
+          "link": "https://etda.libraries.psu.edu/files/final_submissions/35341"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=r_yey0d-j9IJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:r_yey0d-j9IJ:scholar.google.com/&scioq=quantum+compiler+transpilation&hl=en&scisbd=1&num=20&as_sdt=0,5",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3Ar_yey0d-j9IJ%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:r_yey0d-j9IJ:scholar.google.com/+quantum+compiler+transpilation&hl=en&scisbd=1&num=20&as_sdt=0,5"
+      }
+    },
+    {
+      "position": 3,
+      "title": "Towards Secure and Efficient Quantum Machine Learning in the NISQ Era",
+      "result_id": "LHfAloaKJlIJ",
+      "link": "https://etda.libraries.psu.edu/catalog/24944sxk6259",
+      "snippet": "33 days ago - … We evaluate model stealing attacks against quantum neural networks and the … -transpilation attack that reverse-engineers proprietary quantum compiler optimization …",
+      "publication_info": {
+        "summary": "S Kundu - 2026 - etda.libraries.psu.edu",
+        "authors": [
+          {
+            "name": "S Kundu",
+            "link": "https://scholar.google.com/citations?user=gR8ZZpwAAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "gR8ZZpwAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=gR8ZZpwAAAAJ&engine=google_scholar_author&hl=en"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "psu.edu",
+          "file_format": "PDF",
+          "link": "https://etda.libraries.psu.edu/files/final_submissions/35325"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=LHfAloaKJlIJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:LHfAloaKJlIJ:scholar.google.com/&scioq=quantum+compiler+transpilation&hl=en&scisbd=1&num=20&as_sdt=0,5",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3ALHfAloaKJlIJ%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:LHfAloaKJlIJ:scholar.google.com/+quantum+compiler+transpilation&hl=en&scisbd=1&num=20&as_sdt=0,5"
+      }
+    },
+    {
+      "position": 4,
+      "title": "AlphaClifford: Efficient Clifford Synthesis and Transpilation with Model-based RL",
+      "result_id": "IE_ozdQtEbcJ",
+      "link": "https://ui.adsabs.harvard.edu/abs/2026arXiv260818946L/abstract",
+      "snippet": "41 days ago - … computing, particularly due to their importance in quantum error correction and fault-… -constrained Clifford transpilation, where we outperform existing RL-based compilers, …",
+      "publication_info": {
+        "summary": "D Lizzio Bosco, J Cossio, C Piazza, G Serra - arXiv e-prints, 2026 - ui.adsabs.harvard.edu",
+        "authors": [
+          {
+            "name": "D Lizzio Bosco",
+            "link": "https://scholar.google.com/citations?user=ZmhvP7kAAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "ZmhvP7kAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=ZmhvP7kAAAAJ&engine=google_scholar_author&hl=en"
+          },
+          {
+            "name": "J Cossio",
+            "link": "https://scholar.google.com/citations?user=WGr2qA0AAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "WGr2qA0AAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=WGr2qA0AAAAJ&engine=google_scholar_author&hl=en"
+          },
+          {
+            "name": "C Piazza",
+            "link": "https://scholar.google.com/citations?user=iaXktckAAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "iaXktckAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=iaXktckAAAAJ&engine=google_scholar_author&hl=en"
+          },
+          {
+            "name": "G Serra",
+            "link": "https://scholar.google.com/citations?user=xz1J-xQAAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "xz1J-xQAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=xz1J-xQAAAAJ&engine=google_scholar_author&hl=en"
+          }
+        ]
+      },
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=IE_ozdQtEbcJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:IE_ozdQtEbcJ:scholar.google.com/&scioq=quantum+compiler+transpilation&hl=en&scisbd=1&num=20&as_sdt=0,5",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3AIE_ozdQtEbcJ%3Ascholar.google.com%2F&scisbd=1"
+      }
+    },
+    {
+      "position": 5,
+      "title": "Algorithmic Intent Leakage in Transpiled Quantum Circuits: An Initial Reverse-Engineering Study",
+      "result_id": "_FU9Y7lwRoMJ",
+      "link": "https://research.ibm.com/publications/algorithmic-intent-leakage-in-transpiled-quantum-circuits-an-initial-reverse-engineering-study",
+      "snippet": "44 days ago - … from final backend-transpiled quantum circuits. The receiver … compiler representations. We construct a controlled dataset spanning seven intent classes and transpile …",
+      "publication_info": {
+        "summary": "B Buesser, A Kurmus - … International Conference on Quantum …, 2026 - research.ibm.com",
+        "authors": [
+          {
+            "name": "B Buesser"
+          },
+          {
+            "name": "A Kurmus",
+            "link": "https://scholar.google.com/citations?user=0agYnC4AAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "0agYnC4AAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=0agYnC4AAAAJ&engine=google_scholar_author&hl=en"
+          }
+        ]
+      },
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=_FU9Y7lwRoMJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:_FU9Y7lwRoMJ:scholar.google.com/&scioq=quantum+compiler+transpilation&hl=en&scisbd=1&num=20&as_sdt=0,5",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3A_FU9Y7lwRoMJ%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:_FU9Y7lwRoMJ:scholar.google.com/+quantum+compiler+transpilation&hl=en&scisbd=1&num=20&as_sdt=0,5"
+      }
+    },
+    {
+      "position": 6,
+      "title": "Logarithmic depth compression of Heisenberg Hamiltonian simulation by fan-out parallelization, with built-in error detection",
+      "result_id": "V5sFO_fkhTEJ",
+      "link": "https://arxiv.org/abs/2608.20250",
+      "snippet": "45 days ago - … Here we introduce a fan-out-based gadget compiler that … under a fixed protocol, transpiled to a heavy-hex … on quantum devices, together with the transpiled circuit sizes of …",
+      "publication_info": {
+        "summary": "A Burov, C Javerzac - arXiv preprint arXiv:2608.20250, 2026 - arxiv.org",
+        "authors": [
+          {
+            "name": "A Burov",
+            "link": "https://scholar.google.com/citations?user=UdbV88MAAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "UdbV88MAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=UdbV88MAAAAJ&engine=google_scholar_author&hl=en"
+          },
+          {
+            "name": "C Javerzac",
+            "link": "https://scholar.google.com/citations?user=LkXQirAAAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "LkXQirAAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=LkXQirAAAAAJ&engine=google_scholar_author&hl=en"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "arxiv.org",
+          "file_format": "PDF",
+          "link": "https://arxiv.org/pdf/2608.20250"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=V5sFO_fkhTEJ",
+        "cited_by": {
+          "total": 1,
+          "link": "https://scholar.google.com/scholar?cites=3568510030259264343&as_sdt=2005&sciodt=0,5&hl=en&num=20",
+          "cites_id": "3568510030259264343",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=3568510030259264343&engine=google_scholar&hl=en&num=20"
+        },
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:V5sFO_fkhTEJ:scholar.google.com/&scioq=quantum+compiler+transpilation&hl=en&scisbd=1&num=20&as_sdt=0,5",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3AV5sFO_fkhTEJ%3Ascholar.google.com%2F&scisbd=1",
+        "versions": {
+          "total": 2,
+          "link": "https://scholar.google.com/scholar?cluster=3568510030259264343&hl=en&scisbd=1&num=20&as_sdt=0,5",
+          "cluster_id": "3568510030259264343",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&cluster=3568510030259264343&engine=google_scholar&hl=en&num=20&scisbd=1"
+        },
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:V5sFO_fkhTEJ:scholar.google.com/+quantum+compiler+transpilation&hl=en&scisbd=1&num=20&as_sdt=0,5"
+      }
+    },
+    {
+      "position": 7,
+      "title": "AlphaClifford: Efficient Clifford Synthesis and Transpilation with Model-based RL",
+      "result_id": "1omtfkX4NT8J",
+      "link": "https://arxiv.org/abs/2608.18946",
+      "snippet": "45 days ago - … , where we outperform existing RL-based compilers, and as a postsynthesis … 2) Transpilation: We further evaluate our approach on the task of quantum circuit transpilation. …",
+      "publication_info": {
+        "summary": "DL Bosco, J Cossio, C Piazza, G Serra - arXiv preprint arXiv:2608.18946, 2026 - arxiv.org",
+        "authors": [
+          {
+            "name": "DL Bosco",
+            "link": "https://scholar.google.com/citations?user=ZmhvP7kAAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "ZmhvP7kAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=ZmhvP7kAAAAJ&engine=google_scholar_author&hl=en"
+          },
+          {
+            "name": "J Cossio",
+            "link": "https://scholar.google.com/citations?user=WGr2qA0AAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "WGr2qA0AAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=WGr2qA0AAAAJ&engine=google_scholar_author&hl=en"
+          },
+          {
+            "name": "C Piazza",
+            "link": "https://scholar.google.com/citations?user=iaXktckAAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "iaXktckAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=iaXktckAAAAJ&engine=google_scholar_author&hl=en"
+          },
+          {
+            "name": "G Serra",
+            "link": "https://scholar.google.com/citations?user=xz1J-xQAAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "xz1J-xQAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=xz1J-xQAAAAJ&engine=google_scholar_author&hl=en"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "arxiv.org",
+          "file_format": "PDF",
+          "link": "https://arxiv.org/pdf/2608.18946"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=1omtfkX4NT8J",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:1omtfkX4NT8J:scholar.google.com/&scioq=quantum+compiler+transpilation&hl=en&scisbd=1&num=20&as_sdt=0,5",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3A1omtfkX4NT8J%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:1omtfkX4NT8J:scholar.google.com/+quantum+compiler+transpilation&hl=en&scisbd=1&num=20&as_sdt=0,5"
+      }
+    },
+    {
+      "position": 8,
+      "title": "Catching Transpilation Drift with a CI/CD Workflow in Quantum Software Development",
+      "result_id": "o-k8OVr7XZoJ",
+      "link": "https://arxiv.org/abs/2608.08248",
+      "snippet": "57 days ago - … Abstract—Quantum software workflows rely on compiler … Consequently, an unchanged quantum circuit may transpile … Such transpilation drift can affect circuit depth, gate …",
+      "publication_info": {
+        "summary": "J Peltonen, O Kinanen, V Stirbu - arXiv preprint arXiv:2608.08248, 2026 - arxiv.org",
+        "authors": [
+          {
+            "name": "J Peltonen",
+            "link": "https://scholar.google.com/citations?user=F63PSVYAAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "F63PSVYAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=F63PSVYAAAAJ&engine=google_scholar_author&hl=en"
+          },
+          {
+            "name": "O Kinanen",
+            "link": "https://scholar.google.com/citations?user=yYRd7jMAAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "yYRd7jMAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=yYRd7jMAAAAJ&engine=google_scholar_author&hl=en"
+          },
+          {
+            "name": "V Stirbu",
+            "link": "https://scholar.google.com/citations?user=fNpITDsAAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "fNpITDsAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=fNpITDsAAAAJ&engine=google_scholar_author&hl=en"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "arxiv.org",
+          "file_format": "PDF",
+          "link": "https://arxiv.org/pdf/2608.08248"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=o-k8OVr7XZoJ",
+        "cited_by": {
+          "total": 1,
+          "link": "https://scholar.google.com/scholar?cites=11123323019600914851&as_sdt=2005&sciodt=0,5&hl=en&num=20",
+          "cites_id": "11123323019600914851",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=11123323019600914851&engine=google_scholar&hl=en&num=20"
+        },
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:o-k8OVr7XZoJ:scholar.google.com/&scioq=quantum+compiler+transpilation&hl=en&scisbd=1&num=20&as_sdt=0,5",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3Ao-k8OVr7XZoJ%3Ascholar.google.com%2F&scisbd=1",
+        "versions": {
+          "total": 2,
+          "link": "https://scholar.google.com/scholar?cluster=11123323019600914851&hl=en&scisbd=1&num=20&as_sdt=0,5",
+          "cluster_id": "11123323019600914851",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&cluster=11123323019600914851&engine=google_scholar&hl=en&num=20&scisbd=1"
+        },
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:o-k8OVr7XZoJ:scholar.google.com/+quantum+compiler+transpilation&hl=en&scisbd=1&num=20&as_sdt=0,5"
+      }
+    },
+    {
+      "position": 9,
+      "title": "Observing the Quantum Compiler through Automatic Experiment Tracking for Qiskit",
+      "result_id": "ie9ard0489AJ",
+      "link": "https://arxiv.org/abs/2608.05041",
+      "snippet": "59 days ago - … This demonstration presents an MLflow-inspired autologging framework for Qiskit that automatically captures compiler provenance, including transpilation stages, pass-…",
+      "publication_info": {
+        "summary": "V Stirbu, AM van de Griend - arXiv preprint arXiv:2608.05041, 2026 - arxiv.org",
+        "authors": [
+          {
+            "name": "V Stirbu",
+            "link": "https://scholar.google.com/citations?user=fNpITDsAAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "fNpITDsAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=fNpITDsAAAAJ&engine=google_scholar_author&hl=en"
+          },
+          {
+            "name": "AM van de Griend"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "arxiv.org",
+          "file_format": "PDF",
+          "link": "https://arxiv.org/pdf/2608.05041"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=ie9ard0489AJ",
+        "cited_by": {
+          "total": 1,
+          "link": "https://scholar.google.com/scholar?cites=15056440503977045897&as_sdt=2005&sciodt=0,5&hl=en&num=20",
+          "cites_id": "15056440503977045897",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=15056440503977045897&engine=google_scholar&hl=en&num=20"
+        },
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:ie9ard0489AJ:scholar.google.com/&scioq=quantum+compiler+transpilation&hl=en&scisbd=1&num=20&as_sdt=0,5",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3Aie9ard0489AJ%3Ascholar.google.com%2F&scisbd=1",
+        "versions": {
+          "total": 2,
+          "link": "https://scholar.google.com/scholar?cluster=15056440503977045897&hl=en&scisbd=1&num=20&as_sdt=0,5",
+          "cluster_id": "15056440503977045897",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&cluster=15056440503977045897&engine=google_scholar&hl=en&num=20&scisbd=1"
+        },
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:ie9ard0489AJ:scholar.google.com/+quantum+compiler+transpilation&hl=en&scisbd=1&num=20&as_sdt=0,5"
+      }
+    },
+    {
+      "position": 10,
+      "title": "A Learned Cost Model for High-Fidelity Quantum Circuit Layout Optimization",
+      "result_id": "44v1NhGQR58J",
+      "link": "https://etd.auburn.edu/handle/10415/10577",
+      "snippet": "59 days ago - … Yet compilers choose it by connectivity rather than by noise. This thesis introduces … a normalized fidelity cost from pre-transpilation features alone and ranks candidate …",
+      "publication_info": {
+        "summary": "W El Bakri - 2026 - etd.auburn.edu",
+        "authors": [
+          {
+            "name": "W El Bakri"
+          }
+        ]
+      },
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=44v1NhGQR58J",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:44v1NhGQR58J:scholar.google.com/&scioq=quantum+compiler+transpilation&hl=en&scisbd=1&num=20&as_sdt=0,5",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3A44v1NhGQR58J%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:44v1NhGQR58J:scholar.google.com/+quantum+compiler+transpilation&hl=en&scisbd=1&num=20&as_sdt=0,5"
+      }
+    },
+    {
+      "position": 11,
+      "title": "Noise-Aware Evaluation and Adaptive Optimization Level Selection for Quantum Circuits in NISQ Systems",
+      "result_id": "hyO__u-g1Z0J",
+      "link": "https://ieeexplore.ieee.org/abstract/document/11662180/",
+      "snippet": "83 days ago - … Modern quantum compilers, such as the Qiskit transpiler… Prior works have explored compiler optimization, qubit … Each circuit was transpiled using four Qiskit optimization …",
+      "publication_info": {
+        "summary": "MB Chittem, V Sambhaje - … Conference on Quantum Software …, 2026 - ieeexplore.ieee.org",
+        "authors": [
+          {
+            "name": "MB Chittem",
+            "link": "https://scholar.google.com/citations?user=_gGOyCYAAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "_gGOyCYAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=_gGOyCYAAAAJ&engine=google_scholar_author&hl=en"
+          },
+          {
+            "name": "V Sambhaje",
+            "link": "https://scholar.google.com/citations?user=8DIbvc8AAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "8DIbvc8AAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=8DIbvc8AAAAJ&engine=google_scholar_author&hl=en"
+          }
+        ]
+      },
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=hyO__u-g1Z0J",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:hyO__u-g1Z0J:scholar.google.com/&scioq=quantum+compiler+transpilation&hl=en&scisbd=1&num=20&as_sdt=0,5",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3AhyO__u-g1Z0J%3Ascholar.google.com%2F&scisbd=1",
+        "versions": {
+          "total": 2,
+          "link": "https://scholar.google.com/scholar?cluster=11373173386625622919&hl=en&scisbd=1&num=20&as_sdt=0,5",
+          "cluster_id": "11373173386625622919",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&cluster=11373173386625622919&engine=google_scholar&hl=en&num=20&scisbd=1"
+        }
+      }
+    },
+    {
+      "position": 12,
+      "title": "Comparing and learning figures of merit for quantum circuit compilation",
+      "result_id": "dantQu7M-jUJ",
+      "link": "https://arxiv.org/abs/2607.03275",
+      "snippet": "93 days ago - … To make our model useful for quantum compilers, we devise a two… transpiled quantum circuits: first, we predict the additional quantum gates required for the given quantum …",
+      "publication_info": {
+        "summary": "H Singh, M Richter, M Granath, AF Kockum - arXiv preprint arXiv …, 2026 - arxiv.org",
+        "authors": [
+          {
+            "name": "H Singh",
+            "link": "https://scholar.google.com/citations?user=3Fdrz-sAAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "3Fdrz-sAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=3Fdrz-sAAAAJ&engine=google_scholar_author&hl=en"
+          },
+          {
+            "name": "M Richter"
+          },
+          {
+            "name": "M Granath",
+            "link": "https://scholar.google.com/citations?user=8KE3foQAAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "8KE3foQAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=8KE3foQAAAAJ&engine=google_scholar_author&hl=en"
+          },
+          {
+            "name": "AF Kockum",
+            "link": "https://scholar.google.com/citations?user=kHl9AxEAAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "kHl9AxEAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=kHl9AxEAAAAJ&engine=google_scholar_author&hl=en"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "arxiv.org",
+          "file_format": "PDF",
+          "link": "https://arxiv.org/pdf/2607.03275"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=dantQu7M-jUJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:dantQu7M-jUJ:scholar.google.com/&scioq=quantum+compiler+transpilation&hl=en&scisbd=1&num=20&as_sdt=0,5",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3AdantQu7M-jUJ%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:dantQu7M-jUJ:scholar.google.com/+quantum+compiler+transpilation&hl=en&scisbd=1&num=20&as_sdt=0,5"
+      }
+    },
+    {
+      "position": 13,
+      "title": "Synthesizing Compound Pulse Gadgets for Hamiltonian Simulation on Trapped-Ion Platforms",
+      "result_id": "WWT0WLkPdC0J",
+      "link": "https://arxiv.org/abs/2607.00826",
+      "snippet": "94 days ago - … transpilation introduces significant physical noise and overhead for high-precision quantum algorithms, such as the Quantum … Current compilers treat quantum operations …",
+      "publication_info": {
+        "summary": "R Patel, MH Heris, Y Liu, F Mueller - arXiv preprint arXiv:2607.00826, 2026 - arxiv.org",
+        "authors": [
+          {
+            "name": "R Patel"
+          },
+          {
+            "name": "MH Heris",
+            "link": "https://scholar.google.com/citations?user=VVedtiAAAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "VVedtiAAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=VVedtiAAAAAJ&engine=google_scholar_author&hl=en"
+          },
+          {
+            "name": "Y Liu",
+            "link": "https://scholar.google.com/citations?user=5EGClVoAAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "5EGClVoAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=5EGClVoAAAAJ&engine=google_scholar_author&hl=en"
+          },
+          {
+            "name": "F Mueller",
+            "link": "https://scholar.google.com/citations?user=1hEE9ZsAAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "1hEE9ZsAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=1hEE9ZsAAAAJ&engine=google_scholar_author&hl=en"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "arxiv.org",
+          "file_format": "PDF",
+          "link": "https://arxiv.org/pdf/2607.00826"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=WWT0WLkPdC0J",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:WWT0WLkPdC0J:scholar.google.com/&scioq=quantum+compiler+transpilation&hl=en&scisbd=1&num=20&as_sdt=0,5",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3AWWT0WLkPdC0J%3Ascholar.google.com%2F&scisbd=1",
+        "versions": {
+          "total": 3,
+          "link": "https://scholar.google.com/scholar?cluster=3275260117740971097&hl=en&scisbd=1&num=20&as_sdt=0,5",
+          "cluster_id": "3275260117740971097",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&cluster=3275260117740971097&engine=google_scholar&hl=en&num=20&scisbd=1"
+        },
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:WWT0WLkPdC0J:scholar.google.com/+quantum+compiler+transpilation&hl=en&scisbd=1&num=20&as_sdt=0,5"
+      }
+    },
+    {
+      "position": 14,
+      "title": "A Comprehensive Analysis of Anomaly-Driven Fuzzing for Quantum Circuits",
+      "result_id": "8RUhqXWpNFYJ",
+      "link": "https://dl.acm.org/doi/abs/10.1145/3787109.3816398",
+      "snippet": "107 days ago - … disproportionately in compilers and transpilation passes, … 40% of confirmed quantum bugs are quantum-specific in … is structurally inadequate for quantum software, and that …",
+      "publication_info": {
+        "summary": "SM Pudukotai Dinakarrao, HK Lalichetti - Proceedings of the Great …, 2026 - dl.acm.org",
+        "authors": [
+          {
+            "name": "SM Pudukotai Dinakarrao"
+          },
+          {
+            "name": "HK Lalichetti",
+            "link": "https://scholar.google.com/citations?user=ZjP7kooAAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "ZjP7kooAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=ZjP7kooAAAAJ&engine=google_scholar_author&hl=en"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "acm.org",
+          "file_format": "PDF",
+          "link": "https://dl.acm.org/doi/pdf/10.1145/3787109.3816398"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=8RUhqXWpNFYJ",
+        "cited_by": {
+          "total": 1,
+          "link": "https://scholar.google.com/scholar?cites=6211776108864542193&as_sdt=2005&sciodt=0,5&hl=en&num=20",
+          "cites_id": "6211776108864542193",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=6211776108864542193&engine=google_scholar&hl=en&num=20"
+        },
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:8RUhqXWpNFYJ:scholar.google.com/&scioq=quantum+compiler+transpilation&hl=en&scisbd=1&num=20&as_sdt=0,5",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3A8RUhqXWpNFYJ%3Ascholar.google.com%2F&scisbd=1"
+      }
+    },
+    {
+      "position": 15,
+      "title": "Q-DICE: Quantum Distributed Interconnect Compiler and Emulator",
+      "result_id": "GdJn7cFMfj0J",
+      "link": "https://arxiv.org/abs/2606.11340",
+      "snippet": "117 days ago - … In the realm of quantum software engineering, quantum … A backend object encapsulates everything a compiler needs to … layer to transpile abstract quantum circuits into …",
+      "publication_info": {
+        "summary": "M Silver, Z Vernec, HA Jacobsen - arXiv preprint arXiv:2606.11340, 2026 - arxiv.org",
+        "authors": [
+          {
+            "name": "M Silver",
+            "link": "https://scholar.google.com/citations?user=t2tLunEAAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "t2tLunEAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=t2tLunEAAAAJ&engine=google_scholar_author&hl=en"
+          },
+          {
+            "name": "Z Vernec",
+            "link": "https://scholar.google.com/citations?user=j9Ja67UAAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "j9Ja67UAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=j9Ja67UAAAAJ&engine=google_scholar_author&hl=en"
+          },
+          {
+            "name": "HA Jacobsen",
+            "link": "https://scholar.google.com/citations?user=85bt-X0AAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "85bt-X0AAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=85bt-X0AAAAJ&engine=google_scholar_author&hl=en"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "arxiv.org",
+          "file_format": "PDF",
+          "link": "https://arxiv.org/pdf/2606.11340"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=GdJn7cFMfj0J",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:GdJn7cFMfj0J:scholar.google.com/&scioq=quantum+compiler+transpilation&hl=en&scisbd=1&num=20&as_sdt=0,5",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3AGdJn7cFMfj0J%3Ascholar.google.com%2F&scisbd=1",
+        "versions": {
+          "total": 2,
+          "link": "https://scholar.google.com/scholar?cluster=4431063479174550041&hl=en&scisbd=1&num=20&as_sdt=0,5",
+          "cluster_id": "4431063479174550041",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&cluster=4431063479174550041&engine=google_scholar&hl=en&num=20&scisbd=1"
+        },
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:GdJn7cFMfj0J:scholar.google.com/+quantum+compiler+transpilation&hl=en&scisbd=1&num=20&as_sdt=0,5"
+      }
+    },
+    {
+      "position": 16,
+      "title": "Practical verification of quantum circuit transformations",
+      "result_id": "kogvzu583eQJ",
+      "link": "https://theses.hal.science/tel-05681895/",
+      "snippet": "122 days ago - … the quantum computation process, whether compiling a … circuit for specific hardware (transpilation), changing the … la compilation ou la transpilation, nous pouvons utiliser la …",
+      "publication_info": {
+        "summary": "J Ricciardi - 2026 - theses.hal.science",
+        "authors": [
+          {
+            "name": "J Ricciardi"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "hal.science",
+          "file_format": "PDF",
+          "link": "https://theses.hal.science/tel-05681895/document"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=kogvzu583eQJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:kogvzu583eQJ:scholar.google.com/&scioq=quantum+compiler+transpilation&hl=en&scisbd=1&num=20&as_sdt=0,5",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3Akogvzu583eQJ%3Ascholar.google.com%2F&scisbd=1",
+        "versions": {
+          "total": 2,
+          "link": "https://scholar.google.com/scholar?cluster=16491474775603906706&hl=en&scisbd=1&num=20&as_sdt=0,5",
+          "cluster_id": "16491474775603906706",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&cluster=16491474775603906706&engine=google_scholar&hl=en&num=20&scisbd=1"
+        },
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:kogvzu583eQJ:scholar.google.com/+quantum+compiler+transpilation&hl=en&scisbd=1&num=20&as_sdt=0,5"
+      }
+    },
+    {
+      "position": 17,
+      "title": "Treewidth-Aware Gate Cut Selection for Reducing Transpilation Overhead on Superconducting Quantum Devices",
+      "result_id": "hqRxVUxlPwAJ",
+      "link": "https://arxiv.org/abs/2605.29723",
+      "snippet": "128 days ago - … , and stochastic block model benchmarks transpiled to IBM’s … cut selection as a practical compiler-side tool for turning … In this work all transpilations are performed with the …",
+      "publication_info": {
+        "summary": "H Ebi, S Nishio, T Satoh - arXiv preprint arXiv:2605.29723, 2026 - arxiv.org",
+        "authors": [
+          {
+            "name": "H Ebi"
+          },
+          {
+            "name": "S Nishio",
+            "link": "https://scholar.google.com/citations?user=gZNt8twAAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "gZNt8twAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=gZNt8twAAAAJ&engine=google_scholar_author&hl=en"
+          },
+          {
+            "name": "T Satoh",
+            "link": "https://scholar.google.com/citations?user=7sU5XMMAAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "7sU5XMMAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=7sU5XMMAAAAJ&engine=google_scholar_author&hl=en"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "arxiv.org",
+          "file_format": "PDF",
+          "link": "https://arxiv.org/pdf/2605.29723"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=hqRxVUxlPwAJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:hqRxVUxlPwAJ:scholar.google.com/&scioq=quantum+compiler+transpilation&hl=en&scisbd=1&num=20&as_sdt=0,5",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3AhqRxVUxlPwAJ%3Ascholar.google.com%2F&scisbd=1",
+        "versions": {
+          "total": 2,
+          "link": "https://scholar.google.com/scholar?cluster=17844302058202246&hl=en&scisbd=1&num=20&as_sdt=0,5",
+          "cluster_id": "17844302058202246",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&cluster=17844302058202246&engine=google_scholar&hl=en&num=20&scisbd=1"
+        },
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:hqRxVUxlPwAJ:scholar.google.com/+quantum+compiler+transpilation&hl=en&scisbd=1&num=20&as_sdt=0,5"
+      }
+    },
+    {
+      "position": 18,
+      "title": "QuCtrl-BELL: A Compiler-Driven Sub-Microsecond Feedback Control Stack for Scalable Trapped-Ion Quantum Experiments",
+      "result_id": "BBxP1BNa42UJ",
+      "link": "https://arxiv.org/abs/2605.22433",
+      "snippet": "135 days ago - … pulse transpilation and … ), a compiler-driven software stack for trapped-ion quantum control on the QuCtrlBELL hardware platform. The central design principle is to compile …",
+      "publication_info": {
+        "summary": "J She, R Yan, Z Qin, Z Li, Z Shen, Z Zhou, B Qi… - arXiv preprint arXiv …, 2026 - arxiv.org",
+        "authors": [
+          {
+            "name": "J She"
+          },
+          {
+            "name": "R Yan"
+          },
+          {
+            "name": "Z Qin"
+          },
+          {
+            "name": "Z Li"
+          },
+          {
+            "name": "Z Shen"
+          },
+          {
+            "name": "Z Zhou",
+            "link": "https://scholar.google.com/citations?user=tUdJbEgAAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "tUdJbEgAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=tUdJbEgAAAAJ&engine=google_scholar_author&hl=en"
+          },
+          {
+            "name": "B Qi"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "arxiv.org",
+          "file_format": "PDF",
+          "link": "https://arxiv.org/pdf/2605.22433"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=BBxP1BNa42UJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:BBxP1BNa42UJ:scholar.google.com/&scioq=quantum+compiler+transpilation&hl=en&scisbd=1&num=20&as_sdt=0,5",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3ABBxP1BNa42UJ%3Ascholar.google.com%2F&scisbd=1",
+        "versions": {
+          "total": 2,
+          "link": "https://scholar.google.com/scholar?cluster=7341810858756873220&hl=en&scisbd=1&num=20&as_sdt=0,5",
+          "cluster_id": "7341810858756873220",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&cluster=7341810858756873220&engine=google_scholar&hl=en&num=20&scisbd=1"
+        },
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:BBxP1BNa42UJ:scholar.google.com/+quantum+compiler+transpilation&hl=en&scisbd=1&num=20&as_sdt=0,5"
+      }
+    },
+    {
+      "position": 19,
+      "title": "Digital Annealer-Assisted Accuracy-First Quantum Circuit Transpilation with Integrated QUBO Mapping and Routing",
+      "result_id": "7A_iLGnfImwJ",
+      "link": "https://arxiv.org/abs/2605.11500",
+      "snippet": "144 days ago - … While conventional compilers prioritize heuristic efficiency, there is a compelling need … ”time-for-quality” trade-off for enhancing the utility of near-term quantum hardware. …",
+      "publication_info": {
+        "summary": "K Watanabe, H Kawaguchi, S Nishio - arXiv preprint arXiv:2605.11500, 2026 - arxiv.org",
+        "authors": [
+          {
+            "name": "K Watanabe"
+          },
+          {
+            "name": "H Kawaguchi",
+            "link": "https://scholar.google.com/citations?user=KGlXsp8AAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "KGlXsp8AAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=KGlXsp8AAAAJ&engine=google_scholar_author&hl=en"
+          },
+          {
+            "name": "S Nishio",
+            "link": "https://scholar.google.com/citations?user=gZNt8twAAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "gZNt8twAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=gZNt8twAAAAJ&engine=google_scholar_author&hl=en"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "arxiv.org",
+          "file_format": "PDF",
+          "link": "https://arxiv.org/pdf/2605.11500"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=7A_iLGnfImwJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:7A_iLGnfImwJ:scholar.google.com/&scioq=quantum+compiler+transpilation&hl=en&scisbd=1&num=20&as_sdt=0,5",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3A7A_iLGnfImwJ%3Ascholar.google.com%2F&scisbd=1",
+        "versions": {
+          "total": 2,
+          "link": "https://scholar.google.com/scholar?cluster=7792035948121952236&hl=en&scisbd=1&num=20&as_sdt=0,5",
+          "cluster_id": "7792035948121952236",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&cluster=7792035948121952236&engine=google_scholar&hl=en&num=20&scisbd=1"
+        },
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:7A_iLGnfImwJ:scholar.google.com/+quantum+compiler+transpilation&hl=en&scisbd=1&num=20&as_sdt=0,5"
+      }
+    },
+    {
+      "position": 20,
+      "title": "Per-Phase Fidelity Attribution for Quantum Compilers using HBR Decomposition",
+      "result_id": "qA3MnKZpRdoJ",
+      "link": "https://arxiv.org/abs/2605.07876",
+      "snippet": "149 days ago - … In the NISQ era [33], quantum compilers sit between an algorithm’s abstract circuit … post-transpilation metrics such as total two-qubit gates, circuit depth or compile time. …",
+      "publication_info": {
+        "summary": "C Pati, Y Simmhan - arXiv preprint arXiv:2605.07876, 2026 - arxiv.org",
+        "authors": [
+          {
+            "name": "C Pati",
+            "link": "https://scholar.google.com/citations?user=u-qaIYEAAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "u-qaIYEAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=u-qaIYEAAAAJ&engine=google_scholar_author&hl=en"
+          },
+          {
+            "name": "Y Simmhan",
+            "link": "https://scholar.google.com/citations?user=HIOx9E0AAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "HIOx9E0AAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=HIOx9E0AAAAJ&engine=google_scholar_author&hl=en"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "arxiv.org",
+          "file_format": "PDF",
+          "link": "https://arxiv.org/pdf/2605.07876"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=qA3MnKZpRdoJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:qA3MnKZpRdoJ:scholar.google.com/&scioq=quantum+compiler+transpilation&hl=en&scisbd=1&num=20&as_sdt=0,5",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3AqA3MnKZpRdoJ%3Ascholar.google.com%2F&scisbd=1",
+        "versions": {
+          "total": 2,
+          "link": "https://scholar.google.com/scholar?cluster=15728093437977431464&hl=en&scisbd=1&num=20&as_sdt=0,5",
+          "cluster_id": "15728093437977431464",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&cluster=15728093437977431464&engine=google_scholar&hl=en&num=20&scisbd=1"
+        },
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:qA3MnKZpRdoJ:scholar.google.com/+quantum+compiler+transpilation&hl=en&scisbd=1&num=20&as_sdt=0,5"
+      }
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://scholar.google.com/scholar?start=20&q=quantum+compiler+transpilation&hl=en&scisbd=1&num=20&as_sdt=0,5",
+    "other_pages": {
+      "2": "https://scholar.google.com/scholar?start=20&q=quantum+compiler+transpilation&hl=en&scisbd=1&num=20&as_sdt=0,5"
+    }
+  },
+  "serpapi_pagination": {
+    "current": 1,
+    "next_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=quantum+compiler+transpilation&scisbd=1&start=20",
+    "next": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=quantum+compiler+transpilation&scisbd=1&start=20",
+    "other_pages": {
+      "2": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=quantum+compiler+transpilation&scisbd=1&start=20"
+    }
+  }
+}

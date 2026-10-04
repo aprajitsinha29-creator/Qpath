@@ -1,0 +1,707 @@
+{
+  "search_metadata": {
+    "id": "6ac2735c00a7fb6054f453d5",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/V4AqWaThATCXwfRTL-Vw5M_gqggjAqLlt_TYJV_C-jU/6ac2735c00a7fb6054f453d5.json",
+    "markdown_endpoint": "https://serpapi.com/searches/V4AqWaThATCXwfRTL-Vw5M_gqggjAqLlt_TYJV_C-jU/6ac2735c00a7fb6054f453d5.md",
+    "created_at": "2026-10-04 15:40:12 UTC",
+    "processed_at": "2026-10-04 15:40:12 UTC",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=quantum+key+distribution+OR+post-quantum+cryptography&hl=en&num=21&scisbd=1",
+    "raw_html_file": "https://serpapi.com/searches/V4AqWaThATCXwfRTL-Vw5M_gqggjAqLlt_TYJV_C-jU/6ac2735c00a7fb6054f453d5.html",
+    "total_time_taken": 4.61
+  },
+  "search_parameters": {
+    "engine": "google_scholar",
+    "q": "quantum key distribution OR post-quantum cryptography",
+    "hl": "en",
+    "num": "20",
+    "scisbd": "1"
+  },
+  "search_information": {
+    "organic_results_state": "Results for exact spelling",
+    "total_results": 3870,
+    "time_taken_displayed": 0.23,
+    "query_displayed": "quantum key distribution OR post-quantum cryptography"
+  },
+  "organic_results": [
+    {
+      "position": 1,
+      "title": "Time-space lower bounds for breaking quantum cryptography",
+      "result_id": "NI6390SqCscJ",
+      "link": "https://arxiv.org/abs/2610.02101",
+      "snippet": "2 days ago - … quantum cryptography against preprocessing attacks with time-space complexity (𝑇,𝑆) in the quantum … fully quantum cryptography, where the cryptosystem itself involves …",
+      "publication_info": {
+        "summary": "F Dong, A Lombardi - arXiv preprint arXiv:2610.02101, 2026 - arxiv.org",
+        "authors": [
+          {
+            "name": "F Dong"
+          },
+          {
+            "name": "A Lombardi"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "arxiv.org",
+          "file_format": "PDF",
+          "link": "https://arxiv.org/pdf/2610.02101"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=NI6390SqCscJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:NI6390SqCscJ:scholar.google.com/&scioq=quantum+key+distribution+OR+post-quantum+cryptography&hl=en&scisbd=1&num=20&as_sdt=0,14",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C14&engine=google_scholar&hl=en&num=20&q=related%3ANI6390SqCscJ%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:NI6390SqCscJ:scholar.google.com/+quantum+key+distribution+OR+post-quantum+cryptography&hl=en&scisbd=1&num=20&as_sdt=0,14"
+      }
+    },
+    {
+      "position": 2,
+      "title": "PQCUARK: A scalar RISC-V ISA extension for ML-KEM and ML-DSA",
+      "result_id": "7FFvumdp6BAJ",
+      "link": "https://upcommons.upc.edu/entities/publication/64799270-6cf7-4b43-9d6c-bb05365aba55",
+      "snippet": "2 days ago - … computing poses an existential threat to these schemes, as quantum algorithms can … post-quantum cryptographic (PQC) methods that are resistant against both quantum …",
+      "publication_info": {
+        "summary": "X Carril Gil, A Manuel Pasoot, E Parisi… - … , Automation & Test …, 2026 - upcommons.upc.edu",
+        "authors": [
+          {
+            "name": "X Carril Gil"
+          },
+          {
+            "name": "A Manuel Pasoot"
+          },
+          {
+            "name": "E Parisi"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "upc.edu",
+          "file_format": "PDF",
+          "link": "https://upcommons.upc.edu/bitstreams/a65e75af-a580-47ea-b8f6-4eb05e0baf96/download"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=7FFvumdp6BAJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:7FFvumdp6BAJ:scholar.google.com/&scioq=quantum+key+distribution+OR+post-quantum+cryptography&hl=en&scisbd=1&num=20&as_sdt=0,14",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C14&engine=google_scholar&hl=en&num=20&q=related%3A7FFvumdp6BAJ%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:7FFvumdp6BAJ:scholar.google.com/+quantum+key+distribution+OR+post-quantum+cryptography&hl=en&scisbd=1&num=20&as_sdt=0,14"
+      }
+    },
+    {
+      "position": 3,
+      "title": "QUANTUM COMPUTING ALGORITHM FOR OPTIMIZED CRYPTOGRAPHY KEY DISTRIBUTION",
+      "result_id": "fO75ZP3IgekJ",
+      "type": "Pdf",
+      "link": "https://www.researchgate.net/profile/Saidhbi-Sheik/publication/414669868_QUANTUM_COMPUTING_ALGORITHM_FOR_OPTIMIZED_CRYPTOGRAPHY_KEY_DISTRIBUTION/data/6ab4059f799bef11c4af6ae9/Copyrighted-Work.pdf",
+      "snippet": "2 days ago - … hold, making classical key distribution vulnerable. Quantum Key Distribution (QKD) provides an alternative path by leveraging basic principles of quantum mechanics. In …",
+      "publication_info": {
+        "summary": "DRS SAIDHBI - researchgate.net",
+        "authors": [
+          {
+            "name": "DRS SAIDHBI"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "researchgate.net",
+          "file_format": "PDF",
+          "link": "https://www.researchgate.net/profile/Saidhbi-Sheik/publication/414669868_QUANTUM_COMPUTING_ALGORITHM_FOR_OPTIMIZED_CRYPTOGRAPHY_KEY_DISTRIBUTION/data/6ab4059f799bef11c4af6ae9/Copyrighted-Work.pdf"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=fO75ZP3IgekJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:fO75ZP3IgekJ:scholar.google.com/&scioq=quantum+key+distribution+OR+post-quantum+cryptography&hl=en&scisbd=1&num=20&as_sdt=0,14",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C14&engine=google_scholar&hl=en&num=20&q=related%3AfO75ZP3IgekJ%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:fO75ZP3IgekJ:scholar.google.com/+quantum+key+distribution+OR+post-quantum+cryptography&hl=en&scisbd=1&num=20&as_sdt=0,14"
+      }
+    },
+    {
+      "position": 4,
+      "title": "AI-Augmented Quantum-Resilient Cybersecurity Framework for Adaptive Threat Detection in Next-Generation Networks",
+      "result_id": "NZu9PG3-lGAJ",
+      "link": "https://www.sciencedirect.com/science/article/pii/S0743731526001462",
+      "snippet": "2 days ago - … and Quantum-Resilient Intrusion Detection System that integrates deep learning, reinforcement learning, and post-quantum cryptographic … , whereas quantum resilience is …",
+      "publication_info": {
+        "summary": "H Nandanwar, SK Bajaj - Journal of Parallel and Distributed Computing, 2026 - Elsevier",
+        "authors": [
+          {
+            "name": "H Nandanwar"
+          },
+          {
+            "name": "SK Bajaj"
+          }
+        ]
+      },
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=NZu9PG3-lGAJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:NZu9PG3-lGAJ:scholar.google.com/&scioq=quantum+key+distribution+OR+post-quantum+cryptography&hl=en&scisbd=1&num=20&as_sdt=0,14",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C14&engine=google_scholar&hl=en&num=20&q=related%3ANZu9PG3-lGAJ%3Ascholar.google.com%2F&scisbd=1"
+      }
+    },
+    {
+      "position": 5,
+      "title": "SELF-REGULATING SECURITY OPERATIONS CENTER BASED ON FEDERATED LEARNING WITH POST-QUANTUM SECURE AGGREGATION MECHANISMS",
+      "result_id": "JOTTJsT-bg8J",
+      "link": "https://ais.khpi.edu.ua/article/view/372734",
+      "snippet": "2 days ago - … to quantum-… to post-quantum cryptography (PQC) has attained the status of a strategic global priority, reflecting a systemic reorientation of security policies toward quantum …",
+      "publication_info": {
+        "summary": "Y Zhyvylo, A Yanko, Y Kuchma… - Advanced Information …, 2026 - ais.khpi.edu.ua",
+        "authors": [
+          {
+            "name": "Y Zhyvylo"
+          },
+          {
+            "name": "A Yanko"
+          },
+          {
+            "name": "Y Kuchma"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "khpi.edu.ua",
+          "file_format": "PDF",
+          "link": "https://ais.khpi.edu.ua/article/download/372734/356295"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=JOTTJsT-bg8J",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:JOTTJsT-bg8J:scholar.google.com/&scioq=quantum+key+distribution+OR+post-quantum+cryptography&hl=en&scisbd=1&num=20&as_sdt=0,14",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C14&engine=google_scholar&hl=en&num=20&q=related%3AJOTTJsT-bg8J%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:JOTTJsT-bg8J:scholar.google.com/+quantum+key+distribution+OR+post-quantum+cryptography&hl=en&scisbd=1&num=20&as_sdt=0,14"
+      }
+    },
+    {
+      "position": 6,
+      "title": "The Potential of Bio-inspired Trace Alignment for Side-Channel Analysis",
+      "result_id": "ae1fKIKMeMAJ",
+      "link": "https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2026.1869476/full",
+      "snippet": "2 days ago - … by quantum computers, and governments encourage organizations to adopt new post-quantum cryptography … study of a public-key cryptographic implementation using the …",
+      "publication_info": {
+        "summary": "N Alachiotis, M Ottavi, BE Forlin… - Frontiers in Computer … - frontiersin.org",
+        "authors": [
+          {
+            "name": "N Alachiotis"
+          },
+          {
+            "name": "M Ottavi"
+          },
+          {
+            "name": "BE Forlin"
+          }
+        ]
+      },
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=ae1fKIKMeMAJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:ae1fKIKMeMAJ:scholar.google.com/&scioq=quantum+key+distribution+OR+post-quantum+cryptography&hl=en&scisbd=1&num=20&as_sdt=0,14",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C14&engine=google_scholar&hl=en&num=20&q=related%3Aae1fKIKMeMAJ%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:ae1fKIKMeMAJ:scholar.google.com/+quantum+key+distribution+OR+post-quantum+cryptography&hl=en&scisbd=1&num=20&as_sdt=0,14"
+      }
+    },
+    {
+      "position": 7,
+      "title": "Quantum-adaptive lattice signatures for next-generation secure communications",
+      "result_id": "iQOLrjSdmvQJ",
+      "type": "Pdf",
+      "link": "https://ceur-ws.org/Vol-4278/paper07.pdf",
+      "snippet": "2 days ago - … NIST post-quantum standardization NIST’s post-quantum cryptography standardization process selected CRYSTALS-Kyber for key encapsulation and CRYSTALS-…",
+      "publication_info": {
+        "summary": "M Iavich - CEUR Workshop Proceedings, 2026 - ceur-ws.org",
+        "authors": [
+          {
+            "name": "M Iavich"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "ceur-ws.org",
+          "file_format": "PDF",
+          "link": "https://ceur-ws.org/Vol-4278/paper07.pdf"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=iQOLrjSdmvQJ",
+        "cited_by": {
+          "total": 1,
+          "link": "https://scholar.google.com/scholar?cites=17625572941260063625&as_sdt=400005&sciodt=0,14&hl=en&num=20",
+          "cites_id": "17625572941260063625",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=400005&cites=17625572941260063625&engine=google_scholar&hl=en&num=20"
+        },
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:iQOLrjSdmvQJ:scholar.google.com/&scioq=quantum+key+distribution+OR+post-quantum+cryptography&hl=en&scisbd=1&num=20&as_sdt=0,14",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C14&engine=google_scholar&hl=en&num=20&q=related%3AiQOLrjSdmvQJ%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:iQOLrjSdmvQJ:scholar.google.com/+quantum+key+distribution+OR+post-quantum+cryptography&hl=en&scisbd=1&num=20&as_sdt=0,14"
+      }
+    },
+    {
+      "position": 8,
+      "title": "A Post-Quantum Password-Based Authenticated Key Exchange Scheme Based on Commutative Supersingular Isogenies",
+      "result_id": "nVYKNnsrIjsJ",
+      "link": "https://link.springer.com/article/10.1007/s42979-026-05335-4",
+      "snippet": "3 days ago - … rely on classical cryptographic assumptions that are vulnerable to quantum attacks. … , we present a post-quantum multifactor-authenticated key exchange technique. The …",
+      "publication_info": {
+        "summary": "S Mishra, RK Jha - SN Computer Science, 2026 - Springer",
+        "authors": [
+          {
+            "name": "S Mishra"
+          },
+          {
+            "name": "RK Jha"
+          }
+        ]
+      },
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=nVYKNnsrIjsJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:nVYKNnsrIjsJ:scholar.google.com/&scioq=quantum+key+distribution+OR+post-quantum+cryptography&hl=en&scisbd=1&num=20&as_sdt=0,14",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C14&engine=google_scholar&hl=en&num=20&q=related%3AnVYKNnsrIjsJ%3Ascholar.google.com%2F&scisbd=1"
+      }
+    },
+    {
+      "position": 9,
+      "title": "Next Research",
+      "result_id": "pKif_DJRodgJ",
+      "type": "Pdf",
+      "link": "https://www.researchgate.net/profile/Simon-Baradziej/publication/414780651_Migrating_Two_Worlds_at_Once_A_Comparative_Risk_Analysis_of_Post-Quantum_Cryptographic_Adoption_in_Information-Technology_and_Operational-Technology_Environments/links/6abe30b1d632da6a7c295b71/Migrating-Two-Worlds-at-Once-A-Comparative-Risk-Analysis-of-Post-Quantum-Cryptographic-Adoption-in-Information-Technology-and-Operational-Technology-Environments.pdf",
+      "snippet": "3 days ago - … post-quantum cryptography (PQC), a family of algorithms built on problems believed to resist both classical and quantum … , design limits, and key distribution? Second, how …",
+      "publication_info": {
+        "summary": "S Baradziej - researchgate.net",
+        "authors": [
+          {
+            "name": "S Baradziej"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "researchgate.net",
+          "file_format": "PDF",
+          "link": "https://www.researchgate.net/profile/Simon-Baradziej/publication/414780651_Migrating_Two_Worlds_at_Once_A_Comparative_Risk_Analysis_of_Post-Quantum_Cryptographic_Adoption_in_Information-Technology_and_Operational-Technology_Environments/links/6abe30b1d632da6a7c295b71/Migrating-Two-Worlds-at-Once-A-Comparative-Risk-Analysis-of-Post-Quantum-Cryptographic-Adoption-in-Information-Technology-and-Operational-Technology-Environments.pdf"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=pKif_DJRodgJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:pKif_DJRodgJ:scholar.google.com/&scioq=quantum+key+distribution+OR+post-quantum+cryptography&hl=en&scisbd=1&num=20&as_sdt=0,14",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C14&engine=google_scholar&hl=en&num=20&q=related%3ApKif_DJRodgJ%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:pKif_DJRodgJ:scholar.google.com/+quantum+key+distribution+OR+post-quantum+cryptography&hl=en&scisbd=1&num=20&as_sdt=0,14"
+      }
+    },
+    {
+      "position": 10,
+      "title": "System-Level Optimization Beyond Cryptographic Kernels: An ML-KEM Case Study on Arm Cortex-M7",
+      "result_id": "2c4ceCVTBV0J",
+      "link": "https://arxiv.org/abs/2610.01960",
+      "snippet": "3 days ago - … quantum computers would compromise the security assumptions of widely deployed public-key … This threat has motivated the transition to post-quantum cryptography (PQC…",
+      "publication_info": {
+        "summary": "MA Sayed, M Taha, G Nijjer - arXiv preprint arXiv:2610.01960, 2026 - arxiv.org",
+        "authors": [
+          {
+            "name": "MA Sayed"
+          },
+          {
+            "name": "M Taha"
+          },
+          {
+            "name": "G Nijjer"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "arxiv.org",
+          "file_format": "PDF",
+          "link": "https://arxiv.org/pdf/2610.01960"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=2c4ceCVTBV0J",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:2c4ceCVTBV0J:scholar.google.com/&scioq=quantum+key+distribution+OR+post-quantum+cryptography&hl=en&scisbd=1&num=20&as_sdt=0,14",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C14&engine=google_scholar&hl=en&num=20&q=related%3A2c4ceCVTBV0J%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:2c4ceCVTBV0J:scholar.google.com/+quantum+key+distribution+OR+post-quantum+cryptography&hl=en&scisbd=1&num=20&as_sdt=0,14"
+      }
+    },
+    {
+      "position": 11,
+      "title": "A Post-Quantum Lightweight Mutual Authentication and Encryption Scheme for Secure UAV Communications",
+      "result_id": "t7Q1xzRJHLwJ",
+      "link": "https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2026.1947684/full",
+      "snippet": "3 days ago - … However, this research presents a lightweight security scheme based on Kyber algorithm as a quantum-resistant for key exchange, followed by a WPA2-inspired …",
+      "publication_info": {
+        "summary": "SA Hussien, AA Abdullah - Frontiers in Computer Science - frontiersin.org",
+        "authors": [
+          {
+            "name": "SA Hussien"
+          },
+          {
+            "name": "AA Abdullah"
+          }
+        ]
+      },
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=t7Q1xzRJHLwJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:t7Q1xzRJHLwJ:scholar.google.com/&scioq=quantum+key+distribution+OR+post-quantum+cryptography&hl=en&scisbd=1&num=20&as_sdt=0,14",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C14&engine=google_scholar&hl=en&num=20&q=related%3At7Q1xzRJHLwJ%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:t7Q1xzRJHLwJ:scholar.google.com/+quantum+key+distribution+OR+post-quantum+cryptography&hl=en&scisbd=1&num=20&as_sdt=0,14"
+      }
+    },
+    {
+      "position": 12,
+      "title": "Transmission of multi-level time-bin encoded cluster states over 29 km of partially deployed optical fiber",
+      "result_id": "ezToUhmlQ1IJ",
+      "link": "https://www.nature.com/articles/s41377-026-02465-5",
+      "snippet": "3 days ago - … for quantum networking applications including blind quantum computing and quantum key … Frequency-bin-encoded entanglement-based quantum key distribution in a …",
+      "publication_info": {
+        "summary": "P Rübeling, R Johanning, J Heine… - Light: Science & …, 2026 - nature.com",
+        "authors": [
+          {
+            "name": "P Rübeling",
+            "link": "https://scholar.google.com/citations?user=pFDwYDAAAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "pFDwYDAAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=pFDwYDAAAAAJ&engine=google_scholar_author&hl=en"
+          },
+          {
+            "name": "R Johanning",
+            "link": "https://scholar.google.com/citations?user=Q6as_fMAAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "Q6as_fMAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=Q6as_fMAAAAJ&engine=google_scholar_author&hl=en"
+          },
+          {
+            "name": "J Heine"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "nature.com",
+          "file_format": "PDF",
+          "link": "https://www.nature.com/articles/s41377-026-02465-5.pdf"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=ezToUhmlQ1IJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:ezToUhmlQ1IJ:scholar.google.com/&scioq=quantum+key+distribution+OR+post-quantum+cryptography&hl=en&scisbd=1&num=20&as_sdt=0,14",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C14&engine=google_scholar&hl=en&num=20&q=related%3AezToUhmlQ1IJ%3Ascholar.google.com%2F&scisbd=1",
+        "versions": {
+          "total": 2,
+          "link": "https://scholar.google.com/scholar?cluster=5927763062733419643&hl=en&scisbd=1&num=20&as_sdt=0,14",
+          "cluster_id": "5927763062733419643",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C14&cluster=5927763062733419643&engine=google_scholar&hl=en&num=20&scisbd=1"
+        }
+      }
+    },
+    {
+      "position": 13,
+      "title": "Emerging Applications of Artificial Intelligence in Cybersecurity and Digital Forensics",
+      "result_id": "q1lCAc-9PfcJ",
+      "type": "Pdf",
+      "link": "https://www.researchgate.net/profile/Oduola-Samuel/publication/414975623_Emerging_Applications_of_Artificial_Intelligence_in_Cybersecurity_and_Digital_Forensics/links/6abc1a4d799bef11c4aff4a8/Emerging-Applications-of-Artificial-Intelligence-in-Cybersecurity-and-Digital-Forensics.pdf",
+      "snippet": "3 days ago - … Quantum Key Distribution (QKD) uses quantum properties to establish encryption keys and … This makes post-quantum cryptography and cryptographic migration important …",
+      "publication_info": {
+        "summary": "O Abdullah - researchgate.net",
+        "authors": [
+          {
+            "name": "O Abdullah"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "researchgate.net",
+          "file_format": "PDF",
+          "link": "https://www.researchgate.net/profile/Oduola-Samuel/publication/414975623_Emerging_Applications_of_Artificial_Intelligence_in_Cybersecurity_and_Digital_Forensics/links/6abc1a4d799bef11c4aff4a8/Emerging-Applications-of-Artificial-Intelligence-in-Cybersecurity-and-Digital-Forensics.pdf"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=q1lCAc-9PfcJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:q1lCAc-9PfcJ:scholar.google.com/&scioq=quantum+key+distribution+OR+post-quantum+cryptography&hl=en&scisbd=1&num=20&as_sdt=0,14",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C14&engine=google_scholar&hl=en&num=20&q=related%3Aq1lCAc-9PfcJ%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:q1lCAc-9PfcJ:scholar.google.com/+quantum+key+distribution+OR+post-quantum+cryptography&hl=en&scisbd=1&num=20&as_sdt=0,14"
+      }
+    },
+    {
+      "position": 14,
+      "title": "Harnessing Quantum Noise and Correlations of Bright Two-Mode Squeezed Light for Secure Information Technologies",
+      "result_id": "GEayH-vmYIkJ",
+      "link": "https://www.mathnet.ru/eng/present51741",
+      "snippet": "3 days ago - … for the generation and distribution of identical random keys for quantum cryptographic applications. We further demonstrate an extractor-free approach to quantum random …",
+      "publication_info": {
+        "summary": "A Kumar - mathnet.ru",
+        "authors": [
+          {
+            "name": "A Kumar"
+          }
+        ]
+      },
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=GEayH-vmYIkJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:GEayH-vmYIkJ:scholar.google.com/&scioq=quantum+key+distribution+OR+post-quantum+cryptography&hl=en&scisbd=1&num=20&as_sdt=0,14",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C14&engine=google_scholar&hl=en&num=20&q=related%3AGEayH-vmYIkJ%3Ascholar.google.com%2F&scisbd=1",
+        "versions": {
+          "total": 2,
+          "link": "https://scholar.google.com/scholar?cluster=9899165878483830296&hl=en&scisbd=1&num=20&as_sdt=0,14",
+          "cluster_id": "9899165878483830296",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C14&cluster=9899165878483830296&engine=google_scholar&hl=en&num=20&scisbd=1"
+        }
+      }
+    },
+    {
+      "position": 15,
+      "title": "Blockchain-Based Quantum-Secure Federated Learning with Hybrid Qkd-Pqc Encryption and Multi-Party Secure Aggregation for Healthcare Systems",
+      "result_id": "bHnZvpbipZAJ",
+      "link": "https://ph02.tci-thaijo.org/index.php/SciTechAsia/article/view/263648",
+      "snippet": "3 days ago - … key obtained by PQC-based key exchange function 𝑓 and a hybrid Quantum Key Distribution… capable but that the primitives used in the postquantum cryptography and the …",
+      "publication_info": {
+        "summary": "H Sandeep, PC Renukaradhya… - … & Technology Asia, 2026 - ph02.tci-thaijo.org",
+        "authors": [
+          {
+            "name": "H Sandeep"
+          },
+          {
+            "name": "PC Renukaradhya"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "tci-thaijo.org",
+          "file_format": "PDF",
+          "link": "https://ph02.tci-thaijo.org/index.php/SciTechAsia/article/download/263648/174585"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=bHnZvpbipZAJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:bHnZvpbipZAJ:scholar.google.com/&scioq=quantum+key+distribution+OR+post-quantum+cryptography&hl=en&scisbd=1&num=20&as_sdt=0,14",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C14&engine=google_scholar&hl=en&num=20&q=related%3AbHnZvpbipZAJ%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:bHnZvpbipZAJ:scholar.google.com/+quantum+key+distribution+OR+post-quantum+cryptography&hl=en&scisbd=1&num=20&as_sdt=0,14"
+      }
+    },
+    {
+      "position": 16,
+      "title": "Measuring Post-Quantum Cryptography Overhead Against the Motion-to-Photon Budget in XR Medical Training",
+      "result_id": "iFbSxQ9uFB0J",
+      "link": "https://par.nsf.gov/biblio/10716997",
+      "snippet": "3 days ago - … Our survey encompasses threshold signatures in conventional and post-quantum cryptography (PQC) settings and captures custom-design and standard signatures (eg, …",
+      "publication_info": {
+        "summary": "F Kausar, A Muallem, S Hussain, L Qian - 2026 - par.nsf.gov",
+        "authors": [
+          {
+            "name": "F Kausar",
+            "link": "https://scholar.google.com/citations?user=xQ3pPlMAAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "xQ3pPlMAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=xQ3pPlMAAAAJ&engine=google_scholar_author&hl=en"
+          },
+          {
+            "name": "A Muallem",
+            "link": "https://scholar.google.com/citations?user=Y2zKt8QAAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "Y2zKt8QAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=Y2zKt8QAAAAJ&engine=google_scholar_author&hl=en"
+          },
+          {
+            "name": "S Hussain",
+            "link": "https://scholar.google.com/citations?user=tUasIbQAAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "tUasIbQAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=tUasIbQAAAAJ&engine=google_scholar_author&hl=en"
+          },
+          {
+            "name": "L Qian"
+          }
+        ]
+      },
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=iFbSxQ9uFB0J",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:iFbSxQ9uFB0J:scholar.google.com/&scioq=quantum+key+distribution+OR+post-quantum+cryptography&hl=en&scisbd=1&num=20&as_sdt=0,14",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C14&engine=google_scholar&hl=en&num=20&q=related%3AiFbSxQ9uFB0J%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:iFbSxQ9uFB0J:scholar.google.com/+quantum+key+distribution+OR+post-quantum+cryptography&hl=en&scisbd=1&num=20&as_sdt=0,14"
+      }
+    },
+    {
+      "position": 17,
+      "title": "Combining elliptic-curve cryptography and quantum-computing approach to secure cloud computing against distributed denial-of-service attacks",
+      "result_id": "oTBZj6wQ17kJ",
+      "link": "https://link.springer.com/article/10.1007/s11128-026-05344-5",
+      "snippet": "4 days ago - … s algorithms, quantum key distribution, and post-quantum lattice-based cryptography—and … (2) To design a hybrid ECC-quantum cryptographic architecture (HEQCSF) …",
+      "publication_info": {
+        "summary": "R Beghdad - Quantum Information Processing, 2026 - Springer",
+        "authors": [
+          {
+            "name": "R Beghdad",
+            "link": "https://scholar.google.com/citations?user=nkxxKSAAAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "nkxxKSAAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=nkxxKSAAAAAJ&engine=google_scholar_author&hl=en"
+          }
+        ]
+      },
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=oTBZj6wQ17kJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:oTBZj6wQ17kJ:scholar.google.com/&scioq=quantum+key+distribution+OR+post-quantum+cryptography&hl=en&scisbd=1&num=20&as_sdt=0,14",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C14&engine=google_scholar&hl=en&num=20&q=related%3AoTBZj6wQ17kJ%3Ascholar.google.com%2F&scisbd=1"
+      }
+    },
+    {
+      "position": 18,
+      "title": "Chinese NGCC Algorithms: The First Week of AI Cryptanalysis",
+      "result_id": "nkMfZG-e5mAJ",
+      "link": "https://eprint.iacr.org/2026/2266",
+      "snippet": "4 days ago - … signature schemes, 41 key encapsulation mechanisms, 9 key exchange protocols, … , SHA-3, and postquantum cryptography. It opened just after cryptographers’ “Lee Sedol …",
+      "publication_info": {
+        "summary": "MJO Saarinen - Cryptology ePrint Archive, 2026 - eprint.iacr.org",
+        "authors": [
+          {
+            "name": "MJO Saarinen",
+            "link": "https://scholar.google.com/citations?user=2_oEFqYAAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "2_oEFqYAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=2_oEFqYAAAAJ&engine=google_scholar_author&hl=en"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "iacr.org",
+          "file_format": "PDF",
+          "link": "https://eprint.iacr.org/2026/2266.pdf"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=nkMfZG-e5mAJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:nkMfZG-e5mAJ:scholar.google.com/&scioq=quantum+key+distribution+OR+post-quantum+cryptography&hl=en&scisbd=1&num=20&as_sdt=0,14",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C14&engine=google_scholar&hl=en&num=20&q=related%3AnkMfZG-e5mAJ%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:nkMfZG-e5mAJ:scholar.google.com/+quantum+key+distribution+OR+post-quantum+cryptography&hl=en&scisbd=1&num=20&as_sdt=0,14"
+      }
+    },
+    {
+      "position": 19,
+      "title": "QRMDAS: A Quantum-Resistant Remote Medical Data Access System on Internet of Medical Things",
+      "result_id": "8u96ZCCEfG0J",
+      "link": "https://ieeexplore.ieee.org/abstract/document/11717486/",
+      "snippet": "4 days ago - … In Section III, we illustrate some basic knowledge about lattice cryptography and public key … Without a secure channel for partial key distribution: In our local key generation …",
+      "publication_info": {
+        "summary": "W Kong, W Chen, P Wen… - IEEE Internet of Things …, 2026 - ieeexplore.ieee.org",
+        "authors": [
+          {
+            "name": "W Kong"
+          },
+          {
+            "name": "W Chen"
+          },
+          {
+            "name": "P Wen"
+          }
+        ]
+      },
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=8u96ZCCEfG0J",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:8u96ZCCEfG0J:scholar.google.com/&scioq=quantum+key+distribution+OR+post-quantum+cryptography&hl=en&scisbd=1&num=20&as_sdt=0,14",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C14&engine=google_scholar&hl=en&num=20&q=related%3A8u96ZCCEfG0J%3Ascholar.google.com%2F&scisbd=1"
+      }
+    },
+    {
+      "position": 20,
+      "title": "A Quantum-Proof Lattice-Blockchain Federated Learning Framework for Secure Medical IoT Sensing",
+      "result_id": "pvPm569IYBIJ",
+      "link": "https://ieeexplore.ieee.org/abstract/document/11716655/",
+      "snippet": "4 days ago - … , while advancing quantum computing threatens classical cryptographic safeguards. To address these vulnerabilities, we propose BioBlock-Q, a quantum-resilient, …",
+      "publication_info": {
+        "summary": "SB Othman - IEEE Internet of Things Journal, 2026 - ieeexplore.ieee.org",
+        "authors": [
+          {
+            "name": "SB Othman"
+          }
+        ]
+      },
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=pvPm569IYBIJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:pvPm569IYBIJ:scholar.google.com/&scioq=quantum+key+distribution+OR+post-quantum+cryptography&hl=en&scisbd=1&num=20&as_sdt=0,14",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C14&engine=google_scholar&hl=en&num=20&q=related%3ApvPm569IYBIJ%3Ascholar.google.com%2F&scisbd=1"
+      }
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://scholar.google.com/scholar?start=20&q=quantum+key+distribution+OR+post-quantum+cryptography&hl=en&scisbd=1&num=20&as_sdt=0,14",
+    "other_pages": {
+      "2": "https://scholar.google.com/scholar?start=20&q=quantum+key+distribution+OR+post-quantum+cryptography&hl=en&scisbd=1&num=20&as_sdt=0,14",
+      "3": "https://scholar.google.com/scholar?start=40&q=quantum+key+distribution+OR+post-quantum+cryptography&hl=en&scisbd=1&num=20&as_sdt=0,14",
+      "4": "https://scholar.google.com/scholar?start=60&q=quantum+key+distribution+OR+post-quantum+cryptography&hl=en&scisbd=1&num=20&as_sdt=0,14",
+      "5": "https://scholar.google.com/scholar?start=80&q=quantum+key+distribution+OR+post-quantum+cryptography&hl=en&scisbd=1&num=20&as_sdt=0,14",
+      "6": "https://scholar.google.com/scholar?start=100&q=quantum+key+distribution+OR+post-quantum+cryptography&hl=en&scisbd=1&num=20&as_sdt=0,14",
+      "7": "https://scholar.google.com/scholar?start=120&q=quantum+key+distribution+OR+post-quantum+cryptography&hl=en&scisbd=1&num=20&as_sdt=0,14",
+      "8": "https://scholar.google.com/scholar?start=140&q=quantum+key+distribution+OR+post-quantum+cryptography&hl=en&scisbd=1&num=20&as_sdt=0,14",
+      "9": "https://scholar.google.com/scholar?start=160&q=quantum+key+distribution+OR+post-quantum+cryptography&hl=en&scisbd=1&num=20&as_sdt=0,14",
+      "10": "https://scholar.google.com/scholar?start=180&q=quantum+key+distribution+OR+post-quantum+cryptography&hl=en&scisbd=1&num=20&as_sdt=0,14"
+    }
+  },
+  "serpapi_pagination": {
+    "current": 1,
+    "next_link": "https://serpapi.com/search.json?as_sdt=0%2C14&engine=google_scholar&hl=en&num=20&q=quantum+key+distribution+OR+post-quantum+cryptography&scisbd=1&start=20",
+    "next": "https://serpapi.com/search.json?as_sdt=0%2C14&engine=google_scholar&hl=en&num=20&q=quantum+key+distribution+OR+post-quantum+cryptography&scisbd=1&start=20",
+    "other_pages": {
+      "2": "https://serpapi.com/search.json?as_sdt=0%2C14&engine=google_scholar&hl=en&num=20&q=quantum+key+distribution+OR+post-quantum+cryptography&scisbd=1&start=20",
+      "3": "https://serpapi.com/search.json?as_sdt=0%2C14&engine=google_scholar&hl=en&num=20&q=quantum+key+distribution+OR+post-quantum+cryptography&scisbd=1&start=40",
+      "4": "https://serpapi.com/search.json?as_sdt=0%2C14&engine=google_scholar&hl=en&num=20&q=quantum+key+distribution+OR+post-quantum+cryptography&scisbd=1&start=60",
+      "5": "https://serpapi.com/search.json?as_sdt=0%2C14&engine=google_scholar&hl=en&num=20&q=quantum+key+distribution+OR+post-quantum+cryptography&scisbd=1&start=80",
+      "6": "https://serpapi.com/search.json?as_sdt=0%2C14&engine=google_scholar&hl=en&num=20&q=quantum+key+distribution+OR+post-quantum+cryptography&scisbd=1&start=100",
+      "7": "https://serpapi.com/search.json?as_sdt=0%2C14&engine=google_scholar&hl=en&num=20&q=quantum+key+distribution+OR+post-quantum+cryptography&scisbd=1&start=120",
+      "8": "https://serpapi.com/search.json?as_sdt=0%2C14&engine=google_scholar&hl=en&num=20&q=quantum+key+distribution+OR+post-quantum+cryptography&scisbd=1&start=140",
+      "9": "https://serpapi.com/search.json?as_sdt=0%2C14&engine=google_scholar&hl=en&num=20&q=quantum+key+distribution+OR+post-quantum+cryptography&scisbd=1&start=160",
+      "10": "https://serpapi.com/search.json?as_sdt=0%2C14&engine=google_scholar&hl=en&num=20&q=quantum+key+distribution+OR+post-quantum+cryptography&scisbd=1&start=180"
+    }
+  }
+}

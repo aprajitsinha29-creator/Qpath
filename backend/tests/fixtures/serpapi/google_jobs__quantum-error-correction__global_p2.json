@@ -1,0 +1,541 @@
+{
+  "search_metadata": {
+    "id": "6ac2732050849c44180fa8cd",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/kbIUxFb9LQn0o1OcGf6t9ZOA8LSLvXUtRp6yQ9aOgB8/6ac2732050849c44180fa8cd.json",
+    "markdown_endpoint": "https://serpapi.com/searches/kbIUxFb9LQn0o1OcGf6t9ZOA8LSLvXUtRp6yQ9aOgB8/6ac2732050849c44180fa8cd.md",
+    "created_at": "2026-10-04 15:39:12 UTC",
+    "processed_at": "2026-10-04 15:39:12 UTC",
+    "google_jobs_url": "https://www.google.com/search?q=quantum+error+correction&hl=en&udm=8",
+    "raw_html_file": "https://serpapi.com/searches/kbIUxFb9LQn0o1OcGf6t9ZOA8LSLvXUtRp6yQ9aOgB8/6ac2732050849c44180fa8cd.html",
+    "prettify_html_file": "https://serpapi.com/searches/kbIUxFb9LQn0o1OcGf6t9ZOA8LSLvXUtRp6yQ9aOgB8/6ac2732050849c44180fa8cd.prettify",
+    "total_time_taken": 1.06
+  },
+  "search_parameters": {
+    "q": "quantum error correction",
+    "engine": "google_jobs",
+    "google_domain": "google.com",
+    "hl": "en",
+    "next_page_token": "eyJmYyI6IkV1SUVDcUlFUVVwcFZEUjBTVGhRUWxWNmN6WXlaME5hYmpaRk9XZzRkbUpsY0RaT1NqTk9abFptZWpCNk5scGlObTF2TUhoS1ZWcHpRbmRIYVROWGJubzNPVk0yT0VKUk5qRjBTbmxoTTBvd1pYWnFZbkpZYmxweFdtTllWRGR1V201NFpHRkxRMDlzU1U5dlZXdFdaRkpSWHpWQmFHSTNNVXhhUjFKQk9XNDVhV0ZLUjJ4a2RVSjBTemRyVVZGelRqWlRXREZmTW1ZMlJ6SnZRbHByYWpOMFpsbFBaSEZRWWxWc1JYQTViRUpUZVVSV2RITkZkM3AyYmxWVmNWZGtVblZETmtjM1pWaEJWRjl4UXpCNlUwcHliVVV4YVd4RE5UWXdObVJxVlZjeE55MXJXR3MyVlhaSVp6TnVURVF3TFROM2VYZFlibEZSVlROSWMzSmhNRk5XV0dacVNUTmpUemRZWmpSWWQwODRVWGRrTm5oc1l6QktTMEpzZVhseFgweHNjSHBtU1ZRelQxYzRTV1ZOZWxGaVoybGlXalZTVTNRd01YaENZMTl2TUcxS1psZzVhV0ptTTJKQ04wMXlUVzFDYTBWUldqaEhVVVJrV2pKWVJtVndjVkJHYmpSWU9TMDVXVkZ0U0ZWdUxVbzBhRFkyYjFWT1FsQlJSbTFwYldkS1IxbFZia3hLYWpCQlJVdGlkM3A2TUhvME1sbHVTV2xqU1dac1oxVkdkMnQwTkVZNVdHOU5hRXR0WjFKQlNGVnVjVjlIU1V4TU9EbFpXRTlHYlZsRFZGUTRlalp0Y1VjeFFWOTNTRXBhTTI1bE1teFVRbk51ZG5GdFNsYzNOa3BmY2xCaFZHVnRUbU56TlhSeGRFMU5ORU13VldWRGFuWjRNblJoYjJaTWMzbEtlRmhWVEZCbWNtVmpSR2RUVlZWRWRITlFiRkIzYmsxdFZscEhNMGhGU25CRlJEUkJFaGRKU0ZCRFlYWnlWRU5mYVc1d2RGRlFYelIyVlc5UmR4b2lRVVJ6Y2psbVVuWnlXWFZYU1c5TU1WTTVaMUZ0V0VOcE9FbDBNRVF0ZGtwNGR3IiwiZmN2IjoiMyJ9"
+  },
+  "jobs_results": [
+    {
+      "title": "Staff Software Engineer, Quantum Error Correction Decoding, Quantum AI",
+      "company_name": "Google",
+      "location": "Goleta, CA",
+      "via": "Indeed",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "Bachelor's degree in Computer Science, Electrical Engineering, Physics, Applied Mathematics, or equivalent practical experience",
+            "5 years of software development experience using C++ or Python, with experience in data structures and computer science",
+            "Experience designing, implementing, and optimizing novel algorithmic solutions for computational or performance-critical problems",
+            "Experience in systems-level programming, code optimization, or high-performance computing (e.g., concurrency, multithreading, or GPU acceleration)",
+            "Experience leading technical design, defining system architectures/APIs, and mentoring junior engineers",
+            "We need our engineers to be versatile, display leadership qualities and be enthusiastic to take on new problems across the full-stack as we continue to push technology forward"
+          ]
+        },
+        {
+          "title": "Benefits",
+          "items": [
+            "Health, dental, vision, life, disability insurance",
+            "Retirement Benefits: 401(k) with company match",
+            "Paid Time Off: 20 days of vacation per year, accruing at a rate of 6.15 hours per pay period for the first five years of employment",
+            "Sick Time: 40 hours/year (increased to 69 hours/year for Seattle) including 5 discretionary sick days per instance",
+            "Maternity Leave (Short-Term Disability + Baby Bonding): 28-30 weeks",
+            "Baby Bonding Leave: 18 weeks",
+            "Holidays: 13 paid days per year",
+            "US: $207000 - $300000 (USD) + 20% bonus target + equity + benefits"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": [
+            "With your technical expertise you will manage project priorities, deadlines, and deliverables",
+            "You will design, develop, test, deploy, maintain, and enhance software solutions",
+            "Propose, implement, and evaluate novel QEC decoding algorithms (e.g., for quantum LDPC codes targeting superconducting qubit and neutral atom architectures), automating evaluation pipelines to facilitate AI-assisted research",
+            "Architect and define scalable APIs to seamlessly integrate novel syndrome decoders and diagnostic tools with the broader classical software and quantum hardware stack",
+            "Partner cross-functionally with research scientists and electronics engineers to gather requirements and directly support live QEC experiments on Google's quantum computers",
+            "Drive technical strategy, scoping, and roadmap prioritization for complex quantum software initiatives across fault-tolerant computing workflows",
+            "Advocate engineering best practices across the team and actively mentor junior engineers through design reviews and technical guidance"
+          ]
+        }
+      ],
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=quantum+error+correction&htidocid=GPnHx0LaTGiuPFmkAAAAAA%3D%3D&hl=en-US&shem=epsd1,esd2e,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_0WNsQrCMBBAce3s5HSz1EYEF51KLaKbdBZJ4zWNpLlyuWK_yy-0xcHlTY_3ks8iuVeimwYqauStGaEM1gVETuE26CBDByUzMRTEjEYcBTihoacL9q_kF9jAlWqIqNm0MElnIutxdWxF-nhQKkaf2ShanMkMdYoC1jSqF9VxxiO20733WvCx22_HrA92vfxFwM05j6JTKPIvXzPPlrUAAAA&shmds=v1_ARwrE22WvgHyeVwLGhovTe82iSGWy6iYNTPGam2lILc4meqLoA&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=quantum+error+correction&htidocid=GPnHx0LaTGiuPFmkAAAAAA%3D%3D",
+      "thumbnail": "https://serpapi.com/searches/6ac2732050849c44180fa8cd/images/Eub5ppIRjqPQlDGGE18dgCrHpklLx6ef3vcVqMl-s0o.jpeg",
+      "extensions": [
+        "25 days ago",
+        "207K–300K a year",
+        "Full-time",
+        "Health insurance",
+        "Dental insurance",
+        "Paid time off"
+      ],
+      "source_link": "https://www.indeed.com/viewjob?jk=3c6dea142e9438b2",
+      "job_title": "Staff Software Engineer, Quantum Error Correction Decoding, Quantum AI",
+      "description": "Applicants in the County of Los Angeles: Qualified applications with arrest or conviction records will be considered for employment in accordance with the Los Angeles County Fair Chance Ordinance for Employers and the California Fair Chance Act. \n \n \n  \n\n   Applicants in San Francisco: Qualified applications with arrest or conviction records will be considered for employment in accordance with the San Francisco Fair Chance Ordinance for Employers and the California Fair Chance Act.\n \n \n \n  \n\n   In accordance with Washington state law, we are highlighting our comprehensive benefits package, which is available to all eligible US based employees. Benefits for this role include: \n  \n\n  \n   Health, dental, vision, life, disability insurance\n   Retirement Benefits: 401(k) with company match\n   Paid Time Off: 20 days of vacation per year, accruing at a rate of 6.15 hours per pay period for the first five years of employment\n   Sick Time: 40 hours/year (increased to 69 hours/year for Seattle) including 5 discretionary sick days per instance\n   Maternity Leave (Short-Term Disability + Baby Bonding): 28-30 weeks\n   Baby Bonding Leave: 18 weeks\n   Holidays: 13 paid days per year\n   In most instances, this position requires in-person interviews as part of the hiring process.\n \n \n\n  Note: By applying to this position you will have an opportunity to share your preferred working location from the following: Goleta, CA, USA; Los Angeles, CA, USA; Mountain View, CA, USA; Seattle, WA, USA; San Francisco, CA, USA. \n  Minimum qualifications:\n \n  Bachelor's degree in Computer Science, Electrical Engineering, Physics, Applied Mathematics, or equivalent practical experience.\n  5 years of software development experience using C++ or Python, with experience in data structures and computer science.\n  Experience designing, implementing, and optimizing novel algorithmic solutions for computational or performance-critical problems.\n  Experience in systems-level programming, code optimization, or high-performance computing (e.g., concurrency, multithreading, or GPU acceleration).\n  Experience leading technical design, defining system architectures/APIs, and mentoring junior engineers.\n \n \n\n  Preferred qualifications:\n \n  Master's degree or PhD in Physics, Computer Science, Mathematics, or a related quantitative field.\n  Experience developing or benchmarking syndrome decoding algorithms (e.g., BP-OSD, MWPM, tensor networks, or neural network decoders).\n  Expertise in quantum error correction (QEC), including surface codes, color codes, or quantum LDPC (qLDPC) codes.\n  Familiarity with physical qubit platforms and architectures, particularly superconducting qubits, neutral atoms, or trapped-ion systems.\n  Strong background in classical coding theory, graph algorithms, belief propagation, or probabilistic modeling.\n \n \n  About the job\n  Google's software engineers develop the next-generation technologies that change how billions of users connect, explore, and interact with information and one another. Our products need to handle information at massive scale, and extend well beyond web search. We're looking for engineers who bring fresh ideas from all areas, including information retrieval, distributed computing, large-scale system design, networking and data storage, security, artificial intelligence, natural language processing, UI design and mobile; the list goes on and is growing every day. As a software engineer, you will work on a specific project critical to Google’s needs with opportunities to switch teams and projects as you and our fast-paced business grow and evolve. We need our engineers to be versatile, display leadership qualities and be enthusiastic to take on new problems across the full-stack as we continue to push technology forward.\n\n\n    With your technical expertise you will manage project priorities, deadlines, and deliverables. You will design, develop, test, deploy, maintain, and enhance software solutions.\n\n\n  On its fundamental level, our physical reality is quantum, but our most powerful computers are classical. As a result, we cannot efficiently simulate the fundamental level of our physical reality - a major roadblock for a technological civilization. Our mission at Google Quantum AI is to develop this missing capability and unlock solutions to classically intractable problems. This entails developing a practical implementation of quantum error correction (QEC) to overcome noise and decoherence.\n\n\n    The QEC Software team is developing classical software necessary to achieve scalable quantum computing, including compilers for fault-tolerant quantum circuits and syndrome decoders for real-time error diagnostics.\n\n The full potential of quantum computing will be unlocked with a large-scale computer capable of complex, error-corrected computations. Google Quantum AI's mission is to build this computer and unlock solutions to classically intractable problems. Our roadmap is focused on advancing the capabilities of quantum computing and enabling meaningful applications.Individual pay is determined by factors including job-related skills, experience, and relevant education or training. \n  \n\n  \n\n   US: $207000 - $300000 (USD) + 20% bonus target + equity + benefits \n  \n\n  \n\n   Learn more about benefits at Google.\n \n \n   Responsibilities\n  \n   Propose, implement, and evaluate novel QEC decoding algorithms (e.g., for quantum LDPC codes targeting superconducting qubit and neutral atom architectures), automating evaluation pipelines to facilitate AI-assisted research.\n   Architect and define scalable APIs to seamlessly integrate novel syndrome decoders and diagnostic tools with the broader classical software and quantum hardware stack.\n   Partner cross-functionally with research scientists and electronics engineers to gather requirements and directly support live QEC experiments on Google's quantum computers.\n   Drive technical strategy, scoping, and roadmap prioritization for complex quantum software initiatives across fault-tolerant computing workflows.\n   Advocate engineering best practices across the team and actively mentor junior engineers through design reviews and technical guidance.\n  \n Google is proud to be an equal opportunity workplace and is an affirmative action employer. We are committed to equal employment opportunity regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity or Veteran status. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. See also Google's EEO Policy and EEO is the Law. If you have a disability or special need that requires accommodation, please let us know by completing our Accommodations for Applicants form.",
+      "apply_options": [
+        {
+          "title": "Indeed",
+          "link": "https://www.indeed.com/viewjob?jk=3c6dea142e9438b2&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "LinkedIn",
+          "link": "https://www.linkedin.com/jobs/view/staff-software-engineer-quantum-error-correction-decoding-quantum-ai-at-google-4463895510?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Monster",
+          "link": "https://www.monster.com/job-openings/software-engineer-decoding-quantum-ai-goleta-ca--4ac53bd5-a42a-4e3e-a6ba-49e4c7655233?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "CareerBuilder",
+          "link": "https://www.careerbuilder.com/job-details/software-engineer-decoding-quantum-ai-goleta-ca--4ac53bd5-a42a-4e3e-a6ba-49e4c7655233?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "JobLeads",
+          "link": "https://www.jobleads.com/us/job/staff-software-engineer-quantum-error-correction-decoding-quantum-ai--goleta--eb5cc63bfa29875f2e87a2a64f16aded0?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "BeBee",
+          "link": "https://bebee.com/us/jobs/staff-software-engineer-quantum-error-correction-decoding-quantum-ai-compliancepoint-goleta--pureheal-29125_FC9DE12EACBB9FB1C7D3F8E963A0C92D?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Ladders",
+          "link": "https://www.theladders.com/job/staff-software-engineer-quantum-error-correction-decoding-quantum-ai-google-goleta-ca_88778654?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "ZipRecruiter",
+          "link": "https://www.ziprecruiter.com/c/google/Job/Staff-Software-Engineer,-Quantum-Error-Correction-Decoding,-Quantum-AI/-in-Goleta,CA?jid=0abe8c38281dda71&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJTdGFmZiBTb2Z0d2FyZSBFbmdpbmVlciwgUXVhbnR1bSBFcnJvciBDb3JyZWN0aW9uIERlY29kaW5nLCBRdWFudHVtIEFJIiwiY29tcGFueV9uYW1lIjoiR29vZ2xlIiwiaHRpZG9jaWQiOiJHUG5IeDBMYVRHaXVQRm1rQUFBQUFBPT0iLCJobCI6ImVuIiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwU2s1Sk5uZERabkpDY1VGV1VVWTFla0ZVTVVaSmNGb3RiRWxFV1RKUU5VUXdWakY2ZGs1MWFIaG1aMUZzWVVoSE1IUkxSbFpYYkdkWVMzUjBaWHA0T1dKU2NUVmpiRmhFWDBwbmJIQkdWRGhvWkV0elVqbFVlVWQxVFRGRmJqUlVVbFptTjFaUFNUUkNhRFUyTFRGS1ZrNVdkVnBPTVVGWU5HcGxiMmRDYm5KdGMxWTFRWGtTRjBsWVVFTmhkVk4xU0hCTVdtdFFTVkJxU25GdmQwRlJHaUpCUkhOeU9XWlJibUZPVDFkSkxXUmxjMEZyUWpoVmQzSnNTVTFhVG1nNVpHSkIiLCJmY3YiOiIzIiwiZmNfaWQiOiJHUG5IeDBMYVRHaXVQRm1rQUFBQUFBPT0ifQ=="
+    },
+    {
+      "title": "Research Scientist, Quantum Error Correction - Distance as a Theorem",
+      "company_name": "The Infinity Fellowship",
+      "location": "San Francisco, CA",
+      "via": "LinkedIn",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "No background in AI is required; we weigh the ability to learn above experience with any method",
+            "To conform to U.S. export control regulations applicable to that information, applicant must either be (A) a U.S. person, defined as a (i) U.S. citizen or national, (ii) U.S. lawful permanent resident (green card holder), (iii) refugee under 8 U.S.C. § 1157, or (iv) asylee under 8 U.S.C. § 1158, or (B) eligible to access the export controlled information without a required export authorization, or (C) eligible and reasonably likely to obtain the required export authorization from the applicable U.S. government agency",
+            "The Company may, for legitimate business reasons, decline to pursue any export licensing process",
+            "To conform to applicable export control regulations applicable to that information, applicant must be eligible to access the export controlled information without a required export authorization"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": [
+            "You carry each from formulation to validated result"
+          ]
+        }
+      ],
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=quantum+error+correction&htidocid=6vaaS8zS6y1lLKOZAAAAAA%3D%3D&hl=en-US&shem=epsd1,esd2e,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_y2OsW4CQQxElZZPSOUaXe6iSDRJFR0cCl1CuhRob2VujfbslW0E_GE-i42UZorRm6dZ_D4sfr7QMGhMsI-E7GTewOc5sJ9n2KiKQi-qGJ2E4QnWFQgcEYJBgO-EojjXficj_IsqtxWZMj6-Jfdir11nltupDp1iG2XuhHGUa3eS0f7iYCkolhwcDy-r52tbeFo2VQ4ffCQmv8GAOcvFEhUghn1gGLT-IIvSQP9-B6DjSZ3LAAAA&shmds=v1_ARwrE20qShBayHqjSnHiTzinftdsnnHxT1-MVL0vf_A1N6dXbA&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=quantum+error+correction&htidocid=6vaaS8zS6y1lLKOZAAAAAA%3D%3D",
+      "thumbnail": "https://serpapi.com/searches/6ac2732050849c44180fa8cd/images/4Xi1roCKQ5UWcURcOEVE_qCi4RW7TZkaHBKtrVsItYE.jpeg",
+      "extensions": [
+        "9 days ago",
+        "Full-time"
+      ],
+      "source_link": "https://www.linkedin.com/jobs/view/research-scientist-quantum-error-correction-distance-as-a-theorem-at-the-infinity-fellowship-4472043581",
+      "job_title": "Research Scientist, Quantum Error Correction - Distance as a Theorem",
+      "description": "We are a frontier artificial-intelligence laboratory, still in stealth, established for a single purpose: to build an AI capable of original discovery — a system that does not merely retrieve and recombine what is already known, but reasons toward genuinely new understanding of the problems put to it. We hold that an instrument able to truly discover is among the most consequential technologies humanity will ever build, and we are building it.\n\n\n\n\nOur system has already produced results beyond the reach of any human team. We have demonstrated its power on a small number of problems. The purpose of this fellowship is to establish how far that power extends.\n\n\n\n\nThis is an invitation to bring a small number of researchers who will form the inaugural cohort of the Infinity Fellowship who will spend a year aiming this instrument at the hardest unsolved problems in their fields.\n\n\n\n\nYou choose the problems — the ones shelved because they demanded a decade. You carry each from formulation to validated result. You publish as lead author.\n\n\n\n\nThe terms are plain: a full-time salaried appointment of roughly one year, hybrid in the San Francisco East Bay, with relocation support and visa sponsorship for international Fellows. It pays like a strong postdoc. No background in AI is required; we weigh the ability to learn above experience with any method. Top-performing Fellows will be offered permanent research positions.\n\n\n\n\nThe application takes ten minutes to begin: your CV, and a few sentences on the problem you would start with. The full one-page proposal — why it has resisted solution, what its solution would make possible — can follow.\n\n\n\n\nhttps://pfa.zto77.com/apply-math-computing-quant\n\n\n\n\nProposals received by Oct 23 will be considered first for the inaugural cohort, which convenes in September. Every application receives an answer within a week. Few are present, in any era, at the founding of a new instrument of discovery.\n\nBring the problem worth your year.\n\n\n\n\nOther Info\n\nFor US Remote/Hybrid: This position requires access to export controlled information. To conform to U.S. export control regulations applicable to that information, applicant must either be (A) a U.S. person, defined as a (i) U.S. citizen or national, (ii) U.S. lawful permanent resident (green card holder), (iii) refugee under 8 U.S.C. § 1157, or (iv) asylee under 8 U.S.C. § 1158, or (B) eligible to access the export controlled information without a required export authorization, or (C) eligible and reasonably likely to obtain the required export authorization from the applicable U.S. government agency. The Company may, for legitimate business reasons, decline to pursue any export licensing process.\n\n\n\n\nFor International Remote: This position requires access to export controlled information. To conform to applicable export control regulations applicable to that information, applicant must be eligible to access the export controlled information without a required export authorization.",
+      "apply_options": [
+        {
+          "title": "LinkedIn",
+          "link": "https://www.linkedin.com/jobs/view/research-scientist-quantum-error-correction-distance-as-a-theorem-at-the-infinity-fellowship-4472043581?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Jobrapido",
+          "link": "https://us.jobrapido.com/jobpreview/4759141932997804032?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Jobilize",
+          "link": "https://www.jobilize.com/amp/job/us-ca-san-francisco-research-scientist-quantum-error-correction-distance?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Recruit.net",
+          "link": "https://www.recruit.net/job/research-scientist-quantum-error-correction-jobs/5E78A62A96DF37BD?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Trabajo.org",
+          "link": "https://us.trabajo.org/job-1721-8d51228313578d7ce72a01c84c446689?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJSZXNlYXJjaCBTY2llbnRpc3QsIFF1YW50dW0gRXJyb3IgQ29ycmVjdGlvbiAtIERpc3RhbmNlIGFzIGEgVGhlb3JlbSIsImNvbXBhbnlfbmFtZSI6IlRoZSBJbmZpbml0eSBGZWxsb3dzaGlwIiwiaHRpZG9jaWQiOiI2dmFhUzh6UzZ5MWxMS09aQUFBQUFBPT0iLCJobCI6ImVuIiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwU21OSlJFd3RObGRPTFhRdGVGZHlhMUZqZDJrM1FscFpiRzg1UmxCMFFVdFVSbnBZT1c5cVpHOVBYMU5GWlVjMGMzZ3dNVkUzVnpaVFUxUnFXREJ4Vm5CQmRHbHBZMWRRU214alRqVkdaMGR5VlV0dVdISndVMEZHVVhac2J6bHVSSGt4UkcxVk5UWTRlVjlRZUZjNWMzQlNRMnd6UVV4SVNGQnZiRmd6T0ZnM05WTmxPVmdTRjBsWVVFTmhkVk4xU0hCTVdtdFFTVkJxU25GdmQwRlJHaUpCUkhOeU9XWlVNRWhpZGsxNlZYZFJhelZEY0VFeVVFSnlOR1ZNWlU5V1pUaFIiLCJmY3YiOiIzIiwiZmNfaWQiOiI2dmFhUzh6UzZ5MWxMS09aQUFBQUFBPT0ifQ=="
+    },
+    {
+      "title": "Senior Engineer - Quantum Error Correction Libraries",
+      "company_name": "NVIDIA",
+      "location": "California",
+      "via": "Monster",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "Excellent modern C++ and Python programming skills, including, debugging, functional testing, and performance testing",
+            "Proven track record to convert mathematical or research-level algorithms into robust, reusable, and well-documented software primitives",
+            "Strong understanding of noise models, including Pauli, correlated, and time-dependent noise, as well as exact and approximate representations of non-Pauli noise",
+            "Familiarity with the broader quantum software landscape, including Stim, Qiskit Aer, PennyLane, Cirq, cu",
+            "Quantum SDK, CUDA-Q, or similar development frameworks",
+            "Strong communication skills and experience collaborating across research, engineering, and product teams",
+            "PhD or MS degree in Computer Science, Applied Mathematics, Physics, Electrical Engineering, or a related scientific or engineering field, or equivalent experience",
+            "8+ years of relevant research or software-development experience",
+            "Proficiency in near-Clifford or stabilizer simulation techniques",
+            "Knowledge of QEC code varieties and procedures, such as surface codes, subsystem codes, color codes, quantum LDPC, lattice surgery, and logical-state preparation",
+            "Hands-on experience with QEC decoders",
+            "Experience developing performance-critical GPU software using CUDA or a comparable environment",
+            "Proficiency in horizontal scaling across multiple nodes or GPUs using NCCL, MPI, NVSHMEM, or equivalent high-performance communication stacks",
+            "Aptitude for using agentic or AI-supported development tools alongside steadfast dedication to validation, testing, and code review standards",
+            "Algorithms, Artificial Intelligence (AI), C++ Programming Language, CUDA (Compute Unified Device Architecture), Code Reviews, Communication Skills, Computer Programming, Computer Science, Debugging Skills, Electrical Engineering, Functional Testing, GPU (Graphics Processing Unit), MPI, Machine Learning, Mathematics, Mentoring, Noise Modeling, Performance Testing, Physics, Product Management, Programming Tools, Python Programming/Scripting Language, Quantum Computing, Research & Development (R&D), Simulation, Software Development, Team Player, Technical Leadership, Technical Research, Use Cases, Validation Testing"
+          ]
+        },
+        {
+          "title": "Benefits",
+          "items": [
+            "The base salary range is 184,000 USD - 287,500 USD for Level 4, and 224,000 USD - 356,500 USD for Level 5",
+            "You will also be eligible for equity and benefits"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": [
+            "This role will be part of an engineering team developing, scaling, and optimizing software to accelerate and scale quantum computing and quantum system simulations",
+            "Ideal candidates will have experience building simulation software for quantum error correction (QEC) and will have strong affinity for advancing the state-of-the-art in applications of HPC and GPUs to the quantum computing ecosystem",
+            "Developing innovative algorithms to accelerate simulation of QEC workloads at scale",
+            "Researching, developing and optimizing GPU-accelerated algorithms across multiple hardware generations",
+            "Working closely with NVIDIA Research, Developer Technology, and Product Management teams in the areas of quantum computing, HPC technologies, and machine learning",
+            "Interacting with external partners and researchers to understand their use cases and requirements",
+            "Providing technical leadership and mentorship to other specialists",
+            "Expert understanding of QEC and stabilizer formalism, including binary symplectic representations, stabilizer and destabilizer tableaux, Pauli-frame propagation, mid-circuit measurement, and classical control"
+          ]
+        }
+      ],
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=quantum+error+correction&htidocid=pXPiS7O26EMnfr9rAAAAAA%3D%3D&hl=en-US&shem=epsd1,esd2e,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xXKsQrCMBCAYVw7OzndLNiI4KKT1CJVEURwlSSc6Ul6Vy4p9HF8VOvyL99ffGfF5YFMolBzIEZUWMF9sJyHDmrVCSpRRZ9JGK7k1CphmqazOEho1bcwyUkkRFzs25z7tDMmpViGlG0mX3rpjDA6Gc1HXPrnlVqr2Eeb8bXZrsey57Cc357NsTkAMVQ20luUyf4A3NekkKMAAAA&shmds=v1_ARwrE21bWDzCODy1mJvRtVBfNg2zqiZqMqDORIOHT3TyIsqSyQ&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=quantum+error+correction&htidocid=pXPiS7O26EMnfr9rAAAAAA%3D%3D",
+      "extensions": [
+        "Full-time",
+        "Health insurance"
+      ],
+      "source_link": "https://www.monster.com/job-openings/senior-engineer-quantum-error-correction-libraries-ca--a09f3d5d-d7dd-438b-8ad8-cfb8c8849ca8",
+      "job_title": "Senior Engineer - Quantum Error Correction Libraries",
+      "description": "NVIDIA's accelerated computing platform has revolutionized HPC and AI, and we have built the cuQuantum SDK to enable quantum computing researchers and framework developers. This role will be part of an engineering team developing, scaling, and optimizing software to accelerate and scale quantum computing and quantum system simulations. Ideal candidates will have experience building simulation software for quantum error correction (QEC) and will have strong affinity for advancing the state-of-the-art in applications of HPC and GPUs to the quantum computing ecosystem. If you are passionate about developing high-performance software and want to help us build libraries to significantly accelerate research and development in this exciting field, we would love to hear from you!\n\n\n\nWhat you will be doing:\n\nDeveloping innovative algorithms to accelerate simulation of QEC workloads at scale.\n\nResearching, developing and optimizing GPU-accelerated algorithms across multiple hardware generations\n\nWorking closely with NVIDIA Research, Developer Technology, and Product Management teams in the areas of quantum computing, HPC technologies, and machine learning\n\nInteracting with external partners and researchers to understand their use cases and requirements\n\nProviding technical leadership and mentorship to other specialists\n\n\n\nWhat we need to see:\n\nExcellent modern C++ and Python programming skills, including, debugging, functional testing, and performance testing.\n\nProven track record to convert mathematical or research-level algorithms into robust, reusable, and well-documented software primitives.\n\nExpert understanding of QEC and stabilizer formalism, including binary symplectic representations, stabilizer and destabilizer tableaux, Pauli-frame propagation, mid-circuit measurement, and classical control.\n\nStrong understanding of noise models, including Pauli, correlated, and time-dependent noise, as well as exact and approximate representations of non-Pauli noise.\n\nFamiliarity with the broader quantum software landscape, including Stim, Qiskit Aer, PennyLane, Cirq, cuQuantum SDK, CUDA-Q, or similar development frameworks.\n\nStrong communication skills and experience collaborating across research, engineering, and product teams.\n\nPhD or MS degree in Computer Science, Applied Mathematics, Physics, Electrical Engineering, or a related scientific or engineering field, or equivalent experience.\n\n8+ years of relevant research or software-development experience.\n\n\n\nWays to stand out from the crowd:\n\nProficiency in near-Clifford or stabilizer simulation techniques.\n\nKnowledge of QEC code varieties and procedures, such as surface codes, subsystem codes, color codes, quantum LDPC, lattice surgery, and logical-state preparation. Hands-on experience with QEC decoders.\n\nExperience developing performance-critical GPU software using CUDA or a comparable environment.\n\nProficiency in horizontal scaling across multiple nodes or GPUs using NCCL, MPI, NVSHMEM, or equivalent high-performance communication stacks.\n\nAptitude for using agentic or AI-supported development tools alongside steadfast dedication to validation, testing, and code review standards.\n\n\n\n#LI-Hybrid\n\n\n\nYour base salary will be determined based on your location, experience, and the pay of employees in similar positions. The base salary range is 184,000 USD - 287,500 USD for Level 4, and 224,000 USD - 356,500 USD for Level 5.\n\n\n\nYou will also be eligible for equity and benefits.\n\n\n\nApplications for this job will be accepted at least until August 28, 2026.\n\nThis posting is for an existing vacancy. \n\nNVIDIA uses AI tools in its recruiting processes.\n\nNVIDIA is committed to fostering an inclusive work environment and proud to be an equal opportunity employer. As we highly value diversity in our current and future employees, we do not discriminate (including in our hiring and promotion practices) on the basis of race, religion, color, national origin, gender, gender expression, sexual orientation, age, marital status, veteran status, disability status or any other characteristic protected by law.\n\n\n\n\n\n\nSkills:\nAlgorithms, Artificial Intelligence (AI), C++ Programming Language, CUDA (Compute Unified Device Architecture), Code Reviews, Communication Skills, Computer Programming, Computer Science, Debugging Skills, Electrical Engineering, Functional Testing, GPU (Graphics Processing Unit), MPI, Machine Learning, Mathematics, Mentoring, Noise Modeling, Performance Testing, Physics, Product Management, Programming Tools, Python Programming/Scripting Language, Quantum Computing, Research & Development (R&D), Simulation, Software Development, Team Player, Technical Leadership, Technical Research, Use Cases, Validation Testing\n\n\nNVIDIA\n\n\nVisualize your future . . . We Do\n\nNVIDIA is the world leader in graphics processing technologies, creating innovative, industry-changing products for computing, consumer electronics, and mobile devices. NVIDIA products are transforming visually-rich applications such as video games, film production, broadcasting, industrial design, space exploration, and medical imaging. We invest in our people and our technologies, support and fund industry research around the world, and consistently deliver high-quality products. NVIDIA's culture promotes and inspires a team of world-class employees to be at the top of their game. We've created an environment where talents are recognized and collaboration is valued. Our employees are shaping the world of tomorrow. . . today. We invite you to explore the opportunities available at NVIDIA to see what your future may hold.\n\n\n\nCompany Size:\n10,000 employees or more\n\n\nIndustry:\nComputer Software\n\n\n1993\n\n\nWebsite:\nhttp://www.nvidia.com",
+      "apply_options": [
+        {
+          "title": "Monster",
+          "link": "https://www.monster.com/job-openings/senior-engineer-quantum-error-correction-libraries-ca--a09f3d5d-d7dd-438b-8ad8-cfb8c8849ca8?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Career.io",
+          "link": "https://career.io/job/senior-quantum-computing-libraries-engineer-nvidia-f0d0060ecb224dc1ac743d3562193a4f?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJTZW5pb3IgRW5naW5lZXIgLSBRdWFudHVtIEVycm9yIENvcnJlY3Rpb24gTGlicmFyaWVzIiwiY29tcGFueV9uYW1lIjoiTlZJRElBIiwiaHRpZG9jaWQiOiJwWFBpUzdPMjZFTW5mcjlyQUFBQUFBPT0iLCJobCI6ImVuIiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwVEZWZlpWa3lObmd5Wm1KNFJqWkZhSHBPUW1sVE1FMTFibEZuWkZGRFRXUlBOME5JTUdKQ2NscDRkbDlQYUROVWMzQllhbkpMVWxCQ1duRmtTbmR3T1ROSlh6QXpjRUZ4ZDFCeFZGZHhNMDVuWms1UlNrWllkVko0WlVkdkxUZHRVWFZpVFV4bllVdHRhV1JXU2xsQ1JXSkZSRzgwTWxGeVVFNDVUM1U0YW05a05FRTJiM2dTRjBsWVVFTmhkVk4xU0hCTVdtdFFTVkJxU25GdmQwRlJHaUpCUkhOeU9XWlNlVEJuWnpsWU1HRXhSRTloVWtSV1RHbG1iVnBDTUV3NWRWQlIiLCJmY3YiOiIzIiwiZmNfaWQiOiJwWFBpUzdPMjZFTW5mcjlyQUFBQUFBPT0ifQ=="
+    },
+    {
+      "title": "Quantum Error Correction Theorist II [575]",
+      "company_name": "D-Wave Quantum Inc.",
+      "location": "New Haven, CT",
+      "via": "Indeed",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "Ph.D. and/or a Master’s degree with 2 years of relevant experience in Quantum Computing, Physics, Computer Science, Electrical Engineering, or related field",
+            "Demonstrated research track record in QEC codes, fault-tolerant protocols, and/or QEC simulations/modeling",
+            "Proficiency in scientific programming (Python, Rust, Julia, MATLAB, C, C++ or similar)",
+            "Strong teamwork and communication skills especially with working in interdisciplinary teams with professionals from other fields of physics and engineering",
+            "We look at the future and say “why not”; we see possibilities where others see problems or routines"
+          ]
+        },
+        {
+          "title": "Benefits",
+          "items": [
+            "During the interview process, your Recruiter will review our total rewards (base, equity, bonus, perks, benefit, culture) offerings",
+            "$86,800 – 130,300 USD (New Haven)"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": [
+            "This position is ideal for researchers with a strong foundation in error correction and who also enjoy close scientific collaboration with experimental physicists and engineering teams",
+            "Conduct pathfinding QEC research tailored for dual-rail cavity qubits for near-term and scalable fault-tolerant computing applications",
+            "Perform research towards fault-tolerant computation using erasure qubits on a broad range of QEC topics, including exploration of error correcting codes, lattice surgery, magic state preparation, decoders, and many more",
+            "Perform logical error rate and resource estimation investigation for QEC architectures",
+            "Design and perform detailed, hardware-accurate simulations of novel QEC protocols",
+            "Contribute meaningfully to D-wave’s roadmap to realize fault-tolerant quantum computation with the dual-rail architecture"
+          ]
+        }
+      ],
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=quantum+error+correction&htidocid=RFuXh_pu0-BmgmF-AAAAAA%3D%3D&hl=en-US&shem=epsd1,esd2e,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_zWOMQrCQBAAsc0TrLawEnMnQhC0kigaC0EIWIiEy7HkIslt2NtoXuQ7jYXNNDPFRJ9JtLv2xkvfwoGZGFJiRis1ecgdEtdBIMvgnqyTB8RwphICGrYOxuJIVDU43TqRLmy0DqFRVRAjtVWWWk0eSxr0k8rwQxGcYewaI1iskuWgOl_NZ_v4Zl4I_43MWwW1hwu-4TQKv4A0_wJ5Q5XMqQAAAA&shmds=v1_ARwrE22ZyLPwxXgU7Ok63-eRPxcS7WoA2jYEz_pvtaGsjN_OGw&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=quantum+error+correction&htidocid=RFuXh_pu0-BmgmF-AAAAAA%3D%3D",
+      "thumbnail": "https://serpapi.com/images/i/_9j_4AAQSkZJRgABAQAAAQABAAD_2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys_RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N__AABEIADgAOAMBIgACEQEDEQH_xAAZAAEBAQADAAAAAAAAAAAAAAAABwYBBAX_xAAlEAABBAIBBAIDAQAAAAAAAAABAAIDBAUREhMhMVEGFCIyQRX_xAAUAQEAAAAAAAAAAAAAAAAAAAAA_8QAFBEBAAAAAAAAAAAAAAAAAAAAAP_aAAwDAQACEQMRAD8AuKIiAiIgIiICIiDjkPYTYUmx0Hx1vw6KG1hrpzX0i1zv82xz63E6PIN87_u1s6de1SED7YYXZH68M2oJJHnURDuZBIHcftoD3slBp1xse1gsP8iu4PE1MTLhcpcsY9zoLT2wP02BjuLZWu1qQlvE8W7Pn0urkjNdr5TMTYl1ivbvQwwNt1JXdKuxmuqYhp5_Nz-3byCgo_IewmwpW7FR5Nv1sFUkr2XY6yLEsNKatCZdsMPaTyQ5vbuf77Xp5a_c-UspxY6pkYZalWe1N1K74eNjolkcYLgA48nuPbf6goKDse0UpFLGWJMcyjDJjnDoGSUYa39kSBwLtSdmjetEkHydogq6IiAiIgIiICIiAiIgIiICIiAiIg__2Q.jpeg",
+      "extensions": [
+        "86.8K–130K a year",
+        "Full-time"
+      ],
+      "source_link": "https://www.indeed.com/viewjob?jk=66293d46628a563b",
+      "job_title": "Quantum Error Correction Theorist II [575]",
+      "description": "D-Wave Quantum Inc. (NASDAQ: QBTS) is a leader in the development and delivery of quantum computing systems, software, and services. It is the world’s first commercial supplier of quantum computers, and the first and only to offer dual-platform quantum computing products and services, spanning both annealing and gate-model quantum computing technologies. D-Wave’s mission is to help customers realize the value of quantum today through enterprise-grade systems available on-premises and via its Leap™ quantum cloud service, which offers 99.9% availability and uptime. More than 100 organizations across commercial, government, and research sectors trust D-Wave to address complex computational challenges using quantum computing. Learn more about realizing the value of quantum computing today and how D-Wave is shaping the quantum-driven industrial and societal advancements of tomorrow: www.dwavequantum.com.\n\n\n \n \n\n\n \n  \n\n     About the role\n\n\n  D-Wave is seeking a talented and self-motivated Quantum error correction (QEC) theorist to join our gate-model Quantum Engineering team. In this role, you will contribute to novel error correction research and development that will push the boundaries of QEC using our dual-rail cavity qubit architecture. This position is ideal for researchers with a strong foundation in error correction and who also enjoy close scientific collaboration with experimental physicists and engineering teams.\n\n\n  \n\n\n  \n\n     What you'll do\n\n\n  \n   Conduct pathfinding QEC research tailored for dual-rail cavity qubits for near-term and scalable fault-tolerant computing applications\n   Perform research towards fault-tolerant computation using erasure qubits on a broad range of QEC topics, including exploration of error correcting codes, lattice surgery, magic state preparation, decoders, and many more\n   Perform logical error rate and resource estimation investigation for QEC architectures\n   Design and perform detailed, hardware-accurate simulations of novel QEC protocols\n   Contribute meaningfully to D-wave’s roadmap to realize fault-tolerant quantum computation with the dual-rail architecture\n  \n  \n\n\n  \n\n     About You\n\n\n  \n   Ph.D. and/or a Master’s degree with 2 years of relevant experience in Quantum Computing, Physics, Computer Science, Electrical Engineering, or related field\n   Demonstrated research track record in QEC codes, fault-tolerant protocols, and/or QEC simulations/modeling\n   Proficiency in scientific programming (Python, Rust, Julia, MATLAB, C, C++ or similar)\n   Strong teamwork and communication skills especially with working in interdisciplinary teams with professionals from other fields of physics and engineering\n  \n  \n\n\n  \n\n     A D-Waver's DNA\n\n\n  \n   We look at the future and say “why not”; we see possibilities where others see problems or routines. We show the way ahead and are committed to achieving ambitious goals.\n   We practice straight talk and listen generously to each other with empathy. We value different opinions and points of views. We ensure that we connect outside as well as inside to learn from others and inspire each other.\n   We hold ourselves accountable for delivering results. We make decisions & take responsibility so that we can act & support each other.\n   As leaders we motivate & engage our teams to undertake beyond what they originally thought possible, by developing our teams & creating the conditions for people to grow and empower themselves through enabling & coaching.\n  \n  \n\n\n  \n\n     Our Compensation Philosophy is Simple but Powerful:\n\n\n  We believe providing D-Wavers with company ownership, competitive pay, and a range of meaningful benefits is the start of creating a culture where people want to give the best they’ve got — not because they’re simply making money, but because they’ve fallen in love with our vision, mission, values, and team.\n\n\n  \n\n\n  \n\n     During the interview process, your Recruiter will review our total rewards (base, equity, bonus, perks, benefit, culture) offerings. The final offer is determined by your proficiencies within this level.\n\n\n  \n\n\n  \n\n     Inclusion:\n\n\n  We celebrate diverse perspectives to drive innovation in our pursuit. Our employees range from distinguished domain experts with decades of experience in their respective fields, to bright and motivated graduates eager to make their mark. Our diverse and innovative team will make you feel appreciated, supported and empower your career growth at D-Wave.\n\n\n  \n\n\n  \n\n     The Fine Print:\n\n\n  No 3rd party candidates will be accepted\n\n\n  \n\n\n  \n\n     It is D-Wave Systems Inc. policy to provide equal employment opportunity (EEO) to all persons regardless of race, color, religion, sex, national origin, age, sexual orientation, gender identity, genetic information, physical or mental disability, protected veteran status, or any other characteristic protected by federal, state/provincial, local law.\n\n\n  \n\n\n  \n\n    The base pay range for this role is:\n\n\n  $86,800 – 130,300 USD (New Haven)",
+      "apply_options": [
+        {
+          "title": "Indeed",
+          "link": "https://www.indeed.com/viewjob?jk=66293d46628a563b&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "LinkedIn",
+          "link": "https://www.linkedin.com/jobs/view/quantum-error-correction-theorist-ii-575-at-d-wave-4446302621?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "ZipRecruiter",
+          "link": "https://www.ziprecruiter.com/c/D-Wave-Quantum/Job/Quantum-Error-Correction-Theorist-II-[575]/-in-New-Haven,CT?jid=5c2d7b87acb4efa7&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Monster",
+          "link": "https://www.monster.com/job-openings/quantum-error-correction-theorist-ii-575-new-haven-ct--aa4f112a-f7b3-45ea-92a6-2f74ef366e2b?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "SimplyHired",
+          "link": "https://www.simplyhired.com/job/ktIkt3kemI9kTamG4kaWI10Z9h-2e75Ftq70chA4OshPXsBPSvMlpg?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "BeBee",
+          "link": "https://bebee.com/us/jobs/quantum-error-correction-theorist-ii-575-d-wave-quantum-new-haven--ss-us-1pcvgwp?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Startup Jobs",
+          "link": "https://startup.jobs/staff-quantum-error-correction-theorist-d-wave-quantum-8804316?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "JobTarget",
+          "link": "https://www.jobtarget.com/jobs/jt-8j1xskrtp7/quantum-error-correction-theorist-ii-575-new-haven-connecticut?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJRdWFudHVtIEVycm9yIENvcnJlY3Rpb24gVGhlb3Jpc3QgSUkgWzU3NV0iLCJjb21wYW55X25hbWUiOiJELVdhdmUgUXVhbnR1bSBJbmMuIiwiaHRpZG9jaWQiOiJSRnVYaF9wdTAtQm1nbUYtQUFBQUFBPT0iLCJobCI6ImVuIiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwU1dSSFZFRlJVMDVZVkZGZmVWTkdOVWxIV2tOM01raEVjVFJJVWxGNWEwUkRWMW8yV2pGWVZFWXpSak5uTm1GSlVsQXhMWEJqWDFGaFpsVm5jbmhVYlhCMlZsUmtSa1JtWkVSS2EzUm9TRUpQYlVoWGJIaEJURGxmTkhaUVpqSktkbW80TW05SFpXbGxUbXRrYVU5TmQyVmpURlpQVWpGRVFuVjNXRU14ZEhBdGNETXpOV3dTRjBsWVVFTmhkVk4xU0hCTVdtdFFTVkJxU25GdmQwRlJHaUpCUkhOeU9XWlNiMnRCWWxCbU0xcERZemxRUzNoUUxXVm1iRUU0V1c1NFRqZFIiLCJmY3YiOiIzIiwiZmNfaWQiOiJSRnVYaF9wdTAtQm1nbUYtQUFBQUFBPT0ifQ=="
+    },
+    {
+      "title": "Research Scientist, Quantum Error Correction",
+      "company_name": "The Infinity Fellowship",
+      "location": "Hayward, CA",
+      "via": "Trabajo.org",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "No background in AI is required; we weigh the ability to learn above experience with any method",
+            "To conform to U.S. export control regulations applicable to that information, applicant must either be (A) a U.S. person, defined as a (i) U.S. citizen or national, (ii) U.S. lawful permanent resident (green card holder), (iii) refugee under 8 U.S.C. § 1157, or (iv) asylee under 8 U.S.C. § 1158, or (B) eligible to access the export controlled information without a required export authorization, or (C) eligible and reasonably likely to obtain the required export authorization from the applicable U.S. government agency",
+            "The Company may, for legitimate business reasons, decline to pursue any export licensing process",
+            "To conform to applicable export control regulations applicable to that information, applicant must be eligible to access the export controlled information without a required export authorization"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": [
+            "You carry each from formulation to validated result"
+          ]
+        }
+      ],
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=quantum+error+correction&htidocid=JvO--fXouFCcpaidAAAAAA%3D%3D&hl=en-US&shem=epsd1,esd2e,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_y3LuwrCMBSAYVz7CE5nchBtRHDRSYrXzcte0nhsImlOyDml7Sv5lCq4_PANf_YeZcUVGXUyFm7GYRDHMoNLq4O0DexSogQFpYRGHAWYw5kq-A9fH4hqj-ONFYm8VorZ5zWLFmdyQ42igBX16kUV_1Ky1Qmj14LlcrXo8xjq6eRuEU7h6YKTAfboPXVsXQQX4KiHTqfHDIrtB0wRFzKtAAAA&shmds=v1_ARwrE23h7JcpZXk7pgF0pDrqoWBLe4-CnCapmK58o2LfLK6z6w&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=quantum+error+correction&htidocid=JvO--fXouFCcpaidAAAAAA%3D%3D",
+      "extensions": [
+        "7 days ago",
+        "Full-time"
+      ],
+      "source_link": "https://us.trabajo.org/job-1721-08be2eb098a05e228494f584100a9ca5",
+      "job_title": "Research Scientist, Quantum Error Correction",
+      "description": "We are a frontier artificial-intelligence laboratory, still in stealth, established for a single purpose: to build an AI capable of original discovery — a system that does not merely retrieve and recombine what is already known, but reasons toward genuinely new understanding of the problems put to it. We hold that an instrument able to truly discover is among the most consequential technologies humanity will ever build, and we are building it.\n\nOur system has already produced results beyond the reach of any human team. We have demonstrated its power on a small number of problems. The purpose of this fellowship is to establish how far that power extends.\n\nThis is an invitation to bring a small number of researchers who will form the inaugural cohort of the Infinity Fellowship who will spend a year aiming this instrument at the hardest unsolved problems in their fields.\n\nYou choose the problems — the ones shelved because they demanded a decade. You carry each from formulation to validated result. You publish as lead author.\n\nThe terms are plain: a full-time salaried appointment of roughly one year, hybrid in the San Francisco East Bay, with relocation support and visa sponsorship for international Fellows. It pays like a strong postdoc. No background in AI is required; we weigh the ability to learn above experience with any method. Top-performing Fellows will be offered permanent research positions.\n\nThe application takes ten minutes to begin: your CV, and a few sentences on the problem you would start with. The full one-page proposal — why it has resisted solution, what its solution would make possible — can follow.\n\nProposals received by Oct 23 will be considered first for the inaugural cohort, which convenes in September. Every application receives an answer within a week. Few are present, in any era, at the founding of a new instrument of discovery.\n\nBring the problem worth your year.\n\nOther Info\n\nFor US Remote/Hybrid: This position requires access to export controlled information. To conform to U.S. export control regulations applicable to that information, applicant must either be (A) a U.S. person, defined as a (i) U.S. citizen or national, (ii) U.S. lawful permanent resident (green card holder), (iii) refugee under 8 U.S.C. § 1157, or (iv) asylee under 8 U.S.C. § 1158, or (B) eligible to access the export controlled information without a required export authorization, or (C) eligible and reasonably likely to obtain the required export authorization from the applicable U.S. government agency. The Company may, for legitimate business reasons, decline to pursue any export licensing process.\n\nFor International Remote: This position requires access to export controlled information. To conform to applicable export control regulations applicable to that information, applicant must be eligible to access the export controlled information without a required export authorization.",
+      "apply_options": [
+        {
+          "title": "Trabajo.org",
+          "link": "https://us.trabajo.org/job-1721-08be2eb098a05e228494f584100a9ca5?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJSZXNlYXJjaCBTY2llbnRpc3QsIFF1YW50dW0gRXJyb3IgQ29ycmVjdGlvbiIsImNvbXBhbnlfbmFtZSI6IlRoZSBJbmZpbml0eSBGZWxsb3dzaGlwIiwiaHRpZG9jaWQiOiJKdk8tLWZYb3VGQ2NwYWlkQUFBQUFBPT0iLCJobCI6ImVuIiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwU2pVMU1FMTJjRlIzUTNWRGVYVnVaWEpNT0ZsVWRXRjJkVEpCYVRNMWJ6VnJkM0p6U1RjNE4xbFVlVTFRUWxoUmNYRnNXVkJFZWtwd1p6Uk9RVVJxTFdjeFoxWjJZVEJJVEZNMFN5MUNOVUpHUzNSWVozVlZSMnRJZWtvd1l6UjFkRlJvVTI5NVluQkdVR3hVZDBkNFptUnRVR0p3Um5WcExXRTNNVWxWVW1Rd1VrbFhTVE1TRjBsWVVFTmhkVk4xU0hCTVdtdFFTVkJxU25GdmQwRlJHaUpCUkhOeU9XWlJUMmh0TFhKWk0ySkxaMDFNU3pKUVVDMWxORVp6Tm5OdlFtNVIiLCJmY3YiOiIzIiwiZmNfaWQiOiJKdk8tLWZYb3VGQ2NwYWlkQUFBQUFBPT0ifQ=="
+    },
+    {
+      "title": "Quantum Error Correction Research Intern , Flexible",
+      "company_name": "QuEra Computing, Inc.",
+      "location": "Boston, MA",
+      "via": "BeBee",
+      "job_highlights": [
+        {
+          "title": "Responsibilities",
+          "items": [
+            "You will design, simulate, and analyze error-correction strategies, explore low-overhead logical gate schemes, and help implement QEC protocols on state-of-the-art hardware",
+            "Applications reviewed on a rolling basis; on-site, Boston locale; internship terms are flexible to candidate"
+          ]
+        }
+      ],
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=quantum+error+correction&htidocid=h1_6w8nFVL3jkifMAAAAAA%3D%3D&hl=en-US&shem=epsd1,esd2e,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_y2OMQrCQBBFsc0RrAbsJGZFsNFKJYoBC71A2CzDZmUzE2ZnIafyjEaw-c178H7xWRTNM1vSPEAtwgIXFkGngQlemNCK6-FOikJQwjXiFLqIsIGGO_jjWb0x-4jLY686poMxKcXKJ7UaXOV4MEzY8WTe3KXftKm3gmO0iu1uv52qkfx69cy12PnAMGYN5Mu56yoIBGdOylTC4_QFsb8McLEAAAA&shmds=v1_ARwrE23UbAT1wXBkF8AYfRL0TZH4uK56zhOQdiHCEevHxsZJyg&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=quantum+error+correction&htidocid=h1_6w8nFVL3jkifMAAAAAA%3D%3D",
+      "extensions": [
+        "3 days ago",
+        "Internship"
+      ],
+      "source_link": "https://bebee.com/us/jobs/quantum-error-correction-research-intern-flexible-quera-computing-inc-boston--lensa-7428_a1792e03d461446bebdf292e8f495253460039ae8a4bbbd43ae897465c4d18df",
+      "job_title": "Quantum Error Correction Research Intern , Flexible",
+      "description": "QuEra Computing, Inc. seeks a Quantum Error Correction (QEC) Research Intern to join a team of scientists and engineers advancing hardware-efficient QEC schemes for our neutral-atom quantum computer platform.\nYou will design, simulate, and analyze error-correction strategies, explore low-overhead logical gate schemes, and help implement QEC protocols on state-of-the-art hardware. Applications reviewed on a rolling basis; on-site, Boston locale; internship terms are flexible to candidate",
+      "apply_options": [
+        {
+          "title": "BeBee",
+          "link": "https://bebee.com/us/jobs/quantum-error-correction-research-intern-flexible-quera-computing-inc-boston--lensa-7428_a1792e03d461446bebdf292e8f495253460039ae8a4bbbd43ae897465c4d18df?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJRdWFudHVtIEVycm9yIENvcnJlY3Rpb24gUmVzZWFyY2ggSW50ZXJuICwgRmxleGlibGUiLCJjb21wYW55X25hbWUiOiJRdUVyYSBDb21wdXRpbmcsIEluYy4iLCJodGlkb2NpZCI6ImgxXzZ3OG5GVkwzamtpZk1BQUFBQUE9PSIsImhsIjoiZW4iLCJmYyI6IkVzd0JDb3dCUVVwcFZEUjBURjl1VWxKNFUxZElia3BJVkhKWFIzQm1NRFZaYkU1eWQyczBXVmw0VFhSSmFqQmFWV3BJTURWTE1tdEJYekJqY2t4Uk5raEZlR056Um01bFIzcGlaSFYwVWtKS01FTm1TVkJuYjE5RVZURkVNRzVIWlVZek5YaE9hVWRmVTNab01FTlhjMGRaTXpSTlkzQlNjMVZYTkhsMmRtbExiM2gwVFVwdWRXWktTa0pmVkVKcVJGQVNGMGxZVUVOaGRWTjFTSEJNV210UVNWQnFTbkZ2ZDBGUkdpSkJSSE55T1daU1NWaHlZMWhUVmsxeFZsTXhRa3R0Y25KSFNHSjRaV0prWDJOMyIsImZjdiI6IjMiLCJmY19pZCI6ImgxXzZ3OG5GVkwzamtpZk1BQUFBQUE9PSJ9"
+    },
+    {
+      "title": "Quantum Error Correction Control Systems Engineer",
+      "company_name": "IBM",
+      "location": "San Jose, CA",
+      "via": "Talents By Vaia",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "This role requires collaboration with a diverse team and strong software skills in Python, Rust, or C++",
+            "The ideal candidate will hold a bachelor's degree and be able to prototype and evaluate innovative approaches in a forward-thinking environment"
+          ]
+        },
+        {
+          "title": "Benefits",
+          "items": [
+            "This position offers a competitive salary and hybrid work arrangement",
+            "#J-18808-Ljbffr"
+          ]
+        }
+      ],
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=quantum+error+correction&htidocid=U_E0pa0oRaGA372KAAAAAA%3D%3D&hl=en-US&shem=epsd1,esd2e,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xWMuwrCQBAAsU1rZ7W1aE4EG600BB9gIfmAcAnL5eSyG3Y3EP_FjzU2wxTDZN9FdnuNnmzsoRRhgYJFsLXINCuZcILqo4a9QkkhEqLAFh7cgKKXtoM5vDKHhKtTZzbo0TnVlAc1b7HNW-4dEzY8uTc3-ketnRcckjes94fdlA8U1sv75QmRoPI03xU3UJx_RjUvCZ8AAAA&shmds=v1_ARwrE2336Ct7gcCXNIE8RdzYOtOYb5GdvFpC6ZBT-E9MBNA6DQ&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=quantum+error+correction&htidocid=U_E0pa0oRaGA372KAAAAAA%3D%3D",
+      "thumbnail": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAADgAAAA4CAMAAACfWMssAAAAUVBMVEX___97e3ve3t6UlJTOzs7V1dWNjY2Dg4Pr6-s9PT3w8PB2dnbKysrh4eHHx8eXl5e8vLxpaWlCQkL39_ezs7Otra1XV1empqaenp44ODhLS0sXijQ6AAAA3UlEQVRIie2S3Q7CIAyFO2CUn8HYppv6_g9qO_TChLF4pwkfCadAGko5AI1Go_FvGMG4LMIBLKyGTtw7KJN813V-uLAQEQJH-nXi02Fi1FJKrRILR1ezbwhYdo2HiSEqpaIRLMOgVL9wpAwsLDFUXjlZz7Jaqm-dZ4DNziRI81Rtj-gFS5-hbphdeRLVxBFvLBp3qK8JUdLAG45fJ4YOMW4niaVSeeXCSamF5txB2wd4W2tO-TsABgN99TuKBqC7McCmawb4tJzPlqPa6dKxarmyyfMrqiZvNBqNX-UJ2fMKjrSwzHkAAAAASUVORK5CYII.png",
+      "extensions": [
+        "72K–108K a year",
+        "Full-time"
+      ],
+      "source_link": "https://talents.vaia.com/companies/ibm/san-jose/quantum-error-correction-control-systems-engineer-87004348/",
+      "job_title": "Quantum Error Correction Control Systems Engineer",
+      "description": "A leading technology firm in the United States seeks a QEC Control Systems Engineer to design and validate control systems for quantum computers. This role requires collaboration with a diverse team and strong software skills in Python, Rust, or C++. The ideal candidate will hold a bachelor's degree and be able to prototype and evaluate innovative approaches in a forward-thinking environment. This position offers a competitive salary and hybrid work arrangement. #J-18808-Ljbffr",
+      "apply_options": [
+        {
+          "title": "Talents By Vaia",
+          "link": "https://talents.vaia.com/companies/ibm/san-jose/quantum-error-correction-control-systems-engineer-87004348/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Bandana.com",
+          "link": "https://bandana.com/jobs/b02f05b4-dc64-4c90-8c28-e40eb62d93a1?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJRdWFudHVtIEVycm9yIENvcnJlY3Rpb24gQ29udHJvbCBTeXN0ZW1zIEVuZ2luZWVyIiwiY29tcGFueV9uYW1lIjoiSUJNIiwiaHRpZG9jaWQiOiJVX0UwcGEwb1JhR0EzNzJLQUFBQUFBPT0iLCJobCI6ImVuIiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwU2pkVFQyUXRiV1JDTTB4RE1XRjFVVnBUYzJkeVgzSkJWRlo2ZWtGUWFrSTBZbVF6UkdVeGNsVlVMVU0wYlcxWlUwRkNZVlZ1U1ZRNFRubFBlR2haVUU4d05tdElaSGxKTW14ZlNHWk5Wa3hzVjNod2Iza3RXSFJ2VFY4eE5tbFFUVXBCZFU1b05HaFpWbkV4ZDNSdlNsSjNlWEU1VFUxeWMyUnNaell3TVhkMGNIVkJSRGNTRjBsWVVFTmhkVk4xU0hCTVdtdFFTVkJxU25GdmQwRlJHaUpCUkhOeU9XWlJWR0pvVURCNlVuQjFUbk13TVdZM1VGUTJlbXhzYzFwR1NrcG4iLCJmY3YiOiIzIiwiZmNfaWQiOiJVX0UwcGEwb1JhR0EzNzJLQUFBQUFBPT0ifQ=="
+    },
+    {
+      "title": "Senior Quantum Error-Correction Software Engineer",
+      "company_name": "Google",
+      "location": "California",
+      "via": "JobLeads",
+      "job_highlights": [
+        {
+          "title": "Responsibilities",
+          "items": [
+            "You will design and optimize decoding algorithms, build APIs to connect decoders with the classical and quantum stack, and collaborate with researchers on live experiments",
+            "The role emphasizes leadership in design reviews, roadmap planning, and mentoring junior engineers as you contribute to a practical quantum computing platform at Google"
+          ]
+        }
+      ],
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=quantum+error+correction&htidocid=Ry9qfGHTGTVnBAPUAAAAAA%3D%3D&hl=en-US&shem=epsd1,esd2e,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_yXMsQrCQAyAYVw7OzllFuyJ4KJjKYqb9AHK9UivJ9ekJCn2ZXxXKy7_9PMVn01xb5ASCzxnTzaPUIuwHCoWwWCJCRru7e0FoaaYCFHgAA_uQNFLGGA9bswx4-46mE16cU41l1HNWwpl4NExYceLe3Gnv7Q6rNyUvWF7Oh-XcqK43_4RSASVz6lnoeS_wBeAj6AAAAA&shmds=v1_ARwrE228v3cp-WJQGmjFpSoYXC3DkThqyj4p92JzRbn-oRuO4w&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=quantum+error+correction&htidocid=Ry9qfGHTGTVnBAPUAAAAAA%3D%3D",
+      "extensions": [
+        "7 days ago",
+        "207K–300K a year",
+        "Full-time",
+        "No degree mentioned"
+      ],
+      "detected_extensions": {
+        "qualifications": "No degree mentioned"
+      },
+      "source_link": "https://www.jobleads.com/us/job/senior-quantum-error-correction-software-engineer--mountain-view--e96ee9436b5e359c764a83e9deb912525",
+      "job_title": "Senior Quantum Error-Correction Software Engineer",
+      "description": "Google Quantum AI is seeking software engineers to develop scalable quantum error correction (QEC) software and syndrome decoders. You will design and optimize decoding algorithms, build APIs to connect decoders with the classical and quantum stack, and collaborate with researchers on live experiments.\n\nThe role emphasizes leadership in design reviews, roadmap planning, and mentoring junior engineers as you contribute to a practical quantum computing platform at Google.",
+      "apply_options": [
+        {
+          "title": "JobLeads",
+          "link": "https://www.jobleads.com/us/job/senior-quantum-error-correction-software-engineer--mountain-view--e96ee9436b5e359c764a83e9deb912525?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJTZW5pb3IgUXVhbnR1bSBFcnJvci1Db3JyZWN0aW9uIFNvZnR3YXJlIEVuZ2luZWVyIiwiY29tcGFueV9uYW1lIjoiR29vZ2xlIiwiaHRpZG9jaWQiOiJSeTlxZkdIVEdUVm5CQVBVQUFBQUFBPT0iLCJobCI6ImVuIiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwVEY5YVJYUkZNWE14U0dkNk5HUXhhbUpSVTNCMGJUQTRkM0JNUW05QloxVTJTMGxoYjFwR2VsQjZOMDEwZVdKUVExTjJVaTFJVjFkeldtOXNWQzF4ZUZWcWNFUnRhM2xPWW5ScWVEbFNYMU5MVG1KNVIyYzVOM0JYYUdwT1FVVkhkbVYxTWkxcVYzRlRUV2syUXpKM1kzRXhhM1JzWmxZd00wOVpNV1pKYkZBNE1YWkJaa2tTRjBsWVVFTmhkVk4xU0hCTVdtdFFTVkJxU25GdmQwRlJHaUpCUkhOeU9XWlRVVGxWU0doVVJrbFVSMm8yUVdseWJIbGZTekJzZFdNMVJUZDMiLCJmY3YiOiIzIiwiZmNfaWQiOiJSeTlxZkdIVEdUVm5CQVBVQUFBQUFBPT0ifQ=="
+    },
+    {
+      "title": "Quantum Error Correction Scientist",
+      "company_name": "Logiqal, Inc.",
+      "location": "Princeton, NJ",
+      "via": "LinkedIn",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "You might be a good fit if you have experience with quantum computer architecture, simulations of QEC protocols (including logical operations), logical gates in qLDPC codes, and/or fault-tolerant compilation of quantum algorithms"
+          ]
+        },
+        {
+          "title": "Benefits",
+          "items": [
+            "Compensation consists of a base salary and equity",
+            "The salary range for this role is $180-250k, commensurate with experience",
+            "We also provide comprehensive benefits, including fully paid medical, dental, and vision insurance for our employees and highly subsidized benefits for spouses and dependents, a 401k and FSA"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": [
+            "We are looking for a QEC Scientist to be part of Logiqal’s QEC team, and be responsible for continued innovation in our FTQC design and roadmap",
+            "In this role, you will be involved at every level of the QEC stack, from the physical layer up through fault-tolerant compilation of algorithms for distributed, modular hardware",
+            "You’ll have the opportunity to work directly with our hardware team to develop practical QEC protocols that leverage our unique physical qubit and control architecture to advance the frontier of FTQC"
+          ]
+        }
+      ],
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=quantum+error+correction&htidocid=Zn1gJri5xzxreheEAAAAAA%3D%3D&hl=en-US&shem=epsd1,esd2e,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xXJsQrCQAwAUFz7CQ6SWeqdCA7qKCIWEcUPKNcjXE_apCYp9FP8XHV5yys-s2L3GAPZ2MNJhAWOLILRMhM8Y0ayrAYrqLgBxSCxhd-cmVOH80NrNujee9XOJbVgObrIvWfChif_4kb_1NoGwaELhvVmu57cQGm5uHLK79CVcKHoIBPcJVNEYyrhVn0B4-y0qZsAAAA&shmds=v1_ARwrE23YT2fAK1GHUFyHa83U6CNysOPsik7-0pac5h7jqPc15A&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=quantum+error+correction&htidocid=Zn1gJri5xzxreheEAAAAAA%3D%3D",
+      "thumbnail": "https://serpapi.com/searches/6ac2732050849c44180fa8cd/images/TkGdlQRIrxxwmvSl9v13ADFm0IWBEW-dNRYn4RBa5-M.jpeg",
+      "extensions": [
+        "Full-time",
+        "Dental insurance",
+        "Health insurance"
+      ],
+      "source_link": "https://www.linkedin.com/jobs/view/quantum-error-correction-scientist-at-logiqal-inc-4442797292",
+      "job_title": "Quantum Error Correction Scientist",
+      "description": "About The Company\n\nLogiqal is on a mission to build the first scaled quantum computer, deploying millions of qubits to tackle the world’s most important problems. Our thesis is that you have to build a full scale machine to learn what the actual hard parts are, just like you have to build a full scale rocket before the first launch. We’re looking for a few visionary scientists and engineers to join our team, to move fast and blow stuff up.\n\nBased in Princeton, NJ our founding physics team has decades of combined research experience at leading academic and industry labs including Princeton, Harvard, Yale, MIT and Google Quantum. Our approach is based on neutral atom qubit technology developed in research labs at Princeton by the founding team. Our scalable systems are composed of manufacturable sub-modules, controlled by state-of-the-art CMOS optoelectronics, and designed around a unique computer architecture.\n\nIf you’re excited to build something that’s never existed before at the cutting edge of physics and engineering—together with an awesome team with deep technical expertise—come build with us!\n\nAbout The Role\n\nWe are looking for a QEC Scientist to be part of Logiqal’s QEC team, and be responsible for continued innovation in our FTQC design and roadmap. In this role, you will be involved at every level of the QEC stack, from the physical layer up through fault-tolerant compilation of algorithms for distributed, modular hardware. You’ll have the opportunity to work directly with our hardware team to develop practical QEC protocols that leverage our unique physical qubit and control architecture to advance the frontier of FTQC.\n\nYou might be a good fit if you have experience with quantum computer architecture, simulations of QEC protocols (including logical operations), logical gates in qLDPC codes, and/or fault-tolerant compilation of quantum algorithms. Interest with or experience in machine learning decoders, or ML driven research, is a plus.\n\n__________\n\nCompensation consists of a base salary and equity. The salary range for this role is $180-250k, commensurate with experience. We also provide comprehensive benefits, including fully paid medical, dental, and vision insurance for our employees and highly subsidized benefits for spouses and dependents, a 401k and FSA.\n\n__________\n\nLogiqal is an equal opportunity employer and all qualified applicants will receive consideration for employment without regard to age, race, color, religion, sex, sexual orientation, gender identity or expression, national origin, disability status, protected veteran status, or any other characteristic protected by law.",
+      "apply_options": [
+        {
+          "title": "LinkedIn",
+          "link": "https://www.linkedin.com/jobs/view/quantum-error-correction-scientist-at-logiqal-inc-4442797292?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Indeed",
+          "link": "https://www.indeed.com/viewjob?jk=f27e75a6c2f45411&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Jobs",
+          "link": "https://jobs.ashbyhq.com/logiqal/b3e0fd78-61d8-4dc0-8ec3-479f73d8f4bc?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "ZipRecruiter",
+          "link": "https://www.ziprecruiter.com/c/Logiqal/Job/Quantum-Error-Correction-Scientist/-in-Princeton,NJ?jid=692f96a1c4dd4e45&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Monster",
+          "link": "https://www.monster.com/job-openings/quantum-error-correction-scientist-princeton-nj--15cb91cd-7b1f-4ab9-82e7-b8d402b516c0?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Startup Jobs",
+          "link": "https://startup.jobs/quantum-error-correction-scientist-logiqal-8779254?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Teal",
+          "link": "https://www.tealhq.com/job/quantum-error-correction-scientist_7ea1a087245161c195f5244e07e8170c19429?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "SimplyHired",
+          "link": "https://www.simplyhired.com/job/3EMQxa_9O72gbxIdt2I-6WgyHexS1fWKIsPI5fv4sry1Jf10EySB3A?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJRdWFudHVtIEVycm9yIENvcnJlY3Rpb24gU2NpZW50aXN0IiwiY29tcGFueV9uYW1lIjoiTG9naXFhbCwgSW5jLiIsImh0aWRvY2lkIjoiWm4xZ0pyaTV4enhyZWhlRUFBQUFBQT09IiwiaGwiOiJlbiIsImZjIjoiRXN3QkNvd0JRVXBwVkRSMFNWWmhlbEYzY2pGUmNFSXhaRFZKWnpWUVRrUm1iamhJVHpGSWRVaFhWSFpWVVVkNlRIUldaVFY1Y21kbE4xVmpjWEpPWVhGeWQxSmZOV3hXYlUxcVREUlJYM1pYVW13MVdUUkdkek5MWTFaclRHczFTWEJzWVhrd1VFSnNaSEJXTkRWd1p6VnVWR3hFTVhaNmVYaENSMjlpYVdFMVIzZzNWMjF4TFhod1UyaFJkbmhUZGtFU0YwbFlVRU5oZFZOMVNIQk1XbXRRU1ZCcVNuRnZkMEZSR2lKQlJITnlPV1pTVDBWaWNIVk5ZM1JxTW5Gc2JETlZhVll4V2xocVZWUTNTSEozIiwiZmN2IjoiMyIsImZjX2lkIjoiWm4xZ0pyaTV4enhyZWhlRUFBQUFBQT09In0="
+    }
+  ],
+  "serpapi_pagination": {
+    "next_page_token": "eyJmYyI6IkVzd0VDb3dFUVVwcFZEUjBTVlZVYm5KdVNsbG5Va1pVWTFkTWRFSldXRmQ1VVdWc1QzcEhMVkpZZEhWaE5tTnZVRWR3ZDI0eWJHWk5aR2RpVGxobVlqSk5SMjlzYVdFMFRGOUxSMjQzYUUxNFVqRkpXRkp0Y1VabU1UUjBaMU14YVhGclFtZzNRbDlUVW5JeWRYTXhhVFZHTTIxbWNWRlBjM0JzYkVac1psQkhlRms0ZDNsclREUnpXbDl3UkZaaVkyWjRZVXBJYmpKdlQySlRlVE13VkZCMFpHaEZOa1Z3YTJjeVpGQjVTMVpWVXpaVldtaFJTa1J6WTNVeVNrazRUSEZuVFUxRVMwZzJOVmxDTWtGUFlXaDBTalZTY3pGeFQxTkxXVlZWVFdoWmJGbDRlVFJRYTA1c1Vra3hjbGg0ZUZkb01HVkVlWEZ4V1RCTldYWnhYME4yUzBGWE4zZHdWbVZET1dWUWRIVjFOVnBZV1VrMWQySmhTM2xaYkRGVWFGQndkM0Z0UjFKM1kwRlRUMWhmYzNaaFZIcHRURmgwY2tWcExUa3RaMTlEYTJaS1kwTTBkRkpWU0ZWdFJrTXllRXhuUW1aQmNsTTBXbEp1UldzMlNuSjRWV2x6U1VwSGVWQk5ZVzVaUmt4VmQyZExZa2w2WXkxMFpIRTVMVXBPU1c1WFZqbFFhR2RFUm05RVUyWjFkak53YmkxeFlsVnRPR1V3Ym5weVEzbFJORGxoWkhCR1ltcHhZbTFCWm1OZlEzaEJPWFZFTkdKdU5tRnVSM0ZYVEdWd01EWjRNM1pGVTB0aFZWWlRjamM1YlZoS01saGlNRUp1ZFhWTVQwRlVkVE5JYm5sRlFubHZPVk4xZWsxT2QzbDJVamxGYW1OaWJ6SnhNRWxxYVhBeWFEUnBkbHBaYjFOWGJVRTFMVmx3TWxrU0YwbFlVRU5oZFZOMVNIQk1XbXRRU1ZCcVNuRnZkMEZSR2lKQlJITnlPV1pUTldGWVVrMXZSa2x5UkhoNGEweHhha0pZUVVoak4wcHpVbkpSIiwiZmN2IjoiMyJ9",
+    "next": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&next_page_token=eyJmYyI6IkVzd0VDb3dFUVVwcFZEUjBTVlZVYm5KdVNsbG5Va1pVWTFkTWRFSldXRmQ1VVdWc1QzcEhMVkpZZEhWaE5tTnZVRWR3ZDI0eWJHWk5aR2RpVGxobVlqSk5SMjlzYVdFMFRGOUxSMjQzYUUxNFVqRkpXRkp0Y1VabU1UUjBaMU14YVhGclFtZzNRbDlUVW5JeWRYTXhhVFZHTTIxbWNWRlBjM0JzYkVac1psQkhlRms0ZDNsclREUnpXbDl3UkZaaVkyWjRZVXBJYmpKdlQySlRlVE13VkZCMFpHaEZOa1Z3YTJjeVpGQjVTMVpWVXpaVldtaFJTa1J6WTNVeVNrazRUSEZuVFUxRVMwZzJOVmxDTWtGUFlXaDBTalZTY3pGeFQxTkxXVlZWVFdoWmJGbDRlVFJRYTA1c1Vra3hjbGg0ZUZkb01HVkVlWEZ4V1RCTldYWnhYME4yUzBGWE4zZHdWbVZET1dWUWRIVjFOVnBZV1VrMWQySmhTM2xaYkRGVWFGQndkM0Z0UjFKM1kwRlRUMWhmYzNaaFZIcHRURmgwY2tWcExUa3RaMTlEYTJaS1kwTTBkRkpWU0ZWdFJrTXllRXhuUW1aQmNsTTBXbEp1UldzMlNuSjRWV2x6U1VwSGVWQk5ZVzVaUmt4VmQyZExZa2w2WXkxMFpIRTVMVXBPU1c1WFZqbFFhR2RFUm05RVUyWjFkak53YmkxeFlsVnRPR1V3Ym5weVEzbFJORGxoWkhCR1ltcHhZbTFCWm1OZlEzaEJPWFZFTkdKdU5tRnVSM0ZYVEdWd01EWjRNM1pGVTB0aFZWWlRjamM1YlZoS01saGlNRUp1ZFhWTVQwRlVkVE5JYm5sRlFubHZPVk4xZWsxT2QzbDJVamxGYW1OaWJ6SnhNRWxxYVhBeWFEUnBkbHBaYjFOWGJVRTFMVmx3TWxrU0YwbFlVRU5oZFZOMVNIQk1XbXRRU1ZCcVNuRnZkMEZSR2lKQlJITnlPV1pUTldGWVVrMXZSa2x5UkhoNGEweHhha0pZUVVoak4wcHpVbkpSIiwiZmN2IjoiMyJ9&q=quantum+error+correction"
+  }
+}

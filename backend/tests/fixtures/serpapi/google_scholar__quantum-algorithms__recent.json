@@ -1,0 +1,870 @@
+{
+  "search_metadata": {
+    "id": "6ac273576f082b8ac6024188",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/F2Hlpc0p2sktsGMyVc9xD0zameKtB52THE_Ni2cp49g/6ac273576f082b8ac6024188.json",
+    "markdown_endpoint": "https://serpapi.com/searches/F2Hlpc0p2sktsGMyVc9xD0zameKtB52THE_Ni2cp49g/6ac273576f082b8ac6024188.md",
+    "created_at": "2026-10-04 15:40:07 UTC",
+    "processed_at": "2026-10-04 15:40:07 UTC",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=quantum+algorithms&hl=en&num=21&scisbd=1",
+    "raw_html_file": "https://serpapi.com/searches/F2Hlpc0p2sktsGMyVc9xD0zameKtB52THE_Ni2cp49g/6ac273576f082b8ac6024188.html",
+    "total_time_taken": 1.61
+  },
+  "search_parameters": {
+    "engine": "google_scholar",
+    "q": "quantum algorithms",
+    "hl": "en",
+    "num": "20",
+    "scisbd": "1"
+  },
+  "search_information": {
+    "organic_results_state": "Results for exact spelling",
+    "total_results": 17000,
+    "time_taken_displayed": 0.13,
+    "query_displayed": "quantum algorithms"
+  },
+  "organic_results": [
+    {
+      "position": 1,
+      "title": "A mixed-culture quantitative model of the restoration priority of traditional dwellings using Grover's search",
+      "result_id": "KCsebr6SovEJ",
+      "link": "https://www.nature.com/articles/s40494-026-02863-3",
+      "snippet": "2 days ago - … quantum-cultural framework using GroverLs algorithm, … a Boolean Oracle and amplified by quantum search. A case … A quantum algorithm for finding the minimum. arXiv …",
+      "publication_info": {
+        "summary": "Z Chunming, S Tiandong, G Weidan, C Ziwei… - npj Heritage Science, 2026 - nature.com",
+        "authors": [
+          {
+            "name": "Z Chunming"
+          },
+          {
+            "name": "S Tiandong"
+          },
+          {
+            "name": "G Weidan"
+          },
+          {
+            "name": "C Ziwei"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "nature.com",
+          "file_format": "PDF",
+          "link": "https://www.nature.com/articles/s40494-026-02863-3_reference.pdf"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=KCsebr6SovEJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:KCsebr6SovEJ:scholar.google.com/&scioq=quantum+algorithms&hl=en&scisbd=1&num=20&as_sdt=0,5",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3AKCsebr6SovEJ%3Ascholar.google.com%2F&scisbd=1"
+      }
+    },
+    {
+      "position": 2,
+      "title": "Mapping Periodic Quantum Cosmological States into the Hamouda Informational Gravity Model (HIGM) Framework: A Deterministic Resolution to the …",
+      "result_id": "bh3OzM9c2TEJ",
+      "type": "Pdf",
+      "link": "https://www.researchgate.net/profile/Samir-Hamouda/publication/415008689_Mapping_Periodic_Quantum_Cosmological_States_into_the_Hamouda_Informational_Gravity_Model_HIGM_Framework_A_Deterministic_Resolution_to_the_Boltzmann_Brain_Paradox_and_Gravitational_Singularities/links/6abcd3edb6ed5276291a51c4/Mapping-Periodic-Quantum-Cosmological-States-into-the-Hamouda-Informational-Gravity-Model-HIGM-Framework-A-Deterministic-Resolution-to-the-Boltzmann-Brain-Paradox-and-Gravitational-Singularities.pdf",
+      "snippet": "2 days ago - … Recent advancements in quantum cosmology propose … dimensional quantum system returns precisely to its initial quantum … The inclusion of a functional Python algorithmic …",
+      "publication_info": {
+        "summary": "SA Hamouda - researchgate.net",
+        "authors": [
+          {
+            "name": "SA Hamouda"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "researchgate.net",
+          "file_format": "PDF",
+          "link": "https://www.researchgate.net/profile/Samir-Hamouda/publication/415008689_Mapping_Periodic_Quantum_Cosmological_States_into_the_Hamouda_Informational_Gravity_Model_HIGM_Framework_A_Deterministic_Resolution_to_the_Boltzmann_Brain_Paradox_and_Gravitational_Singularities/links/6abcd3edb6ed5276291a51c4/Mapping-Periodic-Quantum-Cosmological-States-into-the-Hamouda-Informational-Gravity-Model-HIGM-Framework-A-Deterministic-Resolution-to-the-Boltzmann-Brain-Paradox-and-Gravitational-Singularities.pdf"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=bh3OzM9c2TEJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:bh3OzM9c2TEJ:scholar.google.com/&scioq=quantum+algorithms&hl=en&scisbd=1&num=20&as_sdt=0,5",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3Abh3OzM9c2TEJ%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:bh3OzM9c2TEJ:scholar.google.com/+quantum+algorithms&hl=en&scisbd=1&num=20&as_sdt=0,5"
+      }
+    },
+    {
+      "position": 3,
+      "title": "Quantum Computing, Quantum Machine Learning, and Quantum Mechanical Principles in Medical Physics: A PRISMA 2020-Compliant Systematic Review",
+      "result_id": "bDP7rRaOkJoJ",
+      "link": "https://dergipark.org.tr/en/pub/odutip/article/1963069",
+      "snippet": "2 days ago - … The decisive practical consequence of superposition is quantum parallelism: an n… quantum algorithm to evaluate a function on all inputs in a single step. Grover's algorithm …",
+      "publication_info": {
+        "summary": "G Zorlu, C Çolak - ODÜ Tıp Dergisi, 2026 - dergipark.org.tr",
+        "authors": [
+          {
+            "name": "G Zorlu"
+          },
+          {
+            "name": "C Çolak"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "dergipark.org.tr",
+          "file_format": "PDF",
+          "link": "https://dergipark.org.tr/en/download/article-file/6071287"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=bDP7rRaOkJoJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:bDP7rRaOkJoJ:scholar.google.com/&scioq=quantum+algorithms&hl=en&scisbd=1&num=20&as_sdt=0,5",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3AbDP7rRaOkJoJ%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:bDP7rRaOkJoJ:scholar.google.com/+quantum+algorithms&hl=en&scisbd=1&num=20&as_sdt=0,5"
+      }
+    },
+    {
+      "position": 4,
+      "title": "Multivariate Quantum Signal Processing",
+      "result_id": "na5RuxC7GIEJ",
+      "link": "https://arxiv.org/abs/2610.01125",
+      "snippet": "2 days ago - … Every finite causally ordered quantum query circuit has a finite analytic MQSP … of achievable quantum transfer functions. We construct multi-oracle quantum algorithms from …",
+      "publication_info": {
+        "summary": "GH Low - arXiv preprint arXiv:2610.01125, 2026 - arxiv.org",
+        "authors": [
+          {
+            "name": "GH Low"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "arxiv.org",
+          "file_format": "PDF",
+          "link": "https://arxiv.org/pdf/2610.01125"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=na5RuxC7GIEJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:na5RuxC7GIEJ:scholar.google.com/&scioq=quantum+algorithms&hl=en&scisbd=1&num=20&as_sdt=0,5",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3Ana5RuxC7GIEJ%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:na5RuxC7GIEJ:scholar.google.com/+quantum+algorithms&hl=en&scisbd=1&num=20&as_sdt=0,5"
+      }
+    },
+    {
+      "position": 5,
+      "title": "Adaptivity is all you need: Optimal stabilizer learning using just single-copy measurements",
+      "result_id": "kSrt10rUyBAJ",
+      "link": "https://arxiv.org/abs/2610.02031",
+      "snippet": "2 days ago - … underpins both quantum error correction and fault-tolerant quantum computation [1], … algorithms [2]. At the same time, stabilizer states are central objects in quantum …",
+      "publication_info": {
+        "summary": "L Bittel, J Eisert, W Gong, AA Mele… - arXiv preprint arXiv …, 2026 - arxiv.org",
+        "authors": [
+          {
+            "name": "L Bittel"
+          },
+          {
+            "name": "J Eisert"
+          },
+          {
+            "name": "W Gong"
+          },
+          {
+            "name": "AA Mele"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "arxiv.org",
+          "file_format": "PDF",
+          "link": "https://arxiv.org/pdf/2610.02031"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=kSrt10rUyBAJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:kSrt10rUyBAJ:scholar.google.com/&scioq=quantum+algorithms&hl=en&scisbd=1&num=20&as_sdt=0,5",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3AkSrt10rUyBAJ%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:kSrt10rUyBAJ:scholar.google.com/+quantum+algorithms&hl=en&scisbd=1&num=20&as_sdt=0,5"
+      }
+    },
+    {
+      "position": 6,
+      "title": "Quantum impurity models: easy at equilibrium, universal in motion",
+      "result_id": "JQCCUkpHLcsJ",
+      "link": "https://arxiv.org/abs/2610.02130",
+      "snippet": "2 days ago - … 26a] on a quantum algorithm for impurity models, which we used as a starting point in searching for a classical polynomial-time algorithm. Subsequent interactions with AI …",
+      "publication_info": {
+        "summary": "S Arunachalam, S Bravyi, A Chowdhury, A Dutt… - arXiv preprint arXiv …, 2026 - arxiv.org",
+        "authors": [
+          {
+            "name": "S Arunachalam"
+          },
+          {
+            "name": "S Bravyi"
+          },
+          {
+            "name": "A Chowdhury"
+          },
+          {
+            "name": "A Dutt"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "arxiv.org",
+          "file_format": "PDF",
+          "link": "https://arxiv.org/pdf/2610.02130"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=JQCCUkpHLcsJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:JQCCUkpHLcsJ:scholar.google.com/&scioq=quantum+algorithms&hl=en&scisbd=1&num=20&as_sdt=0,5",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3AJQCCUkpHLcsJ%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:JQCCUkpHLcsJ:scholar.google.com/+quantum+algorithms&hl=en&scisbd=1&num=20&as_sdt=0,5"
+      }
+    },
+    {
+      "position": 7,
+      "title": "The stationarity test: a framework for learning quantum many-body systems from their thermal states",
+      "result_id": "womPPt4pztAJ",
+      "link": "https://arxiv.org/abs/2610.01074",
+      "snippet": "2 days ago - … foundational question at the intersection of quantum learning theory and many-body … to the quantum Gibbs sampling literature to introduce a natural learning algorithm we …",
+      "publication_info": {
+        "summary": "T Bergamaschi - arXiv preprint arXiv:2610.01074, 2026 - arxiv.org",
+        "authors": [
+          {
+            "name": "T Bergamaschi"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "arxiv.org",
+          "file_format": "PDF",
+          "link": "https://arxiv.org/pdf/2610.01074"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=womPPt4pztAJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:womPPt4pztAJ:scholar.google.com/&scioq=quantum+algorithms&hl=en&scisbd=1&num=20&as_sdt=0,5",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3AwomPPt4pztAJ%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:womPPt4pztAJ:scholar.google.com/+quantum+algorithms&hl=en&scisbd=1&num=20&as_sdt=0,5"
+      }
+    },
+    {
+      "position": 8,
+      "title": "Strong Simulation of 1D Quantum Circuits via Reduced Transition Matrices",
+      "result_id": "pPDhW2OUO7sJ",
+      "link": "https://arxiv.org/abs/2610.02082",
+      "snippet": "2 days ago - … , 41], we introduce a Sweeping RTM algorithm, which constructs the left and right temporal … This provides a nontrivial yet indirect test of the validity of our algorithm. We first …",
+      "publication_info": {
+        "summary": "M Grassi, S Carignano, L Tagliacozzo… - arXiv preprint arXiv …, 2026 - arxiv.org",
+        "authors": [
+          {
+            "name": "M Grassi"
+          },
+          {
+            "name": "S Carignano"
+          },
+          {
+            "name": "L Tagliacozzo"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "arxiv.org",
+          "file_format": "PDF",
+          "link": "https://arxiv.org/pdf/2610.02082"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=pPDhW2OUO7sJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:pPDhW2OUO7sJ:scholar.google.com/&scioq=quantum+algorithms&hl=en&scisbd=1&num=20&as_sdt=0,5",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3ApPDhW2OUO7sJ%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:pPDhW2OUO7sJ:scholar.google.com/+quantum+algorithms&hl=en&scisbd=1&num=20&as_sdt=0,5"
+      }
+    },
+    {
+      "position": 9,
+      "title": "Efficient learning of quantum interactions from thermal metastable states",
+      "result_id": "J2gXE5O4APAJ",
+      "link": "https://arxiv.org/abs/2610.01538",
+      "snippet": "2 days ago - … While serving as a quantum algorithmic counterpart of MCMC methods initially, it also turns out to quantitatively match physical derivations from suitable weak-coupling in …",
+      "publication_info": {
+        "summary": "B Wang, Q Ye, CF Chen - arXiv preprint arXiv:2610.01538, 2026 - arxiv.org",
+        "authors": [
+          {
+            "name": "B Wang"
+          },
+          {
+            "name": "Q Ye"
+          },
+          {
+            "name": "CF Chen"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "arxiv.org",
+          "file_format": "PDF",
+          "link": "https://arxiv.org/pdf/2610.01538"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=J2gXE5O4APAJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:J2gXE5O4APAJ:scholar.google.com/&scioq=quantum+algorithms&hl=en&scisbd=1&num=20&as_sdt=0,5",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3AJ2gXE5O4APAJ%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:J2gXE5O4APAJ:scholar.google.com/+quantum+algorithms&hl=en&scisbd=1&num=20&as_sdt=0,5"
+      }
+    },
+    {
+      "position": 10,
+      "title": "Efficient quantum phase estimation with adaptive entanglement-assisted Hadamard test",
+      "result_id": "XvkunJUmblUJ",
+      "link": "https://arxiv.org/abs/2610.01772",
+      "snippet": "2 days ago - … to measure the cost of quantum phase estimation, rather than … quantum phase on near-term quantum processors. … to quantify the realization cost of quantum algorithms [3…",
+      "publication_info": {
+        "summary": "H Chen, B Zhao, Y Li - arXiv preprint arXiv:2610.01772, 2026 - arxiv.org",
+        "authors": [
+          {
+            "name": "H Chen"
+          },
+          {
+            "name": "B Zhao"
+          },
+          {
+            "name": "Y Li"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "arxiv.org",
+          "file_format": "PDF",
+          "link": "https://arxiv.org/pdf/2610.01772"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=XvkunJUmblUJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:XvkunJUmblUJ:scholar.google.com/&scioq=quantum+algorithms&hl=en&scisbd=1&num=20&as_sdt=0,5",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3AXvkunJUmblUJ%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:XvkunJUmblUJ:scholar.google.com/+quantum+algorithms&hl=en&scisbd=1&num=20&as_sdt=0,5"
+      }
+    },
+    {
+      "position": 11,
+      "title": "Less precise but less noisy: local circuits for momentum-space state preparation and measurement",
+      "result_id": "H3cKUinAIlQJ",
+      "link": "https://arxiv.org/abs/2610.01704",
+      "snippet": "2 days ago - … We find on Quantinuum System Model H2 quantum … H2 quantum computer. Our work emphasizes the importance of reducing the noise sensitivity of quantum algorithms, …",
+      "publication_info": {
+        "summary": "E Granet, H Dreyer - arXiv preprint arXiv:2610.01704, 2026 - arxiv.org",
+        "authors": [
+          {
+            "name": "E Granet"
+          },
+          {
+            "name": "H Dreyer"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "arxiv.org",
+          "file_format": "PDF",
+          "link": "https://arxiv.org/pdf/2610.01704"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=H3cKUinAIlQJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:H3cKUinAIlQJ:scholar.google.com/&scioq=quantum+algorithms&hl=en&scisbd=1&num=20&as_sdt=0,5",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3AH3cKUinAIlQJ%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:H3cKUinAIlQJ:scholar.google.com/+quantum+algorithms&hl=en&scisbd=1&num=20&as_sdt=0,5"
+      }
+    },
+    {
+      "position": 12,
+      "title": "Optimal query complexity for fractional quantum evolution",
+      "result_id": "llt8CESScSIJ",
+      "link": "https://arxiv.org/abs/2610.01940",
+      "snippet": "2 days ago - … viewpoint to construct circuits for specific tasks, and the analysis revolving around it provided many informing results regarding query complexity of quantum algorithms [18…",
+      "publication_info": {
+        "summary": "AY Liu, A Wesołowski, J Thompson, M Gu… - arXiv preprint arXiv …, 2026 - arxiv.org",
+        "authors": [
+          {
+            "name": "AY Liu"
+          },
+          {
+            "name": "A Wesołowski",
+            "link": "https://scholar.google.com/citations?user=TpurWn4AAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "TpurWn4AAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=TpurWn4AAAAJ&engine=google_scholar_author&hl=en"
+          },
+          {
+            "name": "J Thompson"
+          },
+          {
+            "name": "M Gu"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "arxiv.org",
+          "file_format": "PDF",
+          "link": "https://arxiv.org/pdf/2610.01940"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=llt8CESScSIJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:llt8CESScSIJ:scholar.google.com/&scioq=quantum+algorithms&hl=en&scisbd=1&num=20&as_sdt=0,5",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3Allt8CESScSIJ%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:llt8CESScSIJ:scholar.google.com/+quantum+algorithms&hl=en&scisbd=1&num=20&as_sdt=0,5"
+      }
+    },
+    {
+      "position": 13,
+      "title": "Sparse Hamiltonian simulation with optimal dependence on the maximum column Euclidean norm",
+      "result_id": "3tBM7tOzJnMJ",
+      "link": "https://arxiv.org/abs/2610.02030",
+      "snippet": "2 days ago - … We give a quantum algorithm for simulating a d-sparse Hermitian Hamiltonian H, assuming a known upper bound Λ on its maximum column Euclidean norm ∥H∥1→2. …",
+      "publication_info": {
+        "summary": "Z Li, C Wang - arXiv preprint arXiv:2610.02030, 2026 - arxiv.org",
+        "authors": [
+          {
+            "name": "Z Li"
+          },
+          {
+            "name": "C Wang"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "arxiv.org",
+          "file_format": "PDF",
+          "link": "https://arxiv.org/pdf/2610.02030"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=3tBM7tOzJnMJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:3tBM7tOzJnMJ:scholar.google.com/&scioq=quantum+algorithms&hl=en&scisbd=1&num=20&as_sdt=0,5",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3A3tBM7tOzJnMJ%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:3tBM7tOzJnMJ:scholar.google.com/+quantum+algorithms&hl=en&scisbd=1&num=20&as_sdt=0,5"
+      }
+    },
+    {
+      "position": 14,
+      "title": "A Gate-Based Quantum Computing Framework for Codon Optimization",
+      "result_id": "8SvEYZIiXA8J",
+      "link": "https://arxiv.org/abs/2610.00887",
+      "snippet": "2 days ago - … the performance of different quantum algorithms. The primary objective of this work is not to establish the superiority of a particular quantum algorithm, but rather to provide …",
+      "publication_info": {
+        "summary": "F Ghasemi, K Kim - arXiv preprint arXiv:2610.00887, 2026 - arxiv.org",
+        "authors": [
+          {
+            "name": "F Ghasemi"
+          },
+          {
+            "name": "K Kim"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "arxiv.org",
+          "file_format": "PDF",
+          "link": "https://arxiv.org/pdf/2610.00887"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=8SvEYZIiXA8J",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:8SvEYZIiXA8J:scholar.google.com/&scioq=quantum+algorithms&hl=en&scisbd=1&num=20&as_sdt=0,5",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3A8SvEYZIiXA8J%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:8SvEYZIiXA8J:scholar.google.com/+quantum+algorithms&hl=en&scisbd=1&num=20&as_sdt=0,5"
+      }
+    },
+    {
+      "position": 15,
+      "title": "Constant-Per-Layer-Depth MPS-Pretrained Ansatz for Noisy Distributed Quantum Processors",
+      "result_id": "8-3vtzKVeIEJ",
+      "link": "https://arxiv.org/abs/2610.01099",
+      "snippet": "2 days ago - … Variational quantum algorithms (VQAs), which optimize parametrized quantum circuits (PQCs) within a hybrid quantum–classical loop, are natural candidates for such …",
+      "publication_info": {
+        "summary": "S Hong, W Lee, YS Kim, SSB Lee, J Lee - arXiv preprint arXiv:2610.01099, 2026 - arxiv.org",
+        "authors": [
+          {
+            "name": "S Hong"
+          },
+          {
+            "name": "W Lee"
+          },
+          {
+            "name": "YS Kim"
+          },
+          {
+            "name": "SSB Lee"
+          },
+          {
+            "name": "J Lee"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "arxiv.org",
+          "file_format": "PDF",
+          "link": "https://arxiv.org/pdf/2610.01099"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=8-3vtzKVeIEJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:8-3vtzKVeIEJ:scholar.google.com/&scioq=quantum+algorithms&hl=en&scisbd=1&num=20&as_sdt=0,5",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3A8-3vtzKVeIEJ%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:8-3vtzKVeIEJ:scholar.google.com/+quantum+algorithms&hl=en&scisbd=1&num=20&as_sdt=0,5"
+      }
+    },
+    {
+      "position": 16,
+      "title": "On the pseudorandomness of simple quantum processes",
+      "result_id": "lrA-Oo1Nso0J",
+      "link": "https://arxiv.org/abs/2610.02100",
+      "snippet": "2 days ago - … Ω(log2 n)), yet an efficient quantum algorithm distinguishes it from random using only Ot(log2 … emerge within simple quantum processes, such as random quantum circuits. …",
+      "publication_info": {
+        "summary": "J Dujmovic, J Haferkamp, A Poremba - arXiv preprint arXiv:2610.02100, 2026 - arxiv.org",
+        "authors": [
+          {
+            "name": "J Dujmovic"
+          },
+          {
+            "name": "J Haferkamp"
+          },
+          {
+            "name": "A Poremba"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "arxiv.org",
+          "file_format": "PDF",
+          "link": "https://arxiv.org/pdf/2610.02100"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=lrA-Oo1Nso0J",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:lrA-Oo1Nso0J:scholar.google.com/&scioq=quantum+algorithms&hl=en&scisbd=1&num=20&as_sdt=0,5",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3AlrA-Oo1Nso0J%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:lrA-Oo1Nso0J:scholar.google.com/+quantum+algorithms&hl=en&scisbd=1&num=20&as_sdt=0,5"
+      }
+    },
+    {
+      "position": 17,
+      "title": "Classical Hardness of Learning Functions of Hamiltonians",
+      "result_id": "0KBXe-UWPtcJ",
+      "link": "https://arxiv.org/abs/2610.01141",
+      "snippet": "2 days ago - … learnable by their quantum algorithm. Under the above assumption, neither problem is efficiently learnable by a classical randomized algorithm under squared loss when …",
+      "publication_info": {
+        "summary": "S Hashimoto, A Kawachi - arXiv preprint arXiv:2610.01141, 2026 - arxiv.org",
+        "authors": [
+          {
+            "name": "S Hashimoto"
+          },
+          {
+            "name": "A Kawachi"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "arxiv.org",
+          "file_format": "PDF",
+          "link": "https://arxiv.org/pdf/2610.01141"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=0KBXe-UWPtcJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:0KBXe-UWPtcJ:scholar.google.com/&scioq=quantum+algorithms&hl=en&scisbd=1&num=20&as_sdt=0,5",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3A0KBXe-UWPtcJ%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:0KBXe-UWPtcJ:scholar.google.com/+quantum+algorithms&hl=en&scisbd=1&num=20&as_sdt=0,5"
+      }
+    },
+    {
+      "position": 18,
+      "title": "Near-optimal quantum query lower bounds on bipartiteness and expansion testing in the bounded-degree graph model",
+      "result_id": "yXEcWaaPdmgJ",
+      "link": "https://arxiv.org/abs/2610.01752",
+      "snippet": "2 days ago - … In [ACL11, Lemma 3] it is proved that the expected acceptance probability of a q-query quantum algorithm over distribution PM,ℓ is a fraction of two bivariate polynomials f(…",
+      "publication_info": {
+        "summary": "C Kayal, S Sen, D Szabó - arXiv preprint arXiv:2610.01752, 2026 - arxiv.org",
+        "authors": [
+          {
+            "name": "C Kayal"
+          },
+          {
+            "name": "S Sen",
+            "link": "https://scholar.google.com/citations?user=RyFTP-wAAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "RyFTP-wAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=RyFTP-wAAAAJ&engine=google_scholar_author&hl=en"
+          },
+          {
+            "name": "D Szabó"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "arxiv.org",
+          "file_format": "PDF",
+          "link": "https://arxiv.org/pdf/2610.01752"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=yXEcWaaPdmgJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:yXEcWaaPdmgJ:scholar.google.com/&scioq=quantum+algorithms&hl=en&scisbd=1&num=20&as_sdt=0,5",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3AyXEcWaaPdmgJ%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:yXEcWaaPdmgJ:scholar.google.com/+quantum+algorithms&hl=en&scisbd=1&num=20&as_sdt=0,5"
+      }
+    },
+    {
+      "position": 19,
+      "title": "Optimal transducers using symmetries",
+      "result_id": "Hocf_57XubcJ",
+      "link": "https://arxiv.org/abs/2610.02133",
+      "snippet": "2 days ago - … efficient transducers and good algorithms for quantum algorithmic primitives, which is … optimal transducers for several standard quantum algorithmic primitives. In Section III…",
+      "publication_info": {
+        "summary": "B Dubus, J Ladeuze, J Roland - arXiv preprint arXiv:2610.02133, 2026 - arxiv.org",
+        "authors": [
+          {
+            "name": "B Dubus"
+          },
+          {
+            "name": "J Ladeuze"
+          },
+          {
+            "name": "J Roland"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "arxiv.org",
+          "file_format": "PDF",
+          "link": "https://arxiv.org/pdf/2610.02133"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=Hocf_57XubcJ",
+        "cited_by": {
+          "total": 2,
+          "link": "https://scholar.google.com/scholar?cites=13238849657517344542&as_sdt=2005&sciodt=0,5&hl=en&num=20",
+          "cites_id": "13238849657517344542",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=13238849657517344542&engine=google_scholar&hl=en&num=20"
+        },
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:Hocf_57XubcJ:scholar.google.com/&scioq=quantum+algorithms&hl=en&scisbd=1&num=20&as_sdt=0,5",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3AHocf_57XubcJ%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:Hocf_57XubcJ:scholar.google.com/+quantum+algorithms&hl=en&scisbd=1&num=20&as_sdt=0,5"
+      }
+    },
+    {
+      "position": 20,
+      "title": "Hardware-Efficient Ground-State Preparation using Variational Imaginary-Time Majorana Evolution",
+      "result_id": "C9eFfaSkQfMJ",
+      "link": "https://arxiv.org/abs/2610.01954",
+      "snippet": "2 days ago - … to reduce both classical simulation and quantum state-preparation costs. In the … quantum processor as a state-preparation subroutine for downstream quantum algorithms …",
+      "publication_info": {
+        "summary": "F Santona, MG Algaba, AA Anuar… - arXiv preprint arXiv …, 2026 - arxiv.org",
+        "authors": [
+          {
+            "name": "F Santona"
+          },
+          {
+            "name": "MG Algaba"
+          },
+          {
+            "name": "AA Anuar"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "arxiv.org",
+          "file_format": "PDF",
+          "link": "https://arxiv.org/pdf/2610.01954"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=C9eFfaSkQfMJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:C9eFfaSkQfMJ:scholar.google.com/&scioq=quantum+algorithms&hl=en&scisbd=1&num=20&as_sdt=0,5",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=related%3AC9eFfaSkQfMJ%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:C9eFfaSkQfMJ:scholar.google.com/+quantum+algorithms&hl=en&scisbd=1&num=20&as_sdt=0,5"
+      }
+    }
+  ],
+  "related_searches": [
+    {
+      "query": "variational quantum algorithms",
+      "link": "https://scholar.google.com/scholar?hl=en&num=20&as_sdt=0,5&qsp=1&q=variational+quantum+algorithms&qst=ib"
+    },
+    {
+      "query": "noisy quantum algorithms",
+      "link": "https://scholar.google.com/scholar?hl=en&num=20&as_sdt=0,5&qsp=2&q=noisy+quantum+algorithms&qst=ib"
+    },
+    {
+      "query": "classical quantum algorithms",
+      "link": "https://scholar.google.com/scholar?hl=en&num=20&as_sdt=0,5&qsp=3&q=classical+quantum+algorithms&qst=ib"
+    },
+    {
+      "query": "noisy intermediate-scale quantum algorithms",
+      "link": "https://scholar.google.com/scholar?hl=en&num=20&as_sdt=0,5&qsp=4&q=noisy+intermediate-scale+quantum+algorithms&qst=ib"
+    },
+    {
+      "query": "quantum algorithms equations",
+      "link": "https://scholar.google.com/scholar?hl=en&num=20&as_sdt=0,5&qsp=5&q=quantum+algorithms+equations&qst=ib"
+    },
+    {
+      "query": "grand unification quantum algorithms",
+      "link": "https://scholar.google.com/scholar?hl=en&num=20&as_sdt=0,5&qsp=6&q=grand+unification+quantum+algorithms&qst=ib"
+    },
+    {
+      "query": "quantum algorithms linear algebra",
+      "link": "https://scholar.google.com/scholar?hl=en&num=20&as_sdt=0,5&qsp=7&q=quantum+algorithms+linear+algebra&qst=ib"
+    },
+    {
+      "query": "quantum algorithms qubits",
+      "link": "https://scholar.google.com/scholar?hl=en&num=20&as_sdt=0,5&qsp=8&q=quantum+algorithms+qubits&qst=ib"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://scholar.google.com/scholar?start=20&q=quantum+algorithms&hl=en&scisbd=1&num=20&as_sdt=0,5",
+    "other_pages": {
+      "2": "https://scholar.google.com/scholar?start=20&q=quantum+algorithms&hl=en&scisbd=1&num=20&as_sdt=0,5",
+      "3": "https://scholar.google.com/scholar?start=40&q=quantum+algorithms&hl=en&scisbd=1&num=20&as_sdt=0,5",
+      "4": "https://scholar.google.com/scholar?start=60&q=quantum+algorithms&hl=en&scisbd=1&num=20&as_sdt=0,5",
+      "5": "https://scholar.google.com/scholar?start=80&q=quantum+algorithms&hl=en&scisbd=1&num=20&as_sdt=0,5",
+      "6": "https://scholar.google.com/scholar?start=100&q=quantum+algorithms&hl=en&scisbd=1&num=20&as_sdt=0,5",
+      "7": "https://scholar.google.com/scholar?start=120&q=quantum+algorithms&hl=en&scisbd=1&num=20&as_sdt=0,5",
+      "8": "https://scholar.google.com/scholar?start=140&q=quantum+algorithms&hl=en&scisbd=1&num=20&as_sdt=0,5",
+      "9": "https://scholar.google.com/scholar?start=160&q=quantum+algorithms&hl=en&scisbd=1&num=20&as_sdt=0,5",
+      "10": "https://scholar.google.com/scholar?start=180&q=quantum+algorithms&hl=en&scisbd=1&num=20&as_sdt=0,5"
+    }
+  },
+  "serpapi_pagination": {
+    "current": 1,
+    "next_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=quantum+algorithms&scisbd=1&start=20",
+    "next": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=quantum+algorithms&scisbd=1&start=20",
+    "other_pages": {
+      "2": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=quantum+algorithms&scisbd=1&start=20",
+      "3": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=quantum+algorithms&scisbd=1&start=40",
+      "4": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=quantum+algorithms&scisbd=1&start=60",
+      "5": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=quantum+algorithms&scisbd=1&start=80",
+      "6": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=quantum+algorithms&scisbd=1&start=100",
+      "7": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=quantum+algorithms&scisbd=1&start=120",
+      "8": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=quantum+algorithms&scisbd=1&start=140",
+      "9": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=quantum+algorithms&scisbd=1&start=160",
+      "10": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=20&q=quantum+algorithms&scisbd=1&start=180"
+    }
+  }
+}

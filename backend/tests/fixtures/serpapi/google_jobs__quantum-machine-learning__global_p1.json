@@ -1,0 +1,870 @@
+{
+  "search_metadata": {
+    "id": "6ac2732a71b492c842fabca8",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/9iwuNSPnPblIG97HOWiI0MFVHCS9PMJy9QRJarQgTVM/6ac2732a71b492c842fabca8.json",
+    "markdown_endpoint": "https://serpapi.com/searches/9iwuNSPnPblIG97HOWiI0MFVHCS9PMJy9QRJarQgTVM/6ac2732a71b492c842fabca8.md",
+    "created_at": "2026-10-04 15:39:22 UTC",
+    "processed_at": "2026-10-04 15:39:22 UTC",
+    "google_jobs_url": "https://www.google.com/search?q=quantum+machine+learning&hl=en&udm=8",
+    "raw_html_file": "https://serpapi.com/searches/9iwuNSPnPblIG97HOWiI0MFVHCS9PMJy9QRJarQgTVM/6ac2732a71b492c842fabca8.html",
+    "total_time_taken": 2.36
+  },
+  "search_parameters": {
+    "q": "quantum machine learning",
+    "engine": "google_jobs",
+    "google_domain": "google.com",
+    "hl": "en"
+  },
+  "filters": [
+    {
+      "name": "Remote",
+      "parameters": {
+        "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rhfEV-4K40i-ZaIQJgdggpwFDnp69dtRxD7c00Cu808IWzHoQFMe_CTWlpSQVY8QckyEzs_ZRjW5hpU12ldXEDdCuxkSPWYR6v5dbfwPawPv0m7ppUEo1Rp5gSy0rHqOKIaYt1yrpIL_4ZCc8wG5kWlL4qfZ-_KY8gzL0se0HWkAgDQMm",
+        "q": "quantum machine learning remote"
+      },
+      "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&sxsrf=APpeQnu_B8zue6pOW7V-Z_ubsOTugFxcqQ:1791128364795&q=quantum+machine+learning+remote&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rhfEV-4K40i-ZaIQJgdggpwFDnp69dtRxD7c00Cu808IWzHoQFMe_CTWlpSQVY8QckyEzs_ZRjW5hpU12ldXEDdCuxkSPWYR6v5dbfwPawPv0m7ppUEo1Rp5gSy0rHqOKIaYt1yrpIL_4ZCc8wG5kWlL4qfZ-_KY8gzL0se0HWkAgDQMm&udm=8&sa=X&ved=2ahUKEwjC07iP2aCXAxUwL1kFHcyePGIQxKsJKAB6BAgZEAE&ictx=0",
+      "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=quantum+machine+learning+remote&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rhfEV-4K40i-ZaIQJgdggpwFDnp69dtRxD7c00Cu808IWzHoQFMe_CTWlpSQVY8QckyEzs_ZRjW5hpU12ldXEDdCuxkSPWYR6v5dbfwPawPv0m7ppUEo1Rp5gSy0rHqOKIaYt1yrpIL_4ZCc8wG5kWlL4qfZ-_KY8gzL0se0HWkAgDQMm"
+    },
+    {
+      "name": "No degree",
+      "parameters": {
+        "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rroxomuMMUq4TL01afLYbLYRWe5VCI51y_nvhdpqMVIqisUu_e8OwV9ml_Mb4NiKfkT7aJJMFFLudK_2BonTvE6Yh2uLN3NF65-n1g0FTOHPd8tf99onvyL_nM4WWEo6FLcU0mK86xaJDvz1xWnq5x-4j1F0YCxAY6fcV3gxt69MsZ26W",
+        "q": "quantum machine learning no degree"
+      },
+      "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&sxsrf=APpeQnu_B8zue6pOW7V-Z_ubsOTugFxcqQ:1791128364795&q=quantum+machine+learning+no+degree&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rroxomuMMUq4TL01afLYbLYRWe5VCI51y_nvhdpqMVIqisUu_e8OwV9ml_Mb4NiKfkT7aJJMFFLudK_2BonTvE6Yh2uLN3NF65-n1g0FTOHPd8tf99onvyL_nM4WWEo6FLcU0mK86xaJDvz1xWnq5x-4j1F0YCxAY6fcV3gxt69MsZ26W&udm=8&sa=X&ved=2ahUKEwjC07iP2aCXAxUwL1kFHcyePGIQxKsJKAF6BAgaEAE&ictx=0",
+      "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=quantum+machine+learning+no+degree&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rroxomuMMUq4TL01afLYbLYRWe5VCI51y_nvhdpqMVIqisUu_e8OwV9ml_Mb4NiKfkT7aJJMFFLudK_2BonTvE6Yh2uLN3NF65-n1g0FTOHPd8tf99onvyL_nM4WWEo6FLcU0mK86xaJDvz1xWnq5x-4j1F0YCxAY6fcV3gxt69MsZ26W"
+    },
+    {
+      "name": "Date posted",
+      "options": [
+        {
+          "name": "Yesterday",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rFOYina6-I1R1gKL9iTZ5BZoZJawSdFuQDYLqRqI0eoBTHRxTMqo6d3HdsY2RJy024O9N52r7duySACKTRAHeyhHwdP7Ivg9imnv-xK1mSVkejeGsw37hPVStDA-m_cAqUgw6Z-U6usjntprmqlFx4VkthcdS10kKlq1GX6UQMBmN3juNM_BeFt--AxiVXFr0drUmdSoz7XYFykk_xeniUrm2qIBnnQWRcjwH8KIcB7gc69bPZdIdIBA9l_0awFoOlHiFfJOrs0lZmSVFI1uIC21xKgD7rX5dotWRKJQTJNq9wToMZg8S1_peHJncZf5-KKFtWAmcViL69pD6GizzBIclvSU",
+            "q": "quantum machine learning since yesterday"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&sxsrf=APpeQnu_B8zue6pOW7V-Z_ubsOTugFxcqQ:1791128364795&q=quantum+machine+learning+since+yesterday&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rFOYina6-I1R1gKL9iTZ5BZoZJawSdFuQDYLqRqI0eoBTHRxTMqo6d3HdsY2RJy024O9N52r7duySACKTRAHeyhHwdP7Ivg9imnv-xK1mSVkejeGsw37hPVStDA-m_cAqUgw6Z-U6usjntprmqlFx4VkthcdS10kKlq1GX6UQMBmN3juNM_BeFt--AxiVXFr0drUmdSoz7XYFykk_xeniUrm2qIBnnQWRcjwH8KIcB7gc69bPZdIdIBA9l_0awFoOlHiFfJOrs0lZmSVFI1uIC21xKgD7rX5dotWRKJQTJNq9wToMZg8S1_peHJncZf5-KKFtWAmcViL69pD6GizzBIclvSU&udm=8&sa=X&ved=2ahUKEwjC07iP2aCXAxUwL1kFHcyePGIQkbEKegQIHBAC",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=quantum+machine+learning+since+yesterday&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rFOYina6-I1R1gKL9iTZ5BZoZJawSdFuQDYLqRqI0eoBTHRxTMqo6d3HdsY2RJy024O9N52r7duySACKTRAHeyhHwdP7Ivg9imnv-xK1mSVkejeGsw37hPVStDA-m_cAqUgw6Z-U6usjntprmqlFx4VkthcdS10kKlq1GX6UQMBmN3juNM_BeFt--AxiVXFr0drUmdSoz7XYFykk_xeniUrm2qIBnnQWRcjwH8KIcB7gc69bPZdIdIBA9l_0awFoOlHiFfJOrs0lZmSVFI1uIC21xKgD7rX5dotWRKJQTJNq9wToMZg8S1_peHJncZf5-KKFtWAmcViL69pD6GizzBIclvSU"
+        },
+        {
+          "name": "Last 3 days",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rK2SaxIKerCTVgi-O9Ud_JGY3dglCfIWN0WenrxEK2JVcwfnMfjWApch4YXjbzhnuF4BLjHuI0oB6-9bJNK9qL-rCc65tql3mD4tQakT2f6pWWwkKD6P6Wsz2W7wZvd5hlD29pXTEPDHdTq-KsYanSu5UNa4uhW0Ky2SI9ySWWGSucqO-_Gu_fKgvr9gsjDwYOWsXo5poFZK0qQ0l552qyjAtshljb3Bo_tfYmJGoa8EDjXjMHWDVexZKTsERMV7bKNRZbM4N-DxEL2gHVat9JpJbj_QdZENdmnCCNrFXj8CMtcCDSbiiHVtF2YbUPYiGHpFgIJymynZezQbm1hGfhQuJJkk",
+            "q": "quantum machine learning in the last 3 days"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&sxsrf=APpeQnu_B8zue6pOW7V-Z_ubsOTugFxcqQ:1791128364795&q=quantum+machine+learning+in+the+last+3+days&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rK2SaxIKerCTVgi-O9Ud_JGY3dglCfIWN0WenrxEK2JVcwfnMfjWApch4YXjbzhnuF4BLjHuI0oB6-9bJNK9qL-rCc65tql3mD4tQakT2f6pWWwkKD6P6Wsz2W7wZvd5hlD29pXTEPDHdTq-KsYanSu5UNa4uhW0Ky2SI9ySWWGSucqO-_Gu_fKgvr9gsjDwYOWsXo5poFZK0qQ0l552qyjAtshljb3Bo_tfYmJGoa8EDjXjMHWDVexZKTsERMV7bKNRZbM4N-DxEL2gHVat9JpJbj_QdZENdmnCCNrFXj8CMtcCDSbiiHVtF2YbUPYiGHpFgIJymynZezQbm1hGfhQuJJkk&udm=8&sa=X&ved=2ahUKEwjC07iP2aCXAxUwL1kFHcyePGIQkbEKegQIHBAD",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=quantum+machine+learning+in+the+last+3+days&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rK2SaxIKerCTVgi-O9Ud_JGY3dglCfIWN0WenrxEK2JVcwfnMfjWApch4YXjbzhnuF4BLjHuI0oB6-9bJNK9qL-rCc65tql3mD4tQakT2f6pWWwkKD6P6Wsz2W7wZvd5hlD29pXTEPDHdTq-KsYanSu5UNa4uhW0Ky2SI9ySWWGSucqO-_Gu_fKgvr9gsjDwYOWsXo5poFZK0qQ0l552qyjAtshljb3Bo_tfYmJGoa8EDjXjMHWDVexZKTsERMV7bKNRZbM4N-DxEL2gHVat9JpJbj_QdZENdmnCCNrFXj8CMtcCDSbiiHVtF2YbUPYiGHpFgIJymynZezQbm1hGfhQuJJkk"
+        },
+        {
+          "name": "Last week",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rklwwnP3f5-5QNC7GdVLkoLYYDxyS4am7kHLpwISVmOwfpnkJDeQadWc42EIhjpDd9JFmPYm6-puax65bBCc0s2mPQCwV2Hj-gyxn8u7YBBJbvtLjqUn9UnZBWc93xWkvPzkoZKOMcFshOt0JDG3QtGp5xJhWcIZqQpFCnFBZN8wT8VuIYFb8Xi-Eu7XHdQpLj0DdmDi2EnrTZPgN_Demi9tGzgDRgztksaK08ityLGcOVjx9EBfELNUhUtq1HBcmbPfeVBnofEEoz--sh-d3GOrN2zIrMgDcCsQp1BcK7cV8JZUc2eUTfm7mZ7JtGcLsykC5r1ww-M4cF6b9-45yBukTFw0",
+            "q": "quantum machine learning in the last week"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&sxsrf=APpeQnu_B8zue6pOW7V-Z_ubsOTugFxcqQ:1791128364795&q=quantum+machine+learning+in+the+last+week&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rklwwnP3f5-5QNC7GdVLkoLYYDxyS4am7kHLpwISVmOwfpnkJDeQadWc42EIhjpDd9JFmPYm6-puax65bBCc0s2mPQCwV2Hj-gyxn8u7YBBJbvtLjqUn9UnZBWc93xWkvPzkoZKOMcFshOt0JDG3QtGp5xJhWcIZqQpFCnFBZN8wT8VuIYFb8Xi-Eu7XHdQpLj0DdmDi2EnrTZPgN_Demi9tGzgDRgztksaK08ityLGcOVjx9EBfELNUhUtq1HBcmbPfeVBnofEEoz--sh-d3GOrN2zIrMgDcCsQp1BcK7cV8JZUc2eUTfm7mZ7JtGcLsykC5r1ww-M4cF6b9-45yBukTFw0&udm=8&sa=X&ved=2ahUKEwjC07iP2aCXAxUwL1kFHcyePGIQkbEKegQIHBAE",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=quantum+machine+learning+in+the+last+week&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rklwwnP3f5-5QNC7GdVLkoLYYDxyS4am7kHLpwISVmOwfpnkJDeQadWc42EIhjpDd9JFmPYm6-puax65bBCc0s2mPQCwV2Hj-gyxn8u7YBBJbvtLjqUn9UnZBWc93xWkvPzkoZKOMcFshOt0JDG3QtGp5xJhWcIZqQpFCnFBZN8wT8VuIYFb8Xi-Eu7XHdQpLj0DdmDi2EnrTZPgN_Demi9tGzgDRgztksaK08ityLGcOVjx9EBfELNUhUtq1HBcmbPfeVBnofEEoz--sh-d3GOrN2zIrMgDcCsQp1BcK7cV8JZUc2eUTfm7mZ7JtGcLsykC5r1ww-M4cF6b9-45yBukTFw0"
+        },
+        {
+          "name": "Last month",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4raMA7wI4dJTxdtC2i79eEnMF5zGNiTH9bYShL1EI3FGyJusj018rTd-dRVt_ce8s2_TFNzCbcqP-AQeu2mG4T83KqoJkfotFgzy7PuDtpL-PbXKJ3sbQxdv8M4pGjhrollDvJw_zoZmQw_rrTrALEhhRTmQLKhDlM2wfd6Nwe5vRZcbICQheyfzHKl66B5bsvOZA5sKHJJen97wQehWLV6fP5LNDeGNe7HmipJysK55HkT19kdaI0snk2gn1QBiTyoqaRsFIw7N7BAEZE2UeUB5n4b-9CsGIoATG3Z39EDETp-2DDiQvfWQfcxnZq1KQU9Il95Z7bPa3tD-UjyXWjFsQNyPs",
+            "q": "quantum machine learning in the last month"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&sxsrf=APpeQnu_B8zue6pOW7V-Z_ubsOTugFxcqQ:1791128364795&q=quantum+machine+learning+in+the+last+month&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4raMA7wI4dJTxdtC2i79eEnMF5zGNiTH9bYShL1EI3FGyJusj018rTd-dRVt_ce8s2_TFNzCbcqP-AQeu2mG4T83KqoJkfotFgzy7PuDtpL-PbXKJ3sbQxdv8M4pGjhrollDvJw_zoZmQw_rrTrALEhhRTmQLKhDlM2wfd6Nwe5vRZcbICQheyfzHKl66B5bsvOZA5sKHJJen97wQehWLV6fP5LNDeGNe7HmipJysK55HkT19kdaI0snk2gn1QBiTyoqaRsFIw7N7BAEZE2UeUB5n4b-9CsGIoATG3Z39EDETp-2DDiQvfWQfcxnZq1KQU9Il95Z7bPa3tD-UjyXWjFsQNyPs&udm=8&sa=X&ved=2ahUKEwjC07iP2aCXAxUwL1kFHcyePGIQkbEKegQIHBAF",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=quantum+machine+learning+in+the+last+month&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4raMA7wI4dJTxdtC2i79eEnMF5zGNiTH9bYShL1EI3FGyJusj018rTd-dRVt_ce8s2_TFNzCbcqP-AQeu2mG4T83KqoJkfotFgzy7PuDtpL-PbXKJ3sbQxdv8M4pGjhrollDvJw_zoZmQw_rrTrALEhhRTmQLKhDlM2wfd6Nwe5vRZcbICQheyfzHKl66B5bsvOZA5sKHJJen97wQehWLV6fP5LNDeGNe7HmipJysK55HkT19kdaI0snk2gn1QBiTyoqaRsFIw7N7BAEZE2UeUB5n4b-9CsGIoATG3Z39EDETp-2DDiQvfWQfcxnZq1KQU9Il95Z7bPa3tD-UjyXWjFsQNyPs"
+        }
+      ]
+    },
+    {
+      "name": "Date posted",
+      "options": [
+        {
+          "name": "Yesterday",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rFOYina6-I1R1gKL9iTZ5BZoZJawSdFuQDYLqRqI0eoBTHRxTMqo6d3HdsY2RJy024O9N52r7duySACKTRAHeyhHwdP7Ivg9imnv-xK1mSVkejeGsw37hPVStDA-m_cAqUgw6Z-U6usjntprmqlFx4VkthcdS10kKlq1GX6UQMBmN3juNM_BeFt--AxiVXFr0drUmdSoz7XYFykk_xeniUrm2qIBnnQWRcjwH8KIcB7gc69bPZdIdIBA9l_0awFoOlHiFfJOrs0lZmSVFI1uIC21xKgD7rX5dotWRKJQTJNq9wToMZg8S1_peHJncZf5-KKFtWAmcViL69pD6GizzBIclvSU",
+            "q": "quantum machine learning since yesterday"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&sxsrf=APpeQnu_B8zue6pOW7V-Z_ubsOTugFxcqQ:1791128364795&q=quantum+machine+learning+since+yesterday&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rFOYina6-I1R1gKL9iTZ5BZoZJawSdFuQDYLqRqI0eoBTHRxTMqo6d3HdsY2RJy024O9N52r7duySACKTRAHeyhHwdP7Ivg9imnv-xK1mSVkejeGsw37hPVStDA-m_cAqUgw6Z-U6usjntprmqlFx4VkthcdS10kKlq1GX6UQMBmN3juNM_BeFt--AxiVXFr0drUmdSoz7XYFykk_xeniUrm2qIBnnQWRcjwH8KIcB7gc69bPZdIdIBA9l_0awFoOlHiFfJOrs0lZmSVFI1uIC21xKgD7rX5dotWRKJQTJNq9wToMZg8S1_peHJncZf5-KKFtWAmcViL69pD6GizzBIclvSU&udm=8&sa=X&ved=2ahUKEwjC07iP2aCXAxUwL1kFHcyePGIQkbEKegQIHBAC",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=quantum+machine+learning+since+yesterday&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rFOYina6-I1R1gKL9iTZ5BZoZJawSdFuQDYLqRqI0eoBTHRxTMqo6d3HdsY2RJy024O9N52r7duySACKTRAHeyhHwdP7Ivg9imnv-xK1mSVkejeGsw37hPVStDA-m_cAqUgw6Z-U6usjntprmqlFx4VkthcdS10kKlq1GX6UQMBmN3juNM_BeFt--AxiVXFr0drUmdSoz7XYFykk_xeniUrm2qIBnnQWRcjwH8KIcB7gc69bPZdIdIBA9l_0awFoOlHiFfJOrs0lZmSVFI1uIC21xKgD7rX5dotWRKJQTJNq9wToMZg8S1_peHJncZf5-KKFtWAmcViL69pD6GizzBIclvSU"
+        },
+        {
+          "name": "Last 3 days",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rK2SaxIKerCTVgi-O9Ud_JGY3dglCfIWN0WenrxEK2JVcwfnMfjWApch4YXjbzhnuF4BLjHuI0oB6-9bJNK9qL-rCc65tql3mD4tQakT2f6pWWwkKD6P6Wsz2W7wZvd5hlD29pXTEPDHdTq-KsYanSu5UNa4uhW0Ky2SI9ySWWGSucqO-_Gu_fKgvr9gsjDwYOWsXo5poFZK0qQ0l552qyjAtshljb3Bo_tfYmJGoa8EDjXjMHWDVexZKTsERMV7bKNRZbM4N-DxEL2gHVat9JpJbj_QdZENdmnCCNrFXj8CMtcCDSbiiHVtF2YbUPYiGHpFgIJymynZezQbm1hGfhQuJJkk",
+            "q": "quantum machine learning in the last 3 days"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&sxsrf=APpeQnu_B8zue6pOW7V-Z_ubsOTugFxcqQ:1791128364795&q=quantum+machine+learning+in+the+last+3+days&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rK2SaxIKerCTVgi-O9Ud_JGY3dglCfIWN0WenrxEK2JVcwfnMfjWApch4YXjbzhnuF4BLjHuI0oB6-9bJNK9qL-rCc65tql3mD4tQakT2f6pWWwkKD6P6Wsz2W7wZvd5hlD29pXTEPDHdTq-KsYanSu5UNa4uhW0Ky2SI9ySWWGSucqO-_Gu_fKgvr9gsjDwYOWsXo5poFZK0qQ0l552qyjAtshljb3Bo_tfYmJGoa8EDjXjMHWDVexZKTsERMV7bKNRZbM4N-DxEL2gHVat9JpJbj_QdZENdmnCCNrFXj8CMtcCDSbiiHVtF2YbUPYiGHpFgIJymynZezQbm1hGfhQuJJkk&udm=8&sa=X&ved=2ahUKEwjC07iP2aCXAxUwL1kFHcyePGIQkbEKegQIHBAD",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=quantum+machine+learning+in+the+last+3+days&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rK2SaxIKerCTVgi-O9Ud_JGY3dglCfIWN0WenrxEK2JVcwfnMfjWApch4YXjbzhnuF4BLjHuI0oB6-9bJNK9qL-rCc65tql3mD4tQakT2f6pWWwkKD6P6Wsz2W7wZvd5hlD29pXTEPDHdTq-KsYanSu5UNa4uhW0Ky2SI9ySWWGSucqO-_Gu_fKgvr9gsjDwYOWsXo5poFZK0qQ0l552qyjAtshljb3Bo_tfYmJGoa8EDjXjMHWDVexZKTsERMV7bKNRZbM4N-DxEL2gHVat9JpJbj_QdZENdmnCCNrFXj8CMtcCDSbiiHVtF2YbUPYiGHpFgIJymynZezQbm1hGfhQuJJkk"
+        },
+        {
+          "name": "Last week",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rklwwnP3f5-5QNC7GdVLkoLYYDxyS4am7kHLpwISVmOwfpnkJDeQadWc42EIhjpDd9JFmPYm6-puax65bBCc0s2mPQCwV2Hj-gyxn8u7YBBJbvtLjqUn9UnZBWc93xWkvPzkoZKOMcFshOt0JDG3QtGp5xJhWcIZqQpFCnFBZN8wT8VuIYFb8Xi-Eu7XHdQpLj0DdmDi2EnrTZPgN_Demi9tGzgDRgztksaK08ityLGcOVjx9EBfELNUhUtq1HBcmbPfeVBnofEEoz--sh-d3GOrN2zIrMgDcCsQp1BcK7cV8JZUc2eUTfm7mZ7JtGcLsykC5r1ww-M4cF6b9-45yBukTFw0",
+            "q": "quantum machine learning in the last week"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&sxsrf=APpeQnu_B8zue6pOW7V-Z_ubsOTugFxcqQ:1791128364795&q=quantum+machine+learning+in+the+last+week&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rklwwnP3f5-5QNC7GdVLkoLYYDxyS4am7kHLpwISVmOwfpnkJDeQadWc42EIhjpDd9JFmPYm6-puax65bBCc0s2mPQCwV2Hj-gyxn8u7YBBJbvtLjqUn9UnZBWc93xWkvPzkoZKOMcFshOt0JDG3QtGp5xJhWcIZqQpFCnFBZN8wT8VuIYFb8Xi-Eu7XHdQpLj0DdmDi2EnrTZPgN_Demi9tGzgDRgztksaK08ityLGcOVjx9EBfELNUhUtq1HBcmbPfeVBnofEEoz--sh-d3GOrN2zIrMgDcCsQp1BcK7cV8JZUc2eUTfm7mZ7JtGcLsykC5r1ww-M4cF6b9-45yBukTFw0&udm=8&sa=X&ved=2ahUKEwjC07iP2aCXAxUwL1kFHcyePGIQkbEKegQIHBAE",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=quantum+machine+learning+in+the+last+week&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rklwwnP3f5-5QNC7GdVLkoLYYDxyS4am7kHLpwISVmOwfpnkJDeQadWc42EIhjpDd9JFmPYm6-puax65bBCc0s2mPQCwV2Hj-gyxn8u7YBBJbvtLjqUn9UnZBWc93xWkvPzkoZKOMcFshOt0JDG3QtGp5xJhWcIZqQpFCnFBZN8wT8VuIYFb8Xi-Eu7XHdQpLj0DdmDi2EnrTZPgN_Demi9tGzgDRgztksaK08ityLGcOVjx9EBfELNUhUtq1HBcmbPfeVBnofEEoz--sh-d3GOrN2zIrMgDcCsQp1BcK7cV8JZUc2eUTfm7mZ7JtGcLsykC5r1ww-M4cF6b9-45yBukTFw0"
+        },
+        {
+          "name": "Last month",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4raMA7wI4dJTxdtC2i79eEnMF5zGNiTH9bYShL1EI3FGyJusj018rTd-dRVt_ce8s2_TFNzCbcqP-AQeu2mG4T83KqoJkfotFgzy7PuDtpL-PbXKJ3sbQxdv8M4pGjhrollDvJw_zoZmQw_rrTrALEhhRTmQLKhDlM2wfd6Nwe5vRZcbICQheyfzHKl66B5bsvOZA5sKHJJen97wQehWLV6fP5LNDeGNe7HmipJysK55HkT19kdaI0snk2gn1QBiTyoqaRsFIw7N7BAEZE2UeUB5n4b-9CsGIoATG3Z39EDETp-2DDiQvfWQfcxnZq1KQU9Il95Z7bPa3tD-UjyXWjFsQNyPs",
+            "q": "quantum machine learning in the last month"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&sxsrf=APpeQnu_B8zue6pOW7V-Z_ubsOTugFxcqQ:1791128364795&q=quantum+machine+learning+in+the+last+month&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4raMA7wI4dJTxdtC2i79eEnMF5zGNiTH9bYShL1EI3FGyJusj018rTd-dRVt_ce8s2_TFNzCbcqP-AQeu2mG4T83KqoJkfotFgzy7PuDtpL-PbXKJ3sbQxdv8M4pGjhrollDvJw_zoZmQw_rrTrALEhhRTmQLKhDlM2wfd6Nwe5vRZcbICQheyfzHKl66B5bsvOZA5sKHJJen97wQehWLV6fP5LNDeGNe7HmipJysK55HkT19kdaI0snk2gn1QBiTyoqaRsFIw7N7BAEZE2UeUB5n4b-9CsGIoATG3Z39EDETp-2DDiQvfWQfcxnZq1KQU9Il95Z7bPa3tD-UjyXWjFsQNyPs&udm=8&sa=X&ved=2ahUKEwjC07iP2aCXAxUwL1kFHcyePGIQkbEKegQIHBAF",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=quantum+machine+learning+in+the+last+month&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4raMA7wI4dJTxdtC2i79eEnMF5zGNiTH9bYShL1EI3FGyJusj018rTd-dRVt_ce8s2_TFNzCbcqP-AQeu2mG4T83KqoJkfotFgzy7PuDtpL-PbXKJ3sbQxdv8M4pGjhrollDvJw_zoZmQw_rrTrALEhhRTmQLKhDlM2wfd6Nwe5vRZcbICQheyfzHKl66B5bsvOZA5sKHJJen97wQehWLV6fP5LNDeGNe7HmipJysK55HkT19kdaI0snk2gn1QBiTyoqaRsFIw7N7BAEZE2UeUB5n4b-9CsGIoATG3Z39EDETp-2DDiQvfWQfcxnZq1KQU9Il95Z7bPa3tD-UjyXWjFsQNyPs"
+        }
+      ]
+    },
+    {
+      "name": "Job type",
+      "options": [
+        {
+          "name": "Full time",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rOXaF_MuSFyN549V3IFM46KdxzLlQcs4xaiX9Px1W5P6rxiKNouuBAwEX42c5Fyoh0VFGLeYbgphqCYdSk8HhLmVcCOTNUCzKB-YHvAJ3e41zA4vIwxRfQ8gvnB95MLocmUk_JS88V7R_gsfWm9knmFNiQJRQ9tcEpc3jcnoORlOmqvUAwKcjxeKp7y2NymrfflqEDJ-0kAdfth2rf-6eT7Rtrzt2sBlWNaogg8OGUCZMg940OlM_9ZrZzs_zn51bO1E9jnSQf0eqmYBKsVC9QbT2jRbOaw59N_BcHXgZ2XdvedWfY88QYB9Lp2Ymit3XksFL4eBDBDbHkw5GxmSm0dd1BbE",
+            "q": "quantum machine learning full time"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&sxsrf=APpeQnu_B8zue6pOW7V-Z_ubsOTugFxcqQ:1791128364795&q=quantum+machine+learning+full+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rOXaF_MuSFyN549V3IFM46KdxzLlQcs4xaiX9Px1W5P6rxiKNouuBAwEX42c5Fyoh0VFGLeYbgphqCYdSk8HhLmVcCOTNUCzKB-YHvAJ3e41zA4vIwxRfQ8gvnB95MLocmUk_JS88V7R_gsfWm9knmFNiQJRQ9tcEpc3jcnoORlOmqvUAwKcjxeKp7y2NymrfflqEDJ-0kAdfth2rf-6eT7Rtrzt2sBlWNaogg8OGUCZMg940OlM_9ZrZzs_zn51bO1E9jnSQf0eqmYBKsVC9QbT2jRbOaw59N_BcHXgZ2XdvedWfY88QYB9Lp2Ymit3XksFL4eBDBDbHkw5GxmSm0dd1BbE&udm=8&sa=X&ved=2ahUKEwjC07iP2aCXAxUwL1kFHcyePGIQkbEKegQIGxAC",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=quantum+machine+learning+full+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rOXaF_MuSFyN549V3IFM46KdxzLlQcs4xaiX9Px1W5P6rxiKNouuBAwEX42c5Fyoh0VFGLeYbgphqCYdSk8HhLmVcCOTNUCzKB-YHvAJ3e41zA4vIwxRfQ8gvnB95MLocmUk_JS88V7R_gsfWm9knmFNiQJRQ9tcEpc3jcnoORlOmqvUAwKcjxeKp7y2NymrfflqEDJ-0kAdfth2rf-6eT7Rtrzt2sBlWNaogg8OGUCZMg940OlM_9ZrZzs_zn51bO1E9jnSQf0eqmYBKsVC9QbT2jRbOaw59N_BcHXgZ2XdvedWfY88QYB9Lp2Ymit3XksFL4eBDBDbHkw5GxmSm0dd1BbE"
+        },
+        {
+          "name": "Part time",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rOXaF_MuSFyN549V3IFM46KdxzLlQcs4xaiX9Px1W5P6rxiKNouuBAwEX42c5FyohCGo2kxB5cGbxGAUil-BD6dppdGIlgXCEST1KFO6h8z-o5cuXPiNysgwqV7F4gAKNltLqiAib0Ir9dsxasKv6_imFPFxlxHmvytRn5pWm0GkIE-ZaY7Dr3dAwOpJIy9FKf5JvOcGsFwXeoYGvtwSV4olo8UJkLPNSFcHTByj9nsyql8Hv9NXJFCnuz6sPi3HyKmvLsSKyMjUoTlRe4d3-eoFPcRPG9A_5U4xVf89I8NW6OZSGT_E6TzC0DJc-hJo-Ldz7Pwz-K3nbcv7gIgyFFEZr_yI",
+            "q": "quantum machine learning part time"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&sxsrf=APpeQnu_B8zue6pOW7V-Z_ubsOTugFxcqQ:1791128364795&q=quantum+machine+learning+part+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rOXaF_MuSFyN549V3IFM46KdxzLlQcs4xaiX9Px1W5P6rxiKNouuBAwEX42c5FyohCGo2kxB5cGbxGAUil-BD6dppdGIlgXCEST1KFO6h8z-o5cuXPiNysgwqV7F4gAKNltLqiAib0Ir9dsxasKv6_imFPFxlxHmvytRn5pWm0GkIE-ZaY7Dr3dAwOpJIy9FKf5JvOcGsFwXeoYGvtwSV4olo8UJkLPNSFcHTByj9nsyql8Hv9NXJFCnuz6sPi3HyKmvLsSKyMjUoTlRe4d3-eoFPcRPG9A_5U4xVf89I8NW6OZSGT_E6TzC0DJc-hJo-Ldz7Pwz-K3nbcv7gIgyFFEZr_yI&udm=8&sa=X&ved=2ahUKEwjC07iP2aCXAxUwL1kFHcyePGIQkbEKegQIGxAD",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=quantum+machine+learning+part+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rOXaF_MuSFyN549V3IFM46KdxzLlQcs4xaiX9Px1W5P6rxiKNouuBAwEX42c5FyohCGo2kxB5cGbxGAUil-BD6dppdGIlgXCEST1KFO6h8z-o5cuXPiNysgwqV7F4gAKNltLqiAib0Ir9dsxasKv6_imFPFxlxHmvytRn5pWm0GkIE-ZaY7Dr3dAwOpJIy9FKf5JvOcGsFwXeoYGvtwSV4olo8UJkLPNSFcHTByj9nsyql8Hv9NXJFCnuz6sPi3HyKmvLsSKyMjUoTlRe4d3-eoFPcRPG9A_5U4xVf89I8NW6OZSGT_E6TzC0DJc-hJo-Ldz7Pwz-K3nbcv7gIgyFFEZr_yI"
+        },
+        {
+          "name": "Contract",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rG01LnmfvnJTW_6ToXL_UJBDbGTu7Znp1K5uOUnU3hrMG3-laB3vgt5B-C-gewc_98CS5fHDnrFBvkty6TIGCquzCT2_PxV3Mye-OfTYJRbfSIiyyotZAgR7yOg_sVaS1j85WQfOINQnXITUjJHzoJp190NddeXUdwFnzJ346U1NHVjX1LkIQgrJ82MxGwZVQOZvQny7qN0aW-F2ou53tHvi4wpc99aGWrEhhi1vg1BmTBqaqRKxL-ObY_qoBeswaDxqDl0xusRZ9VNirqbBU9Kmibb9HX1a6AnSgElcH9cdYWYzOz-lDSR8YKURF1cWXMW3UUQ",
+            "q": "quantum machine learning contract"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&sxsrf=APpeQnu_B8zue6pOW7V-Z_ubsOTugFxcqQ:1791128364795&q=quantum+machine+learning+contract&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rG01LnmfvnJTW_6ToXL_UJBDbGTu7Znp1K5uOUnU3hrMG3-laB3vgt5B-C-gewc_98CS5fHDnrFBvkty6TIGCquzCT2_PxV3Mye-OfTYJRbfSIiyyotZAgR7yOg_sVaS1j85WQfOINQnXITUjJHzoJp190NddeXUdwFnzJ346U1NHVjX1LkIQgrJ82MxGwZVQOZvQny7qN0aW-F2ou53tHvi4wpc99aGWrEhhi1vg1BmTBqaqRKxL-ObY_qoBeswaDxqDl0xusRZ9VNirqbBU9Kmibb9HX1a6AnSgElcH9cdYWYzOz-lDSR8YKURF1cWXMW3UUQ&udm=8&sa=X&ved=2ahUKEwjC07iP2aCXAxUwL1kFHcyePGIQkbEKegQIGxAE",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=quantum+machine+learning+contract&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rG01LnmfvnJTW_6ToXL_UJBDbGTu7Znp1K5uOUnU3hrMG3-laB3vgt5B-C-gewc_98CS5fHDnrFBvkty6TIGCquzCT2_PxV3Mye-OfTYJRbfSIiyyotZAgR7yOg_sVaS1j85WQfOINQnXITUjJHzoJp190NddeXUdwFnzJ346U1NHVjX1LkIQgrJ82MxGwZVQOZvQny7qN0aW-F2ou53tHvi4wpc99aGWrEhhi1vg1BmTBqaqRKxL-ObY_qoBeswaDxqDl0xusRZ9VNirqbBU9Kmibb9HX1a6AnSgElcH9cdYWYzOz-lDSR8YKURF1cWXMW3UUQ"
+        },
+        {
+          "name": "Internship",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4r7hOUA05M1a03bn-LSaBMsSymWf114nHzLJhq4cv_Ka5mkiRxkVhAByDHdfMG2hgKct7u8gI4sqdPeBgrKYlicviJNk5iRWQnLg0jjApyzH919pRkfcSFsXBGxdG5jmWVn5O1CZeKp8WpL0OYDv5ZjmhgwSVMYbcNUAzorCMtV-mrIPVleAk2Jb5Nfo4-iWKK2seiJMfmBIBeunwSXPwzW4Sdwaf7LlHjF5OUclCKu6_Rq3LkzOgqgS-Sru3m5FCB2rg3LugU2SsFXSYaLx-CbIx4hPVK9LLImX_e-t0_HtA3kWd73_Wy_eX-pggHxQ51Ajkgqg",
+            "q": "quantum machine learning internship"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&sxsrf=APpeQnu_B8zue6pOW7V-Z_ubsOTugFxcqQ:1791128364795&q=quantum+machine+learning+internship&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r7hOUA05M1a03bn-LSaBMsSymWf114nHzLJhq4cv_Ka5mkiRxkVhAByDHdfMG2hgKct7u8gI4sqdPeBgrKYlicviJNk5iRWQnLg0jjApyzH919pRkfcSFsXBGxdG5jmWVn5O1CZeKp8WpL0OYDv5ZjmhgwSVMYbcNUAzorCMtV-mrIPVleAk2Jb5Nfo4-iWKK2seiJMfmBIBeunwSXPwzW4Sdwaf7LlHjF5OUclCKu6_Rq3LkzOgqgS-Sru3m5FCB2rg3LugU2SsFXSYaLx-CbIx4hPVK9LLImX_e-t0_HtA3kWd73_Wy_eX-pggHxQ51Ajkgqg&udm=8&sa=X&ved=2ahUKEwjC07iP2aCXAxUwL1kFHcyePGIQkbEKegQIGxAF",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=quantum+machine+learning+internship&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r7hOUA05M1a03bn-LSaBMsSymWf114nHzLJhq4cv_Ka5mkiRxkVhAByDHdfMG2hgKct7u8gI4sqdPeBgrKYlicviJNk5iRWQnLg0jjApyzH919pRkfcSFsXBGxdG5jmWVn5O1CZeKp8WpL0OYDv5ZjmhgwSVMYbcNUAzorCMtV-mrIPVleAk2Jb5Nfo4-iWKK2seiJMfmBIBeunwSXPwzW4Sdwaf7LlHjF5OUclCKu6_Rq3LkzOgqgS-Sru3m5FCB2rg3LugU2SsFXSYaLx-CbIx4hPVK9LLImX_e-t0_HtA3kWd73_Wy_eX-pggHxQ51Ajkgqg"
+        }
+      ]
+    },
+    {
+      "name": "Job type",
+      "options": [
+        {
+          "name": "Full time",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rOXaF_MuSFyN549V3IFM46KdxzLlQcs4xaiX9Px1W5P6rxiKNouuBAwEX42c5Fyoh0VFGLeYbgphqCYdSk8HhLmVcCOTNUCzKB-YHvAJ3e41zA4vIwxRfQ8gvnB95MLocmUk_JS88V7R_gsfWm9knmFNiQJRQ9tcEpc3jcnoORlOmqvUAwKcjxeKp7y2NymrfflqEDJ-0kAdfth2rf-6eT7Rtrzt2sBlWNaogg8OGUCZMg940OlM_9ZrZzs_zn51bO1E9jnSQf0eqmYBKsVC9QbT2jRbOaw59N_BcHXgZ2XdvedWfY88QYB9Lp2Ymit3XksFL4eBDBDbHkw5GxmSm0dd1BbE",
+            "q": "quantum machine learning full time"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&sxsrf=APpeQnu_B8zue6pOW7V-Z_ubsOTugFxcqQ:1791128364795&q=quantum+machine+learning+full+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rOXaF_MuSFyN549V3IFM46KdxzLlQcs4xaiX9Px1W5P6rxiKNouuBAwEX42c5Fyoh0VFGLeYbgphqCYdSk8HhLmVcCOTNUCzKB-YHvAJ3e41zA4vIwxRfQ8gvnB95MLocmUk_JS88V7R_gsfWm9knmFNiQJRQ9tcEpc3jcnoORlOmqvUAwKcjxeKp7y2NymrfflqEDJ-0kAdfth2rf-6eT7Rtrzt2sBlWNaogg8OGUCZMg940OlM_9ZrZzs_zn51bO1E9jnSQf0eqmYBKsVC9QbT2jRbOaw59N_BcHXgZ2XdvedWfY88QYB9Lp2Ymit3XksFL4eBDBDbHkw5GxmSm0dd1BbE&udm=8&sa=X&ved=2ahUKEwjC07iP2aCXAxUwL1kFHcyePGIQkbEKegQIGxAC",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=quantum+machine+learning+full+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rOXaF_MuSFyN549V3IFM46KdxzLlQcs4xaiX9Px1W5P6rxiKNouuBAwEX42c5Fyoh0VFGLeYbgphqCYdSk8HhLmVcCOTNUCzKB-YHvAJ3e41zA4vIwxRfQ8gvnB95MLocmUk_JS88V7R_gsfWm9knmFNiQJRQ9tcEpc3jcnoORlOmqvUAwKcjxeKp7y2NymrfflqEDJ-0kAdfth2rf-6eT7Rtrzt2sBlWNaogg8OGUCZMg940OlM_9ZrZzs_zn51bO1E9jnSQf0eqmYBKsVC9QbT2jRbOaw59N_BcHXgZ2XdvedWfY88QYB9Lp2Ymit3XksFL4eBDBDbHkw5GxmSm0dd1BbE"
+        },
+        {
+          "name": "Part time",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rOXaF_MuSFyN549V3IFM46KdxzLlQcs4xaiX9Px1W5P6rxiKNouuBAwEX42c5FyohCGo2kxB5cGbxGAUil-BD6dppdGIlgXCEST1KFO6h8z-o5cuXPiNysgwqV7F4gAKNltLqiAib0Ir9dsxasKv6_imFPFxlxHmvytRn5pWm0GkIE-ZaY7Dr3dAwOpJIy9FKf5JvOcGsFwXeoYGvtwSV4olo8UJkLPNSFcHTByj9nsyql8Hv9NXJFCnuz6sPi3HyKmvLsSKyMjUoTlRe4d3-eoFPcRPG9A_5U4xVf89I8NW6OZSGT_E6TzC0DJc-hJo-Ldz7Pwz-K3nbcv7gIgyFFEZr_yI",
+            "q": "quantum machine learning part time"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&sxsrf=APpeQnu_B8zue6pOW7V-Z_ubsOTugFxcqQ:1791128364795&q=quantum+machine+learning+part+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rOXaF_MuSFyN549V3IFM46KdxzLlQcs4xaiX9Px1W5P6rxiKNouuBAwEX42c5FyohCGo2kxB5cGbxGAUil-BD6dppdGIlgXCEST1KFO6h8z-o5cuXPiNysgwqV7F4gAKNltLqiAib0Ir9dsxasKv6_imFPFxlxHmvytRn5pWm0GkIE-ZaY7Dr3dAwOpJIy9FKf5JvOcGsFwXeoYGvtwSV4olo8UJkLPNSFcHTByj9nsyql8Hv9NXJFCnuz6sPi3HyKmvLsSKyMjUoTlRe4d3-eoFPcRPG9A_5U4xVf89I8NW6OZSGT_E6TzC0DJc-hJo-Ldz7Pwz-K3nbcv7gIgyFFEZr_yI&udm=8&sa=X&ved=2ahUKEwjC07iP2aCXAxUwL1kFHcyePGIQkbEKegQIGxAD",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=quantum+machine+learning+part+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rOXaF_MuSFyN549V3IFM46KdxzLlQcs4xaiX9Px1W5P6rxiKNouuBAwEX42c5FyohCGo2kxB5cGbxGAUil-BD6dppdGIlgXCEST1KFO6h8z-o5cuXPiNysgwqV7F4gAKNltLqiAib0Ir9dsxasKv6_imFPFxlxHmvytRn5pWm0GkIE-ZaY7Dr3dAwOpJIy9FKf5JvOcGsFwXeoYGvtwSV4olo8UJkLPNSFcHTByj9nsyql8Hv9NXJFCnuz6sPi3HyKmvLsSKyMjUoTlRe4d3-eoFPcRPG9A_5U4xVf89I8NW6OZSGT_E6TzC0DJc-hJo-Ldz7Pwz-K3nbcv7gIgyFFEZr_yI"
+        },
+        {
+          "name": "Contract",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rG01LnmfvnJTW_6ToXL_UJBDbGTu7Znp1K5uOUnU3hrMG3-laB3vgt5B-C-gewc_98CS5fHDnrFBvkty6TIGCquzCT2_PxV3Mye-OfTYJRbfSIiyyotZAgR7yOg_sVaS1j85WQfOINQnXITUjJHzoJp190NddeXUdwFnzJ346U1NHVjX1LkIQgrJ82MxGwZVQOZvQny7qN0aW-F2ou53tHvi4wpc99aGWrEhhi1vg1BmTBqaqRKxL-ObY_qoBeswaDxqDl0xusRZ9VNirqbBU9Kmibb9HX1a6AnSgElcH9cdYWYzOz-lDSR8YKURF1cWXMW3UUQ",
+            "q": "quantum machine learning contract"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&sxsrf=APpeQnu_B8zue6pOW7V-Z_ubsOTugFxcqQ:1791128364795&q=quantum+machine+learning+contract&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rG01LnmfvnJTW_6ToXL_UJBDbGTu7Znp1K5uOUnU3hrMG3-laB3vgt5B-C-gewc_98CS5fHDnrFBvkty6TIGCquzCT2_PxV3Mye-OfTYJRbfSIiyyotZAgR7yOg_sVaS1j85WQfOINQnXITUjJHzoJp190NddeXUdwFnzJ346U1NHVjX1LkIQgrJ82MxGwZVQOZvQny7qN0aW-F2ou53tHvi4wpc99aGWrEhhi1vg1BmTBqaqRKxL-ObY_qoBeswaDxqDl0xusRZ9VNirqbBU9Kmibb9HX1a6AnSgElcH9cdYWYzOz-lDSR8YKURF1cWXMW3UUQ&udm=8&sa=X&ved=2ahUKEwjC07iP2aCXAxUwL1kFHcyePGIQkbEKegQIGxAE",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=quantum+machine+learning+contract&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rG01LnmfvnJTW_6ToXL_UJBDbGTu7Znp1K5uOUnU3hrMG3-laB3vgt5B-C-gewc_98CS5fHDnrFBvkty6TIGCquzCT2_PxV3Mye-OfTYJRbfSIiyyotZAgR7yOg_sVaS1j85WQfOINQnXITUjJHzoJp190NddeXUdwFnzJ346U1NHVjX1LkIQgrJ82MxGwZVQOZvQny7qN0aW-F2ou53tHvi4wpc99aGWrEhhi1vg1BmTBqaqRKxL-ObY_qoBeswaDxqDl0xusRZ9VNirqbBU9Kmibb9HX1a6AnSgElcH9cdYWYzOz-lDSR8YKURF1cWXMW3UUQ"
+        },
+        {
+          "name": "Internship",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4r7hOUA05M1a03bn-LSaBMsSymWf114nHzLJhq4cv_Ka5mkiRxkVhAByDHdfMG2hgKct7u8gI4sqdPeBgrKYlicviJNk5iRWQnLg0jjApyzH919pRkfcSFsXBGxdG5jmWVn5O1CZeKp8WpL0OYDv5ZjmhgwSVMYbcNUAzorCMtV-mrIPVleAk2Jb5Nfo4-iWKK2seiJMfmBIBeunwSXPwzW4Sdwaf7LlHjF5OUclCKu6_Rq3LkzOgqgS-Sru3m5FCB2rg3LugU2SsFXSYaLx-CbIx4hPVK9LLImX_e-t0_HtA3kWd73_Wy_eX-pggHxQ51Ajkgqg",
+            "q": "quantum machine learning internship"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&sxsrf=APpeQnu_B8zue6pOW7V-Z_ubsOTugFxcqQ:1791128364795&q=quantum+machine+learning+internship&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r7hOUA05M1a03bn-LSaBMsSymWf114nHzLJhq4cv_Ka5mkiRxkVhAByDHdfMG2hgKct7u8gI4sqdPeBgrKYlicviJNk5iRWQnLg0jjApyzH919pRkfcSFsXBGxdG5jmWVn5O1CZeKp8WpL0OYDv5ZjmhgwSVMYbcNUAzorCMtV-mrIPVleAk2Jb5Nfo4-iWKK2seiJMfmBIBeunwSXPwzW4Sdwaf7LlHjF5OUclCKu6_Rq3LkzOgqgS-Sru3m5FCB2rg3LugU2SsFXSYaLx-CbIx4hPVK9LLImX_e-t0_HtA3kWd73_Wy_eX-pggHxQ51Ajkgqg&udm=8&sa=X&ved=2ahUKEwjC07iP2aCXAxUwL1kFHcyePGIQkbEKegQIGxAF",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=quantum+machine+learning+internship&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r7hOUA05M1a03bn-LSaBMsSymWf114nHzLJhq4cv_Ka5mkiRxkVhAByDHdfMG2hgKct7u8gI4sqdPeBgrKYlicviJNk5iRWQnLg0jjApyzH919pRkfcSFsXBGxdG5jmWVn5O1CZeKp8WpL0OYDv5ZjmhgwSVMYbcNUAzorCMtV-mrIPVleAk2Jb5Nfo4-iWKK2seiJMfmBIBeunwSXPwzW4Sdwaf7LlHjF5OUclCKu6_Rq3LkzOgqgS-Sru3m5FCB2rg3LugU2SsFXSYaLx-CbIx4hPVK9LLImX_e-t0_HtA3kWd73_Wy_eX-pggHxQ51Ajkgqg"
+        }
+      ]
+    }
+  ],
+  "jobs_results": [
+    {
+      "title": "Postdoctoral Fellow - Applied Machine Learning in Quantum Systems",
+      "company_name": "QuEra Computing Inc.",
+      "location": "Boston, MA",
+      "via": "LinkedIn",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "Ph.D. or equivalent experience in Physics, Computer Science, Electrical Engineering, or a related field, with a strong background in quantum computing or quantum physics",
+            "Experience working with quantum computing platforms (neutral atoms, trapped ions, superconducting qubits, or similar)",
+            "Demonstrated experience working with Machine Learning for inference and hardware in loop",
+            "Strong programming skills in Python, C++, or similar languages",
+            "Strong analytical and problem-solving skills, with the ability to take technical ownership",
+            "Effective communication skills and the ability to collaborate across physics, engineering, and software teams",
+            "Proficiency with Git and modern collaborative development workflows",
+            "Track record of publications or significant technical contributions in relevant areas"
+          ]
+        },
+        {
+          "title": "Benefits",
+          "items": [
+            "The approximate base salary range for this position is $110,000-$120,000",
+            "We consistently monitor external market data and update base salary ranges accordingly",
+            "We determine base compensation decisions on several factors, including as geographic placement, role-specific knowledge, skills, and/or experience",
+            "In addition to our base salary offerings, we also provide equity grants for all new hires"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": [
+            "This role focuses on developing computational methods for in-the-loop stabilization of neutral atom Logical Quantum Processing Units (LQPUs)",
+            "The position sits at the interface of quantum hardware and control systems, supporting both near-term experimental performance and the long-term development of control architectures for stable, fault-tolerant computing",
+            "The successful candidate will design and prototype state-of-the-art methods to enable reliable quantum operations and translate device measurements into actionable control feedback",
+            "Responsibilities include advancing capabilities such as measurement-informed feedback control and machine learning–driven inference",
+            "Develop and deploy machine learning models for high-fidelity quantum operation inference and control prediction",
+            "Design and prototype in-the-loop control mechanisms that adapt sequences based on measurement outcomes and system state",
+            "Collaborate with physics, quantum error-correction, hardware, and control teams to validate new stack components using experimental data and system-level performance"
+          ]
+        }
+      ],
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=quantum+machine+learning&htidocid=5kZpxPsKavqKzYiUAAAAAA%3D%3D&hl=en-US&shem=epsd1,esd2e,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xWOMQrCQBAAsc0TrBZL0UQEG62iqCgGDDZ2crksycll98huML7Nz5k0Uw3MRL9J9LyzaMlWuTUeTug9f2AJaQjeYQmZsbUjhBualhxV4AjyzpB2DTy-otjIYF-5ABkMWwMTnJkrj9NdrRpkmyQiPq5EjTobW24SJiy4T95cyIiX1KbF4I3ia71Z9XGgaj7Lu2Nr4MBN6HTsXsjGY3w_7DItIEv_uOD-RL4AAAA&shmds=v1_ARwrE21j29rGgT43XSTjmmnyXzMVBysUSPQsm8KtF7DQltMlAw&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=quantum+machine+learning&htidocid=5kZpxPsKavqKzYiUAAAAAA%3D%3D",
+      "thumbnail": "https://serpapi.com/searches/6ac2732a71b492c842fabca8/images/DfmrpSG-Sm_rMkd2LsqjeXcNthxJyoM_qBJE2UxmgiY.jpeg",
+      "extensions": [
+        "3 days ago",
+        "Full-time"
+      ],
+      "source_link": "https://www.linkedin.com/jobs/view/postdoctoral-fellow-applied-machine-learning-in-quantum-systems-at-quera-computing-inc-4465327941",
+      "job_title": "Postdoctoral Fellow - Applied Machine Learning in Quantum Systems",
+      "description": "Summary\n\nThis role focuses on developing computational methods for in-the-loop stabilization of neutral atom Logical Quantum Processing Units (LQPUs). The position sits at the interface of quantum hardware and control systems, supporting both near-term experimental performance and the long-term development of control architectures for stable, fault-tolerant computing.\n\nThe successful candidate will design and prototype state-of-the-art methods to enable reliable quantum operations and translate device measurements into actionable control feedback. Responsibilities include advancing capabilities such as measurement-informed feedback control and machine learning–driven inference.\n\nKey Responsibilities\n\nDevelop and deploy machine learning models for high-fidelity quantum operation inference and control prediction.Design and prototype in-the-loop control mechanisms that adapt sequences based on measurement outcomes and system state.Collaborate with physics, quantum error-correction, hardware, and control teams to validate new stack components using experimental data and system-level performance\n\nRequired Qualifications\n\nPh.D. or equivalent experience in Physics, Computer Science, Electrical Engineering, or a related field, with a strong background in quantum computing or quantum physics. Experience working with quantum computing platforms (neutral atoms, trapped ions, superconducting qubits, or similar). Demonstrated experience working with Machine Learning for inference and hardware in loop. Strong programming skills in Python, C++, or similar languages. Strong analytical and problem-solving skills, with the ability to take technical ownership. Effective communication skills and the ability to collaborate across physics, engineering, and software teams. Proficiency with Git and modern collaborative development workflows. Track record of publications or significant technical contributions in relevant areas. \n\nPreferred Qualifications\n\nExperience with quantum control stacks or real-time control systems. Familiarity with fault-tolerant protocols, logical qubit architectures, or quantum error correction frameworks. Experience with performance-sensitive, low-latency, or distributed systems. Aware of advances in fault-tolerant quantum computing, in-the-loop control, and ML-driven control strategies. \n\nThe approximate base salary range for this position is $110,000-$120,000.\n\nWe consistently monitor external market data and update base salary ranges accordingly. We determine base compensation decisions on several factors, including as geographic placement, role-specific knowledge, skills, and/or experience. In addition to our base salary offerings, we also provide equity grants for all new hires.\n\nQuEra is committed to cultivating a diverse work environment and is proud to be an equal opportunity employer. We highly value diversity in our current and future employees and do not discriminate (including in our hiring and promotion practices) based on race, religion, color, national origin, gender, gender expression, sexual orientation, age, marital status, veteran status, disability status, or any other characteristic protected by law.",
+      "apply_options": [
+        {
+          "title": "LinkedIn",
+          "link": "https://www.linkedin.com/jobs/view/postdoctoral-fellow-applied-machine-learning-in-quantum-systems-at-quera-computing-inc-4465327941?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Monster",
+          "link": "https://www.monster.com/job-openings/postdoctoral-fellow-applied-machine-learning-in-quantum-systems-boston-ma--f065d1ee-6db4-4e82-8305-bbb6f7e1a7af?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Entangled Future",
+          "link": "https://entangledfuture.com/jobs/quera-computing-postdoctoral-fellow-applied-machine-learning-in-quantum-systems/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "JobLeads",
+          "link": "https://www.jobleads.com/us/job/postdoctoral-fellow-applied-machine-learning-in-quantum-systems--boston--e71d9a9ea1355e075edfcbae6efe06ee0?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "ZipRecruiter",
+          "link": "https://www.ziprecruiter.com/c/QuEra-Computing/Job/Postdoctoral-Fellow-Applied-Machine-Learning-in-Quantum-Systems/-in-Boston,MA?jid=46c8a569c90b48d5&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "BeBee",
+          "link": "https://bebee.com/us/jobs/postdoctoral-fellow-applied-machine-learning-in-quantum-systems-quera-computing-inc-boston--pureheal-28528_25302_4a9b906c4327a8e3e68b607d7e398558?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Jobright",
+          "link": "https://jobright.ai/jobs/info/6a522414e726ec56126a1c66?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Lensa",
+          "link": "https://lensa.com/job-v1/quera-computing/boston-ma/postdoctoral-fellow/da5a78775f14c0554dd51c105355003c?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJQb3N0ZG9jdG9yYWwgRmVsbG93IC0gQXBwbGllZCBNYWNoaW5lIExlYXJuaW5nIGluIFF1YW50dW0gU3lzdGVtcyIsImNvbXBhbnlfbmFtZSI6IlF1RXJhIENvbXB1dGluZyBJbmMuIiwiaHRpZG9jaWQiOiI1a1pweFBzS2F2cUt6WWlVQUFBQUFBPT0iLCJobCI6ImVuIiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwUzJVMFpXUjFNbGhDU2s1c1RXUlJSekZ6VlVGaVN6RmlTWEZwYUU1ZlFUZzBlWFY2ZVhWaFEyRkxlVXBMWWpkWGVEbEhiV3hvUkZsWU5YWnlNMlZqYm1KMlIyVjJVM1ZMYkRBdE1YWkxkemhMTWpKcWVHTmFSMkpDVmxGRWFHOXVSalpaVGpCUVduSlZOVWx6TjFsMWFrVlBWR2xQTjJ4elgwbHpNa0oxYzBwdGQyVlVjbEFTRjB4SVVFTmhjMHRPVFV4RVpUVk9iMUI2VERONWExRlpHaUpCUkhOeU9XWlVhMDVSUnkxRFVYbFFhVGxHTUZjMlZUVk1UbnBmYVdoZlF6QjMiLCJmY3YiOiIzIiwiZmNfaWQiOiI1a1pweFBzS2F2cUt6WWlVQUFBQUFBPT0ifQ=="
+    },
+    {
+      "title": "Postdoctoral Research Associate - Quantum Computing for Simulating Physical Systems",
+      "company_name": "Los Alamos National Laboratory",
+      "location": "Los Alamos, NM",
+      "via": "LANL.jobs",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "Education/Experience: Ph.D. in Computer Science, Applied Mathematics, Physics, or a related field from an accredited institution, completed within the last 5 years or near completion",
+            "Substantial experience in developing, analyzing, and improving quantum algorithms and their applications",
+            "Proficiency in high-level programming languages such as Julia or Python",
+            "Proven ability to communicate research findings effectively, as evidenced by publications, reports, or presentations",
+            "Ability to work both independently and collaboratively within a diverse team of scientists",
+            "Due to federal restrictions contained in the current National Defense Authorization Act, citizens of the People's Republic of China-including the special administrative regions of Hong Kong and Macau-as well as citizens of the Islamic Republic of Iran, the Democratic People's Republic of Korea (North Korea), and the Russian Federation, who are not Lawful Permanent Residents (\"green card\" holders) are prohibited from accessing facilities that support the mission, functions, and operations of national security laboratories and nuclear weapons production facilities, which includes Los Alamos National Laboratory",
+            "To obtain a clearance, an individual must be at least 18 years of age",
+            "U.S. citizenship is required except in very limited circumstances",
+            "No Clearance: Position does not require a security clearance",
+            "New-Employment Drug Test: The Laboratory requires successful applicants to complete a new-employment drug test and maintains a substance abuse policy that includes random drug testing"
+          ]
+        },
+        {
+          "title": "Benefits",
+          "items": [
+            "§ PPO or High Deductible medical insurance with the same large nationwide network",
+            "§ Dental and vision insurance",
+            "§ Free basic life and disability insurance",
+            "§ Paid childbirth and parental leave",
+            "§ Award-winning 401(k) (6% matching plus 3.5% annually)",
+            "§ Learning opportunities and tuition assistance",
+            "§ Flexible schedules and time off (PTO and holidays)",
+            "§ Onsite gyms and wellness programs",
+            "§ Extensive relocation packages (outside a 50 mile radius)"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": [
+            "Successful applicants will have the opportunity to lead and collaborate on innovative projects, working closely with researchers in quantum computing, computational science, chemistry, and materials science",
+            "Responsibilities include designing and conducting theoretical and computational studies, developing and implementing new algorithms, analyzing results, and disseminating findings through peer-reviewed publications and scientific presentations",
+            "Selected candidates will be subject to drug testing and other pre-employment background checks"
+          ]
+        }
+      ],
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=quantum+machine+learning&htidocid=vt8zbv-Dwek6UAoxAAAAAA%3D%3D&hl=en-US&shem=epsd1,esd2e,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_0WOQQuCQBCF6epP6DTnKJWgS52kQxAmlj8g1m3Tld0dcUbQ39qfaYqgyxsevO_Ni16LqCuR-IGacVAOboaMGnQLGRFqq9jABq6jCjx6OKLvR7ahgScOUFk_OvW1ZTuT1YJXM7HxJMwZa_hVYYATYuPM8tAy97RPEiIXN8RC61ijTzCYGqekw5o-cqdWDaaXdnPf7tIp7kOzSnMkyJzycgohMcjDXNWyW7bPYAP8E2soLm8Y1Wuf3gAAAA&shmds=v1_ARwrE23p_UTjlF1BFAGr7b7n92_DMqg2HITn9QCHILaJ96zXSw&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=quantum+machine+learning&htidocid=vt8zbv-Dwek6UAoxAAAAAA%3D%3D",
+      "thumbnail": "https://serpapi.com/images/i/_9j_4AAQSkZJRgABAQAAAQABAAD_2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys_RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N__AABEIAB0AOAMBIgACEQEDEQH_xAAbAAABBQEBAAAAAAAAAAAAAAACAAEEBgcFA__EAC0QAAIABQMDAgQHAAAAAAAAAAECAAMEERIFEyEGIjFRYjJBYZEHFBUWQlJT_8QAGAEAAwEBAAAAAAAAAAAAAAAAAgMEAQb_xAAdEQACAQUBAQAAAAAAAAAAAAAAAgEDBBExUUES_9oADAMBAAIRAxEAPwDK4YmGdsVJ9BGtS_wq0-bo7Ila_wCoIxlvPeaEQTRftVf5Lxf5GxuDxaOqrXCUcfXpIqy2jJCY82MWqn6SlVEiXUHVpFPJmU8maGmFW7mllmv3AgBhh4JyZRbm8FSdHUk2vr6Wo1qnTYmykkMXRN-4DzDYsbYofH9iAbc2U1ynQoSSnsYAmLrM6IoUl7r9RyFQ_CNtWLdge4tM5HJW9hyp4gV6DpnfH9x0nJbAhVs9mYC3f5AUFr2C5LyfMTNcp0ZClIJh4C94UDLGnQJjsDq7XU0oaamoTFpxL2gwA3RK_wA9z4sPbe0cQmPNjF1TDbgSpMXVq6WiIlQQqLiowXgWAt454A-0DO1eumgCZPyAIIvLTyCCPl9BEImAJidscGQTjrWobe3-Y7McMdtLWtjbx6QLa3qTK6mraztk3aOTcH09o4iAYaJ5iOBihQoaMNP_2Q.jpeg",
+      "extensions": [
+        "Full-time",
+        "Health insurance",
+        "Paid time off",
+        "Dental insurance"
+      ],
+      "source_link": "https://lanl.jobs/search/jobdetails/postdoctoral-research-associate---quantum-computing-for-simulating-physical-systems/a6829b8f-800d-483a-ab8f-829c6052f6d8",
+      "job_title": "Postdoctoral Research Associate - Quantum Computing for Simulating Physical Systems",
+      "description": "What You Will Do\n\nThe Computing and Artificial Intelligence (CAI) Division at Los Alamos National Laboratory (LANL) is seeking highly motivated applicants to explore applications of quantum computing to the simulation of complex physical systems. The successful candidates will be part of a multidisciplinary team developing computational techniques and theoretical frameworks for (early) fault-tolerant quantum computers, with an emphasis on Hamiltonian simulation, quantum algorithm design, and applications in either (A) materials simulation or (B) relativistic quantum chemistry. Successful applicants will focus on one of these target application areas; candidates are not expected to have expertise in both.\n\nOur research goals are to connect advances in quantum algorithms with high-impact scientific applications. Research may include the development and analysis of Hamiltonian simulation methods, efficient representations of physical systems, quantum algorithm and circuit optimization, numerical benchmarking, and quantum resource estimation. Large-scale classical simulation and machine-learning techniques may also be used to develop, test, and validate these approaches.\n\nSuccessful applicants will have the opportunity to lead and collaborate on innovative projects, working closely with researchers in quantum computing, computational science, chemistry, and materials science. Responsibilities include designing and conducting theoretical and computational studies, developing and implementing new algorithms, analyzing results, and disseminating findings through peer-reviewed publications and scientific presentations.\n\nWhat You Need\n\nMinimum Job Requirements:\n\n\nEducation/Experience: Ph.D. in Computer Science, Applied Mathematics, Physics, or a related field from an accredited institution, completed within the last 5 years or near completion.\n\nThe successful candidate must have:\nSubstantial experience in developing, analyzing, and improving quantum algorithms and their applications. Proficiency in high-level programming languages such as Julia or Python. Proven ability to communicate research findings effectively, as evidenced by publications, reports, or presentations. Ability to work both independently and collaboratively within a diverse team of scientists.\nDesired Qualifications: \nExperience with developing and implementing quantum computing simulation methods for physical systems. Demonstrated experience with machine learning, high-performance computing, parallel programming, and GPU programming. Active Q clearance, or the ability to obtain a Q clearance.\nWork Location: The work location for this position is onsite and located in Los Alamos, NM. All work locations are at the discretion of management. \n\nNote to Applicants:\n\nDue to federal restrictions contained in the current National Defense Authorization Act, citizens of the People's Republic of China-including the special administrative regions of Hong Kong and Macau-as well as citizens of the Islamic Republic of Iran, the Democratic People's Republic of Korea (North Korea), and the Russian Federation, who are not Lawful Permanent Residents (\"green card\" holders) are prohibited from accessing facilities that support the mission, functions, and operations of national security laboratories and nuclear weapons production facilities, which includes Los Alamos National Laboratory.\n\nFor full consideration please click \"Apply Now\" button on this webpage and upload a comprehensive CV with publications, a cover letter describing your qualifications and how you meet the job requirements, and the name and contact information of at least three references. For questions about this position, please contact John Golden (golden@lanl.gov).\n \nWorking on some of the group's projects requires obtaining a Q clearance, providing greater opportunity for growth. To obtain a clearance, an individual must be at least 18 years of age. U.S. citizenship is required except in very limited circumstances. See DOE Order 472.2 for additional information.\n \nFor more information, visit LANL career page: https://www.lanl.gov/careers/index.php.\n\nOutstanding candidates may be considered for a Director's Postdoc Fellowship. For more information about the Postdoc Program, go to: https://www.lanl.gov/careers/career-options/postdoctoral-research/index.php\n\nWhere You Will Work\n\nLocated in beautiful northern New Mexico, Los Alamos National Laboratory (LANL) is a multidisciplinary research institution engaged in strategic science on behalf of national security. Our generous benefits package includes:\n\n§  PPO or High Deductible medical insurance with the same large nationwide network\n\n§  Dental and vision insurance\n\n§  Free basic life and disability insurance\n\n§  Paid childbirth and parental leave\n\n§  Award-winning 401(k) (6% matching plus 3.5% annually)\n\n§  Learning opportunities and tuition assistance\n\n§  Flexible schedules and time off (PTO and holidays)\n\n§  Onsite gyms and wellness programs\n\n§  Extensive relocation packages (outside a 50 mile radius)\nAdditional Details\n\nDirective 206.2 - Employment with Triad requires a favorable decision by NNSA indicating employee is suitable under NNSA Supplemental Directive 206.2.  Please note that this requirement applies only to citizens of the United States.  Foreign nationals are subject to a similar requirement under DOE Order 142.3A.\n\nNo Clearance:  Position does not require a security clearance.  Selected candidates will be subject to drug testing and other pre-employment background checks.\n\nNew-Employment Drug Test: The Laboratory requires successful applicants to complete a new-employment drug test and maintains a substance abuse policy that includes random drug testing.  Although New Mexico and other states have legalized the use of marijuana, use and possession of marijuana remain illegal under federal law. A positive drug test for marijuana will result in termination of employment, even if the use  was pre-offer. \n \nInternal Applicants: Regular appointment employees who have served the required period of continuous service in their current position are eligible to apply for posted jobs throughout the Laboratory. If an employee has not served the required period of continuous service, they may only apply for Laboratory jobs with the documented approval of their Division Leader. Please refer to Policy Policy P701 for applicant eligibility requirements.\nEqual Opportunity: Los Alamos National Laboratory is an equal opportunity employer. All employment practices are based on qualification and merit, without regard to protected categories such as race, color, national origin, ancestry, religion, age, sex, gender identity, sexual orientation, marital status or spousal affiliation, physical or mental disability, medical conditions, pregnancy, status as a protected veteran, genetic information, or citizenship within the limits imposed by federal, state, and local laws and regulations.  The Laboratory is also committed to making our workplace accessible to individuals with disabilities and will provide reasonable accommodations, upon request, for individuals to participate in the application and hiring process. To request such an accommodation, please send an email to applyhelp@lanl.gov or call (505)-664-6947.\nInstructions on How to Activate/Create a LANL Jobs Account:\n\nFollow the instructions below if you have ever had an employee Z number, been a contractor, or received Los Alamos Lab insurance coverage to activate your account:\n  Select the Click      Here button if you have been employed with the Lab or received      insurance coverage.Please enter      only your first and last name and current email address (an email with      your validation code will be sent to you) to activate the account      currently in our system.Enter your      validation code as described in the email you receive and complete the      3-page registration form. Your account is now active, and you can apply      for jobs or save to your basket. Important: Enter the validation code      within 15 days to activate your account or your account will be      deactivated.  \nFollow the instructions below if you if you have never been employed with the Lab or received insurance coverage to create an account:\n  Select the Register      button if you have never been employed with the Lab or received insurance      coverage to Create an Account.From here, you      will establish an account with username and password.  \nHow to Apply:  Login to Your Account to Complete the Application Process\n  Click the      Vacancy Name number (in blue) to view any job's details.Click Apply or      Add to Basket to apply later. Tip: To apply for a job or save your basket,      you must have a LANL jobs account.  \nIf you experience any technical issues, please email applyhelp@lanl.gov for assistance.",
+      "apply_options": [
+        {
+          "title": "LANL.jobs",
+          "link": "https://lanl.jobs/search/jobdetails/postdoctoral-research-associate---quantum-computing-for-simulating-physical-systems/a6829b8f-800d-483a-ab8f-829c6052f6d8?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "LinkedIn",
+          "link": "https://www.linkedin.com/jobs/view/postdoctoral-research-associate-quantum-computing-for-simulating-physical-systems-at-los-alamos-national-laboratory-4453010642?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Indeed",
+          "link": "https://www.indeed.com/viewjob?jk=3be174ad01e8a29c&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "ZipRecruiter",
+          "link": "https://www.ziprecruiter.com/c/Los-Alamos-National-Laboratory/Job/Postdoctoral-Research-Associate-Quantum-Computing-for-Simulating-Physical-Systems/-in-Los-Alamos,NM?jid=2096b0be6762cd30&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Monster",
+          "link": "https://www.monster.com/job-openings/postdoctoral-research-associate-quantum-computing-for-simulating-physical-systems-los-alamos-nm--3e69bb78-03e2-4341-a941-043f9a4d95c9?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "BeBee",
+          "link": "https://bebee.com/us/jobs/postdoctoral-research-associate-quantum-computing-for-simulating-physical-systems-los-alamos-nationa--t7xk-855594503?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Jobs2Careers",
+          "link": "https://www.jobs2careers.com/r/job/36652511959?c1=108&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "The BIG Jobsite",
+          "link": "https://us.thebigjobsite.com/details/79924157A3502424FB3327FB95C47F2A/postdoctoral-research-associate---quantum-computing-for-simulating-physical-systems?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJQb3N0ZG9jdG9yYWwgUmVzZWFyY2ggQXNzb2NpYXRlIC0gUXVhbnR1bSBDb21wdXRpbmcgZm9yIFNpbXVsYXRpbmcgUGh5c2ljYWwgU3lzdGVtcyIsImNvbXBhbnlfbmFtZSI6IkxvcyBBbGFtb3MgTmF0aW9uYWwgTGFib3JhdG9yeSIsImh0aWRvY2lkIjoidnQ4emJ2LUR3ZWs2VUFveEFBQUFBQT09IiwiaGwiOiJlbiIsImZjIjoiRXN3QkNvd0JRVXBwVkRSMFNrdDRWek41ZVRaUk9XSTVSbVV0TFRoc1FWTkhUekpqYmpCR1ZURlNaMFp1Tmtvd2NHSkxiV3hsZVRrdFdrcE1kMDlyTFhCalNqQXhSbnBDT0hSdVRuSkpUa295TFRGdU5XaEhOV1JRV1hsQ2FIcFNUVFpyTlhkRWNFdDRVazlzYm5Ka1FYVkRjREIxVlZOQ01XSmtVRlZFWjBSNVJubGZUVFZ5UlhsRVgxSlNZbko1ZFVZU0YweElVRU5oYzB0T1RVeEVaVFZPYjFCNlRETjVhMUZaR2lKQlJITnlPV1pVZEVGRFQzSkZTMVZXUkVOb2IwSTFNREJLTjFSbE1YZzRiRkIzIiwiZmN2IjoiMyIsImZjX2lkIjoidnQ4emJ2LUR3ZWs2VUFveEFBQUFBQT09In0="
+    },
+    {
+      "title": "Quantum Scientist - Machine Learning and Quantum Error Correction",
+      "company_name": "Queracomputinginc",
+      "location": "Boston, GA",
+      "via": "Talents By Vaia",
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=quantum+machine+learning&htidocid=qeN6gNQwfISbMjibAAAAAA%3D%3D&hl=en-US&shem=epsd1,esd2e,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_zXOsQrCMBDGcVz7CC7eLNqK4KKTihREh-LiVtJ4JJH2ruQu0Efz8YyDywd_-A1f8ZkVzyYZ0jTAwwYkDaKwhruxPhDCDU2kQA4MveAPLzFyhDPHiFYDU_ZX7kCytR5y18yux_nBq46yryqRvnSiRoMtLQ8VE3Y8VW_u5DeteBNx7I1iu91tpnIkt1w0CaPJekyaDwSyEAhOLMq0gvr4BcEk1Hq7AAAA&shmds=v1_ARwrE22XJxT-V0dChLU7hAk2Ybw9h59o_MXurkkU4vrGq9lypg&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=quantum+machine+learning&htidocid=qeN6gNQwfISbMjibAAAAAA%3D%3D",
+      "extensions": [
+        "Full-time"
+      ],
+      "source_link": "https://talents.vaia.com/companies/queracomputinginc/boston/quantum-scientist-machine-learning-and-quantum-error-correction-136965872/",
+      "job_title": "Quantum Scientist - Machine Learning and Quantum Error Correction",
+      "description": "Summary QuEra Computing is seeking a talented, impact-motivated researcher with strong expertise in quantum error correction and decoding. You will be part of the team to develop and implement quantum error correction protocols and decoding algorithms on our unique hardware, with a particular focus on the use of machine learning methods for decoding and QEC design. You will have the opportunity to work with a vibrant community of academic and industry collaborators, and to help our growing team of diverse experts address fascinating challenges, from the development of hardware-efficient error correction schemes and decoding algorithms for our unique Rydberg atom quantum computer, to the design of protocols for executing fault-tolerant quantum logic, and finally to the implementation of fault-tolerant quantum algorithms with these methods. Required Qualifications PhD in Physics, Computer Science, Mathematics, Electrical Engineering, or equivalent experience Experience in machine learning for scientific problems Experience in quantum computing and quantum error correction An exceptional publication record in relevant fields Strong written and verbal communication skills Strong software skills Preferred Qualifications Experience simulating error correction protocols Experience collaborating with experimental teams and/or implementing error correction protocols on hardware Experience with high-performance software development and real-time operations The approximate base salary range for this position is $130,400 - $211,900. We consistently monitor external market data and update base salary ranges accordingly. We determine base compensation decisions on several factors, including geographic placement, role-specific knowledge, skills, and/or experience. In addition to our base salary offerings, we also provide equity grants for all new hires. QuEra is committed to cultivating a diverse work environment and is proud to be an equal opportunity employer. We highly value diversity in our current and future employees and do not discriminate (including in our hiring and promotion practices) based on race, religion, color, national origin, gender, gender expression, sexual orientation, age, marital status, veteran status, disability status, or any other characteristic protected by law. #J-18808-Ljbffr",
+      "apply_options": [
+        {
+          "title": "Talents By Vaia",
+          "link": "https://talents.vaia.com/companies/queracomputinginc/boston/quantum-scientist-machine-learning-and-quantum-error-correction-136965872/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJRdWFudHVtIFNjaWVudGlzdCAtIE1hY2hpbmUgTGVhcm5pbmcgYW5kIFF1YW50dW0gRXJyb3IgQ29ycmVjdGlvbiIsImNvbXBhbnlfbmFtZSI6IlF1ZXJhY29tcHV0aW5naW5jIiwiaHRpZG9jaWQiOiJxZU42Z05Rd2ZJU2JNamliQUFBQUFBPT0iLCJobCI6ImVuIiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwVERCR2NEQTViazFwZWtwcU5rMTFSbk5EYzFaU2FsOVdUVXgwTUhkSFZrcGxNalpGWDJ0aFpteDFPR2xKVWpFM1JESkpabmxWU0RFeU4xZFhXWEI0TTJKdlNXeFhMVlp2U2t4WFIzcHJWV0U0Ym5GUFpVUkhSbmRqWldRMVRUQlFjemd4WTNwSmJuRm1TRFYyTTJoUlVUTjJZWFp5VVhWM2VXUmtjakZFYWpCWlZtUkdZbkFTRjB4SVVFTmhjMHRPVFV4RVpUVk9iMUI2VERONWExRlpHaUpCUkhOeU9XWlVkSGxxV2tOMmVFbzVaMlpyYUhwc09YSlVZVEpRVURWU2VsSjMiLCJmY3YiOiIzIiwiZmNfaWQiOiJxZU42Z05Rd2ZJU2JNamliQUFBQUFBPT0ifQ=="
+    },
+    {
+      "title": "Quantum Algorithms Engineer Intern 2027",
+      "company_name": "IBM",
+      "location": "Massachusetts",
+      "via": "LinkedIn",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "Doctorate Degree",
+            "Required Technical And Professional Expertise",
+            "Currently pursuing a Ph.D. or Master's degree in Physics, Electrical and Computer Engineering, Mathematics, or a closely related field, with research focused on quantum computing or a closely related area",
+            "Strong understanding of fundamental concepts in quantum computing, quantum information, and quantum algorithms",
+            "Hands-on experience implementing quantum algorithms using Python and at least one quantum computing SDK, preferably Qiskit",
+            "Experience with numerical computing and scientific programming in Python, including commonly used scientific computing libraries",
+            "Ability to independently formulate technical problems, design experiments, analyze results, and communicate conclusions",
+            "Experience conducting academic or industrial research, preferably with research publications or conference contributions",
+            "Strong problem-solving and analytical skills",
+            "Ability to work collaboratively in a research and engineering environment"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": [
+            "The intern will work with researchers and engineers to develop, implement, and evaluate quantum algorithms for challenging problems in areas such as chemistry, materials science, optimization, and quantum machine learning",
+            "The work will involve using Qiskit and IBM Quantum systems to design experiments, benchmark algorithms, investigate scalability, and explore techniques for improving performance on current quantum processors",
+            "As a Quantum Algorithm Engineer Intern, you will contribute to research and development of quantum algorithms and their implementation on near-term quantum computers",
+            "The position will provide an opportunity to contribute to research prototypes, technical demonstrations, and scientific publications",
+            "Research and implement quantum algorithms for practical scientific and computational problems",
+            "Develop and optimize quantum circuits using Qiskit and the IBM Quantum software stack",
+            "Execute experiments on real quantum processors and analyze experimental results",
+            "Investigate techniques for improving circuit performance, including transpilation, circuit optimization, error suppression, and error mitigation",
+            "Benchmark quantum algorithms using appropriate classical baselines and simulation methods",
+            "Analyze the scalability and computational requirements of quantum algorithms and identify potential bottlenecks",
+            "Contribute to research prototypes, technical demonstrations, and software implementations",
+            "Collaborate with researchers and engineers across quantum algorithms, software, and applications"
+          ]
+        }
+      ],
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=quantum+machine+learning&htidocid=uTJXA5fotQeRrGt8AAAAAA%3D%3D&hl=en-US&shem=epsd1,esd2e,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xXEwQrCMAwAULzu7MlTzoLrGIigICiITNjBLxhZCW2lS0aTwf7DHxbf4VXfTXV9L8i2THDLQUqyOCk8OCQmKtCxUWFom_YEB3jJCEpYfARheIqETLtLNJv17JxqroMaWvK1l8kJ0yir-8io_waNWGjOaDS0x2atZw77bXfvITH0qIo-Lkpm-gOx-W_XlgAAAA&shmds=v1_ARwrE20XF8k7gu3ahBaAjITrGTL2PRWXva7fHupUYQK32bSr4Q&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=quantum+machine+learning&htidocid=uTJXA5fotQeRrGt8AAAAAA%3D%3D",
+      "thumbnail": "https://serpapi.com/searches/6ac2732a71b492c842fabca8/images/llnx52fS7nXV28Z5zTYqXQSaDJtDVruHqNzB0y1lzKY.jpeg",
+      "extensions": [
+        "6 days ago",
+        "81,840–163,680 a year",
+        "Full-time"
+      ],
+      "source_link": "https://www.linkedin.com/jobs/view/quantum-algorithms-engineer-intern-2027-at-ibm-4471221757",
+      "job_title": "Quantum Algorithms Engineer Intern 2027",
+      "description": "Introduction\n\nAt IBM Quantum, our mission is to bring useful quantum computing to the world by advancing quantum hardware, software, and algorithms. This internship provides an opportunity to contribute to research at the intersection of quantum algorithms, quantum software, and quantum hardware.\n\nThe intern will work with researchers and engineers to develop, implement, and evaluate quantum algorithms for challenging problems in areas such as chemistry, materials science, optimization, and quantum machine learning. The work will involve using Qiskit and IBM Quantum systems to design experiments, benchmark algorithms, investigate scalability, and explore techniques for improving performance on current quantum processors.\n\nThis is a research-oriented internship intended for a highly motivated graduate student who is interested in translating advances in quantum computing into practical demonstrations and scientific results. The intern will have opportunities to contribute to research prototypes, technical publications, and collaborations across IBM Quantum.\n\nYour Role And Responsibilities\n\nAs a Quantum Algorithm Engineer Intern, you will contribute to research and development of quantum algorithms and their implementation on near-term quantum computers. You will work at the intersection of quantum algorithms, quantum software, and quantum hardware, with opportunities to explore applications in areas such as chemistry, materials science, optimization, and quantum machine learning.\n\nThe intern will work closely with quantum researchers and engineers to investigate algorithmic approaches, implement and benchmark quantum circuits, and evaluate their performance using both classical simulation and real quantum processors. The position will provide an opportunity to contribute to research prototypes, technical demonstrations, and scientific publications.\n\nKey Responsibilities Include\n\nResearch and implement quantum algorithms for practical scientific and computational problems.Develop and optimize quantum circuits using Qiskit and the IBM Quantum software stack.Execute experiments on real quantum processors and analyze experimental results.Investigate techniques for improving circuit performance, including transpilation, circuit optimization, error suppression, and error mitigation. Benchmark quantum algorithms using appropriate classical baselines and simulation methods.Analyze the scalability and computational requirements of quantum algorithms and identify potential bottlenecks.Contribute to research prototypes, technical demonstrations, and software implementations.Collaborate with researchers and engineers across quantum algorithms, software, and applications.\n\nPreferred Education\n\nDoctorate Degree\n\nRequired Technical And Professional Expertise\n\nCurrently pursuing a Ph.D. or Master's degree in Physics, Electrical and Computer Engineering, Mathematics, or a closely related field, with research focused on quantum computing or a closely related area.Strong understanding of fundamental concepts in quantum computing, quantum information, and quantum algorithms.Hands-on experience implementing quantum algorithms using Python and at least one quantum computing SDK, preferably Qiskit.Experience with numerical computing and scientific programming in Python, including commonly used scientific computing libraries.Ability to independently formulate technical problems, design experiments, analyze results, and communicate conclusions.Experience conducting academic or industrial research, preferably with research publications or conference contributions.Strong problem-solving and analytical skills.Ability to work collaboratively in a research and engineering environment.\n\nPreferred Technical And Professional Experience\n\nExperience executing quantum algorithms on real quantum processors.Familiarity with the IBM Quantum platform, Qiskit Runtime, and Qiskit workflows.Experience with quantum circuit optimization, transpilation, error suppression, or error mitigation.Knowledge of variational quantum algorithms, quantum simulation, quantum chemistry, quantum optimization, or quantum machine learning.Experience benchmarking quantum algorithms against classical methods or simulators.Familiarity with tensor-network methods, MPS simulation, stabilizer simulation, or other approaches for assessing classical simulability of quantum circuits.Experience with HPC or hybrid quantum-classical computing workflows.Familiarity with software engineering practices such as Git, testing, documentation, and reproducible research.Demonstrated ability to work across disciplinary boundaries and communicate technical concepts to researchers and engineers from different backgrounds.",
+      "apply_options": [
+        {
+          "title": "LinkedIn",
+          "link": "https://www.linkedin.com/jobs/view/quantum-algorithms-engineer-intern-2027-at-ibm-4471221757?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "BeBee",
+          "link": "https://bebee.com/us/jobs/quantum-algorithms-engineer-intern-2027-ibm-cambridge--fj-2387083739?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Jobilize",
+          "link": "https://www.jobilize.com/job/us-ma-dorchester-center-construction-intern-nationwide-2027-gilbane?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Trabajo.org",
+          "link": "https://us.trabajo.org/job-4112-d0632e28f23818259aeedcf9b8153815?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJRdWFudHVtIEFsZ29yaXRobXMgRW5naW5lZXIgSW50ZXJuIDIwMjciLCJjb21wYW55X25hbWUiOiJJQk0iLCJodGlkb2NpZCI6InVUSlhBNWZvdFFlUnJHdDhBQUFBQUE9PSIsImhsIjoiZW4iLCJmYyI6IkVzd0JDb3dCUVVwcFZEUjBTVlJ0VVVkMGNUSTViMDl1YVZSbFoyUm5kR0o0WjNkWFlWZ3RVV2xqWkZsV1JFNVBObWxvY0ZFMVNVa3pRVVJ5V0ZVd1EzbHZVVzl5TkY5clZrRkdSak5xVlROVWVVaFFkWFZFZFY5a1dERktlSEl0WlhoR1NrcG9SMlo2VTJvNVlUSjJNWHBSTjNsV1N6Rk9iemxSUzB0VlIyUnFWM2xYVTJwYWFrUXhWa3hTZVRoNFkwc1NGMHhJVUVOaGMwdE9UVXhFWlRWT2IxQjZURE41YTFGWkdpSkJSSE55T1daVGNTMXhVbVZ3ZHkxVFNHbGxUMlZGZVZoQ1JIRTNkRjlmV2xobiIsImZjdiI6IjMiLCJmY19pZCI6InVUSlhBNWZvdFFlUnJHdDhBQUFBQUE9PSJ9"
+    },
+    {
+      "title": "Postdoctoral Researcher: Quantum Computing and Early Fault-Tolerant Simulations",
+      "company_name": "Los Alamos National Laboratory",
+      "location": "Los Alamos, NM",
+      "via": "Los Alamos National Laboratory",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "A Ph.D. in Physics, Mathematica, Computer Sciences, Materials Science, or related physical sciences, completed within the last 5 years or to be completed soon",
+            "Programming and simulation experience (Python, Julia, etc.)",
+            "Demonstrated experience in conducting original scientific research through peer-reviewed publication records",
+            "Excellent communication and writing skills",
+            "Outstanding candidates may be considered for a Director's Fellowship and outstanding candidates may be considered for the prestigious Darleane Hoffman, Richard P",
+            "Outstanding candidates may be considered for a Director's Postdoc Fellowship or for the prestigious Richard P",
+            "No Clearance: Position does not require a security clearance",
+            "New-Employment Drug Test: The Laboratory requires successful applicants to complete a new-employment drug test and maintains a substance abuse policy that includes random drug testing"
+          ]
+        },
+        {
+          "title": "Benefits",
+          "items": [
+            "Competitive salaries are based on the date the PhD degree requirements were completed, or the degree was awarded",
+            "Starting salary for a fresh PhD is currently $97,000",
+            "PPO or High Deductible medical insurance with the same large nationwide network",
+            "Dental and vision insurance",
+            "Free basic life and disability insurance",
+            "Paid childbirth and parental leave",
+            "Award-winning 401(k) (6% matching plus 3.5% annually)",
+            "Learning opportunities and tuition assistance",
+            "Flexible schedules and time off (PTO and holidays)",
+            "Onsite gyms and wellness programs",
+            "Extensive relocation packages (outside a 50 mile radius)"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": [
+            "The postdoctoral researcher will also explore the development of new quantum algorithms, and the use of quantum machine learning and resource theory approaches to reduce resource estimates and algorithmic costs",
+            "The postdoc will be co-mentored by staff members in T-4 (Quantum and Condensed Matter Physics) and Information Sciences Group (CAI-3) groups",
+            "Selected candidates will be subject to drug testing and other pre-employment background checks"
+          ]
+        }
+      ],
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=quantum+machine+learning&htidocid=3LOinKKnCEGqwbhEAAAAAA%3D%3D&hl=en-US&shem=epsd1,esd2e,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_0WOvQrCQBCEsc0jWG0tmgTBRisRFSQG_3rZJGcSubsNt3uQPKmv46mFzUzzMfNFr1H0OBFLRaWQQw0XxQpd2Si3hLNHK97AhkznpbU1oK1gi04PsEOvZXYjrVyA4Noar1FasgwzOFABvxkgC3uiWqvxqhHpeJkkzDquWQJdxiWZhKwqqE-eVPAn7tygU11YU_f5Iu3jztaTNCOGtUYTKv_-BNcMi-AcvAdoLfyJKeTHN6Xi4CbaAAAA&shmds=v1_ARwrE201b2QI0s9_BXqt0wvmr2N8IaPkFWgXiisMmJZC4A64sw&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=quantum+machine+learning&htidocid=3LOinKKnCEGqwbhEAAAAAA%3D%3D",
+      "thumbnail": "https://serpapi.com/images/i/_9j_4AAQSkZJRgABAQAAAQABAAD_2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys_RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N__AABEIAB0AOAMBIgACEQEDEQH_xAAbAAABBQEBAAAAAAAAAAAAAAACAAEEBgcFA__EAC0QAAIABQMDAgQHAAAAAAAAAAECAAMEERIFEyEGIjFRYjJBYZEHFBUWQlJT_8QAGAEAAwEBAAAAAAAAAAAAAAAAAgMEAQb_xAAdEQACAQUBAQAAAAAAAAAAAAAAAgEDBBExUUES_9oADAMBAAIRAxEAPwDK4YmGdsVJ9BGtS_wq0-bo7Ila_wCoIxlvPeaEQTRftVf5Lxf5GxuDxaOqrXCUcfXpIqy2jJCY82MWqn6SlVEiXUHVpFPJmU8maGmFW7mllmv3AgBhh4JyZRbm8FSdHUk2vr6Wo1qnTYmykkMXRN-4DzDYsbYofH9iAbc2U1ynQoSSnsYAmLrM6IoUl7r9RyFQ_CNtWLdge4tM5HJW9hyp4gV6DpnfH9x0nJbAhVs9mYC3f5AUFr2C5LyfMTNcp0ZClIJh4C94UDLGnQJjsDq7XU0oaamoTFpxL2gwA3RK_wA9z4sPbe0cQmPNjF1TDbgSpMXVq6WiIlQQqLiowXgWAt454A-0DO1eumgCZPyAIIvLTyCCPl9BEImAJidscGQTjrWobe3-Y7McMdtLWtjbx6QLa3qTK6mraztk3aOTcH09o4iAYaJ5iOBihQoaMNP_2Q.jpeg",
+      "extensions": [
+        "24 days ago",
+        "Full-time",
+        "Dental insurance",
+        "Health insurance",
+        "Paid time off"
+      ],
+      "source_link": "https://lanl.jobs/search/jobdetails/postdoctoral-researcher-quantum-computing-and-early-fault-tolerant-simulations/5fce1304-0926-4807-952f-6c59c0aee0f0",
+      "job_title": "Postdoctoral Researcher: Quantum Computing and Early Fault-Tolerant Simulations",
+      "description": "What You Will Do\n\nThe Quantum and Condensed Matter Physics (T-4) in the Theoretical Division at Los Alamos National Laboratory is seeking outstanding candidates for a postdoctoral research associate position at the intersection of quantum computing, quantum algorithms, quantum machine learning, simulation of many-body quantum systems and early-fault tolerant quantum computing.\n\nSuccessful candidates will join a multidisciplinary team advancing quantum simulations by combining theoretical and computational methods. A central goal is to bridge state-of-the-art classical techniques (tensor networks, Monte Carlo, Pauli Propagation, etc..) with early fault-tolerant quantum computers. The postdoctoral researcher will also explore the development of new quantum algorithms, and the use of quantum machine learning and resource theory approaches to reduce resource estimates and algorithmic costs.\n\nThe postdoc will be co-mentored by staff members in T-4 (Quantum and Condensed Matter Physics) and Information Sciences Group (CAI-3) groups. We provide unique opportunities for cross disciplinary collaborations, scientific workshop organization, and conference attendance.\n\nWhat You Need\n\nMinimum Job Requirements:\nA Ph.D. in Physics, Mathematica, Computer Sciences, Materials Science, or related physical sciences, completed within the last 5 years or to be completed soon.Programming and simulation experience (Python, Julia, etc.)Demonstrated experience in conducting original scientific research through peer-reviewed publication records.Excellent communication and writing skills.\nDesired Qualifications:\n\nIn addition to the minimum requirements, the following qualifications are desired, and preference will be given to candidates satisfying (at least one) of them: \n\nSolid background in quantum algorithms, quantum computation and quantum information.Demonstrated experience in quantum simulation techniques (preferably with tensor networks but other methods such as Monte Carlo, Pauli Propagation, etc.., are welcome).Experience with early fault-tolerant quantum simulations of many-body systems.Experience with High Performance Computing (HPC) or GPU programming.The ability to work creatively and independently as well as learn and collaborate with experts as a part of a diverse multi-disciplinary team.Hands-on experience running experiments on cloud-based quantum devices.Ability to adapt to new requirements for projects and be flexible enough to learn new \nOutstanding candidates may be considered for a Director's Fellowship and outstanding candidates may be considered for the prestigious Darleane Hoffman, Richard P. Feynman, or J. Robert Oppenheimer Fellowships. For general information refer to the Postdoctoral Program webpage.\n\nWork Environment:\n\nWork Location: The work location for this position is onsite and located in Los Alamos, NM. All work locations are at the discretion of management.\n\nNote to Applicants:\n\nThe appointment is for a duration of two years, with the possibility of a third-year extension based on performance evaluation.Candidates may be considered for a fellowship supported by the Center for Nonlinear Studies (CNLS). Outstanding candidates may be considered for a Director's Postdoc Fellowship or for the prestigious Richard P. Feynman, Darleane Christian Hoffman, J. Robert Oppenheimer, or Frederick Reines Distinguished Postdoc Fellowships.For more information about the Postdoc Program, please go to https://www.lanl.gov/engage/collaboration/postdoctoral-research\nContact:\n\nDr. Lukasz Cincio (lcincio@lanl.gov)Dr. Marco Cerezo (cerezo@lanl.gov)\nSalary: \n\nCompetitive salaries are based on the date the PhD degree requirements were completed, or the degree was awarded. Starting salary for a fresh PhD is currently $97,000. For more information go to Postdoc Program website at https://www.lanl.gov/careers/career-options/postdoctoral-research/index.php\nDue to federal restrictions contained in the current National Defense Authorization Act, citizens of the People's Republic of China-including the special administrative regions of Hong Kong and Macau-as well as citizens of the Islamic Republic of Iran, the Democratic People's Republic of Korea (North Korea), and the Russian Federation, who are not Lawful Permanent Residents (\"green card\" holders) are prohibited from accessing facilities that support the mission, functions, and operations of national security laboratories and nuclear weapons production facilities, which includes Los Alamos National Laboratory. \n\nWhere You Will Work\n\nLocated in beautiful northern New Mexico, Los Alamos National Laboratory (LANL) is a multidisciplinary research institution engaged in strategic science on behalf of national security. Our generous benefits package includes:\nPPO or High Deductible medical insurance with the same large nationwide networkDental and vision insuranceFree basic life and disability insurancePaid childbirth and parental leaveAward-winning 401(k) (6% matching plus 3.5% annually)Learning opportunities and tuition assistanceFlexible schedules and time off (PTO and holidays)Onsite gyms and wellness programsExtensive relocation packages (outside a 50 mile radius)Additional Details\n\nDirective 206.2 - Employment with Triad requires a favorable decision by NNSA indicating employee is suitable under NNSA Supplemental Directive 206.2.  Please note that this requirement applies only to citizens of the United States.  Foreign nationals are subject to a similar requirement under DOE Order 142.3A.\n\nNo Clearance:  Position does not require a security clearance.  Selected candidates will be subject to drug testing and other pre-employment background checks.\n\nNew-Employment Drug Test: The Laboratory requires successful applicants to complete a new-employment drug test and maintains a substance abuse policy that includes random drug testing.  Although New Mexico and other states have legalized the use of marijuana, use and possession of marijuana remain illegal under federal law. A positive drug test for marijuana will result in termination of employment, even if the use  was pre-offer.\n \nInternal Applicants: Regular appointment employees who have served the required period of continuous service in their current position are eligible to apply for posted jobs throughout the Laboratory. If an employee has not served the required period of continuous service, they may only apply for Laboratory jobs with the documented approval of their Division Leader. Please refer to Policy Policy P701 for applicant eligibility requirements.\n\nEqual Opportunity: Los Alamos National Laboratory is an equal opportunity employer. All employment practices are based on qualification and merit, without regard to protected categories such as race, color, national origin, ancestry, religion, age, sex, gender identity, sexual orientation, marital status or spousal affiliation, physical or mental disability, medical conditions, pregnancy, status as a protected veteran, genetic information, or citizenship within the limits imposed by federal, state, and local laws and regulations.  The Laboratory is also committed to making our workplace accessible to individuals with disabilities and will provide reasonable accommodations, upon request, for individuals to participate in the application and hiring process. To request such an accommodation, please send an email to applyhelp@lanl.gov or call (505)-664-6947.\nInstructions on How to Activate/ Create a LANL Jobs Account:\n\nFollow the instructions below if you have ever had an employee Z number, been a contractor, or received Los Alamos Lab insurance coverage to activate your account:\nSelect the Click Here button if you have been employed with the Lab or received insurance coverage.Please enter only your first and last name and current email address (an email with your validation code will be sent to you) to activate the account currently in our system.Enter your validation code as described in the email you receive and complete the 3-page registration form. Your account is now active, and you can apply for jobs or save to your basket. Important: Enter the validation code within 15 days to activate your account or your account will be deactivated.Follow the instructions below if you if you have never been employed with the Lab or received insurance coverage to create an account:\nSelect the Register button if you have never been employed with the Lab or received insurance coverage to Create an Account.From here, you will establish an account with username and password.How to Apply: Login to Your Account to Complete the Application Process\nClick the Vacancy Name number (in blue) to view any job's details.Click Apply or Add to Basket to apply later. Tip: To apply for a job or save your basket, you must have a LANL jobs account.If you experience any technical issues, please email applyhelp@lanl.gov for assistance.",
+      "apply_options": [
+        {
+          "title": "Los Alamos National Laboratory",
+          "link": "https://lanl.jobs/search/jobdetails/postdoctoral-researcher-quantum-computing-and-early-fault-tolerant-simulations/5fce1304-0926-4807-952f-6c59c0aee0f0?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Indeed",
+          "link": "https://www.indeed.com/viewjob?jk=e4e6a1abdd6db8c8&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "LinkedIn",
+          "link": "https://www.linkedin.com/jobs/view/postdoctoral-researcher-quantum-computing-and-early-fault-tolerant-simulations-at-los-alamos-national-laboratory-4466424261?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Jobs For Veterans & Job Fairs Nationwide | RecruitMilitary",
+          "link": "https://my.recruitmilitary.com/job/49460539/Postdoctoral-Researcher-Quantum-Computing-and-Early-Fault-Tolerant-Simulations-Los-Alamos-National-Laboratory-Los-Alamos-NM?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "ZipRecruiter",
+          "link": "https://www.ziprecruiter.com/c/los-alamos-national-laboratory/Job/Postdoctoral-Researcher:-Quantum-Computing-and-Early-Fault-Tolerant-Simulations/-in-Los-Alamos,NM?jid=43c3a9d610e32709&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "JobLeads",
+          "link": "https://www.jobleads.com/us/job/postdoctoral-researcher-quantum-computing-and-early-fault-tolerant-simulations--los-alamos--e4ebaea7db8be585f111505c0bd95553f?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Ladders",
+          "link": "https://www.theladders.com/job/postdoctoral-researcher-quantum-computing-and-early-fault-tolerant-simulations-losalamosnationallaboratory-los-alamos-nm_88838261?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Glassdoor",
+          "link": "https://www.glassdoor.com/job-listing/jv?jl=1010260604626&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJQb3N0ZG9jdG9yYWwgUmVzZWFyY2hlcjogUXVhbnR1bSBDb21wdXRpbmcgYW5kIEVhcmx5IEZhdWx0LVRvbGVyYW50IFNpbXVsYXRpb25zIiwiY29tcGFueV9uYW1lIjoiTG9zIEFsYW1vcyBOYXRpb25hbCBMYWJvcmF0b3J5IiwiaHRpZG9jaWQiOiIzTE9pbktLbkNFR3F3YmhFQUFBQUFBPT0iLCJobCI6ImVuIiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwU25WelNXZENTR2RSV1VNMmJGQXlkRzB3Wkdzek1Fb3haMEo2TkVoMGFGUk5hbmRGU0ZCamIwNVRZWFZEZGtSVWFVTXlUazFYY1U5WFpWcDZNR1ExUVZkNlkwVkJPWG80YzNaVFpWUlVWVXhXTmtoT1NXMUlaamR6ZVdKMlRubFJaazFSTTFFdFNWSkdZbFYwYVhOWlUyTk5RazExVVd0cGNHRlBVbTFDWDJsNGEyVlVOWGdTRjB4SVVFTmhjMHRPVFV4RVpUVk9iMUI2VERONWExRlpHaUpCUkhOeU9XWlJYMUpDTUMxS1drSmZVM296VWpKQ2VtRlBaMGh1U25OVmFIWjMiLCJmY3YiOiIzIiwiZmNfaWQiOiIzTE9pbktLbkNFR3F3YmhFQUFBQUFBPT0ifQ=="
+    },
+    {
+      "title": "PhD Research Intern, Quantum Simulation and AI - 2027",
+      "company_name": "NVIDIA",
+      "location": "California",
+      "via": "Teal",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "Currently pursuing a Ph.D. in Quantum Physics or related fields",
+            "1+ years of relevant research experience in quantum computing with a strong research record, well-referenced publications and/or patents",
+            "Strong basis in linear algebra and expertise in math for quantum computing and tensor algebraic methods",
+            "Experience with Python and, ideally, CUDA",
+            "Experience with commonly used machine learning frameworks (PyTorch, Tensorflow, JAX)",
+            "Strong communication and teamwork skills"
+          ]
+        },
+        {
+          "title": "Benefits",
+          "items": [
+            "Intern benefits"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": [
+            "You should have a strong background of research excellence, software systems building experience, and interest in advancing the state-of-the-art in quantum computing and applications of GPUs to the quantum computing ecosystem",
+            "Research and develop creative and innovative algorithms and software systems for the quantum computing ecosystem",
+            "Collaborate with research and product teams in the areas of machine learning, programming systems, and quantum computing",
+            "Publish and present your original research, speak at conferences and events",
+            "Collaborate with external quantum computing researchers",
+            "Run large-scale experiments on large clusters of GPUs to advance the state-of-the-art in quantum computing simulation"
+          ]
+        }
+      ],
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=quantum+machine+learning&htidocid=KEBfLN6grXBAnaIJAAAAAA%3D%3D&hl=en-US&shem=epsd1,esd2e,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_y2MvQrCMBRGce3s5HRn0aYURLBTsSAREX_AtdzW2ETSe0uSQl_HNzWCy3eGw_mSzyw5XXQFN-UVulaDpKAcreA6IoWxh7vpR4vBMAHSE0oJa8izfBtx5Ab-VbQH5s6qRaFDGPxOCO9t2vkQ0zZtuRdMquFJvLnxv6m9RqeGeK3qfJNN6UDdcn5-yEqWYAj2aM2LHRn8Ah5JbEKkAAAA&shmds=v1_ARwrE20xEPjWDpq_RdP6MVSWVs4MzEwXieIoGWM1URc-S75lRg&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=quantum+machine+learning&htidocid=KEBfLN6grXBAnaIJAAAAAA%3D%3D",
+      "extensions": [
+        "10 days ago",
+        "Internship"
+      ],
+      "source_link": "https://www.tealhq.com/job/phd-research-intern-quantum-simulation-and-ai_7ea1a3ea9d4555fc556948537f9d0add4ae38",
+      "job_title": "PhD Research Intern, Quantum Simulation and AI - 2027",
+      "description": "About the position\n\nNVIDIA Research is seeking leading researchers in the area of simulation and AI for quantum. You should have a strong background of research excellence, software systems building experience, and interest in advancing the state-of-the-art in quantum computing and applications of GPUs to the quantum computing ecosystem. Specific areas of research interest include but are not limited to bespoke quantum representations, tensor network methods, quantum surrogate modeling, quantum inverse design, and automated proving for quantum systems.\n\nResponsibilities\n\nResearch and develop creative and innovative algorithms and software systems for the quantum computing ecosystem.Collaborate with research and product teams in the areas of machine learning, programming systems, and quantum computing.Publish and present your original research, speak at conferences and events.Collaborate with external quantum computing researchers.Run large-scale experiments on large clusters of GPUs to advance the state-of-the-art in quantum computing simulation.Requirements\n\nCurrently pursuing a Ph.D. in Quantum Physics or related fields1+ years of relevant research experience in quantum computing with a strong research record, well-referenced publications and/or patents.Strong basis in linear algebra and expertise in math for quantum computing and tensor algebraic methods.Experience with Python and, ideally, CUDAExperience with commonly used machine learning frameworks (PyTorch, Tensorflow, JAX).Strong communication and teamwork skills.Benefits\n\nIntern benefits",
+      "apply_options": [
+        {
+          "title": "Teal",
+          "link": "https://www.tealhq.com/job/phd-research-intern-quantum-simulation-and-ai_7ea1a3ea9d4555fc556948537f9d0add4ae38?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Monster",
+          "link": "https://www.monster.com/job-openings/phd-research-intern-quantum-simulation-and-ai-2027-ca--5b2e0c16-dfe1-45b6-ac1a-dbf2dce11493?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Trabajo.org",
+          "link": "https://us.trabajo.org/job-4023-53dfb84793f106c8228bdc52274f3904?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJQaEQgUmVzZWFyY2ggSW50ZXJuLCBRdWFudHVtIFNpbXVsYXRpb24gYW5kIEFJIC0gMjAyNyIsImNvbXBhbnlfbmFtZSI6Ik5WSURJQSIsImh0aWRvY2lkIjoiS0VCZkxONmdyWEJBbmFJSkFBQUFBQT09IiwiaGwiOiJlbiIsImZjIjoiRXN3QkNvd0JRVXBwVkRSMFNWZGFhRlV3T0drNFNUTjVhemhuWVRSblNHVkRZVkphVkVOQkxYbFVSRE5VTldOalgyUlZkVzQzVXpKT2JYVXRRM1p6TTJwdVgyazNWMkpST0dwd05VcDRkMmRwTVhCQ1FXaFNNMGwwU1hOQ1NFeHpNRkZHYzFGUU1saHJZekJHZWtadmFVaGxNVmxIZURSTlV6Sm1SV2hXV1ZFdFJHdFRYMjlpTFdST2FVdHlTMVJLUTFFU0YweElVRU5oYzB0T1RVeEVaVFZPYjFCNlRETjVhMUZaR2lKQlJITnlPV1pTZWxOb2NHcGpSVzAyYW5GMGFVODVWelF5ZVhoRGRFOXhZVU5CIiwiZmN2IjoiMyIsImZjX2lkIjoiS0VCZkxONmdyWEJBbmFJSkFBQUFBQT09In0="
+    },
+    {
+      "title": "Quantum Algorithms Engineer Intern 2027",
+      "company_name": "IBM",
+      "location": "Cambridge, MA",
+      "via": "BeBee",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "Doctorate Degree",
+            "Required Technical And Professional Expertise",
+            "Currently pursuing a Ph.D. or Master's degree in Physics, Electrical and Computer Engineering, Mathematics, or a closely related field, with research focused on quantum computing or a closely related area",
+            "Strong understanding of fundamental concepts in quantum computing, quantum information, and quantum algorithms",
+            "Hands-on experience implementing quantum algorithms using Python and at least one quantum computing SDK, preferably Qiskit",
+            "Experience with numerical computing and scientific programming in Python, including commonly used scientific computing libraries",
+            "Ability to independently formulate technical problems, design experiments, analyze results, and communicate conclusions",
+            "Experience conducting academic or industrial research, preferably with research publications or conference contributions",
+            "Strong problem-solving and analytical skills",
+            "Ability to work collaboratively in a research and engineering environment"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": [
+            "The intern will work with researchers and engineers to develop, implement, and evaluate quantum algorithms for challenging problems in areas such as chemistry, materials science, optimization, and quantum machine learning",
+            "The work will involve using Qiskit and IBM Quantum systems to design experiments, benchmark algorithms, investigate scalability, and explore techniques for improving performance on current quantum processors",
+            "As a Quantum Algorithm Engineer Intern, you will contribute to research and development of quantum algorithms and their implementation on near-term quantum computers",
+            "The position will provide an opportunity to contribute to research prototypes, technical demonstrations, and scientific publications",
+            "Research and implement quantum algorithms for practical scientific and computational problems",
+            "Develop and optimize quantum circuits using Qiskit and the IBM Quantum software stack",
+            "Execute experiments on real quantum processors and analyze experimental results",
+            "Investigate techniques for improving circuit performance, including transpilation, circuit optimization, error suppression, and error mitigation",
+            "Benchmark quantum algorithms using appropriate classical baselines and simulation methods",
+            "Analyze the scalability and computational requirements of quantum algorithms and identify potential bottlenecks",
+            "Contribute to research prototypes, technical demonstrations, and software implementations",
+            "Collaborate with researchers and engineers across quantum algorithms, software, and applications"
+          ]
+        }
+      ],
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=quantum+machine+learning&htidocid=gTTHjYydZDqPQSwqAAAAAA%3D%3D&hl=en-US&shem=epsd1,esd2e,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xXEsQrCMBAAUFw7OzndLNqUgggKQhWRCh38gpLWI4kkdyV3hf6HPyy-4RXfVXF5zZZ0TtBExzmoTwJ3coEQM7SkmAnqqj7CHp48gKDNowcmeDC7iJuzV53kZIxILJ2o1TCWIyfDhAMv5sOD_OvF24xTtIp9faiWciK3XbfXDgLBzaYhh7fDHXTND0F0DDCWAAAA&shmds=v1_ARwrE23DOsGvMXFtTdcIWzWGcMMjLK5E6thSQfpsPFy-qxmysw&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=quantum+machine+learning&htidocid=gTTHjYydZDqPQSwqAAAAAA%3D%3D",
+      "thumbnail": "https://serpapi.com/searches/6ac2732a71b492c842fabca8/images/WR6YoxRcSJIgzL8jtjgoDlNmMtdoCQ0Arn6jwpCwPEA.jpeg",
+      "extensions": [
+        "5 days ago",
+        "6,820–13,640 a month",
+        "Full-time"
+      ],
+      "source_link": "https://bebee.com/us/jobs/quantum-algorithms-engineer-intern-2027-ibm-cambridge-ma--t7xk-857834532",
+      "job_title": "Quantum Algorithms Engineer Intern 2027",
+      "description": "Introduction\nAt IBM Quantum, our mission is to bring useful quantum computing to the world by advancing quantum hardware, software, and algorithms. This internship provides an opportunity to contribute to research at the intersection of quantum algorithms, quantum software, and quantum hardware.\n\n\nThe intern will work with researchers and engineers to develop, implement, and evaluate quantum algorithms for challenging problems in areas such as chemistry, materials science, optimization, and quantum machine learning. The work will involve using Qiskit and IBM Quantum systems to design experiments, benchmark algorithms, investigate scalability, and explore techniques for improving performance on current quantum processors.\n\n\nThis is a research-oriented internship intended for a highly motivated graduate student who is interested in translating advances in quantum computing into practical demonstrations and scientific results. The intern will have opportunities to contribute to research prototypes, technical publications, and collaborations across IBM Quantum.\n\n\nYour Role And Responsibilities\nAs a Quantum Algorithm Engineer Intern, you will contribute to research and development of quantum algorithms and their implementation on near-term quantum computers. You will work at the intersection of quantum algorithms, quantum software, and quantum hardware, with opportunities to explore applications in areas such as chemistry, materials science, optimization, and quantum machine learning.\n\n\nThe intern will work closely with quantum researchers and engineers to investigate algorithmic approaches, implement and benchmark quantum circuits, and evaluate their performance using both classical simulation and real quantum processors. The position will provide an opportunity to contribute to research prototypes, technical demonstrations, and scientific publications.\n\n\nKey Responsibilities Include\n\nResearch and implement quantum algorithms for practical scientific and computational problems.\nDevelop and optimize quantum circuits using Qiskit and the IBM Quantum software stack.\nExecute experiments on real quantum processors and analyze experimental results.\nInvestigate techniques for improving circuit performance, including transpilation, circuit optimization, error suppression, and error mitigation.\nBenchmark quantum algorithms using appropriate classical baselines and simulation methods.\nAnalyze the scalability and computational requirements of quantum algorithms and identify potential bottlenecks.\nContribute to research prototypes, technical demonstrations, and software implementations.\nCollaborate with researchers and engineers across quantum algorithms, software, and applications.\n\nPreferred Education\nDoctorate Degree\nRequired Technical And Professional Expertise\n\nCurrently pursuing a Ph.D. or Master's degree in Physics, Electrical and Computer Engineering, Mathematics, or a closely related field, with research focused on quantum computing or a closely related area.\nStrong understanding of fundamental concepts in quantum computing, quantum information, and quantum algorithms.\nHands-on experience implementing quantum algorithms using Python and at least one quantum computing SDK, preferably Qiskit.\nExperience with numerical computing and scientific programming in Python, including commonly used scientific computing libraries.\nAbility to independently formulate technical problems, design experiments, analyze results, and communicate conclusions.\nExperience conducting academic or industrial research, preferably with research publications or conference contributions.\nStrong problem-solving and analytical skills.\nAbility to work collaboratively in a research and engineering environment.\n\nPreferred Technical And Professional Experience\n\nExperience executing quantum algorithms on real quantum processors.\nFamiliarity with the IBM Quantum platform, Qiskit Runtime, and Qiskit workflows.\nExperience with quantum circuit optimization, transpilation, error suppression, or error mitigation.\nKnowledge of variational quantum algorithms, quantum simulation, quantum chemistry, quantum optimization, or quantum machine learning.\nExperience benchmarking quantum algorithms against classical methods or simulators.\nFamiliarity with tensor-network methods, MPS simulation, stabilizer simulation, or other approaches for assessing classical simulability of quantum circuits.\nExperience with HPC or hybrid quantum-classical computing workflows.\nFamiliarity with software engineering practices such as Git, testing, documentation, and reproducible research.\nDemonstrated ability to work across disciplinary boundaries and communicate technical concepts to researchers and engineers from different backgrounds.",
+      "apply_options": [
+        {
+          "title": "BeBee",
+          "link": "https://bebee.com/us/jobs/quantum-algorithms-engineer-intern-2027-ibm-cambridge-ma--t7xk-857834532?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Adzuna",
+          "link": "https://www.adzuna.com/details/5905498632?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJRdWFudHVtIEFsZ29yaXRobXMgRW5naW5lZXIgSW50ZXJuIDIwMjciLCJjb21wYW55X25hbWUiOiJJQk0iLCJodGlkb2NpZCI6ImdUVEhqWXlkWkRxUFFTd3FBQUFBQUE9PSIsImhsIjoiZW4iLCJmYyI6IkVzd0JDb3dCUVVwcFZEUjBURkp0UjFCSWNqQnZZbXg0ZFVGMU9WWk5OVjlaYzNwdFJIZ3hOV0p5VVZZM1VsSk9hQzAwUTNwMmVGWkVZMlphVlZWZlpubDFOR2hET1dwRlFYWnBVbUowYmxJMmRrcFFTVVJXWkRJM2VFVk1Oa0Y0U1RGRlNqWlZSekI1UkdWSWIyaERkakZyVGxCRlZWcDFVa2xyYTJZeVJXUm9VR1JwZFVoMmQwNU9RWEZRYjNRdFFrMFNGMHhJVUVOaGMwdE9UVXhFWlRWT2IxQjZURE41YTFGWkdpSkJSSE55T1daVWIzbDZNVmgzU1hCTk0wRmxhM0pUYUVzME4xRktaR3hZVkVoMyIsImZjdiI6IjMiLCJmY19pZCI6ImdUVEhqWXlkWkRxUFFTd3FBQUFBQUE9PSJ9"
+    },
+    {
+      "title": "Quantum Algorithms Intern: ML & Optimization Projects",
+      "company_name": "Allstate Insurance Company",
+      "location": "Anywhere",
+      "via": "JobLeads",
+      "job_highlights": [
+        {
+          "title": "Responsibilities",
+          "items": [
+            "The role emphasizes hands-on research, exposure to cutting-edge quantum technologies, and clear communication of findings"
+          ]
+        }
+      ],
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=quantum+machine+learning&htidocid=ZxSK6vxgf3NCRBBZAAAAAA%3D%3D&hl=en-US&shem=epsd1,esd2e,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xWOMQrCQBBFsfUIVlNZKCYi2GgVLERRVMRaNuuQ3bA7s-xMQD2ZxzNpfvPegz_-jcanW2dIuwhVaDh7dVHgQIqZNnA-wRQuSX30X6OeCa6ZW7QqsIAj1yBosnXQgz1zE3CydapJNmUpEopGtK9sYTmWTFjzu2y5lmGe4kzGFIzic7VevotEzWxehTAk2B-QLhuyCDuOydAHPMGDvOIL7oMhf6VqhZy7AAAA&shmds=v1_ARwrE22eaZDp-fnoGj7AWGJqOZ-Y57D0GPkVNLRwkKb10PORLw&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=quantum+machine+learning&htidocid=ZxSK6vxgf3NCRBBZAAAAAA%3D%3D",
+      "extensions": [
+        "6 days ago",
+        "45K–50K a year",
+        "Work from home",
+        "Full-time"
+      ],
+      "source_link": "https://www.jobleads.com/us/job/quantum-algorithms-intern-ml-optimization-projects--united-states--eea1330c143e355117dd5d9de986cdc2d",
+      "job_title": "Quantum Algorithms Intern: ML & Optimization Projects",
+      "description": "Allstate is offering a Summer 2027 Quantum Algorithm Development Internship in the Chicago area, designed for senior undergraduates, graduates, or recent grads in CS, physics, math, or related fields. You will explore quantum computing applications for optimization and ML, build simulations, and collaborate with industry and academia partners.\n\nThe role emphasizes hands-on research, exposure to cutting-edge quantum technologies, and clear communication of findings.",
+      "apply_options": [
+        {
+          "title": "JobLeads",
+          "link": "https://www.jobleads.com/us/job/quantum-algorithms-intern-ml-optimization-projects--united-states--eea1330c143e355117dd5d9de986cdc2d?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "BeBee",
+          "link": "https://bebee.com/us/jobs/quantum-algorithms-intern-ml-optimization-projects-allstate-insurance-company--jobmesh-262b8745-5171-46d4-8181-6fe594d979a6?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJRdWFudHVtIEFsZ29yaXRobXMgSW50ZXJuOiBNTCBcdTAwMjYgT3B0aW1pemF0aW9uIFByb2plY3RzIiwiY29tcGFueV9uYW1lIjoiQWxsc3RhdGUgSW5zdXJhbmNlIENvbXBhbnkiLCJodGlkb2NpZCI6Ilp4U0s2dnhnZjNOQ1JCQlpBQUFBQUE9PSIsImhsIjoiZW4iLCJmYyI6IkVzd0JDb3dCUVVwcFZEUjBUR0pSVVZWaFkzbFNhVTgxZURWcWVUWXpNVVZtWTJ4RVFVSkxaMmxzZVhWSE5tVTViRTFwZVhocmRYcEpiRzF5VG1OelUwNXNSMUkzUjFGQ1ZrWlBhakJCWWtkUGRITjJSakpOZUdWRE1saGhRWFpTZFRkVlJtSkdTRlpMTm5kUU5XeEllVlE0ZEU5MWIwZGFZMmhKUldNMVNVZERXVXRWYm1sYVFtUnJVemhsY210eVFWb1NGMHhJVUVOaGMwdE9UVXhFWlRWT2IxQjZURE41YTFGWkdpSkJSSE55T1daU1gzbHJXRTB3YlZRMFFsQmxaekZ1U0hwMk4wOUtjMFZUT0VOQiIsImZjdiI6IjMiLCJmY19pZCI6Ilp4U0s2dnhnZjNOQ1JCQlpBQUFBQUE9PSJ9"
+    },
+    {
+      "title": "Quantum Computing Coach",
+      "company_name": "Leland",
+      "location": "Youngstown, OH",
+      "via": "Edinburgh City FC",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "Ideal candidates have professional or academic experience in quantum computing, prior coaching or mentoring experience, and a clear, structured approach to breaking down highly technical concepts"
+          ]
+        },
+        {
+          "title": "Benefits",
+          "items": [
+            "The chance to join a world-class team helping people achieve their career and educational dreams",
+            "Work in a collaborative, high-energy environment where your contributions have a direct impact"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": [
+            "Operate in a fast-paced, AI-native environment"
+          ]
+        }
+      ],
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=quantum+machine+learning&htidocid=laa7sZSiTO2tx3ElAAAAAA%3D%3D&hl=en-US&shem=epsd1,esd2e,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xWLsQrCMBBAce0XiNPNookILjo6KCKIo1O51pC0JHehd8H-gb9tXB7vDa_5LhrzLEhaEpw55aID-WrYB9jCjTsQh1MNJrgw--hWp6Ca5WitSDReFHXoTc_JMrmOZztyJ3-0EnByOaK6dn_YzSaTXy_vLiK9YSB4caG684c28Lj-AIa80VuKAAAA&shmds=v1_ARwrE21DaVTlqv2DJyqs29OKK-zSaYj6Q5ieqWgNU13IqY8eHQ&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=quantum+machine+learning&htidocid=laa7sZSiTO2tx3ElAAAAAA%3D%3D",
+      "extensions": [
+        "15 hours ago",
+        "Full-time"
+      ],
+      "source_link": "https://jobs.edinburghcityfc.com/jobs/quantum-computing-coach-youngstown-ohio/3003411948-2/",
+      "job_title": "Quantum Computing Coach",
+      "description": "Quantum Computing Coach Leland is building the home for ambition in the age of AI. We connect people with the experts, programs, and communities they need to land the job, get into the school, or upskill for a world being rewritten by AI. We help businesses become AI-native through training, hiring, and infrastructure. Since our founding in 2021, we've helped tens of thousands of people reach their most ambitious goals and raised $19M from world-class investors. Ambition is sacred to us, and we've built a product that takes that seriously. \n\nWe're seeking an experienced quantum computing coach to work with students and professionals pursuing careers in quantum computing. This role includes teaching core skills in quantum algorithms and programming, quantum hardware and systems, quantum cryptography and security, and quantum machine learning, as well as guiding students interested in quantum research and academia. Coaches also support the career side of the journey, including resume review, cover letters, LinkedIn review, behavioral interview prep, and technical interview prep, as well as salary negotiation and networking strategy to help candidates land the right role. Ideal candidates have professional or academic experience in quantum computing, prior coaching or mentoring experience, and a clear, structured approach to breaking down highly technical concepts. Coaches set their own hours and rates, host sessions virtually, and partner with our team to deliver a high-quality, supportive experience for every student. \n\nWhy Leland? The chance to join a world-class team helping people achieve their career and educational dreams \n\nWork in a collaborative, high-energy environment where your contributions have a direct impact \n\nOperate in a fast-paced, AI-native environment \n\nWe don't hire people who merely want to work for a great company; we hire people who want to make a great company \n\nLeland is an equal opportunity employer. We encourage candidates of all backgrounds and demographics to apply.",
+      "apply_options": [
+        {
+          "title": "Edinburgh City FC",
+          "link": "https://jobs.edinburghcityfc.com/jobs/quantum-computing-coach-youngstown-ohio/3003411948-2/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Move Collective Jobs",
+          "link": "https://jobs.movecollective.uk/jobs/quantum-computing-coach-youngstown-ohio/3003411948-2/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Hire The Better",
+          "link": "https://www.hirethebetter.com/jobs/quantum-computing-coach-youngstown-ohio/3003411948-2/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Jobs ExForces",
+          "link": "https://jobsforces.net/jobs/quantum-computing-coach-youngstown-ohio/3003411948-2/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Jobs For Col U Fans",
+          "link": "https://jobs.cu-fc.com/jobs/quantum-computing-coach-youngstown-ohio/3003411948-2/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "FOX8 Openings",
+          "link": "https://openings.fox8jobs.com/jobs/quantum-computing-coach-youngstown-ohio/3003411948-2/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJRdWFudHVtIENvbXB1dGluZyBDb2FjaCIsImNvbXBhbnlfbmFtZSI6IkxlbGFuZCIsImh0aWRvY2lkIjoibGFhN3NaU2lUTzJ0eDNFbEFBQUFBQT09IiwiaGwiOiJlbiIsImZjIjoiRXN3QkNvd0JRVXBwVkRSMFNWUXdSVXgyY0hwblYyNWFVR1JzU1dWSkxXZEZjbW90ZWt0eFEzVm5TalkzY2s1ZlNrWTNZa3RTYWpNMFVEWTBNM00wTm1aSlVFdG1SVm8zUlUxbldrTjFRbGRmY1hsb1VtVTJSMGxKZUVOcFNUa3pNWEpTU0hacU0zZFNhVkJmY2xsd1dXOHphR2t5WTBvM01qWldUR3Q2ZUZkZllXNTBkSEoxUlZwSGIxQXdOVEZoZWtnU0YweElVRU5oYzB0T1RVeEVaVFZPYjFCNlRETjVhMUZaR2lKQlJITnlPV1pTWkVab1oyVnZWbUpZWjNRelFVeFVNMVJCVTJSQmRGWTFiM1ozIiwiZmN2IjoiMyIsImZjX2lkIjoibGFhN3NaU2lUTzJ0eDNFbEFBQUFBQT09In0="
+    },
+    {
+      "title": "Research Scientist - Frontier AI/ML & Quantum Algorithms",
+      "company_name": "Sygaldry Technologies",
+      "location": "Millbrae, CA",
+      "via": "Bandana.com",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "Have a research record in machine learning, AI, statistics, physics, applied mathematics, computer science, quantum information, or a related field",
+            "Have deep expertise in at least two of the following: generative modeling, probabilistic inference, uncertainty quantification, geometric deep learning, graph neural networks, optimization, reinforcement learning/control, numerical methods, scientific machine learning, quantum algorithms, or quantum information",
+            "Have published research relevant to audiences at NeurIPS, ICML, ICLR, AISTATS, UAI, COLT, QIP, TQC, PRX Quantum, Nature, Science, or similar",
+            "Can move between theory and implementation: deriving algorithms, building prototypes, running careful experiments, and communicating results clearly",
+            "Are experienced with ML frameworks (PyTorch, JAX) and efficient inference implementation",
+            "Are excited to work with quantum hardware teams and help define what AI workloads should demand from future fault-tolerant quantum systems",
+            "Communicate complex ideas clearly across research communities",
+            "Value rigor: you are comfortable asking where quantum computation can help, where it cannot, and what evidence would distinguish the two",
+            "Research experience in diffusion/flow models, energy-based models, probabilistic programming, Bayesian deep learning, neural SDEs/ODEs, simulation-based inference, or scalable Monte Carlo",
+            "Experience with AI for science: molecular design, protein design, drug discovery, materials discovery, weather or climate prediction, quantum chemistry, PDE modeling, dynamical systems, robotics, or control",
+            "Experience with graph/geometric learning, equivariant architectures, neural operators, tensor networks, manifold methods, or structured world models",
+            "Background in quantum algorithms, computational complexity, quantum simulation, quantum chemistry, fault tolerance, resource estimation, or quantum information theory",
+            "Experience with JAX, PyTorch, CUDA/Triton, distributed training/inference, differentiable simulation, or high-performance scientific computing",
+            "A track record of publishing, open-source software, or building research systems that influenced a field"
+          ]
+        },
+        {
+          "title": "Benefits",
+          "items": [
+            "Visa Sponsorship - We know what it takes to make top talent thrive here",
+            "Compensation - We value your contribution and invest in your future with a competitive salary and meaningful equity",
+            "Benefits - Your well-being matters",
+            "We provide company-sponsored health coverage to give you and your family peace of mind",
+            "Connection - Whether it’s company offsite or casual crew socials, we make time to connect, recharge, and have fun together",
+            "Time Off - We trust you to take the time you need",
+            "Unlimited PTO so you can rest, recharge, and come back ready to make an impact",
+            "$200K – $300K",
+            "Offers Equity"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": [
+            "Develop and study models for high-dimensional scientific prediction, generation, and design, including:",
+            "Diffusion models, flow matching, consistency models, score-based generative models, energy-based models, latent-variable models, autoregressive models, and normalizing flows",
+            "Scientific foundation models for molecules, materials, proteins, quantum systems, weather, climate, PDEs, and dynamical systems",
+            "Graph neural networks, geometric deep learning, equivariant models, neural operators, tensor methods, manifold learning, and learning on structured state spaces",
+            "Models that combine prediction, uncertainty, active learning, and closed-loop design for scientific discovery",
+            "Learning, Inference, and Reasoning",
+            "Build algorithms and theory for the computational primitives that matter most for next-generation AI systems:",
+            "Probabilistic inference, Bayesian modeling, variational inference, Monte Carlo methods, simulation-based inference, uncertainty quantification, and calibration",
+            "Optimization, sampling, amortized inference, sequential decision-making, Bayesian experimental design, reinforcement learning, planning, and control",
+            "Scientific reasoning systems, model-guided discovery, algorithmic discovery, and agents that can propose, test, and refine hypotheses",
+            "Benchmarking frameworks that reveal when a new computational substrate changes scaling behavior, not just constant factors",
+            "Quantum Algorithms for AI Workloads",
+            "Quantum algorithms for sampling, integration, Monte Carlo acceleration, linear algebra, optimization, Hamiltonian simulation, quantum simulation, and tensor-structured computation",
+            "Fault-tolerant quantum algorithms, resource estimation, complexity analysis, block encoding, QSVT, LCU methods, amplitude estimation, phase estimation, and quantum walks",
+            "Hybrid quantum-classical workflows where quantum primitives are embedded inside classical AI pipelines",
+            "New quantum-native model classes, kernels, embeddings, generative processes, and inference procedures that are mathematically motivated rather than benchmark-driven alone",
+            "Collaborate closely with quantum architecture, systems, and hardware teams to connect AI workloads to real machine requirements:",
+            "Translate AI and scientific-computing bottlenecks into quantum resource requirements",
+            "Design benchmarks that compare quantum, classical, and hybrid approaches under realistic assumptions",
+            "Inform architecture choices by identifying the algorithms, error budgets, and primitives that matter for future AI workloads",
+            "Build prototypes in Python/JAX/PyTorch and, when useful, quantum software frameworks such as PennyLane, Qiskit, Cirq, CUDA-Q, TensorCircuit, or custom simulators"
+          ]
+        }
+      ],
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=quantum+machine+learning&htidocid=AD2t-m5NnV0ynJgrAAAAAA%3D%3D&hl=en-US&shem=epsd1,esd2e,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_y2LsQrCMBBAce0nON2ig2gjgotORVAUi2jdSxqPJJLmSu4K-mH-nxVcHm94L_uMsssNGXUyDirjMYpngQXsEw2KCYqjKs8whWuvo_QtFMFS8uJaHqoTNfCfKcKByAYcb51IxxulmENuWbR4kxtqFUVs6KWe1PAPNTudsAtasF6tl6-8i3Y2qd5Wh0d6wx2NixTIemTwEUofQpM0zmFXfAHKeRLHuAAAAA&shmds=v1_ARwrE23WlwoRpz-2_3R9dEU9DjGPy8KFWbN91cM1Ttt1N0Cjhw&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=quantum+machine+learning&htidocid=AD2t-m5NnV0ynJgrAAAAAA%3D%3D",
+      "thumbnail": "https://serpapi.com/images/i/_9j_4AAQSkZJRgABAQAAAQABAAD_2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys_RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N__AABEIADgAOAMBIgACEQEDEQH_xAAaAAEBAAMBAQAAAAAAAAAAAAAABwQFBggC_8QAOhAAAAUBBAUJBAsAAAAAAAAAAAECAwUEBgcRMRIhNVGyCBUWMlJhc3SxExRBcSMkM1VicoGCkZWh_8QAFAEBAAAAAAAAAAAAAAAAAAAAAP_EABQRAQAAAAAAAAAAAAAAAAAAAAD_2gAMAwEAAhEDEQA_AI2AAAAM-EhpGekEUERSuVNQv4JLUgt6jySXeYrZXFl0fwOWPnvrY6P1f8mHW_d_gCKgNjPQclZ6vVQzFIunfLLS1pWW9KsjL5DXAAAAAOsu7sU_bWUeYTUppqWlSldQ5hivAzPAklv1HrPLvHJixcnHaM94LHqsBu5y1tmLsY5cJZalaqZMvtEkrEkq7Ty8zP8AD6EJJ04tKVoOfedXvfss_o9HsaGWj3frnrGqmttSPm3uMxhAPQNnrZWZvKjkwlp6RliQV1Wlnglau00vMld2fzIS28qxR2KlWGG6v3mlqkqWwpRYLSRGRGSvgeZayz3EOegtuxvnGeMhU-UbtOC8B7iQAjwAAALFycdoz3gseqxHRQrn7YRNkKuUdmFPpTUttJb9k0a9aTVjjuzIBxU1tqR829xmMIW922F0rri3HYJta1qNSlKjCMzM8zHz0sui-4Gf6wgEggtuxvnGeMhU-UbtOC8B7iQM5q2N0rLqHWoJtDiFEpKkxhEaTLIyHI3v2vibXVsW7DqfUmmacS57Vo0a1Gkyw_gwE-AAAAAAAAAAAAAAAAH_2Q.jpeg",
+      "extensions": [
+        "25 days ago",
+        "200K–300K a year",
+        "Full-time",
+        "Health insurance",
+        "Paid time off"
+      ],
+      "source_link": "https://bandana.com/jobs/54266fee-915d-459b-9aef-874046abef71",
+      "job_title": "Research Scientist - Frontier AI/ML & Quantum Algorithms",
+      "description": "About SygaldrySygaldry Technologies is building quantum-accelerated AI servers to exponentially speed up training and inference for AI. By integrating quantum and AI, we're accelerating the path to superintelligence, and addressing the problem of rising compute costs and energy bottlenecks. Sygaldry AI servers combine multiple qubit types within a single, fault-tolerant architecture to deliver the combination of cost, scale, and speed necessary for advanced AI applications. We pioneer new domains in physics, engineering, and AI, tackling the hardest challenges with a grounded, optimistic, and rigorous culture. We're looking for individuals ready to define the intersection of quantum and AI and drive its profound global impact.\n\n\n\nAbout the RoleFrontier AI is moving toward scientific reasoning and design: molecules, materials, proteins, weather, climate, dynamical systems, quantum devices, and controlled physical systems. These domains expose deep computational bottlenecks in sampling, probabilistic inference, optimization, simulation, uncertainty quantification, inverse design, planning, and control.\n\nSygaldry is building quantum-accelerated AI systems for this next era. We are looking for a Research Scientist who can help define Quantum AI: not just quantum machine learning, but the broader study of how fault-tolerant quantum computation can transform the primitives of learning, inference, reasoning, prediction, geometry, and control.\n\nIn this role, you will work at the intersection of frontier AI/ML, quantum algorithms, scientific machine learning, and hardware-software co-design. You will identify where quantum computation can provide genuine structural advantage for AI workloads, develop new theoretical and empirical frameworks, and translate research insights into systems that inform real quantum hardware and AI architecture decisions.\n\n What You'll Work OnFrontier AI for Scientific Discovery \n\nDevelop and study models for high-dimensional scientific prediction, generation, and design, including:\n\nDiffusion models, flow matching, consistency models, score-based generative models, energy-based models, latent-variable models, autoregressive models, and normalizing flows.\n\nScientific foundation models for molecules, materials, proteins, quantum systems, weather, climate, PDEs, and dynamical systems.\n\nGraph neural networks, geometric deep learning, equivariant models, neural operators, tensor methods, manifold learning, and learning on structured state spaces.\n\nModels that combine prediction, uncertainty, active learning, and closed-loop design for scientific discovery.\n\nLearning, Inference, and Reasoning\n\nBuild algorithms and theory for the computational primitives that matter most for next-generation AI systems:\n\nProbabilistic inference, Bayesian modeling, variational inference, Monte Carlo methods, simulation-based inference, uncertainty quantification, and calibration.\n\nOptimization, sampling, amortized inference, sequential decision-making, Bayesian experimental design, reinforcement learning, planning, and control.\n\nScientific reasoning systems, model-guided discovery, algorithmic discovery, and agents that can propose, test, and refine hypotheses.\n\nBenchmarking frameworks that reveal when a new computational substrate changes scaling behavior, not just constant factors.\n\nQuantum Algorithms for AI Workloads\n\nIdentify where quantum computation can accelerate or reshape AI-relevant subroutines, including:\n\nQuantum algorithms for sampling, integration, Monte Carlo acceleration, linear algebra, optimization, Hamiltonian simulation, quantum simulation, and tensor-structured computation.\n\nFault-tolerant quantum algorithms, resource estimation, complexity analysis, block encoding, QSVT, LCU methods, amplitude estimation, phase estimation, and quantum walks.\n\nHybrid quantum-classical workflows where quantum primitives are embedded inside classical AI pipelines.\n\nNew quantum-native model classes, kernels, embeddings, generative processes, and inference procedures that are mathematically motivated rather than benchmark-driven alone.\n\nHardware-Software Co-Design\n\nCollaborate closely with quantum architecture, systems, and hardware teams to connect AI workloads to real machine requirements:\n\nTranslate AI and scientific-computing bottlenecks into quantum resource requirements.\n\nDesign benchmarks that compare quantum, classical, and hybrid approaches under realistic assumptions.\n\nInform architecture choices by identifying the algorithms, error budgets, and primitives that matter for future AI workloads.\n\nBuild prototypes in Python/JAX/PyTorch and, when useful, quantum software frameworks such as PennyLane, Qiskit, Cirq, CUDA-Q, TensorCircuit, or custom simulators.\n\n\n\nYou May Be a Good Fit If YouHave a research record in machine learning, AI, statistics, physics, applied mathematics, computer science, quantum information, or a related field.\n\nHave deep expertise in at least two of the following: generative modeling, probabilistic inference, uncertainty quantification, geometric deep learning, graph neural networks, optimization, reinforcement learning/control, numerical methods, scientific machine learning, quantum algorithms, or quantum information.\n\nHave published research relevant to audiences at NeurIPS, ICML, ICLR, AISTATS, UAI, COLT, QIP, TQC, PRX Quantum, Nature, Science, or similar.\n\nCan move between theory and implementation: deriving algorithms, building prototypes, running careful experiments, and communicating results clearly.\n\nAre experienced with ML frameworks (PyTorch, JAX) and efficient inference implementation.\n\nAre excited to work with quantum hardware teams and help define what AI workloads should demand from future fault-tolerant quantum systems.\n\nCommunicate complex ideas clearly across research communities\n\nValue rigor: you are comfortable asking where quantum computation can help, where it cannot, and what evidence would distinguish the two.\n\n Strong Candidates May HaveResearch experience in diffusion/flow models, energy-based models, probabilistic programming, Bayesian deep learning, neural SDEs/ODEs, simulation-based inference, or scalable Monte Carlo.\n\nExperience with AI for science: molecular design, protein design, drug discovery, materials discovery, weather or climate prediction, quantum chemistry, PDE modeling, dynamical systems, robotics, or control.\n\nExperience with graph/geometric learning, equivariant architectures, neural operators, tensor networks, manifold methods, or structured world models.\n\nBackground in quantum algorithms, computational complexity, quantum simulation, quantum chemistry, fault tolerance, resource estimation, or quantum information theory.\n\nExperience with JAX, PyTorch, CUDA/Triton, distributed training/inference, differentiable simulation, or high-performance scientific computing.\n\nA track record of publishing, open-source software, or building research systems that influenced a field.\n\n\n\nHow We’re DifferentAt Sygaldry, curiosity and intellectual courage drive our work. We approach ambitious challenges with a grounded, optimistic, and rigorous culture and know that kind people build the strongest teams. We prioritize mission over ego and collaborate openly with a strong sense of shared purpose. We dream big, yet we execute with a love of detail. We’re looking for scientists, engineers, and operators to forge new paths with us at the intersection of quantum and AI. \n\n\n\nCulture & BenefitsVisa Sponsorship - We know what it takes to make top talent thrive here. We’re open to supporting visas whenever possible.\n\nCompensation - We value your contribution and invest in your future with a competitive salary and meaningful equity.\n\nBenefits - Your well-being matters. We provide company-sponsored health coverage to give you and your family peace of mind.\n\nConnection - Whether it’s company offsite or casual crew socials, we make time to connect, recharge, and have fun together.\n\nTime Off - We trust you to take the time you need. Unlimited PTO so you can rest, recharge, and come back ready to make an impact.\n\n\n\nWe encourage applications from candidates with diverse backgrounds. We are an equal opportunity employer, and we do not discriminate on the basis of race, religion, color, national origin, sex, sexual orientation, age, veteran status, disability, genetic information, or other applicable legally protected characteristic.\n\n\n\nWe encourage you to apply even if you do not believe you meet every single qualification. If you don’t think this role is right for you, but you believe that you would have something meaningful to contribute to our mission, please reach out at letsbuild@sygaldry.com\n\n\n\nCompensation:\n$200K – $300K • Offers Equity",
+      "apply_options": [
+        {
+          "title": "Bandana.com",
+          "link": "https://bandana.com/jobs/54266fee-915d-459b-9aef-874046abef71?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJSZXNlYXJjaCBTY2llbnRpc3QgLSBGcm9udGllciBBSS9NTCBcdTAwMjYgUXVhbnR1bSBBbGdvcml0aG1zIiwiY29tcGFueV9uYW1lIjoiU3lnYWxkcnkgVGVjaG5vbG9naWVzIiwiaHRpZG9jaWQiOiJBRDJ0LW01Tm5WMHluSmdyQUFBQUFBPT0iLCJobCI6ImVuIiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwU1dvMWF6aFJTR0ZOYzBocFozRkNhakJZVUhoSFZXcGpUWGRRUldJNFpHMUxlbFp3UXpBMkxYcExUVWxZV0hGMVVsOUpSa3hsVUZWeGFtZEJVMkZEYmxjelQycDZSMHBXVjNCVVJrcHFWbUpuUmxsS1FYUlFkMVZ2VjNkV1pEaFVkemR0VERWSE4zbHdPRlptVG13ek5VMXFWakYxY0hoVFRIWjBNMmx0ZUdOM2JVUk1RMU1TRjB4SVVFTmhjMHRPVFV4RVpUVk9iMUI2VERONWExRlpHaUpCUkhOeU9XWlNPRUp4ZEdWa1RXOWZTMEpHVmpKaldtUXdVbEIxUWxWb1JtTjMiLCJmY3YiOiIzIiwiZmNfaWQiOiJBRDJ0LW01Tm5WMHluSmdyQUFBQUFBPT0ifQ=="
+    }
+  ],
+  "serpapi_pagination": {
+    "next_page_token": "eyJmYyI6IkV1SUVDcUlFUVVwcFZEUjBTelJTUkhadVEwbGxVakF6ZGw5dmIzSjFSM1prY2pONWVsSk1lRkpuVGtVeFpGYzFWa1E1Y1hkc1IxaG9XbEpRTVVobWJHNXphVEprWldGcFZWUmllbk10WkVvek9FOXRNbkJ2U0ZKT1RrWlBjVjltWW5WRlNqTTNjbEZWY2xremR6SXlMV1YxUjJSTU5HUmtORE50VDAwd2FFMHdkblJTWWpCcldVeHBRVUZXZDBsdGVXSkJZbkU1WjFoTFUySnFNMGRWV2tSRlZXdG1kbnBNTTBONldYRTBlRFUyVjJoZmRUbHZOeTFZTnpOb1lUZDVNRTg0VmpSRE9ERlFhazFpYUZaZlVGaG5WSGxhTFc1MGFYWkxlVlZYTW5WdU16ZHFWamR4UkhGaWFWWmpjelpaVFZGV1JXdHlRa1JuYkdoWkxUZFZiemhhWW1wSWVrSnlTbkZVWTFwU2ExVTNUVFYxVmpJd1gzWTNTMlJsTWxSd2VreExSelpYVmxKVlQzVTNkRlZaVlc1b1RVOUlXbDltYjBOMWFHNXlPRTVQVEdkZlpWVmlZbXB3WjFOSlVscFhjRmRKVjNoV2NGaEpiV2RxWTNJMFJFUndNakpwWm5NemRXNU1jR2c1Y2xKZlZHUTBZME5FYTNGU05XaHBOVzAyTkROc2FHUkVPVUpqVnpsTFNESldUazFCUXpNd1ExOVpjVkJvZDJoR2JVY3pSRjkxYjFCcGNWUTNlbWcxWVVsMVNIVkJTVXAzUzJ4SGRtSm5NMk5ZU0MxWFpUaEpSbWx3VDNReFNHOUlXbU53UkVRemNFWjJUa2xpYzB0MFRGcEJja1ZUWDBSYVdsQnljemh5VTJoeVpWOTJSVE5HT0VGSk5VNXdhMHN0YzBkRFNrMWtUMTkzZFMxR016TXlkRzk2VlV0bVZWUk5jeTFsVWtsb1oxVXRVR1F0YTE5b1MybEJFaGRNU0ZCRFlYTkxUazFNUkdVMVRtOVFla3d6ZVd0UldSb2lRVVJ6Y2psbVV6WnFabTlwTVVOVWEyeEtNblpXTjNOS2JESnZOVTB6UlZadGR3IiwiZmN2IjoiMyJ9",
+    "next": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&next_page_token=eyJmYyI6IkV1SUVDcUlFUVVwcFZEUjBTelJTUkhadVEwbGxVakF6ZGw5dmIzSjFSM1prY2pONWVsSk1lRkpuVGtVeFpGYzFWa1E1Y1hkc1IxaG9XbEpRTVVobWJHNXphVEprWldGcFZWUmllbk10WkVvek9FOXRNbkJ2U0ZKT1RrWlBjVjltWW5WRlNqTTNjbEZWY2xremR6SXlMV1YxUjJSTU5HUmtORE50VDAwd2FFMHdkblJTWWpCcldVeHBRVUZXZDBsdGVXSkJZbkU1WjFoTFUySnFNMGRWV2tSRlZXdG1kbnBNTTBONldYRTBlRFUyVjJoZmRUbHZOeTFZTnpOb1lUZDVNRTg0VmpSRE9ERlFhazFpYUZaZlVGaG5WSGxhTFc1MGFYWkxlVlZYTW5WdU16ZHFWamR4UkhGaWFWWmpjelpaVFZGV1JXdHlRa1JuYkdoWkxUZFZiemhhWW1wSWVrSnlTbkZVWTFwU2ExVTNUVFYxVmpJd1gzWTNTMlJsTWxSd2VreExSelpYVmxKVlQzVTNkRlZaVlc1b1RVOUlXbDltYjBOMWFHNXlPRTVQVEdkZlpWVmlZbXB3WjFOSlVscFhjRmRKVjNoV2NGaEpiV2RxWTNJMFJFUndNakpwWm5NemRXNU1jR2c1Y2xKZlZHUTBZME5FYTNGU05XaHBOVzAyTkROc2FHUkVPVUpqVnpsTFNESldUazFCUXpNd1ExOVpjVkJvZDJoR2JVY3pSRjkxYjFCcGNWUTNlbWcxWVVsMVNIVkJTVXAzUzJ4SGRtSm5NMk5ZU0MxWFpUaEpSbWx3VDNReFNHOUlXbU53UkVRemNFWjJUa2xpYzB0MFRGcEJja1ZUWDBSYVdsQnljemh5VTJoeVpWOTJSVE5HT0VGSk5VNXdhMHN0YzBkRFNrMWtUMTkzZFMxR016TXlkRzk2VlV0bVZWUk5jeTFsVWtsb1oxVXRVR1F0YTE5b1MybEJFaGRNU0ZCRFlYTkxUazFNUkdVMVRtOVFla3d6ZVd0UldSb2lRVVJ6Y2psbVV6WnFabTlwTVVOVWEyeEtNblpXTjNOS2JESnZOVTB6UlZadGR3IiwiZmN2IjoiMyJ9&q=quantum+machine+learning"
+  }
+}

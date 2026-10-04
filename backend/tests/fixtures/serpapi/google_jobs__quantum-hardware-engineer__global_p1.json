@@ -1,0 +1,788 @@
+{
+  "search_metadata": {
+    "id": "6ac27322974bbb0f9d230ce1",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/utFp7G7b9I4ZVu9KJiuCyMF-u1nr9jrKhRlT4PWDggM/6ac27322974bbb0f9d230ce1.json",
+    "markdown_endpoint": "https://serpapi.com/searches/utFp7G7b9I4ZVu9KJiuCyMF-u1nr9jrKhRlT4PWDggM/6ac27322974bbb0f9d230ce1.md",
+    "created_at": "2026-10-04 15:39:14 UTC",
+    "processed_at": "2026-10-04 15:39:14 UTC",
+    "google_jobs_url": "https://www.google.com/search?q=quantum+hardware+engineer&hl=en&udm=8",
+    "raw_html_file": "https://serpapi.com/searches/utFp7G7b9I4ZVu9KJiuCyMF-u1nr9jrKhRlT4PWDggM/6ac27322974bbb0f9d230ce1.html",
+    "total_time_taken": 1.84
+  },
+  "search_parameters": {
+    "q": "quantum hardware engineer",
+    "engine": "google_jobs",
+    "google_domain": "google.com",
+    "hl": "en"
+  },
+  "filters": [
+    {
+      "name": "Remote",
+      "parameters": {
+        "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rqi--IS5qqFykt0uxkCtW_GWuojdhkm4oQny4JMnHecKfVh9wGaU_9CrubSix1dNpWHQVgAj-zLCyAVrgC9wX-J_WQAp5SyZ8C3SEhmfHI77bYKMbBmWA2bFvbQo7CGMd82wcZQ9ceTU0LblVzQKV8xFQS2NHZaXZUrDW08fFm7xlj0Uv",
+        "q": "quantum hardware engineer remote"
+      },
+      "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&sxsrf=APpeQnuJxzool1KeAjyvdbsw_IaNHJi8Gw:1791128355795&q=quantum+hardware+engineer+remote&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rqi--IS5qqFykt0uxkCtW_GWuojdhkm4oQny4JMnHecKfVh9wGaU_9CrubSix1dNpWHQVgAj-zLCyAVrgC9wX-J_WQAp5SyZ8C3SEhmfHI77bYKMbBmWA2bFvbQo7CGMd82wcZQ9ceTU0LblVzQKV8xFQS2NHZaXZUrDW08fFm7xlj0Uv&udm=8&sa=X&ved=2ahUKEwjbtJOL2aCXAxUmie4BHYFEKAMQxKsJKAB6BAgZEAE&ictx=0",
+      "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=quantum+hardware+engineer+remote&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rqi--IS5qqFykt0uxkCtW_GWuojdhkm4oQny4JMnHecKfVh9wGaU_9CrubSix1dNpWHQVgAj-zLCyAVrgC9wX-J_WQAp5SyZ8C3SEhmfHI77bYKMbBmWA2bFvbQo7CGMd82wcZQ9ceTU0LblVzQKV8xFQS2NHZaXZUrDW08fFm7xlj0Uv"
+    },
+    {
+      "name": "No degree",
+      "parameters": {
+        "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rHlcD8FLtMwo1T10KpL1XB-WTJxlmLsKzU4NV6LaZJ-nrLM6bjINe3Avhy0EQ7zMY8lHLIvgu5RUNh0JGZpkpBdeM5_lnLslSLHlyfWDR6QPk3MMtvdug-oiDYMrrfwlX6S7Y3kS98bEZmXCWhDwqd3cQygxumvKH_O5HBjNtYoA-eJTD",
+        "q": "quantum hardware engineer no degree"
+      },
+      "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&sxsrf=APpeQnuJxzool1KeAjyvdbsw_IaNHJi8Gw:1791128355795&q=quantum+hardware+engineer+no+degree&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rHlcD8FLtMwo1T10KpL1XB-WTJxlmLsKzU4NV6LaZJ-nrLM6bjINe3Avhy0EQ7zMY8lHLIvgu5RUNh0JGZpkpBdeM5_lnLslSLHlyfWDR6QPk3MMtvdug-oiDYMrrfwlX6S7Y3kS98bEZmXCWhDwqd3cQygxumvKH_O5HBjNtYoA-eJTD&udm=8&sa=X&ved=2ahUKEwjbtJOL2aCXAxUmie4BHYFEKAMQxKsJKAF6BAgaEAE&ictx=0",
+      "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=quantum+hardware+engineer+no+degree&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rHlcD8FLtMwo1T10KpL1XB-WTJxlmLsKzU4NV6LaZJ-nrLM6bjINe3Avhy0EQ7zMY8lHLIvgu5RUNh0JGZpkpBdeM5_lnLslSLHlyfWDR6QPk3MMtvdug-oiDYMrrfwlX6S7Y3kS98bEZmXCWhDwqd3cQygxumvKH_O5HBjNtYoA-eJTD"
+    },
+    {
+      "name": "Date posted",
+      "options": [
+        {
+          "name": "Yesterday",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rbEuBYaSZikTI9rl4Hr1eiolrJ8BAFNXH-m0k9hTgWDd-gDEebyYJjE5h7WpKoyi9gBV8ZX-DwyiCaakUXseIjAeuNfywJwEyupnfwxPqJ8IlGdkLyJy-pD6-5uRwfIR0qoCe3yxREDK6deYnEagaZH--CyKL6_ASQCywqomwXezVpvETSYkMFYvPLDTd07FiDMqEGOUkIfA0Uyz6eez95yPkKENEkoKMi1oVnDDzbVFUd4K6gXO44dGMMA8DX-UQFYhbRmm5knV3aF-VeusRKKPpT2PmwA3pQRW7YC5fnf1xEtwmdm7nWb9RIVN4imSBfI98PjgArQ9_sIhvlbAkCabTw_8",
+            "q": "quantum hardware engineer since yesterday"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&sxsrf=APpeQnuJxzool1KeAjyvdbsw_IaNHJi8Gw:1791128355795&q=quantum+hardware+engineer+since+yesterday&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rbEuBYaSZikTI9rl4Hr1eiolrJ8BAFNXH-m0k9hTgWDd-gDEebyYJjE5h7WpKoyi9gBV8ZX-DwyiCaakUXseIjAeuNfywJwEyupnfwxPqJ8IlGdkLyJy-pD6-5uRwfIR0qoCe3yxREDK6deYnEagaZH--CyKL6_ASQCywqomwXezVpvETSYkMFYvPLDTd07FiDMqEGOUkIfA0Uyz6eez95yPkKENEkoKMi1oVnDDzbVFUd4K6gXO44dGMMA8DX-UQFYhbRmm5knV3aF-VeusRKKPpT2PmwA3pQRW7YC5fnf1xEtwmdm7nWb9RIVN4imSBfI98PjgArQ9_sIhvlbAkCabTw_8&udm=8&sa=X&ved=2ahUKEwjbtJOL2aCXAxUmie4BHYFEKAMQkbEKegQIHBAC",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=quantum+hardware+engineer+since+yesterday&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rbEuBYaSZikTI9rl4Hr1eiolrJ8BAFNXH-m0k9hTgWDd-gDEebyYJjE5h7WpKoyi9gBV8ZX-DwyiCaakUXseIjAeuNfywJwEyupnfwxPqJ8IlGdkLyJy-pD6-5uRwfIR0qoCe3yxREDK6deYnEagaZH--CyKL6_ASQCywqomwXezVpvETSYkMFYvPLDTd07FiDMqEGOUkIfA0Uyz6eez95yPkKENEkoKMi1oVnDDzbVFUd4K6gXO44dGMMA8DX-UQFYhbRmm5knV3aF-VeusRKKPpT2PmwA3pQRW7YC5fnf1xEtwmdm7nWb9RIVN4imSBfI98PjgArQ9_sIhvlbAkCabTw_8"
+        },
+        {
+          "name": "Last 3 days",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4r3M11scUDrwafc40twrp9CcsaUk8L9t5auyTRfaKF9GjbbFTB7pfVMyQetEwlMBzYKXYcFR9TpnThMKlobjpl9HLqkFAENIbAZg7RHKDbDeUlRVF35mTeGV8yRs1421Ils61DSAf6OXF-zodTHa3IpF0tT9YAa7ligvCnvwtQXaPyt1X2sALecLK3ztrGW0ToQnlKGPopBaW7gacRk7dwVbHEyj0eHjixzqA2hLPkvwlrAYozj0cQWLxV4yF9PHHik3Q9L-kOqvOkT0_80e0woXkCfqzOvJuXsoXtsX1-Do9tgnNpXbUNSUDVhhCyA7YRIHOR7MT_msBBYry78nHHK8xvP8zDW9YM2h8CXnjVo-kD4XdH",
+            "q": "quantum hardware engineer in the last 3 days"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&sxsrf=APpeQnuJxzool1KeAjyvdbsw_IaNHJi8Gw:1791128355795&q=quantum+hardware+engineer+in+the+last+3+days&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r3M11scUDrwafc40twrp9CcsaUk8L9t5auyTRfaKF9GjbbFTB7pfVMyQetEwlMBzYKXYcFR9TpnThMKlobjpl9HLqkFAENIbAZg7RHKDbDeUlRVF35mTeGV8yRs1421Ils61DSAf6OXF-zodTHa3IpF0tT9YAa7ligvCnvwtQXaPyt1X2sALecLK3ztrGW0ToQnlKGPopBaW7gacRk7dwVbHEyj0eHjixzqA2hLPkvwlrAYozj0cQWLxV4yF9PHHik3Q9L-kOqvOkT0_80e0woXkCfqzOvJuXsoXtsX1-Do9tgnNpXbUNSUDVhhCyA7YRIHOR7MT_msBBYry78nHHK8xvP8zDW9YM2h8CXnjVo-kD4XdH&udm=8&sa=X&ved=2ahUKEwjbtJOL2aCXAxUmie4BHYFEKAMQkbEKegQIHBAD",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=quantum+hardware+engineer+in+the+last+3+days&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r3M11scUDrwafc40twrp9CcsaUk8L9t5auyTRfaKF9GjbbFTB7pfVMyQetEwlMBzYKXYcFR9TpnThMKlobjpl9HLqkFAENIbAZg7RHKDbDeUlRVF35mTeGV8yRs1421Ils61DSAf6OXF-zodTHa3IpF0tT9YAa7ligvCnvwtQXaPyt1X2sALecLK3ztrGW0ToQnlKGPopBaW7gacRk7dwVbHEyj0eHjixzqA2hLPkvwlrAYozj0cQWLxV4yF9PHHik3Q9L-kOqvOkT0_80e0woXkCfqzOvJuXsoXtsX1-Do9tgnNpXbUNSUDVhhCyA7YRIHOR7MT_msBBYry78nHHK8xvP8zDW9YM2h8CXnjVo-kD4XdH"
+        },
+        {
+          "name": "Last week",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rssXSLnlwh_Uqo_dly6Sqr4bLhmvVgwIb0Yi5NwikIfvKOiHEBkvQ78zG3rssOVqWqtk1XE17FSrebT39gvY70sT6i43InCaX0LhulSJykqD_SHtNh3KlLZz47OObMl2diNh0CqF4xgyQao9OsUeLpxZ5C7qaBelBX48RXyHyEDY5M7CsgF5PdO5n2pXw8EgL5KL9h8O2WHPRnh_EWUgZF4BKtPn6MkjTQDIoTlgtHgpPP8dT97se0TNrCjs5xZfcKARqkJBQv38d8vFRwiy1Duo8O7gRLDqfOauOITro92iT3XRmvaU3KnP90nFEIyeRlfJNWxcCe8azK5zaiDc0oXXrm79N2hIRXIFJKUiXS8RXwsnW",
+            "q": "quantum hardware engineer in the last week"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&sxsrf=APpeQnuJxzool1KeAjyvdbsw_IaNHJi8Gw:1791128355795&q=quantum+hardware+engineer+in+the+last+week&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rssXSLnlwh_Uqo_dly6Sqr4bLhmvVgwIb0Yi5NwikIfvKOiHEBkvQ78zG3rssOVqWqtk1XE17FSrebT39gvY70sT6i43InCaX0LhulSJykqD_SHtNh3KlLZz47OObMl2diNh0CqF4xgyQao9OsUeLpxZ5C7qaBelBX48RXyHyEDY5M7CsgF5PdO5n2pXw8EgL5KL9h8O2WHPRnh_EWUgZF4BKtPn6MkjTQDIoTlgtHgpPP8dT97se0TNrCjs5xZfcKARqkJBQv38d8vFRwiy1Duo8O7gRLDqfOauOITro92iT3XRmvaU3KnP90nFEIyeRlfJNWxcCe8azK5zaiDc0oXXrm79N2hIRXIFJKUiXS8RXwsnW&udm=8&sa=X&ved=2ahUKEwjbtJOL2aCXAxUmie4BHYFEKAMQkbEKegQIHBAE",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=quantum+hardware+engineer+in+the+last+week&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rssXSLnlwh_Uqo_dly6Sqr4bLhmvVgwIb0Yi5NwikIfvKOiHEBkvQ78zG3rssOVqWqtk1XE17FSrebT39gvY70sT6i43InCaX0LhulSJykqD_SHtNh3KlLZz47OObMl2diNh0CqF4xgyQao9OsUeLpxZ5C7qaBelBX48RXyHyEDY5M7CsgF5PdO5n2pXw8EgL5KL9h8O2WHPRnh_EWUgZF4BKtPn6MkjTQDIoTlgtHgpPP8dT97se0TNrCjs5xZfcKARqkJBQv38d8vFRwiy1Duo8O7gRLDqfOauOITro92iT3XRmvaU3KnP90nFEIyeRlfJNWxcCe8azK5zaiDc0oXXrm79N2hIRXIFJKUiXS8RXwsnW"
+        },
+        {
+          "name": "Last month",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rhwv6lC8BOkQKjt06vuXHMYCMU9p9_2mXGrMleHlddScKeu4VJuvyKCP8aDbZ4QDT_KGwzlHatF1f5lPW9nWa5jCL0NLy97KrbqZs_mXfGwd5szC6nF80Prmhf57v0OCf1OnV4bG0he9qXoNN-lvvtROJ6z2pLGkicPSWjy1OzqSYEp0ogPdN3ZE_RYTwthK9PfyJOD-J4Mt6qZoikDWu_d_r7cr5tuG4Nibo0vq6VBl4_ewUayforMdjCWXNn8-h90TpzSkzM7Kz0iKMyeTIjtdipEh9BYMKBOQ2BP23fjQZ85s7hD_e7LI8B57cL0goz9906H8YM0vaKlcC-YI4fgSHcSfe5arovrZ0AaB9of7kWVG4",
+            "q": "quantum hardware engineer in the last month"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&sxsrf=APpeQnuJxzool1KeAjyvdbsw_IaNHJi8Gw:1791128355795&q=quantum+hardware+engineer+in+the+last+month&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rhwv6lC8BOkQKjt06vuXHMYCMU9p9_2mXGrMleHlddScKeu4VJuvyKCP8aDbZ4QDT_KGwzlHatF1f5lPW9nWa5jCL0NLy97KrbqZs_mXfGwd5szC6nF80Prmhf57v0OCf1OnV4bG0he9qXoNN-lvvtROJ6z2pLGkicPSWjy1OzqSYEp0ogPdN3ZE_RYTwthK9PfyJOD-J4Mt6qZoikDWu_d_r7cr5tuG4Nibo0vq6VBl4_ewUayforMdjCWXNn8-h90TpzSkzM7Kz0iKMyeTIjtdipEh9BYMKBOQ2BP23fjQZ85s7hD_e7LI8B57cL0goz9906H8YM0vaKlcC-YI4fgSHcSfe5arovrZ0AaB9of7kWVG4&udm=8&sa=X&ved=2ahUKEwjbtJOL2aCXAxUmie4BHYFEKAMQkbEKegQIHBAF",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=quantum+hardware+engineer+in+the+last+month&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rhwv6lC8BOkQKjt06vuXHMYCMU9p9_2mXGrMleHlddScKeu4VJuvyKCP8aDbZ4QDT_KGwzlHatF1f5lPW9nWa5jCL0NLy97KrbqZs_mXfGwd5szC6nF80Prmhf57v0OCf1OnV4bG0he9qXoNN-lvvtROJ6z2pLGkicPSWjy1OzqSYEp0ogPdN3ZE_RYTwthK9PfyJOD-J4Mt6qZoikDWu_d_r7cr5tuG4Nibo0vq6VBl4_ewUayforMdjCWXNn8-h90TpzSkzM7Kz0iKMyeTIjtdipEh9BYMKBOQ2BP23fjQZ85s7hD_e7LI8B57cL0goz9906H8YM0vaKlcC-YI4fgSHcSfe5arovrZ0AaB9of7kWVG4"
+        }
+      ]
+    },
+    {
+      "name": "Date posted",
+      "options": [
+        {
+          "name": "Yesterday",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rbEuBYaSZikTI9rl4Hr1eiolrJ8BAFNXH-m0k9hTgWDd-gDEebyYJjE5h7WpKoyi9gBV8ZX-DwyiCaakUXseIjAeuNfywJwEyupnfwxPqJ8IlGdkLyJy-pD6-5uRwfIR0qoCe3yxREDK6deYnEagaZH--CyKL6_ASQCywqomwXezVpvETSYkMFYvPLDTd07FiDMqEGOUkIfA0Uyz6eez95yPkKENEkoKMi1oVnDDzbVFUd4K6gXO44dGMMA8DX-UQFYhbRmm5knV3aF-VeusRKKPpT2PmwA3pQRW7YC5fnf1xEtwmdm7nWb9RIVN4imSBfI98PjgArQ9_sIhvlbAkCabTw_8",
+            "q": "quantum hardware engineer since yesterday"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&sxsrf=APpeQnuJxzool1KeAjyvdbsw_IaNHJi8Gw:1791128355795&q=quantum+hardware+engineer+since+yesterday&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rbEuBYaSZikTI9rl4Hr1eiolrJ8BAFNXH-m0k9hTgWDd-gDEebyYJjE5h7WpKoyi9gBV8ZX-DwyiCaakUXseIjAeuNfywJwEyupnfwxPqJ8IlGdkLyJy-pD6-5uRwfIR0qoCe3yxREDK6deYnEagaZH--CyKL6_ASQCywqomwXezVpvETSYkMFYvPLDTd07FiDMqEGOUkIfA0Uyz6eez95yPkKENEkoKMi1oVnDDzbVFUd4K6gXO44dGMMA8DX-UQFYhbRmm5knV3aF-VeusRKKPpT2PmwA3pQRW7YC5fnf1xEtwmdm7nWb9RIVN4imSBfI98PjgArQ9_sIhvlbAkCabTw_8&udm=8&sa=X&ved=2ahUKEwjbtJOL2aCXAxUmie4BHYFEKAMQkbEKegQIHBAC",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=quantum+hardware+engineer+since+yesterday&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rbEuBYaSZikTI9rl4Hr1eiolrJ8BAFNXH-m0k9hTgWDd-gDEebyYJjE5h7WpKoyi9gBV8ZX-DwyiCaakUXseIjAeuNfywJwEyupnfwxPqJ8IlGdkLyJy-pD6-5uRwfIR0qoCe3yxREDK6deYnEagaZH--CyKL6_ASQCywqomwXezVpvETSYkMFYvPLDTd07FiDMqEGOUkIfA0Uyz6eez95yPkKENEkoKMi1oVnDDzbVFUd4K6gXO44dGMMA8DX-UQFYhbRmm5knV3aF-VeusRKKPpT2PmwA3pQRW7YC5fnf1xEtwmdm7nWb9RIVN4imSBfI98PjgArQ9_sIhvlbAkCabTw_8"
+        },
+        {
+          "name": "Last 3 days",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4r3M11scUDrwafc40twrp9CcsaUk8L9t5auyTRfaKF9GjbbFTB7pfVMyQetEwlMBzYKXYcFR9TpnThMKlobjpl9HLqkFAENIbAZg7RHKDbDeUlRVF35mTeGV8yRs1421Ils61DSAf6OXF-zodTHa3IpF0tT9YAa7ligvCnvwtQXaPyt1X2sALecLK3ztrGW0ToQnlKGPopBaW7gacRk7dwVbHEyj0eHjixzqA2hLPkvwlrAYozj0cQWLxV4yF9PHHik3Q9L-kOqvOkT0_80e0woXkCfqzOvJuXsoXtsX1-Do9tgnNpXbUNSUDVhhCyA7YRIHOR7MT_msBBYry78nHHK8xvP8zDW9YM2h8CXnjVo-kD4XdH",
+            "q": "quantum hardware engineer in the last 3 days"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&sxsrf=APpeQnuJxzool1KeAjyvdbsw_IaNHJi8Gw:1791128355795&q=quantum+hardware+engineer+in+the+last+3+days&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r3M11scUDrwafc40twrp9CcsaUk8L9t5auyTRfaKF9GjbbFTB7pfVMyQetEwlMBzYKXYcFR9TpnThMKlobjpl9HLqkFAENIbAZg7RHKDbDeUlRVF35mTeGV8yRs1421Ils61DSAf6OXF-zodTHa3IpF0tT9YAa7ligvCnvwtQXaPyt1X2sALecLK3ztrGW0ToQnlKGPopBaW7gacRk7dwVbHEyj0eHjixzqA2hLPkvwlrAYozj0cQWLxV4yF9PHHik3Q9L-kOqvOkT0_80e0woXkCfqzOvJuXsoXtsX1-Do9tgnNpXbUNSUDVhhCyA7YRIHOR7MT_msBBYry78nHHK8xvP8zDW9YM2h8CXnjVo-kD4XdH&udm=8&sa=X&ved=2ahUKEwjbtJOL2aCXAxUmie4BHYFEKAMQkbEKegQIHBAD",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=quantum+hardware+engineer+in+the+last+3+days&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r3M11scUDrwafc40twrp9CcsaUk8L9t5auyTRfaKF9GjbbFTB7pfVMyQetEwlMBzYKXYcFR9TpnThMKlobjpl9HLqkFAENIbAZg7RHKDbDeUlRVF35mTeGV8yRs1421Ils61DSAf6OXF-zodTHa3IpF0tT9YAa7ligvCnvwtQXaPyt1X2sALecLK3ztrGW0ToQnlKGPopBaW7gacRk7dwVbHEyj0eHjixzqA2hLPkvwlrAYozj0cQWLxV4yF9PHHik3Q9L-kOqvOkT0_80e0woXkCfqzOvJuXsoXtsX1-Do9tgnNpXbUNSUDVhhCyA7YRIHOR7MT_msBBYry78nHHK8xvP8zDW9YM2h8CXnjVo-kD4XdH"
+        },
+        {
+          "name": "Last week",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rssXSLnlwh_Uqo_dly6Sqr4bLhmvVgwIb0Yi5NwikIfvKOiHEBkvQ78zG3rssOVqWqtk1XE17FSrebT39gvY70sT6i43InCaX0LhulSJykqD_SHtNh3KlLZz47OObMl2diNh0CqF4xgyQao9OsUeLpxZ5C7qaBelBX48RXyHyEDY5M7CsgF5PdO5n2pXw8EgL5KL9h8O2WHPRnh_EWUgZF4BKtPn6MkjTQDIoTlgtHgpPP8dT97se0TNrCjs5xZfcKARqkJBQv38d8vFRwiy1Duo8O7gRLDqfOauOITro92iT3XRmvaU3KnP90nFEIyeRlfJNWxcCe8azK5zaiDc0oXXrm79N2hIRXIFJKUiXS8RXwsnW",
+            "q": "quantum hardware engineer in the last week"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&sxsrf=APpeQnuJxzool1KeAjyvdbsw_IaNHJi8Gw:1791128355795&q=quantum+hardware+engineer+in+the+last+week&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rssXSLnlwh_Uqo_dly6Sqr4bLhmvVgwIb0Yi5NwikIfvKOiHEBkvQ78zG3rssOVqWqtk1XE17FSrebT39gvY70sT6i43InCaX0LhulSJykqD_SHtNh3KlLZz47OObMl2diNh0CqF4xgyQao9OsUeLpxZ5C7qaBelBX48RXyHyEDY5M7CsgF5PdO5n2pXw8EgL5KL9h8O2WHPRnh_EWUgZF4BKtPn6MkjTQDIoTlgtHgpPP8dT97se0TNrCjs5xZfcKARqkJBQv38d8vFRwiy1Duo8O7gRLDqfOauOITro92iT3XRmvaU3KnP90nFEIyeRlfJNWxcCe8azK5zaiDc0oXXrm79N2hIRXIFJKUiXS8RXwsnW&udm=8&sa=X&ved=2ahUKEwjbtJOL2aCXAxUmie4BHYFEKAMQkbEKegQIHBAE",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=quantum+hardware+engineer+in+the+last+week&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rssXSLnlwh_Uqo_dly6Sqr4bLhmvVgwIb0Yi5NwikIfvKOiHEBkvQ78zG3rssOVqWqtk1XE17FSrebT39gvY70sT6i43InCaX0LhulSJykqD_SHtNh3KlLZz47OObMl2diNh0CqF4xgyQao9OsUeLpxZ5C7qaBelBX48RXyHyEDY5M7CsgF5PdO5n2pXw8EgL5KL9h8O2WHPRnh_EWUgZF4BKtPn6MkjTQDIoTlgtHgpPP8dT97se0TNrCjs5xZfcKARqkJBQv38d8vFRwiy1Duo8O7gRLDqfOauOITro92iT3XRmvaU3KnP90nFEIyeRlfJNWxcCe8azK5zaiDc0oXXrm79N2hIRXIFJKUiXS8RXwsnW"
+        },
+        {
+          "name": "Last month",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rhwv6lC8BOkQKjt06vuXHMYCMU9p9_2mXGrMleHlddScKeu4VJuvyKCP8aDbZ4QDT_KGwzlHatF1f5lPW9nWa5jCL0NLy97KrbqZs_mXfGwd5szC6nF80Prmhf57v0OCf1OnV4bG0he9qXoNN-lvvtROJ6z2pLGkicPSWjy1OzqSYEp0ogPdN3ZE_RYTwthK9PfyJOD-J4Mt6qZoikDWu_d_r7cr5tuG4Nibo0vq6VBl4_ewUayforMdjCWXNn8-h90TpzSkzM7Kz0iKMyeTIjtdipEh9BYMKBOQ2BP23fjQZ85s7hD_e7LI8B57cL0goz9906H8YM0vaKlcC-YI4fgSHcSfe5arovrZ0AaB9of7kWVG4",
+            "q": "quantum hardware engineer in the last month"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&sxsrf=APpeQnuJxzool1KeAjyvdbsw_IaNHJi8Gw:1791128355795&q=quantum+hardware+engineer+in+the+last+month&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rhwv6lC8BOkQKjt06vuXHMYCMU9p9_2mXGrMleHlddScKeu4VJuvyKCP8aDbZ4QDT_KGwzlHatF1f5lPW9nWa5jCL0NLy97KrbqZs_mXfGwd5szC6nF80Prmhf57v0OCf1OnV4bG0he9qXoNN-lvvtROJ6z2pLGkicPSWjy1OzqSYEp0ogPdN3ZE_RYTwthK9PfyJOD-J4Mt6qZoikDWu_d_r7cr5tuG4Nibo0vq6VBl4_ewUayforMdjCWXNn8-h90TpzSkzM7Kz0iKMyeTIjtdipEh9BYMKBOQ2BP23fjQZ85s7hD_e7LI8B57cL0goz9906H8YM0vaKlcC-YI4fgSHcSfe5arovrZ0AaB9of7kWVG4&udm=8&sa=X&ved=2ahUKEwjbtJOL2aCXAxUmie4BHYFEKAMQkbEKegQIHBAF",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=quantum+hardware+engineer+in+the+last+month&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rhwv6lC8BOkQKjt06vuXHMYCMU9p9_2mXGrMleHlddScKeu4VJuvyKCP8aDbZ4QDT_KGwzlHatF1f5lPW9nWa5jCL0NLy97KrbqZs_mXfGwd5szC6nF80Prmhf57v0OCf1OnV4bG0he9qXoNN-lvvtROJ6z2pLGkicPSWjy1OzqSYEp0ogPdN3ZE_RYTwthK9PfyJOD-J4Mt6qZoikDWu_d_r7cr5tuG4Nibo0vq6VBl4_ewUayforMdjCWXNn8-h90TpzSkzM7Kz0iKMyeTIjtdipEh9BYMKBOQ2BP23fjQZ85s7hD_e7LI8B57cL0goz9906H8YM0vaKlcC-YI4fgSHcSfe5arovrZ0AaB9of7kWVG4"
+        }
+      ]
+    },
+    {
+      "name": "Job type",
+      "options": [
+        {
+          "name": "Full time",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4r2YIQD5S0wiJLM8D3QoSGRX71qnM7l4tdgoDmblEkhiN_QiEFY5guaqtGoV4HbU7fGHPerFi6YkRMwSP8cXSwMZpOsV1P9w_3IKp7NhrfVqNiJmqs0_ZETsSWdrsrkDJJaHPPhWs-VxkMTfIZG6UjrCYDzBBhhW0wXTxj7WbFezni4jAVh5JhQ8H6Xs69cb3hARVsHiD0fZO5Az1db01OnDpJFyhHBdmZGQ-v-pvUkr-BiWJ_oiWxx7QdqBnol_17UeaL2bG_FpxjSN67HBA4-B-TXbfdlTtu7pFQ_P_b_v7ZXUGpv1zDqMvVzOr2xsHx6isVIwkMSDj_w012zySmIGI5qiQ",
+            "q": "quantum hardware engineer full time"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&sxsrf=APpeQnuJxzool1KeAjyvdbsw_IaNHJi8Gw:1791128355795&q=quantum+hardware+engineer+full+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r2YIQD5S0wiJLM8D3QoSGRX71qnM7l4tdgoDmblEkhiN_QiEFY5guaqtGoV4HbU7fGHPerFi6YkRMwSP8cXSwMZpOsV1P9w_3IKp7NhrfVqNiJmqs0_ZETsSWdrsrkDJJaHPPhWs-VxkMTfIZG6UjrCYDzBBhhW0wXTxj7WbFezni4jAVh5JhQ8H6Xs69cb3hARVsHiD0fZO5Az1db01OnDpJFyhHBdmZGQ-v-pvUkr-BiWJ_oiWxx7QdqBnol_17UeaL2bG_FpxjSN67HBA4-B-TXbfdlTtu7pFQ_P_b_v7ZXUGpv1zDqMvVzOr2xsHx6isVIwkMSDj_w012zySmIGI5qiQ&udm=8&sa=X&ved=2ahUKEwjbtJOL2aCXAxUmie4BHYFEKAMQkbEKegQIGxAC",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=quantum+hardware+engineer+full+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r2YIQD5S0wiJLM8D3QoSGRX71qnM7l4tdgoDmblEkhiN_QiEFY5guaqtGoV4HbU7fGHPerFi6YkRMwSP8cXSwMZpOsV1P9w_3IKp7NhrfVqNiJmqs0_ZETsSWdrsrkDJJaHPPhWs-VxkMTfIZG6UjrCYDzBBhhW0wXTxj7WbFezni4jAVh5JhQ8H6Xs69cb3hARVsHiD0fZO5Az1db01OnDpJFyhHBdmZGQ-v-pvUkr-BiWJ_oiWxx7QdqBnol_17UeaL2bG_FpxjSN67HBA4-B-TXbfdlTtu7pFQ_P_b_v7ZXUGpv1zDqMvVzOr2xsHx6isVIwkMSDj_w012zySmIGI5qiQ"
+        },
+        {
+          "name": "Part time",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4r2YIQD5S0wiJLM8D3QoSGRX71qnM7l4tdgoDmblEkhiN_QiEFY5guaqtGoV4HbU7f4y9btrbl3SoIAmRtGSshSJ4lB6jKGO966eEoOXZZuErl7MA5GTp9uMXPNkvtw8unXhIl5kzq1jvdvmSSIViqedLIanh67hXclMVZGBhS0NsAJAuvNYjbpEXcibEqCw5T-_UpZ_dDD7GFUayHO8rqMGljDMzoAgD9_8GfsM-kOA8fztDz-WbpdLl942ebR3WtA1akNSZ_tWVQ4G8oxlrjyHTkgkRBpL3q1ezpo7m6kVegUjraf-zfokv_nLYDnjIvSL2DPM3gXBFLR0mpFqsQfh-OcSI",
+            "q": "quantum hardware engineer part time"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&sxsrf=APpeQnuJxzool1KeAjyvdbsw_IaNHJi8Gw:1791128355795&q=quantum+hardware+engineer+part+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r2YIQD5S0wiJLM8D3QoSGRX71qnM7l4tdgoDmblEkhiN_QiEFY5guaqtGoV4HbU7f4y9btrbl3SoIAmRtGSshSJ4lB6jKGO966eEoOXZZuErl7MA5GTp9uMXPNkvtw8unXhIl5kzq1jvdvmSSIViqedLIanh67hXclMVZGBhS0NsAJAuvNYjbpEXcibEqCw5T-_UpZ_dDD7GFUayHO8rqMGljDMzoAgD9_8GfsM-kOA8fztDz-WbpdLl942ebR3WtA1akNSZ_tWVQ4G8oxlrjyHTkgkRBpL3q1ezpo7m6kVegUjraf-zfokv_nLYDnjIvSL2DPM3gXBFLR0mpFqsQfh-OcSI&udm=8&sa=X&ved=2ahUKEwjbtJOL2aCXAxUmie4BHYFEKAMQkbEKegQIGxAD",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=quantum+hardware+engineer+part+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r2YIQD5S0wiJLM8D3QoSGRX71qnM7l4tdgoDmblEkhiN_QiEFY5guaqtGoV4HbU7f4y9btrbl3SoIAmRtGSshSJ4lB6jKGO966eEoOXZZuErl7MA5GTp9uMXPNkvtw8unXhIl5kzq1jvdvmSSIViqedLIanh67hXclMVZGBhS0NsAJAuvNYjbpEXcibEqCw5T-_UpZ_dDD7GFUayHO8rqMGljDMzoAgD9_8GfsM-kOA8fztDz-WbpdLl942ebR3WtA1akNSZ_tWVQ4G8oxlrjyHTkgkRBpL3q1ezpo7m6kVegUjraf-zfokv_nLYDnjIvSL2DPM3gXBFLR0mpFqsQfh-OcSI"
+        },
+        {
+          "name": "Contract",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4r_fsZOgCf8TVkDLsBPFXvEpFPxT9tk6SMrTz1GPvgD25zweSH1QyKdiBm7rc1xBW6WncxCaiTmcu9vaPhVn9qBowUnAewCwu53ohrGqFsys9gxAQte8Auiq6G0cMcmQIzTkmFQSgEIGQdih1Me7U07kE-hqsCUZRrgfQ_1q1dOTcTI6WzxlQ442pKnR6h7a40zDw14-nblONB6Tx0V65x1wu7cM7nKkiE4IPkhiEco1n1aL2Lck74xBKoQcvdwy4BkkCJntAaXLrHjpPmlrTvB2DQZ4w7R8pXz6XgM4IrGWkcvyoYXZDm3iPE3Evq1pglQiyRyQ",
+            "q": "quantum hardware engineer contract"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&sxsrf=APpeQnuJxzool1KeAjyvdbsw_IaNHJi8Gw:1791128355795&q=quantum+hardware+engineer+contract&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r_fsZOgCf8TVkDLsBPFXvEpFPxT9tk6SMrTz1GPvgD25zweSH1QyKdiBm7rc1xBW6WncxCaiTmcu9vaPhVn9qBowUnAewCwu53ohrGqFsys9gxAQte8Auiq6G0cMcmQIzTkmFQSgEIGQdih1Me7U07kE-hqsCUZRrgfQ_1q1dOTcTI6WzxlQ442pKnR6h7a40zDw14-nblONB6Tx0V65x1wu7cM7nKkiE4IPkhiEco1n1aL2Lck74xBKoQcvdwy4BkkCJntAaXLrHjpPmlrTvB2DQZ4w7R8pXz6XgM4IrGWkcvyoYXZDm3iPE3Evq1pglQiyRyQ&udm=8&sa=X&ved=2ahUKEwjbtJOL2aCXAxUmie4BHYFEKAMQkbEKegQIGxAE",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=quantum+hardware+engineer+contract&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r_fsZOgCf8TVkDLsBPFXvEpFPxT9tk6SMrTz1GPvgD25zweSH1QyKdiBm7rc1xBW6WncxCaiTmcu9vaPhVn9qBowUnAewCwu53ohrGqFsys9gxAQte8Auiq6G0cMcmQIzTkmFQSgEIGQdih1Me7U07kE-hqsCUZRrgfQ_1q1dOTcTI6WzxlQ442pKnR6h7a40zDw14-nblONB6Tx0V65x1wu7cM7nKkiE4IPkhiEco1n1aL2Lck74xBKoQcvdwy4BkkCJntAaXLrHjpPmlrTvB2DQZ4w7R8pXz6XgM4IrGWkcvyoYXZDm3iPE3Evq1pglQiyRyQ"
+        },
+        {
+          "name": "Internship",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rAcot_iWY5OTyFR6kR7h3sdTY5JtzcWDNCvq9gGuV6VYDr7rEKdIBxdfhJH2mxhR0ZWyje-PH6M1OlA6Gycmg0etwuqye2ShGlZMEMscSUVEGlaGiFwBXKABqzABE3akVZYSY958iwFxPCfPX7qHMCoDEHiT11ktazaw9yQ7IpLMmu3UawtWOAgUB9Lv1Cwtp5Q1QZSnlJAUXjOd09zH6BJwoXX9hbdyLQt9Q6EJYo3usXqoFLbrsOybWGTZQ73Dm5lZQyBoV6shcqwmyl0kdh-sWkzTz0AghXfTm8PtFJMOz88oYqwTG1Xaz6qjpZsH8Q0ZlPg",
+            "q": "quantum hardware engineer internship"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&sxsrf=APpeQnuJxzool1KeAjyvdbsw_IaNHJi8Gw:1791128355795&q=quantum+hardware+engineer+internship&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rAcot_iWY5OTyFR6kR7h3sdTY5JtzcWDNCvq9gGuV6VYDr7rEKdIBxdfhJH2mxhR0ZWyje-PH6M1OlA6Gycmg0etwuqye2ShGlZMEMscSUVEGlaGiFwBXKABqzABE3akVZYSY958iwFxPCfPX7qHMCoDEHiT11ktazaw9yQ7IpLMmu3UawtWOAgUB9Lv1Cwtp5Q1QZSnlJAUXjOd09zH6BJwoXX9hbdyLQt9Q6EJYo3usXqoFLbrsOybWGTZQ73Dm5lZQyBoV6shcqwmyl0kdh-sWkzTz0AghXfTm8PtFJMOz88oYqwTG1Xaz6qjpZsH8Q0ZlPg&udm=8&sa=X&ved=2ahUKEwjbtJOL2aCXAxUmie4BHYFEKAMQkbEKegQIGxAF",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=quantum+hardware+engineer+internship&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rAcot_iWY5OTyFR6kR7h3sdTY5JtzcWDNCvq9gGuV6VYDr7rEKdIBxdfhJH2mxhR0ZWyje-PH6M1OlA6Gycmg0etwuqye2ShGlZMEMscSUVEGlaGiFwBXKABqzABE3akVZYSY958iwFxPCfPX7qHMCoDEHiT11ktazaw9yQ7IpLMmu3UawtWOAgUB9Lv1Cwtp5Q1QZSnlJAUXjOd09zH6BJwoXX9hbdyLQt9Q6EJYo3usXqoFLbrsOybWGTZQ73Dm5lZQyBoV6shcqwmyl0kdh-sWkzTz0AghXfTm8PtFJMOz88oYqwTG1Xaz6qjpZsH8Q0ZlPg"
+        }
+      ]
+    },
+    {
+      "name": "Job type",
+      "options": [
+        {
+          "name": "Full time",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4r2YIQD5S0wiJLM8D3QoSGRX71qnM7l4tdgoDmblEkhiN_QiEFY5guaqtGoV4HbU7fGHPerFi6YkRMwSP8cXSwMZpOsV1P9w_3IKp7NhrfVqNiJmqs0_ZETsSWdrsrkDJJaHPPhWs-VxkMTfIZG6UjrCYDzBBhhW0wXTxj7WbFezni4jAVh5JhQ8H6Xs69cb3hARVsHiD0fZO5Az1db01OnDpJFyhHBdmZGQ-v-pvUkr-BiWJ_oiWxx7QdqBnol_17UeaL2bG_FpxjSN67HBA4-B-TXbfdlTtu7pFQ_P_b_v7ZXUGpv1zDqMvVzOr2xsHx6isVIwkMSDj_w012zySmIGI5qiQ",
+            "q": "quantum hardware engineer full time"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&sxsrf=APpeQnuJxzool1KeAjyvdbsw_IaNHJi8Gw:1791128355795&q=quantum+hardware+engineer+full+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r2YIQD5S0wiJLM8D3QoSGRX71qnM7l4tdgoDmblEkhiN_QiEFY5guaqtGoV4HbU7fGHPerFi6YkRMwSP8cXSwMZpOsV1P9w_3IKp7NhrfVqNiJmqs0_ZETsSWdrsrkDJJaHPPhWs-VxkMTfIZG6UjrCYDzBBhhW0wXTxj7WbFezni4jAVh5JhQ8H6Xs69cb3hARVsHiD0fZO5Az1db01OnDpJFyhHBdmZGQ-v-pvUkr-BiWJ_oiWxx7QdqBnol_17UeaL2bG_FpxjSN67HBA4-B-TXbfdlTtu7pFQ_P_b_v7ZXUGpv1zDqMvVzOr2xsHx6isVIwkMSDj_w012zySmIGI5qiQ&udm=8&sa=X&ved=2ahUKEwjbtJOL2aCXAxUmie4BHYFEKAMQkbEKegQIGxAC",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=quantum+hardware+engineer+full+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r2YIQD5S0wiJLM8D3QoSGRX71qnM7l4tdgoDmblEkhiN_QiEFY5guaqtGoV4HbU7fGHPerFi6YkRMwSP8cXSwMZpOsV1P9w_3IKp7NhrfVqNiJmqs0_ZETsSWdrsrkDJJaHPPhWs-VxkMTfIZG6UjrCYDzBBhhW0wXTxj7WbFezni4jAVh5JhQ8H6Xs69cb3hARVsHiD0fZO5Az1db01OnDpJFyhHBdmZGQ-v-pvUkr-BiWJ_oiWxx7QdqBnol_17UeaL2bG_FpxjSN67HBA4-B-TXbfdlTtu7pFQ_P_b_v7ZXUGpv1zDqMvVzOr2xsHx6isVIwkMSDj_w012zySmIGI5qiQ"
+        },
+        {
+          "name": "Part time",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4r2YIQD5S0wiJLM8D3QoSGRX71qnM7l4tdgoDmblEkhiN_QiEFY5guaqtGoV4HbU7f4y9btrbl3SoIAmRtGSshSJ4lB6jKGO966eEoOXZZuErl7MA5GTp9uMXPNkvtw8unXhIl5kzq1jvdvmSSIViqedLIanh67hXclMVZGBhS0NsAJAuvNYjbpEXcibEqCw5T-_UpZ_dDD7GFUayHO8rqMGljDMzoAgD9_8GfsM-kOA8fztDz-WbpdLl942ebR3WtA1akNSZ_tWVQ4G8oxlrjyHTkgkRBpL3q1ezpo7m6kVegUjraf-zfokv_nLYDnjIvSL2DPM3gXBFLR0mpFqsQfh-OcSI",
+            "q": "quantum hardware engineer part time"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&sxsrf=APpeQnuJxzool1KeAjyvdbsw_IaNHJi8Gw:1791128355795&q=quantum+hardware+engineer+part+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r2YIQD5S0wiJLM8D3QoSGRX71qnM7l4tdgoDmblEkhiN_QiEFY5guaqtGoV4HbU7f4y9btrbl3SoIAmRtGSshSJ4lB6jKGO966eEoOXZZuErl7MA5GTp9uMXPNkvtw8unXhIl5kzq1jvdvmSSIViqedLIanh67hXclMVZGBhS0NsAJAuvNYjbpEXcibEqCw5T-_UpZ_dDD7GFUayHO8rqMGljDMzoAgD9_8GfsM-kOA8fztDz-WbpdLl942ebR3WtA1akNSZ_tWVQ4G8oxlrjyHTkgkRBpL3q1ezpo7m6kVegUjraf-zfokv_nLYDnjIvSL2DPM3gXBFLR0mpFqsQfh-OcSI&udm=8&sa=X&ved=2ahUKEwjbtJOL2aCXAxUmie4BHYFEKAMQkbEKegQIGxAD",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=quantum+hardware+engineer+part+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r2YIQD5S0wiJLM8D3QoSGRX71qnM7l4tdgoDmblEkhiN_QiEFY5guaqtGoV4HbU7f4y9btrbl3SoIAmRtGSshSJ4lB6jKGO966eEoOXZZuErl7MA5GTp9uMXPNkvtw8unXhIl5kzq1jvdvmSSIViqedLIanh67hXclMVZGBhS0NsAJAuvNYjbpEXcibEqCw5T-_UpZ_dDD7GFUayHO8rqMGljDMzoAgD9_8GfsM-kOA8fztDz-WbpdLl942ebR3WtA1akNSZ_tWVQ4G8oxlrjyHTkgkRBpL3q1ezpo7m6kVegUjraf-zfokv_nLYDnjIvSL2DPM3gXBFLR0mpFqsQfh-OcSI"
+        },
+        {
+          "name": "Contract",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4r_fsZOgCf8TVkDLsBPFXvEpFPxT9tk6SMrTz1GPvgD25zweSH1QyKdiBm7rc1xBW6WncxCaiTmcu9vaPhVn9qBowUnAewCwu53ohrGqFsys9gxAQte8Auiq6G0cMcmQIzTkmFQSgEIGQdih1Me7U07kE-hqsCUZRrgfQ_1q1dOTcTI6WzxlQ442pKnR6h7a40zDw14-nblONB6Tx0V65x1wu7cM7nKkiE4IPkhiEco1n1aL2Lck74xBKoQcvdwy4BkkCJntAaXLrHjpPmlrTvB2DQZ4w7R8pXz6XgM4IrGWkcvyoYXZDm3iPE3Evq1pglQiyRyQ",
+            "q": "quantum hardware engineer contract"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&sxsrf=APpeQnuJxzool1KeAjyvdbsw_IaNHJi8Gw:1791128355795&q=quantum+hardware+engineer+contract&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r_fsZOgCf8TVkDLsBPFXvEpFPxT9tk6SMrTz1GPvgD25zweSH1QyKdiBm7rc1xBW6WncxCaiTmcu9vaPhVn9qBowUnAewCwu53ohrGqFsys9gxAQte8Auiq6G0cMcmQIzTkmFQSgEIGQdih1Me7U07kE-hqsCUZRrgfQ_1q1dOTcTI6WzxlQ442pKnR6h7a40zDw14-nblONB6Tx0V65x1wu7cM7nKkiE4IPkhiEco1n1aL2Lck74xBKoQcvdwy4BkkCJntAaXLrHjpPmlrTvB2DQZ4w7R8pXz6XgM4IrGWkcvyoYXZDm3iPE3Evq1pglQiyRyQ&udm=8&sa=X&ved=2ahUKEwjbtJOL2aCXAxUmie4BHYFEKAMQkbEKegQIGxAE",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=quantum+hardware+engineer+contract&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r_fsZOgCf8TVkDLsBPFXvEpFPxT9tk6SMrTz1GPvgD25zweSH1QyKdiBm7rc1xBW6WncxCaiTmcu9vaPhVn9qBowUnAewCwu53ohrGqFsys9gxAQte8Auiq6G0cMcmQIzTkmFQSgEIGQdih1Me7U07kE-hqsCUZRrgfQ_1q1dOTcTI6WzxlQ442pKnR6h7a40zDw14-nblONB6Tx0V65x1wu7cM7nKkiE4IPkhiEco1n1aL2Lck74xBKoQcvdwy4BkkCJntAaXLrHjpPmlrTvB2DQZ4w7R8pXz6XgM4IrGWkcvyoYXZDm3iPE3Evq1pglQiyRyQ"
+        },
+        {
+          "name": "Internship",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rAcot_iWY5OTyFR6kR7h3sdTY5JtzcWDNCvq9gGuV6VYDr7rEKdIBxdfhJH2mxhR0ZWyje-PH6M1OlA6Gycmg0etwuqye2ShGlZMEMscSUVEGlaGiFwBXKABqzABE3akVZYSY958iwFxPCfPX7qHMCoDEHiT11ktazaw9yQ7IpLMmu3UawtWOAgUB9Lv1Cwtp5Q1QZSnlJAUXjOd09zH6BJwoXX9hbdyLQt9Q6EJYo3usXqoFLbrsOybWGTZQ73Dm5lZQyBoV6shcqwmyl0kdh-sWkzTz0AghXfTm8PtFJMOz88oYqwTG1Xaz6qjpZsH8Q0ZlPg",
+            "q": "quantum hardware engineer internship"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&sxsrf=APpeQnuJxzool1KeAjyvdbsw_IaNHJi8Gw:1791128355795&q=quantum+hardware+engineer+internship&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rAcot_iWY5OTyFR6kR7h3sdTY5JtzcWDNCvq9gGuV6VYDr7rEKdIBxdfhJH2mxhR0ZWyje-PH6M1OlA6Gycmg0etwuqye2ShGlZMEMscSUVEGlaGiFwBXKABqzABE3akVZYSY958iwFxPCfPX7qHMCoDEHiT11ktazaw9yQ7IpLMmu3UawtWOAgUB9Lv1Cwtp5Q1QZSnlJAUXjOd09zH6BJwoXX9hbdyLQt9Q6EJYo3usXqoFLbrsOybWGTZQ73Dm5lZQyBoV6shcqwmyl0kdh-sWkzTz0AghXfTm8PtFJMOz88oYqwTG1Xaz6qjpZsH8Q0ZlPg&udm=8&sa=X&ved=2ahUKEwjbtJOL2aCXAxUmie4BHYFEKAMQkbEKegQIGxAF",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=quantum+hardware+engineer+internship&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rAcot_iWY5OTyFR6kR7h3sdTY5JtzcWDNCvq9gGuV6VYDr7rEKdIBxdfhJH2mxhR0ZWyje-PH6M1OlA6Gycmg0etwuqye2ShGlZMEMscSUVEGlaGiFwBXKABqzABE3akVZYSY958iwFxPCfPX7qHMCoDEHiT11ktazaw9yQ7IpLMmu3UawtWOAgUB9Lv1Cwtp5Q1QZSnlJAUXjOd09zH6BJwoXX9hbdyLQt9Q6EJYo3usXqoFLbrsOybWGTZQ73Dm5lZQyBoV6shcqwmyl0kdh-sWkzTz0AghXfTm8PtFJMOz88oYqwTG1Xaz6qjpZsH8Q0ZlPg"
+        }
+      ]
+    }
+  ],
+  "jobs_results": [
+    {
+      "title": "Quantum Hardware Engineer, Amazon's Center for Quantum Computing, Device Team",
+      "company_name": "Amazon Web Services (AWS)",
+      "location": "Pasadena, CA",
+      "via": "LinkedIn",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "We are looking for candidates who exemplify strong engineering principles, resourcefulness, a bias for action, exceptional problem-solving abilities, and really good communication skills",
+            "Working effectively within a team environment is essential",
+            "A robust background in physics or engineering is required",
+            "Effective day-to-day scripting skills are also critical for this role",
+            "Practical laboratory experience and a comprehensive grasp of experimental techniques and instrumentation are also necessary",
+            "Bachelor's degree in mechanical engineering, electrical engineering, material science, physics or equivalent",
+            "Knowledge of a scripting language (Python, R, etc.)",
+            "Experience that includes strong analytical skills, attention to detail, and effective communication abilities",
+            "Knowledge of tools and measurement devices (oscilloscope, frequency analyzer, or equivalent)",
+            "These include the duties and responsibilities listed above, as well as the abilities to adhere to company policies, exercise sound judgment, effectively manage stress and work safely and respectfully with others, exhibit trustworthiness and professionalism, and safeguard business operations and the Company’s reputation"
+          ]
+        },
+        {
+          "title": "Benefits",
+          "items": [
+            "Work/Life Balance",
+            "We value work-life harmony",
+            "Your Amazon package will include sign-on payments and restricted stock units (RSUs)",
+            "Final compensation will be determined based on factors including experience, qualifications, and location",
+            "Amazon also offers comprehensive benefits including health insurance (medical, dental, vision, prescription, Basic Life & AD&D insurance and option for Supplemental life plans, EAP, Mental Health Support, Medical Advice Line, Flexible Spending Accounts, Adoption and Surrogacy Reimbursement coverage), 401(k) matching, paid time off, and parental leave"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": [
+            "A successful candidate will play a key role in our accelerated learning initiatives, requiring adept coordination with cross-functional stakeholders, meticulous execution of scientific measurements under established test standards, the production of clear and accurate documentation, streamlining of system integration, throughput optimization, and autonomous maintenance of assigned instruments",
+            "An ability to build, run, and debug automated measurement sequences is a key responsibility of this role"
+          ]
+        }
+      ],
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=quantum+hardware+engineer&htidocid=MVPnDKguZ04DTxCMAAAAAA%3D%3D&hl=en-US&shem=epsd1,esd2e,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_zWOQWvCQBBG6dWf0NN3s0pMSqEXPYW0KJ4qFjzKJJlutmRnws7Gij_S32Sl9PJOD96bXB8m7W4kSWPAhmL7Q5HxLs4Lc8xQBrqoTA0VS-KIL4341ysNw5i8uAxvfPIN45MpYIGt1jCm2HRQwVrV9fy46lIabFkUZn3uLFHyTd5oKFS41nPxrbXdcbTud2HoKfHx5fX5nA_i5rO_Dxy4xp7jPWZ4Kg_7Gbzgg4xaFspQlTfqL-cA0QAAAA&shmds=v1_ARwrE22RnGCmXM-96669l7PiBvrLpaCxBrnReobgM2kF8FTssg&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=quantum+hardware+engineer&htidocid=MVPnDKguZ04DTxCMAAAAAA%3D%3D",
+      "thumbnail": "https://serpapi.com/searches/6ac27322974bbb0f9d230ce1/images/lwS4vKM7EI8An0B1BYGBm-mqlHQ2S8_20PlNCV1zQJQ.jpeg",
+      "extensions": [
+        "2 days ago",
+        "Full-time",
+        "Health insurance",
+        "Dental insurance",
+        "Paid time off"
+      ],
+      "source_link": "https://www.linkedin.com/jobs/view/quantum-hardware-engineer-amazon-s-center-for-quantum-computing-device-team-at-amazon-web-services-aws-4456729050",
+      "job_title": "Quantum Hardware Engineer, Amazon's Center for Quantum Computing, Device Team",
+      "description": "Description\n\nAmazon's Center for Quantum Computing in Pasadena, CA, is looking to hire a Hardware Development Engineer. You will join a multi-disciplinary team of experimental and theoretical physicists, materials scientists, and hardware and software engineers working at the forefront of quantum computing. We are looking for candidates who exemplify strong engineering principles, resourcefulness, a bias for action, exceptional problem-solving abilities, and really good communication skills. Working effectively within a team environment is essential. A robust background in physics or engineering is required. Effective day-to-day scripting skills are also critical for this role. Practical laboratory experience and a comprehensive grasp of experimental techniques and instrumentation are also necessary.\n\nKey job responsibilities\n\nA successful candidate will play a key role in our accelerated learning initiatives, requiring adept coordination with cross-functional stakeholders, meticulous execution of scientific measurements under established test standards, the production of clear and accurate documentation, streamlining of system integration, throughput optimization, and autonomous maintenance of assigned instruments. An ability to build, run, and debug automated measurement sequences is a key responsibility of this role.\n\nWhy AWS\n\nAmazon Web Services (AWS) is the world’s most comprehensive and broadly adopted cloud platform. We pioneered cloud computing and never stopped innovating — that’s why customers from the most successful startups to Global 500 companies trust our robust suite of products and services to power their businesses.\n\nDiverse Experiences\n\nAmazon values diverse experiences. Even if you do not meet all of the preferred qualifications and skills listed in the job description, we encourage candidates to apply. If your career is just starting, hasn’t followed a traditional path, or includes alternative experiences, don’t let it stop you from applying.\n\nWork/Life Balance\n\nWe value work-life harmony. Achieving success at work should never come at the expense of sacrifices at home, which is why we strive for flexibility as part of our working culture. When we feel supported in the workplace and at home, there’s nothing we can’t achieve in the cloud.\n\nInclusive Team Culture\n\nHere at AWS, it’s in our nature to learn and be curious. Our employee-led affinity groups foster a culture of inclusion that empower us to be proud of our differences.\n\nMentorship and Career Growth\n\nWe’re continuously raising our performance bar as we strive to become Earth’s Best Employer. That’s why you’ll find endless knowledge-sharing, mentorship and other career-advancing resources here to help you develop into a better-rounded professional.\n\nBasic Qualifications\n\n Bachelor's degree in mechanical engineering, electrical engineering, material science, physics or equivalent Knowledge of a scripting language (Python, R, etc.) Experience that includes strong analytical skills, attention to detail, and effective communication abilities Knowledge of tools and measurement devices (oscilloscope, frequency analyzer, or equivalent)\n\nPreferred Qualifications\n\n Experience working in a fast-paced, team environment Experience working with cryogenic systems\n\nAmazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status.\n\nLos Angeles County applicants: Job duties for this position include: work safely and cooperatively with other employees, supervisors, and staff; adhere to standards of excellence despite stressful conditions; communicate effectively and respectfully with employees, supervisors, and staff to ensure exceptional customer service; and follow all federal, state, and local laws and Company policies. Criminal history may have a direct, adverse, and negative relationship with some of the material job duties of this position. These include the duties and responsibilities listed above, as well as the abilities to adhere to company policies, exercise sound judgment, effectively manage stress and work safely and respectfully with others, exhibit trustworthiness and professionalism, and safeguard business operations and the Company’s reputation. Pursuant to the Los Angeles County Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.\n\nOur inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you’re applying in isn’t listed, please contact your Recruiting Partner.\n\nThe base salary range for this position is listed below. Your Amazon package will include sign-on payments and restricted stock units (RSUs). Final compensation will be determined based on factors including experience, qualifications, and location. Amazon also offers comprehensive benefits including health insurance (medical, dental, vision, prescription, Basic Life & AD&D insurance and option for Supplemental life plans, EAP, Mental Health Support, Medical Advice Line, Flexible Spending Accounts, Adoption and Surrogacy Reimbursement coverage), 401(k) matching, paid time off, and parental leave. Learn more about our benefits at https://amazon.jobs/en/benefits.\n\nUSA, CA, Pasadena - 122,600.00 - 160,000.00 USD annually\n\n\nCompany - Amazon Development Center U.S., Inc.\n\nJob ID: A10507384",
+      "apply_options": [
+        {
+          "title": "LinkedIn",
+          "link": "https://www.linkedin.com/jobs/view/quantum-hardware-engineer-amazon-s-center-for-quantum-computing-device-team-at-amazon-web-services-aws-4456729050?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Indeed",
+          "link": "https://www.indeed.com/viewjob?jk=be7f641f1b42267a&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Monster",
+          "link": "https://www.monster.com/job-openings/quantum-hardware-engineer-amazon-s-center-for-quantum-computing-device-team-pasadena-ca--e8c69852-eb81-4feb-bb41-6c0865f4245b?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "ZipRecruiter",
+          "link": "https://www.ziprecruiter.com/c/Amazon/Job/Quantum-Hardware-Engineer,-Amazons-Center-for-Quantum-Computing,-Device-Team/-in-Pasadena,CA?jid=6dd00e8e9e83c579&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "BeBee",
+          "link": "https://bebee.com/us/jobs/quantum-hardware-engineer-amazons-center-for-quantum-computing-device-team-amazon-web-services-aws-p--pureheal-28528_25298_b73b6c69e842bf296c3f890c17abbec0?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Jobright",
+          "link": "https://jobright.ai/jobs/info/6a862996d34f700f87fc0c3d?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Trabajo.org",
+          "link": "https://us.trabajo.org/job-5605-db1a5050985f741908e3d727470c19a8?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "NextRaise",
+          "link": "https://nextraise.ai/jobs/quantum-hardware-engineer-amazon-s-center-for-quantum-computing-device-team-at-a-ad0f827e8f9e?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJRdWFudHVtIEhhcmR3YXJlIEVuZ2luZWVyLCBBbWF6b24ncyBDZW50ZXIgZm9yIFF1YW50dW0gQ29tcHV0aW5nLCBEZXZpY2UgVGVhbSIsImNvbXBhbnlfbmFtZSI6IkFtYXpvbiBXZWIgU2VydmljZXMgKEFXUykiLCJodGlkb2NpZCI6Ik1WUG5ES2d1WjA0RFR4Q01BQUFBQUE9PSIsImhsIjoiZW4iLCJmYyI6IkVzc0JDb3dCUVVwcFZEUjBTM1pUVVhWelYzWkNZMWg2Y1dWak0wUkdlSE01YWw5RmVYVXpSRE5wY1VKR1NWUjBVWFZYWmpaUWJEUmhVRFF0VmtsYWFIVnVVMUF0VlhoR1JtNWFlVnBPVVVwZk0yNU5UM1JwTW1WWE1ESlFVVUV4TXpGTFkzRXdhMmhSVVZKT1RYQkVWbDlDT0VKNmEyRnVlV3hPUzIxdVZIWjRMVkY1WTI1TkxVcFdhMUphTUVKbU5HUVNGa2t6VUVOaGNIVllUVXRoVTNWeU9GQm5XVzFvUjFFYUlrRkVjM0k1WmxOYVZXWnZVa2RpZVUxV1FWVk9MV0ZPV1ZoeVpuWjVVUzFVWkhjIiwiZmN2IjoiMyIsImZjX2lkIjoiTVZQbkRLZ3VaMDREVHhDTUFBQUFBQT09In0="
+    },
+    {
+      "title": "Quantum Hardware Engineer: High-Speed PCB & RF Design",
+      "company_name": "Google",
+      "location": "Goleta, CA",
+      "via": "JobLeads",
+      "job_highlights": [
+        {
+          "title": "Responsibilities",
+          "items": [
+            "You will document designs and results, support integration into systems, and help deploy high-complexity projects"
+          ]
+        }
+      ],
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=quantum+hardware+engineer&htidocid=yjziITLNQv-i5ff0AAAAAA%3D%3D&hl=en-US&shem=epsd1,esd2e,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_yXNuw6CMBSA4bgyOzmdycEINSYuOCleiHHw8gCkwElbU3qanhJ5Hd9Uics_fn_ymSTXey9d7DsoZWjfMiAcnTIOMeRQGqXTp0ds4VbsYQ6PExyQjXKQwoVqYJSh0UAOzkTK4myrY_ScC8FsM8VRRtNkDXWCHNY0iBfVPKZi_Vt5KyNW681qyLxTi-kfATNyFqNcQrH7AoJ07YakAAAA&shmds=v1_ARwrE22-jTefC-bm05UsC_bfvwg44tlTltfeymiDVHSWvgE6eQ&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=quantum+hardware+engineer&htidocid=yjziITLNQv-i5ff0AAAAAA%3D%3D",
+      "extensions": [
+        "6 days ago",
+        "159K–230K a year",
+        "Full-time",
+        "No degree mentioned"
+      ],
+      "detected_extensions": {
+        "qualifications": "No degree mentioned"
+      },
+      "source_link": "https://www.jobleads.com/us/job/quantum-hardware-engineer-high-speed-pcb-rf-design--goleta--e17a6d3e774b722afa24c9caa5fc26376",
+      "job_title": "Quantum Hardware Engineer: High-Speed PCB & RF Design",
+      "description": "Google’s Quantum AI team in Goleta, CA seeks a hardware engineer to advance custom silicon for quantum control and measurement. You will work with RF/analog/mixed-signal designs on board-level solutions powering quantum computers, collaborating with ASIC designers to improve density and performance.\n\nYou will document designs and results, support integration into systems, and help deploy high-complexity projects.",
+      "apply_options": [
+        {
+          "title": "JobLeads",
+          "link": "https://www.jobleads.com/us/job/quantum-hardware-engineer-high-speed-pcb-rf-design--goleta--e17a6d3e774b722afa24c9caa5fc26376?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Jobrapido",
+          "link": "https://us.jobrapido.com/jobpreview/6987448550451838976?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJRdWFudHVtIEhhcmR3YXJlIEVuZ2luZWVyOiBIaWdoLVNwZWVkIFBDQiBcdTAwMjYgUkYgRGVzaWduIiwiY29tcGFueV9uYW1lIjoiR29vZ2xlIiwiaHRpZG9jaWQiOiJ5anppSVRMTlF2LWk1ZmYwQUFBQUFBPT0iLCJobCI6ImVuIiwiZmMiOiJFc3NCQ293QlFVcHBWRFIwU2paMGJFVTFMWEpWWjNSWExYcGxURGRKTUZSQlRrcFFSRGRpVDFaMFdGWmxUMmxGZDJKbmFqZ3hhM0JNVm1OTVIxRkhNV0ZpUjFGRllWRkRSWEV6VVUxTVUyRm5hV0ZFT0ZSRWRteDZjRXR0T0VKNlZqVTRiMnR5YmxwcFZVUkJYM0p3YkcwMk1VTmFOMHd3Y2pSTU16Rm5ZMGhZYjFNdFZVcHBXbXR5VG5aVFZqRktNbk1TRmtrelVFTmhjSFZZVFV0aFUzVnlPRkJuV1cxb1IxRWFJa0ZFYzNJNVpsSXdhRkpRTkd3NUxVUlFTSGxpTVVJd05XNDJTREJ3V1hGSFVIYyIsImZjdiI6IjMiLCJmY19pZCI6InlqemlJVExOUXYtaTVmZjBBQUFBQUE9PSJ9"
+    },
+    {
+      "title": "Lead Quantum Hardware Rack Systems Engineer",
+      "company_name": "Cisco",
+      "location": "Santa Monica, CA",
+      "via": "BeBee",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "The role requires extensive experience with high‑density electro‑mechanical racks, 3D CAD design, and safety standards, and offers a path to shape scalable quantum"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": [
+            "You will lead integration across precision electronics, RF, thermal, optical routing, and fiber management, ensuring manufacturability and serviceability"
+          ]
+        }
+      ],
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=quantum+hardware+engineer&htidocid=24QP0G8_12fIt6SJAAAAAA%3D%3D&hl=en-US&shem=epsd1,esd2e,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xXOMQ6CQBBA0dhyA62mNsoaExutlBiN0UI5ABmWybIKM2RniXgXDys2v3z5yXeSHK6EFdx75Ni3cMZQvTEQPNC-IP9opFbhyM4zUYAlXKQEJQy2BmE4ibiGZrs6xk63xqg2qdOI0dvUSmuEqZTBPKXUfwqtR7trMFKx3qyGtGM3n2ZerYBnyMcHhJuwt7iAbP8Dhg15sp8AAAA&shmds=v1_ARwrE23OrduiCWvz5xzbnKexm6yEo5XHokpn5MibNUpgmz7UJQ&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=quantum+hardware+engineer&htidocid=24QP0G8_12fIt6SJAAAAAA%3D%3D",
+      "thumbnail": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAADgAAAAdCAMAAADIOV-pAAAAeFBMVEX___8AAADw8PEAAAMAAAv4-PgAABXV1dcAABP8_Pzt7e0AABkNGS0AAA_09PUAAAYAACCLjZK3uLuqq69fYmlydXtZXWUAAB2io6aXmZ2dnqOxsrSAgod6fYJnanFucHcaIjM5Pkjg4eLLzM0ACiMrMkBMUFpESVSn2pSWAAABk0lEQVQ4jdWU23KDIBCG3aiAEoxoPMVToiZ9_zcsrPEQpel0pr0oF4j_zrcs_IBl_VKTF7N-ke-5A4A5AOB_A9rmgP0HYB4tYFwuehkvYJSb5oIZdAG8SfcA3Bk0rfRwWsAAHHcGBQQLeHoBxyL3YFmawalgfyxyB3pYsAGcCvZt8jOQTyDO6MMahBlUG7UCsZ-tSSvdn-vFjibRfdvqPmkWO-qzHlep0RRvr35hxEu73sz67fqe-yfNpf1BfXwft6fr6XjsPNr708A1cTU4jrbSAaqS3AAAPam0rFNJPaj3XMr5cNfg0VFgRa4FviINy8K7BhvGs5CTnYU9EHV0A-8JpnzMTYEXKFOMxwz6DSj5ZCCCOWRHqbIU_D6qBcH4g2wfrYqna9DKQ6EZyT-eiQmetpZUGzAmwl-DqngCnRUxp8O_SDAVDziLN6DHhqGI02mNEe1KvD3hEEqUBxUvjkO2O8qUEYF2hNqOB4CNdnQZE2hHFzIhGOm2nJozThJtQCHVRFHVVs_9U3IxDWLz1flR-wTFgRZGPXvBDAAAAABJRU5ErkJggg.png",
+      "extensions": [
+        "2 days ago",
+        "Full-time",
+        "No degree mentioned"
+      ],
+      "detected_extensions": {
+        "qualifications": "No degree mentioned"
+      },
+      "source_link": "https://bebee.com/us/jobs/lead-quantum-hardware-rack-systems-engineer-cisco-santa-monica--lensa-19327_b0228dd02198080c8443e3d598cf8589a7a90850393211c6eccc71eadd7222c6",
+      "job_title": "Lead Quantum Hardware Rack Systems Engineer",
+      "description": "Cisco’s Outshift Quantum Research team seeks a senior hardware architect to deliver rack‑mounted quantum systems to customer data centers and labs in the United States. You will lead integration across precision electronics, RF, thermal, optical routing, and fiber management, ensuring manufacturability and serviceability.\n\n\nThe role requires extensive experience with high‑density electro‑mechanical racks, 3D CAD design, and safety standards, and offers a path to shape scalable quantum",
+      "apply_options": [
+        {
+          "title": "BeBee",
+          "link": "https://bebee.com/us/jobs/lead-quantum-hardware-rack-systems-engineer-cisco-santa-monica--lensa-19327_b0228dd02198080c8443e3d598cf8589a7a90850393211c6eccc71eadd7222c6?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "JobServe",
+          "link": "https://www.jobserve.com/us/en/extjob/LEAD-QUANTUM-HARDWARE-RACK-SYSTEMS-ENGINEER-in-Santa-Monica-California-USA-B15B6037F07A279F81/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "JobLeads",
+          "link": "https://www.jobleads.com/us/job/lead-quantum-hardware-rack-systems-engineer--santa-monica--e9bc1b2b8c6e7e33c60b6e5c63b2d7c7b?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "LifeworQ",
+          "link": "https://lifeworq.com/job/09c13849-eae5-4bdc-b3e7-5da0c368e3d2?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Jobrapido",
+          "link": "https://us.jobrapido.com/jobpreview/9135195187889307648?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJMZWFkIFF1YW50dW0gSGFyZHdhcmUgUmFjayBTeXN0ZW1zIEVuZ2luZWVyIiwiY29tcGFueV9uYW1lIjoiQ2lzY28iLCJodGlkb2NpZCI6IjI0UVAwRzhfMTJmSXQ2U0pBQUFBQUE9PSIsImhsIjoiZW4iLCJmYyI6IkVzc0JDb3dCUVVwcFZEUjBTMDVwUlZkMlVXWlllRFZSWlZGSE0wcEhUemxQYlhWMFZ6VlhXR2hzTUUxbVFWUTRjSGRVZVUxUlV6ZzNiMTlMUzE5NE0wUndNSG93VldzNVgwRlNTRFZJYkMwdE9GWnJOWGhyYkd4RVlVbzJjVjluZFhwVGIzTnNMVTl0Wm5obmFtTTBZMFpRTFU1SWRITnJZbmhZVFhrNE56ZHhkVzFrWkhkcWQxTnJZV0Y1VVROWlNsOFNGa2t6VUVOaGNIVllUVXRoVTNWeU9GQm5XVzFvUjFFYUlrRkVjM0k1WmxOV1QzWktZVGd4VDFZeVNHTXhTMlp1VkY5Mk9XVTBPRlowZFhjIiwiZmN2IjoiMyIsImZjX2lkIjoiMjRRUDBHOF8xMmZJdDZTSkFBQUFBQT09In0="
+    },
+    {
+      "title": "Quantum Hardware Engineer — Sensors & Optics",
+      "company_name": "The Charles Stark Draper Laboratory, Inc.",
+      "location": "Cambridge, MA",
+      "via": "JobServe",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "Ideal candidates have a strong background in physics or applied physics with hands-on hardware experience, and are capable of leading technical solutions, communicating"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": [
+            "You will diagnose malfunctions, compile design data, and prepare technical specifications while contributing to project planning and execution"
+          ]
+        }
+      ],
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=quantum+hardware+engineer&htidocid=mSvXlwqPuDUy9IlQAAAAAA%3D%3D&hl=en-US&shem=epsd1,esd2e,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xWOO27CUBBFlZYlpLoVRURshJSGVBFBfESEItKjeWb07GDPPM08FOhYRBaUtWQlmOY250jnDv4eBvPPE0k-dViSHX7IGHOJjTAb_q-_2LG4mmOIbcpN5XjGWgOcyaoaKlioxpYfX-uck0_L0r0tomfq5aLSrlThoOfyW4PfZ-9130gtZd5PXsbnIkl8mn7VjFkPWnbsMtkR70apv7ChoEZZ7TLCSqoCjWBGXbDmEHmEj7cbj950M8MAAAA&shmds=v1_ARwrE20cBi-QlNEXImGOxdE9X4zzh4DAWAosszL8TD3p0v-xZw&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=quantum+hardware+engineer&htidocid=mSvXlwqPuDUy9IlQAAAAAA%3D%3D",
+      "extensions": [
+        "6 hours ago",
+        "Full-time",
+        "No degree mentioned"
+      ],
+      "detected_extensions": {
+        "qualifications": "No degree mentioned"
+      },
+      "source_link": "https://www.jobserve.com/us/en/extjob/QUANTUM-HARDWARE-ENGINEER-SENSORS-OPTICS-in-Cambridge-Massachusetts-USA-5C873438D559F0C0E5/",
+      "job_title": "Quantum Hardware Engineer — Sensors & Optics",
+      "description": "The Charles Stark Draper Laboratory, Inc. in Cambridge, MA seeks a Hardware Physics Engineer bridging physics and engineering to design, test, and prototype advanced hardware and sensors.\n\nYou will diagnose malfunctions, compile design data, and prepare technical specifications while contributing to project planning and execution. Ideal candidates have a strong background in physics or applied physics with hands-on hardware experience, and are capable of leading technical solutions, communicating",
+      "apply_options": [
+        {
+          "title": "JobServe",
+          "link": "https://www.jobserve.com/us/en/extjob/QUANTUM-HARDWARE-ENGINEER-SENSORS-OPTICS-in-Cambridge-Massachusetts-USA-5C873438D559F0C0E5/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJRdWFudHVtIEhhcmR3YXJlIEVuZ2luZWVyIOKAlCBTZW5zb3JzIFx1MDAyNiBPcHRpY3MiLCJjb21wYW55X25hbWUiOiJUaGUgQ2hhcmxlcyBTdGFyayBEcmFwZXIgTGFib3JhdG9yeSwgSW5jLiIsImh0aWRvY2lkIjoibVN2WGx3cVB1RFV5OUlsUUFBQUFBQT09IiwiaGwiOiJlbiIsImZjIjoiRXNzQkNvd0JRVXBwVkRSMFNrNU9lUzFXVTA1cVUwMW1Tazh3TjJwSkxUUk1OalZVU21WcFkxVjBRVnA0WjJKV1Nrc3hkelZRYkRGUFdIZ3RVMDVMVFdWVVpVdGhVbEJLZFhweVJuZ3lOa2RJU1c1MFpXZ3pRM0JxZHpGaVRUaExZa2x3V0VGVVlrbFRZbWxVVEdobVUxbHZWbGxEWWtsd2F6UjRTRXhYYTNOTVdrODVORzluY3pkbWFsZE5hM0pzUjJrU0Zra3pVRU5oY0hWWVRVdGhVM1Z5T0ZCbldXMW9SMUVhSWtGRWMzSTVabEpYZHpCclNVaEpPSEV6U1c1RlJIUmlhWFJLTW1KcFJFMDNRbWMiLCJmY3YiOiIzIiwiZmNfaWQiOiJtU3ZYbHdxUHVEVXk5SWxRQUFBQUFBPT0ifQ=="
+    },
+    {
+      "title": "Quantum Hardware Engineer — High‑Speed Circuits",
+      "company_name": "Google",
+      "location": "Goleta, CA",
+      "via": "BeBee",
+      "job_highlights": [
+        {
+          "title": "Responsibilities",
+          "items": [
+            "The role focuses on RF/analog/mixed-signal expertise, PCB design, and system deployment",
+            "You will document designs and measurements, mentor junior engineers, and contribute to the evolution of Google's quantum hardware roadmap"
+          ]
+        }
+      ],
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=quantum+hardware+engineer&htidocid=MiA17MGDZADyicVbAAAAAA%3D%3D&hl=en-US&shem=epsd1,esd2e,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_yXNMQrCMBSAYVw7Ozm9WbQRwUUnKWLpJh6gpOkjiaR5IXnFjr2C4O7dehItLv_4_dlnkVW3XnruOyhlbJ8yIly8th4xwjS-obTaTOPrHhBbKGxUveUEW6iogYQyKgPk4UqkHa5OhjmkoxApuVwnlmxVrqgT5LGhQTyoSXPqZH6j4CRjvT_shjx4vV7-EbAz55DlBorzF-DqgDuiAAAA&shmds=v1_ARwrE202Ddp1qNMwfDQHwsSFcdxFchVZu_cc9Xjq0C-wkYKy7g&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=quantum+hardware+engineer&htidocid=MiA17MGDZADyicVbAAAAAA%3D%3D",
+      "extensions": [
+        "1 month ago",
+        "Full-time",
+        "No degree mentioned"
+      ],
+      "detected_extensions": {
+        "qualifications": "No degree mentioned"
+      },
+      "source_link": "https://bebee.com/us/jobs/quantum-hardware-engineer-highspeed-circuits-google-goleta--pureheal-28528_25298_473ae0ef6536326d91f63b68c948850d",
+      "job_title": "Quantum Hardware Engineer — High‑Speed Circuits",
+      "description": "Google in Goleta, CA is seeking a Mid-level High Speed Circuit Designer to advance quantum control and measurement systems. You will collaborate with ASIC designers to architect dense, high-performance board-level solutions used in quantum computers.\n\n\nThe role focuses on RF/analog/mixed-signal expertise, PCB design, and system deployment. You will document designs and measurements, mentor junior engineers, and contribute to the evolution of Google's quantum hardware roadmap.",
+      "apply_options": [
+        {
+          "title": "BeBee",
+          "link": "https://bebee.com/us/jobs/quantum-hardware-engineer-highspeed-circuits-google-goleta--pureheal-28528_25298_473ae0ef6536326d91f63b68c948850d?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJRdWFudHVtIEhhcmR3YXJlIEVuZ2luZWVyIOKAlCBIaWdo4oCRU3BlZWQgQ2lyY3VpdHMiLCJjb21wYW55X25hbWUiOiJHb29nbGUiLCJodGlkb2NpZCI6Ik1pQTE3TUdEWkFEeWljVmJBQUFBQUE9PSIsImhsIjoiZW4iLCJmYyI6IkVzc0JDb3dCUVVwcFZEUjBTMGN4VEZnM1dFdDRlbE5zYUVOdloycENYM1JPWDFOVlZVNDBhbmRSTmtsNFJsSkJiVGRuU0c5clNsTTRXakYzVm5sbWNFSmhUV1E1YmxKUVNHZzBkbU5WYTFOM1RVOTFRV3BxYVVKMFZIQndNWFpoYlVSalVEbHNTVGhxV21GcUxVMHpOVFF0WDFkaFV6bHBObVpYTFU5SldYVk5SV0pQVm5GemEwMUhhRm90TkdNMk1IVVNGa2t6VUVOaGNIVllUVXRoVTNWeU9GQm5XVzFvUjFFYUlrRkVjM0k1WmxOalZtSkNiR0pIUWtkNmNrYzBTa3hXVkRKVmMzZGFVM2x6TTBFIiwiZmN2IjoiMyIsImZjX2lkIjoiTWlBMTdNR0RaQUR5aWNWYkFBQUFBQT09In0="
+    },
+    {
+      "title": "Hardware Development Engineer, Quantum Computing",
+      "company_name": "Amazon Development Center U.S., Inc.",
+      "location": "Pasadena, CA",
+      "via": "Salary.com",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "You must be responsive, flexible and able to succeed within an open collaborative peer environment",
+            "Currently has, or is in the process of obtaining, a Bachelor's degree or above in Electrical Engineering, Computer Engineering, Systems Engineering, or related fields",
+            "Knowledge of material and manufacturing methods",
+            "Knowledge of schematic design and debug skills",
+            "Experience in 3D CAD",
+            "Experience in analog and digital skills with embedded systems",
+            "Experience in embedded systems projects",
+            "Are enrolled in or have completed an academic program that is physically located in the United States",
+            "These include the duties and responsibilities listed above, as well as the abilities to adhere to company policies, exercise sound judgment, effectively manage stress and work safely and respectfully with others, exhibit trustworthiness and professionalism, and safeguard business operations and the Company’s reputation"
+          ]
+        },
+        {
+          "title": "Benefits",
+          "items": [
+            "Your Amazon package will include sign-on payments and restricted stock units (RSUs)",
+            "Final compensation will be determined based on factors including experience, qualifications, and location",
+            "Amazon also offers comprehensive benefits including health insurance (medical, dental, vision, prescription, Basic Life & AD&D insurance and option for Supplemental life plans, EAP, Mental Health Support, Medical Advice Line, Flexible Spending Accounts, Adoption and Surrogacy Reimbursement coverage), 401(k) matching, paid time off, and parental leave"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": [
+            "This is a full-time position, meaning candidates should expect to work in office, Monday-Friday, up to 40 hours per week typically between 8am-5pm",
+            "Specific team norms around working hours will be communicated by your manager",
+            "As a hardware engineer, you will be part of a project team you will work alongside Senior Electrical Engineers; supporting the design, debug, validation and optimization of the products",
+            "You will be involved in projects from concept through production, gaining exposure to the complete design lifecycle",
+            "You will also support engineering builds gaining experience with high volume manufacturing",
+            "As a hardware engineer you will engage with an experienced cross-disciplinary staff to conceive and design innovative consumer products",
+            "You will work closely with an internal inter-disciplinary team, and outside partners to drive key aspects of product definition, execution, and test",
+            "Perform schematic design",
+            "Validate hardware and debug issues",
+            "Develop automated test tools (labview, HPVEE)",
+            "Travel to Support engineering builds"
+          ]
+        }
+      ],
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=quantum+hardware+engineer&htidocid=jWUEx0wheXpTLXUyAAAAAA%3D%3D&hl=en-US&shem=epsd1,esd2e,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_02OsQ6CMBBA48onON1ssBiji04EDeqkMc7mgEupoXdNW5T4bX6cuLm88b2XfCZJeUDfvNAT7OhJnThLHGHP2jCRT-HSI8feQiHW9dGwhjmcpIJA6OsWhKEU0R1Nt22MLmyyLIRO6RAxmlrVYjNhqmTIHlKFH-6hHWuuw0j35XoxKMd6tsotvkfX_0Mxgjzc1FWlcORagWE4Y8CGGFMo8i_dkWrIvwAAAA&shmds=v1_ARwrE23k48bvSGd91Cf1qBttVkHMrqWuTtHfPKIbQlj6G6m40Q&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=quantum+hardware+engineer&htidocid=jWUEx0wheXpTLXUyAAAAAA%3D%3D",
+      "thumbnail": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAADgAAAA4CAMAAACfWMssAAAAb1BMVEX_YgH_YgD_____XwD_WAD_WwD-VQD7XwD8_fv5w67_UwD8WgD8___8ZBP6hlv7dj35xrX98u375Nr6lnL5cC_52Mv608T89_L7g1X7pYb8k237rJL7tp76v6n53NH75-D7fk36zb36aSL7jmT5nHkJvk7VAAABWklEQVRIie1UDXOCMAylSZNiP5QKokwUZPv_v3FMEDll6tjdbpw-esc1ScnLS2gQjIY4rvYl-vsbLjE-3y8wIaqjMaEaX1SfnOpPcKqh2-MjnAVKVs7wKVjUz5wfEIcXkbc2XMYk2rSY2JWhO0kFzaCBdZ2NU1hv9J2DJo2yt3m8BEiwK1h6sJGSt6lKqTXpLVhzVgiVBwhzxd-rJJDdzi70HgruBaEqvthHJUu8HgsRkOTNwUIhK4CM-j406bFyP3t3WhIhtnYkYnZxtK6de8MReH3xYf0RtqoVh21cVs7UqJJNnKe-secaFxBW2PFoFBCkZhY61B2rYc-WVSIF5T6hgSHnahfCIGxaajwODwZDQGni9OpsuM9cq7fopbr46YhlmUVLH1qwEK7reueGKbho8WDXBJLUbJRzysha4YH-DGU8rSZY_KsbYEKX1Yvqk1MdjQnV-NdUPwFb1w4xQyeRFQAAAABJRU5ErkJggg.png",
+      "extensions": [
+        "Full-time",
+        "Paid time off",
+        "Health insurance",
+        "Dental insurance"
+      ],
+      "source_link": "https://www.salary.com/job/amazon-development-center-u-s-inc/hardware-development-engineer-quantum-computing/j202606190919588382521",
+      "job_title": "Hardware Development Engineer, Quantum Computing",
+      "description": "DESCRIPTION\nThis is a full-time position, meaning candidates should expect to work in office, Monday-Friday, up to 40 hours per week typically between 8am-5pm. Specific team norms around working hours will be communicated by your manager.\n\n\n\nNOTE: By applying to this position, your application will be considered for all Hardware Development Engineer roles at all locations we hire for in the United States including but not limited to: Greater Seattle Area (Seattle, Bellevue, Redmond), Greater Bay Area (San Francisco, Sunnyvale, Santa Clara), Greater DMV (DC, MD, VA), Austin (TX), New York City (NY), Minneapolis (MN).\n\n\n\n\nAt Amazon, we hire the best minds in technology to innovate and build on behalf of our customers. The intense focus we have on our customers is why we are one of the world’s most beloved brands. Customer obsession is part of our company DNA.\n\n\n\n\nAs a hardware engineer, you will be part of a project team you will work alongside Senior Electrical Engineers; supporting the design, debug, validation and optimization of the products. You will be involved in projects from concept through production, gaining exposure to the complete design lifecycle. You will also support engineering builds gaining experience with high volume manufacturing.\n\n\n\nKey job responsibilities\n\nAs a hardware engineer you will engage with an experienced cross-disciplinary staff to conceive and design innovative consumer products. You will work closely with an internal inter-disciplinary team, and outside partners to drive key aspects of product definition, execution, and test. You must be responsive, flexible and able to succeed within an open collaborative peer environment.\n\nPotential Responsibilities:\n\nPerform schematic design.Validate hardware and debug issues.Develop automated test tools (labview, HPVEE).Travel to Support engineering builds.\n\nA day in the life\n\nWe’re on the lookout for the curious, those who think big and want to define the world of tomorrow.\n\n\n\nAt Amazon, you will grow into the high impact, visionary person you know you’re ready to be. Every day will be filled with exciting new challenges, developing new skills, and achieving personal growth.\n\n\n\nHow often can you say that your work changes the world? At Amazon, you’ll say it often. Join us and define tomorrow.\nBASIC QUALIFICATIONSCurrently has, or is in the process of obtaining, a Bachelor's degree or above in Electrical Engineering, Computer Engineering, Systems Engineering, or related fieldsKnowledge of material and manufacturing methodsKnowledge of schematic design and debug skillsExperience in 3D CADExperience in analog and digital skills with embedded systemsExperience in embedded systems projectsAre enrolled in or have completed an academic program that is physically located in the United States\nPREFERRED QUALIFICATIONSExperience that includes strong analytical skills, attention to detail, and effective communication abilities\n\nAmazon is an equal opportunity employer and does not discriminate on the basis of protected veteran status, disability, or other legally protected status.\n\n\n\nLos Angeles County applicants: Job duties for this position include: work safely and cooperatively with other employees, supervisors, and staff; adhere to standards of excellence despite stressful conditions; communicate effectively and respectfully with employees, supervisors, and staff to ensure exceptional customer service; and follow all federal, state, and local laws and Company policies. Criminal history may have a direct, adverse, and negative relationship with some of the material job duties of this position. These include the duties and responsibilities listed above, as well as the abilities to adhere to company policies, exercise sound judgment, effectively manage stress and work safely and respectfully with others, exhibit trustworthiness and professionalism, and safeguard business operations and the Company’s reputation. Pursuant to the Los Angeles County Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.\n\n\n\nOur inclusive culture empowers Amazonians to deliver the best results for our customers. If you have a disability and need a workplace accommodation or adjustment during the application and hiring process, including support for the interview or onboarding process, please visit https://amazon.jobs/content/en/how-we-hire/accommodations for more information. If the country/region you’re applying in isn’t listed, please contact your Recruiting Partner.\n\nThe base salary range for this position is listed below. Your Amazon package will include sign-on payments and restricted stock units (RSUs). Final compensation will be determined based on factors including experience, qualifications, and location. Amazon also offers comprehensive benefits including health insurance (medical, dental, vision, prescription, Basic Life & AD&D insurance and option for Supplemental life plans, EAP, Mental Health Support, Medical Advice Line, Flexible Spending Accounts, Adoption and Surrogacy Reimbursement coverage), 401(k) matching, paid time off, and parental leave. Learn more about our benefits at https://amazon.jobs/en/benefits.\n\n\n\nUSA, CA, Pasadena - 122,600.00 - 160,000.00 USD annually",
+      "apply_options": [
+        {
+          "title": "Salary.com",
+          "link": "https://www.salary.com/job/amazon-development-center-u-s-inc/hardware-development-engineer-quantum-computing/j202606190919588382521?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Career.com",
+          "link": "https://www.career.com/job/amazon-development-center-u-s-inc/hardware-development-engineer-quantum-computing/j202606190919588382521?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJIYXJkd2FyZSBEZXZlbG9wbWVudCBFbmdpbmVlciwgUXVhbnR1bSBDb21wdXRpbmciLCJjb21wYW55X25hbWUiOiJBbWF6b24gRGV2ZWxvcG1lbnQgQ2VudGVyIFUuUy4sIEluYy4iLCJodGlkb2NpZCI6ImpXVUV4MHdoZVhwVExYVXlBQUFBQUE9PSIsImhsIjoiZW4iLCJmYyI6IkVzc0JDb3dCUVVwcFZEUjBURVJrTFZaUmNGaFpRMWxxVEhkV1UwRm5NWFpVZDJNMVZuQlpNVmxYYlZSWVJrNDJkbU5LYlVVMWR6YzVkRzFrTjJaSWFrNXNORGRMYTBGak16RnpXRE50WjBFeFJVeDVZWEF5YzJoeVJIVnljVkZmV1RSaFkweFNSVXQzY2xGblpXRnJlakJqUWpOQ1JEQlplVnAxUjBrMmVDMU1lWGwyVVhCSVVWVlVSRUU0WjFnMGNsZ1NGa2t6VUVOaGNIVllUVXRoVTNWeU9GQm5XVzFvUjFFYUlrRkVjM0k1WmxRM2FXaDFSek0wU2pSblQwbDBUWHBIYTFaNllWVTFkMFZqVlhjIiwiZmN2IjoiMyIsImZjX2lkIjoialdVRXgwd2hlWHBUTFhVeUFBQUFBQT09In0="
+    },
+    {
+      "title": "Hardware Tech Lead -Optomechanical Engineer",
+      "company_name": "Cisco",
+      "location": "Santa Monica, CA",
+      "via": "Careers At Cisco",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "Bachelors + 8 years of related experience, or Masters + 6 years of related experience, or PhD + 3 years of related experience, or equivalent related work experience",
+            "2+ years experience in optomechanical design, precision mechanism design, or optoelectronic packaging for commercial, aerospace, or telecom applications",
+            "Experience in 3D CAD (SolidWorks, Creo) and FEA tools (ANSYS, COMSOL, or SolidWorks Simulation) for structural, thermal, and modal analysis",
+            "Experience with GD&T (ASME Y14.5), kinematic design principles, CTE matching techniques, and micron-level precision adjustment mechanisms",
+            "Experience packaging free-space optics, fiber launches, photonic devices, or laser assemblies into enclosed hardware products"
+          ]
+        },
+        {
+          "title": "Benefits",
+          "items": [
+            "The starting salary range posted for this position is $151,300.00 to $216,200.00 and reflects the projected salary range for new hires in this position in U.S. and/or Canada locations, not including incentive compensation*, equity, or benefits",
+            "Individual pay is determined by the candidate's hiring location, market conditions, job-related skillset, experience, qualifications, education, certifications, and/or training",
+            "The full salary range for certain locations is listed below",
+            "For locations not listed below, the recruiter can share more details about compensation for the role in your location during the hiring process",
+            "U.S. employees are offered benefits, subject to Cisco’s plan eligibility rules, which include medical, dental and vision insurance, a 401(k) plan with a Cisco matching contribution, paid parental leave, short and long-term disability coverage, and basic life insurance",
+            "Please see the Cisco careers site to discover more benefits and perks",
+            "Employees may be eligible to receive grants of Cisco restricted stock units, which vest following continued employment with Cisco for defined periods of time",
+            "U.S. employees are eligible for paid time away as described below, subject to Cisco’s policies:",
+            "10 paid holidays per full calendar year, plus 1 floating holiday for non-exempt employees",
+            "1 paid day off for employee’s birthday, paid year-end holiday shutdown, and 4 paid days off for personal wellness determined by Cisco",
+            "Non-exempt employees** receive 16 days of paid vacation time per full calendar year, accrued at rate of 4.92 hours per pay period for full-time employees",
+            "Exempt employees participate in Cisco’s flexible vacation time off program, which has no defined limit on how much vacation time eligible employees may use (subject to availability and some business limitations)",
+            "80 hours of sick time off provided on hire date and each January 1st thereafter, and up to 80 hours of unused sick time carried forward from one calendar year to the next",
+            "Additional paid time away may be requested to deal with critical or emergency issues for family members",
+            "Optional 10 paid days per full calendar year to volunteer",
+            "For non-sales roles, employees are also eligible to earn annual bonuses subject to Cisco’s policies",
+            "Employees on sales plans earn performance-based incentive pay on top of their base salary, which is split between quota and non-quota components, subject to the applicable Cisco plan",
+            "For quota-based incentive pay, Cisco typically pays as follows:",
+            ".75% of incentive target for each 1% of revenue attainment up to 50% of quota;",
+            "1.5% of incentive target for each 1% of attainment between 50% and 75%;",
+            "1% of incentive target for each 1% of attainment between 75% and 100%; and",
+            "Once performance exceeds 100% attainment, incentive rates are at or above 1% for each 1% of attainment with no cap on incentive compensation",
+            "For non-quota-based sales performance elements such as strategic sales objectives, Cisco may pay 0% up to 125% of target",
+            "Cisco sales plans do not have a minimum threshold of performance for sales incentive compensation to be paid",
+            "For quota-based sales roles on Cisco’s sales plan, the ranges provided in this posting include base pay and sales target incentive compensation combined"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": [
+            "You will take delicate breadboard and benchtop optical setups developed in R&D and re-engineer them into compact, vibration-isolated, and manufacturable 19-inch rack-mount chassis",
+            "You will solve critical thermal expansion, structural deformation, and drift challenges, maintaining sub-micron kinematic alignment across wide operating temperature and mechanical shock/vibration profiles",
+            "You will establish standardized mounting, fiber routing, and precision adjustment mechanisms that enable fast, repeatable assembly, testing, and servicing without requiring time-consuming manual alignment on customer sites",
+            "Design compact, modular, and ruggedized enclosures (1U–4U chassis) for precision free-space optics, fiber-to-chip interfaces, laser sources, and photonic devices",
+            "Design the layout of free-space optics, fiber-to-chip interfaces, laser sources, and photonic devices inside each enclosure capable of maintaining ultra-high alignment stability over extended operational lifespans",
+            "Perform Finite Element Analysis (FEA) for structural deformation, thermal expansion (CTE matching), and heat dissipation in enclosed optical modules",
+            "Design active and passive vibration isolation systems to protect sensitive optical paths from internal cooling fan vibrations and external data center acoustic/structural noise",
+            "Conduct comprehensive tolerance stack-up analyses (GD&T) to guarantee optical alignment budgets and component interchangeable assembly tolerances",
+            "Build, assemble, and validate initial optomechanical prototypes in the lab, testing for thermal drift, mechanical stability, optical loss, and vibration susceptibility",
+            "Collaborate with optical physicists and systems engineers to characterize insertion loss, beam quality, and phase stability across environmental stress screening (ESS)",
+            "Work with vendors and machine shops to select specialized materials, precision machining methods, custom optical coatings, and surface finishes",
+            "Employees in Illinois, whether exempt or non-exempt, will participate in a unique time off program to meet local requirements"
+          ]
+        }
+      ],
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=quantum+hardware+engineer&htidocid=SpTT9MoqJCJ3FbEaAAAAAA%3D%3D&hl=en-US&shem=epsd1,esd2e,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xWNsQrCMBBAce0f6HSz2EYEF520iCKKg-7lmh5pJL0LuYD9GD_Wujx48OAV31lxvGDqPpgIXmR7uBF2UD5ilmFSZG8xwImdZ6IEJVylBSVMUyoMZxEXaLHvc466M0Y1VE4zZm8rK4MRplZG85ZW_2i0n0YxYKZms12PVWS3nNderYBneCJnhLv8pyuoDz-ZcORxnwAAAA&shmds=v1_ARwrE23ApIHQp7xfJ3uSfz5Ny_U7I1WFPVkVbMvr9jlI9Mu6tg&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=quantum+hardware+engineer&htidocid=SpTT9MoqJCJ3FbEaAAAAAA%3D%3D",
+      "thumbnail": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAADgAAAAdCAMAAADIOV-pAAAAeFBMVEX___8AAADw8PEAAAMAAAv4-PgAABXV1dcAABP8_Pzt7e0AABkNGS0AAA_09PUAAAYAACCLjZK3uLuqq69fYmlydXtZXWUAAB2io6aXmZ2dnqOxsrSAgod6fYJnanFucHcaIjM5Pkjg4eLLzM0ACiMrMkBMUFpESVSn2pSWAAABk0lEQVQ4jdWU23KDIBCG3aiAEoxoPMVToiZ9_zcsrPEQpel0pr0oF4j_zrcs_IBl_VKTF7N-ke-5A4A5AOB_A9rmgP0HYB4tYFwuehkvYJSb5oIZdAG8SfcA3Bk0rfRwWsAAHHcGBQQLeHoBxyL3YFmawalgfyxyB3pYsAGcCvZt8jOQTyDO6MMahBlUG7UCsZ-tSSvdn-vFjibRfdvqPmkWO-qzHlep0RRvr35hxEu73sz67fqe-yfNpf1BfXwft6fr6XjsPNr708A1cTU4jrbSAaqS3AAAPam0rFNJPaj3XMr5cNfg0VFgRa4FviINy8K7BhvGs5CTnYU9EHV0A-8JpnzMTYEXKFOMxwz6DSj5ZCCCOWRHqbIU_D6qBcH4g2wfrYqna9DKQ6EZyT-eiQmetpZUGzAmwl-DqngCnRUxp8O_SDAVDziLN6DHhqGI02mNEe1KvD3hEEqUBxUvjkO2O8qUEYF2hNqOB4CNdnQZE2hHFzIhGOm2nJozThJtQCHVRFHVVs_9U3IxDWLz1flR-wTFgRZGPXvBDAAAAABJRU5ErkJggg.png",
+      "extensions": [
+        "8 days ago",
+        "Full-time",
+        "Health insurance",
+        "Paid time off",
+        "Dental insurance"
+      ],
+      "source_link": "https://careers.cisco.com/global/en/job/CISCISGLOBAL2023652EXTERNALENGLOBAL/Hardware-Tech-Lead-Optomechanical-Engineer",
+      "job_title": "Hardware Tech Lead -Optomechanical Engineer",
+      "description": "The application window is expected to close on: 10/17/2026\n\n\n\nMeet the Team  \n\nThe Outshift by Cisco team is one of Cisco’s most innovative organizations, driving the next generation of transformative technologies and business opportunities. As part of the Strategy, Incubation & Applications group led by Cisco’s Chief Strategy Officer, you will collaborate with some of the company’s most forward-thinking researchers, engineers, and technology leaders. Within the Outshift Quantum Research team and Quantum Labs, we are pioneering the design and development of practical, scalable, and efficient quantum networking technologies — building blocks for the future Quantum Internet. Our multidisciplinary team of scientists and engineers is dedicated to advancing the state of the art in quantum networking, distributed quantum systems, and quantum-enabled applications.\n\n  \n\nYour Impact  \n\nCisco Quantum Research Team is seeking a Optomechanical  Engineer to support our Quantum Experimental Team that is central to the physical realization of Cisco's deployable quantum hardware platforms. In this role: \n\nYou will take delicate breadboard and benchtop optical setups developed in R&D and re-engineer them into compact, vibration-isolated, and manufacturable 19-inch rack-mount chassis. \n\nYou will solve critical thermal expansion, structural deformation, and drift challenges, maintaining sub-micron kinematic alignment across wide operating temperature and mechanical shock/vibration profiles. \n\nYou will establish standardized mounting, fiber routing, and precision adjustment mechanisms that enable fast, repeatable assembly, testing, and servicing without requiring time-consuming manual alignment on customer sites. \n\nDesign compact, modular, and ruggedized enclosures (1U–4U chassis) for precision free-space optics, fiber-to-chip interfaces, laser sources, and photonic devices. \n\nDesign the layout of free-space optics, fiber-to-chip interfaces, laser sources, and photonic devices inside each enclosure capable of maintaining ultra-high alignment stability over extended operational lifespans. \n\nPerform Finite Element Analysis (FEA) for structural deformation, thermal expansion (CTE matching), and heat dissipation in enclosed optical modules. \n\nDesign active and passive vibration isolation systems to protect sensitive optical paths from internal cooling fan vibrations and external data center acoustic/structural noise. \n\nConduct comprehensive tolerance stack-up analyses (GD&T) to guarantee optical alignment budgets and component interchangeable assembly tolerances. \n\nBuild, assemble, and validate initial optomechanical prototypes in the lab, testing for thermal drift, mechanical stability, optical loss, and vibration susceptibility. \n\nCollaborate with optical physicists and systems engineers to characterize insertion loss, beam quality, and phase stability across environmental stress screening (ESS). \n\nWork with vendors and machine shops to select specialized materials, precision machining methods, custom optical coatings, and surface finishes. \n\n\n\n\n\nMinimum Qualifications  \n\nBachelors + 8 years of related experience, or Masters + 6 years of related experience, or PhD + 3 years of related experience, or equivalent related work experience. \n\n2+ years experience in optomechanical design, precision mechanism design, or optoelectronic packaging for commercial, aerospace, or telecom applications. \n\nExperience in 3D CAD (SolidWorks, Creo) and FEA tools (ANSYS, COMSOL, or SolidWorks Simulation) for structural, thermal, and modal analysis. \n\nExperience with GD&T (ASME Y14.5), kinematic design principles, CTE matching techniques, and micron-level precision adjustment mechanisms. \n\nExperience packaging free-space optics, fiber launches, photonic devices, or laser assemblies into enclosed hardware products.  \n\n\n\nPreferred Qualifications \n\nExperience with deployment of hybrid systems including free-space optics, fiber systems, integrated photonic device in data center environment. \n\nExperience with standard optical telecommunication components and architecture, as well as designing or operating optical data center rack systems. \n\nExperience with scaling quantum R&D prototypes into standardized, customer-ready 19 inch rack solution. \n\nExpereince in collaborating with systems engineers to perform co-dependent tolerance, thermal, and mechanical safety margin analyses across chassis and rack boundaries. \n\nExcellent communication skills with the ability to work effectively across scientific and engineering teams. \n\n\n\n\n\n\n\n\n\nWhy Cisco? At Cisco, we’re revolutionizing how data and infrastructure connect and protect organizations in the AI era – and beyond. We’ve been innovating fearlessly for 40 years to create solutions that power how humans and technology work together across the physical and digital worlds. These solutions provide customers with unparalleled security, visibility, and insights across the entire digital footprint.\n\nFueled by the depth and breadth of our technology, we experiment and create meaningful solutions. Add to that our worldwide network of doers and experts, and you’ll see that the opportunities to grow and build are limitless. We work as a team, collaborating with empathy to make really big things happen on a global scale. Because our solutions are everywhere, our impact is everywhere. \n\nWe are Cisco, and our power starts with you. \n\n\n\nMessage to applicants applying to work in the U.S. and/or Canada:\n\nThe starting salary range posted for this position is $151,300.00 to $216,200.00 and reflects the projected salary range for new hires in this position in U.S. and/or Canada locations, not including incentive compensation*, equity, or benefits.\n\nIndividual pay is determined by the candidate's hiring location, market conditions, job-related skillset, experience, qualifications, education, certifications, and/or training. The full salary range for certain locations is listed below. For locations not listed below, the recruiter can share more details about compensation for the role in your location during the hiring process.\n\n\n\nU.S. employees are offered benefits, subject to Cisco’s plan eligibility rules, which include medical, dental and vision insurance, a 401(k) plan with a Cisco matching contribution, paid parental leave, short and long-term disability coverage, and basic life insurance. Please see the Cisco careers site to discover more benefits and perks.  Employees may be eligible to receive grants of Cisco restricted stock units, which vest following continued employment with Cisco for defined periods of time.\n\n\n\nU.S. employees are eligible for paid time away as described below, subject to Cisco’s policies:\n\n10 paid holidays per full calendar year, plus 1 floating holiday for non-exempt employees\n\n1 paid day off for employee’s birthday, paid year-end holiday shutdown, and 4 paid days off for personal wellness determined by Cisco\n\nNon-exempt employees** receive 16 days of paid vacation time per full calendar year, accrued at rate of 4.92 hours per pay period for full-time employees\n\nExempt employees participate in Cisco’s flexible vacation time off program, which has no defined limit on how much vacation time eligible employees may use (subject to availability and some business limitations)\n\n80 hours of sick time off provided on hire date and each January 1st thereafter, and up to 80 hours of unused sick time carried forward from one calendar year to the next\n\nAdditional paid time away may be requested to deal with critical or emergency issues for family members\n\nOptional 10 paid days per full calendar year to volunteer\n\n\n\nFor non-sales roles, employees are also eligible to earn annual bonuses subject to Cisco’s policies.\n\n\n\nEmployees on sales plans earn performance-based incentive pay on top of their base salary, which is split between quota and non-quota components, subject to the applicable Cisco plan. For quota-based incentive pay, Cisco typically pays as follows:\n\n.75% of incentive target for each 1% of revenue attainment up to 50% of quota;\n\n1.5% of incentive target for each 1% of attainment between 50% and 75%;\n\n1% of incentive target for each 1% of attainment between 75% and 100%; and\n\nOnce performance exceeds 100% attainment, incentive rates are at or above 1% for each 1% of attainment with no cap on incentive compensation.\n\n\n\nFor non-quota-based sales performance elements such as strategic sales objectives, Cisco may pay 0% up to 125% of target. Cisco sales plans do not have a minimum threshold of performance for sales incentive compensation to be paid.\n\n\n\nThe applicable full salary ranges for this position, by specific state, are listed below:\n\n\n\nNew York City Metro Area:\n\n$171,600.00 - $281,800.00\n\nNon-Metro New York state & Washington state:\n\n$151,300.00 - $250,900.00\n\n* For quota-based sales roles on Cisco’s sales plan, the ranges provided in this posting include base pay and sales target incentive compensation combined.\n\n** Employees in Illinois, whether exempt or non-exempt, will participate in a unique time off program to meet local requirements.",
+      "apply_options": [
+        {
+          "title": "Careers At Cisco",
+          "link": "https://careers.cisco.com/global/en/job/CISCISGLOBAL2023652EXTERNALENGLOBAL/Hardware-Tech-Lead-Optomechanical-Engineer?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "LinkedIn",
+          "link": "https://www.linkedin.com/jobs/view/hardware-tech-lead-optomechanical-engineer-at-cisco-4472422522?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Indeed",
+          "link": "https://www.indeed.com/viewjob?jk=debd2aad67512bab&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "ZipRecruiter",
+          "link": "https://www.ziprecruiter.com/c/cisco-systems/Job/Hardware-Tech-Lead-Optomechanical-Engineer/-in-Santa-Monica,CA?jid=ad736a929837c2c3&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "BeBee",
+          "link": "https://bebee.com/us/jobs/hardware-tech-lead-optomechanical-engineer-cisco-santa-monica--ss-us-f1bn3b?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Teal",
+          "link": "https://www.tealhq.com/job/hardware-tech-lead-optomechanical-engineer_7ea1a631494dd46092039001b70155b0356c0?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Built In",
+          "link": "https://builtin.com/job/hardware-tech-lead-optomechanical-engineer/11387213?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Monster",
+          "link": "https://www.monster.com/job-openings/hardware-tech-lead-optomechanical-engineer-santa-monica-ca--7451eccd-4f58-47d4-8317-239f0daccf55?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJIYXJkd2FyZSBUZWNoIExlYWQgLU9wdG9tZWNoYW5pY2FsIEVuZ2luZWVyIiwiY29tcGFueV9uYW1lIjoiQ2lzY28iLCJodGlkb2NpZCI6IlNwVFQ5TW9xSkNKM0ZiRWFBQUFBQUE9PSIsImhsIjoiZW4iLCJmYyI6IkVzc0JDb3dCUVVwcFZEUjBURVpqU1RCbU1VMDBNVTR4TlhoWlF6QlBWMjluUWtkeFgwUlBWVGhuYjFCRU4yaGxWbTlYT1dVeWVWcG1TRFZJWjFWTlNYaEZVMUpqT0VGcVUyRlFUa2xCWkRCS0xXcFNXR2RxYTNsM1ZHTk5OSHB3YzNWd2FqSlRVMGx6VEVoR2JXTnlMVXd5WTJKV1JVbHdXSFp3UmkxT1JWQlViWFZ5U1ZOR1MzcHVXSFYzTkc1RWFtMFNGa2t6VUVOaGNIVllUVXRoVTNWeU9GQm5XVzFvUjFFYUlrRkVjM0k1WmxSNU5VNHpjRU5aV2pZNFpXUkZURGwzYUZGTGMxVjZTRTV4ZGtFIiwiZmN2IjoiMyIsImZjX2lkIjoiU3BUVDlNb3FKQ0ozRmJFYUFBQUFBQT09In0="
+    },
+    {
+      "title": "Quantum Hardware Test Engineering Intern 2027",
+      "company_name": "IBM",
+      "location": "Poughkeepsie, AR",
+      "via": "LinkedIn",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "Bachelor's Degree",
+            "Required Technical And Professional Expertise",
+            "Studies in EE, Physics,Mechanical Engineering, Computer Science or a related discipline",
+            "Proficient in electrical test and design of experiments",
+            "Programming knowledge for test automation",
+            "Experience troubleshooting complex systems",
+            "Desire/interest to work in the field of system assembling and validation",
+            "General knowledge of microwave circuits, incl. components and test equipment",
+            "Understanding of circuit design principles",
+            "Knowledge of Python and linux shell",
+            "Experience with cryogenic systems"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": [
+            "In this role you will help build out our quantum systems by assembling mechanical and wiring components inside the dilution refridgerator",
+            "You will help test and troubleshoot those installations and perform investigative studies on methodologies to improve our assemblies"
+          ]
+        }
+      ],
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=quantum+hardware+engineer&htidocid=z5EAjLqODDoWAniwAAAAAA%3D%3D&hl=en-US&shem=epsd1,esd2e,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xXNsQrCMBAAUFz7A4LTzaJNKYigk6JoBUHFvaT1SKLtXcldsR_jx6rLW1_yGSW7a29J-xaONj7eNiLcURT25AIhxkAOClKMBHmWL2EOJ65A0MbaAxMcmF2Dk7VX7WRljEiTOlGroU5rbg0TVjyYJ1fypxT_K7rGKpb5IhvSjtx0XGzPEAgu3Dv_Quwk4Aw2ty-m3dw1nwAAAA&shmds=v1_ARwrE22Wc_s3HZeL1wz44cGmSRxvT8sgAzRViSpl3R3kAnUZrA&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=quantum+hardware+engineer&htidocid=z5EAjLqODDoWAniwAAAAAA%3D%3D",
+      "thumbnail": "https://serpapi.com/searches/6ac27322974bbb0f9d230ce1/images/iQVWgmLBNfGA6jIl1LE0-Jt26PQDSRjTut4_zUsMLaQ.jpeg",
+      "extensions": [
+        "5 days ago",
+        "73,500–134,750 a year",
+        "Full-time"
+      ],
+      "source_link": "https://www.linkedin.com/jobs/view/quantum-hardware-test-engineering-intern-2027-at-ibm-4471764764",
+      "job_title": "Quantum Hardware Test Engineering Intern 2027",
+      "description": "Introduction\n\nAt IBM Research, we are the innovation engine of IBM. Exploring what’s next in computing and shaping the technologies the world will rely on tomorrow. From advancing AI and hybrid cloud to pioneering practical quantum computing, we anticipate challenges and unlock new opportunities for clients, partners, and society. Working in Research means joining a team that accelerates discovery at the intersection of high-performance computing, AI, quantum, and cloud. You’ll collaborate with leading scientists, engineers, and visionaries to push boundaries and turn ideas into reality. With a culture built on curiosity, creativity, and collaboration, IBM Research offers the opportunity to grow your career while contributing to breakthroughs that transform industries and change the world.\n\nYour Role And Responsibilities\n\nAt IBM Quantum we build utility scale (> 100 qubit) quantum computer systems comprised of superconducting qubits cooled to 10mK in dilution refridgerators and controlled by microwave pulses produced from advanced racks of room temperature electronics. Our team at IBM quantum working on building, deploying and calibrating these systems is looking for a summer intern on our subteam working on system assembly and test. In this role you will help build out our quantum systems by assembling mechanical and wiring components inside the dilution refridgerator. You will help test and troubleshoot those installations and perform investigative studies on methodologies to improve our assemblies.\n\nPreferred Education\n\nBachelor's Degree\n\nRequired Technical And Professional Expertise\n\nCandidate for this role is required to have the following expertise:\n\nStudies in EE, Physics,Mechanical Engineering, Computer Science or a related disciplineProficient in electrical test and design of experimentsProgramming knowledge for test automationExperience troubleshooting complex systemsDesire/interest to work in the field of system assembling and validation\n\nPreferred Technical And Professional Experience\n\nCandidate for this role would also benefits from the following expertise:\n\nGeneral knowledge of microwave circuits, incl. components and test equipmentUnderstanding of circuit design principlesKnowledge of Python and linux shellExperience with cryogenic systems",
+      "apply_options": [
+        {
+          "title": "LinkedIn",
+          "link": "https://www.linkedin.com/jobs/view/quantum-hardware-test-engineering-intern-2027-at-ibm-4471764764?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Jobright",
+          "link": "https://jobright.ai/jobs/info/6abc29b292b2612ef0f8d715?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Trabajo.org",
+          "link": "https://us.trabajo.org/job-4112-cc14542cea3a343e492bdc5ff57064f1?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJRdWFudHVtIEhhcmR3YXJlIFRlc3QgRW5naW5lZXJpbmcgSW50ZXJuIDIwMjciLCJjb21wYW55X25hbWUiOiJJQk0iLCJodGlkb2NpZCI6Ino1RUFqTHFPRERvV0FuaXdBQUFBQUE9PSIsImhsIjoiZW4iLCJmYyI6IkVzc0JDb3dCUVVwcFZEUjBURUpOTVVwTGVtNWhWVEJaUzNSWWIwNDBkR00yZEZGNFprcGtSbWxhVUY5dlJsTjNTa2czUkZkaVUzaHRja1JzWkcxV09FSnpUWFJSTVVaeVFUaE9jbVJXY0RCSllsUXlhMWs1YlRGb1YybEdWRGh3WlhaS1pqVnpjV3BVY0hkc1oxOUtUMjF0ZFMxNWFHbGFNek5mWkROblJHTTRia1Z3YjB0RmRrSmZSRmh1WkdFelgzZ1NGa2t6VUVOaGNIVllUVXRoVTNWeU9GQm5XVzFvUjFFYUlrRkVjM0k1WmxGaFpqSm1hWEpTTmpZMU4xTXhTMjFuYTFrelVIVXlVM1JMVGtFIiwiZmN2IjoiMyIsImZjX2lkIjoiejVFQWpMcU9ERG9XQW5pd0FBQUFBQT09In0="
+    },
+    {
+      "title": "Electrical Engineer, Quantum Hardware & Precision Analog",
+      "company_name": "Vector Atomic, Inc.",
+      "location": "Pleasanton, CA",
+      "via": "Talents By Vaia",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "The position requires a Bachelor’s degree in Electrical Engineering or related field and 2–5 years of relevant experience"
+          ]
+        },
+        {
+          "title": "Benefits",
+          "items": [
+            "A competitive salary range of $110,000 to $135,000 is offered",
+            "#J-18808-Ljbffr"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": [
+            "You will design ultra-low-noise analog and mixed-signal electronics for applications such as GPS-free navigation and precision timing",
+            "Collaboration with various teams is essential, and you’re expected to document requirements and provide support from prototype to production"
+          ]
+        }
+      ],
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=quantum+hardware+engineer&htidocid=uznDSpxl1I-BNz9gAAAAAA%3D%3D&hl=en-US&shem=epsd1,esd2e,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xWOuwrCQBAAsc0nWG2jhcSLCDZaBQk-GmNjGzbncjm57IbbE_Nj_p-xmWKKYbLvLLtVgWyK3mKAip1nopjD_Y2c3j2cMT4_GAmWUEeyXr0wlIxBHKzhKi0oYbQdTPok4gLND11Kg-6LQjUYpwmTt8ZKXwhTK2Pxklb_aLSbwkPARM12txnNwG61eEwzEqFM0nubw4WtAc9QB0KdloRzOJY_QA_QA7gAAAA&shmds=v1_ARwrE20ic6sqfcQEoC2SxCppogfwceMLw3OWamiyTteJZ2R5RQ&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=quantum+hardware+engineer&htidocid=uznDSpxl1I-BNz9gAAAAAA%3D%3D",
+      "thumbnail": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAADgAAAAdCAMAAADIOV-pAAAAgVBMVEXw_f_w-f_x_v_w-__v__7____w-_71___4___0_P7Ey83J0NGxt7e-xcZlqfvV5f241ftcpf3r8v0-mvyXw_wAhP-Iuvwlkv3V3-Hm8fPO2NoAif0Af_6ky_o4l_zb5uekqquZnp6EiIlkZmZzdnaRlZV2svzd6fxlrvl1tfjJ3_u_sZS-AAABbUlEQVQ4jdWT626DMAyFU1LHuQKlK4T0luzWy_s_4BxopU1qJ8GfaUfBQShfcmwcViznic3klqyYqf8E_o0kMoZy-umyrADqVQOkSSCsXwDKTT2AVC76NJ5-K8FTK7ItAbquzeDSo5eIPSIWGERBs_SIT8B6C2q3Pwzg0cZk7au1sfc52pScdY9J2exU1TW7wap8O74nF2OKMsWU4od1KerHIMKm2pewOQ3FkeRRkNGCkU1kg-dHeQohFKz3n-2pa6sKGAZaSBjFos_voUfBhM-7UOq06agRbNtDeb5cztu9dL3W0WoTtQ3GWho69UdnQqRUTTL2B1h32_rabq9XYLRGE6Gj99Yzb4wJVjBPZPDaOOPwDnKuoNl0AKedAuBiaGH6HUUvCpHvAEM-zPlCUA73E3kGoaQWgBVVh48St-e52DhJmcPvSx-C0zUfXMzUNFBxNYhPBJVL1mUFPhGktgg6d8hEcKGQ8zlWv-sLC9Udv0EIAoIAAAAASUVORK5CYII.png",
+      "extensions": [
+        "Full-time"
+      ],
+      "source_link": "https://talents.vaia.com/companies/vector-atomic-inc/pleasanton/electrical-engineer-quantum-hardware-precision-analog-101212179/",
+      "job_title": "Electrical Engineer, Quantum Hardware & Precision Analog",
+      "description": "A technology firm specializing in quantum solutions seeks an Electronic Design Engineer in Pleasanton, California. You will design ultra-low-noise analog and mixed-signal electronics for applications such as GPS-free navigation and precision timing. Collaboration with various teams is essential, and you’re expected to document requirements and provide support from prototype to production. The position requires a Bachelor’s degree in Electrical Engineering or related field and 2–5 years of relevant experience. A competitive salary range of $110,000 to $135,000 is offered. #J-18808-Ljbffr",
+      "apply_options": [
+        {
+          "title": "Talents By Vaia",
+          "link": "https://talents.vaia.com/companies/vector-atomic-inc/pleasanton/electrical-engineer-quantum-hardware-precision-analog-101212179/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJFbGVjdHJpY2FsIEVuZ2luZWVyLCBRdWFudHVtIEhhcmR3YXJlIFx1MDAyNiBQcmVjaXNpb24gQW5hbG9nIiwiY29tcGFueV9uYW1lIjoiVmVjdG9yIEF0b21pYywgSW5jLiIsImh0aWRvY2lkIjoidXpuRFNweGwxSS1CTno5Z0FBQUFBQT09IiwiaGwiOiJlbiIsImZjIjoiRXNzQkNvd0JRVXBwVkRSMFMyaGFRMlJET1c1alRERmFjSFZSVHpKd1VGZEZUbXBIWTIxMWF6Smpiek5STjNObGVtNXhUbmRFTlc5Q1ZqVnhNVlJrVTBNeFlWa3hTalpuYldOVmJHdERjVmN3VjNKdlVHbGtOREEwU2t4ZlRYUlNVMDFQYVZSR1gwaE9Na05JUlVSc1ZEbEtiM0pGUzNJMVJYRlNUWFJhUnpoWFIyRnNhVFJJZVRKbk1sVllhME01T0U0U0Zra3pVRU5oY0hWWVRVdGhVM1Z5T0ZCbldXMW9SMUVhSWtGRWMzSTVabFEyZVZReFRGSndjMVJhYmpCRGFWVmZUWEZZYm0xRmJucFdla0UiLCJmY3YiOiIzIiwiZmNfaWQiOiJ1em5EU3B4bDFJLUJOejlnQUFBQUFBPT0ifQ=="
+    },
+    {
+      "title": "Senior PCB Design Engineer - Quantum Hardware (Onsite)",
+      "company_name": "Stage 4 Solutions Inc",
+      "location": "Milpitas, CA",
+      "via": "JobLeads",
+      "job_highlights": [
+        {
+          "title": "Benefits",
+          "items": [
+            "This 6-month contract (conversion to FTE possible) is a 40-hour week, onsite W-2 position with health benefits and 401(k)"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": [
+            "You will own analog/digital PCB designs, high-speed data links, FPGA/MCU integration, and ensure signal integrity and EMI suppression while developing test setups and thorough documentation"
+          ]
+        }
+      ],
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=quantum+hardware+engineer&htidocid=Bz59LXUXryuIzz4zAAAAAA%3D%3D&hl=en-US&shem=epsd1,esd2e,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xXMOwrCQBCAYWxzBKtpBBVNRLTRyhc-QFRyANnEYTOymQk7E_ReXlBt_uaDP_l0knOOTBLhulnDFpU8w449MWKEMdxax9bWcHDx8XIRoX9hJcPBz05SgKKLZQXCsBfxAbvLyqzRRZaphtSrOaMyLaXOhLGQd_aUQv-5a_XbNcEZ3qfzyTtt2A97uTmPMINcQmskrHDkEojhTKEhczqCzeoLv8iDkLYAAAA&shmds=v1_ARwrE22WwmcVT7IQIKplc1sxI_SoMqDbW2myyVCZJFtKMuojJA&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=quantum+hardware+engineer&htidocid=Bz59LXUXryuIzz4zAAAAAA%3D%3D",
+      "thumbnail": "https://serpapi.com/searches/6ac27322974bbb0f9d230ce1/images/pcFH41L2R5mV45vkMaH11th4XeuCBwVxcmEHw7FG4RM.jpeg",
+      "extensions": [
+        "5 days ago",
+        "138K–152K a year",
+        "Full-time",
+        "No degree mentioned",
+        "Health insurance"
+      ],
+      "detected_extensions": {
+        "qualifications": "No degree mentioned"
+      },
+      "source_link": "https://www.jobleads.com/us/job/senior-pcb-design-engineer-quantum-hardware-onsite--milpitas--e5417ef85d3dc25ed66c18b91f9dd6491",
+      "job_title": "Senior PCB Design Engineer - Quantum Hardware (Onsite)",
+      "description": "Stage 4 Solutions Inc. seeks a Sr Hardware Design Engineer for onsite PCB design/layout in Milpitas, CA. This 6-month contract (conversion to FTE possible) is a 40-hour week, onsite W-2 position with health benefits and 401(k).\n\nYou will own analog/digital PCB designs, high-speed data links, FPGA/MCU integration, and ensure signal integrity and EMI suppression while developing test setups and thorough documentation.",
+      "apply_options": [
+        {
+          "title": "JobLeads",
+          "link": "https://www.jobleads.com/us/job/senior-pcb-design-engineer-quantum-hardware-onsite--milpitas--e5417ef85d3dc25ed66c18b91f9dd6491?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Jobrapido",
+          "link": "https://us.jobrapido.com/jobpreview/9030954063872655360?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJTZW5pb3IgUENCIERlc2lnbiBFbmdpbmVlciAtIFF1YW50dW0gSGFyZHdhcmUgKE9uc2l0ZSkiLCJjb21wYW55X25hbWUiOiJTdGFnZSA0IFNvbHV0aW9ucyBJbmMiLCJodGlkb2NpZCI6IkJ6NTlMWFVYcnl1SXp6NHpBQUFBQUE9PSIsImhsIjoiZW4iLCJmYyI6IkVzc0JDb3dCUVVwcFZEUjBURFZ6YTJkWlVtazJNbkJQTkVkbGNIY3hlbFpLWlhOelJrNHpPV3c1U25Bd1kxTm1VVU5JVGpOUFZGTXpNR2QwZWtwbllpMW1PSFJDTTBkVVZTMXZURXRQY1d0VGQxQndkRkJyTmpsUmR6Rk9kR1ZQUmpaTlZUTmZhbTlOY0U1VlNsOUxTbVptVkdSTWFHUlBZVVJzYm5scVJVMW9RV1F5UjNvNWRuWkpYMlpHZWtKaGIzUVNGa2t6VUVOaGNIVllUVXRoVTNWeU9GQm5XVzFvUjFFYUlrRkVjM0k1WmxOV1dWRmtMVGMwU21GT1lVNXphVGRaYUdKblRHeEpTR1puUW5jIiwiZmN2IjoiMyIsImZjX2lkIjoiQno1OUxYVVhyeXVJeno0ekFBQUFBQT09In0="
+    }
+  ],
+  "serpapi_pagination": {
+    "next_page_token": "eyJmYyI6IkVyWURDdmNDUVVwcFZEUjBTMlZsTVdablpYZ3dSMncwTjNCa1luaHVNM0JUVFZsTU1WZDRlVGM1YzFGVVIwUlpVSEZYZVhCME1saFlXa05tVEZaRkxURlZXbGR6TXpWdk1IbDFkMWhMY25sNE5ISTVlQzFWUkY4eFYzaEVNVk5hU2sweFRXNUlZVFZqZEhOamVTMDNTM0U1WjBWUlZ6TnFaVFF0UVc1TlZreEplWGxGWmpGckxVZElSRk5NZUZaNWRFTnpSRFpHWHkxV2EycFVTMlpYVFZabkxXWkNTMHRUY0c4MWExTmpURU0zZFVwWWFVdHBWSGxJZURkaFdrVTBNM2R4VEd0bWRDMVVhbXREVVhRdFlXRnNSR3QyTmtSWFgzZDNUMlp4UkVaVGEyMUVRbkZGVjFsSWIzRTRSblZGTjAxUFZXWkZSWEV5WlhCb1dWRm1Nalp1TTBnMVQwY3hiVFp1T1VwdVpWVmhhVGx5UW5aWFJVZGFkSEpSV1ZSTFYwUldWV3B3TFRVMFVrY3RUVGcyWm1vM1pYZDRRelo2ZW1OVVkyZzFjakoyTjNkeFdFTlBOemh2T1RBMFoyTnVNekUwWTBONFlqaGZPRFkzWTFGSlZYaENRMjFCUmpsTk1tUnNkMUIzWlY5RmNHdFJNVU0zVm0xUlFrOXZFaFpKTTFCRFlYQjFXRTFMWVZOMWNqaFFaMWx0YUVkUkdpSkJSSE55T1daVWFrNDBUR05PT1d0UlpIWktRVFZtZFdkalYwVjJRblZVWm5kMyIsImZjdiI6IjMifQ==",
+    "next": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&next_page_token=eyJmYyI6IkVyWURDdmNDUVVwcFZEUjBTMlZsTVdablpYZ3dSMncwTjNCa1luaHVNM0JUVFZsTU1WZDRlVGM1YzFGVVIwUlpVSEZYZVhCME1saFlXa05tVEZaRkxURlZXbGR6TXpWdk1IbDFkMWhMY25sNE5ISTVlQzFWUkY4eFYzaEVNVk5hU2sweFRXNUlZVFZqZEhOamVTMDNTM0U1WjBWUlZ6TnFaVFF0UVc1TlZreEplWGxGWmpGckxVZElSRk5NZUZaNWRFTnpSRFpHWHkxV2EycFVTMlpYVFZabkxXWkNTMHRUY0c4MWExTmpURU0zZFVwWWFVdHBWSGxJZURkaFdrVTBNM2R4VEd0bWRDMVVhbXREVVhRdFlXRnNSR3QyTmtSWFgzZDNUMlp4UkVaVGEyMUVRbkZGVjFsSWIzRTRSblZGTjAxUFZXWkZSWEV5WlhCb1dWRm1Nalp1TTBnMVQwY3hiVFp1T1VwdVpWVmhhVGx5UW5aWFJVZGFkSEpSV1ZSTFYwUldWV3B3TFRVMFVrY3RUVGcyWm1vM1pYZDRRelo2ZW1OVVkyZzFjakoyTjNkeFdFTlBOemh2T1RBMFoyTnVNekUwWTBONFlqaGZPRFkzWTFGSlZYaENRMjFCUmpsTk1tUnNkMUIzWlY5RmNHdFJNVU0zVm0xUlFrOXZFaFpKTTFCRFlYQjFXRTFMWVZOMWNqaFFaMWx0YUVkUkdpSkJSSE55T1daVWFrNDBUR05PT1d0UlpIWktRVFZtZFdkalYwVjJRblZVWm5kMyIsImZjdiI6IjMifQ%3D%3D&q=quantum+hardware+engineer"
+  }
+}

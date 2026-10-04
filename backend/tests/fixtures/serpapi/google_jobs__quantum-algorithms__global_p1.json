@@ -1,0 +1,905 @@
+{
+  "search_metadata": {
+    "id": "6ac27327e3e176f79f45328c",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/m5mIFLvfc3GylQHLF9AGvNkctoalYMLPLsks4BRnFqs/6ac27327e3e176f79f45328c.json",
+    "markdown_endpoint": "https://serpapi.com/searches/m5mIFLvfc3GylQHLF9AGvNkctoalYMLPLsks4BRnFqs/6ac27327e3e176f79f45328c.md",
+    "created_at": "2026-10-04 15:39:19 UTC",
+    "processed_at": "2026-10-04 15:39:19 UTC",
+    "google_jobs_url": "https://www.google.com/search?q=quantum+algorithms&hl=en&udm=8",
+    "raw_html_file": "https://serpapi.com/searches/m5mIFLvfc3GylQHLF9AGvNkctoalYMLPLsks4BRnFqs/6ac27327e3e176f79f45328c.html",
+    "total_time_taken": 2.49
+  },
+  "search_parameters": {
+    "q": "quantum algorithms",
+    "engine": "google_jobs",
+    "google_domain": "google.com",
+    "hl": "en"
+  },
+  "filters": [
+    {
+      "name": "No degree",
+      "parameters": {
+        "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rQUe9osIwg5JhA0oQnVVSNVRxdSQeHYaFD7HexJlA8jBTzkDWPIjn0brYwl2upMP8LBhAY-Yq2BmKT3Jj6b0IEPvn_yGJtzooRqKJvLZ-IuZI7JICkZg54wiuKsMmdekFO6d3VotZMGKUNU79l-jKpL_te0Y",
+        "q": "quantum algorithms no degree"
+      },
+      "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&sxsrf=APpeQnuux1m9fURU-J9qLVXUt2nO8dCm1A:1791128361160&q=quantum+algorithms+no+degree&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rQUe9osIwg5JhA0oQnVVSNVRxdSQeHYaFD7HexJlA8jBTzkDWPIjn0brYwl2upMP8LBhAY-Yq2BmKT3Jj6b0IEPvn_yGJtzooRqKJvLZ-IuZI7JICkZg54wiuKsMmdekFO6d3VotZMGKUNU79l-jKpL_te0Y&udm=8&sa=X&ved=2ahUKEwjC2dqN2aCXAxWsnGoFHS3mBigQxKsJKAB6BAghEAE&ictx=0",
+      "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=quantum+algorithms+no+degree&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rQUe9osIwg5JhA0oQnVVSNVRxdSQeHYaFD7HexJlA8jBTzkDWPIjn0brYwl2upMP8LBhAY-Yq2BmKT3Jj6b0IEPvn_yGJtzooRqKJvLZ-IuZI7JICkZg54wiuKsMmdekFO6d3VotZMGKUNU79l-jKpL_te0Y"
+    },
+    {
+      "name": "Remote",
+      "parameters": {
+        "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rM4C1ogCMDpmOJgEzBCm9o6tROMmKowrrmhpZU6vCbUpgGJRFscZPhBa3cQcspAS6zugeUxxeiaF3IQaLa5lFduCmnzAnmqLBClUZcVVtI9QD-NVayCgdIWB9SgvaDuor2lU-czfXRKgSWxNaggtwsBM0E8o",
+        "q": "quantum algorithms remote"
+      },
+      "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&sxsrf=APpeQnuux1m9fURU-J9qLVXUt2nO8dCm1A:1791128361160&q=quantum+algorithms+remote&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rM4C1ogCMDpmOJgEzBCm9o6tROMmKowrrmhpZU6vCbUpgGJRFscZPhBa3cQcspAS6zugeUxxeiaF3IQaLa5lFduCmnzAnmqLBClUZcVVtI9QD-NVayCgdIWB9SgvaDuor2lU-czfXRKgSWxNaggtwsBM0E8o&udm=8&sa=X&ved=2ahUKEwjC2dqN2aCXAxWsnGoFHS3mBigQxKsJKAF6BAgkEAE&ictx=0",
+      "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=quantum+algorithms+remote&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rM4C1ogCMDpmOJgEzBCm9o6tROMmKowrrmhpZU6vCbUpgGJRFscZPhBa3cQcspAS6zugeUxxeiaF3IQaLa5lFduCmnzAnmqLBClUZcVVtI9QD-NVayCgdIWB9SgvaDuor2lU-czfXRKgSWxNaggtwsBM0E8o"
+    },
+    {
+      "name": "Job type",
+      "options": [
+        {
+          "name": "Full time",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rcyAXw0LNf4_5_PJXENkvOoatyXfKolmWJV2VqD1tSCU1gTraQALjuyBfnZXDId0dJH-Fyb2_B6J6hgOBI6ENOcNP3RstZJI_NHq_oaI2mZ3CIhSV2x2eobQuAfNqZkpkGHZbHoiKzIegBY-NZ_zGnKJK3vEoHhO1kIDoisXDVlMWiKiqQM1KQHCZB20r6W5QoxEb6_1jsZGTwN14lRSgb5m1ZptnJmX-oMZTLRokZ1eAifpAtLv0s27LNIPhauvw84WqxblzPjFH1XfUsUbep2bWlNk9YikpagRWRq9FxwZ1tCKH1nLHJYsQjbIqdKoUetveUQ",
+            "q": "quantum algorithms full time"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&sxsrf=APpeQnuux1m9fURU-J9qLVXUt2nO8dCm1A:1791128361160&q=quantum+algorithms+full+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rcyAXw0LNf4_5_PJXENkvOoatyXfKolmWJV2VqD1tSCU1gTraQALjuyBfnZXDId0dJH-Fyb2_B6J6hgOBI6ENOcNP3RstZJI_NHq_oaI2mZ3CIhSV2x2eobQuAfNqZkpkGHZbHoiKzIegBY-NZ_zGnKJK3vEoHhO1kIDoisXDVlMWiKiqQM1KQHCZB20r6W5QoxEb6_1jsZGTwN14lRSgb5m1ZptnJmX-oMZTLRokZ1eAifpAtLv0s27LNIPhauvw84WqxblzPjFH1XfUsUbep2bWlNk9YikpagRWRq9FxwZ1tCKH1nLHJYsQjbIqdKoUetveUQ&udm=8&sa=X&ved=2ahUKEwjC2dqN2aCXAxWsnGoFHS3mBigQkbEKegQIIhAC",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=quantum+algorithms+full+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rcyAXw0LNf4_5_PJXENkvOoatyXfKolmWJV2VqD1tSCU1gTraQALjuyBfnZXDId0dJH-Fyb2_B6J6hgOBI6ENOcNP3RstZJI_NHq_oaI2mZ3CIhSV2x2eobQuAfNqZkpkGHZbHoiKzIegBY-NZ_zGnKJK3vEoHhO1kIDoisXDVlMWiKiqQM1KQHCZB20r6W5QoxEb6_1jsZGTwN14lRSgb5m1ZptnJmX-oMZTLRokZ1eAifpAtLv0s27LNIPhauvw84WqxblzPjFH1XfUsUbep2bWlNk9YikpagRWRq9FxwZ1tCKH1nLHJYsQjbIqdKoUetveUQ"
+        },
+        {
+          "name": "Part time",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rcyAXw0LNf4_5_PJXENkvOoatyXfKolmWJV2VqD1tSCWi2BokKgcNnZJJkW4MjXbnu2HD-p3pP2BbAH_e2EVGTr-99smyPoaZaph_fZ-O7SDH3kPFax1VngqeDndo2_XGcDTgIHBrf8yxyufGIrfmzF2OZM1YIpsgYLc6hDBnZbsJYX88142ZZF00cxaqrusHYhoamGRDJqQ9Gse4mY-eeDGqdijNAq7tHXtJi7och3Pm0yO36dKRkj_mbkPp5qvIENWgnK4UDNpOh5gb3Yta-A_Y0rjatPNH3__i1uI5lbXr_1PV1OYf4KIGAvwMOUhirIbTyA",
+            "q": "quantum algorithms part time"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&sxsrf=APpeQnuux1m9fURU-J9qLVXUt2nO8dCm1A:1791128361160&q=quantum+algorithms+part+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rcyAXw0LNf4_5_PJXENkvOoatyXfKolmWJV2VqD1tSCWi2BokKgcNnZJJkW4MjXbnu2HD-p3pP2BbAH_e2EVGTr-99smyPoaZaph_fZ-O7SDH3kPFax1VngqeDndo2_XGcDTgIHBrf8yxyufGIrfmzF2OZM1YIpsgYLc6hDBnZbsJYX88142ZZF00cxaqrusHYhoamGRDJqQ9Gse4mY-eeDGqdijNAq7tHXtJi7och3Pm0yO36dKRkj_mbkPp5qvIENWgnK4UDNpOh5gb3Yta-A_Y0rjatPNH3__i1uI5lbXr_1PV1OYf4KIGAvwMOUhirIbTyA&udm=8&sa=X&ved=2ahUKEwjC2dqN2aCXAxWsnGoFHS3mBigQkbEKegQIIhAD",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=quantum+algorithms+part+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rcyAXw0LNf4_5_PJXENkvOoatyXfKolmWJV2VqD1tSCWi2BokKgcNnZJJkW4MjXbnu2HD-p3pP2BbAH_e2EVGTr-99smyPoaZaph_fZ-O7SDH3kPFax1VngqeDndo2_XGcDTgIHBrf8yxyufGIrfmzF2OZM1YIpsgYLc6hDBnZbsJYX88142ZZF00cxaqrusHYhoamGRDJqQ9Gse4mY-eeDGqdijNAq7tHXtJi7och3Pm0yO36dKRkj_mbkPp5qvIENWgnK4UDNpOh5gb3Yta-A_Y0rjatPNH3__i1uI5lbXr_1PV1OYf4KIGAvwMOUhirIbTyA"
+        },
+        {
+          "name": "Contract",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rS7y9Li8FvM8Ea1DOU-m9Fd_t9AWRi0xBTMgoEXzUDCu5KIjDcmr2Ipi0Bp6MmZYOmOoYqEqxU3FsGFc488XyRGcc0S3xu5tT5hbSS6_uC94YaHMJnwViLI94E5-2GNWjow3iKKqQFgsYfSD5KEVaTLEE1YqaGLrZ9Lhwwq7ovLh29FpAyEghDT2geN0bMS2WuChadZqVS1TivJkPONHVqiBKCejoY7woSu3RVvabDf0aG3Rn1i_WSOzjox9qVjdWDZqkQsU7jMtyEO-cCL64DYVdiVgJu-8Xna1B9DDbctUpNTPeeSJ6sfBfztuFomfCdjRkOQ",
+            "q": "quantum algorithms contract"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&sxsrf=APpeQnuux1m9fURU-J9qLVXUt2nO8dCm1A:1791128361160&q=quantum+algorithms+contract&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rS7y9Li8FvM8Ea1DOU-m9Fd_t9AWRi0xBTMgoEXzUDCu5KIjDcmr2Ipi0Bp6MmZYOmOoYqEqxU3FsGFc488XyRGcc0S3xu5tT5hbSS6_uC94YaHMJnwViLI94E5-2GNWjow3iKKqQFgsYfSD5KEVaTLEE1YqaGLrZ9Lhwwq7ovLh29FpAyEghDT2geN0bMS2WuChadZqVS1TivJkPONHVqiBKCejoY7woSu3RVvabDf0aG3Rn1i_WSOzjox9qVjdWDZqkQsU7jMtyEO-cCL64DYVdiVgJu-8Xna1B9DDbctUpNTPeeSJ6sfBfztuFomfCdjRkOQ&udm=8&sa=X&ved=2ahUKEwjC2dqN2aCXAxWsnGoFHS3mBigQkbEKegQIIhAE",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=quantum+algorithms+contract&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rS7y9Li8FvM8Ea1DOU-m9Fd_t9AWRi0xBTMgoEXzUDCu5KIjDcmr2Ipi0Bp6MmZYOmOoYqEqxU3FsGFc488XyRGcc0S3xu5tT5hbSS6_uC94YaHMJnwViLI94E5-2GNWjow3iKKqQFgsYfSD5KEVaTLEE1YqaGLrZ9Lhwwq7ovLh29FpAyEghDT2geN0bMS2WuChadZqVS1TivJkPONHVqiBKCejoY7woSu3RVvabDf0aG3Rn1i_WSOzjox9qVjdWDZqkQsU7jMtyEO-cCL64DYVdiVgJu-8Xna1B9DDbctUpNTPeeSJ6sfBfztuFomfCdjRkOQ"
+        },
+        {
+          "name": "Internship",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rJYC-HJKx_PYAkikqTxfccqzGxtWwvU_2ZnsB624BOYiy5TxijcrzeHYNfGLgFTkt-VMDvKMvkiEN-dS5nv7AqwL28nXjV1LIUa3gSV8H5wrRzwc8FUZbTjaRTKytdTubwgIwYX40tqDbNFOtph60Q376ZRqJhlnrYs31MlJmzBAbNTf8Ipr3WA1tiN4thIKaa_gDikC2h7puHT-RrSMCO8hTuAbkZCIwTEjGkVTE7w21qDxEP2Yr7YZ18EgOXSfCBVdYiT5cFvywqy-5sqwnZ07wZ_kmB1GYKmuUQ9Fag3ssrzgh20hnGdvllT-vdSAkHeqAUg",
+            "q": "quantum algorithms internship"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&sxsrf=APpeQnuux1m9fURU-J9qLVXUt2nO8dCm1A:1791128361160&q=quantum+algorithms+internship&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rJYC-HJKx_PYAkikqTxfccqzGxtWwvU_2ZnsB624BOYiy5TxijcrzeHYNfGLgFTkt-VMDvKMvkiEN-dS5nv7AqwL28nXjV1LIUa3gSV8H5wrRzwc8FUZbTjaRTKytdTubwgIwYX40tqDbNFOtph60Q376ZRqJhlnrYs31MlJmzBAbNTf8Ipr3WA1tiN4thIKaa_gDikC2h7puHT-RrSMCO8hTuAbkZCIwTEjGkVTE7w21qDxEP2Yr7YZ18EgOXSfCBVdYiT5cFvywqy-5sqwnZ07wZ_kmB1GYKmuUQ9Fag3ssrzgh20hnGdvllT-vdSAkHeqAUg&udm=8&sa=X&ved=2ahUKEwjC2dqN2aCXAxWsnGoFHS3mBigQkbEKegQIIhAF",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=quantum+algorithms+internship&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rJYC-HJKx_PYAkikqTxfccqzGxtWwvU_2ZnsB624BOYiy5TxijcrzeHYNfGLgFTkt-VMDvKMvkiEN-dS5nv7AqwL28nXjV1LIUa3gSV8H5wrRzwc8FUZbTjaRTKytdTubwgIwYX40tqDbNFOtph60Q376ZRqJhlnrYs31MlJmzBAbNTf8Ipr3WA1tiN4thIKaa_gDikC2h7puHT-RrSMCO8hTuAbkZCIwTEjGkVTE7w21qDxEP2Yr7YZ18EgOXSfCBVdYiT5cFvywqy-5sqwnZ07wZ_kmB1GYKmuUQ9Fag3ssrzgh20hnGdvllT-vdSAkHeqAUg"
+        }
+      ]
+    },
+    {
+      "name": "Job type",
+      "options": [
+        {
+          "name": "Full time",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rcyAXw0LNf4_5_PJXENkvOoatyXfKolmWJV2VqD1tSCU1gTraQALjuyBfnZXDId0dJH-Fyb2_B6J6hgOBI6ENOcNP3RstZJI_NHq_oaI2mZ3CIhSV2x2eobQuAfNqZkpkGHZbHoiKzIegBY-NZ_zGnKJK3vEoHhO1kIDoisXDVlMWiKiqQM1KQHCZB20r6W5QoxEb6_1jsZGTwN14lRSgb5m1ZptnJmX-oMZTLRokZ1eAifpAtLv0s27LNIPhauvw84WqxblzPjFH1XfUsUbep2bWlNk9YikpagRWRq9FxwZ1tCKH1nLHJYsQjbIqdKoUetveUQ",
+            "q": "quantum algorithms full time"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&sxsrf=APpeQnuux1m9fURU-J9qLVXUt2nO8dCm1A:1791128361160&q=quantum+algorithms+full+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rcyAXw0LNf4_5_PJXENkvOoatyXfKolmWJV2VqD1tSCU1gTraQALjuyBfnZXDId0dJH-Fyb2_B6J6hgOBI6ENOcNP3RstZJI_NHq_oaI2mZ3CIhSV2x2eobQuAfNqZkpkGHZbHoiKzIegBY-NZ_zGnKJK3vEoHhO1kIDoisXDVlMWiKiqQM1KQHCZB20r6W5QoxEb6_1jsZGTwN14lRSgb5m1ZptnJmX-oMZTLRokZ1eAifpAtLv0s27LNIPhauvw84WqxblzPjFH1XfUsUbep2bWlNk9YikpagRWRq9FxwZ1tCKH1nLHJYsQjbIqdKoUetveUQ&udm=8&sa=X&ved=2ahUKEwjC2dqN2aCXAxWsnGoFHS3mBigQkbEKegQIIhAC",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=quantum+algorithms+full+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rcyAXw0LNf4_5_PJXENkvOoatyXfKolmWJV2VqD1tSCU1gTraQALjuyBfnZXDId0dJH-Fyb2_B6J6hgOBI6ENOcNP3RstZJI_NHq_oaI2mZ3CIhSV2x2eobQuAfNqZkpkGHZbHoiKzIegBY-NZ_zGnKJK3vEoHhO1kIDoisXDVlMWiKiqQM1KQHCZB20r6W5QoxEb6_1jsZGTwN14lRSgb5m1ZptnJmX-oMZTLRokZ1eAifpAtLv0s27LNIPhauvw84WqxblzPjFH1XfUsUbep2bWlNk9YikpagRWRq9FxwZ1tCKH1nLHJYsQjbIqdKoUetveUQ"
+        },
+        {
+          "name": "Part time",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rcyAXw0LNf4_5_PJXENkvOoatyXfKolmWJV2VqD1tSCWi2BokKgcNnZJJkW4MjXbnu2HD-p3pP2BbAH_e2EVGTr-99smyPoaZaph_fZ-O7SDH3kPFax1VngqeDndo2_XGcDTgIHBrf8yxyufGIrfmzF2OZM1YIpsgYLc6hDBnZbsJYX88142ZZF00cxaqrusHYhoamGRDJqQ9Gse4mY-eeDGqdijNAq7tHXtJi7och3Pm0yO36dKRkj_mbkPp5qvIENWgnK4UDNpOh5gb3Yta-A_Y0rjatPNH3__i1uI5lbXr_1PV1OYf4KIGAvwMOUhirIbTyA",
+            "q": "quantum algorithms part time"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&sxsrf=APpeQnuux1m9fURU-J9qLVXUt2nO8dCm1A:1791128361160&q=quantum+algorithms+part+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rcyAXw0LNf4_5_PJXENkvOoatyXfKolmWJV2VqD1tSCWi2BokKgcNnZJJkW4MjXbnu2HD-p3pP2BbAH_e2EVGTr-99smyPoaZaph_fZ-O7SDH3kPFax1VngqeDndo2_XGcDTgIHBrf8yxyufGIrfmzF2OZM1YIpsgYLc6hDBnZbsJYX88142ZZF00cxaqrusHYhoamGRDJqQ9Gse4mY-eeDGqdijNAq7tHXtJi7och3Pm0yO36dKRkj_mbkPp5qvIENWgnK4UDNpOh5gb3Yta-A_Y0rjatPNH3__i1uI5lbXr_1PV1OYf4KIGAvwMOUhirIbTyA&udm=8&sa=X&ved=2ahUKEwjC2dqN2aCXAxWsnGoFHS3mBigQkbEKegQIIhAD",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=quantum+algorithms+part+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rcyAXw0LNf4_5_PJXENkvOoatyXfKolmWJV2VqD1tSCWi2BokKgcNnZJJkW4MjXbnu2HD-p3pP2BbAH_e2EVGTr-99smyPoaZaph_fZ-O7SDH3kPFax1VngqeDndo2_XGcDTgIHBrf8yxyufGIrfmzF2OZM1YIpsgYLc6hDBnZbsJYX88142ZZF00cxaqrusHYhoamGRDJqQ9Gse4mY-eeDGqdijNAq7tHXtJi7och3Pm0yO36dKRkj_mbkPp5qvIENWgnK4UDNpOh5gb3Yta-A_Y0rjatPNH3__i1uI5lbXr_1PV1OYf4KIGAvwMOUhirIbTyA"
+        },
+        {
+          "name": "Contract",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rS7y9Li8FvM8Ea1DOU-m9Fd_t9AWRi0xBTMgoEXzUDCu5KIjDcmr2Ipi0Bp6MmZYOmOoYqEqxU3FsGFc488XyRGcc0S3xu5tT5hbSS6_uC94YaHMJnwViLI94E5-2GNWjow3iKKqQFgsYfSD5KEVaTLEE1YqaGLrZ9Lhwwq7ovLh29FpAyEghDT2geN0bMS2WuChadZqVS1TivJkPONHVqiBKCejoY7woSu3RVvabDf0aG3Rn1i_WSOzjox9qVjdWDZqkQsU7jMtyEO-cCL64DYVdiVgJu-8Xna1B9DDbctUpNTPeeSJ6sfBfztuFomfCdjRkOQ",
+            "q": "quantum algorithms contract"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&sxsrf=APpeQnuux1m9fURU-J9qLVXUt2nO8dCm1A:1791128361160&q=quantum+algorithms+contract&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rS7y9Li8FvM8Ea1DOU-m9Fd_t9AWRi0xBTMgoEXzUDCu5KIjDcmr2Ipi0Bp6MmZYOmOoYqEqxU3FsGFc488XyRGcc0S3xu5tT5hbSS6_uC94YaHMJnwViLI94E5-2GNWjow3iKKqQFgsYfSD5KEVaTLEE1YqaGLrZ9Lhwwq7ovLh29FpAyEghDT2geN0bMS2WuChadZqVS1TivJkPONHVqiBKCejoY7woSu3RVvabDf0aG3Rn1i_WSOzjox9qVjdWDZqkQsU7jMtyEO-cCL64DYVdiVgJu-8Xna1B9DDbctUpNTPeeSJ6sfBfztuFomfCdjRkOQ&udm=8&sa=X&ved=2ahUKEwjC2dqN2aCXAxWsnGoFHS3mBigQkbEKegQIIhAE",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=quantum+algorithms+contract&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rS7y9Li8FvM8Ea1DOU-m9Fd_t9AWRi0xBTMgoEXzUDCu5KIjDcmr2Ipi0Bp6MmZYOmOoYqEqxU3FsGFc488XyRGcc0S3xu5tT5hbSS6_uC94YaHMJnwViLI94E5-2GNWjow3iKKqQFgsYfSD5KEVaTLEE1YqaGLrZ9Lhwwq7ovLh29FpAyEghDT2geN0bMS2WuChadZqVS1TivJkPONHVqiBKCejoY7woSu3RVvabDf0aG3Rn1i_WSOzjox9qVjdWDZqkQsU7jMtyEO-cCL64DYVdiVgJu-8Xna1B9DDbctUpNTPeeSJ6sfBfztuFomfCdjRkOQ"
+        },
+        {
+          "name": "Internship",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rJYC-HJKx_PYAkikqTxfccqzGxtWwvU_2ZnsB624BOYiy5TxijcrzeHYNfGLgFTkt-VMDvKMvkiEN-dS5nv7AqwL28nXjV1LIUa3gSV8H5wrRzwc8FUZbTjaRTKytdTubwgIwYX40tqDbNFOtph60Q376ZRqJhlnrYs31MlJmzBAbNTf8Ipr3WA1tiN4thIKaa_gDikC2h7puHT-RrSMCO8hTuAbkZCIwTEjGkVTE7w21qDxEP2Yr7YZ18EgOXSfCBVdYiT5cFvywqy-5sqwnZ07wZ_kmB1GYKmuUQ9Fag3ssrzgh20hnGdvllT-vdSAkHeqAUg",
+            "q": "quantum algorithms internship"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&sxsrf=APpeQnuux1m9fURU-J9qLVXUt2nO8dCm1A:1791128361160&q=quantum+algorithms+internship&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rJYC-HJKx_PYAkikqTxfccqzGxtWwvU_2ZnsB624BOYiy5TxijcrzeHYNfGLgFTkt-VMDvKMvkiEN-dS5nv7AqwL28nXjV1LIUa3gSV8H5wrRzwc8FUZbTjaRTKytdTubwgIwYX40tqDbNFOtph60Q376ZRqJhlnrYs31MlJmzBAbNTf8Ipr3WA1tiN4thIKaa_gDikC2h7puHT-RrSMCO8hTuAbkZCIwTEjGkVTE7w21qDxEP2Yr7YZ18EgOXSfCBVdYiT5cFvywqy-5sqwnZ07wZ_kmB1GYKmuUQ9Fag3ssrzgh20hnGdvllT-vdSAkHeqAUg&udm=8&sa=X&ved=2ahUKEwjC2dqN2aCXAxWsnGoFHS3mBigQkbEKegQIIhAF",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=quantum+algorithms+internship&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rJYC-HJKx_PYAkikqTxfccqzGxtWwvU_2ZnsB624BOYiy5TxijcrzeHYNfGLgFTkt-VMDvKMvkiEN-dS5nv7AqwL28nXjV1LIUa3gSV8H5wrRzwc8FUZbTjaRTKytdTubwgIwYX40tqDbNFOtph60Q376ZRqJhlnrYs31MlJmzBAbNTf8Ipr3WA1tiN4thIKaa_gDikC2h7puHT-RrSMCO8hTuAbkZCIwTEjGkVTE7w21qDxEP2Yr7YZ18EgOXSfCBVdYiT5cFvywqy-5sqwnZ07wZ_kmB1GYKmuUQ9Fag3ssrzgh20hnGdvllT-vdSAkHeqAUg"
+        }
+      ]
+    },
+    {
+      "name": "Date posted",
+      "options": [
+        {
+          "name": "Yesterday",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rYfX9qx7BEx7wzihEPQG9Ysm0bYAh-KZJ8PFdnioLBfYVWskxPnBbqnmv595uLVu0k2QnCh9KS5d7bfIZBp-E202o3UA-uW5XEB-teJnuCWvCf0f3nb_PuCa63PUkPwzKzW_bjU0l0fXgjGd__eJd-DYygocz2ihHZHuclBQpPSAHmK3ZXbFR3W-mi-Yws84zjh0v7tGbHlTt8rD3p4G8rSfXKmJIWHwVWr21-MvctUWuYygyvyoabJV3oIqCpU9LurXNbop7AtDv7JfhS0oGcwASLICXu0bX_RJHpjmGrv87vcuYoACnwB5d5Wk8F9E7ZNn4J-nZVbNWG5ROzsKOp3rnESA",
+            "q": "quantum algorithms since yesterday"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&sxsrf=APpeQnuux1m9fURU-J9qLVXUt2nO8dCm1A:1791128361160&q=quantum+algorithms+since+yesterday&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rYfX9qx7BEx7wzihEPQG9Ysm0bYAh-KZJ8PFdnioLBfYVWskxPnBbqnmv595uLVu0k2QnCh9KS5d7bfIZBp-E202o3UA-uW5XEB-teJnuCWvCf0f3nb_PuCa63PUkPwzKzW_bjU0l0fXgjGd__eJd-DYygocz2ihHZHuclBQpPSAHmK3ZXbFR3W-mi-Yws84zjh0v7tGbHlTt8rD3p4G8rSfXKmJIWHwVWr21-MvctUWuYygyvyoabJV3oIqCpU9LurXNbop7AtDv7JfhS0oGcwASLICXu0bX_RJHpjmGrv87vcuYoACnwB5d5Wk8F9E7ZNn4J-nZVbNWG5ROzsKOp3rnESA&udm=8&sa=X&ved=2ahUKEwjC2dqN2aCXAxWsnGoFHS3mBigQkbEKegQIIxAC",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=quantum+algorithms+since+yesterday&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rYfX9qx7BEx7wzihEPQG9Ysm0bYAh-KZJ8PFdnioLBfYVWskxPnBbqnmv595uLVu0k2QnCh9KS5d7bfIZBp-E202o3UA-uW5XEB-teJnuCWvCf0f3nb_PuCa63PUkPwzKzW_bjU0l0fXgjGd__eJd-DYygocz2ihHZHuclBQpPSAHmK3ZXbFR3W-mi-Yws84zjh0v7tGbHlTt8rD3p4G8rSfXKmJIWHwVWr21-MvctUWuYygyvyoabJV3oIqCpU9LurXNbop7AtDv7JfhS0oGcwASLICXu0bX_RJHpjmGrv87vcuYoACnwB5d5Wk8F9E7ZNn4J-nZVbNWG5ROzsKOp3rnESA"
+        },
+        {
+          "name": "Last 3 days",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4r-KsSjZZKsw6pqqtXgLmUrfNC7YBlSGhnFK_FW2H98WQ_kfh_puZKV0uTXiqJ8btS99OUvy_tDaGdbnR71BtN3MwbF8-MJlnORO-ePxvrSXuyPMcjFNGVKfn8QsS_PrHACd_juWHnpahFHNyrAFLG2rXEhOvSb8SOcC6OtDt3zKGNRPsPCONmoxtsJ9AadMo3-00PI6ENIcEYUTruwmHqu9b54V4KfqyOxMtOJ-nx7dubo7AYvp6wQaSa8yDiFERMAOGq3xoP1BP6cRGAduTThCjGifeF7y2hDUHgiOICk31a98OjvHv160tlDfAFK-eqap2J27N8ltTN8m3ZAi1HFm08qkM",
+            "q": "quantum algorithms in the last 3 days"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&sxsrf=APpeQnuux1m9fURU-J9qLVXUt2nO8dCm1A:1791128361160&q=quantum+algorithms+in+the+last+3+days&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r-KsSjZZKsw6pqqtXgLmUrfNC7YBlSGhnFK_FW2H98WQ_kfh_puZKV0uTXiqJ8btS99OUvy_tDaGdbnR71BtN3MwbF8-MJlnORO-ePxvrSXuyPMcjFNGVKfn8QsS_PrHACd_juWHnpahFHNyrAFLG2rXEhOvSb8SOcC6OtDt3zKGNRPsPCONmoxtsJ9AadMo3-00PI6ENIcEYUTruwmHqu9b54V4KfqyOxMtOJ-nx7dubo7AYvp6wQaSa8yDiFERMAOGq3xoP1BP6cRGAduTThCjGifeF7y2hDUHgiOICk31a98OjvHv160tlDfAFK-eqap2J27N8ltTN8m3ZAi1HFm08qkM&udm=8&sa=X&ved=2ahUKEwjC2dqN2aCXAxWsnGoFHS3mBigQkbEKegQIIxAD",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=quantum+algorithms+in+the+last+3+days&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r-KsSjZZKsw6pqqtXgLmUrfNC7YBlSGhnFK_FW2H98WQ_kfh_puZKV0uTXiqJ8btS99OUvy_tDaGdbnR71BtN3MwbF8-MJlnORO-ePxvrSXuyPMcjFNGVKfn8QsS_PrHACd_juWHnpahFHNyrAFLG2rXEhOvSb8SOcC6OtDt3zKGNRPsPCONmoxtsJ9AadMo3-00PI6ENIcEYUTruwmHqu9b54V4KfqyOxMtOJ-nx7dubo7AYvp6wQaSa8yDiFERMAOGq3xoP1BP6cRGAduTThCjGifeF7y2hDUHgiOICk31a98OjvHv160tlDfAFK-eqap2J27N8ltTN8m3ZAi1HFm08qkM"
+        },
+        {
+          "name": "Last week",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4r6LUzyRs4vLyA9dIpaQGcsuovorrAPnZiVB83i_BWmWt_VWhEqtKzNegtilZQCBCXPogVGW65uO1odAJsitYlY1jY7ExIFthFrXgvEKngX7jl-koXC6swmFNVrBeJUfaW8HXFZ4mbbJKy-oNfAhrwI90wymvqIB3jQtdNpbrHA8zYpDm_H9L231hMJ0i16S2Hzj0lPbzdA4qtQL_ghMBUQNg1CnvS3-Xvq0suwKtAgiw7fmSuzH2DFLHpD0d76b0zKP_R9chpVb635kt98kUR5b_AcDft02BRBxaD6WDTvkLQPeC5trWoio6Nae49505TRVEcTsxxSUjJ9srMX0e732GLmyc",
+            "q": "quantum algorithms in the last week"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&sxsrf=APpeQnuux1m9fURU-J9qLVXUt2nO8dCm1A:1791128361160&q=quantum+algorithms+in+the+last+week&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r6LUzyRs4vLyA9dIpaQGcsuovorrAPnZiVB83i_BWmWt_VWhEqtKzNegtilZQCBCXPogVGW65uO1odAJsitYlY1jY7ExIFthFrXgvEKngX7jl-koXC6swmFNVrBeJUfaW8HXFZ4mbbJKy-oNfAhrwI90wymvqIB3jQtdNpbrHA8zYpDm_H9L231hMJ0i16S2Hzj0lPbzdA4qtQL_ghMBUQNg1CnvS3-Xvq0suwKtAgiw7fmSuzH2DFLHpD0d76b0zKP_R9chpVb635kt98kUR5b_AcDft02BRBxaD6WDTvkLQPeC5trWoio6Nae49505TRVEcTsxxSUjJ9srMX0e732GLmyc&udm=8&sa=X&ved=2ahUKEwjC2dqN2aCXAxWsnGoFHS3mBigQkbEKegQIIxAE",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=quantum+algorithms+in+the+last+week&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r6LUzyRs4vLyA9dIpaQGcsuovorrAPnZiVB83i_BWmWt_VWhEqtKzNegtilZQCBCXPogVGW65uO1odAJsitYlY1jY7ExIFthFrXgvEKngX7jl-koXC6swmFNVrBeJUfaW8HXFZ4mbbJKy-oNfAhrwI90wymvqIB3jQtdNpbrHA8zYpDm_H9L231hMJ0i16S2Hzj0lPbzdA4qtQL_ghMBUQNg1CnvS3-Xvq0suwKtAgiw7fmSuzH2DFLHpD0d76b0zKP_R9chpVb635kt98kUR5b_AcDft02BRBxaD6WDTvkLQPeC5trWoio6Nae49505TRVEcTsxxSUjJ9srMX0e732GLmyc"
+        },
+        {
+          "name": "Last month",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rsTBuj_Rj3LJymAMs-53MxtZeGJUKGLFBVkBbSYt7yIEkzuZNwH_uBcHt3hJo4txgfn0E7rsm3UQFbQoqB35BdHgQrFeB4c5TYkN10XOV6RET55dap0wad0-jfg2Zy_wQewk6nSi2PUzIfHfm8-MlNtGa-hZawviHM92FjxI4GLRHCJtxiynsmKBmVChPJEh9vBvoXYnc4uu7Hj2LNMF7dUHxhM_Kzn8x0c1vvJ7pPDY-Oe5sa1SNKK6MrPLEkPCMt2O2BRtdVUAFJx580OWR0FjsHQSkFBfdvsqb0nmldH95lk3Ao2wK0AeT3zV2RDxlenBMAM6ZmvFuVABuUrjQXW6n220",
+            "q": "quantum algorithms in the last month"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&sxsrf=APpeQnuux1m9fURU-J9qLVXUt2nO8dCm1A:1791128361160&q=quantum+algorithms+in+the+last+month&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rsTBuj_Rj3LJymAMs-53MxtZeGJUKGLFBVkBbSYt7yIEkzuZNwH_uBcHt3hJo4txgfn0E7rsm3UQFbQoqB35BdHgQrFeB4c5TYkN10XOV6RET55dap0wad0-jfg2Zy_wQewk6nSi2PUzIfHfm8-MlNtGa-hZawviHM92FjxI4GLRHCJtxiynsmKBmVChPJEh9vBvoXYnc4uu7Hj2LNMF7dUHxhM_Kzn8x0c1vvJ7pPDY-Oe5sa1SNKK6MrPLEkPCMt2O2BRtdVUAFJx580OWR0FjsHQSkFBfdvsqb0nmldH95lk3Ao2wK0AeT3zV2RDxlenBMAM6ZmvFuVABuUrjQXW6n220&udm=8&sa=X&ved=2ahUKEwjC2dqN2aCXAxWsnGoFHS3mBigQkbEKegQIIxAF",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=quantum+algorithms+in+the+last+month&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rsTBuj_Rj3LJymAMs-53MxtZeGJUKGLFBVkBbSYt7yIEkzuZNwH_uBcHt3hJo4txgfn0E7rsm3UQFbQoqB35BdHgQrFeB4c5TYkN10XOV6RET55dap0wad0-jfg2Zy_wQewk6nSi2PUzIfHfm8-MlNtGa-hZawviHM92FjxI4GLRHCJtxiynsmKBmVChPJEh9vBvoXYnc4uu7Hj2LNMF7dUHxhM_Kzn8x0c1vvJ7pPDY-Oe5sa1SNKK6MrPLEkPCMt2O2BRtdVUAFJx580OWR0FjsHQSkFBfdvsqb0nmldH95lk3Ao2wK0AeT3zV2RDxlenBMAM6ZmvFuVABuUrjQXW6n220"
+        }
+      ]
+    },
+    {
+      "name": "Date posted",
+      "options": [
+        {
+          "name": "Yesterday",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rYfX9qx7BEx7wzihEPQG9Ysm0bYAh-KZJ8PFdnioLBfYVWskxPnBbqnmv595uLVu0k2QnCh9KS5d7bfIZBp-E202o3UA-uW5XEB-teJnuCWvCf0f3nb_PuCa63PUkPwzKzW_bjU0l0fXgjGd__eJd-DYygocz2ihHZHuclBQpPSAHmK3ZXbFR3W-mi-Yws84zjh0v7tGbHlTt8rD3p4G8rSfXKmJIWHwVWr21-MvctUWuYygyvyoabJV3oIqCpU9LurXNbop7AtDv7JfhS0oGcwASLICXu0bX_RJHpjmGrv87vcuYoACnwB5d5Wk8F9E7ZNn4J-nZVbNWG5ROzsKOp3rnESA",
+            "q": "quantum algorithms since yesterday"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&sxsrf=APpeQnuux1m9fURU-J9qLVXUt2nO8dCm1A:1791128361160&q=quantum+algorithms+since+yesterday&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rYfX9qx7BEx7wzihEPQG9Ysm0bYAh-KZJ8PFdnioLBfYVWskxPnBbqnmv595uLVu0k2QnCh9KS5d7bfIZBp-E202o3UA-uW5XEB-teJnuCWvCf0f3nb_PuCa63PUkPwzKzW_bjU0l0fXgjGd__eJd-DYygocz2ihHZHuclBQpPSAHmK3ZXbFR3W-mi-Yws84zjh0v7tGbHlTt8rD3p4G8rSfXKmJIWHwVWr21-MvctUWuYygyvyoabJV3oIqCpU9LurXNbop7AtDv7JfhS0oGcwASLICXu0bX_RJHpjmGrv87vcuYoACnwB5d5Wk8F9E7ZNn4J-nZVbNWG5ROzsKOp3rnESA&udm=8&sa=X&ved=2ahUKEwjC2dqN2aCXAxWsnGoFHS3mBigQkbEKegQIIxAC",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=quantum+algorithms+since+yesterday&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rYfX9qx7BEx7wzihEPQG9Ysm0bYAh-KZJ8PFdnioLBfYVWskxPnBbqnmv595uLVu0k2QnCh9KS5d7bfIZBp-E202o3UA-uW5XEB-teJnuCWvCf0f3nb_PuCa63PUkPwzKzW_bjU0l0fXgjGd__eJd-DYygocz2ihHZHuclBQpPSAHmK3ZXbFR3W-mi-Yws84zjh0v7tGbHlTt8rD3p4G8rSfXKmJIWHwVWr21-MvctUWuYygyvyoabJV3oIqCpU9LurXNbop7AtDv7JfhS0oGcwASLICXu0bX_RJHpjmGrv87vcuYoACnwB5d5Wk8F9E7ZNn4J-nZVbNWG5ROzsKOp3rnESA"
+        },
+        {
+          "name": "Last 3 days",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4r-KsSjZZKsw6pqqtXgLmUrfNC7YBlSGhnFK_FW2H98WQ_kfh_puZKV0uTXiqJ8btS99OUvy_tDaGdbnR71BtN3MwbF8-MJlnORO-ePxvrSXuyPMcjFNGVKfn8QsS_PrHACd_juWHnpahFHNyrAFLG2rXEhOvSb8SOcC6OtDt3zKGNRPsPCONmoxtsJ9AadMo3-00PI6ENIcEYUTruwmHqu9b54V4KfqyOxMtOJ-nx7dubo7AYvp6wQaSa8yDiFERMAOGq3xoP1BP6cRGAduTThCjGifeF7y2hDUHgiOICk31a98OjvHv160tlDfAFK-eqap2J27N8ltTN8m3ZAi1HFm08qkM",
+            "q": "quantum algorithms in the last 3 days"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&sxsrf=APpeQnuux1m9fURU-J9qLVXUt2nO8dCm1A:1791128361160&q=quantum+algorithms+in+the+last+3+days&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r-KsSjZZKsw6pqqtXgLmUrfNC7YBlSGhnFK_FW2H98WQ_kfh_puZKV0uTXiqJ8btS99OUvy_tDaGdbnR71BtN3MwbF8-MJlnORO-ePxvrSXuyPMcjFNGVKfn8QsS_PrHACd_juWHnpahFHNyrAFLG2rXEhOvSb8SOcC6OtDt3zKGNRPsPCONmoxtsJ9AadMo3-00PI6ENIcEYUTruwmHqu9b54V4KfqyOxMtOJ-nx7dubo7AYvp6wQaSa8yDiFERMAOGq3xoP1BP6cRGAduTThCjGifeF7y2hDUHgiOICk31a98OjvHv160tlDfAFK-eqap2J27N8ltTN8m3ZAi1HFm08qkM&udm=8&sa=X&ved=2ahUKEwjC2dqN2aCXAxWsnGoFHS3mBigQkbEKegQIIxAD",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=quantum+algorithms+in+the+last+3+days&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r-KsSjZZKsw6pqqtXgLmUrfNC7YBlSGhnFK_FW2H98WQ_kfh_puZKV0uTXiqJ8btS99OUvy_tDaGdbnR71BtN3MwbF8-MJlnORO-ePxvrSXuyPMcjFNGVKfn8QsS_PrHACd_juWHnpahFHNyrAFLG2rXEhOvSb8SOcC6OtDt3zKGNRPsPCONmoxtsJ9AadMo3-00PI6ENIcEYUTruwmHqu9b54V4KfqyOxMtOJ-nx7dubo7AYvp6wQaSa8yDiFERMAOGq3xoP1BP6cRGAduTThCjGifeF7y2hDUHgiOICk31a98OjvHv160tlDfAFK-eqap2J27N8ltTN8m3ZAi1HFm08qkM"
+        },
+        {
+          "name": "Last week",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4r6LUzyRs4vLyA9dIpaQGcsuovorrAPnZiVB83i_BWmWt_VWhEqtKzNegtilZQCBCXPogVGW65uO1odAJsitYlY1jY7ExIFthFrXgvEKngX7jl-koXC6swmFNVrBeJUfaW8HXFZ4mbbJKy-oNfAhrwI90wymvqIB3jQtdNpbrHA8zYpDm_H9L231hMJ0i16S2Hzj0lPbzdA4qtQL_ghMBUQNg1CnvS3-Xvq0suwKtAgiw7fmSuzH2DFLHpD0d76b0zKP_R9chpVb635kt98kUR5b_AcDft02BRBxaD6WDTvkLQPeC5trWoio6Nae49505TRVEcTsxxSUjJ9srMX0e732GLmyc",
+            "q": "quantum algorithms in the last week"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&sxsrf=APpeQnuux1m9fURU-J9qLVXUt2nO8dCm1A:1791128361160&q=quantum+algorithms+in+the+last+week&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r6LUzyRs4vLyA9dIpaQGcsuovorrAPnZiVB83i_BWmWt_VWhEqtKzNegtilZQCBCXPogVGW65uO1odAJsitYlY1jY7ExIFthFrXgvEKngX7jl-koXC6swmFNVrBeJUfaW8HXFZ4mbbJKy-oNfAhrwI90wymvqIB3jQtdNpbrHA8zYpDm_H9L231hMJ0i16S2Hzj0lPbzdA4qtQL_ghMBUQNg1CnvS3-Xvq0suwKtAgiw7fmSuzH2DFLHpD0d76b0zKP_R9chpVb635kt98kUR5b_AcDft02BRBxaD6WDTvkLQPeC5trWoio6Nae49505TRVEcTsxxSUjJ9srMX0e732GLmyc&udm=8&sa=X&ved=2ahUKEwjC2dqN2aCXAxWsnGoFHS3mBigQkbEKegQIIxAE",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=quantum+algorithms+in+the+last+week&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r6LUzyRs4vLyA9dIpaQGcsuovorrAPnZiVB83i_BWmWt_VWhEqtKzNegtilZQCBCXPogVGW65uO1odAJsitYlY1jY7ExIFthFrXgvEKngX7jl-koXC6swmFNVrBeJUfaW8HXFZ4mbbJKy-oNfAhrwI90wymvqIB3jQtdNpbrHA8zYpDm_H9L231hMJ0i16S2Hzj0lPbzdA4qtQL_ghMBUQNg1CnvS3-Xvq0suwKtAgiw7fmSuzH2DFLHpD0d76b0zKP_R9chpVb635kt98kUR5b_AcDft02BRBxaD6WDTvkLQPeC5trWoio6Nae49505TRVEcTsxxSUjJ9srMX0e732GLmyc"
+        },
+        {
+          "name": "Last month",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rsTBuj_Rj3LJymAMs-53MxtZeGJUKGLFBVkBbSYt7yIEkzuZNwH_uBcHt3hJo4txgfn0E7rsm3UQFbQoqB35BdHgQrFeB4c5TYkN10XOV6RET55dap0wad0-jfg2Zy_wQewk6nSi2PUzIfHfm8-MlNtGa-hZawviHM92FjxI4GLRHCJtxiynsmKBmVChPJEh9vBvoXYnc4uu7Hj2LNMF7dUHxhM_Kzn8x0c1vvJ7pPDY-Oe5sa1SNKK6MrPLEkPCMt2O2BRtdVUAFJx580OWR0FjsHQSkFBfdvsqb0nmldH95lk3Ao2wK0AeT3zV2RDxlenBMAM6ZmvFuVABuUrjQXW6n220",
+            "q": "quantum algorithms in the last month"
+          },
+          "link": "https://www.google.com/search?sca_esv=0b41735123e831e2&hl=en&sxsrf=APpeQnuux1m9fURU-J9qLVXUt2nO8dCm1A:1791128361160&q=quantum+algorithms+in+the+last+month&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rsTBuj_Rj3LJymAMs-53MxtZeGJUKGLFBVkBbSYt7yIEkzuZNwH_uBcHt3hJo4txgfn0E7rsm3UQFbQoqB35BdHgQrFeB4c5TYkN10XOV6RET55dap0wad0-jfg2Zy_wQewk6nSi2PUzIfHfm8-MlNtGa-hZawviHM92FjxI4GLRHCJtxiynsmKBmVChPJEh9vBvoXYnc4uu7Hj2LNMF7dUHxhM_Kzn8x0c1vvJ7pPDY-Oe5sa1SNKK6MrPLEkPCMt2O2BRtdVUAFJx580OWR0FjsHQSkFBfdvsqb0nmldH95lk3Ao2wK0AeT3zV2RDxlenBMAM6ZmvFuVABuUrjQXW6n220&udm=8&sa=X&ved=2ahUKEwjC2dqN2aCXAxWsnGoFHS3mBigQkbEKegQIIxAF",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=quantum+algorithms+in+the+last+month&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rsTBuj_Rj3LJymAMs-53MxtZeGJUKGLFBVkBbSYt7yIEkzuZNwH_uBcHt3hJo4txgfn0E7rsm3UQFbQoqB35BdHgQrFeB4c5TYkN10XOV6RET55dap0wad0-jfg2Zy_wQewk6nSi2PUzIfHfm8-MlNtGa-hZawviHM92FjxI4GLRHCJtxiynsmKBmVChPJEh9vBvoXYnc4uu7Hj2LNMF7dUHxhM_Kzn8x0c1vvJ7pPDY-Oe5sa1SNKK6MrPLEkPCMt2O2BRtdVUAFJx580OWR0FjsHQSkFBfdvsqb0nmldH95lk3Ao2wK0AeT3zV2RDxlenBMAM6ZmvFuVABuUrjQXW6n220"
+        }
+      ]
+    }
+  ],
+  "jobs_results": [
+    {
+      "title": "Quantum Algorithm Engineer — AMER",
+      "company_name": "IBM",
+      "location": "San Jose, CA",
+      "via": "LinkedIn",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "Doctorate Degree",
+            "Required Technical And Professional Expertise",
+            "PhD. in Physics, Computer Science, Computer Engineering, or equivalent experience; with 5+ years of hands-on experience in quantum computing, running near-term algorithms in quantum hardware",
+            "Experience in academic and/or industry research, and a track record of scientific publications",
+            "Excellent programming skills in Python, Qiskit, and the IBM Quantum software stack; and a deep understanding of quantum computing architecture, both in software, middleware and hardware",
+            "Strong problem-solving and troubleshooting skills to identify, diagnose and address challenges, with proven experience analyzing, modeling and tuning quantum hardware performance, including (but not limited to) transpilation, error suppression and mitigation techniques",
+            "Project management skills, including the ability to manage multiple tasks and deadlines; and demonstrated ability to operate at a strategic level, including setting direction, influencing stakeholders, and translating ambiguous goals into actionable plans",
+            "Demonstrated experience collaborating across team such as product and sales teams, and in customer-facing and/or client support roles"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": [
+            "As a Quantum Algorithm Engineer, you will sit at the intersection of high-impact research, algorithm engineering, and strategic ecosystem growth",
+            "You will be responsible for driving research in quantum information science and applications, with a dedicated focus on leveraging superconducting hardware and HPC integration to achieve demonstrable quantum advantage across a diverse range of domains such as high-energy physics, chemistry, materials science, and optimization",
+            "This role requires a blend of scientific rigor and engineering excellence, as you will design and optimize quantum algorithms, perform system-level performance modeling, and implement production-ready software that facilitates reliable R&D across the IBM Quantum stack",
+            "Your work will be pivotal in bridging the gap between theoretical breakthroughs and real-world utility for the global scientific community",
+            "You will lead high-visibility technology demonstrations and partner with strategic clients in the IBM Quantum Network to execute research roadmaps — ensuring they achieve peer-reviewed results through cutting-edge techniques such as advanced error suppression and mitigation",
+            "Simultaneously, you will serve as a primary advocate for the user, identifying critical software gaps and delivering technical workshops that translate complex quantum advancements into actionable insights for both academic and enterprise developers",
+            "By collaborating with internal research units and external stakeholders, you will influence the strategic evolution of our software and hardware capabilities",
+            "You will provide expert feedback on internal prototypes and engineer sophisticated educational resources that lower the barrier to entry for researchers from diverse backgrounds",
+            "We are seeking an expert who can navigate the complexities of near-term quantum processors while showcasing the communication skills necessary to manage multi-team projects and maintain IBM’s position at the cutting edge of the field",
+            "Advance Quantum Research: Drive research in quantum information science, algorithms, and applications, with a focus on leveraging superconducting hardware and rigorous verification/validation to achieve quantum advantage",
+            "Impactful Scientific Output: Contribute to high-impact research in top-tier journals alongside clients and partners",
+            "Technology Demonstrations: Lead the creation of high-visibility technology demonstrations that showcase state-of-the-art capabilities to strategic partners and the broader scientific community",
+            "Multi-Field Application: Design and adapt quantum algorithms to solve complex challenges across a diverse range of domains, demonstrating versatility and scalability of the IBM Quantum stack",
+            "Algorithm & Performance Optimization: Partner with the IBM Quantum Network to benchmark, analyze and optimize execution on both dedicated and cloud-based systems, directly accelerating the path toward quantum advantage",
+            "Scientific Value Realization: Partner with strategic clients to define and execute research roadmaps, ensuring they achieve high-impact scientific milestones and peer-reviewed results using IBM Quantum’s state-of-the-art hardware and software",
+            "Ecosystem & User Advocacy: Serve as the voice of the user, identifying critical software gaps and delivering expert-level technical lectures and workshops to audiences ranging from academic researchers to enterprise developers, and from beginners to experts",
+            "Strategic Software Evolution: Collaborate with software development and product teams to test new capabilities, providing expert feedback on internal prototypes and identifying client-driven opportunities for new tools",
+            "Production-Quality Implementation: Engineer and implement robust, production-ready software across the IBM Quantum stack to facilitate reliable research and development across different application domains",
+            "Educational Content Strategy: Design and develop sophisticated educational resources that bridge the gap for researchers from diverse backgrounds, making the latest quantum advancements accessible and actionable",
+            "Stakeholder Collaboration: Liaise with internal research units and external stakeholders to define strategic goals and execute complex, multi-team projects effectively",
+            "Knowledge Leadership: Maintain an industry-leading mastery of the latest developments in quantum computing and related fields to ensure IBM remains at the cutting edge"
+          ]
+        }
+      ],
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=quantum+algorithms&htidocid=MZ2fXqC06RRHvyBmAAAAAA%3D%3D&hl=en-US&shem=epsd1,esd2e,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xXMsQrCMBAAUFy7ujndLNqI4FKnKkUUOqgfUNJyJJH0ruSu0NEvcPIL_RJ1eePLXrOsuI6WdOyhjI5TUN9DRS4QYoLP8w1lXd1gDRduQdCmzgMTnJhdxMXeqw5SGCMScydqNXR5x71hwpYn8-BW_jTibcIhWsVmu9tM-UBuOT8faggEd0u_XXAFx_ILA3YIZJEAAAA&shmds=v1_ARwrE22hqIF0kS2qUqDMQOtDiWGPjTbELoSlxfNs4ALujF3ITQ&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=quantum+algorithms&htidocid=MZ2fXqC06RRHvyBmAAAAAA%3D%3D",
+      "thumbnail": "https://serpapi.com/searches/6ac27327e3e176f79f45328c/images/1eVOJy-fPiTPM_-q-Xmtqgry1JL_MaH20YMt3ezPiU4.jpeg",
+      "extensions": [
+        "5 days ago",
+        "230K–270K a year",
+        "Full-time"
+      ],
+      "source_link": "https://www.linkedin.com/jobs/view/quantum-algorithm-engineer-%E2%80%94-amer-at-ibm-4471770548",
+      "job_title": "Quantum Algorithm Engineer — AMER",
+      "description": "Introduction\n\nAt IBM Quantum, our mission is to bring useful quantum computing to the world. We deliver the industry’s most performant quantum systems and empower a global community to pioneer early use cases via Qiskit and the IBM software stack. Today, the IBM Quantum Network brings together over 275 Fortune 500 companies, national laboratories, academic institutions, and startups, all focused on a singular goal: extracting tangible value from quantum computers. As we execute an ambitious roadmap to demonstrate quantum advantage by the end of 2026 and deliver the first fault-tolerant systems by 2029, we are looking for the innovators who will help us define this next era of computation.\n\nYour Role And Responsibilities\n\nAs a Quantum Algorithm Engineer, you will sit at the intersection of high-impact research, algorithm engineering, and strategic ecosystem growth. You will be responsible for driving research in quantum information science and applications, with a dedicated focus on leveraging superconducting hardware and HPC integration to achieve demonstrable quantum advantage across a diverse range of domains such as high-energy physics, chemistry, materials science, and optimization. This role requires a blend of scientific rigor and engineering excellence, as you will design and optimize quantum algorithms, perform system-level performance modeling, and implement production-ready software that facilitates reliable R&D across the IBM Quantum stack.\n\nYour work will be pivotal in bridging the gap between theoretical breakthroughs and real-world utility for the global scientific community. You will lead high-visibility technology demonstrations and partner with strategic clients in the IBM Quantum Network to execute research roadmaps — ensuring they achieve peer-reviewed results through cutting-edge techniques such as advanced error suppression and mitigation. Simultaneously, you will serve as a primary advocate for the user, identifying critical software gaps and delivering technical workshops that translate complex quantum advancements into actionable insights for both academic and enterprise developers.\n\nBy collaborating with internal research units and external stakeholders, you will influence the strategic evolution of our software and hardware capabilities. You will provide expert feedback on internal prototypes and engineer sophisticated educational resources that lower the barrier to entry for researchers from diverse backgrounds. We are seeking an expert who can navigate the complexities of near-term quantum processors while showcasing the communication skills necessary to manage multi-team projects and maintain IBM’s position at the cutting edge of the field.\n\nKey Responsibilities\n\nAdvance Quantum Research: Drive research in quantum information science, algorithms, and applications, with a focus on leveraging superconducting hardware and rigorous verification/validation to achieve quantum advantage.Impactful Scientific Output: Contribute to high-impact research in top-tier journals alongside clients and partners.Technology Demonstrations: Lead the creation of high-visibility technology demonstrations that showcase state-of-the-art capabilities to strategic partners and the broader scientific community.Multi-Field Application: Design and adapt quantum algorithms to solve complex challenges across a diverse range of domains, demonstrating versatility and scalability of the IBM Quantum stack.Algorithm & Performance Optimization: Partner with the IBM Quantum Network to benchmark, analyze and optimize execution on both dedicated and cloud-based systems, directly accelerating the path toward quantum advantage.Scientific Value Realization: Partner with strategic clients to define and execute research roadmaps, ensuring they achieve high-impact scientific milestones and peer-reviewed results using IBM Quantum’s state-of-the-art hardware and software.Ecosystem & User Advocacy: Serve as the voice of the user, identifying critical software gaps and delivering expert-level technical lectures and workshops to audiences ranging from academic researchers to enterprise developers, and from beginners to experts.Strategic Software Evolution: Collaborate with software development and product teams to test new capabilities, providing expert feedback on internal prototypes and identifying client-driven opportunities for new tools.Production-Quality Implementation: Engineer and implement robust, production-ready software across the IBM Quantum stack to facilitate reliable research and development across different application domains.Educational Content Strategy: Design and develop sophisticated educational resources that bridge the gap for researchers from diverse backgrounds, making the latest quantum advancements accessible and actionable.Stakeholder Collaboration: Liaise with internal research units and external stakeholders to define strategic goals and execute complex, multi-team projects effectively.Knowledge Leadership: Maintain an industry-leading mastery of the latest developments in quantum computing and related fields to ensure IBM remains at the cutting edge.\n\nPreferred Education\n\nDoctorate Degree\n\nRequired Technical And Professional Expertise\n\nPhD. in Physics, Computer Science, Computer Engineering, or equivalent experience; with 5+ years of hands-on experience in quantum computing, running near-term algorithms in quantum hardware. Experience in academic and/or industry research, and a track record of scientific publications.Excellent programming skills in Python, Qiskit, and the IBM Quantum software stack; and a deep understanding of quantum computing architecture, both in software, middleware and hardware.Strong problem-solving and troubleshooting skills to identify, diagnose and address challenges, with proven experience analyzing, modeling and tuning quantum hardware performance, including (but not limited to) transpilation, error suppression and mitigation techniques.Project management skills, including the ability to manage multiple tasks and deadlines; and demonstrated ability to operate at a strategic level, including setting direction, influencing stakeholders, and translating ambiguous goals into actionable plans.\n\nPreferred Technical And Professional Experience\n\nUnderstanding of quantum system benchmarking techniques and trade-offs across different hardware architectures; including proven experience with real quantum processors, and system-level performance modeling.Strong fundamentals in quantum algorithms across different application domains, particularly those that are feasible for near term implementation; and experience in external/interdisciplinary research collaborations.HPC programming experience and understanding of the integration between quantum and classical compute capabilities.Software development skills (e.g. GitHub, documentation, debugging, data structures, design patters, software testing, CI/CD, agile frameworks, open source); and strong programming skills in C, C++, or Rust are a plus.Demonstrated experience collaborating across team such as product and sales teams, and in customer-facing and/or client support roles.",
+      "apply_options": [
+        {
+          "title": "LinkedIn",
+          "link": "https://www.linkedin.com/jobs/view/quantum-algorithm-engineer-%E2%80%94-amer-at-ibm-4471770548?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "BeBee",
+          "link": "https://bebee.com/us/jobs/quantum-algorithm-engineer-amer-ibm-san-jose--fj-2388497490?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Talents By Vaia",
+          "link": "https://talents.vaia.com/companies/ibm/san-jose/quantum-algorithm-engineer-amer-135550072/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Bandana.com",
+          "link": "https://bandana.com/jobs/2a294a9c-e06d-4889-96f5-62759ee4d61d?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Trabajo.org",
+          "link": "https://us.trabajo.org/job-4112-316ed204a51ce348a437d8f477c2dbe7?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJRdWFudHVtIEFsZ29yaXRobSBFbmdpbmVlciDigJQgQU1FUiIsImNvbXBhbnlfbmFtZSI6IklCTSIsImh0aWRvY2lkIjoiTVoyZlhxQzA2UlJIdnlCbUFBQUFBQT09IiwiaGwiOiJlbiIsImZjIjoiRXN3QkNvd0JRVXBwVkRSMFNVRTVSRjh6VUdWTGVXbFNXV3BzYmtwUlExSTBWV3huTkV0eVgyUlBSa2xUY2pKZlRHZDBZMGhQYWtkNmVXSlJlSEJGTUdFNFRreHlORkJDT0hSbFQzbHdZemt6T0VaNU9HVndlalJmVEhKSGExbDRlWEJmUkZSNVQzQlVVMGsyVVVGc1dIcEJNVEJDWlhjM1pIbHlSV1pUT0V0c1NXVk1NbWRaWm1KVWVVNVRjR2R3YjNNU0YwdFlVRU5oYjB0b1EyRjVOWEYwYzFCeVkzbGlkMEZKR2lKQlJITnlPV1pVYkhwbmNFOTVUMDE1WnpCUlIybGlkMDFITkZSb1NGOXdOVUZSIiwiZmN2IjoiMyIsImZjX2lkIjoiTVoyZlhxQzA2UlJIdnlCbUFBQUFBQT09In0="
+    },
+    {
+      "title": "Quantum Algorithms Engineer Intern 2027",
+      "company_name": "IBM",
+      "location": "Massachusetts",
+      "via": "LinkedIn",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "Doctorate Degree",
+            "Required Technical And Professional Expertise",
+            "Currently pursuing a Ph.D. or Master's degree in Physics, Electrical and Computer Engineering, Mathematics, or a closely related field, with research focused on quantum computing or a closely related area",
+            "Strong understanding of fundamental concepts in quantum computing, quantum information, and quantum algorithms",
+            "Hands-on experience implementing quantum algorithms using Python and at least one quantum computing SDK, preferably Qiskit",
+            "Experience with numerical computing and scientific programming in Python, including commonly used scientific computing libraries",
+            "Ability to independently formulate technical problems, design experiments, analyze results, and communicate conclusions",
+            "Experience conducting academic or industrial research, preferably with research publications or conference contributions",
+            "Strong problem-solving and analytical skills",
+            "Ability to work collaboratively in a research and engineering environment"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": [
+            "The intern will work with researchers and engineers to develop, implement, and evaluate quantum algorithms for challenging problems in areas such as chemistry, materials science, optimization, and quantum machine learning",
+            "The work will involve using Qiskit and IBM Quantum systems to design experiments, benchmark algorithms, investigate scalability, and explore techniques for improving performance on current quantum processors",
+            "As a Quantum Algorithm Engineer Intern, you will contribute to research and development of quantum algorithms and their implementation on near-term quantum computers",
+            "The position will provide an opportunity to contribute to research prototypes, technical demonstrations, and scientific publications",
+            "Research and implement quantum algorithms for practical scientific and computational problems",
+            "Develop and optimize quantum circuits using Qiskit and the IBM Quantum software stack",
+            "Execute experiments on real quantum processors and analyze experimental results",
+            "Investigate techniques for improving circuit performance, including transpilation, circuit optimization, error suppression, and error mitigation",
+            "Benchmark quantum algorithms using appropriate classical baselines and simulation methods",
+            "Analyze the scalability and computational requirements of quantum algorithms and identify potential bottlenecks",
+            "Contribute to research prototypes, technical demonstrations, and software implementations",
+            "Collaborate with researchers and engineers across quantum algorithms, software, and applications"
+          ]
+        }
+      ],
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=quantum+algorithms&htidocid=uTJXA5fotQeRrGt8AAAAAA%3D%3D&hl=en-US&shem=epsd1,esd2e,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xXEwQrCMAwAULzu7MlTzoLrGIigICiITNjBLxhZCW2lS0aTwf7DHxbf4VXfTXV9L8i2THDLQUqyOCk8OCQmKtCxUWFom_YEB3jJCEpYfARheIqETLtLNJv17JxqroMaWvK1l8kJ0yir-8io_waNWGjOaDS0x2atZw77bXfvITH0qIo-Lkpm-gOx-W_XlgAAAA&shmds=v1_ARwrE23Ym-_7kop3Mq6gaLxLOozrjY1YYJmTn1JpB7bhgNRP-Q&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=quantum+algorithms&htidocid=uTJXA5fotQeRrGt8AAAAAA%3D%3D",
+      "thumbnail": "https://serpapi.com/searches/6ac27327e3e176f79f45328c/images/yqA2atBNO6zT1lMuhsUuY8FeD-FunMQi6ogtzj2Z7A4.jpeg",
+      "extensions": [
+        "6 days ago",
+        "81,840–163,680 a year",
+        "Full-time"
+      ],
+      "source_link": "https://www.linkedin.com/jobs/view/quantum-algorithms-engineer-intern-2027-at-ibm-4471221757",
+      "job_title": "Quantum Algorithms Engineer Intern 2027",
+      "description": "Introduction\n\nAt IBM Quantum, our mission is to bring useful quantum computing to the world by advancing quantum hardware, software, and algorithms. This internship provides an opportunity to contribute to research at the intersection of quantum algorithms, quantum software, and quantum hardware.\n\nThe intern will work with researchers and engineers to develop, implement, and evaluate quantum algorithms for challenging problems in areas such as chemistry, materials science, optimization, and quantum machine learning. The work will involve using Qiskit and IBM Quantum systems to design experiments, benchmark algorithms, investigate scalability, and explore techniques for improving performance on current quantum processors.\n\nThis is a research-oriented internship intended for a highly motivated graduate student who is interested in translating advances in quantum computing into practical demonstrations and scientific results. The intern will have opportunities to contribute to research prototypes, technical publications, and collaborations across IBM Quantum.\n\nYour Role And Responsibilities\n\nAs a Quantum Algorithm Engineer Intern, you will contribute to research and development of quantum algorithms and their implementation on near-term quantum computers. You will work at the intersection of quantum algorithms, quantum software, and quantum hardware, with opportunities to explore applications in areas such as chemistry, materials science, optimization, and quantum machine learning.\n\nThe intern will work closely with quantum researchers and engineers to investigate algorithmic approaches, implement and benchmark quantum circuits, and evaluate their performance using both classical simulation and real quantum processors. The position will provide an opportunity to contribute to research prototypes, technical demonstrations, and scientific publications.\n\nKey Responsibilities Include\n\nResearch and implement quantum algorithms for practical scientific and computational problems.Develop and optimize quantum circuits using Qiskit and the IBM Quantum software stack.Execute experiments on real quantum processors and analyze experimental results.Investigate techniques for improving circuit performance, including transpilation, circuit optimization, error suppression, and error mitigation. Benchmark quantum algorithms using appropriate classical baselines and simulation methods.Analyze the scalability and computational requirements of quantum algorithms and identify potential bottlenecks.Contribute to research prototypes, technical demonstrations, and software implementations.Collaborate with researchers and engineers across quantum algorithms, software, and applications.\n\nPreferred Education\n\nDoctorate Degree\n\nRequired Technical And Professional Expertise\n\nCurrently pursuing a Ph.D. or Master's degree in Physics, Electrical and Computer Engineering, Mathematics, or a closely related field, with research focused on quantum computing or a closely related area.Strong understanding of fundamental concepts in quantum computing, quantum information, and quantum algorithms.Hands-on experience implementing quantum algorithms using Python and at least one quantum computing SDK, preferably Qiskit.Experience with numerical computing and scientific programming in Python, including commonly used scientific computing libraries.Ability to independently formulate technical problems, design experiments, analyze results, and communicate conclusions.Experience conducting academic or industrial research, preferably with research publications or conference contributions.Strong problem-solving and analytical skills.Ability to work collaboratively in a research and engineering environment.\n\nPreferred Technical And Professional Experience\n\nExperience executing quantum algorithms on real quantum processors.Familiarity with the IBM Quantum platform, Qiskit Runtime, and Qiskit workflows.Experience with quantum circuit optimization, transpilation, error suppression, or error mitigation.Knowledge of variational quantum algorithms, quantum simulation, quantum chemistry, quantum optimization, or quantum machine learning.Experience benchmarking quantum algorithms against classical methods or simulators.Familiarity with tensor-network methods, MPS simulation, stabilizer simulation, or other approaches for assessing classical simulability of quantum circuits.Experience with HPC or hybrid quantum-classical computing workflows.Familiarity with software engineering practices such as Git, testing, documentation, and reproducible research.Demonstrated ability to work across disciplinary boundaries and communicate technical concepts to researchers and engineers from different backgrounds.",
+      "apply_options": [
+        {
+          "title": "LinkedIn",
+          "link": "https://www.linkedin.com/jobs/view/quantum-algorithms-engineer-intern-2027-at-ibm-4471221757?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "BeBee",
+          "link": "https://bebee.com/us/jobs/quantum-algorithms-engineer-intern-2027-ibm-cambridge--fj-2387083739?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Jobilize",
+          "link": "https://www.jobilize.com/job/us-ma-dorchester-center-construction-intern-nationwide-2027-gilbane?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Trabajo.org",
+          "link": "https://us.trabajo.org/job-4112-d0632e28f23818259aeedcf9b8153815?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJRdWFudHVtIEFsZ29yaXRobXMgRW5naW5lZXIgSW50ZXJuIDIwMjciLCJjb21wYW55X25hbWUiOiJJQk0iLCJodGlkb2NpZCI6InVUSlhBNWZvdFFlUnJHdDhBQUFBQUE9PSIsImhsIjoiZW4iLCJmYyI6IkVzd0JDb3dCUVVwcFZEUjBTMjlEUlhSQ01rMHpjVXRPTFZwNE1GWlpjRWsxTm5RNFpuRndhazVKYlc5TWRWQlRkMDVuZWs5bVRqUnJRbk5xY0VaMVEzSkxTR3hYYkVWYU5EbGlVWEk1Y0d4ek1VWnRNakJYT0RKR2NuaDBhREJtUVd4SGVESkdUVmN0TkU4d1Yyd3haWFZQVTNOaFZFa3hkMmRsWkZaME0wUm9Za2RLTm1KS09ISkdSRUUyTFVsaVZIWVNGMHRZVUVOaGIwdG9RMkY1TlhGMGMxQnlZM2xpZDBGSkdpSkJSSE55T1daVFpuTlZVM2hsTkVweFJqVjJiV2R4VUUwME1XNVBXa2RST0RobiIsImZjdiI6IjMiLCJmY19pZCI6InVUSlhBNWZvdFFlUnJHdDhBQUFBQUE9PSJ9"
+    },
+    {
+      "title": "Quantum Algorithm Architect",
+      "company_name": "Nexus Quantum Labs",
+      "location": "Austin, TX",
+      "via": "Aulainfokerja17.Wreda.web.id",
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=quantum+algorithms&htidocid=PrqCOCFR10dmfqZUAAAAAA%3D%3D&hl=en-US&shem=epsd1,esd2e,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_zWNsQrCMBBAce0nON0smkjBRadOBRFBcHArSTiSSJoruQvkP_xh6-DyeLzldZ9N1z-qyVJnGJKnEiWsVlyIgk7gAFeywGjWApRhJPIJt5cgsvBZa-akPIuR6JSjWVNGS02_yfIPEwdTcElGcOpPx6aW7Hdwx1YZ_tubsQwxw1BZYt7D8_UFVDJUfZYAAAA&shmds=v1_ARwrE20xnkBKggjGiGm_8JpsDBrR6ygJdjCKQWYJ_247Llsyjw&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=quantum+algorithms&htidocid=PrqCOCFR10dmfqZUAAAAAA%3D%3D",
+      "extensions": [
+        "1 day ago",
+        "Full-time"
+      ],
+      "source_link": "https://aulainfokerja17.wreda.web.id/?jobs=en-job-quantum-algorithm-architect-1782918958199",
+      "job_title": "Quantum Algorithm Architect",
+      "description": "Join Nexus Quantum Labs at the forefront of computational revolution. We're pioneering quantum-resistant cryptography and AI-driven optimization systems that will redefine 2026's digital infrastructure. As a Quantum Algorithm Architect, you'll design next-gen solutions for Fortune 500 clients, collaborating with Nobel laureates and MIT-affiliated researchers in our Austin Innovation District headquarters. Our state-of-the-art lab houses 128-qubit processors and offers unparalleled resources to transform theoretical breakthroughs into industry-defining applications.Key Responsibilities:Design and implement quantum-resistant cryptographic protocols for financial systemsDevelop hybrid quantum-classical algorithms for supply chain optimizationLead cross-functional teams in translating complex quantum models into scalable solutionsCollaborate with AI researchers to integrate quantum computing into machine learning pipelinesAuthor white papers and patents for quantum algorithm innovationsMentor junior researchers in quantum programming best practicesPresent findings at international quantum computing symposiumsTechnical Requirements:PhD in Quantum Computing, Physics, or Computer Science (or equivalent experience)3+ years developing quantum algorithms on real hardware (IBM Q, Rigetti, or IonQ)Expertise in quantum error correction and fault-tolerant computingProficiency in Python, Qiskit, and Cirq frameworksPublication record in Nature/Science or IEEE Quantum journalsExperience with high-performance computing architecturesSecurity clearance eligibility (for government contracts)Apply Link Form Jobs : https://globaljob.infolokerupdate.web.id/form/jobs",
+      "apply_options": [
+        {
+          "title": "Aulainfokerja17.Wreda.web.id",
+          "link": "https://aulainfokerja17.wreda.web.id/?jobs=en-job-quantum-algorithm-architect-1782918958199&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Parttimejobs",
+          "link": "https://parttimejobs.jenispekerjaan.com/job/lead-quantum-architect-2026-initiative?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Brainly-Bright.career.ccwu.cc",
+          "link": "https://brainly-bright.career.ccwu.cc/?jobs=en-job-quantum-algorithm-architect-1780137640762&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Gamechickenfarms.blogspot.com",
+          "link": "https://gamechickenfarms.blogspot.com/?jobs=en-job-quantum-algorithm-architect-1780074284888&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Cn.edu.66ghz.com",
+          "link": "https://cn.edu.66ghz.com/?jobs=en-job-quantum-algorithm-architect-1780114409027&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "AdminJobs",
+          "link": "https://adminjobs.lokerho.com/job/quantum-algorithm-architect-1779634525203?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "My-Board.org",
+          "link": "https://br.edu.my-board.org/?jobs=en-job-quantum-algorithm-architect-1783560824761&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJRdWFudHVtIEFsZ29yaXRobSBBcmNoaXRlY3QiLCJjb21wYW55X25hbWUiOiJOZXh1cyBRdWFudHVtIExhYnMiLCJodGlkb2NpZCI6IlBycUNPQ0ZSMTBkbWZxWlVBQUFBQUE9PSIsImhsIjoiZW4iLCJmYyI6IkVzd0JDb3dCUVVwcFZEUjBTM1prWkdwdk9FMXNTVkpzV0RaVmNtTTFOemczVFU1U2RVOWxkVGRoZHpsUGRubDNNVXhsVGpoc2QxaFJRMmR4T1hRdE1UUkNha1JzUlU0NVpUTmtWWEZuYVVWWmFqUkpaRXBXZGpaNWVuTlNZbGRhWVdkSlRrWTBiREZEVlVJd1NVVXpkSG8zY2tveVJEZERYMVpCTVU5RWJFOWpVekIzZG5CdVpFbGZVMU5KWkhwbmVWY1NGMHRZVUVOaGIwdG9RMkY1TlhGMGMxQnlZM2xpZDBGSkdpSkJSSE55T1daVE1rRjBjekZwZURaSkxXTkNUVWRyUVdKcVNYbDFabWRyZFRsQiIsImZjdiI6IjMiLCJmY19pZCI6IlBycUNPQ0ZSMTBkbWZxWlVBQUFBQUE9PSJ9"
+    },
+    {
+      "title": "Quantum Algorithms Theory Intern",
+      "company_name": "IBM",
+      "location": "United States",
+      "via": "Intern Insider",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "Enrollment in an academic graduate program (Ph.D. or research-focused Master's) in Physics, Computer Science, Mathematics, Engineering, or a closely related field",
+            "Focus on quantum computing, quantum information theory, or theoretical computer science",
+            "Coursework or research projects in quantum algorithms, quantum information theory, computational complexity, and linear algebra",
+            "Demonstrated experience performing independent theoretical research",
+            "Experience with at least one general-purpose programming language, such as Python",
+            "Programming experience in core and scientific Python libraries (e.g",
+            "NumPy, SciPy, Matplotlib) and Qiskit",
+            "Publications or preprints in quantum algorithms, quantum complexity theory, or related areas",
+            "Familiarity with Git and/or GitHub",
+            "Familiarity with AI tooling for research",
+            "Prior exposure to fault-tolerant quantum computing concepts, quantum error correction, or quantum compilation"
+          ]
+        },
+        {
+          "title": "Benefits",
+          "items": [
+            "Employment: Full-time internship, paid"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": [
+            "As a research intern with the Theory of Quantum Algorithms team, you will work alongside theorists to discover and develop new quantum algorithms for scientifically and practically meaningful problems",
+            "You will focus on algorithms designed for fault-tolerant quantum computers",
+            "Your project will be shaped in collaboration with your mentor and may draw on areas such as quantum algorithm design, computational complexity theory, quantum simulation, algorithms for differential equations, and quantum approaches to learning and testing",
+            "Investigate a well-defined research question in quantum algorithms",
+            "Develop new quantum algorithms for scientifically and practically meaningful problems",
+            "Characterize potential quantum speed-ups by comparing candidate algorithms against state-of-the-art classical methods",
+            "Consider how algorithmic ideas connect to implementations suited to fault-tolerant quantum architectures",
+            "Collaborate with mentors and colleagues across compilation and error correction",
+            "Document and present findings",
+            "Work toward results suitable for a peer-reviewed publication or conference submission"
+          ]
+        }
+      ],
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=quantum+algorithms&htidocid=JFgJBAmhBIOJEX7kAAAAAA%3D%3D&hl=en-US&shem=epsd1,esd2e,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xXLsQrCMBAAUFw7OzndLJiIIIJOdZEKDqLOJalHEknvSu4K9R_8aHV526s-s2p3HR3p2EOdA5eksRe4R-TyhoYUC8EKzuxB0JUuAhOcmEPGxSGqDrK3ViSbIOo0dabj3jKh58m-2MufVqIrOGSn2G6268kMFJbz5niBRPCgpPiE22-jfAGRCvb6jwAAAA&shmds=v1_ARwrE23LTtvkV6_I6iEj5hnJPwj0LSFlkMlzn_sTyVleNeFu-w&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=quantum+algorithms&htidocid=JFgJBAmhBIOJEX7kAAAAAA%3D%3D",
+      "thumbnail": "https://serpapi.com/searches/6ac27327e3e176f79f45328c/images/XL4P0bByBf7uBD425Q1VUzx3fhLq-w9D4OC0qrgGcHY.jpeg",
+      "extensions": [
+        "6 days ago",
+        "Internship"
+      ],
+      "source_link": "https://interninsider.me/internships/ibm/quantum-algorithms-theory-intern-19ba3a3f-aa01-4404-9f77-9037931f3880",
+      "job_title": "Quantum Algorithms Theory Intern",
+      "description": "About the role\nAs a research intern with the Theory of Quantum Algorithms team, you will work alongside theorists to discover and develop new quantum algorithms for scientifically and practically meaningful problems. You will focus on algorithms designed for fault-tolerant quantum computers. Your project will be shaped in collaboration with your mentor and may draw on areas such as quantum algorithm design, computational complexity theory, quantum simulation, algorithms for differential equations, and quantum approaches to learning and testing.\n\n\nWhat you'll do\n\nInvestigate a well-defined research question in quantum algorithms.\nDevelop new quantum algorithms for scientifically and practically meaningful problems.\nCharacterize potential quantum speed-ups by comparing candidate algorithms against state-of-the-art classical methods.\nConsider how algorithmic ideas connect to implementations suited to fault-tolerant quantum architectures.\nCollaborate with mentors and colleagues across compilation and error correction.\nDocument and present findings.\nWork toward results suitable for a peer-reviewed publication or conference submission.\n\nWhat you'll need\n\nEnrollment in an academic graduate program (Ph.D. or research-focused Master's) in Physics, Computer Science, Mathematics, Engineering, or a closely related field.\nFocus on quantum computing, quantum information theory, or theoretical computer science.\nCoursework or research projects in quantum algorithms, quantum information theory, computational complexity, and linear algebra.\nDemonstrated experience performing independent theoretical research.\nExperience with at least one general-purpose programming language, such as Python.\nProgramming experience in core and scientific Python libraries (e.g. NumPy, SciPy, Matplotlib) and Qiskit.\nPublications or preprints in quantum algorithms, quantum complexity theory, or related areas.\nFamiliarity with Git and/or GitHub.\nFamiliarity with AI tooling for research.\nPrior exposure to fault-tolerant quantum computing concepts, quantum error correction, or quantum compilation.\n\nLocation & details\n\nTerm: Summer 2027\nModality: On-site\nEmployment: Full-time internship, paid",
+      "apply_options": [
+        {
+          "title": "Intern Insider",
+          "link": "https://interninsider.me/internships/ibm/quantum-algorithms-theory-intern-19ba3a3f-aa01-4404-9f77-9037931f3880?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Career.io",
+          "link": "https://career.io/job/quantum-compiler-intern-992-quantinuum-303b744d13482b09cd5fc2a553969e8e?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Jobrapido",
+          "link": "https://us.jobrapido.com/jobpreview/4715157275998683136?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJRdWFudHVtIEFsZ29yaXRobXMgVGhlb3J5IEludGVybiIsImNvbXBhbnlfbmFtZSI6IklCTSIsImh0aWRvY2lkIjoiSkZnSkJBbWhCSU9KRVg3a0FBQUFBQT09IiwiaGwiOiJlbiIsImZjIjoiRXN3QkNvd0JRVXBwVkRSMFRERmpjRXRGVFRVdGRuSXRNRGxOUVV4TVlYVkZkblp6VDNsZmJtVlpabkJWTlVKblQxWlpWQzF0VjBOemEweERMWEZwWTA5RFRXRnZlSFpzVVMxV1YwWm9iRjlsVDNaeFVIbE1TVkp0ZURkbExXVk9jblJTVUhGQ1VUbDBjVGRETXpBd05sOXVkMmhrV0dseGJHdE5kelJKYjFnNWRsYzBMVkpGVTNabGJsZHRaemczU2pNU0YwdFlVRU5oYjB0b1EyRjVOWEYwYzFCeVkzbGlkMEZKR2lKQlJITnlPV1pSUVROUFMyaHVPRzFQUlY5TFYwTlNla1ZETFVkVlRtcHdlVzFCIiwiZmN2IjoiMyIsImZjX2lkIjoiSkZnSkJBbWhCSU9KRVg3a0FBQUFBQT09In0="
+    },
+    {
+      "title": "Assistant Professor - Quantum Information Theory and Many-body Physics",
+      "company_name": "University of Houston System",
+      "location": "Houston, TX",
+      "via": "UH System Careers - University Of Houston",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "Applicants should have a strong track record of research and demonstrate the potential to develop a vigorous, externally funded research program",
+            "A Ph.D. in Physics or a closely related field is required",
+            "Competitive candidates will demonstrate strong communication skills and show promise in securing federal funding (e.g., NSF, DOE) and contributing to multi-investigator, interdisciplinary initiatives",
+            "Application Instructions: Applicants should submit a cover letter, a teaching statement, a statement of research interests and plans (including strategies for involving students and seeking external support), a full curriculum vitae with a list of publications, and contact information for at least three professional references",
+            "All positions at the University of Houston-System are security sensitive and will require a criminal history check"
+          ]
+        },
+        {
+          "title": "Benefits",
+          "items": [
+            "Salary: Commensurate with experience"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": [
+            "The successful candidate will be expected to contribute to our growing efforts in quantum materials, condensed matter theory, and computational physics, while fostering collaborations across departments, including mechanical engineering, computer science, and mathematics",
+            "The new faculty member will teach both undergraduate and graduate courses and mentor students and postdoctoral researchers in a robust academic environment",
+            "The new hire will have access to a strong network of collaborators across campus and be well positioned to participate in center-level research proposals and initiatives"
+          ]
+        }
+      ],
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=quantum+algorithms&htidocid=1cYPrlNE8nL30Y-sAAAAAA%3D%3D&hl=en-US&shem=epsd1,esd2e,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_zWNuwrCQBBFsc0nWE3tIxHBRisrHyBEVLAR2cRJdiWZCTsTcT_Rv3ItbG5xuOfe5DNIbmsRJ2pIIfdcoQh7mMKxj6RvYUcV-9aoY4KzRfYBDD3gYChMC34EyG0QV0pU9lyAoPGlhVjeMNcNDldWtZNllok0aR1_1JVpyW3GhAW_sycX8ou7WOOxa4zifb6YvdOO6tH4Qu6FXpwG4Aq23IvG6VMQxRYc_ckEztcvKuggv8wAAAA&shmds=v1_ARwrE216K1m_4qpOd7Col13EDzC1UZmaBnySItCIur8JU-CRWw&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=quantum+algorithms&htidocid=1cYPrlNE8nL30Y-sAAAAAA%3D%3D",
+      "thumbnail": "https://serpapi.com/searches/6ac27327e3e176f79f45328c/images/2fbJqx2mgc5s8ALLE8OrdkNRDxoowQ8hLVl3V5CIYfQ.png",
+      "extensions": [
+        "3 days ago",
+        "Full-time"
+      ],
+      "source_link": "https://careers.uh.edu/jobs/assistant-professor-quantum-information-theory-and-many-body-physics-houston-texas-united-states",
+      "job_title": "Assistant Professor - Quantum Information Theory and Many-body Physics",
+      "description": "Department: Physics\n\n\nSalary: Commensurate with experience\n\n\n\nDescription:\n\n\nThe Department of Physics at the University of Houston invites applications for a tenure-track position at the level of Assistant Professor for a theoretical physicist in quantum information theory and many-body systems, to begin in Fall 2027. This position is part of the university-wide Presidential Frontier Faculty (PFF) initiative and seeks candidates whose research advances the theoretical foundations of quantum science.\n\nWe are particularly interested in candidates whose work bridges quantum information theory, quantum algorithms, and entanglement structure to quantum many-body physics, electronic structure theory, or complex emergent phenomena. Applicants should have a strong track record of research and demonstrate the potential to develop a vigorous, externally funded research program. The successful candidate will be expected to contribute to our growing efforts in quantum materials, condensed matter theory, and computational physics, while fostering collaborations across departments, including mechanical engineering, computer science, and mathematics.\n\nThe new faculty member will teach both undergraduate and graduate courses and mentor students and postdoctoral researchers in a robust academic environment. A Ph.D. in Physics or a closely related field is required. Postdoctoral experience in theoretical quantum science, quantum information, or AI-enhanced physics is strongly preferred. Competitive candidates will demonstrate strong communication skills and show promise in securing federal funding (e.g., NSF, DOE) and contributing to multi-investigator, interdisciplinary initiatives.\n\nThis position aligns with national and state-level priorities in Quantum Information Science. It is supported by a vibrant research environment at the University of Houston, a Carnegie Tier One public research institution. The new hire will have access to a strong network of collaborators across campus and be well positioned to participate in center-level research proposals and initiatives.\n\nApplication Instructions: Applicants should submit a cover letter, a teaching statement, a statement of research interests and plans (including strategies for involving students and seeking external support), a full curriculum vitae with a list of publications, and contact information for at least three professional references.\n\nAll materials must be submitted online at: \nhttps://uh.edu/provost/faculty/faculty-resources/prospective-faculty/\n\nReview of applications will begin immediately and continue until the position is filled. For full consideration, applications should be received by December 1, 2026. Inquiries may be directed to Prof. Pavan Hosur at phosur@central.uh.edu.\n\n\n\n\n\n\n\n\nEmployees are expected to have a home address in the state of Texas for the duration of their appointments.\n\nOfficial transcripts are required for a faculty appointment and will be requested upon selection of the final candidates.\n\nAll positions at the University of Houston-System are security sensitive and will require a criminal history check. Individuals conducting research in critical infrastructure areas (i.e., communication infrastructure systems, cybersecurity systems, electric grid, hazardous waste treatment systems, and/or water treatment facilities) are subject to regular review to ensure the security and integrity of the research is maintained.\n\nThe University of Houston System and its universities are Equal Opportunity Institutions. Everyone is encouraged to apply.",
+      "apply_options": [
+        {
+          "title": "UH System Careers - University Of Houston",
+          "link": "https://careers.uh.edu/jobs/assistant-professor-quantum-information-theory-and-many-body-physics-houston-texas-united-states?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "LinkedIn",
+          "link": "https://www.linkedin.com/jobs/view/assistant-professor-quantum-information-theory-and-many-body-physics-at-university-of-houston-4474595072?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Monster",
+          "link": "https://www.monster.com/job-openings/assistant-professor-quantum-information-theory-and-many-body-physics-houston-tx--3d3d4a7a-04bc-4c63-97e9-c5e4de78ef79?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "American Mensa (American Mensa), MENSA® WORKS",
+          "link": "https://mensaworks.org/jobs/?page=7&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "BeBee",
+          "link": "https://bebee.com/us/jobs/assistant-professor-quantum-information-theory-and-many-body-physics-university-of-houston-houston--fj-2393559713?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "SimplyHired",
+          "link": "https://www.simplyhired.com/job/yEer0ByMoXXX-HP3ZUZxu8Yz_1Mq1FEP2yKNtMQuXSd6cqfgOotevg?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJBc3Npc3RhbnQgUHJvZmVzc29yIC0gUXVhbnR1bSBJbmZvcm1hdGlvbiBUaGVvcnkgYW5kIE1hbnktYm9keSBQaHlzaWNzIiwiY29tcGFueV9uYW1lIjoiVW5pdmVyc2l0eSBvZiBIb3VzdG9uIFN5c3RlbSIsImh0aWRvY2lkIjoiMWNZUHJsTkU4bkwzMFktc0FBQUFBQT09IiwiaGwiOiJlbiIsImZjIjoiRXN3QkNvd0JRVXBwVkRSMFNqQkhWMll5WXpSa1ZrZG9PVU5OWVZaTFlqSTBkV3Q0WjFJMlJIRlFNRlZNZEhOblMyOUphM05JUlhVelpIWkxVM1JMZVd0eFlVRXhiMWx5UWpod1F6QmFTV2wxWkU1SVZYWnJaelF0Y1ZkM2NUZG1ibHBNUTFkSE1UVlNjRzAxY1ZoVVVFZEdZVEZMTTB0eU4xZFRVbXBQTmpOUVJVaGpZa1paTVZkbldqVk1aemRvTTNBU0YwdFlVRU5oYjB0b1EyRjVOWEYwYzFCeVkzbGlkMEZKR2lKQlJITnlPV1pSY1dWRFdqQkhXVlozYjNKb2JtTnZhazFQUWtSTFZraEdNa0ZCIiwiZmN2IjoiMyIsImZjX2lkIjoiMWNZUHJsTkU4bkwzMFktc0FBQUFBQT09In0="
+    },
+    {
+      "title": "Quantum Algorithms Scientist - Optimization - Full-time",
+      "company_name": "Phasecraft",
+      "location": "Acushnet, MA",
+      "via": "Snagajob",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "A background in quantum computing is not necessarily required, though in this case a successful candidate will have evidence of the ability to design and implement advanced algorithms for optimization and/or constraint satisfaction",
+            "Expertise in one or more of:",
+            "quantum information and/or computation theory",
+            "theory and implementation of classical algorithms for optimization or constraint satisfaction",
+            "quantum algorithm design and implementation",
+            "mathematical analysis of algorithms",
+            "Proven track record of working independently on research projects",
+            "Deep expertise and an excellent publication track-record in relevant discipline",
+            "Excellent written and verbal communication skills and the ability to disseminate research results to technical and non-technical audiences",
+            "Flexibility to work across different aspects of quantum algorithms, and to work on other tasks required to support the growth and success of the company",
+            "An interest in near-term quantum computing",
+            "PhD (or soon to receive one) in quantum information, quantum computation theory, theoretical computer science, or closely related field",
+            "Coding in quantum software development environments (e.g. Cirq, QuEST, Qiskit)",
+            "Experience of implementing algorithms on quantum hardware",
+            "Strong publication track-record in relevant discipline",
+            "Software development skills",
+            "Enthusiasm for learning and novel research",
+            "The ideal candidate will have experience in the theory and/or implementation of optimization algorithms for gate-model quantum computers, or in classical optimization or constraint satisfaction algorithms; or otherwise strong evidence of potential to contribute to these areas",
+            "A background in quantum computing is not necessarily required, though in this case a successful candidate will have evidence of the ability to design and implement advanced algorithms for optimization and/or constraint satisfaction",
+            "Expertise in one or more of:",
+            "quantum information and/or computation theory",
+            "theory and implementation of classical algorithms for optimization or constraint satisfaction",
+            "quantum algorithm design and implementation",
+            "mathematical analysis of algorithms",
+            "Proven track record of working independently on research projects",
+            "Deep expertise and an excellent publication track-record in relevant discipline",
+            "Excellent written and verbal communication skills and the ability to disseminate research results to technical and non-technical audiences",
+            "Flexibility to work across different aspects of quantum algorithms, and to work on other tasks required to support the growth and success of the company",
+            "An interest in near-term quantum computing",
+            "PhD (or soon to receive one) in quantum information, quantum computation theory, theoretical computer science, or closely related field",
+            "Coding in quantum software development environments (e.g. Cirq, QuEST, Qiskit)",
+            "Experience of implementing algorithms on quantum hardware",
+            "Strong publication track-record in relevant discipline",
+            "Software development skills",
+            "Enthusiasm for learning and novel research"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": [
+            "The ideal candidate will have experience in the theory and/or implementation of optimization algorithms for gate-model quantum computers, or in classical optimization or constraint satisfaction algorithms; or otherwise strong evidence of potential to contribute to these areas",
+            "Their work will initially focus on these topics, though they will have the opportunity to grow a portfolio of research activity across the breadth of Phasecraft’s interests",
+            "Undertake theoretical and/or applied research and/or software development for near-term quantum computing applications, with an initial focus on quantum algorithms and software for combinatorial optimization and/or constraint satisfaction problems",
+            "Help to author publications, presentations, patent applications and similar resulting from the research",
+            "Work collaboratively in a small team made up of full-time staff and affiliated PhD students",
+            "Work with stakeholders on collaborations applying quantum computing to optimization problems",
+            "Other activities as required to support the growth and success of Phasecraft",
+            "Their work will initially focus on these topics, though they will have the opportunity to grow a portfolio of research activity across the breadth of Phasecraft’s interests",
+            "Undertake theoretical and/or applied research and/or software development for near-term quantum computing applications, with an initial focus on quantum algorithms and software for combinatorial optimization and/or constraint satisfaction problems",
+            "Help to author publications, presentations, patent applications and similar resulting from the research",
+            "Work collaboratively in a small team made up of full-time staff and affiliated PhD students",
+            "Work with stakeholders on collaborations applying quantum computing to optimization problems",
+            "Other activities as required to support the growth and success of Phasecraft"
+          ]
+        }
+      ],
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=quantum+algorithms&htidocid=OuSa0YDDQAVJEcqIAAAAAA%3D%3D&hl=en-US&shem=epsd1,esd2e,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xWLTQrCMBCFcdsjdDVr0UYEN7rqRkHwDw9Q0jA2kSQTMhMo3shbGjeP972P13wXzfVRdJQSoPcTZSc2MDyNwyiOBdZwS-KC-2hxFCsei_frumDtZxqBUWdjoboT0eSxPViRxHulmH03sdSj6QwFRRFHmtWbRv7HwFZnTF4LDtvdZu5SnJbt3WpGk_VLwEXoTWEbUVZw6X_qQvffrAAAAA&shmds=v1_ARwrE23ZCx10iVlC6C2GLh7yUBXU8KJTjH0c1hxaxfvcKp_Nmg&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=quantum+algorithms&htidocid=OuSa0YDDQAVJEcqIAAAAAA%3D%3D",
+      "extensions": [
+        "4 days ago",
+        "Full-time"
+      ],
+      "source_link": "https://www.snagajob.com/jobs/1108561493",
+      "job_title": "Quantum Algorithms Scientist - Optimization - Full-time",
+      "description": "Phasecraft is the quantum algorithms company. We are building the mathematical foundations for quantum computing applications that solve real-world problems. Founded in 2019 by Toby Cubitt, Ashley Montanaro and John Morton, we are based in London and Bristol in the UK and opened an office in Washington DC in 2024, led by Steve Flammia. In 2023 we completed a $17m Series A funding round led by leading Silicon Valley deep tech VC, Playground Global.\n\nPhasecraft’s unprecedented access to today’s best quantum computers – through partnerships with Google, IBM, Quantinuum and QuEra – provides us with unique opportunities to develop foundational IP, inform the development of next-generation quantum hardware, and accelerate commercialization of high-value breakthroughs.\n\n We are looking to hire a Quantum Algorithms Scientist to join our team. The ideal candidate will have experience in the theory and/or implementation of optimization algorithms for gate-model quantum computers, or in classical optimization or constraint satisfaction algorithms; or otherwise strong evidence of potential to contribute to these areas. Their work will initially focus on these topics, though they will have the opportunity to grow a portfolio of research activity across the breadth of Phasecraft’s interests. A background in quantum computing is not necessarily required, though in this case a successful candidate will have evidence of the ability to design and implement advanced algorithms for optimization and/or constraint satisfaction.\n\nJob Description\n\n Undertake theoretical and/or applied research and/or software development for near-term quantum computing applications, with an initial focus on quantum algorithms and software for combinatorial optimization and/or constraint satisfaction problems. Help to author publications, presentations, patent applications and similar resulting from the research. Work collaboratively in a small team made up of full-time staff and affiliated PhD students. Work with stakeholders on collaborations applying quantum computing to optimization problems. Other activities as required to support the growth and success of Phasecraft. Requirements\n\nEssential criteria:\n\nExpertise in one or more of:\no quantum information and/or computation theory\no theory and implementation of classical algorithms for optimization or constraint satisfaction\no quantum algorithm design and implementation\no mathematical analysis of algorithmsProven track record of working independently on research projects.Deep expertise and an excellent publication track-record in relevant discipline.Excellent written and verbal communication skills and the ability to disseminate research results to technical and non-technical audiences.Flexibility to work across different aspects of quantum algorithms, and to work on other tasks required to support the growth and success of the company.An interest in near-term quantum computingDesirable criteria:\n\nPhD (or soon to receive one) in quantum information, quantum computation theory, theoretical computer science, or closely related field.Coding in quantum software development environments (e.g. Cirq, QuEST, Qiskit).Experience of implementing algorithms on quantum hardware.Strong publication track-record in relevant discipline.Software development skills.Enthusiasm for learning and novel research.Phasecraft is the quantum algorithms company. We are building the mathematical foundations for quantum computing applications that solve real-world problems. Founded in 2019 by Toby Cubitt, Ashley Montanaro and John Morton, we are based in London and Bristol in the UK and opened an office in Washington DC in 2024, led by Steve Flammia. In 2023 we completed a $17m Series A funding round led by leading Silicon Valley deep tech VC, Playground Global.\n\nPhasecraft’s unprecedented access to today’s best quantum computers – through partnerships with Google, IBM, Quantinuum and QuEra – provides us with unique opportunities to develop foundational IP, inform the development of next-generation quantum hardware, and accelerate commercialization of high-value breakthroughs.\n\n We are looking to hire a Quantum Algorithms Scientist to join our team. The ideal candidate will have experience in the theory and/or implementation of optimization algorithms for gate-model quantum computers, or in classical optimization or constraint satisfaction algorithms; or otherwise strong evidence of potential to contribute to these areas. Their work will initially focus on these topics, though they will have the opportunity to grow a portfolio of research activity across the breadth of Phasecraft’s interests. A background in quantum computing is not necessarily required, though in this case a successful candidate will have evidence of the ability to design and implement advanced algorithms for optimization and/or constraint satisfaction.\n\nJob Description\n\n Undertake theoretical and/or applied research and/or software development for near-term quantum computing applications, with an initial focus on quantum algorithms and software for combinatorial optimization and/or constraint satisfaction problems. Help to author publications, presentations, patent applications and similar resulting from the research. Work collaboratively in a small team made up of full-time staff and affiliated PhD students. Work with stakeholders on collaborations applying quantum computing to optimization problems. Other activities as required to support the growth and success of Phasecraft. Requirements\n\nEssential criteria:\n\nExpertise in one or more of:\no quantum information and/or computation theory\no theory and implementation of classical algorithms for optimization or constraint satisfaction\no quantum algorithm design and implementation\no mathematical analysis of algorithmsProven track record of working independently on research projects.Deep expertise and an excellent publication track-record in relevant discipline.Excellent written and verbal communication skills and the ability to disseminate research results to technical and non-technical audiences.Flexibility to work across different aspects of quantum algorithms, and to work on other tasks required to support the growth and success of the company.An interest in near-term quantum computingDesirable criteria:\n\nPhD (or soon to receive one) in quantum information, quantum computation theory, theoretical computer science, or closely related field.Coding in quantum software development environments (e.g. Cirq, QuEST, Qiskit).Experience of implementing algorithms on quantum hardware.Strong publication track-record in relevant discipline.Software development skills.Enthusiasm for learning and novel research.",
+      "apply_options": [
+        {
+          "title": "Snagajob",
+          "link": "https://www.snagajob.com/jobs/1108561493?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJRdWFudHVtIEFsZ29yaXRobXMgU2NpZW50aXN0IC0gT3B0aW1pemF0aW9uIC0gRnVsbC10aW1lIiwiY29tcGFueV9uYW1lIjoiUGhhc2VjcmFmdCIsImh0aWRvY2lkIjoiT3VTYTBZRERRQVZKRWNxSUFBQUFBQT09IiwiaGwiOiJlbiIsImZjIjoiRXN3QkNvd0JRVXBwVkRSMFNqUnhSMHN6YlZKMWVsSm9SblIwT1ROVlNYVnJWa1p1TkVkSFNuaGxSa3g0Vld4RmJGcHBYM0J6VURKT05ubzBNRk4xY0VOR1RqWmZkMFZNY214aWVFTjZhMjQwT0ROUWRHOVFNVWhLYm5rNWNVcEZSSFI2T1c5dGRsSnFWbGN4UlRCWk1XUlVUVGxLVVVwclEwbGxXWEpFT1Y5RGRUWmlVVzlCV0VGdFZuSkphREkwTWs0U0YwdFlVRU5oYjB0b1EyRjVOWEYwYzFCeVkzbGlkMEZKR2lKQlJITnlPV1pTVUdSd1ZrMTRRbkZVUjJFelUxSjRRVFV5UmxSU2FEbEJWV2xuIiwiZmN2IjoiMyIsImZjX2lkIjoiT3VTYTBZRERRQVZKRWNxSUFBQUFBQT09In0="
+    },
+    {
+      "title": "Quantum Algorithm Developer - Fault Tolerance",
+      "company_name": "Parityqc",
+      "location": "United States",
+      "via": "Talents By Vaia",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "We're looking for a creative mind with a deep understanding of fault-tolerant algorithms, ready to unlock the next level of the ParityQC Architecture",
+            "PhD or Master's degree in (theoretical) physics, mathematics or related subject with a focus on quantum computation",
+            "Deep understanding of fault tolerant quantum algorithms",
+            "Programming skills, in particular Python",
+            "High degree of creativity and pro-activeness",
+            "Ability to work self-initiated and independently, experience in research",
+            "Fluency in English"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": [
+            "The role involves mainly the development of novel fault-tolerant algorithms whose implementation will be leveraged by the ParityQC Architecture",
+            "As a Quantum Algorithm Developer, you'll design and implement pioneering fault-tolerant quantum algorithms co-developed with our Quantum Error Correction team, shaping the foundation of the ParityQC Architecture",
+            "You will conduct detailed quantum resource analysis for the new algorithms and help to shape the path towards quantum advantage",
+            "Scope: Full-time position"
+          ]
+        }
+      ],
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=quantum+algorithms&htidocid=FJuck8lXfc9yufBfAAAAAA%3D%3D&hl=en-US&shem=epsd1,esd2e,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xWNsQrCMBBAce0f6HSzYCOCi05CUXBS1Fmu8UgiaS7mrlJ_xm-1Lm94w3vVd1I15x6T9h3souMS1HfQ0JsiZyqwgD32UeHKkQomS6M5cgtCWKwHTnBgdpFmW6-aZWOMSKydKGqwteXOcKKWB_PkVv64i8dCOaLSfbVeDnVObj494Tj-vCyEBLcUlB5wGRMkP-SGgK2hAAAA&shmds=v1_ARwrE22s6py6Bm_a99sHVwxqatGmHbxLcgNcHyAGC9aH8ra4Xw&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=quantum+algorithms&htidocid=FJuck8lXfc9yufBfAAAAAA%3D%3D",
+      "extensions": [
+        "Full-time"
+      ],
+      "source_link": "https://talents.vaia.com/companies/parityqc/quantum-algorithm-developer-fault-tolerance-114949613/",
+      "job_title": "Quantum Algorithm Developer - Fault Tolerance",
+      "description": "Quantum Algorithm Developer - Fault Tolerance\n\nWe are looking for a Quantum Algorithm Developer who will join our diverse team of experts creating next generation quantum computers. The role involves mainly the development of novel fault-tolerant algorithms whose implementation will be leveraged by the ParityQC Architecture.\n\nAs a Quantum Algorithm Developer, you'll design and implement pioneering fault-tolerant quantum algorithms co-developed with our Quantum Error Correction team, shaping the foundation of the ParityQC Architecture.\n\nThese novel quantum algorithms are specifically co-designed to run on (early-)fault tolerant hardware using the parity architecture. You will utilize the specific advantages of different hardware platforms, to shape algorithms in close cooperation with our Quantum Error Correction experts. You will conduct detailed quantum resource analysis for the new algorithms and help to shape the path towards quantum advantage.\n\nWe're looking for a creative mind with a deep understanding of fault-tolerant algorithms, ready to unlock the next level of the ParityQC Architecture.\n\nRequired Skills & Experience\n\nPhD or Master's degree in (theoretical) physics, mathematics or related subject with a focus on quantum computationDeep understanding of fault tolerant quantum algorithmsProgramming skills, in particular PythonHigh degree of creativity and pro-activenessAbility to work self-initiated and independently, experience in researchFluency in EnglishPreferred Experience\n\nQuantum error correction codes and/or stabilizer codesA proven track record in quantum algorithms developmentExperience in classical algorithm development and complexity analysisGerman skills are a plus, but not requiredWe are a pioneering spin-off shaping the future of quantum computing. There are no established paths in what we do — we invent, explore, and define the standards for a new era of computation.\n\nWe offer the freedom to conduct and publish your research in peer-reviewed journals, collaborate within an international and motivated team, and work flexibly — including remote options.\n\nScope: Full-time positionPlace: Innsbruck/HamburgContact: recruiting@parityqc.comIn accordance with the Equal Treatment Act, we would like to point out that the minimum salary for this position in Austria is based on the IT Collective Agreement, classification ST1. A market-competitive overpayment is intended and depends on your qualifications and relevant professional experience. An equivalent approach is also foreseen for Germany.\n\n**Please submit a copy of your CV and a cover letter to recruiting@parityqc.com stating why you would be interested in working at ParityQC and why your experience is relevant**",
+      "apply_options": [
+        {
+          "title": "Talents By Vaia",
+          "link": "https://talents.vaia.com/companies/parityqc/quantum-algorithm-developer-fault-tolerance-114949613/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJRdWFudHVtIEFsZ29yaXRobSBEZXZlbG9wZXIgLSBGYXVsdCBUb2xlcmFuY2UiLCJjb21wYW55X25hbWUiOiJQYXJpdHlxYyIsImh0aWRvY2lkIjoiRkp1Y2s4bFhmYzl5dWZCZkFBQUFBQT09IiwiaGwiOiJlbiIsImZjIjoiRXN3QkNvd0JRVXBwVkRSMFNsWXphbWRzTWtKSlZVOXFaM1JzYzNaYU5YTlVNRFF5TjB4b2NqWlRSMjEzVmtWTVJqbGFSemRwVEROWU0yUlhNRTlCTkhkM056TTJZVjlpT0hGblFrZG1SakJPV0dNM2MxUnNNWEZ6UzFoSWVVTm9aRFUxZGxSQ1lYTTFkMVJXTjFoYU1VeFZNVzV4TVU1Rk5VeFpUWGh6ZWtkRlduUjBaMDF2TUVWa05IRllZMEUwUTA4U0YwdFlVRU5oYjB0b1EyRjVOWEYwYzFCeVkzbGlkMEZKR2lKQlJITnlPV1pTYmpkTVpIVnFSR05hTjNsNGEzbFBUQzFQVFhRemMweEVVMkYzIiwiZmN2IjoiMyIsImZjX2lkIjoiRkp1Y2s4bFhmYzl5dWZCZkFBQUFBQT09In0="
+    },
+    {
+      "title": "Quantum Algorithms Engineer Intern",
+      "company_name": "IBM",
+      "location": "San Jose, CA",
+      "via": "Learn4Good",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "Master's Degree",
+            "Doctorate Degree",
+            "Required technical and professional expertise",
+            "Currently pursuing a Ph.D. or Master's degree in Physics, Electrical and Computer Engineering, Mathematics, or a closely related field, with research focused on quantum computing or a closely related area",
+            "Strong understanding of fundamental concepts in quantum computing, quantum information, and quantum algorithms",
+            "Hands-on experience implementing quantum algorithms using Python and at least one quantum computing SDK, preferably Qiskit",
+            "Experience with numerical computing and scientific programming in Python, including commonly used scientific computing libraries",
+            "Ability to independently formulate technical problems, design experiments, analyze results, and communicate conclusions",
+            "Experience conducting academic or industrial research, preferably with research publications or conference contributions",
+            "Strong problem-solving and analytical skills",
+            "Ability to work collaboratively in a research and engineering environment"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": [
+            "The intern will work with researchers and engineers to develop, implement, and evaluate quantum algorithms for challenging problems in areas such as chemistry, materials science, optimization, and quantum machine learning",
+            "The work will involve using Qiskit and IBM Quantum systems to design experiments, benchmark algorithms, investigate scalability, and explore techniques for improving performance on current quantum processors",
+            "As a Quantum Algorithm Engineer Intern, you will contribute to research and development of quantum algorithms and their implementation on near-term quantum computers",
+            "The position will provide an opportunity to contribute to research prototypes, technical demonstrations, and scientific publications",
+            "Research and implement quantum algorithms for practical scientific and computational problems",
+            "Develop and optimize quantum circuits using Qiskit and the IBM Quantum software stack",
+            "Execute experiments on real quantum processors and analyze experimental results",
+            "Investigate techniques for improving circuit performance, including transpilation, circuit optimization, error suppression, and error mitigation",
+            "Benchmark quantum algorithms using appropriate classical baselines and simulation methods",
+            "Analyze the scalability and computational requirements of quantum algorithms and identify potential bottlenecks",
+            "Contribute to research prototypes, technical demonstrations, and software implementations",
+            "Collaborate with researchers and engineers across quantum algorithms, software, and applications"
+          ]
+        }
+      ],
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=quantum+algorithms&htidocid=3VIggqFJS0QRJSQuAAAAAA%3D%3D&hl=en-US&shem=epsd1,esd2e,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xXMsQrCMBAAUFy7ujndLNqI4KCdqohUcBA_oCTlSCLpXchdoT_hP6vLG1_1WVTH52RJpxHa5LlEDaPAlXwkxAIdKRaCLdzZgaAtQwAmuDH7hKsmqGY5GSOSai9qNQ71wKNhQsezebOTP70EWzAnq9jvD7u5zuTXy-78gEjwsvTbBTdwab8zVBfHkAAAAA&shmds=v1_ARwrE22QCpNy8dlDqJH5vI2n0n8iJ7st9YWSeveEL7ShGHha9g&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=quantum+algorithms&htidocid=3VIggqFJS0QRJSQuAAAAAA%3D%3D",
+      "thumbnail": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAADgAAAA4CAMAAACfWMssAAAAUVBMVEX___97e3ve3t6UlJTOzs7V1dWNjY2Dg4Pr6-s9PT3w8PB2dnbKysrh4eHHx8eXl5e8vLxpaWlCQkL39_ezs7Otra1XV1empqaenp44ODhLS0sXijQ6AAAA3UlEQVRIie2S3Q7CIAyFO2CUn8HYppv6_g9qO_TChLF4pwkfCadAGko5AI1Go_FvGMG4LMIBLKyGTtw7KJN813V-uLAQEQJH-nXi02Fi1FJKrRILR1ezbwhYdo2HiSEqpaIRLMOgVL9wpAwsLDFUXjlZz7Jaqm-dZ4DNziRI81Rtj-gFS5-hbphdeRLVxBFvLBp3qK8JUdLAG45fJ4YOMW4niaVSeeXCSamF5txB2wd4W2tO-TsABgN99TuKBqC7McCmawb4tJzPlqPa6dKxarmyyfMrqiZvNBqNX-UJ2fMKjrSwzHkAAAAASUVORK5CYII.png",
+      "extensions": [
+        "3 days ago",
+        "34K–55K a year",
+        "Internship"
+      ],
+      "source_link": "https://www.learn4good.com/jobs/san-jose/california/research_and_development/5508571240/e/",
+      "job_title": "Quantum Algorithms Engineer Intern",
+      "description": "Position: Quantum Algorithms Engineer Intern 2027 IntroductionAt IBM Quantum, our mission is to bring useful quantum computing to the world by advancing quantum hardware, software, and algorithms. This internship provides an opportunity to contribute to research at the intersection of quantum algorithms, quantum software, and quantum hardware.The intern will work with researchers and engineers to develop, implement, and evaluate quantum algorithms for challenging problems in areas such as chemistry, materials science, optimization, and quantum machine learning. The work will involve using Qiskit and IBM Quantum systems to design experiments, benchmark algorithms, investigate scalability, and explore techniques for improving performance on current quantum processors.This is a research-oriented internship intended for a highly motivated graduate student who is interested in translating advances in quantum computing into practical demonstrations and scientific results. The intern will have opportunities to contribute to research prototypes, technical publications, and collaborations across IBM Quantum.Your role and responsibilitiesAs a Quantum Algorithm Engineer Intern, you will contribute to research and development of quantum algorithms and their implementation on near-term quantum computers. You will work at the intersection of quantum algorithms, quantum software, and quantum hardware, with opportunities to explore applications in areas such as chemistry, materials science, optimization, and quantum machine learning.The intern will work closely with quantum researchers and engineers to investigate algorithmic approaches, implement and benchmark quantum circuits, and evaluate their performance using both classical simulation and real quantum processors. The position will provide an opportunity to contribute to research prototypes, technical demonstrations, and scientific publications.Key responsibilities include:Research and implement quantum algorithms for practical scientific and computational problems.Develop and optimize quantum circuits using Qiskit and the IBM Quantum software stack.Execute experiments on real quantum processors and analyze experimental results.Investigate techniques for improving circuit performance, including transpilation, circuit optimization, error suppression, and error mitigation.Benchmark quantum algorithms using appropriate classical baselines and simulation methods.Analyze the scalability and computational requirements of quantum algorithms and identify potential bottlenecks.Contribute to research prototypes, technical demonstrations, and software implementations.Collaborate with researchers and engineers across quantum algorithms, software, and applications.Required educationMaster's DegreePreferred educationDoctorate DegreeRequired technical and professional expertiseCurrently pursuing a Ph.D. or Master's degree in Physics, Electrical and Computer Engineering, Mathematics, or a closely related field, with research focused on quantum computing or a closely related area.Strong understanding of fundamental concepts in quantum computing, quantum information, and quantum algorithms.Hands-on experience implementing quantum algorithms using Python and at least one quantum computing SDK, preferably Qiskit.Experience with numerical computing and scientific programming in Python, including commonly used scientific computing libraries.Ability to independently formulate technical problems, design experiments, analyze results, and communicate conclusions.Experience conducting academic or industrial research, preferably with research publications or conference contributions.Strong problem-solving and analytical skills.Ability to work collaboratively in a research and engineering environment.Preferred technical and professional experienceExperience executing quantum algorithms on real quantum processors.Familiarity with the IBM Quantum platform, Qiskit Runtime, and Qiskit workflows.Experience with quantum circuit optimization, transpilation, error suppression, or error mitigation.Knowledge of variational quantum algorithms, quantum simulation, quantum chemistry, quantum optimization, or quantum machine learning.Experience benchmarking quantum algorithms against classical methods or simulators.Familiarity with tensor-network methods, MPS simulation, stabilizer simulation, or other approaches for assessing classical simulability of quantum circuits.Experience with HPC or hybrid quantum-classical computing workflows.Familiarity with software…",
+      "apply_options": [
+        {
+          "title": "Learn4Good",
+          "link": "https://www.learn4good.com/jobs/san-jose/california/research_and_development/5508571240/e/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJRdWFudHVtIEFsZ29yaXRobXMgRW5naW5lZXIgSW50ZXJuIiwiY29tcGFueV9uYW1lIjoiSUJNIiwiaHRpZG9jaWQiOiIzVklnZ3FGSlMwUVJKU1F1QUFBQUFBPT0iLCJobCI6ImVuIiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwVEc5SWFUbFpVMlYzYlhGeFRrRk9VRWRYYzBzMVlrVjVkRUYwTjJNd05DMWFVbUpSUkRnM1YwZEZiRVpZV1RWWExYcHFZVWxDY25ocGMweFNUR1pNY2xsRlV6aGlXazkwUlhwamFsUmZha0U1Ykd0UFozTTFTekZ6TXkxYU1sVjJaM2d3VUhRdE5YcEVTMnRJYlZrMmFtOVFSR05OZEVSaFIxOUhlazQwV0hOWlJHOWZla2NTRjB0WVVFTmhiMHRvUTJGNU5YRjBjMUJ5WTNsaWQwRkpHaUpCUkhOeU9XWlRjbFIwYW5GbGFGTnVOSEV3YjJ4MVJHUTVjbVV6V1hGZmFrbEIiLCJmY3YiOiIzIiwiZmNfaWQiOiIzVklnZ3FGSlMwUVJKU1F1QUFBQUFBPT0ifQ=="
+    },
+    {
+      "title": "Intern, Quantum Algorithms and Compilation",
+      "company_name": "PsiQuantum",
+      "location": "Palo Alto, CA",
+      "via": "LinkedIn",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "Git)",
+            "A creative and adaptable approach to problem solving",
+            "Ability to work effectively in a highly collaborative team",
+            "Bachelor’s Degree",
+            "Master’s: 1st Year",
+            "Master’s Degree"
+          ]
+        },
+        {
+          "title": "Benefits",
+          "items": [
+            "Intern Hourly Pay Rate Chart",
+            "Hourly Rate",
+            "Housing/Commuter Stipend",
+            "$27.50",
+            "$31.00",
+            "$36.00",
+            "$40.00",
+            "$44.00",
+            "$47.00"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": [
+            "Development of quantum algorithms to solve impactful problems,",
+            "Optimization of ubiquitous subroutines in fault tolerant quantum algorithms,",
+            "Compilation of quantum algorithms to logical gate sets,",
+            "Incorporation of architecture-aware optimizations,",
+            "Estimation of quantum resources"
+          ]
+        }
+      ],
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=quantum+algorithms&htidocid=fqK8mh3qnUgdf8z3AAAAAA%3D%3D&hl=en-US&shem=epsd1,esd2e,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_zWOQQrCMBBFcdsj6GbWUhMR3OiqdCG6qicoaQ1JJJkJmSn0Mt7VuHDz4cPjv998Nk13R7EFW3guBmVJ0EVHJYhPDAZf0FPKIRoJhHCAB03A1pTZQ-03Ihft9upFMl-0Zo7KsVR4VjMlTWgnWvWbJv7FyN4Um-uYHU_n46oyuv1u4PBXB4TBRKoXhFrouy_BXMfuoAAAAA&shmds=v1_ARwrE20bYozFNgrx-sVXlaFFPzDmDvCSFapi5pH8bQ4eWll-3w&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=quantum+algorithms&htidocid=fqK8mh3qnUgdf8z3AAAAAA%3D%3D",
+      "thumbnail": "https://serpapi.com/searches/6ac27327e3e176f79f45328c/images/XIn3xLo8BJi9XHmY994b9_juG8rQ8xpO3CPoVnzPggs.jpeg",
+      "extensions": [
+        "21 days ago",
+        "Internship"
+      ],
+      "source_link": "https://www.linkedin.com/jobs/view/intern-quantum-algorithms-and-compilation-at-psiquantum-4401485553",
+      "job_title": "Intern, Quantum Algorithms and Compilation",
+      "description": "PsiQuantum’s mission is to build the first useful quantum computers—machines capable of delivering the breakthroughs the field has long promised. Since our founding in 2016, our singular focus has been to build and deploy million-qubit, fault-tolerant quantum systems.\n\nQuantum computers harness the laws of quantum mechanics to solve problems that even the most advanced supercomputers or AI systems will never reach. Their impact will span energy, pharmaceuticals, finance, agriculture, transportation, materials, and other foundational industries.\n\nOur architecture and approach is based on silicon photonics. By leveraging the advanced semiconductor manufacturing industry—including partners like GlobalFoundries—we use the same high-volume processes that already produce billions of chips for telecom and consumer electronics. Photonics offers natural advantages for scale: photons don’t feel heat, are immune to electromagnetic interference, and integrate with existing cryogenic cooling and standard fiber-optic infrastructure.\n\nIn 2024, PsiQuantum announced government-funded projects to support the build-out of our first utility-scale quantum computers in Brisbane, Australia, and Chicago, Illinois. These initiatives reflect a growing recognition that quantum computing will be strategically and economically defining—and that now is the time to scale.\n\nPsiQuantum also develops the algorithms and software needed to make these systems commercially valuable. Our application, software, and industry teams work directly with leading Fortune 500 companies—including Lockheed Martin, Mercedes-Benz, Boehringer Ingelheim, and Mitsubishi Chemical—to prepare quantum solutions for real-world impact.\n\nQuantum computing is not an extension of classical computing. It represents a fundamental shift—and a path to mastering challenges that cannot be solved any other way. The potential is enormous, and we have a clear path to make it real.\n\nCome join us.\n\nJob Summary\n\nWe are looking for enthusiastic candidates interested in applying quantum computing to real-world challenges. At PsiQuantum, we are particularly focused on use cases of quantum computing in chemistry, drug design, materials science, and fluid dynamics. Along these lines, we are offering internships in the areas of quantum algorithms and quantum compilation.\n\nYour work could entail the -\n\n\n\nDevelopment of quantum algorithms to solve impactful problems,Optimization of ubiquitous subroutines in fault tolerant quantum algorithms,Compilation of quantum algorithms to logical gate sets,Incorporation of architecture-aware optimizations,Estimation of quantum resources.\n\nPrior work in the field of fault tolerant quantum algorithms and compilation is preferred, but enthusiasm for quantum computing is essential.\n\nDesired Experience And Skills\n\nCurrently studying for, or completed a postgraduate degree related to quantum algorithms, quantum circuit compilation, fault tolerance or another aspect of quantum computing OR 5+ years working professionally in one or more of these fields. Experience with programming languages (e.g. Python) and collaborative software development tools (e.g. Git).A creative and adaptable approach to problem solving.Ability to work effectively in a highly collaborative team. \n\nU.S. Intern Hourly Pay Rate Chart\n\nEducation level COMPLETED\n\nHourly Rate\n\nHousing/Commuter Stipend\n\nBachelors: In Process\n\n$27.50\n\nVariable based on permanent residency location\n\nBachelor’s Degree\n\n$31.00\n\nVariable based on permanent residency location\n\nMaster’s: 1st Year\n\n$36.00\n\nVariable based on permanent residency location\n\nMaster’s Degree\n\n$40.00\n\nVariable based on permanent residency location\n\nPhD: In Process\n\n$44.00\n\nVariable based on permanent residency location\n\nPhD: Near Completion\n\n$47.00\n\nVariable based on permanent residency location\n\nPsiQuantum provides equal employment opportunity for all applicants and employees. PsiQuantum does not unlawfully discriminate on the basis of race, color, religion, sex (including pregnancy, childbirth, or related medical conditions), gender identity, gender expression, national origin, ancestry, citizenship, age, physical or mental disability, military or veteran status, marital status, domestic partner status, sexual orientation, genetic information, or any other basis protected by applicable laws.\n\nNote: PsiQuantum will only reach out to you using an official PsiQuantum email address and will never ask you for bank account information as part of the interview process. Please report any suspicious activity to recruiting@psiquantum.com.\n\nWe are not accepting unsolicited resumes from employment agencies.",
+      "apply_options": [
+        {
+          "title": "LinkedIn",
+          "link": "https://www.linkedin.com/jobs/view/intern-quantum-algorithms-and-compilation-at-psiquantum-4401485553?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Simplify",
+          "link": "https://simplify.jobs/p/520abae4-a8e2-44a6-b054-1c9656a38ece/Quantum-Algorithms-and-Compilation-Intern?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Startup Jobs",
+          "link": "https://startup.jobs/intern-quantum-algorithms-and-compilation-psiquantum-7930268?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Jobs At Defense Tech Jobs",
+          "link": "https://jobs.frontdoordefense.com/jobs/J6bba93cc967d4ea985aaebb9f3b4e2a5/psiquantum/intern-quantum-algorithms-and-J6bba93cc967d4ea985aaebb9f3b4e2a5?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "LocalJobNetwork.com",
+          "link": "https://jobs.localjobnetwork.com/job/detail/86881585/Intern-Quantum-Algorithms-and-Compilation?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Diversity Jobs",
+          "link": "https://diversityjobs.com/career/16897239/Intern-Quantum-Algorithms-Compilation-California-Palo-Alto?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Atomico Job Board",
+          "link": "https://careers.atomico.com/companies/psiquantum/jobs/74786549-intern-quantum-applications?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Monster",
+          "link": "https://www.monster.com/job-openings/intern-quantum-algorithms-and-compilation-palo-alto-ca--d3d35876-8600-4ccb-905e-3df1168396d8?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJJbnRlcm4sIFF1YW50dW0gQWxnb3JpdGhtcyBhbmQgQ29tcGlsYXRpb24iLCJjb21wYW55X25hbWUiOiJQc2lRdWFudHVtIiwiaHRpZG9jaWQiOiJmcUs4bWgzcW5VZ2RmOHozQUFBQUFBPT0iLCJobCI6ImVuIiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwU21NMWQwa3dNalpUZVY4M2FrOXpla1U0U2xOSmNIaElNbkI0Vkdob2RFdHBRekJ4WkRac05XRmhOMGRvV0cxcUxVRlpSV3h0TkRoVFEwcHRhMkZoWmxBeldXdDRiWFI0Y0ZvelVUWnZORVJwZWtwbGRFMURXVE14VUhSR1dFVnVjM3A0VDBSdFRqbFFkVlphZGpkV1NIaEVaRXhEYVZWcVFqTXhWR0pOTnpjM1MwMU1NbTRTRjB0WVVFTmhiMHRvUTJGNU5YRjBjMUJ5WTNsaWQwRkpHaUpCUkhOeU9XWlJTREJxVVU5NWQyc3pZbk5RYTJadlMyTnlSa0pvWms1SWVFNVIiLCJmY3YiOiIzIiwiZmNfaWQiOiJmcUs4bWgzcW5VZ2RmOHozQUFBQUFBPT0ifQ=="
+    },
+    {
+      "title": "Quantum Algorithms Scientist - Optimization",
+      "company_name": "Phasecraft",
+      "location": "Washington, DC",
+      "via": "Indeed",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "A background in quantum computing is not necessarily required, though in this case a successful candidate will have evidence of the ability to design and implement advanced algorithms for optimization and/or constraint satisfaction",
+            "Expertise in one or more of:",
+            "quantum information and/or computation theory",
+            "theory and implementation of classical algorithms for optimization or constraint satisfaction",
+            "quantum algorithm design and implementation",
+            "mathematical analysis of algorithms",
+            "Proven track record of working independently on research projects",
+            "Deep expertise and an excellent publication track-record in relevant discipline",
+            "Excellent written and verbal communication skills and the ability to disseminate research results to technical and non-technical audiences",
+            "Flexibility to work across different aspects of quantum algorithms, and to work on other tasks required to support the growth and success of the company",
+            "An interest in near-term quantum computing",
+            "PhD (or soon to receive one) in quantum information, quantum computation theory, theoretical computer science, or closely related field",
+            "Coding in quantum software development environments (e.g. Cirq, QuEST, Qiskit)",
+            "Experience of implementing algorithms on quantum hardware",
+            "Strong publication track-record in relevant discipline",
+            "Software development skills",
+            "Enthusiasm for learning and novel research"
+          ]
+        },
+        {
+          "title": "Benefits",
+          "items": [
+            "The annual compensation range for this role is $120,000 - $175,000, depending on experience",
+            "Health, Vision, Dental, Life Insurance",
+            "401(k) Plan with company matching",
+            "Unlimited annual leave"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": [
+            "The ideal candidate will have experience in the theory and/or implementation of optimization algorithms for gate-model quantum computers, or in classical optimization or constraint satisfaction algorithms; or otherwise strong evidence of potential to contribute to these areas",
+            "Their work will initially focus on these topics, though they will have the opportunity to grow a portfolio of research activity across the breadth of Phasecraft’s interests",
+            "Undertake theoretical and/or applied research and/or software development for near-term quantum computing applications, with an initial focus on quantum algorithms and software for combinatorial optimization and/or constraint satisfaction problems",
+            "Help to author publications, presentations, patent applications and similar resulting from the research",
+            "Work collaboratively in a small team made up of full-time staff and affiliated PhD students",
+            "Work with stakeholders on collaborations applying quantum computing to optimization problems",
+            "Other activities as required to support the growth and success of Phasecraft"
+          ]
+        }
+      ],
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=quantum+algorithms&htidocid=_E7W_rtswcUbsq4PAAAAAA%3D%3D&hl=en-US&shem=epsd1,esd2e,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xXKvwrCMBCAcVz7COJws2gjgotO_gHBRcXBsVxDTE6SXOhdofgyvqp1-eAHX_WdVId7j1n7BPvouSMNSeBhyWUlUVjCtSgl-qAS55EXbkEcdjbA6DOzj266C6pFtsaIxNqLjrOtLSfD2bU8mDe38k8jATtXIqpr1pvVUJfs57NbQHG2w5cCZXiiBMpeOS_gdPwBLULrhqIAAAA&shmds=v1_ARwrE22uspLoRIIMhIWbNEBIVSrGdMiCbjo8LmpJ1hgOqR10kQ&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=quantum+algorithms&htidocid=_E7W_rtswcUbsq4PAAAAAA%3D%3D",
+      "extensions": [
+        "120K–175K a year",
+        "Full-time",
+        "Dental insurance",
+        "Health insurance"
+      ],
+      "source_link": "https://www.indeed.com/viewjob?jk=0b3c043c338dc420",
+      "job_title": "Quantum Algorithms Scientist - Optimization",
+      "description": "Phasecraft is the quantum algorithms company. We are building the mathematical foundations for quantum computing applications that solve real-world problems. Founded in 2019 by Toby Cubitt, Ashley Montanaro and John Morton, we are based in London and Bristol in the UK and opened an office in Washington DC in 2024, led by Steve Flammia. In 2023 we completed a $17m Series A funding round led by leading Silicon Valley deep tech VC, Playground Global.\n\n\n Phasecraft’s unprecedented access to today’s best quantum computers – through partnerships with Google, IBM, Quantinuum and QuEra – provides us with unique opportunities to develop foundational IP, inform the development of next-generation quantum hardware, and accelerate commercialization of high-value breakthroughs.\n\n\n We are looking to hire a Quantum Algorithms Scientist to join our team. The ideal candidate will have experience in the theory and/or implementation of optimization algorithms for gate-model quantum computers, or in classical optimization or constraint satisfaction algorithms; or otherwise strong evidence of potential to contribute to these areas. Their work will initially focus on these topics, though they will have the opportunity to grow a portfolio of research activity across the breadth of Phasecraft’s interests. A background in quantum computing is not necessarily required, though in this case a successful candidate will have evidence of the ability to design and implement advanced algorithms for optimization and/or constraint satisfaction.\n\n\n Job Description\n\n\n \n  Undertake theoretical and/or applied research and/or software development for near-term quantum computing applications, with an initial focus on quantum algorithms and software for combinatorial optimization and/or constraint satisfaction problems.\n  Help to author publications, presentations, patent applications and similar resulting from the research.\n  Work collaboratively in a small team made up of full-time staff and affiliated PhD students.\n  Work with stakeholders on collaborations applying quantum computing to optimization problems.\n  Other activities as required to support the growth and success of Phasecraft.\n \n \n\n \nRequirements\n \n\n   Essential criteria:\n\n\n \n  Expertise in one or more of:\n\n    o quantum information and/or computation theory\n\n    o theory and implementation of classical algorithms for optimization or constraint satisfaction\n\n    o quantum algorithm design and implementation\n\n    o mathematical analysis of algorithms\n  Proven track record of working independently on research projects.\n \n \n  Deep expertise and an excellent publication track-record in relevant discipline.\n  Excellent written and verbal communication skills and the ability to disseminate research results to technical and non-technical audiences.\n  Flexibility to work across different aspects of quantum algorithms, and to work on other tasks required to support the growth and success of the company.\n  An interest in near-term quantum computing\n \n Desirable criteria:\n\n\n \n  PhD (or soon to receive one) in quantum information, quantum computation theory, theoretical computer science, or closely related field.\n  Coding in quantum software development environments (e.g. Cirq, QuEST, Qiskit).\n  Experience of implementing algorithms on quantum hardware.\n  Strong publication track-record in relevant discipline.\n  Software development skills.\n  Enthusiasm for learning and novel research.\n \n \n Benefits\n \n\n \n  The annual compensation range for this role is $120,000 - $175,000, depending on experience.\n  Health, Vision, Dental, Life Insurance.\n  401(k) Plan with company matching.\n  Unlimited annual leave.",
+      "apply_options": [
+        {
+          "title": "Indeed",
+          "link": "https://www.indeed.com/viewjob?jk=0b3c043c338dc420&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "LinkedIn",
+          "link": "https://www.linkedin.com/jobs/view/quantum-algorithms-scientist-optimization-at-phasecraft-4418948068?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "ZipRecruiter",
+          "link": "https://www.ziprecruiter.com/c/Phasecraft/Job/Quantum-Algorithms-Scientist-Optimization/-in-Washington,DC?jid=8933b3e299ca4553&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Monster",
+          "link": "https://www.monster.com/job-openings/quantum-algorithms-scientist-optimization-washington-dc--d5c36eb1-839e-437d-9940-befd9c44fdc3?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Startup Jobs",
+          "link": "https://startup.jobs/quantum-algorithms-scientist-optimization-phasecraft-8366975?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "CareerBuilder",
+          "link": "https://www.careerbuilder.com/job-details/quantum-algorithms-scientist-optimization-washington-dc--2ec83470-b3de-4777-a036-a758db89f896?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Glassdoor",
+          "link": "https://www.glassdoor.com/job-listing/quantum-algorithms-scientist-optimization-phasecraft-JV_IC1138213_KO0,41_KE42,52.htm?jl=1009971458974&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Ladders",
+          "link": "https://www.theladders.com/job/quantum-algorithms-scientist-optimization-phasecraft-washington-dc_89051029?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJRdWFudHVtIEFsZ29yaXRobXMgU2NpZW50aXN0IC0gT3B0aW1pemF0aW9uIiwiY29tcGFueV9uYW1lIjoiUGhhc2VjcmFmdCIsImh0aWRvY2lkIjoiX0U3V19ydHN3Y1Vic3E0UEFBQUFBQT09IiwiaGwiOiJlbiIsImZjIjoiRXN3QkNvd0JRVXBwVkRSMFRHMHlUMVYyY3psU2NFaG9lamswZGtWQmVtdGZXR2haWldvNFoxOWtlR0p1VjNseWFWVnVkRkJFUXpoWFRteFRWalpTUVZFelZGRnhiR3hHWTJzM05rbEJYM1ZSYm5NNVFVVmZPR2RvYVdReWFIRjVOVXhmV0Zwd2FWTnhURGhCZUVWNGVXSmxTemxPVTNwNGFGbDRaVGx5WjNodmMzWkZiVmhrZDNORE9GTlVkV0ZmVDFjU0YwdFlVRU5oYjB0b1EyRjVOWEYwYzFCeVkzbGlkMEZKR2lKQlJITnlPV1pUYWpKMFZVZDNWWGMxUmxKR1oySnhlV3R3VkdoMVUyeHFOVzFSIiwiZmN2IjoiMyIsImZjX2lkIjoiX0U3V19ydHN3Y1Vic3E0UEFBQUFBQT09In0="
+    }
+  ],
+  "serpapi_pagination": {
+    "next_page_token": "eyJmYyI6IkVzd0VDb3dFUVVwcFZEUjBTVTl4YkhoVk5sWnlWVkZsY1VvM1NqRkNSMDVYUjNBM1FuRXRXSEUzUmpkV1YyZEhTRkZRYTFWcGJGOVlUMUJVYlU5dFVHczRSbFZOWVVoU1QwWlFlbXBzUVZsMVUzQmpjMjlPTUVGZmVYcFphMFk1T1dKR05EUm9YekJqYUZCQk1VVmhlVWxJVEhKbVIzWklVMVZNYW01TVZteHZlSGt0UnpsamNtVXpabEJqTXpCRFRWRmtSSEozVmtaeldrSlZNUzB0UzI4MWNGSTVVR05zUm1aMGExRmtMVFZPVmpaS2EzZHNORWhFWTBSb01HSnNPV2hwUjBGS05EZFlXWE5XWVZSdWNtVjVTazVVZDNod2RERXlOMGh3Vm0xbFIweGFOV2RUYzI5bmFURnJVVEpSWVhCWVZYazBOSGw1YkVJNGVVZEVRMjFMYUhOZlZXSmtOVXBXYVRCWU1UTlpkbXREYVZNMldGaFNSR3hVYkhvdFRHZEtVWGh4U0dOUFRuVm9XbDh6Vlc1Q1VsSXRZWE5TZEVaR1ExRnBZVUk1Yldjd1pHRndPV3Q1VDNFM1JqVlpXVTltYkhKVFUxSk1PRXR0YmtORFYzSlNObkJIWDBGR2VtWkxSRFExUW1VNGF6ZGZVR3RwUlZOQlp6bE5TQzFoV1dFd1dFSTJaakp4VW1aSVNsRk9iRFpoY0dSc1MxUnBSbVJZWlc5T2NURlNabXhQUW0xckxVaGtPVFk0VFVsSGJXdFVjMUZwZUhKbGJHTTJNa3AwU1VGUFdVdERUMmxJZFVKcVExOVpXRXR6UkdWcVJuUlFNV1Y0T0VoNlgzazRWRjkwT1ZkVGR6SnhhRFpJYUhCR2IydG9PVFJTUlZOaVVVNDBjRXRxYUdaYVFsOXpjVFV4U2taS1JFNXlVMlIyYms4U0YwdFlVRU5oYjB0b1EyRjVOWEYwYzFCeVkzbGlkMEZKR2lKQlJITnlPV1pVY1RkcGJXSkhUMjk2VkdNMU5YUklhVmx4TTJaSmVrWmtUVlZCIiwiZmN2IjoiMyJ9",
+    "next": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&next_page_token=eyJmYyI6IkVzd0VDb3dFUVVwcFZEUjBTVTl4YkhoVk5sWnlWVkZsY1VvM1NqRkNSMDVYUjNBM1FuRXRXSEUzUmpkV1YyZEhTRkZRYTFWcGJGOVlUMUJVYlU5dFVHczRSbFZOWVVoU1QwWlFlbXBzUVZsMVUzQmpjMjlPTUVGZmVYcFphMFk1T1dKR05EUm9YekJqYUZCQk1VVmhlVWxJVEhKbVIzWklVMVZNYW01TVZteHZlSGt0UnpsamNtVXpabEJqTXpCRFRWRmtSSEozVmtaeldrSlZNUzB0UzI4MWNGSTVVR05zUm1aMGExRmtMVFZPVmpaS2EzZHNORWhFWTBSb01HSnNPV2hwUjBGS05EZFlXWE5XWVZSdWNtVjVTazVVZDNod2RERXlOMGh3Vm0xbFIweGFOV2RUYzI5bmFURnJVVEpSWVhCWVZYazBOSGw1YkVJNGVVZEVRMjFMYUhOZlZXSmtOVXBXYVRCWU1UTlpkbXREYVZNMldGaFNSR3hVYkhvdFRHZEtVWGh4U0dOUFRuVm9XbDh6Vlc1Q1VsSXRZWE5TZEVaR1ExRnBZVUk1Yldjd1pHRndPV3Q1VDNFM1JqVlpXVTltYkhKVFUxSk1PRXR0YmtORFYzSlNObkJIWDBGR2VtWkxSRFExUW1VNGF6ZGZVR3RwUlZOQlp6bE5TQzFoV1dFd1dFSTJaakp4VW1aSVNsRk9iRFpoY0dSc1MxUnBSbVJZWlc5T2NURlNabXhQUW0xckxVaGtPVFk0VFVsSGJXdFVjMUZwZUhKbGJHTTJNa3AwU1VGUFdVdERUMmxJZFVKcVExOVpXRXR6UkdWcVJuUlFNV1Y0T0VoNlgzazRWRjkwT1ZkVGR6SnhhRFpJYUhCR2IydG9PVFJTUlZOaVVVNDBjRXRxYUdaYVFsOXpjVFV4U2taS1JFNXlVMlIyYms4U0YwdFlVRU5oYjB0b1EyRjVOWEYwYzFCeVkzbGlkMEZKR2lKQlJITnlPV1pVY1RkcGJXSkhUMjk2VkdNMU5YUklhVmx4TTJaSmVrWmtUVlZCIiwiZmN2IjoiMyJ9&q=quantum+algorithms"
+  }
+}

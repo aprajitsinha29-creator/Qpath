@@ -1,0 +1,843 @@
+{
+  "search_metadata": {
+    "id": "6ac273591cff1916b22a38a6",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/9klBQLRE57e0_3rpCAZWuW9LtmfdpYFmjubOnQ1kixs/6ac273591cff1916b22a38a6.json",
+    "markdown_endpoint": "https://serpapi.com/searches/9klBQLRE57e0_3rpCAZWuW9LtmfdpYFmjubOnQ1kixs/6ac273591cff1916b22a38a6.md",
+    "created_at": "2026-10-04 15:40:09 UTC",
+    "processed_at": "2026-10-04 15:40:09 UTC",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=quantum+machine+learning&hl=en&num=21&scisbd=1",
+    "raw_html_file": "https://serpapi.com/searches/9klBQLRE57e0_3rpCAZWuW9LtmfdpYFmjubOnQ1kixs/6ac273591cff1916b22a38a6.html",
+    "total_time_taken": 3.16
+  },
+  "search_parameters": {
+    "engine": "google_scholar",
+    "q": "quantum machine learning",
+    "hl": "en",
+    "num": "20",
+    "scisbd": "1"
+  },
+  "search_information": {
+    "organic_results_state": "Results for exact spelling",
+    "total_results": 10100,
+    "time_taken_displayed": 0.1,
+    "query_displayed": "quantum machine learning"
+  },
+  "organic_results": [
+    {
+      "position": 1,
+      "title": "A Layered Security Framework for Blockchain-Based IoT Systems",
+      "result_id": "UZcVeSJ7048J",
+      "link": "https://oaktrust.library.tamu.edu/items/64cab4b1-6035-4fef-8339-bf0a7381e103",
+      "snippet": "2 days ago - … , and emerging threats from quantum computing. This … by employing a lightweight machine learning model to … -Quantum Secure Blockchain-based Federated Learning…",
+      "publication_info": {
+        "summary": "D Commey - 2026 - oaktrust.library.tamu.edu",
+        "authors": [
+          {
+            "name": "D Commey"
+          }
+        ]
+      },
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=UZcVeSJ7048J",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:UZcVeSJ7048J:scholar.google.com/&scioq=quantum+machine+learning&hl=en&scisbd=1&num=20&as_sdt=0,47",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C47&engine=google_scholar&hl=en&num=20&q=related%3AUZcVeSJ7048J%3Ascholar.google.com%2F&scisbd=1",
+        "versions": {
+          "total": 2,
+          "link": "https://scholar.google.com/scholar?cluster=10363762555500205905&hl=en&scisbd=1&num=20&as_sdt=0,47",
+          "cluster_id": "10363762555500205905",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C47&cluster=10363762555500205905&engine=google_scholar&hl=en&num=20&scisbd=1"
+        },
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:UZcVeSJ7048J:scholar.google.com/+quantum+machine+learning&hl=en&scisbd=1&num=20&as_sdt=0,47"
+      }
+    },
+    {
+      "position": 2,
+      "title": "Learning Physical Dynamics in Continuum and Quantum Systems",
+      "result_id": "hcyW03QRXy4J",
+      "link": "https://oaktrust.library.tamu.edu/items/b75c69fa-6ff8-4233-8ebb-c550bed60da0",
+      "snippet": "2 days ago - … To this end, using machine learning to train surrogate … For the second question, we consider learning … Results show that our OrbEvo model accurately captures quantum …",
+      "publication_info": {
+        "summary": "X Zhang - 2026 - oaktrust.library.tamu.edu",
+        "authors": [
+          {
+            "name": "X Zhang"
+          }
+        ]
+      },
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=hcyW03QRXy4J",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:hcyW03QRXy4J:scholar.google.com/&scioq=quantum+machine+learning&hl=en&scisbd=1&num=20&as_sdt=0,47",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C47&engine=google_scholar&hl=en&num=20&q=related%3AhcyW03QRXy4J%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:hcyW03QRXy4J:scholar.google.com/+quantum+machine+learning&hl=en&scisbd=1&num=20&as_sdt=0,47"
+      }
+    },
+    {
+      "position": 3,
+      "title": "An AI-Ready Experimental Framework for Optical Turbulence Characterization in FSO Links",
+      "result_id": "uO5xGAFZk2oJ",
+      "link": "https://ebooks.iospress.nl/volumearticle/81149",
+      "snippet": "2 days ago - … Optical wireless and quantum communication systems are strongly affected by … optical turbulence characterization as a machine-learning problem, introducing a controlled …",
+      "publication_info": {
+        "summary": "A Marquillas, A Falcón… - Artificial Intelligence …, 2026 - ebooks.iospress.nl",
+        "authors": [
+          {
+            "name": "A Marquillas"
+          },
+          {
+            "name": "A Falcón"
+          }
+        ]
+      },
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=uO5xGAFZk2oJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:uO5xGAFZk2oJ:scholar.google.com/&scioq=quantum+machine+learning&hl=en&scisbd=1&num=20&as_sdt=0,47",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C47&engine=google_scholar&hl=en&num=20&q=related%3AuO5xGAFZk2oJ%3Ascholar.google.com%2F&scisbd=1"
+      }
+    },
+    {
+      "position": 4,
+      "title": "Structural stability of a ring quantum dot",
+      "result_id": "84yLmwMF7MgJ",
+      "link": "https://journals.pnu.edu.ua/index.php/pcss/article/view/10621",
+      "snippet": "2 days ago - … The proposed approach is used to study a single-layer nano-ring, which is essentially a quantum dot cut from a nanotube. Approaches based on machine learning …",
+      "publication_info": {
+        "summary": "AO Vinkovskaya, AE Kiv, TS Kavetskyy… - Physics and Chemistry … - journals.pnu.edu.ua",
+        "authors": [
+          {
+            "name": "AO Vinkovskaya"
+          },
+          {
+            "name": "AE Kiv"
+          },
+          {
+            "name": "TS Kavetskyy"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "pnu.edu.ua",
+          "file_format": "PDF",
+          "link": "https://journals.pnu.edu.ua/index.php/pcss/article/download/10621/10629"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=84yLmwMF7MgJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:84yLmwMF7MgJ:scholar.google.com/&scioq=quantum+machine+learning&hl=en&scisbd=1&num=20&as_sdt=0,47",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C47&engine=google_scholar&hl=en&num=20&q=related%3A84yLmwMF7MgJ%3Ascholar.google.com%2F&scisbd=1",
+        "versions": {
+          "total": 2,
+          "link": "https://scholar.google.com/scholar?cluster=14477952415141956851&hl=en&scisbd=1&num=20&as_sdt=0,47",
+          "cluster_id": "14477952415141956851",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C47&cluster=14477952415141956851&engine=google_scholar&hl=en&num=20&scisbd=1"
+        },
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:84yLmwMF7MgJ:scholar.google.com/+quantum+machine+learning&hl=en&scisbd=1&num=20&as_sdt=0,47"
+      }
+    },
+    {
+      "position": 5,
+      "title": "Machine Learning-Enhanced Quantum and Nanomaterial Sensors for Hazardous Gas Detection in Urban Environments",
+      "result_id": "HerWRLGCDTsJ",
+      "type": "Pdf",
+      "link": "https://www.researchgate.net/profile/Pujak-Debnath/publication/414975981_Machine_Learning-Enhanced_Quantum_and_Nanomaterial_Sensors_for_Hazardous_Gas_Detection_in_Urban_Environments/links/6abc70fdd632da6a7c2935ca/Machine-Learning-Enhanced-Quantum-and-Nanomaterial-Sensors-for-Hazardous-Gas-Detection-in-Urban-Environments.pdf",
+      "snippet": "2 days ago - … This article examines how machine learning can enhance nanomaterial and quantum… The evidence indicates that machine learning can improve pattern recognition, …",
+      "publication_info": {
+        "summary": "A King - researchgate.net",
+        "authors": [
+          {
+            "name": "A King"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "researchgate.net",
+          "file_format": "PDF",
+          "link": "https://www.researchgate.net/profile/Pujak-Debnath/publication/414975981_Machine_Learning-Enhanced_Quantum_and_Nanomaterial_Sensors_for_Hazardous_Gas_Detection_in_Urban_Environments/links/6abc70fdd632da6a7c2935ca/Machine-Learning-Enhanced-Quantum-and-Nanomaterial-Sensors-for-Hazardous-Gas-Detection-in-Urban-Environments.pdf"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=HerWRLGCDTsJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:HerWRLGCDTsJ:scholar.google.com/&scioq=quantum+machine+learning&hl=en&scisbd=1&num=20&as_sdt=0,47",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C47&engine=google_scholar&hl=en&num=20&q=related%3AHerWRLGCDTsJ%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:HerWRLGCDTsJ:scholar.google.com/+quantum+machine+learning&hl=en&scisbd=1&num=20&as_sdt=0,47"
+      }
+    },
+    {
+      "position": 6,
+      "title": "Quantum Computing, Quantum Machine Learning, and Quantum Mechanical Principles in Medical Physics: A PRISMA 2020-Compliant Systematic Review",
+      "result_id": "bDP7rRaOkJoJ",
+      "link": "https://dergipark.org.tr/en/pub/odutip/article/1963069",
+      "snippet": "2 days ago - … phenomena superposition, entanglement, quantum tunneling, and quantum … on applications of quantum computing, quantum machine learning, and quantum mechanical …",
+      "publication_info": {
+        "summary": "G Zorlu, C Çolak - ODÜ Tıp Dergisi, 2026 - dergipark.org.tr",
+        "authors": [
+          {
+            "name": "G Zorlu"
+          },
+          {
+            "name": "C Çolak"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "dergipark.org.tr",
+          "file_format": "PDF",
+          "link": "https://dergipark.org.tr/en/download/article-file/6071287"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=bDP7rRaOkJoJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:bDP7rRaOkJoJ:scholar.google.com/&scioq=quantum+machine+learning&hl=en&scisbd=1&num=20&as_sdt=0,47",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C47&engine=google_scholar&hl=en&num=20&q=related%3AbDP7rRaOkJoJ%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:bDP7rRaOkJoJ:scholar.google.com/+quantum+machine+learning&hl=en&scisbd=1&num=20&as_sdt=0,47"
+      }
+    },
+    {
+      "position": 7,
+      "title": "Fourier Symmetrization for Geometric Quantum Machine Learning",
+      "result_id": "YCGFTJZLBMkJ",
+      "link": "https://arxiv.org/abs/2610.01874",
+      "snippet": "2 days ago - Geometric quantum machine learning incorporates symmetry into quantum models, but … We address this question through the Fourier representation of quantum Fourier …",
+      "publication_info": {
+        "summary": "L Wang, A Lisser, S Sreekumar, Z Toffano - arXiv preprint arXiv …, 2026 - arxiv.org",
+        "authors": [
+          {
+            "name": "L Wang",
+            "link": "https://scholar.google.com/citations?user=NM_RRbUAAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "NM_RRbUAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=NM_RRbUAAAAJ&engine=google_scholar_author&hl=en"
+          },
+          {
+            "name": "A Lisser"
+          },
+          {
+            "name": "S Sreekumar"
+          },
+          {
+            "name": "Z Toffano"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "arxiv.org",
+          "file_format": "PDF",
+          "link": "https://arxiv.org/pdf/2610.01874"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=YCGFTJZLBMkJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:YCGFTJZLBMkJ:scholar.google.com/&scioq=quantum+machine+learning&hl=en&scisbd=1&num=20&as_sdt=0,47",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C47&engine=google_scholar&hl=en&num=20&q=related%3AYCGFTJZLBMkJ%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:YCGFTJZLBMkJ:scholar.google.com/+quantum+machine+learning&hl=en&scisbd=1&num=20&as_sdt=0,47"
+      }
+    },
+    {
+      "position": 8,
+      "title": "Adversarial Robustness in Fake Quantum Simulators",
+      "result_id": "bFXoDdl94vkJ",
+      "link": "https://arxiv.org/abs/2610.01574",
+      "snippet": "2 days ago - … In this work, we evaluate the adversarial robustness of Quantum Machine Learning (QML) models using noisy simulators that mimic real quantum hardware. Our …",
+      "publication_info": {
+        "summary": "M Maußner, V Reers - arXiv preprint arXiv:2610.01574, 2026 - arxiv.org",
+        "authors": [
+          {
+            "name": "M Maußner"
+          },
+          {
+            "name": "V Reers"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "arxiv.org",
+          "file_format": "PDF",
+          "link": "https://arxiv.org/pdf/2610.01574"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=bFXoDdl94vkJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:bFXoDdl94vkJ:scholar.google.com/&scioq=quantum+machine+learning&hl=en&scisbd=1&num=20&as_sdt=0,47",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C47&engine=google_scholar&hl=en&num=20&q=related%3AbFXoDdl94vkJ%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:bFXoDdl94vkJ:scholar.google.com/+quantum+machine+learning&hl=en&scisbd=1&num=20&as_sdt=0,47"
+      }
+    },
+    {
+      "position": 9,
+      "title": "Classical Hardness of Learning Functions of Hamiltonians",
+      "result_id": "0KBXe-UWPtcJ",
+      "link": "https://arxiv.org/abs/2610.01141",
+      "snippet": "2 days ago - … a physically motivated quantum machine learning problem in which … a quantum state ρ, where f is an unknown function. We call this problem Hamiltonian function learning …",
+      "publication_info": {
+        "summary": "S Hashimoto, A Kawachi - arXiv preprint arXiv:2610.01141, 2026 - arxiv.org",
+        "authors": [
+          {
+            "name": "S Hashimoto"
+          },
+          {
+            "name": "A Kawachi"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "arxiv.org",
+          "file_format": "PDF",
+          "link": "https://arxiv.org/pdf/2610.01141"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=0KBXe-UWPtcJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:0KBXe-UWPtcJ:scholar.google.com/&scioq=quantum+machine+learning&hl=en&scisbd=1&num=20&as_sdt=0,47",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C47&engine=google_scholar&hl=en&num=20&q=related%3A0KBXe-UWPtcJ%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:0KBXe-UWPtcJ:scholar.google.com/+quantum+machine+learning&hl=en&scisbd=1&num=20&as_sdt=0,47"
+      }
+    },
+    {
+      "position": 10,
+      "title": "Learning ab initio phase-field models",
+      "result_id": "2zUnS3n7TZwJ",
+      "link": "https://arxiv.org/abs/2610.01432",
+      "snippet": "2 days ago - … its learning, which start from quantum mechanics. The derivation proceeds from quantum … reference states obtained with the machinelearning interatomic potential. Lines …",
+      "publication_info": {
+        "summary": "M Chen, P Zhong, Z Zhang, Q Li - arXiv preprint arXiv:2610.01432, 2026 - arxiv.org",
+        "authors": [
+          {
+            "name": "M Chen"
+          },
+          {
+            "name": "P Zhong",
+            "link": "https://scholar.google.com/citations?user=Ej2q3FUAAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "Ej2q3FUAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=Ej2q3FUAAAAJ&engine=google_scholar_author&hl=en"
+          },
+          {
+            "name": "Z Zhang"
+          },
+          {
+            "name": "Q Li"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "arxiv.org",
+          "file_format": "PDF",
+          "link": "https://arxiv.org/pdf/2610.01432"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=2zUnS3n7TZwJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:2zUnS3n7TZwJ:scholar.google.com/&scioq=quantum+machine+learning&hl=en&scisbd=1&num=20&as_sdt=0,47",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C47&engine=google_scholar&hl=en&num=20&q=related%3A2zUnS3n7TZwJ%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:2zUnS3n7TZwJ:scholar.google.com/+quantum+machine+learning&hl=en&scisbd=1&num=20&as_sdt=0,47"
+      }
+    },
+    {
+      "position": 11,
+      "title": "Quantum Autoencoders for Network Anomaly Detection: A Comparative Benchmark with Classical Methods",
+      "result_id": "fLrGHonl6s0J",
+      "type": "Html",
+      "link": "https://www.mdpi.com/2079-9292/15/19/4506",
+      "snippet": "2 days ago - … The practical value of quantum machine learning for network anomaly detection remains unclear under controlled and comparable benchmarking conditions. This study …",
+      "publication_info": {
+        "summary": "G Altay, EU Küçüksille - Electronics, 2026 - mdpi.com",
+        "authors": [
+          {
+            "name": "G Altay"
+          },
+          {
+            "name": "EU Küçüksille"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "HTML",
+          "link": null
+        },
+        {
+          "title": "mdpi.com",
+          "file_format": "HTML",
+          "link": "https://www.mdpi.com/2079-9292/15/19/4506"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=fLrGHonl6s0J",
+        "html_version": "https://www.mdpi.com/2079-9292/15/19/4506",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:fLrGHonl6s0J:scholar.google.com/&scioq=quantum+machine+learning&hl=en&scisbd=1&num=20&as_sdt=0,47",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C47&engine=google_scholar&hl=en&num=20&q=related%3AfLrGHonl6s0J%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:fLrGHonl6s0J:scholar.google.com/+quantum+machine+learning&hl=en&scisbd=1&num=20&as_sdt=0,47"
+      }
+    },
+    {
+      "position": 12,
+      "title": "QSMOTE-PGM/KPGM: quantum machine learning inspired model for QSMOTE with PGM and kPGM classifiers for imbalanced dataset classification",
+      "result_id": "QoGVidIqnw8J",
+      "link": "https://link.springer.com/article/10.1007/s00500-026-11441-5",
+      "snippet": "2 days ago - … of new quantum machine learning algorithms that achieve quantum advantage … architecture for a quantum chip that runs quantum machine learning algorithms using a …",
+      "publication_info": {
+        "summary": "BK Behera, G Sergioli, R Giuntini - Soft Computing, 2026 - Springer",
+        "authors": [
+          {
+            "name": "BK Behera"
+          },
+          {
+            "name": "G Sergioli"
+          },
+          {
+            "name": "R Giuntini"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "springer.com",
+          "file_format": "PDF",
+          "link": "https://link.springer.com/content/pdf/10.1007/s00500-026-11441-5.pdf"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=QoGVidIqnw8J",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:QoGVidIqnw8J:scholar.google.com/&scioq=quantum+machine+learning&hl=en&scisbd=1&num=20&as_sdt=0,47",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C47&engine=google_scholar&hl=en&num=20&q=related%3AQoGVidIqnw8J%3Ascholar.google.com%2F&scisbd=1"
+      }
+    },
+    {
+      "position": 13,
+      "title": "AI-Augmented Quantum-Resilient Cybersecurity Framework for Adaptive Threat Detection in Next-Generation Networks",
+      "result_id": "NZu9PG3-lGAJ",
+      "link": "https://www.sciencedirect.com/science/article/pii/S0743731526001462",
+      "snippet": "2 days ago - … learning, reinforcement learning, and post-quantum … threat detection, whereas quantum resilience is achieved … rather than quantum machine learning. Communication …",
+      "publication_info": {
+        "summary": "H Nandanwar, SK Bajaj - Journal of Parallel and Distributed Computing, 2026 - Elsevier",
+        "authors": [
+          {
+            "name": "H Nandanwar"
+          },
+          {
+            "name": "SK Bajaj"
+          }
+        ]
+      },
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=NZu9PG3-lGAJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:NZu9PG3-lGAJ:scholar.google.com/&scioq=quantum+machine+learning&hl=en&scisbd=1&num=20&as_sdt=0,47",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C47&engine=google_scholar&hl=en&num=20&q=related%3ANZu9PG3-lGAJ%3Ascholar.google.com%2F&scisbd=1"
+      }
+    },
+    {
+      "position": 14,
+      "title": "QMzyme: A Python Package for Automated and Systematic QM-based Enzyme Modeling",
+      "result_id": "tZGWGMONcogJ",
+      "link": "https://chemrxiv.org/doi/abs/10.26434/chemrxiv.15009761",
+      "snippet": "2 days ago - … We introduce QMzyme, a Python package to automate the generation of Quantum … emergent artificial intelligence and machine learning approaches for accelerated …",
+      "publication_info": {
+        "summary": "A Roy, YW Kim, H Klem - 2026 - chemrxiv.org",
+        "authors": [
+          {
+            "name": "A Roy"
+          },
+          {
+            "name": "YW Kim"
+          },
+          {
+            "name": "H Klem"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "chemrxiv.org",
+          "file_format": "PDF",
+          "link": "https://chemrxiv.org/doi/pdf/10.26434/chemrxiv.15009761"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=tZGWGMONcogJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:tZGWGMONcogJ:scholar.google.com/&scioq=quantum+machine+learning&hl=en&scisbd=1&num=20&as_sdt=0,47",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C47&engine=google_scholar&hl=en&num=20&q=related%3AtZGWGMONcogJ%3Ascholar.google.com%2F&scisbd=1"
+      }
+    },
+    {
+      "position": 15,
+      "title": "Denario Project: Deep Knowledge Artificial Intelligence Agents for Scientific Discovery",
+      "result_id": "lKNEkDEvUJMJ",
+      "type": "Pdf",
+      "link": "https://link.aps.org/pdf/10.1103/kk55-gc95",
+      "snippet": "2 days ago - … from quantum physics and machine learning to astrophysical data. We report the evaluations performed on these papers by domain experts, who provided both numerical …",
+      "publication_info": {
+        "summary": "F Villaescusa-Navarro, B Bolliet… - PRX Intelligence, 2026 - APS",
+        "authors": [
+          {
+            "name": "F Villaescusa-Navarro"
+          },
+          {
+            "name": "B Bolliet"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "aps.org",
+          "file_format": "PDF",
+          "link": "https://link.aps.org/pdf/10.1103/kk55-gc95"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=lKNEkDEvUJMJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:lKNEkDEvUJMJ:scholar.google.com/&scioq=quantum+machine+learning&hl=en&scisbd=1&num=20&as_sdt=0,47",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C47&engine=google_scholar&hl=en&num=20&q=related%3AlKNEkDEvUJMJ%3Ascholar.google.com%2F&scisbd=1",
+        "versions": {
+          "total": 2,
+          "link": "https://scholar.google.com/scholar?cluster=10615036211632579476&hl=en&scisbd=1&num=20&as_sdt=0,47",
+          "cluster_id": "10615036211632579476",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C47&cluster=10615036211632579476&engine=google_scholar&hl=en&num=20&scisbd=1"
+        }
+      }
+    },
+    {
+      "position": 16,
+      "title": "Ray-tracing for optimized photo-reactors",
+      "result_id": "eKBGMPM4YqYJ",
+      "type": "Pdf",
+      "link": "https://pure.uva.nl/ws/files/351648267/Thesis.pdf#page=169",
+      "snippet": "2 days ago - … was further applied to a quantum yield screening study, … , demonstrating how machine learning and digital twins … This chapter demonstrates how machine learning and …",
+      "publication_info": {
+        "summary": "JHA Schuurmans - Photon management and reactor engineering for … - pure.uva.nl",
+        "authors": [
+          {
+            "name": "JHA Schuurmans"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "uva.nl",
+          "file_format": "PDF",
+          "link": "https://pure.uva.nl/ws/files/351648267/Thesis.pdf#page=169"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=eKBGMPM4YqYJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:eKBGMPM4YqYJ:scholar.google.com/&scioq=quantum+machine+learning&hl=en&scisbd=1&num=20&as_sdt=0,47",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C47&engine=google_scholar&hl=en&num=20&q=related%3AeKBGMPM4YqYJ%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:eKBGMPM4YqYJ:scholar.google.com/+quantum+machine+learning&hl=en&scisbd=1&num=20&as_sdt=0,47"
+      }
+    },
+    {
+      "position": 17,
+      "title": "Machine Learning-Assisted Optimization of Halide-Passivated Lead Chalcogenide Nanocrystals for High-Efficiency Infrared Down-Conversion",
+      "result_id": "YJfz3exF7awJ",
+      "type": "Pdf",
+      "link": "https://www.researchgate.net/profile/Thomas-Harrison-25/publication/414923415_Machine_Learning-Assisted_Optimization_of_Halide-Passivated_Lead_Chalcogenide_Nanocrystals_for_High-Efficiency_Infrared_Down-Conversion/links/6abb08eedb7d3b1c53a027ad/Machine-Learning-Assisted-Optimization-of-Halide-Passivated-Lead-Chalcogenide-Nanocrystals-for-High-Efficiency-Infrared-Down-Conversion.pdf",
+      "snippet": "3 days ago - … , and unpassivated cores typically exhibit photoluminescence quantum yields (PLQY) below 5%. In this work, we present a machine learning (ML)-assisted framework for …",
+      "publication_info": {
+        "summary": "TO Harrison - researchgate.net",
+        "authors": [
+          {
+            "name": "TO Harrison"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "researchgate.net",
+          "file_format": "PDF",
+          "link": "https://www.researchgate.net/profile/Thomas-Harrison-25/publication/414923415_Machine_Learning-Assisted_Optimization_of_Halide-Passivated_Lead_Chalcogenide_Nanocrystals_for_High-Efficiency_Infrared_Down-Conversion/links/6abb08eedb7d3b1c53a027ad/Machine-Learning-Assisted-Optimization-of-Halide-Passivated-Lead-Chalcogenide-Nanocrystals-for-High-Efficiency-Infrared-Down-Conversion.pdf"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=YJfz3exF7awJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:YJfz3exF7awJ:scholar.google.com/&scioq=quantum+machine+learning&hl=en&scisbd=1&num=20&as_sdt=0,47",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C47&engine=google_scholar&hl=en&num=20&q=related%3AYJfz3exF7awJ%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:YJfz3exF7awJ:scholar.google.com/+quantum+machine+learning&hl=en&scisbd=1&num=20&as_sdt=0,47"
+      }
+    },
+    {
+      "position": 18,
+      "title": "Benchmarking and Performance Evaluation of Quantum AI Algorithms",
+      "result_id": "HKozZP4nN7QJ",
+      "link": "https://indianjournaloffinance.co.in/index.php/tcsj/article/view/176097",
+      "snippet": "3 days ago - … complexity) can effectively compare Quantum AI algorithms to classical algorithms. … , quantum-enhanced optimization algorithms, and quantum machine learning. Using …",
+      "publication_info": {
+        "summary": "TDSS Akanksha, C Sowjanya… - Indian Journal of …, 2026 - indianjournaloffinance.co.in",
+        "authors": [
+          {
+            "name": "TDSS Akanksha"
+          },
+          {
+            "name": "C Sowjanya"
+          }
+        ]
+      },
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=HKozZP4nN7QJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:HKozZP4nN7QJ:scholar.google.com/&scioq=quantum+machine+learning&hl=en&scisbd=1&num=20&as_sdt=0,47",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C47&engine=google_scholar&hl=en&num=20&q=related%3AHKozZP4nN7QJ%3Ascholar.google.com%2F&scisbd=1",
+        "versions": {
+          "total": 7,
+          "link": "https://scholar.google.com/scholar?cluster=12985892024102398492&hl=en&scisbd=1&num=20&as_sdt=0,47",
+          "cluster_id": "12985892024102398492",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C47&cluster=12985892024102398492&engine=google_scholar&hl=en&num=20&scisbd=1"
+        },
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:HKozZP4nN7QJ:scholar.google.com/+quantum+machine+learning&hl=en&scisbd=1&num=20&as_sdt=0,47"
+      }
+    },
+    {
+      "position": 19,
+      "title": "Hybrid quantum machine learning architecture for detecting DoS and fuzzy attacks in intelligent vehicle CAN networks",
+      "result_id": "pTNAf07pkeIJ",
+      "link": "https://beei2.org/index.php/EEI/article/view/11773",
+      "snippet": "3 days ago - … hybrid quantum machine learning (QML) model integrating a quantum convolutional … Recent advancements in quantum machine learning (QML) have inaugurated a novel …",
+      "publication_info": {
+        "summary": "DN Vardhani, GV Gopal, S Jagannadham… - Bulletin of Electrical …, 2026 - beei2.org",
+        "authors": [
+          {
+            "name": "DN Vardhani"
+          },
+          {
+            "name": "GV Gopal"
+          },
+          {
+            "name": "S Jagannadham"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "beei2.org",
+          "file_format": "PDF",
+          "link": "https://beei2.org/index.php/EEI/article/download/11773/5056"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=pTNAf07pkeIJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:pTNAf07pkeIJ:scholar.google.com/&scioq=quantum+machine+learning&hl=en&scisbd=1&num=20&as_sdt=0,47",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C47&engine=google_scholar&hl=en&num=20&q=related%3ApTNAf07pkeIJ%3Ascholar.google.com%2F&scisbd=1",
+        "versions": {
+          "total": 2,
+          "link": "https://scholar.google.com/scholar?cluster=16326086647546393509&hl=en&scisbd=1&num=20&as_sdt=0,47",
+          "cluster_id": "16326086647546393509",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C47&cluster=16326086647546393509&engine=google_scholar&hl=en&num=20&scisbd=1"
+        },
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:pTNAf07pkeIJ:scholar.google.com/+quantum+machine+learning&hl=en&scisbd=1&num=20&as_sdt=0,47"
+      }
+    },
+    {
+      "position": 20,
+      "title": "A library for differentiable signal processing and machine learning on the sphere",
+      "result_id": "Cboyhtgq0MYJ",
+      "link": "https://arxiv.org/abs/2609.39737",
+      "snippet": "3 days ago - … , quantum chemistry, cosmology, and virtual reality, among many others. As machine learning … of advanced signal processing and machine learning (ML) methods for …",
+      "publication_info": {
+        "summary": "T Kurth, M Rietmann, M Bisson, A Paris… - arXiv preprint arXiv …, 2026 - arxiv.org",
+        "authors": [
+          {
+            "name": "T Kurth"
+          },
+          {
+            "name": "M Rietmann",
+            "link": "https://scholar.google.com/citations?user=VuXN1yIAAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "VuXN1yIAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=VuXN1yIAAAAJ&engine=google_scholar_author&hl=en"
+          },
+          {
+            "name": "M Bisson",
+            "link": "https://scholar.google.com/citations?user=f0JE-0gAAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "f0JE-0gAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=f0JE-0gAAAAJ&engine=google_scholar_author&hl=en"
+          },
+          {
+            "name": "A Paris"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "arxiv.org",
+          "file_format": "PDF",
+          "link": "https://arxiv.org/pdf/2609.39737"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=Cboyhtgq0MYJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:Cboyhtgq0MYJ:scholar.google.com/&scioq=quantum+machine+learning&hl=en&scisbd=1&num=20&as_sdt=0,47",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C47&engine=google_scholar&hl=en&num=20&q=related%3ACboyhtgq0MYJ%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:Cboyhtgq0MYJ:scholar.google.com/+quantum+machine+learning&hl=en&scisbd=1&num=20&as_sdt=0,47"
+      }
+    }
+  ],
+  "related_searches": [
+    {
+      "query": "quantum machine learning algorithms",
+      "link": "https://scholar.google.com/scholar?hl=en&num=20&as_sdt=0,47&qsp=1&q=quantum+machine+learning+algorithms&qst=bb"
+    },
+    {
+      "query": "quantum machine learning invariant",
+      "link": "https://scholar.google.com/scholar?hl=en&num=20&as_sdt=0,47&qsp=2&q=quantum+machine+learning+invariant&qst=bb"
+    },
+    {
+      "query": "quantum machine learning power of data",
+      "link": "https://scholar.google.com/scholar?hl=en&num=20&as_sdt=0,47&qsp=3&q=quantum+machine+learning+power+of+data&qst=bb"
+    },
+    {
+      "query": "quantum machine learning kernel",
+      "link": "https://scholar.google.com/scholar?hl=en&num=20&as_sdt=0,47&qsp=4&q=quantum+machine+learning+kernel&qst=bb"
+    },
+    {
+      "query": "quantum machine learning classification",
+      "link": "https://scholar.google.com/scholar?hl=en&num=20&as_sdt=0,47&qsp=5&q=quantum+machine+learning+classification&qst=bb"
+    },
+    {
+      "query": "quantum machine learning tensor",
+      "link": "https://scholar.google.com/scholar?hl=en&num=20&as_sdt=0,47&qsp=6&q=quantum+machine+learning+tensor&qst=bb"
+    },
+    {
+      "query": "classical quantum machine learning",
+      "link": "https://scholar.google.com/scholar?hl=en&num=20&as_sdt=0,47&qsp=7&q=classical+quantum+machine+learning&qst=bb"
+    },
+    {
+      "query": "quantum machine learning high energy physics",
+      "link": "https://scholar.google.com/scholar?hl=en&num=20&as_sdt=0,47&qsp=8&q=quantum+machine+learning+high+energy+physics&qst=bb"
+    },
+    {
+      "query": "quantum machine learning drug discovery",
+      "link": "https://scholar.google.com/scholar?hl=en&num=20&as_sdt=0,47&qsp=9&q=quantum+machine+learning+drug+discovery&qst=bb"
+    },
+    {
+      "query": "schuld quantum machine learning",
+      "link": "https://scholar.google.com/scholar?hl=en&num=20&as_sdt=0,47&qsp=10&q=schuld+quantum+machine+learning&qst=bb"
+    },
+    {
+      "query": "quantum machine learning models are kernel",
+      "link": "https://scholar.google.com/scholar?hl=en&num=20&as_sdt=0,47&qsp=11&q=quantum+machine+learning+models+are+kernel&qst=bb"
+    },
+    {
+      "query": "quantum machine learning scott aaronson",
+      "link": "https://scholar.google.com/scholar?hl=en&num=20&as_sdt=0,47&qsp=12&q=quantum+machine+learning+scott+aaronson&qst=bb"
+    },
+    {
+      "query": "quantum machine learning qiskit",
+      "link": "https://scholar.google.com/scholar?hl=en&num=20&as_sdt=0,47&qsp=13&q=quantum+machine+learning+qiskit&qst=bb"
+    },
+    {
+      "query": "quantum machine learning group invariant",
+      "link": "https://scholar.google.com/scholar?hl=en&num=20&as_sdt=0,47&qsp=14&q=quantum+machine+learning+group+invariant&qst=bb"
+    },
+    {
+      "query": "quantum machine learning kernel methods",
+      "link": "https://scholar.google.com/scholar?hl=en&num=20&as_sdt=0,47&qsp=15&q=quantum+machine+learning+kernel+methods&qst=bb"
+    },
+    {
+      "query": "quantum machine learning tensor networks",
+      "link": "https://scholar.google.com/scholar?hl=en&num=20&as_sdt=0,47&qsp=16&q=quantum+machine+learning+tensor+networks&qst=bb"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://scholar.google.com/scholar?start=20&q=quantum+machine+learning&hl=en&scisbd=1&num=20&as_sdt=0,47",
+    "other_pages": {
+      "2": "https://scholar.google.com/scholar?start=20&q=quantum+machine+learning&hl=en&scisbd=1&num=20&as_sdt=0,47",
+      "3": "https://scholar.google.com/scholar?start=40&q=quantum+machine+learning&hl=en&scisbd=1&num=20&as_sdt=0,47",
+      "4": "https://scholar.google.com/scholar?start=60&q=quantum+machine+learning&hl=en&scisbd=1&num=20&as_sdt=0,47",
+      "5": "https://scholar.google.com/scholar?start=80&q=quantum+machine+learning&hl=en&scisbd=1&num=20&as_sdt=0,47",
+      "6": "https://scholar.google.com/scholar?start=100&q=quantum+machine+learning&hl=en&scisbd=1&num=20&as_sdt=0,47",
+      "7": "https://scholar.google.com/scholar?start=120&q=quantum+machine+learning&hl=en&scisbd=1&num=20&as_sdt=0,47",
+      "8": "https://scholar.google.com/scholar?start=140&q=quantum+machine+learning&hl=en&scisbd=1&num=20&as_sdt=0,47",
+      "9": "https://scholar.google.com/scholar?start=160&q=quantum+machine+learning&hl=en&scisbd=1&num=20&as_sdt=0,47",
+      "10": "https://scholar.google.com/scholar?start=180&q=quantum+machine+learning&hl=en&scisbd=1&num=20&as_sdt=0,47"
+    }
+  },
+  "serpapi_pagination": {
+    "current": 1,
+    "next_link": "https://serpapi.com/search.json?as_sdt=0%2C47&engine=google_scholar&hl=en&num=20&q=quantum+machine+learning&scisbd=1&start=20",
+    "next": "https://serpapi.com/search.json?as_sdt=0%2C47&engine=google_scholar&hl=en&num=20&q=quantum+machine+learning&scisbd=1&start=20",
+    "other_pages": {
+      "2": "https://serpapi.com/search.json?as_sdt=0%2C47&engine=google_scholar&hl=en&num=20&q=quantum+machine+learning&scisbd=1&start=20",
+      "3": "https://serpapi.com/search.json?as_sdt=0%2C47&engine=google_scholar&hl=en&num=20&q=quantum+machine+learning&scisbd=1&start=40",
+      "4": "https://serpapi.com/search.json?as_sdt=0%2C47&engine=google_scholar&hl=en&num=20&q=quantum+machine+learning&scisbd=1&start=60",
+      "5": "https://serpapi.com/search.json?as_sdt=0%2C47&engine=google_scholar&hl=en&num=20&q=quantum+machine+learning&scisbd=1&start=80",
+      "6": "https://serpapi.com/search.json?as_sdt=0%2C47&engine=google_scholar&hl=en&num=20&q=quantum+machine+learning&scisbd=1&start=100",
+      "7": "https://serpapi.com/search.json?as_sdt=0%2C47&engine=google_scholar&hl=en&num=20&q=quantum+machine+learning&scisbd=1&start=120",
+      "8": "https://serpapi.com/search.json?as_sdt=0%2C47&engine=google_scholar&hl=en&num=20&q=quantum+machine+learning&scisbd=1&start=140",
+      "9": "https://serpapi.com/search.json?as_sdt=0%2C47&engine=google_scholar&hl=en&num=20&q=quantum+machine+learning&scisbd=1&start=160",
+      "10": "https://serpapi.com/search.json?as_sdt=0%2C47&engine=google_scholar&hl=en&num=20&q=quantum+machine+learning&scisbd=1&start=180"
+    }
+  }
+}

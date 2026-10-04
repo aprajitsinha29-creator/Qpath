@@ -1,0 +1,882 @@
+{
+  "search_metadata": {
+    "id": "6ac2734835db2b2f824480c3",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/T-WcVR3IwSaIL2hCBBhribe3FgMCGyMu8rUaw8WyYK4/6ac2734835db2b2f824480c3.json",
+    "markdown_endpoint": "https://serpapi.com/searches/T-WcVR3IwSaIL2hCBBhribe3FgMCGyMu8rUaw8WyYK4/6ac2734835db2b2f824480c3.md",
+    "created_at": "2026-10-04 15:39:52 UTC",
+    "processed_at": "2026-10-04 15:39:52 UTC",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=quantum+error+correction&hl=en&num=21&scisbd=1",
+    "raw_html_file": "https://serpapi.com/searches/T-WcVR3IwSaIL2hCBBhribe3FgMCGyMu8rUaw8WyYK4/6ac2734835db2b2f824480c3.html",
+    "total_time_taken": 3.34
+  },
+  "search_parameters": {
+    "engine": "google_scholar",
+    "q": "quantum error correction",
+    "hl": "en",
+    "num": "20",
+    "scisbd": "1"
+  },
+  "search_information": {
+    "organic_results_state": "Results for exact spelling",
+    "total_results": 3820,
+    "time_taken_displayed": 0.2,
+    "query_displayed": "quantum error correction"
+  },
+  "organic_results": [
+    {
+      "position": 1,
+      "title": "Algebra-Relative Branch Multiplicity in Decoherent Histories: Orbit Reduction, Record Compression, and Logical Recovery",
+      "result_id": "X_cNh4T4gNYJ",
+      "link": "https://www.preprints.org/manuscript/202610.0131",
+      "snippet": "2 days ago - … The framework relates decoherent histories, Quantum Darwinism, exchange symmetry, and quantum error correction without asserting literal … quantum error correction …",
+      "publication_info": {
+        "summary": "J Satinover - 2026 - preprints.org",
+        "authors": [
+          {
+            "name": "J Satinover"
+          }
+        ]
+      },
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=X_cNh4T4gNYJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:X_cNh4T4gNYJ:scholar.google.com/&scioq=quantum+error+correction&hl=en&scisbd=1&num=20&as_sdt=0,18",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C18&engine=google_scholar&hl=en&num=20&q=related%3AX_cNh4T4gNYJ%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:X_cNh4T4gNYJ:scholar.google.com/+quantum+error+correction&hl=en&scisbd=1&num=20&as_sdt=0,18"
+      }
+    },
+    {
+      "position": 2,
+      "title": "Quantum Teleportation as an Interferometric Platform for Probing Temporal Physics",
+      "result_id": "Q_DeyPd2j7YJ",
+      "type": "Pdf",
+      "link": "https://www.researchgate.net/profile/Andriy-Lemeshko/publication/394287014_Perenos_kvantovogo_sostoania_cerez_operator_vremeni_bez_fiziceskogo_peremesenia/links/6a690945ef3d290979989fce/Perenos-kvantovogo-sostoania-cerez-operator-vremeni-bez-fiziceskogo-peremesenia.pdf",
+      "snippet": "2 days ago - … quantum state through shared entanglement, classical information, and conditional correction … circuit as a phase-sensitive quantum-metrological platform capable of …",
+      "publication_info": {
+        "summary": "A Lemeshko - researchgate.net",
+        "authors": [
+          {
+            "name": "A Lemeshko"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "researchgate.net",
+          "file_format": "PDF",
+          "link": "https://www.researchgate.net/profile/Andriy-Lemeshko/publication/394287014_Perenos_kvantovogo_sostoania_cerez_operator_vremeni_bez_fiziceskogo_peremesenia/links/6a690945ef3d290979989fce/Perenos-kvantovogo-sostoania-cerez-operator-vremeni-bez-fiziceskogo-peremesenia.pdf"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=Q_DeyPd2j7YJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:Q_DeyPd2j7YJ:scholar.google.com/&scioq=quantum+error+correction&hl=en&scisbd=1&num=20&as_sdt=0,18",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C18&engine=google_scholar&hl=en&num=20&q=related%3AQ_DeyPd2j7YJ%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:Q_DeyPd2j7YJ:scholar.google.com/+quantum+error+correction&hl=en&scisbd=1&num=20&as_sdt=0,18"
+      }
+    },
+    {
+      "position": 3,
+      "title": "Loss-tolerant distributed lattice surgery using fusion networks",
+      "result_id": "5-y66L17xwgJ",
+      "link": "https://arxiv.org/abs/2610.01923",
+      "snippet": "2 days ago - … Measurement- and fusion-based quantum computing … complement circuit-based error correction at the interface … to be useful for describing quantum error correction [68]. …",
+      "publication_info": {
+        "summary": "F Burt, R Meister, SK Lin, KC Chen, M Hanks… - arXiv preprint arXiv …, 2026 - arxiv.org",
+        "authors": [
+          {
+            "name": "F Burt"
+          },
+          {
+            "name": "R Meister"
+          },
+          {
+            "name": "SK Lin"
+          },
+          {
+            "name": "KC Chen"
+          },
+          {
+            "name": "M Hanks"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "arxiv.org",
+          "file_format": "PDF",
+          "link": "https://arxiv.org/pdf/2610.01923"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=5-y66L17xwgJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:5-y66L17xwgJ:scholar.google.com/&scioq=quantum+error+correction&hl=en&scisbd=1&num=20&as_sdt=0,18",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C18&engine=google_scholar&hl=en&num=20&q=related%3A5-y66L17xwgJ%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:5-y66L17xwgJ:scholar.google.com/+quantum+error+correction&hl=en&scisbd=1&num=20&as_sdt=0,18"
+      }
+    },
+    {
+      "position": 4,
+      "title": "A Code-Agnostic Graph Neural Network Decoder from the Detection Error Model",
+      "result_id": "Kq1RaOTsig4J",
+      "link": "https://arxiv.org/abs/2610.01683",
+      "snippet": "2 days ago - … quantum error correction whose only input is the detection error model (DEM) of a quantum … we represent error mechanisms of a full cycle of error correction by means of …",
+      "publication_info": {
+        "summary": "FA Astolfi, G Pupillo - arXiv preprint arXiv:2610.01683, 2026 - arxiv.org",
+        "authors": [
+          {
+            "name": "FA Astolfi"
+          },
+          {
+            "name": "G Pupillo"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "arxiv.org",
+          "file_format": "PDF",
+          "link": "https://arxiv.org/pdf/2610.01683"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=Kq1RaOTsig4J",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:Kq1RaOTsig4J:scholar.google.com/&scioq=quantum+error+correction&hl=en&scisbd=1&num=20&as_sdt=0,18",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C18&engine=google_scholar&hl=en&num=20&q=related%3AKq1RaOTsig4J%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:Kq1RaOTsig4J:scholar.google.com/+quantum+error+correction&hl=en&scisbd=1&num=20&as_sdt=0,18"
+      }
+    },
+    {
+      "position": 5,
+      "title": "Adaptivity is all you need: Optimal stabilizer learning using just single-copy measurements",
+      "result_id": "kSrt10rUyBAJ",
+      "link": "https://arxiv.org/abs/2610.02031",
+      "snippet": "2 days ago - … of quantum states and take center stage in quantum information science. The stabilizer formalism underpins both quantum error correction and fault-tolerant quantum …",
+      "publication_info": {
+        "summary": "L Bittel, J Eisert, W Gong, AA Mele… - arXiv preprint arXiv …, 2026 - arxiv.org",
+        "authors": [
+          {
+            "name": "L Bittel"
+          },
+          {
+            "name": "J Eisert"
+          },
+          {
+            "name": "W Gong"
+          },
+          {
+            "name": "AA Mele"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "arxiv.org",
+          "file_format": "PDF",
+          "link": "https://arxiv.org/pdf/2610.02031"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=kSrt10rUyBAJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:kSrt10rUyBAJ:scholar.google.com/&scioq=quantum+error+correction&hl=en&scisbd=1&num=20&as_sdt=0,18",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C18&engine=google_scholar&hl=en&num=20&q=related%3AkSrt10rUyBAJ%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:kSrt10rUyBAJ:scholar.google.com/+quantum+error+correction&hl=en&scisbd=1&num=20&as_sdt=0,18"
+      }
+    },
+    {
+      "position": 6,
+      "title": "Toward Optimal Circuit Depth for Geometrically Local Hamiltonian Simulation",
+      "result_id": "W6WWNHx9PxoJ",
+      "link": "https://arxiv.org/abs/2610.01839",
+      "snippet": "2 days ago - … dynamics of interacting quantum systems is a central goal of quantum simulation. For … For a target accuracy ϵ, we construct a nearest-neighbor quantum circuit that …",
+      "publication_info": {
+        "summary": "Z Shen, Y Wu, P Yao, X Yuan, Y Zhang - arXiv preprint arXiv:2610.01839, 2026 - arxiv.org",
+        "authors": [
+          {
+            "name": "Z Shen"
+          },
+          {
+            "name": "Y Wu",
+            "link": "https://scholar.google.com/citations?user=6uwx2mwAAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "6uwx2mwAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=6uwx2mwAAAAJ&engine=google_scholar_author&hl=en"
+          },
+          {
+            "name": "P Yao"
+          },
+          {
+            "name": "X Yuan"
+          },
+          {
+            "name": "Y Zhang"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "arxiv.org",
+          "file_format": "PDF",
+          "link": "https://arxiv.org/pdf/2610.01839"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=W6WWNHx9PxoJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:W6WWNHx9PxoJ:scholar.google.com/&scioq=quantum+error+correction&hl=en&scisbd=1&num=20&as_sdt=0,18",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C18&engine=google_scholar&hl=en&num=20&q=related%3AW6WWNHx9PxoJ%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:W6WWNHx9PxoJ:scholar.google.com/+quantum+error+correction&hl=en&scisbd=1&num=20&as_sdt=0,18"
+      }
+    },
+    {
+      "position": 7,
+      "title": "From Steane to A7: Quantum Codes from Invariant States",
+      "result_id": "LKjyFx5CrhEJ",
+      "link": "https://arxiv.org/abs/2610.00865",
+      "snippet": "2 days ago - … errors. In general, prescribing the symmetry does not by itself come anywhere close to enforcing error correction. … on the topic of quantum error-correcting codes with exotic …",
+      "publication_info": {
+        "summary": "I Teixeira - arXiv preprint arXiv:2610.00865, 2026 - arxiv.org",
+        "authors": [
+          {
+            "name": "I Teixeira"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "arxiv.org",
+          "file_format": "PDF",
+          "link": "https://arxiv.org/pdf/2610.00865"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=LKjyFx5CrhEJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:LKjyFx5CrhEJ:scholar.google.com/&scioq=quantum+error+correction&hl=en&scisbd=1&num=20&as_sdt=0,18",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C18&engine=google_scholar&hl=en&num=20&q=related%3ALKjyFx5CrhEJ%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:LKjyFx5CrhEJ:scholar.google.com/+quantum+error+correction&hl=en&scisbd=1&num=20&as_sdt=0,18"
+      }
+    },
+    {
+      "position": 8,
+      "title": "A baby universe from a large family: booklet cosmology states and quantum error correction",
+      "result_id": "ciOMY8EtFpIJ",
+      "link": "https://arxiv.org/abs/2610.02168",
+      "snippet": "2 days ago - … Random tensor model and quantum error correction At fixed Euclidean prepara- … We also analyzed the quantum error correction properties of this map. For three arms with …",
+      "publication_info": {
+        "summary": "J Dai, B Dong, C Peng - arXiv preprint arXiv:2610.02168, 2026 - arxiv.org",
+        "authors": [
+          {
+            "name": "J Dai"
+          },
+          {
+            "name": "B Dong"
+          },
+          {
+            "name": "C Peng"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "arxiv.org",
+          "file_format": "PDF",
+          "link": "https://arxiv.org/pdf/2610.02168"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=ciOMY8EtFpIJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:ciOMY8EtFpIJ:scholar.google.com/&scioq=quantum+error+correction&hl=en&scisbd=1&num=20&as_sdt=0,18",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C18&engine=google_scholar&hl=en&num=20&q=related%3AciOMY8EtFpIJ%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:ciOMY8EtFpIJ:scholar.google.com/+quantum+error+correction&hl=en&scisbd=1&num=20&as_sdt=0,18"
+      }
+    },
+    {
+      "position": 9,
+      "title": "Context-Aware Error Mitigation Orchestration for Hybrid Quantum Reinforcement Learning on NISQ Systems",
+      "result_id": "FgMTrzAy2DQJ",
+      "link": "https://arxiv.org/abs/2610.01253",
+      "snippet": "2 days ago - … settings, it does not extend adaptivity to quantum error mitigation. Here lies another gap: existing approaches do not treat error mitigation as a controllable, feedback-…",
+      "publication_info": {
+        "summary": "B Majid, SA Sofi, MM Yousuf - arXiv preprint arXiv:2610.01253, 2026 - arxiv.org",
+        "authors": [
+          {
+            "name": "B Majid"
+          },
+          {
+            "name": "SA Sofi"
+          },
+          {
+            "name": "MM Yousuf"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "arxiv.org",
+          "file_format": "PDF",
+          "link": "https://arxiv.org/pdf/2610.01253"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=FgMTrzAy2DQJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:FgMTrzAy2DQJ:scholar.google.com/&scioq=quantum+error+correction&hl=en&scisbd=1&num=20&as_sdt=0,18",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C18&engine=google_scholar&hl=en&num=20&q=related%3AFgMTrzAy2DQJ%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:FgMTrzAy2DQJ:scholar.google.com/+quantum+error+correction&hl=en&scisbd=1&num=20&as_sdt=0,18"
+      }
+    },
+    {
+      "position": 10,
+      "title": "One-Shot any Code",
+      "result_id": "uyt6fCbt3wkJ",
+      "link": "https://arxiv.org/abs/2610.02137",
+      "snippet": "2 days ago - … code is self-correcting. We then show that any [[n, k]] CSS quantum low-density parity-… with single-shot (SS) quantum error correction and an efficient local decoder which …",
+      "publication_info": {
+        "summary": "AC Yuan - arXiv preprint arXiv:2610.02137, 2026 - arxiv.org",
+        "authors": [
+          {
+            "name": "AC Yuan"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "arxiv.org",
+          "file_format": "PDF",
+          "link": "https://arxiv.org/pdf/2610.02137"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=uyt6fCbt3wkJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:uyt6fCbt3wkJ:scholar.google.com/&scioq=quantum+error+correction&hl=en&scisbd=1&num=20&as_sdt=0,18",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C18&engine=google_scholar&hl=en&num=20&q=related%3Auyt6fCbt3wkJ%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:uyt6fCbt3wkJ:scholar.google.com/+quantum+error+correction&hl=en&scisbd=1&num=20&as_sdt=0,18"
+      }
+    },
+    {
+      "position": 11,
+      "title": "Spiking neural networks for streaming qubit readout",
+      "result_id": "16NQB4eTAYYJ",
+      "link": "https://arxiv.org/abs/2610.02129",
+      "snippet": "2 days ago - … for feedback, calibration, and error correction in quantum processors. In superconducting … requires suppressing and managing errors through quantum error correction …",
+      "publication_info": {
+        "summary": "BM Dillon, A Javed, J Harkin, P Dabkowski… - arXiv preprint arXiv …, 2026 - arxiv.org",
+        "authors": [
+          {
+            "name": "BM Dillon"
+          },
+          {
+            "name": "A Javed"
+          },
+          {
+            "name": "J Harkin"
+          },
+          {
+            "name": "P Dabkowski"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "arxiv.org",
+          "file_format": "PDF",
+          "link": "https://arxiv.org/pdf/2610.02129"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=16NQB4eTAYYJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:16NQB4eTAYYJ:scholar.google.com/&scioq=quantum+error+correction&hl=en&scisbd=1&num=20&as_sdt=0,18",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C18&engine=google_scholar&hl=en&num=20&q=related%3A16NQB4eTAYYJ%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:16NQB4eTAYYJ:scholar.google.com/+quantum+error+correction&hl=en&scisbd=1&num=20&as_sdt=0,18"
+      }
+    },
+    {
+      "position": 12,
+      "title": "Closed-form finite-key scaling for the Bennett-Brassard 1984 protocol with device imperfections",
+      "result_id": "CdKGs-e2vJMJ",
+      "link": "https://link.aps.org/pdf/10.1103/llkp-fc69",
+      "snippet": "2 days ago - … apply the entropic uncertainty relation with quantum side information derived in Refs. … 69 bits from secrecy, 38 bits from error correction and the leftover hash overhead, and …",
+      "publication_info": {
+        "summary": "K Dehingia, N Dutta - Physical Review A, 2026 - APS",
+        "authors": [
+          {
+            "name": "K Dehingia"
+          },
+          {
+            "name": "N Dutta"
+          }
+        ]
+      },
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=CdKGs-e2vJMJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:CdKGs-e2vJMJ:scholar.google.com/&scioq=quantum+error+correction&hl=en&scisbd=1&num=20&as_sdt=0,18",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C18&engine=google_scholar&hl=en&num=20&q=related%3ACdKGs-e2vJMJ%3Ascholar.google.com%2F&scisbd=1",
+        "versions": {
+          "total": 2,
+          "link": "https://scholar.google.com/scholar?cluster=10645584725462667785&hl=en&scisbd=1&num=20&as_sdt=0,18",
+          "cluster_id": "10645584725462667785",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C18&cluster=10645584725462667785&engine=google_scholar&hl=en&num=20&scisbd=1"
+        }
+      }
+    },
+    {
+      "position": 13,
+      "title": "Analysis and Correction of Antenna Phase Center Offset Effects in RF Simulation Calibration Systems",
+      "result_id": "WqrcRk0iuJcJ",
+      "link": "https://link.springer.com/chapter/10.1007/978-981-92-5719-5_1",
+      "snippet": "3 days ago - … , both the measured phase difference and calculated phase differences are also frequency -dependent, resulting in an error correction table for each frequency point. …",
+      "publication_info": {
+        "summary": "Y Zhang, Z Huang, Y Cai, Y Zhou, R Xu - China Simulation Conference, 2026 - Springer",
+        "authors": [
+          {
+            "name": "Y Zhang"
+          },
+          {
+            "name": "Z Huang"
+          },
+          {
+            "name": "Y Cai"
+          },
+          {
+            "name": "Y Zhou"
+          },
+          {
+            "name": "R Xu"
+          }
+        ]
+      },
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=WqrcRk0iuJcJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:WqrcRk0iuJcJ:scholar.google.com/&scioq=quantum+error+correction&hl=en&scisbd=1&num=20&as_sdt=0,18",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C18&engine=google_scholar&hl=en&num=20&q=related%3AWqrcRk0iuJcJ%3Ascholar.google.com%2F&scisbd=1"
+      }
+    },
+    {
+      "position": 14,
+      "title": "Quantum-Classical Synergies for Simulations of Quantum Systems",
+      "result_id": "OWrjRbtVbxgJ",
+      "link": "https://infoscience.epfl.ch/entities/publication/fbf9808c-2c57-4d89-9775-097307258c5d",
+      "snippet": "3 days ago - … of quantum many-body systems via the Quantum Finite Temperature Lanczos Method. A Krylov subspace is generated on a quantum … that hybrid quantum-classical …",
+      "publication_info": {
+        "summary": "GF Gentinetta - 2026 - infoscience.epfl.ch",
+        "authors": [
+          {
+            "name": "GF Gentinetta"
+          }
+        ]
+      },
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=OWrjRbtVbxgJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:OWrjRbtVbxgJ:scholar.google.com/&scioq=quantum+error+correction&hl=en&scisbd=1&num=20&as_sdt=0,18",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C18&engine=google_scholar&hl=en&num=20&q=related%3AOWrjRbtVbxgJ%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:OWrjRbtVbxgJ:scholar.google.com/+quantum+error+correction&hl=en&scisbd=1&num=20&as_sdt=0,18"
+      }
+    },
+    {
+      "position": 15,
+      "title": "削除誤りと挿入誤りを訂正するための符号と量子符号",
+      "result_id": "RgKFqNADg5wJ",
+      "link": "https://www.jstage.jst.go.jp/article/essfr/20/2/20_60/_article/-char/ja/",
+      "snippet": "3 days ago - … of deletion-error research, including BAD error codes, … Finally, we introduce quantum deletion error-correcting … condition for single quantum deletion correction, the …",
+      "publication_info": {
+        "summary": "萩原学 - 電子情報通信学会 基礎・境界ソサイエティ Fundamentals …, 2026 - jstage.jst.go.jp",
+        "authors": [
+          {
+            "name": "萩原学",
+            "link": "https://scholar.google.com/citations?user=DxyB6csAAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "DxyB6csAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=DxyB6csAAAAJ&engine=google_scholar_author&hl=en"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "jst.go.jp",
+          "file_format": "PDF",
+          "link": "https://www.jstage.jst.go.jp/article/essfr/20/2/20_60/_pdf"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=RgKFqNADg5wJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:RgKFqNADg5wJ:scholar.google.com/&scioq=quantum+error+correction&hl=en&scisbd=1&num=20&as_sdt=0,18",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C18&engine=google_scholar&hl=en&num=20&q=related%3ARgKFqNADg5wJ%3Ascholar.google.com%2F&scisbd=1"
+      }
+    },
+    {
+      "position": 16,
+      "title": "A physical and universal model of bosonic computations with Solovay-Kitaev theorem",
+      "result_id": "9Sy0B3ifPDAJ",
+      "link": "https://arxiv.org/abs/2609.40226",
+      "snippet": "3 days ago - … quantum information processing, offering continuous-variable degrees of freedom with strong error-correction … bosonic quantum computation, Bosonic Energy-Preserving …",
+      "publication_info": {
+        "summary": "D Rudolph, A Motamedi, D Sambrani, HR Naeij… - arXiv preprint arXiv …, 2026 - arxiv.org",
+        "authors": [
+          {
+            "name": "D Rudolph"
+          },
+          {
+            "name": "A Motamedi",
+            "link": "https://scholar.google.com/citations?user=E8Tshf4AAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "E8Tshf4AAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=E8Tshf4AAAAJ&engine=google_scholar_author&hl=en"
+          },
+          {
+            "name": "D Sambrani",
+            "link": "https://scholar.google.com/citations?user=Rvntv1oAAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "Rvntv1oAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=Rvntv1oAAAAJ&engine=google_scholar_author&hl=en"
+          },
+          {
+            "name": "HR Naeij",
+            "link": "https://scholar.google.com/citations?user=IN60UJIAAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "IN60UJIAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=IN60UJIAAAAJ&engine=google_scholar_author&hl=en"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "arxiv.org",
+          "file_format": "PDF",
+          "link": "https://arxiv.org/pdf/2609.40226"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=9Sy0B3ifPDAJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:9Sy0B3ifPDAJ:scholar.google.com/&scioq=quantum+error+correction&hl=en&scisbd=1&num=20&as_sdt=0,18",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C18&engine=google_scholar&hl=en&num=20&q=related%3A9Sy0B3ifPDAJ%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:9Sy0B3ifPDAJ:scholar.google.com/+quantum+error+correction&hl=en&scisbd=1&num=20&as_sdt=0,18"
+      }
+    },
+    {
+      "position": 17,
+      "title": "From Random Quantum Codes to Explicit qLDPC Codes via Local Properties",
+      "result_id": "NvOgB2s52swJ",
+      "link": "https://arxiv.org/abs/2609.40252",
+      "snippet": "3 days ago - … LDPC codes feature very prominently in the field of quantum error-correction, where … the quantum challenges, we take a detour to through classical error correction …",
+      "publication_info": {
+        "summary": "FG Jeronimo, X Ma, N Shagrithaya - arXiv preprint arXiv:2609.40252, 2026 - arxiv.org",
+        "authors": [
+          {
+            "name": "FG Jeronimo"
+          },
+          {
+            "name": "X Ma"
+          },
+          {
+            "name": "N Shagrithaya"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "arxiv.org",
+          "file_format": "PDF",
+          "link": "https://arxiv.org/pdf/2609.40252"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=NvOgB2s52swJ",
+        "cited_by": {
+          "total": 1,
+          "link": "https://scholar.google.com/scholar?cites=14761173860512494390&as_sdt=4000005&sciodt=0,18&hl=en&num=20",
+          "cites_id": "14761173860512494390",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=4000005&cites=14761173860512494390&engine=google_scholar&hl=en&num=20"
+        },
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:NvOgB2s52swJ:scholar.google.com/&scioq=quantum+error+correction&hl=en&scisbd=1&num=20&as_sdt=0,18",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C18&engine=google_scholar&hl=en&num=20&q=related%3ANvOgB2s52swJ%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:NvOgB2s52swJ:scholar.google.com/+quantum+error+correction&hl=en&scisbd=1&num=20&as_sdt=0,18"
+      }
+    },
+    {
+      "position": 18,
+      "title": "Quantum List Recovery and Decoding: Achievability and Limitations",
+      "result_id": "7FjLDgsxAYMJ",
+      "link": "https://arxiv.org/abs/2609.40262",
+      "snippet": "3 days ago - … in quantum error correction … quantum code of rate R, the quantum Singleton bound limits the fraction of correctable erasures to (1 − R)/2. For exact quantum error correction…",
+      "publication_info": {
+        "summary": "FG Jeronimo, X Ma - arXiv preprint arXiv:2609.40262, 2026 - arxiv.org",
+        "authors": [
+          {
+            "name": "FG Jeronimo"
+          },
+          {
+            "name": "X Ma"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "arxiv.org",
+          "file_format": "PDF",
+          "link": "https://arxiv.org/pdf/2609.40262"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=7FjLDgsxAYMJ",
+        "cited_by": {
+          "total": 1,
+          "link": "https://scholar.google.com/scholar?cites=9439880217507879148&as_sdt=4000005&sciodt=0,18&hl=en&num=20",
+          "cites_id": "9439880217507879148",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=4000005&cites=9439880217507879148&engine=google_scholar&hl=en&num=20"
+        },
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:7FjLDgsxAYMJ:scholar.google.com/&scioq=quantum+error+correction&hl=en&scisbd=1&num=20&as_sdt=0,18",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C18&engine=google_scholar&hl=en&num=20&q=related%3A7FjLDgsxAYMJ%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:7FjLDgsxAYMJ:scholar.google.com/+quantum+error+correction&hl=en&scisbd=1&num=20&as_sdt=0,18"
+      }
+    },
+    {
+      "position": 19,
+      "title": "Exact Maximum Likelihood Decoding beyond Treewidth via Rank-Decomposition Dynamic Programming",
+      "result_id": "kV4tI0C8CfsJ",
+      "link": "https://arxiv.org/abs/2609.39556",
+      "snippet": "3 days ago - … Quantum error correction protects logical quantum information by encoding it across physical qubits and repeatedly measuring error … problem in quantum error correction. …",
+      "publication_info": {
+        "summary": "B Cheng, F Pan - arXiv preprint arXiv:2609.39556, 2026 - arxiv.org",
+        "authors": [
+          {
+            "name": "B Cheng",
+            "link": "https://scholar.google.com/citations?user=WcIQUTsAAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "WcIQUTsAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=WcIQUTsAAAAJ&engine=google_scholar_author&hl=en"
+          },
+          {
+            "name": "F Pan",
+            "link": "https://scholar.google.com/citations?user=ZDEkIDsAAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "ZDEkIDsAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=ZDEkIDsAAAAJ&engine=google_scholar_author&hl=en"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "arxiv.org",
+          "file_format": "PDF",
+          "link": "https://arxiv.org/pdf/2609.39556"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=kV4tI0C8CfsJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:kV4tI0C8CfsJ:scholar.google.com/&scioq=quantum+error+correction&hl=en&scisbd=1&num=20&as_sdt=0,18",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C18&engine=google_scholar&hl=en&num=20&q=related%3AkV4tI0C8CfsJ%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:kV4tI0C8CfsJ:scholar.google.com/+quantum+error+correction&hl=en&scisbd=1&num=20&as_sdt=0,18"
+      }
+    },
+    {
+      "position": 20,
+      "title": "Haah's 3D cubic code thermalizes rapidly",
+      "result_id": "LdgD7Q7WHRYJ",
+      "link": "https://arxiv.org/abs/2609.39959",
+      "snippet": "3 days ago - … A self-correcting quantum memory would preserve quantum information stored in a Hamiltonian’s ground state against thermal noise without active error correction. The …",
+      "publication_info": {
+        "summary": "S Stengele, L Caha, Á Capel, S Warzel - arXiv preprint arXiv:2609.39959, 2026 - arxiv.org",
+        "authors": [
+          {
+            "name": "S Stengele"
+          },
+          {
+            "name": "L Caha"
+          },
+          {
+            "name": "Á Capel",
+            "link": "https://scholar.google.com/citations?user=lncoTzkAAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "lncoTzkAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=lncoTzkAAAAJ&engine=google_scholar_author&hl=en"
+          },
+          {
+            "name": "S Warzel",
+            "link": "https://scholar.google.com/citations?user=on43JPAAAAAJ&hl=en&num=20&oi=sra",
+            "author_id": "on43JPAAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=on43JPAAAAAJ&engine=google_scholar_author&hl=en"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "",
+          "file_format": "PDF",
+          "link": null
+        },
+        {
+          "title": "arxiv.org",
+          "file_format": "PDF",
+          "link": "https://arxiv.org/pdf/2609.39959"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=LdgD7Q7WHRYJ",
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:LdgD7Q7WHRYJ:scholar.google.com/&scioq=quantum+error+correction&hl=en&scisbd=1&num=20&as_sdt=0,18",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C18&engine=google_scholar&hl=en&num=20&q=related%3ALdgD7Q7WHRYJ%3Ascholar.google.com%2F&scisbd=1",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:LdgD7Q7WHRYJ:scholar.google.com/+quantum+error+correction&hl=en&scisbd=1&num=20&as_sdt=0,18"
+      }
+    }
+  ],
+  "related_searches": [
+    {
+      "query": "quantum error correction codes",
+      "link": "https://scholar.google.com/scholar?hl=en&num=20&as_sdt=0,18&qsp=1&q=quantum+error+correction+codes&qst=bb"
+    },
+    {
+      "query": "stabilizer quantum error correction",
+      "link": "https://scholar.google.com/scholar?hl=en&num=20&as_sdt=0,18&qsp=2&q=stabilizer+quantum+error+correction&qst=bb"
+    },
+    {
+      "query": "fault-tolerant quantum error correction",
+      "link": "https://scholar.google.com/scholar?hl=en&num=20&as_sdt=0,18&qsp=3&q=fault-tolerant+quantum+error+correction&qst=bb"
+    },
+    {
+      "query": "qubit quantum error correction",
+      "link": "https://scholar.google.com/scholar?hl=en&num=20&as_sdt=0,18&qsp=4&q=qubit+quantum+error+correction&qst=bb"
+    },
+    {
+      "query": "superconducting quantum error correction",
+      "link": "https://scholar.google.com/scholar?hl=en&num=20&as_sdt=0,18&qsp=5&q=superconducting+quantum+error+correction&qst=bb"
+    },
+    {
+      "query": "quantum error correction entanglement",
+      "link": "https://scholar.google.com/scholar?hl=en&num=20&as_sdt=0,18&qsp=6&q=quantum+error+correction+entanglement&qst=bb"
+    },
+    {
+      "query": "topological quantum error correction",
+      "link": "https://scholar.google.com/scholar?hl=en&num=20&as_sdt=0,18&qsp=7&q=topological+quantum+error+correction&qst=bb"
+    },
+    {
+      "query": "ibm quantum error correction",
+      "link": "https://scholar.google.com/scholar?hl=en&num=20&as_sdt=0,18&qsp=8&q=ibm+quantum+error+correction&qst=bb"
+    },
+    {
+      "query": "approximate quantum error correction",
+      "link": "https://scholar.google.com/scholar?hl=en&num=20&as_sdt=0,18&qsp=9&q=approximate+quantum+error+correction&qst=bb"
+    },
+    {
+      "query": "bosonic quantum error correction",
+      "link": "https://scholar.google.com/scholar?hl=en&num=20&as_sdt=0,18&qsp=10&q=bosonic+quantum+error+correction&qst=bb"
+    },
+    {
+      "query": "quantum error correction codes over gf",
+      "link": "https://scholar.google.com/scholar?hl=en&num=20&as_sdt=0,18&qsp=11&q=quantum+error+correction+codes+over+gf&qst=bb"
+    },
+    {
+      "query": "quantum error correction beginners",
+      "link": "https://scholar.google.com/scholar?hl=en&num=20&as_sdt=0,18&qsp=12&q=quantum+error+correction+beginners&qst=bb"
+    },
+    {
+      "query": "quantum error correction correlated noise",
+      "link": "https://scholar.google.com/scholar?hl=en&num=20&as_sdt=0,18&qsp=13&q=quantum+error+correction+correlated+noise&qst=bb"
+    },
+    {
+      "query": "quantum error correction decoder",
+      "link": "https://scholar.google.com/scholar?hl=en&num=20&as_sdt=0,18&qsp=14&q=quantum+error+correction+decoder&qst=bb"
+    },
+    {
+      "query": "autonomous quantum error correction",
+      "link": "https://scholar.google.com/scholar?hl=en&num=20&as_sdt=0,18&qsp=15&q=autonomous+quantum+error+correction&qst=bb"
+    },
+    {
+      "query": "quantum error correction stabilizer codes",
+      "link": "https://scholar.google.com/scholar?hl=en&num=20&as_sdt=0,18&qsp=16&q=quantum+error+correction+stabilizer+codes&qst=bb"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://scholar.google.com/scholar?start=20&q=quantum+error+correction&hl=en&scisbd=1&num=20&as_sdt=0,18",
+    "other_pages": {
+      "2": "https://scholar.google.com/scholar?start=20&q=quantum+error+correction&hl=en&scisbd=1&num=20&as_sdt=0,18",
+      "3": "https://scholar.google.com/scholar?start=40&q=quantum+error+correction&hl=en&scisbd=1&num=20&as_sdt=0,18",
+      "4": "https://scholar.google.com/scholar?start=60&q=quantum+error+correction&hl=en&scisbd=1&num=20&as_sdt=0,18",
+      "5": "https://scholar.google.com/scholar?start=80&q=quantum+error+correction&hl=en&scisbd=1&num=20&as_sdt=0,18",
+      "6": "https://scholar.google.com/scholar?start=100&q=quantum+error+correction&hl=en&scisbd=1&num=20&as_sdt=0,18",
+      "7": "https://scholar.google.com/scholar?start=120&q=quantum+error+correction&hl=en&scisbd=1&num=20&as_sdt=0,18",
+      "8": "https://scholar.google.com/scholar?start=140&q=quantum+error+correction&hl=en&scisbd=1&num=20&as_sdt=0,18",
+      "9": "https://scholar.google.com/scholar?start=160&q=quantum+error+correction&hl=en&scisbd=1&num=20&as_sdt=0,18",
+      "10": "https://scholar.google.com/scholar?start=180&q=quantum+error+correction&hl=en&scisbd=1&num=20&as_sdt=0,18"
+    }
+  },
+  "serpapi_pagination": {
+    "current": 1,
+    "next_link": "https://serpapi.com/search.json?as_sdt=0%2C18&engine=google_scholar&hl=en&num=20&q=quantum+error+correction&scisbd=1&start=20",
+    "next": "https://serpapi.com/search.json?as_sdt=0%2C18&engine=google_scholar&hl=en&num=20&q=quantum+error+correction&scisbd=1&start=20",
+    "other_pages": {
+      "2": "https://serpapi.com/search.json?as_sdt=0%2C18&engine=google_scholar&hl=en&num=20&q=quantum+error+correction&scisbd=1&start=20",
+      "3": "https://serpapi.com/search.json?as_sdt=0%2C18&engine=google_scholar&hl=en&num=20&q=quantum+error+correction&scisbd=1&start=40",
+      "4": "https://serpapi.com/search.json?as_sdt=0%2C18&engine=google_scholar&hl=en&num=20&q=quantum+error+correction&scisbd=1&start=60",
+      "5": "https://serpapi.com/search.json?as_sdt=0%2C18&engine=google_scholar&hl=en&num=20&q=quantum+error+correction&scisbd=1&start=80",
+      "6": "https://serpapi.com/search.json?as_sdt=0%2C18&engine=google_scholar&hl=en&num=20&q=quantum+error+correction&scisbd=1&start=100",
+      "7": "https://serpapi.com/search.json?as_sdt=0%2C18&engine=google_scholar&hl=en&num=20&q=quantum+error+correction&scisbd=1&start=120",
+      "8": "https://serpapi.com/search.json?as_sdt=0%2C18&engine=google_scholar&hl=en&num=20&q=quantum+error+correction&scisbd=1&start=140",
+      "9": "https://serpapi.com/search.json?as_sdt=0%2C18&engine=google_scholar&hl=en&num=20&q=quantum+error+correction&scisbd=1&start=160",
+      "10": "https://serpapi.com/search.json?as_sdt=0%2C18&engine=google_scholar&hl=en&num=20&q=quantum+error+correction&scisbd=1&start=180"
+    }
+  }
+}
