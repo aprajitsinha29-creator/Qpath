@@ -19,6 +19,7 @@ coverage/
 htmlcov/
 
 # Generated database files live here (gitignored per plan)
+data/
 backend/data/
 
 # Frontend (Phase 0 step 0.6+)
