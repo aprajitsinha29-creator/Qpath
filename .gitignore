@@ -1,0 +1,29 @@
+# Secrets — never commit
+.env
+
+# Databases
+*.db
+*.sqlite
+*.sqlite*
+
+# Python
+.venv/
+backend/.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.coverage
+coverage/
+htmlcov/
+
+# Generated database files live here (gitignored per plan)
+backend/data/
+
+# Frontend (Phase 0 step 0.6+)
+node_modules/
+dist/
+
+# Editors / OS
+.DS_Store
