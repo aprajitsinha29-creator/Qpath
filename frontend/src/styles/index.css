@@ -1,0 +1,8 @@
+/* Tailwind CSS v4 entrypoint */
+@import 'tailwindcss';
+
+@layer base {
+  body {
+    @apply bg-slate-950 text-slate-100;
+  }
+}
