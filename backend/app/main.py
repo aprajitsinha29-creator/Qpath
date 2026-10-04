@@ -18,14 +18,18 @@ from app.api.v1.router import api_router
 from app.core.config import get_settings
 from app.core.errors import register_error_handlers
 from app.core.logging import setup_logging
-from app.db.session import init_db
+from app.db.seed import seed_reference_data
+from app.db.session import SessionLocal, init_db
 
 logger = logging.getLogger(__name__)
 
 
 @asynccontextmanager
 async def lifespan(current_app: FastAPI) -> AsyncIterator[None]:
-    """Startup: create tables; shutdown: nothing yet (scheduler stub for Phase 5).
+    """Startup: create tables and seed reference data; shutdown: nothing yet.
+
+    Seeding is idempotent (merge by primary key), so restarts never duplicate rows.
+    The APScheduler hook is deliberately left as a stub until Phase 5.
 
     Args:
         current_app: the app being served (unused; required by the lifespan signature).
@@ -37,7 +41,9 @@ async def lifespan(current_app: FastAPI) -> AsyncIterator[None]:
     shut it down on exit.
     """
     init_db()
-    logger.info("database tables ensured (create_all)")
+    with SessionLocal() as db:
+        seed_reference_data(db)
+    logger.info("database ready (create_all + reference seed)")
     yield
 
 

@@ -1,0 +1,73 @@
+[
+  {
+    "id": "qec_engineer",
+    "title": "QEC Researcher / Engineer",
+    "subfield_id": "qec",
+    "description": "Design and test quantum error-correcting codes and the decoders that run them, from stabilizer-code theory to real-time decoding hardware.",
+    "typical_titles": [
+      "Quantum Error Correction Engineer",
+      "QEC Researcher",
+      "Fault-Tolerance Engineer",
+      "Quantum Coding Theorist"
+    ]
+  },
+  {
+    "id": "hardware_engineer",
+    "title": "Quantum Hardware Engineer",
+    "subfield_id": "hardware",
+    "description": "Build and characterize qubit devices and their control stack: cryogenics, microwave electronics, calibration and readout.",
+    "typical_titles": [
+      "Quantum Hardware Engineer",
+      "Qubit Device Engineer",
+      "Quantum Test & Measurement Engineer",
+      "Cryogenic Systems Engineer"
+    ]
+  },
+  {
+    "id": "software_engineer",
+    "title": "Quantum Software / Compiler Engineer",
+    "subfield_id": "software",
+    "description": "Build the tools that make quantum computers usable: SDKs, compilers, transpilers, simulators and error-mitigation pipelines.",
+    "typical_titles": [
+      "Quantum Software Engineer",
+      "Quantum Compiler Engineer",
+      "Quantum SDK Developer",
+      "Quantum Tools Engineer"
+    ]
+  },
+  {
+    "id": "algorithms_scientist",
+    "title": "Quantum Algorithms & Applications Scientist",
+    "subfield_id": "algorithms",
+    "description": "Research and evaluate quantum algorithms for simulation, optimization and chemistry, and estimate the resources real machines need.",
+    "typical_titles": [
+      "Quantum Algorithms Scientist",
+      "Quantum Applications Scientist",
+      "Quantum Research Scientist",
+      "Quantum Simulation Scientist"
+    ]
+  },
+  {
+    "id": "qml_engineer",
+    "title": "Quantum ML Engineer",
+    "subfield_id": "qml",
+    "description": "Combine parameterized quantum circuits with machine learning: variational models, quantum kernels and hybrid training systems.",
+    "typical_titles": [
+      "Quantum Machine Learning Engineer",
+      "Quantum ML Researcher",
+      "Quantum AI Software Engineer"
+    ]
+  },
+  {
+    "id": "security_networking_engineer",
+    "title": "Quantum Security & Networking Engineer",
+    "subfield_id": "crypto_net",
+    "description": "Deploy post-quantum cryptography and quantum key distribution, and design the links and protocols of the quantum internet.",
+    "typical_titles": [
+      "Post-Quantum Cryptography Engineer",
+      "Quantum Networking Engineer",
+      "Cryptographic Systems Engineer",
+      "QKD Systems Engineer"
+    ]
+  }
+]

@@ -1,0 +1,293 @@
+{
+  "subfields": [
+    {
+      "id": "foundations",
+      "name": "Foundations",
+      "description": "Shared prerequisite concepts that every quantum career path builds on.",
+      "sort_order": 0,
+      "is_scored": false
+    },
+    {
+      "id": "qec",
+      "name": "Quantum Error Correction",
+      "description": "Protecting quantum information from noise using codes, decoders and fault-tolerant schemes.",
+      "sort_order": 1,
+      "is_scored": true
+    },
+    {
+      "id": "hardware",
+      "name": "Hardware & Devices",
+      "description": "Building qubits and machines: superconducting circuits, trapped ions, neutral atoms, photonics, control electronics and cryogenics.",
+      "sort_order": 2,
+      "is_scored": true
+    },
+    {
+      "id": "software",
+      "name": "Software & Compilers",
+      "description": "Turning algorithms into runnable circuits: SDKs, compilers, transpilation, error mitigation and hybrid workflows.",
+      "sort_order": 3,
+      "is_scored": true
+    },
+    {
+      "id": "algorithms",
+      "name": "Algorithms & Applications",
+      "description": "Designing and analyzing quantum algorithms for simulation, optimization, chemistry and resource estimation.",
+      "sort_order": 4,
+      "is_scored": true
+    },
+    {
+      "id": "qml",
+      "name": "Quantum Machine Learning",
+      "description": "Combining quantum circuits with machine learning: variational models, kernels, data encoding and training dynamics.",
+      "sort_order": 5,
+      "is_scored": true
+    },
+    {
+      "id": "crypto_net",
+      "name": "Cryptography & Networking",
+      "description": "Post-quantum cryptography, quantum key distribution and the quantum internet.",
+      "sort_order": 6,
+      "is_scored": true
+    }
+  ],
+  "concepts": [
+    {
+      "id": "found.linear_algebra",
+      "subfield_id": "foundations",
+      "name": "Linear algebra for quantum",
+      "description": "Vectors, matrices, eigenvalues and tensor products as the math language of quantum states.",
+      "prerequisites": []
+    },
+    {
+      "id": "found.qubits_and_gates",
+      "subfield_id": "foundations",
+      "name": "Qubits, gates, circuits",
+      "description": "The qubit, single- and two-qubit gates, and circuits as the unit of quantum computation.",
+      "prerequisites": ["found.linear_algebra"]
+    },
+    {
+      "id": "found.measurement",
+      "subfield_id": "foundations",
+      "name": "Measurement & probabilities",
+      "description": "Born rule, measurement outcomes and reading shot data as probability distributions.",
+      "prerequisites": ["found.qubits_and_gates"]
+    },
+    {
+      "id": "found.entanglement",
+      "subfield_id": "foundations",
+      "name": "Entanglement",
+      "description": "Correlations between qubits that have no classical explanation, and why they are a resource.",
+      "prerequisites": ["found.qubits_and_gates"]
+    },
+    {
+      "id": "qec.stabilizer_codes",
+      "subfield_id": "qec",
+      "name": "Stabilizer codes",
+      "description": "Encoding logical qubits in the shared stabilizer group of many physical qubits (e.g. the Steane code).",
+      "prerequisites": ["found.measurement", "found.entanglement"]
+    },
+    {
+      "id": "qec.logical_vs_physical",
+      "subfield_id": "qec",
+      "name": "Logical vs physical qubits & thresholds",
+      "description": "Physical qubits versus error-corrected logical qubits, and the error-rate threshold theorem.",
+      "prerequisites": ["qec.stabilizer_codes"]
+    },
+    {
+      "id": "qec.surface_code",
+      "subfield_id": "qec",
+      "name": "Surface code",
+      "description": "The leading 2D stabilizer code: lattice layout, syndrome extraction and its high threshold.",
+      "prerequisites": ["qec.stabilizer_codes"]
+    },
+    {
+      "id": "qec.decoding",
+      "subfield_id": "qec",
+      "name": "Decoders & syndrome decoding",
+      "description": "Recovering the most likely error from measurement syndromes (matching, union-find, belief propagation).",
+      "prerequisites": ["qec.surface_code"]
+    },
+    {
+      "id": "qec.magic_states",
+      "subfield_id": "qec",
+      "name": "Magic states & fault-tolerant gates",
+      "description": "Non-Clifford resources and distillation needed to run universal gates fault-tolerantly.",
+      "prerequisites": ["qec.surface_code"]
+    },
+    {
+      "id": "hw.superconducting",
+      "subfield_id": "hardware",
+      "name": "Superconducting qubits",
+      "description": "Transmon qubits, circuit QED and microwave resonators — the leading industrial platform.",
+      "prerequisites": ["found.qubits_and_gates"]
+    },
+    {
+      "id": "hw.neutral_atoms",
+      "subfield_id": "hardware",
+      "name": "Neutral-atom arrays",
+      "description": "Rydberg tweezers arranging atoms into reconfigurable qubit arrays.",
+      "prerequisites": ["found.qubits_and_gates"]
+    },
+    {
+      "id": "hw.trapped_ions",
+      "subfield_id": "hardware",
+      "name": "Trapped ions",
+      "description": "Individual ions as qubits controlled with lasers, with long coherence and all-to-all coupling.",
+      "prerequisites": ["found.qubits_and_gates"]
+    },
+    {
+      "id": "hw.photonics",
+      "subfield_id": "hardware",
+      "name": "Photonic quantum computing",
+      "description": "Qubits encoded in photons: sources, interferometers and measurement-based computation.",
+      "prerequisites": ["found.qubits_and_gates"]
+    },
+    {
+      "id": "hw.control_readout",
+      "subfield_id": "hardware",
+      "name": "Control & readout",
+      "description": "Pulse control, qubit state readout and the feedback electronics around a quantum processor.",
+      "prerequisites": ["hw.superconducting"]
+    },
+    {
+      "id": "sw.circuit_model",
+      "subfield_id": "software",
+      "name": "Circuit model & compilation basics",
+      "description": "How algorithms become gate circuits and what a compiler must preserve.",
+      "prerequisites": ["found.qubits_and_gates"]
+    },
+    {
+      "id": "sw.transpilation",
+      "subfield_id": "software",
+      "name": "Transpilation & routing",
+      "description": "Mapping abstract circuits onto hardware couplings via gate decomposition and qubit routing.",
+      "prerequisites": ["sw.circuit_model"]
+    },
+    {
+      "id": "sw.sdks",
+      "subfield_id": "software",
+      "name": "Quantum SDKs (Qiskit, Cirq, PennyLane)",
+      "description": "Building, simulating and submitting circuits with the mainstream software stacks.",
+      "prerequisites": ["sw.circuit_model"]
+    },
+    {
+      "id": "sw.error_mitigation",
+      "subfield_id": "software",
+      "name": "Error mitigation",
+      "description": "Reducing noise effects without full correction: zero-noise extrapolation, probabilistic error cancellation.",
+      "prerequisites": ["found.measurement", "sw.circuit_model"]
+    },
+    {
+      "id": "sw.hybrid_workflows",
+      "subfield_id": "software",
+      "name": "Hybrid quantum-classical workflows",
+      "description": "Orchestrating loops where a classical optimizer drives quantum circuit parameters.",
+      "prerequisites": ["sw.sdks"]
+    },
+    {
+      "id": "alg.grover",
+      "subfield_id": "algorithms",
+      "name": "Grover search",
+      "description": "Quadratic speedup for unstructured search and its role as a subroutine.",
+      "prerequisites": ["found.qubits_and_gates"]
+    },
+    {
+      "id": "alg.phase_estimation",
+      "subfield_id": "algorithms",
+      "name": "Phase estimation & Shor",
+      "description": "Eigenvalue estimation and the factoring algorithm that motivates the quantum threat.",
+      "prerequisites": ["found.qubits_and_gates"]
+    },
+    {
+      "id": "alg.variational",
+      "subfield_id": "algorithms",
+      "name": "VQE & QAOA",
+      "description": "Parameterized circuits optimized by a classical loop for chemistry and optimization problems.",
+      "prerequisites": ["sw.sdks"]
+    },
+    {
+      "id": "alg.simulation",
+      "subfield_id": "algorithms",
+      "name": "Quantum simulation",
+      "description": "Simulating molecules and many-body systems, the most cited near-term application.",
+      "prerequisites": ["found.qubits_and_gates"]
+    },
+    {
+      "id": "alg.resource_estimation",
+      "subfield_id": "algorithms",
+      "name": "Resource estimation",
+      "description": "Counting the qubits and time a cryptographically relevant or useful computation needs.",
+      "prerequisites": ["alg.phase_estimation", "qec.logical_vs_physical"]
+    },
+    {
+      "id": "qml.variational_circuits",
+      "subfield_id": "qml",
+      "name": "Variational circuits for ML",
+      "description": "Parameterized quantum circuits used as model components in machine learning.",
+      "prerequisites": ["alg.variational"]
+    },
+    {
+      "id": "qml.kernels",
+      "subfield_id": "qml",
+      "name": "Quantum kernels",
+      "description": "Using quantum states to define feature-space similarities for kernel methods.",
+      "prerequisites": ["found.qubits_and_gates"]
+    },
+    {
+      "id": "qml.data_encoding",
+      "subfield_id": "qml",
+      "name": "Data encoding",
+      "description": "Map classical data into quantum states: amplitude, angle and basis encoding trade-offs.",
+      "prerequisites": ["found.qubits_and_gates"]
+    },
+    {
+      "id": "qml.barren_plateaus",
+      "subfield_id": "qml",
+      "name": "Barren plateaus",
+      "description": "Why gradients of random parameterized circuits can vanish exponentially with system size.",
+      "prerequisites": ["qml.variational_circuits"]
+    },
+    {
+      "id": "qml.hybrid_training",
+      "subfield_id": "qml",
+      "name": "Hybrid training loops",
+      "description": "Backpropagating through quantum-classical models with parameter-shift rules and optimizers.",
+      "prerequisites": ["qml.variational_circuits"]
+    },
+    {
+      "id": "cn.qkd",
+      "subfield_id": "crypto_net",
+      "name": "Quantum key distribution",
+      "description": "Provably secure key exchange from quantum measurement disturbance (BB84 and friends).",
+      "prerequisites": ["found.measurement"]
+    },
+    {
+      "id": "cn.threat_model",
+      "subfield_id": "crypto_net",
+      "name": "Quantum threat model (Shor's impact)",
+      "description": "Which public-key cryptography breaks under a large fault-tolerant quantum computer.",
+      "prerequisites": ["alg.phase_estimation"]
+    },
+    {
+      "id": "cn.pqc",
+      "subfield_id": "crypto_net",
+      "name": "Post-quantum cryptography",
+      "description": "Lattice-, hash- and code-based standards (ML-KEM, ML-DSA) resistant to quantum attack.",
+      "prerequisites": ["cn.threat_model"]
+    },
+    {
+      "id": "cn.entanglement_distribution",
+      "subfield_id": "crypto_net",
+      "name": "Entanglement distribution",
+      "description": "Sharing entangled pairs over distance through fiber, satellites and heralding.",
+      "prerequisites": ["found.entanglement"]
+    },
+    {
+      "id": "cn.repeaters",
+      "subfield_id": "crypto_net",
+      "name": "Quantum repeaters",
+      "description": "Entanglement swapping and error correction to extend quantum links beyond direct fiber reach.",
+      "prerequisites": ["cn.entanglement_distribution"]
+    }
+  ]
+}

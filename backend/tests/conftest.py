@@ -39,7 +39,7 @@ def _clean_env(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> Iterator[None
 
 @pytest.fixture()
 def client() -> Iterator[TestClient]:
-    """TestClient with lifespan running: tables created (and seed wired from step 0.3)."""
+    """TestClient with lifespan running: tables created and reference data seeded."""
     from app.main import create_app
 
     with TestClient(create_app()) as test_client:
@@ -48,7 +48,7 @@ def client() -> Iterator[TestClient]:
 
 @pytest.fixture()
 def db_session() -> Iterator[Session]:
-    """A session on the temp test database with tables created."""
+    """A session on the temp test database with tables created (no seed)."""
     from app.db.session import SessionLocal, init_db
 
     init_db()

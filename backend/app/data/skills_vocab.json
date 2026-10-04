@@ -1,0 +1,373 @@
+[
+  {
+    "id": "python",
+    "name": "Python",
+    "aliases": ["py"],
+    "subfield_ids": ["qec", "hardware", "software", "algorithms", "qml", "crypto_net"],
+    "concept_ids": []
+  },
+  {
+    "id": "cpp",
+    "name": "C++",
+    "aliases": ["cplusplus"],
+    "subfield_ids": ["qec", "hardware", "software"],
+    "concept_ids": []
+  },
+  {
+    "id": "rust",
+    "name": "Rust",
+    "aliases": [],
+    "subfield_ids": ["software", "qec"],
+    "concept_ids": []
+  },
+  {
+    "id": "julia",
+    "name": "Julia",
+    "aliases": [],
+    "subfield_ids": ["algorithms"],
+    "concept_ids": []
+  },
+  {
+    "id": "qiskit",
+    "name": "Qiskit",
+    "aliases": ["IBM Qiskit", "qiskit sdk"],
+    "subfield_ids": ["software", "algorithms", "qml"],
+    "concept_ids": []
+  },
+  {
+    "id": "cirq",
+    "name": "Cirq",
+    "aliases": [],
+    "subfield_ids": ["software", "algorithms"],
+    "concept_ids": []
+  },
+  {
+    "id": "pennylane",
+    "name": "PennyLane",
+    "aliases": [],
+    "subfield_ids": ["qml", "algorithms"],
+    "concept_ids": []
+  },
+  {
+    "id": "cuda_q",
+    "name": "CUDA-Q",
+    "aliases": ["CUDA Quantum"],
+    "subfield_ids": ["software", "algorithms"],
+    "concept_ids": []
+  },
+  {
+    "id": "braket",
+    "name": "Amazon Braket",
+    "aliases": ["AWS Braket"],
+    "subfield_ids": ["software"],
+    "concept_ids": []
+  },
+  {
+    "id": "qsharp",
+    "name": "Q# / Azure Quantum",
+    "aliases": ["Azure Quantum", "QDK"],
+    "subfield_ids": ["software", "algorithms"],
+    "concept_ids": []
+  },
+  {
+    "id": "openqasm",
+    "name": "OpenQASM",
+    "aliases": ["QASM"],
+    "subfield_ids": ["software"],
+    "concept_ids": []
+  },
+  {
+    "id": "tket",
+    "name": "TKET / pytket",
+    "aliases": ["pytket"],
+    "subfield_ids": ["software"],
+    "concept_ids": []
+  },
+  {
+    "id": "stim",
+    "name": "Stim",
+    "aliases": [],
+    "subfield_ids": ["qec"],
+    "concept_ids": []
+  },
+  {
+    "id": "pymatching",
+    "name": "PyMatching",
+    "aliases": ["MWPM"],
+    "subfield_ids": ["qec"],
+    "concept_ids": []
+  },
+  {
+    "id": "circuit_compilation",
+    "name": "Circuit compilation & transpilation",
+    "aliases": ["transpilation", "qubit routing", "circuit optimization"],
+    "subfield_ids": ["software"],
+    "concept_ids": []
+  },
+  {
+    "id": "llvm_mlir",
+    "name": "LLVM / MLIR",
+    "aliases": ["compiler infrastructure"],
+    "subfield_ids": ["software"],
+    "concept_ids": []
+  },
+  {
+    "id": "hpc",
+    "name": "HPC / parallel computing",
+    "aliases": ["MPI", "Slurm", "supercomputing"],
+    "subfield_ids": ["software", "algorithms"],
+    "concept_ids": []
+  },
+  {
+    "id": "gpu_programming",
+    "name": "GPU programming",
+    "aliases": ["CUDA", "GPU computing"],
+    "subfield_ids": ["software", "algorithms"],
+    "concept_ids": []
+  },
+  {
+    "id": "software_engineering",
+    "name": "Software engineering practices",
+    "aliases": ["testing", "CI/CD", "version control"],
+    "subfield_ids": ["qec", "hardware", "software", "algorithms", "qml", "crypto_net"],
+    "concept_ids": []
+  },
+  {
+    "id": "linear_algebra",
+    "name": "Linear algebra",
+    "aliases": [],
+    "subfield_ids": ["qec", "hardware", "software", "algorithms", "qml", "crypto_net"],
+    "concept_ids": []
+  },
+  {
+    "id": "quantum_mechanics",
+    "name": "Quantum mechanics",
+    "aliases": [],
+    "subfield_ids": ["qec", "hardware", "software", "algorithms", "qml", "crypto_net"],
+    "concept_ids": []
+  },
+  {
+    "id": "quantum_information",
+    "name": "Quantum information theory",
+    "aliases": [],
+    "subfield_ids": ["qec", "hardware", "software", "algorithms", "qml", "crypto_net"],
+    "concept_ids": []
+  },
+  {
+    "id": "probability_stats",
+    "name": "Probability & statistics",
+    "aliases": [],
+    "subfield_ids": ["algorithms", "qec", "hardware"],
+    "concept_ids": []
+  },
+  {
+    "id": "stabilizer_formalism",
+    "name": "Stabilizer formalism",
+    "aliases": ["stabilizer codes"],
+    "subfield_ids": ["qec"],
+    "concept_ids": []
+  },
+  {
+    "id": "surface_codes",
+    "name": "Surface codes",
+    "aliases": ["topological codes"],
+    "subfield_ids": ["qec"],
+    "concept_ids": []
+  },
+  {
+    "id": "ldpc_codes",
+    "name": "qLDPC / LDPC codes",
+    "aliases": [],
+    "subfield_ids": ["qec"],
+    "concept_ids": []
+  },
+  {
+    "id": "decoding_algorithms",
+    "name": "Decoding algorithms",
+    "aliases": ["decoder", "belief propagation", "union-find"],
+    "subfield_ids": ["qec"],
+    "concept_ids": []
+  },
+  {
+    "id": "noise_modeling",
+    "name": "Noise modeling & characterization",
+    "aliases": ["randomized benchmarking", "tomography"],
+    "subfield_ids": ["qec", "hardware"],
+    "concept_ids": []
+  },
+  {
+    "id": "error_mitigation",
+    "name": "Error mitigation",
+    "aliases": ["ZNE", "zero-noise extrapolation"],
+    "subfield_ids": ["software", "algorithms"],
+    "concept_ids": []
+  },
+  {
+    "id": "variational_algorithms",
+    "name": "Variational algorithms",
+    "aliases": ["VQE", "QAOA"],
+    "subfield_ids": ["algorithms", "qml"],
+    "concept_ids": []
+  },
+  {
+    "id": "quantum_simulation",
+    "name": "Quantum simulation",
+    "aliases": ["Hamiltonian simulation"],
+    "subfield_ids": ["algorithms"],
+    "concept_ids": []
+  },
+  {
+    "id": "quantum_chemistry",
+    "name": "Quantum chemistry",
+    "aliases": ["molecular simulation"],
+    "subfield_ids": ["algorithms"],
+    "concept_ids": []
+  },
+  {
+    "id": "optimization",
+    "name": "Optimization",
+    "aliases": ["combinatorial optimization", "operations research"],
+    "subfield_ids": ["algorithms"],
+    "concept_ids": []
+  },
+  {
+    "id": "resource_estimation",
+    "name": "Resource estimation",
+    "aliases": [],
+    "subfield_ids": ["algorithms", "qec"],
+    "concept_ids": []
+  },
+  {
+    "id": "tensor_networks",
+    "name": "Tensor networks",
+    "aliases": [],
+    "subfield_ids": ["algorithms", "qml"],
+    "concept_ids": []
+  },
+  {
+    "id": "machine_learning",
+    "name": "Machine learning",
+    "aliases": ["ML", "deep learning"],
+    "subfield_ids": ["qml"],
+    "concept_ids": []
+  },
+  {
+    "id": "pytorch",
+    "name": "PyTorch",
+    "aliases": [],
+    "subfield_ids": ["qml"],
+    "concept_ids": []
+  },
+  {
+    "id": "tensorflow",
+    "name": "TensorFlow",
+    "aliases": [],
+    "subfield_ids": ["qml"],
+    "concept_ids": []
+  },
+  {
+    "id": "superconducting_qubits",
+    "name": "Superconducting qubits",
+    "aliases": ["transmon", "circuit QED"],
+    "subfield_ids": ["hardware"],
+    "concept_ids": []
+  },
+  {
+    "id": "trapped_ions",
+    "name": "Trapped ions",
+    "aliases": ["ion trap"],
+    "subfield_ids": ["hardware"],
+    "concept_ids": []
+  },
+  {
+    "id": "neutral_atoms",
+    "name": "Neutral atoms",
+    "aliases": ["Rydberg arrays", "optical tweezers"],
+    "subfield_ids": ["hardware"],
+    "concept_ids": []
+  },
+  {
+    "id": "photonic_quantum",
+    "name": "Photonic quantum computing",
+    "aliases": ["integrated photonics"],
+    "subfield_ids": ["hardware"],
+    "concept_ids": []
+  },
+  {
+    "id": "cryogenics",
+    "name": "Cryogenics",
+    "aliases": ["dilution refrigerator"],
+    "subfield_ids": ["hardware"],
+    "concept_ids": []
+  },
+  {
+    "id": "microwave_rf",
+    "name": "Microwave / RF engineering",
+    "aliases": ["RF"],
+    "subfield_ids": ["hardware"],
+    "concept_ids": []
+  },
+  {
+    "id": "control_electronics",
+    "name": "Control electronics & FPGAs",
+    "aliases": ["FPGA", "Verilog", "VHDL", "RFSoC", "real-time control"],
+    "subfield_ids": ["hardware", "qec"],
+    "concept_ids": []
+  },
+  {
+    "id": "optics_lasers",
+    "name": "Optics & lasers",
+    "aliases": [],
+    "subfield_ids": ["hardware"],
+    "concept_ids": []
+  },
+  {
+    "id": "pulse_control",
+    "name": "Pulse-level control & calibration",
+    "aliases": ["calibration"],
+    "subfield_ids": ["hardware"],
+    "concept_ids": []
+  },
+  {
+    "id": "nanofabrication",
+    "name": "Nanofabrication",
+    "aliases": ["cleanroom"],
+    "subfield_ids": ["hardware"],
+    "concept_ids": []
+  },
+  {
+    "id": "pqc",
+    "name": "Post-quantum cryptography",
+    "aliases": ["PQC", "lattice-based cryptography", "ML-KEM", "ML-DSA"],
+    "subfield_ids": ["crypto_net"],
+    "concept_ids": []
+  },
+  {
+    "id": "qkd",
+    "name": "Quantum key distribution",
+    "aliases": ["BB84"],
+    "subfield_ids": ["crypto_net"],
+    "concept_ids": []
+  },
+  {
+    "id": "applied_cryptography",
+    "name": "Applied cryptography",
+    "aliases": [],
+    "subfield_ids": ["crypto_net"],
+    "concept_ids": []
+  },
+  {
+    "id": "quantum_networking",
+    "name": "Quantum networking",
+    "aliases": ["quantum repeaters", "entanglement distribution"],
+    "subfield_ids": ["crypto_net"],
+    "concept_ids": []
+  },
+  {
+    "id": "network_protocols",
+    "name": "Network protocols",
+    "aliases": ["TCP/IP"],
+    "subfield_ids": ["crypto_net"],
+    "concept_ids": []
+  }
+]
