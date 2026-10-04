@@ -6,7 +6,6 @@ export function HealthBadge() {
   const { data, isLoading, isError } = useQuery({
     queryKey: ['health'],
     queryFn: getHealth,
-    retry: 1,
     refetchInterval: 30000,
   });
 
