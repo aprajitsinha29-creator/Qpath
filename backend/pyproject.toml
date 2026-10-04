@@ -1,0 +1,56 @@
+# Backend project configuration: dependencies, dev extras, ruff and pytest.
+# Approved stack only — see AGENTS.md 3.2.
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quantum-pathfinder-backend"
+version = "0.1.0" # keep in sync with app.__version__
+description = "Backend for Quantum Pathfinder, a live-data career navigator for quantum computing"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "pydantic>=2",
+    "pydantic-settings>=2",
+    "sqlalchemy>=2.0",
+    "httpx",
+    "google-genai",
+    "apscheduler>=3.10,<4", # 4.x is a different API; never mix (AGENTS.md 3.2)
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "pytest-cov",
+    "ruff",
+]
+
+[tool.setuptools.packages.find]
+include = ["app*"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+extend-exclude = [".venv"]
+
+[tool.ruff.lint]
+# B008 flags `Depends(...)` in argument defaults, which is FastAPI's official
+# dependency-injection idiom — see fastapi.tiangolo.com/advanced/dependencies/.
+ignore = ["B008"]
+select = [
+    "E", # pycodestyle errors
+    "F", # pyflakes
+    "I", # import sorting
+    "B", # flake8-bugbear (likely bugs)
+    "UP", # pyupgrade (modern syntax)
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "--strict-markers"
+markers = [
+    "live: needs real external APIs and credentials; never enabled by default",
+]
