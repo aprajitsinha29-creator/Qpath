@@ -292,7 +292,7 @@ quantum-pathfinder/
 3. Modes: `SERPAPI_USE_FIXTURES=true` reads recorded JSON from `tests/fixtures/serpapi/`; `false` calls live. Live calls are limited by `SERPAPI_DAILY_CALL_CAP` (counted from the call log, UTC day) and raise `SerpApiCapExceeded` beyond it.
 4. Every call (live or fixture) is written to `serpapi_call_log` with engine, query, source (`live`/`fixture`), status. The UI's "SerpApi activity" panel reads from it.
 5. The API key is passed only as a query parameter at call time, never logged, never stored, never included in fixtures (scrub `api_key` from anything saved).
-6. Timeouts: 30 s. Retry once on timeout/5xx; never retry 4xx. A response body containing an `error` field is a `SerpApiError`.
+6. Timeouts: 30 s. Retry once on timeout/5xx; never retry 4xx. A response body containing an `error` field is a `SerpApiError` (except the "no results" message containing "hasn't returned any results", which is treated as a valid empty result and logged with status "empty").
 7. **Treat every response field as optional** except what a parser explicitly requires (job: `title`, `company_name`). Use `.get()` with defaults; skip and log malformed items rather than crashing.
 8. Google Jobs pagination uses `serpapi_pagination.next_page_token`; never use `start`. `location` and `uule` are mutually exclusive.
 9. Do not compute trends from Scholar `total_results`.
@@ -760,7 +760,7 @@ Repo root folder on your machine is `Qpath`; the tree in Section 3.1 uses the na
 **0.4 SerpApi client** (`app/integrations/serpapi/`)
 1. `client.py` — class `SerpApiClient(settings, db_session_factory, http_client=None)` with `search(engine, params, *, fixture_variant: str) -> dict`:
    - Fixture mode: read `tests/fixtures/serpapi/<engine>__<slug(q)>__<fixture_variant>.json`; missing file → `FixtureMissingError` (callers treat it as "no more data", log it).
-   - Live mode: check today's live-call count in `serpapi_call_log` against `SERPAPI_DAILY_CALL_CAP` → `SerpApiCapExceeded`; `GET https://serpapi.com/search.json` with `engine`, params and `api_key`; timeout 30 s; one retry on timeout/5xx; body with an `error` key → `SerpApiError`.
+   - Live mode: check today's live-call count in `serpapi_call_log` against `SERPAPI_DAILY_CALL_CAP` → `SerpApiCapExceeded`; `GET https://serpapi.com/search.json` with `engine`, params and `api_key`; timeout 30 s; one retry on timeout/5xx; body with an `error` key → `SerpApiError` (except the "no results" message containing "hasn't returned any results", which returns the empty body and logs status "empty").
    - Every call (either mode) writes a `serpapi_call_log` row (engine, query, source, status). The key is never logged or stored.
 2. Typed helpers: `search_jobs(query, *, location=None, gl=None, next_page_token=None, fixture_variant)` and `search_scholar(query, *, num=20, recent_only=True, fixture_variant)` (`recent_only` → `scisbd=1`). `hl=en` always.
 3. `queries.py`: `QuerySpec` dataclass and the plans from Section 4.6 (`JOB_QUERY_PLAN`, `SCHOLAR_QUERY_PLAN`, `FIXTURE_PLAN`). Fixture variants: jobs `global_p1`, `global_p2`, `india_p1`; scholar `recent`.

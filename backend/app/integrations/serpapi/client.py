@@ -7,7 +7,8 @@ Two modes behind one ``search()``:
 - **live mode**: ``GET https://serpapi.com/search.json`` with the ``api_key``
   passed only as a query parameter at call time, a 30 s timeout, one retry on
   timeout/5xx and never on 4xx; a body containing ``error`` raises
-  :class:`SerpApiError`.
+  :class:`SerpApiError` (except the "no results" message, which logs status
+  "empty" and returns the body).
 
 Every call — either mode — writes one ``serpapi_call_log`` row (engine, query,
 source, status) which drives the daily cap and the UI's activity panel. The key
@@ -92,6 +93,28 @@ def _scrub_text(text: str, api_key: str) -> str:
     if not api_key:
         return text
     return text.replace(api_key, "***")
+
+
+#: Case-insensitive substring in error body indicating a valid query with no results.
+NO_RESULTS_MESSAGE_SUBSTRING = "hasn't returned any results"
+
+
+def is_empty_result(payload: dict[str, Any]) -> bool:
+    """Return True if a SerpApi response body indicates a valid query with no results.
+
+    SerpApi returns an ``error`` field with "Google hasn't returned any results
+    for this query." when a query simply matches nothing.
+
+    Args:
+        payload: parsed JSON response body.
+
+    Returns:
+        True if the payload contains an error indicating no results, False otherwise.
+    """
+    error = payload.get("error")
+    if error is None:
+        return False
+    return NO_RESULTS_MESSAGE_SUBSTRING in str(error).lower()
 
 
 class SerpApiClient:
@@ -333,6 +356,9 @@ class SerpApiClient:
             self._log_call(engine, query, "live", "error")
             raise SerpApiError("SerpApi returned an unexpected JSON payload")
         if "error" in body:
+            if is_empty_result(body):
+                self._log_call(engine, query, "live", "empty")
+                return body
             message = _scrub_text(str(body["error"]), api_key)
             self._log_call(engine, query, "live", "error")
             raise SerpApiError(f"SerpApi error: {message}")

@@ -29,6 +29,7 @@ from app.db.session import SessionLocal, init_db
 from app.integrations.serpapi.client import (
     SerpApiClient,
     fixture_file_name,
+    is_empty_result,
     scrub_api_key,
 )
 from app.integrations.serpapi.queries import FIXTURE_PLAN, FixtureSpec, estimate_fixture_calls
@@ -98,7 +99,8 @@ def _record_one(
         force: overwrite an existing file.
 
     Returns:
-        ``(status, payload, path)`` with status ``recorded``/``skipped``/``failed``;
+        ``(status, payload, path)`` with status
+        ``recorded``/``recorded (empty)``/``skipped``/``failed``;
         payload is only present when freshly recorded.
     """
     path = FIXTURE_DIR / fixture_file_name(spec.engine, spec.query, variant)
@@ -126,6 +128,9 @@ def _record_one(
         json.dumps(scrub_api_key(payload), indent=2, ensure_ascii=False) + "\n",
         encoding="utf-8",
     )
+    if is_empty_result(payload):
+        logger.info("saved (empty): %s", path.name)
+        return "recorded (empty)", payload, path
     logger.info("saved: %s", path.name)
     return "recorded", payload, path
 
@@ -166,7 +171,12 @@ def main(argv: list[str] | None = None) -> int:
     init_db()  # serpapi_call_log must exist: every live call is logged (AGENTS 3.4.4)
     FIXTURE_DIR.mkdir(parents=True, exist_ok=True)
     client = SerpApiClient(settings, SessionLocal, fixture_dir=FIXTURE_DIR)
-    counts: dict[str, int] = {"recorded": 0, "skipped": 0, "failed": 0}
+    counts: dict[str, int] = {
+        "recorded": 0,
+        "recorded (empty)": 0,
+        "skipped": 0,
+        "failed": 0,
+    }
     try:
         for spec in FIXTURE_PLAN:
             status, payload, path = _record_one(
@@ -195,8 +205,9 @@ def main(argv: list[str] | None = None) -> int:
         client.close()
 
     logger.info(
-        "summary: %d recorded, %d skipped (already present), %d failed",
+        "summary: %d recorded, %d recorded (empty), %d skipped (already present), %d failed",
         counts["recorded"],
+        counts["recorded (empty)"],
         counts["skipped"],
         counts["failed"],
     )

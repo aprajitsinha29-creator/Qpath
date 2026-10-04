@@ -137,6 +137,25 @@ def test_serpapi_client_raises_on_error_body(
     assert status == "error"
 
 
+def test_serpapi_client_treats_no_results_error_as_empty_result(
+    tmp_path: Path, session_factory: Callable[[], Session]
+) -> None:
+    """A 'no results' error body returns without raising and logs status=empty."""
+    empty_body = {"error": "Google hasn't returned any results for this query."}
+    client = _live_client(
+        lambda request: httpx.Response(200, json=empty_body),
+        session_factory,
+        tmp_path,
+    )
+
+    result = client.search_jobs("quantum", fixture_variant="global_p1")
+
+    assert result == empty_body
+    with session_factory() as session:
+        status = session.scalar(select(SerpApiCallLog.status))
+    assert status == "empty"
+
+
 def test_serpapi_client_retries_once_on_5xx(
     tmp_path: Path, session_factory: Callable[[], Session]
 ) -> None:

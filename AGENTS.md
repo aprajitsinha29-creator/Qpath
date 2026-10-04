@@ -100,7 +100,7 @@ quantum-pathfinder/
 3. Modes: `SERPAPI_USE_FIXTURES=true` reads recorded JSON from `tests/fixtures/serpapi/`; `false` calls live. Live calls are limited by `SERPAPI_DAILY_CALL_CAP` (counted from the call log, UTC day) and raise `SerpApiCapExceeded` beyond it.
 4. Every call (live or fixture) is written to `serpapi_call_log` with engine, query, source (`live`/`fixture`), status. The UI's "SerpApi activity" panel reads from it.
 5. The API key is passed only as a query parameter at call time, never logged, never stored, never included in fixtures (scrub `api_key` from anything saved).
-6. Timeouts: 30 s. Retry once on timeout/5xx; never retry 4xx. A response body containing an `error` field is a `SerpApiError`.
+6. Timeouts: 30 s. Retry once on timeout/5xx; never retry 4xx. A response body containing an `error` field is a `SerpApiError` (except the "no results" message containing "hasn't returned any results", which is treated as a valid empty result and logged with status "empty").
 7. **Treat every response field as optional** except what a parser explicitly requires (job: `title`, `company_name`). Use `.get()` with defaults; skip and log malformed items rather than crashing.
 8. Google Jobs pagination uses `serpapi_pagination.next_page_token`; never use `start`. `location` and `uule` are mutually exclusive.
 9. Do not compute trends from Scholar `total_results`.

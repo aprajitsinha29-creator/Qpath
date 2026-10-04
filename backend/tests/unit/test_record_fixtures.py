@@ -3,12 +3,17 @@
 from __future__ import annotations
 
 import importlib.util
+import json
 from pathlib import Path
 from types import ModuleType
 
+import httpx
 import pytest
+from sqlalchemy.orm import Session
 
-from app.core.config import get_settings
+from app.core.config import Settings, get_settings
+from app.integrations.serpapi.client import SerpApiClient
+from app.integrations.serpapi.queries import FixtureSpec
 
 _SCRIPT = Path(__file__).resolve().parents[2] / "scripts" / "record_fixtures.py"
 
@@ -63,3 +68,33 @@ def test_record_fixtures_force_flag_parses() -> None:
 
     assert module.build_parser().parse_args([]).force is False
     assert module.build_parser().parse_args(["--force"]).force is True
+
+
+def test_record_one_saves_empty_result_as_recorded_empty(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch, db_session: Session
+) -> None:
+    """An empty response from SerpApi is saved as a fixture and reported as 'recorded (empty)'."""
+    module = _load_module()
+    monkeypatch.setattr(module, "FIXTURE_DIR", tmp_path)
+
+    empty_payload = {"error": "Google hasn't returned any results for this query."}
+    settings = Settings(
+        serpapi_use_fixtures=False,
+        serpapi_api_key="test-api-key",
+        serpapi_daily_call_cap=60,
+    )
+    http = httpx.Client(
+        transport=httpx.MockTransport(lambda request: httpx.Response(200, json=empty_payload))
+    )
+    client = SerpApiClient(settings, lambda: db_session, http_client=http, fixture_dir=tmp_path)
+    spec = FixtureSpec(engine="google_jobs", query="quantum obscure role", variant="global_p1")
+
+    status, payload, path = module._record_one(
+        client, spec, variant="global_p1", next_page_token=None, force=False
+    )
+
+    assert status == "recorded (empty)"
+    assert status != "failed"
+    assert payload == empty_payload
+    assert path.is_file()
+    assert json.loads(path.read_text(encoding="utf-8")) == empty_payload
