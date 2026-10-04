@@ -1,0 +1,201 @@
+{
+  "search_metadata": {
+    "id": "6ac28cf8936151524d93f151",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/89A0lJx0hnPyMEY0v-tHqhj_idzRUIlxOL08Cm0Mazw/6ac28cf8936151524d93f151.json",
+    "markdown_endpoint": "https://serpapi.com/searches/89A0lJx0hnPyMEY0v-tHqhj_idzRUIlxOL08Cm0Mazw/6ac28cf8936151524d93f151.md",
+    "created_at": "2026-10-04 17:29:28 UTC",
+    "processed_at": "2026-10-04 17:29:28 UTC",
+    "google_jobs_url": "https://www.google.com/search?q=quantum+error+correction&uule=w+CAIQICIFSW5kaWE&hl=en&gl=in&udm=8",
+    "raw_html_file": "https://serpapi.com/searches/89A0lJx0hnPyMEY0v-tHqhj_idzRUIlxOL08Cm0Mazw/6ac28cf8936151524d93f151.html",
+    "total_time_taken": 2.16
+  },
+  "search_parameters": {
+    "q": "quantum error correction",
+    "engine": "google_jobs",
+    "location_requested": "India",
+    "location_used": "India",
+    "google_domain": "google.com",
+    "hl": "en",
+    "gl": "in"
+  },
+  "filters": [
+    {
+      "name": "Remote",
+      "parameters": {
+        "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rhfEV-4K40i-ZaIQJgdggp-7WVZl7zINmGTkfwtBzOBec5pQ-NtZ7D8LPCF8AXwdW2OtKxCk6QSWPeaTfyFXAr4R4xQbH_oez19716y3QN3UrCP9ywerS6-eW6zcPCRmj6zaWm39OUWSwUGy4XQqGTkMsd0LYD3A5WcNz4LtZs2PkOyMb",
+        "q": "quantum error correction remote"
+      },
+      "link": "https://www.google.com/search?sca_esv=fa8fc3aacbaacd94&hl=en&gl=in&sxsrf=APpeQnsAlwaY_aHZPpfMFxLBx_ZBXvbjSg:1791134970915&q=quantum+error+correction+remote&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rhfEV-4K40i-ZaIQJgdggp-7WVZl7zINmGTkfwtBzOBec5pQ-NtZ7D8LPCF8AXwdW2OtKxCk6QSWPeaTfyFXAr4R4xQbH_oez19716y3QN3UrCP9ywerS6-eW6zcPCRmj6zaWm39OUWSwUGy4XQqGTkMsd0LYD3A5WcNz4LtZs2PkOyMb&udm=8&sa=X&ved=2ahUKEwilkL7d8aCXAxUEAHkGHfzlBt4QxKsJKAB6BAgZEAE&ictx=0",
+      "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=quantum+error+correction+remote&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rhfEV-4K40i-ZaIQJgdggp-7WVZl7zINmGTkfwtBzOBec5pQ-NtZ7D8LPCF8AXwdW2OtKxCk6QSWPeaTfyFXAr4R4xQbH_oez19716y3QN3UrCP9ywerS6-eW6zcPCRmj6zaWm39OUWSwUGy4XQqGTkMsd0LYD3A5WcNz4LtZs2PkOyMb"
+    },
+    {
+      "name": "Job type",
+      "options": [
+        {
+          "name": "Full time",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rOXaF_MuSFyN549V3IFM46DhiFzynt8EKAU3ptWdK8mM4mAAX4hDOGdFc09RD8QDJPnLj6gexodsn2QcUxNkwELmXrlF3dVcPnsbjXSNS2_IV6IvxyYVJ05SMHaCAloGhE7XzyjoO_V3PN0rEzuc8xYVZTA9abSvxDLdcObEPqIh_oQKwBK1TLaL-wgcC8trdA-dt-w0slQnyPdn_-O09Ic7awT8OI3Snvum_Gj3oOtHNewe58xFFB3dFpyEqrO5ko-ar0oYGlW2bN-yXAVhORpa5l7f1BVS8xwjx6pGNKaRzbkKHwqjdFNPRdx7ra5vEXHsYDFognIOs2jTSBYHEOV4FMSQ",
+            "q": "quantum error correction full time"
+          },
+          "link": "https://www.google.com/search?sca_esv=fa8fc3aacbaacd94&hl=en&gl=in&sxsrf=APpeQnsAlwaY_aHZPpfMFxLBx_ZBXvbjSg:1791134970915&q=quantum+error+correction+full+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rOXaF_MuSFyN549V3IFM46DhiFzynt8EKAU3ptWdK8mM4mAAX4hDOGdFc09RD8QDJPnLj6gexodsn2QcUxNkwELmXrlF3dVcPnsbjXSNS2_IV6IvxyYVJ05SMHaCAloGhE7XzyjoO_V3PN0rEzuc8xYVZTA9abSvxDLdcObEPqIh_oQKwBK1TLaL-wgcC8trdA-dt-w0slQnyPdn_-O09Ic7awT8OI3Snvum_Gj3oOtHNewe58xFFB3dFpyEqrO5ko-ar0oYGlW2bN-yXAVhORpa5l7f1BVS8xwjx6pGNKaRzbkKHwqjdFNPRdx7ra5vEXHsYDFognIOs2jTSBYHEOV4FMSQ&udm=8&sa=X&ved=2ahUKEwilkL7d8aCXAxUEAHkGHfzlBt4QkbEKegQIGxAC",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=quantum+error+correction+full+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rOXaF_MuSFyN549V3IFM46DhiFzynt8EKAU3ptWdK8mM4mAAX4hDOGdFc09RD8QDJPnLj6gexodsn2QcUxNkwELmXrlF3dVcPnsbjXSNS2_IV6IvxyYVJ05SMHaCAloGhE7XzyjoO_V3PN0rEzuc8xYVZTA9abSvxDLdcObEPqIh_oQKwBK1TLaL-wgcC8trdA-dt-w0slQnyPdn_-O09Ic7awT8OI3Snvum_Gj3oOtHNewe58xFFB3dFpyEqrO5ko-ar0oYGlW2bN-yXAVhORpa5l7f1BVS8xwjx6pGNKaRzbkKHwqjdFNPRdx7ra5vEXHsYDFognIOs2jTSBYHEOV4FMSQ"
+        },
+        {
+          "name": "Part time",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rOXaF_MuSFyN549V3IFM46DhiFzynt8EKAU3ptWdK8mM4mAAX4hDOGdFc09RD8QDJ4h5CFX6hEsWH7HBaaUfKgQt1uov9quOOl1Ffyhz4nnKmsLbzVu2jPVgv9SCqWbw6HQ1YPSFq5eh8qYp0uFU-5INKmh-rlhXsEAkW8tkFzM9Tlzi7p2yJ9T3_l-vxldLGwTG5Uf_d6Y8DpnoWCh0gs5atsCPvSQLXzULjl9S3ffmPFUugZEgGmmZmV4z5T_nMkrB5OEYWtJM2goGkOK7MXBlR1x9tIVW2qFZpXOf9VF7iob2LvXeZNF1HaTbNWW4fod-ZvhoAxHZrErCiBcQXJWR9jmE",
+            "q": "quantum error correction part time"
+          },
+          "link": "https://www.google.com/search?sca_esv=fa8fc3aacbaacd94&hl=en&gl=in&sxsrf=APpeQnsAlwaY_aHZPpfMFxLBx_ZBXvbjSg:1791134970915&q=quantum+error+correction+part+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rOXaF_MuSFyN549V3IFM46DhiFzynt8EKAU3ptWdK8mM4mAAX4hDOGdFc09RD8QDJ4h5CFX6hEsWH7HBaaUfKgQt1uov9quOOl1Ffyhz4nnKmsLbzVu2jPVgv9SCqWbw6HQ1YPSFq5eh8qYp0uFU-5INKmh-rlhXsEAkW8tkFzM9Tlzi7p2yJ9T3_l-vxldLGwTG5Uf_d6Y8DpnoWCh0gs5atsCPvSQLXzULjl9S3ffmPFUugZEgGmmZmV4z5T_nMkrB5OEYWtJM2goGkOK7MXBlR1x9tIVW2qFZpXOf9VF7iob2LvXeZNF1HaTbNWW4fod-ZvhoAxHZrErCiBcQXJWR9jmE&udm=8&sa=X&ved=2ahUKEwilkL7d8aCXAxUEAHkGHfzlBt4QkbEKegQIGxAD",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=quantum+error+correction+part+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rOXaF_MuSFyN549V3IFM46DhiFzynt8EKAU3ptWdK8mM4mAAX4hDOGdFc09RD8QDJ4h5CFX6hEsWH7HBaaUfKgQt1uov9quOOl1Ffyhz4nnKmsLbzVu2jPVgv9SCqWbw6HQ1YPSFq5eh8qYp0uFU-5INKmh-rlhXsEAkW8tkFzM9Tlzi7p2yJ9T3_l-vxldLGwTG5Uf_d6Y8DpnoWCh0gs5atsCPvSQLXzULjl9S3ffmPFUugZEgGmmZmV4z5T_nMkrB5OEYWtJM2goGkOK7MXBlR1x9tIVW2qFZpXOf9VF7iob2LvXeZNF1HaTbNWW4fod-ZvhoAxHZrErCiBcQXJWR9jmE"
+        },
+        {
+          "name": "Contract",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rG01LnmfvnJTW_6ToXL_UJFiK_osPuuEMbjg0A-8EFXg2u9oS0zd7zOCyUX4q3I3EM8yDt8HbegmElX0KMoIAnCfYPx-pOPOYS6OCKbI7eWrKJd7AlncVaaIHl3fDKfb5h0ClbmsP3vGsgjU2us1fmhE1vRl9bzQq9-WcnaH-Fx0qbt4qgHvBV6VKpSD2uwuLZzDym8B4_P8utDxXTc2efQ083_aTlU18lW2ljx_JncTACM9r2_alJiMF_2qenjVZkBmC4Z9kOWneNoNNMYf0LfhH8JjpaotJSPlPlfXyUiOTAo5x27z-BZ7iGh4MJVdq5WdHvQ",
+            "q": "quantum error correction contract"
+          },
+          "link": "https://www.google.com/search?sca_esv=fa8fc3aacbaacd94&hl=en&gl=in&sxsrf=APpeQnsAlwaY_aHZPpfMFxLBx_ZBXvbjSg:1791134970915&q=quantum+error+correction+contract&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rG01LnmfvnJTW_6ToXL_UJFiK_osPuuEMbjg0A-8EFXg2u9oS0zd7zOCyUX4q3I3EM8yDt8HbegmElX0KMoIAnCfYPx-pOPOYS6OCKbI7eWrKJd7AlncVaaIHl3fDKfb5h0ClbmsP3vGsgjU2us1fmhE1vRl9bzQq9-WcnaH-Fx0qbt4qgHvBV6VKpSD2uwuLZzDym8B4_P8utDxXTc2efQ083_aTlU18lW2ljx_JncTACM9r2_alJiMF_2qenjVZkBmC4Z9kOWneNoNNMYf0LfhH8JjpaotJSPlPlfXyUiOTAo5x27z-BZ7iGh4MJVdq5WdHvQ&udm=8&sa=X&ved=2ahUKEwilkL7d8aCXAxUEAHkGHfzlBt4QkbEKegQIGxAE",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=quantum+error+correction+contract&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rG01LnmfvnJTW_6ToXL_UJFiK_osPuuEMbjg0A-8EFXg2u9oS0zd7zOCyUX4q3I3EM8yDt8HbegmElX0KMoIAnCfYPx-pOPOYS6OCKbI7eWrKJd7AlncVaaIHl3fDKfb5h0ClbmsP3vGsgjU2us1fmhE1vRl9bzQq9-WcnaH-Fx0qbt4qgHvBV6VKpSD2uwuLZzDym8B4_P8utDxXTc2efQ083_aTlU18lW2ljx_JncTACM9r2_alJiMF_2qenjVZkBmC4Z9kOWneNoNNMYf0LfhH8JjpaotJSPlPlfXyUiOTAo5x27z-BZ7iGh4MJVdq5WdHvQ"
+        },
+        {
+          "name": "Internship",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4r7hOUA05M1a03bn-LSaBMseiK-RLZwjw8PAOybv1mnGdK-RNYN54XFSCid2lq8hemEuw1s1Z9xTxa9yCnRPQ1knhfcatdgK_nn2Xxf4ZmgvIactf6hmy3tC3Frr_faQa7F-UUZOLfM6KXsgrm1SP9JWq2vhtzwSE3-E6Dzf0H2fiqdxtcU69FiUXOCZXwhCeIfOEeKazwCPuqlLV2N6Vn8aCQa2-uBlkDbNzAys3sZbVu7q_c4sasihyyz-Gguc2AST4GbGmuGVS2YKv3gCjeoJiZSmzihiM4umEfwyQ7U3VVitu0dPtvOfcAmCqKwpDAUSNXIA",
+            "q": "quantum error correction internship"
+          },
+          "link": "https://www.google.com/search?sca_esv=fa8fc3aacbaacd94&hl=en&gl=in&sxsrf=APpeQnsAlwaY_aHZPpfMFxLBx_ZBXvbjSg:1791134970915&q=quantum+error+correction+internship&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r7hOUA05M1a03bn-LSaBMseiK-RLZwjw8PAOybv1mnGdK-RNYN54XFSCid2lq8hemEuw1s1Z9xTxa9yCnRPQ1knhfcatdgK_nn2Xxf4ZmgvIactf6hmy3tC3Frr_faQa7F-UUZOLfM6KXsgrm1SP9JWq2vhtzwSE3-E6Dzf0H2fiqdxtcU69FiUXOCZXwhCeIfOEeKazwCPuqlLV2N6Vn8aCQa2-uBlkDbNzAys3sZbVu7q_c4sasihyyz-Gguc2AST4GbGmuGVS2YKv3gCjeoJiZSmzihiM4umEfwyQ7U3VVitu0dPtvOfcAmCqKwpDAUSNXIA&udm=8&sa=X&ved=2ahUKEwilkL7d8aCXAxUEAHkGHfzlBt4QkbEKegQIGxAF",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=quantum+error+correction+internship&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r7hOUA05M1a03bn-LSaBMseiK-RLZwjw8PAOybv1mnGdK-RNYN54XFSCid2lq8hemEuw1s1Z9xTxa9yCnRPQ1knhfcatdgK_nn2Xxf4ZmgvIactf6hmy3tC3Frr_faQa7F-UUZOLfM6KXsgrm1SP9JWq2vhtzwSE3-E6Dzf0H2fiqdxtcU69FiUXOCZXwhCeIfOEeKazwCPuqlLV2N6Vn8aCQa2-uBlkDbNzAys3sZbVu7q_c4sasihyyz-Gguc2AST4GbGmuGVS2YKv3gCjeoJiZSmzihiM4umEfwyQ7U3VVitu0dPtvOfcAmCqKwpDAUSNXIA"
+        }
+      ]
+    },
+    {
+      "name": "Job type",
+      "options": [
+        {
+          "name": "Full time",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rOXaF_MuSFyN549V3IFM46DhiFzynt8EKAU3ptWdK8mM4mAAX4hDOGdFc09RD8QDJPnLj6gexodsn2QcUxNkwELmXrlF3dVcPnsbjXSNS2_IV6IvxyYVJ05SMHaCAloGhE7XzyjoO_V3PN0rEzuc8xYVZTA9abSvxDLdcObEPqIh_oQKwBK1TLaL-wgcC8trdA-dt-w0slQnyPdn_-O09Ic7awT8OI3Snvum_Gj3oOtHNewe58xFFB3dFpyEqrO5ko-ar0oYGlW2bN-yXAVhORpa5l7f1BVS8xwjx6pGNKaRzbkKHwqjdFNPRdx7ra5vEXHsYDFognIOs2jTSBYHEOV4FMSQ",
+            "q": "quantum error correction full time"
+          },
+          "link": "https://www.google.com/search?sca_esv=fa8fc3aacbaacd94&hl=en&gl=in&sxsrf=APpeQnsAlwaY_aHZPpfMFxLBx_ZBXvbjSg:1791134970915&q=quantum+error+correction+full+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rOXaF_MuSFyN549V3IFM46DhiFzynt8EKAU3ptWdK8mM4mAAX4hDOGdFc09RD8QDJPnLj6gexodsn2QcUxNkwELmXrlF3dVcPnsbjXSNS2_IV6IvxyYVJ05SMHaCAloGhE7XzyjoO_V3PN0rEzuc8xYVZTA9abSvxDLdcObEPqIh_oQKwBK1TLaL-wgcC8trdA-dt-w0slQnyPdn_-O09Ic7awT8OI3Snvum_Gj3oOtHNewe58xFFB3dFpyEqrO5ko-ar0oYGlW2bN-yXAVhORpa5l7f1BVS8xwjx6pGNKaRzbkKHwqjdFNPRdx7ra5vEXHsYDFognIOs2jTSBYHEOV4FMSQ&udm=8&sa=X&ved=2ahUKEwilkL7d8aCXAxUEAHkGHfzlBt4QkbEKegQIGxAC",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=quantum+error+correction+full+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rOXaF_MuSFyN549V3IFM46DhiFzynt8EKAU3ptWdK8mM4mAAX4hDOGdFc09RD8QDJPnLj6gexodsn2QcUxNkwELmXrlF3dVcPnsbjXSNS2_IV6IvxyYVJ05SMHaCAloGhE7XzyjoO_V3PN0rEzuc8xYVZTA9abSvxDLdcObEPqIh_oQKwBK1TLaL-wgcC8trdA-dt-w0slQnyPdn_-O09Ic7awT8OI3Snvum_Gj3oOtHNewe58xFFB3dFpyEqrO5ko-ar0oYGlW2bN-yXAVhORpa5l7f1BVS8xwjx6pGNKaRzbkKHwqjdFNPRdx7ra5vEXHsYDFognIOs2jTSBYHEOV4FMSQ"
+        },
+        {
+          "name": "Part time",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rOXaF_MuSFyN549V3IFM46DhiFzynt8EKAU3ptWdK8mM4mAAX4hDOGdFc09RD8QDJ4h5CFX6hEsWH7HBaaUfKgQt1uov9quOOl1Ffyhz4nnKmsLbzVu2jPVgv9SCqWbw6HQ1YPSFq5eh8qYp0uFU-5INKmh-rlhXsEAkW8tkFzM9Tlzi7p2yJ9T3_l-vxldLGwTG5Uf_d6Y8DpnoWCh0gs5atsCPvSQLXzULjl9S3ffmPFUugZEgGmmZmV4z5T_nMkrB5OEYWtJM2goGkOK7MXBlR1x9tIVW2qFZpXOf9VF7iob2LvXeZNF1HaTbNWW4fod-ZvhoAxHZrErCiBcQXJWR9jmE",
+            "q": "quantum error correction part time"
+          },
+          "link": "https://www.google.com/search?sca_esv=fa8fc3aacbaacd94&hl=en&gl=in&sxsrf=APpeQnsAlwaY_aHZPpfMFxLBx_ZBXvbjSg:1791134970915&q=quantum+error+correction+part+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rOXaF_MuSFyN549V3IFM46DhiFzynt8EKAU3ptWdK8mM4mAAX4hDOGdFc09RD8QDJ4h5CFX6hEsWH7HBaaUfKgQt1uov9quOOl1Ffyhz4nnKmsLbzVu2jPVgv9SCqWbw6HQ1YPSFq5eh8qYp0uFU-5INKmh-rlhXsEAkW8tkFzM9Tlzi7p2yJ9T3_l-vxldLGwTG5Uf_d6Y8DpnoWCh0gs5atsCPvSQLXzULjl9S3ffmPFUugZEgGmmZmV4z5T_nMkrB5OEYWtJM2goGkOK7MXBlR1x9tIVW2qFZpXOf9VF7iob2LvXeZNF1HaTbNWW4fod-ZvhoAxHZrErCiBcQXJWR9jmE&udm=8&sa=X&ved=2ahUKEwilkL7d8aCXAxUEAHkGHfzlBt4QkbEKegQIGxAD",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=quantum+error+correction+part+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rOXaF_MuSFyN549V3IFM46DhiFzynt8EKAU3ptWdK8mM4mAAX4hDOGdFc09RD8QDJ4h5CFX6hEsWH7HBaaUfKgQt1uov9quOOl1Ffyhz4nnKmsLbzVu2jPVgv9SCqWbw6HQ1YPSFq5eh8qYp0uFU-5INKmh-rlhXsEAkW8tkFzM9Tlzi7p2yJ9T3_l-vxldLGwTG5Uf_d6Y8DpnoWCh0gs5atsCPvSQLXzULjl9S3ffmPFUugZEgGmmZmV4z5T_nMkrB5OEYWtJM2goGkOK7MXBlR1x9tIVW2qFZpXOf9VF7iob2LvXeZNF1HaTbNWW4fod-ZvhoAxHZrErCiBcQXJWR9jmE"
+        },
+        {
+          "name": "Contract",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rG01LnmfvnJTW_6ToXL_UJFiK_osPuuEMbjg0A-8EFXg2u9oS0zd7zOCyUX4q3I3EM8yDt8HbegmElX0KMoIAnCfYPx-pOPOYS6OCKbI7eWrKJd7AlncVaaIHl3fDKfb5h0ClbmsP3vGsgjU2us1fmhE1vRl9bzQq9-WcnaH-Fx0qbt4qgHvBV6VKpSD2uwuLZzDym8B4_P8utDxXTc2efQ083_aTlU18lW2ljx_JncTACM9r2_alJiMF_2qenjVZkBmC4Z9kOWneNoNNMYf0LfhH8JjpaotJSPlPlfXyUiOTAo5x27z-BZ7iGh4MJVdq5WdHvQ",
+            "q": "quantum error correction contract"
+          },
+          "link": "https://www.google.com/search?sca_esv=fa8fc3aacbaacd94&hl=en&gl=in&sxsrf=APpeQnsAlwaY_aHZPpfMFxLBx_ZBXvbjSg:1791134970915&q=quantum+error+correction+contract&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rG01LnmfvnJTW_6ToXL_UJFiK_osPuuEMbjg0A-8EFXg2u9oS0zd7zOCyUX4q3I3EM8yDt8HbegmElX0KMoIAnCfYPx-pOPOYS6OCKbI7eWrKJd7AlncVaaIHl3fDKfb5h0ClbmsP3vGsgjU2us1fmhE1vRl9bzQq9-WcnaH-Fx0qbt4qgHvBV6VKpSD2uwuLZzDym8B4_P8utDxXTc2efQ083_aTlU18lW2ljx_JncTACM9r2_alJiMF_2qenjVZkBmC4Z9kOWneNoNNMYf0LfhH8JjpaotJSPlPlfXyUiOTAo5x27z-BZ7iGh4MJVdq5WdHvQ&udm=8&sa=X&ved=2ahUKEwilkL7d8aCXAxUEAHkGHfzlBt4QkbEKegQIGxAE",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=quantum+error+correction+contract&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rG01LnmfvnJTW_6ToXL_UJFiK_osPuuEMbjg0A-8EFXg2u9oS0zd7zOCyUX4q3I3EM8yDt8HbegmElX0KMoIAnCfYPx-pOPOYS6OCKbI7eWrKJd7AlncVaaIHl3fDKfb5h0ClbmsP3vGsgjU2us1fmhE1vRl9bzQq9-WcnaH-Fx0qbt4qgHvBV6VKpSD2uwuLZzDym8B4_P8utDxXTc2efQ083_aTlU18lW2ljx_JncTACM9r2_alJiMF_2qenjVZkBmC4Z9kOWneNoNNMYf0LfhH8JjpaotJSPlPlfXyUiOTAo5x27z-BZ7iGh4MJVdq5WdHvQ"
+        },
+        {
+          "name": "Internship",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4r7hOUA05M1a03bn-LSaBMseiK-RLZwjw8PAOybv1mnGdK-RNYN54XFSCid2lq8hemEuw1s1Z9xTxa9yCnRPQ1knhfcatdgK_nn2Xxf4ZmgvIactf6hmy3tC3Frr_faQa7F-UUZOLfM6KXsgrm1SP9JWq2vhtzwSE3-E6Dzf0H2fiqdxtcU69FiUXOCZXwhCeIfOEeKazwCPuqlLV2N6Vn8aCQa2-uBlkDbNzAys3sZbVu7q_c4sasihyyz-Gguc2AST4GbGmuGVS2YKv3gCjeoJiZSmzihiM4umEfwyQ7U3VVitu0dPtvOfcAmCqKwpDAUSNXIA",
+            "q": "quantum error correction internship"
+          },
+          "link": "https://www.google.com/search?sca_esv=fa8fc3aacbaacd94&hl=en&gl=in&sxsrf=APpeQnsAlwaY_aHZPpfMFxLBx_ZBXvbjSg:1791134970915&q=quantum+error+correction+internship&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r7hOUA05M1a03bn-LSaBMseiK-RLZwjw8PAOybv1mnGdK-RNYN54XFSCid2lq8hemEuw1s1Z9xTxa9yCnRPQ1knhfcatdgK_nn2Xxf4ZmgvIactf6hmy3tC3Frr_faQa7F-UUZOLfM6KXsgrm1SP9JWq2vhtzwSE3-E6Dzf0H2fiqdxtcU69FiUXOCZXwhCeIfOEeKazwCPuqlLV2N6Vn8aCQa2-uBlkDbNzAys3sZbVu7q_c4sasihyyz-Gguc2AST4GbGmuGVS2YKv3gCjeoJiZSmzihiM4umEfwyQ7U3VVitu0dPtvOfcAmCqKwpDAUSNXIA&udm=8&sa=X&ved=2ahUKEwilkL7d8aCXAxUEAHkGHfzlBt4QkbEKegQIGxAF",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=quantum+error+correction+internship&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r7hOUA05M1a03bn-LSaBMseiK-RLZwjw8PAOybv1mnGdK-RNYN54XFSCid2lq8hemEuw1s1Z9xTxa9yCnRPQ1knhfcatdgK_nn2Xxf4ZmgvIactf6hmy3tC3Frr_faQa7F-UUZOLfM6KXsgrm1SP9JWq2vhtzwSE3-E6Dzf0H2fiqdxtcU69FiUXOCZXwhCeIfOEeKazwCPuqlLV2N6Vn8aCQa2-uBlkDbNzAys3sZbVu7q_c4sasihyyz-Gguc2AST4GbGmuGVS2YKv3gCjeoJiZSmzihiM4umEfwyQ7U3VVitu0dPtvOfcAmCqKwpDAUSNXIA"
+        }
+      ]
+    },
+    {
+      "name": "Date posted",
+      "options": [
+        {
+          "name": "Yesterday",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rFOYina6-I1R1gKL9iTZ5BfAPyjFoti1yqULIkFrB1DXcatibKN2CaCCylriodFJ-GqdwGTtWtWbjm77uTBWSkMRxAyMK3tP_Wqc8fUexBED1YEkY6k2V7-FZdjZXDaMAZecxXf1isW8S3uj6t2uMKqJoxEG6ERM22nhFBHpp6RhRIZW8uV2gBs9Wwiv2AC3uwHH71yx-DVH_G1DaydQZ_UiwDLS3d5WoqnTVeka_XZKnoGkcRh5PIvAxi0HaqgjkadtGMAetmLHR7ZY0zapBh5pUyd2FAM3SSI23SVcXyshyBhgsZXW-S3zvwrr7sjyNQl61hPEs5inPYQgV4aEDWYLDaNQ",
+            "q": "quantum error correction since yesterday"
+          },
+          "link": "https://www.google.com/search?sca_esv=fa8fc3aacbaacd94&hl=en&gl=in&sxsrf=APpeQnsAlwaY_aHZPpfMFxLBx_ZBXvbjSg:1791134970915&q=quantum+error+correction+since+yesterday&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rFOYina6-I1R1gKL9iTZ5BfAPyjFoti1yqULIkFrB1DXcatibKN2CaCCylriodFJ-GqdwGTtWtWbjm77uTBWSkMRxAyMK3tP_Wqc8fUexBED1YEkY6k2V7-FZdjZXDaMAZecxXf1isW8S3uj6t2uMKqJoxEG6ERM22nhFBHpp6RhRIZW8uV2gBs9Wwiv2AC3uwHH71yx-DVH_G1DaydQZ_UiwDLS3d5WoqnTVeka_XZKnoGkcRh5PIvAxi0HaqgjkadtGMAetmLHR7ZY0zapBh5pUyd2FAM3SSI23SVcXyshyBhgsZXW-S3zvwrr7sjyNQl61hPEs5inPYQgV4aEDWYLDaNQ&udm=8&sa=X&ved=2ahUKEwilkL7d8aCXAxUEAHkGHfzlBt4QkbEKegQIHBAC",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=quantum+error+correction+since+yesterday&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rFOYina6-I1R1gKL9iTZ5BfAPyjFoti1yqULIkFrB1DXcatibKN2CaCCylriodFJ-GqdwGTtWtWbjm77uTBWSkMRxAyMK3tP_Wqc8fUexBED1YEkY6k2V7-FZdjZXDaMAZecxXf1isW8S3uj6t2uMKqJoxEG6ERM22nhFBHpp6RhRIZW8uV2gBs9Wwiv2AC3uwHH71yx-DVH_G1DaydQZ_UiwDLS3d5WoqnTVeka_XZKnoGkcRh5PIvAxi0HaqgjkadtGMAetmLHR7ZY0zapBh5pUyd2FAM3SSI23SVcXyshyBhgsZXW-S3zvwrr7sjyNQl61hPEs5inPYQgV4aEDWYLDaNQ"
+        },
+        {
+          "name": "Last 3 days",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rK2SaxIKerCTVgi-O9Ud_JOCHGNnFuaZez-Tbto-PFSbSN_UX6x8ctABsalNN0pZsbvR_NuOXRx0NMAHwTCVTfQJOhFyFVXLJiLofGoY_UihwQByPW6OMO4_To4oWvsVc8PTHlTZyZDIhSHnzV-vVuKXvaK8WhfYO01c_71VeG_QdxmCy4bdog-Ru_5DIw2eIg99GOxbKhpibl4gxTIfrUCbzDU9DaecV94bdJtVCA5cr5cxoPzaO9GDJubcRg5pRbEmUIybDgy09LUjv6tnVHuhzP76iXwwQeJAHW_UliPBCLOir_Qv1dpXBrFNrb-sWzF-pzibjwKdUJru1cD2Y3yXyQjk",
+            "q": "quantum error correction in the last 3 days"
+          },
+          "link": "https://www.google.com/search?sca_esv=fa8fc3aacbaacd94&hl=en&gl=in&sxsrf=APpeQnsAlwaY_aHZPpfMFxLBx_ZBXvbjSg:1791134970915&q=quantum+error+correction+in+the+last+3+days&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rK2SaxIKerCTVgi-O9Ud_JOCHGNnFuaZez-Tbto-PFSbSN_UX6x8ctABsalNN0pZsbvR_NuOXRx0NMAHwTCVTfQJOhFyFVXLJiLofGoY_UihwQByPW6OMO4_To4oWvsVc8PTHlTZyZDIhSHnzV-vVuKXvaK8WhfYO01c_71VeG_QdxmCy4bdog-Ru_5DIw2eIg99GOxbKhpibl4gxTIfrUCbzDU9DaecV94bdJtVCA5cr5cxoPzaO9GDJubcRg5pRbEmUIybDgy09LUjv6tnVHuhzP76iXwwQeJAHW_UliPBCLOir_Qv1dpXBrFNrb-sWzF-pzibjwKdUJru1cD2Y3yXyQjk&udm=8&sa=X&ved=2ahUKEwilkL7d8aCXAxUEAHkGHfzlBt4QkbEKegQIHBAD",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=quantum+error+correction+in+the+last+3+days&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rK2SaxIKerCTVgi-O9Ud_JOCHGNnFuaZez-Tbto-PFSbSN_UX6x8ctABsalNN0pZsbvR_NuOXRx0NMAHwTCVTfQJOhFyFVXLJiLofGoY_UihwQByPW6OMO4_To4oWvsVc8PTHlTZyZDIhSHnzV-vVuKXvaK8WhfYO01c_71VeG_QdxmCy4bdog-Ru_5DIw2eIg99GOxbKhpibl4gxTIfrUCbzDU9DaecV94bdJtVCA5cr5cxoPzaO9GDJubcRg5pRbEmUIybDgy09LUjv6tnVHuhzP76iXwwQeJAHW_UliPBCLOir_Qv1dpXBrFNrb-sWzF-pzibjwKdUJru1cD2Y3yXyQjk"
+        },
+        {
+          "name": "Last week",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rklwwnP3f5-5QNC7GdVLkoHwCttIkLY-sfNVp_jcVDzw00JGGoTmrT9UazhWfwhJlVyZMbYaRWR4rgzlkPQUx35uRfBRRso1gnY87Zk7HIcowe6QGF9RS6Bap0NxD5mT5XKemGL0JdD-8IL0Fu6snQFOxEfLt3khgvbRyPTbQEUSAClFxyn_ExxaGhm7Rp9bbR_8SbHN-yPIlH8UPpjRm6aZztEEGMRiVV6c_ZRT7vKaiWoYax9Y0PcwcPhSQSaGODvPhBZ7RVvm88dTPZXIpf56b-mPpexRfxRJPSA-SevrzZ_oOy17Z3IzDTb72CHptmPPPKdxFdL9pDbFeKSb7DAMXBUs",
+            "q": "quantum error correction in the last week"
+          },
+          "link": "https://www.google.com/search?sca_esv=fa8fc3aacbaacd94&hl=en&gl=in&sxsrf=APpeQnsAlwaY_aHZPpfMFxLBx_ZBXvbjSg:1791134970915&q=quantum+error+correction+in+the+last+week&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rklwwnP3f5-5QNC7GdVLkoHwCttIkLY-sfNVp_jcVDzw00JGGoTmrT9UazhWfwhJlVyZMbYaRWR4rgzlkPQUx35uRfBRRso1gnY87Zk7HIcowe6QGF9RS6Bap0NxD5mT5XKemGL0JdD-8IL0Fu6snQFOxEfLt3khgvbRyPTbQEUSAClFxyn_ExxaGhm7Rp9bbR_8SbHN-yPIlH8UPpjRm6aZztEEGMRiVV6c_ZRT7vKaiWoYax9Y0PcwcPhSQSaGODvPhBZ7RVvm88dTPZXIpf56b-mPpexRfxRJPSA-SevrzZ_oOy17Z3IzDTb72CHptmPPPKdxFdL9pDbFeKSb7DAMXBUs&udm=8&sa=X&ved=2ahUKEwilkL7d8aCXAxUEAHkGHfzlBt4QkbEKegQIHBAE",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=quantum+error+correction+in+the+last+week&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rklwwnP3f5-5QNC7GdVLkoHwCttIkLY-sfNVp_jcVDzw00JGGoTmrT9UazhWfwhJlVyZMbYaRWR4rgzlkPQUx35uRfBRRso1gnY87Zk7HIcowe6QGF9RS6Bap0NxD5mT5XKemGL0JdD-8IL0Fu6snQFOxEfLt3khgvbRyPTbQEUSAClFxyn_ExxaGhm7Rp9bbR_8SbHN-yPIlH8UPpjRm6aZztEEGMRiVV6c_ZRT7vKaiWoYax9Y0PcwcPhSQSaGODvPhBZ7RVvm88dTPZXIpf56b-mPpexRfxRJPSA-SevrzZ_oOy17Z3IzDTb72CHptmPPPKdxFdL9pDbFeKSb7DAMXBUs"
+        },
+        {
+          "name": "Last month",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4raMA7wI4dJTxdtC2i79eEnMLJuutXjwdntefp4X_rzaKH-ispX0Vz0pBo7cr4Ejep_5J-mn9WBSJtWS6IioMKK1VMXaqbc3aiD9hFBFu9CcK_aOZauS3bNFDj819S_ktGX9kCPMigFIYWnSF8mR3iqUAnU0i9s6qLcsyqahh7N7pFDFpY11MxgRPjviMPNE-9Cc75O2-y7KgWEJn0ZL3Er1EIGPqxuSTqot2LPtGGbRyNnstbh2cXb_x3ZqCzvFndkcYCIDbWSsN2l20AVFBXtRWmP8iRAmhQxS0Un2yKdsPnbHUscKjWvNgfeFTroFK7nj2uM2tA3dqBjIvMIualRQfLsFk",
+            "q": "quantum error correction in the last month"
+          },
+          "link": "https://www.google.com/search?sca_esv=fa8fc3aacbaacd94&hl=en&gl=in&sxsrf=APpeQnsAlwaY_aHZPpfMFxLBx_ZBXvbjSg:1791134970915&q=quantum+error+correction+in+the+last+month&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4raMA7wI4dJTxdtC2i79eEnMLJuutXjwdntefp4X_rzaKH-ispX0Vz0pBo7cr4Ejep_5J-mn9WBSJtWS6IioMKK1VMXaqbc3aiD9hFBFu9CcK_aOZauS3bNFDj819S_ktGX9kCPMigFIYWnSF8mR3iqUAnU0i9s6qLcsyqahh7N7pFDFpY11MxgRPjviMPNE-9Cc75O2-y7KgWEJn0ZL3Er1EIGPqxuSTqot2LPtGGbRyNnstbh2cXb_x3ZqCzvFndkcYCIDbWSsN2l20AVFBXtRWmP8iRAmhQxS0Un2yKdsPnbHUscKjWvNgfeFTroFK7nj2uM2tA3dqBjIvMIualRQfLsFk&udm=8&sa=X&ved=2ahUKEwilkL7d8aCXAxUEAHkGHfzlBt4QkbEKegQIHBAF",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=quantum+error+correction+in+the+last+month&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4raMA7wI4dJTxdtC2i79eEnMLJuutXjwdntefp4X_rzaKH-ispX0Vz0pBo7cr4Ejep_5J-mn9WBSJtWS6IioMKK1VMXaqbc3aiD9hFBFu9CcK_aOZauS3bNFDj819S_ktGX9kCPMigFIYWnSF8mR3iqUAnU0i9s6qLcsyqahh7N7pFDFpY11MxgRPjviMPNE-9Cc75O2-y7KgWEJn0ZL3Er1EIGPqxuSTqot2LPtGGbRyNnstbh2cXb_x3ZqCzvFndkcYCIDbWSsN2l20AVFBXtRWmP8iRAmhQxS0Un2yKdsPnbHUscKjWvNgfeFTroFK7nj2uM2tA3dqBjIvMIualRQfLsFk"
+        }
+      ]
+    },
+    {
+      "name": "Date posted",
+      "options": [
+        {
+          "name": "Yesterday",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rFOYina6-I1R1gKL9iTZ5BfAPyjFoti1yqULIkFrB1DXcatibKN2CaCCylriodFJ-GqdwGTtWtWbjm77uTBWSkMRxAyMK3tP_Wqc8fUexBED1YEkY6k2V7-FZdjZXDaMAZecxXf1isW8S3uj6t2uMKqJoxEG6ERM22nhFBHpp6RhRIZW8uV2gBs9Wwiv2AC3uwHH71yx-DVH_G1DaydQZ_UiwDLS3d5WoqnTVeka_XZKnoGkcRh5PIvAxi0HaqgjkadtGMAetmLHR7ZY0zapBh5pUyd2FAM3SSI23SVcXyshyBhgsZXW-S3zvwrr7sjyNQl61hPEs5inPYQgV4aEDWYLDaNQ",
+            "q": "quantum error correction since yesterday"
+          },
+          "link": "https://www.google.com/search?sca_esv=fa8fc3aacbaacd94&hl=en&gl=in&sxsrf=APpeQnsAlwaY_aHZPpfMFxLBx_ZBXvbjSg:1791134970915&q=quantum+error+correction+since+yesterday&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rFOYina6-I1R1gKL9iTZ5BfAPyjFoti1yqULIkFrB1DXcatibKN2CaCCylriodFJ-GqdwGTtWtWbjm77uTBWSkMRxAyMK3tP_Wqc8fUexBED1YEkY6k2V7-FZdjZXDaMAZecxXf1isW8S3uj6t2uMKqJoxEG6ERM22nhFBHpp6RhRIZW8uV2gBs9Wwiv2AC3uwHH71yx-DVH_G1DaydQZ_UiwDLS3d5WoqnTVeka_XZKnoGkcRh5PIvAxi0HaqgjkadtGMAetmLHR7ZY0zapBh5pUyd2FAM3SSI23SVcXyshyBhgsZXW-S3zvwrr7sjyNQl61hPEs5inPYQgV4aEDWYLDaNQ&udm=8&sa=X&ved=2ahUKEwilkL7d8aCXAxUEAHkGHfzlBt4QkbEKegQIHBAC",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=quantum+error+correction+since+yesterday&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rFOYina6-I1R1gKL9iTZ5BfAPyjFoti1yqULIkFrB1DXcatibKN2CaCCylriodFJ-GqdwGTtWtWbjm77uTBWSkMRxAyMK3tP_Wqc8fUexBED1YEkY6k2V7-FZdjZXDaMAZecxXf1isW8S3uj6t2uMKqJoxEG6ERM22nhFBHpp6RhRIZW8uV2gBs9Wwiv2AC3uwHH71yx-DVH_G1DaydQZ_UiwDLS3d5WoqnTVeka_XZKnoGkcRh5PIvAxi0HaqgjkadtGMAetmLHR7ZY0zapBh5pUyd2FAM3SSI23SVcXyshyBhgsZXW-S3zvwrr7sjyNQl61hPEs5inPYQgV4aEDWYLDaNQ"
+        },
+        {
+          "name": "Last 3 days",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rK2SaxIKerCTVgi-O9Ud_JOCHGNnFuaZez-Tbto-PFSbSN_UX6x8ctABsalNN0pZsbvR_NuOXRx0NMAHwTCVTfQJOhFyFVXLJiLofGoY_UihwQByPW6OMO4_To4oWvsVc8PTHlTZyZDIhSHnzV-vVuKXvaK8WhfYO01c_71VeG_QdxmCy4bdog-Ru_5DIw2eIg99GOxbKhpibl4gxTIfrUCbzDU9DaecV94bdJtVCA5cr5cxoPzaO9GDJubcRg5pRbEmUIybDgy09LUjv6tnVHuhzP76iXwwQeJAHW_UliPBCLOir_Qv1dpXBrFNrb-sWzF-pzibjwKdUJru1cD2Y3yXyQjk",
+            "q": "quantum error correction in the last 3 days"
+          },
+          "link": "https://www.google.com/search?sca_esv=fa8fc3aacbaacd94&hl=en&gl=in&sxsrf=APpeQnsAlwaY_aHZPpfMFxLBx_ZBXvbjSg:1791134970915&q=quantum+error+correction+in+the+last+3+days&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rK2SaxIKerCTVgi-O9Ud_JOCHGNnFuaZez-Tbto-PFSbSN_UX6x8ctABsalNN0pZsbvR_NuOXRx0NMAHwTCVTfQJOhFyFVXLJiLofGoY_UihwQByPW6OMO4_To4oWvsVc8PTHlTZyZDIhSHnzV-vVuKXvaK8WhfYO01c_71VeG_QdxmCy4bdog-Ru_5DIw2eIg99GOxbKhpibl4gxTIfrUCbzDU9DaecV94bdJtVCA5cr5cxoPzaO9GDJubcRg5pRbEmUIybDgy09LUjv6tnVHuhzP76iXwwQeJAHW_UliPBCLOir_Qv1dpXBrFNrb-sWzF-pzibjwKdUJru1cD2Y3yXyQjk&udm=8&sa=X&ved=2ahUKEwilkL7d8aCXAxUEAHkGHfzlBt4QkbEKegQIHBAD",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=quantum+error+correction+in+the+last+3+days&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rK2SaxIKerCTVgi-O9Ud_JOCHGNnFuaZez-Tbto-PFSbSN_UX6x8ctABsalNN0pZsbvR_NuOXRx0NMAHwTCVTfQJOhFyFVXLJiLofGoY_UihwQByPW6OMO4_To4oWvsVc8PTHlTZyZDIhSHnzV-vVuKXvaK8WhfYO01c_71VeG_QdxmCy4bdog-Ru_5DIw2eIg99GOxbKhpibl4gxTIfrUCbzDU9DaecV94bdJtVCA5cr5cxoPzaO9GDJubcRg5pRbEmUIybDgy09LUjv6tnVHuhzP76iXwwQeJAHW_UliPBCLOir_Qv1dpXBrFNrb-sWzF-pzibjwKdUJru1cD2Y3yXyQjk"
+        },
+        {
+          "name": "Last week",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rklwwnP3f5-5QNC7GdVLkoHwCttIkLY-sfNVp_jcVDzw00JGGoTmrT9UazhWfwhJlVyZMbYaRWR4rgzlkPQUx35uRfBRRso1gnY87Zk7HIcowe6QGF9RS6Bap0NxD5mT5XKemGL0JdD-8IL0Fu6snQFOxEfLt3khgvbRyPTbQEUSAClFxyn_ExxaGhm7Rp9bbR_8SbHN-yPIlH8UPpjRm6aZztEEGMRiVV6c_ZRT7vKaiWoYax9Y0PcwcPhSQSaGODvPhBZ7RVvm88dTPZXIpf56b-mPpexRfxRJPSA-SevrzZ_oOy17Z3IzDTb72CHptmPPPKdxFdL9pDbFeKSb7DAMXBUs",
+            "q": "quantum error correction in the last week"
+          },
+          "link": "https://www.google.com/search?sca_esv=fa8fc3aacbaacd94&hl=en&gl=in&sxsrf=APpeQnsAlwaY_aHZPpfMFxLBx_ZBXvbjSg:1791134970915&q=quantum+error+correction+in+the+last+week&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rklwwnP3f5-5QNC7GdVLkoHwCttIkLY-sfNVp_jcVDzw00JGGoTmrT9UazhWfwhJlVyZMbYaRWR4rgzlkPQUx35uRfBRRso1gnY87Zk7HIcowe6QGF9RS6Bap0NxD5mT5XKemGL0JdD-8IL0Fu6snQFOxEfLt3khgvbRyPTbQEUSAClFxyn_ExxaGhm7Rp9bbR_8SbHN-yPIlH8UPpjRm6aZztEEGMRiVV6c_ZRT7vKaiWoYax9Y0PcwcPhSQSaGODvPhBZ7RVvm88dTPZXIpf56b-mPpexRfxRJPSA-SevrzZ_oOy17Z3IzDTb72CHptmPPPKdxFdL9pDbFeKSb7DAMXBUs&udm=8&sa=X&ved=2ahUKEwilkL7d8aCXAxUEAHkGHfzlBt4QkbEKegQIHBAE",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=quantum+error+correction+in+the+last+week&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rklwwnP3f5-5QNC7GdVLkoHwCttIkLY-sfNVp_jcVDzw00JGGoTmrT9UazhWfwhJlVyZMbYaRWR4rgzlkPQUx35uRfBRRso1gnY87Zk7HIcowe6QGF9RS6Bap0NxD5mT5XKemGL0JdD-8IL0Fu6snQFOxEfLt3khgvbRyPTbQEUSAClFxyn_ExxaGhm7Rp9bbR_8SbHN-yPIlH8UPpjRm6aZztEEGMRiVV6c_ZRT7vKaiWoYax9Y0PcwcPhSQSaGODvPhBZ7RVvm88dTPZXIpf56b-mPpexRfxRJPSA-SevrzZ_oOy17Z3IzDTb72CHptmPPPKdxFdL9pDbFeKSb7DAMXBUs"
+        },
+        {
+          "name": "Last month",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4raMA7wI4dJTxdtC2i79eEnMLJuutXjwdntefp4X_rzaKH-ispX0Vz0pBo7cr4Ejep_5J-mn9WBSJtWS6IioMKK1VMXaqbc3aiD9hFBFu9CcK_aOZauS3bNFDj819S_ktGX9kCPMigFIYWnSF8mR3iqUAnU0i9s6qLcsyqahh7N7pFDFpY11MxgRPjviMPNE-9Cc75O2-y7KgWEJn0ZL3Er1EIGPqxuSTqot2LPtGGbRyNnstbh2cXb_x3ZqCzvFndkcYCIDbWSsN2l20AVFBXtRWmP8iRAmhQxS0Un2yKdsPnbHUscKjWvNgfeFTroFK7nj2uM2tA3dqBjIvMIualRQfLsFk",
+            "q": "quantum error correction in the last month"
+          },
+          "link": "https://www.google.com/search?sca_esv=fa8fc3aacbaacd94&hl=en&gl=in&sxsrf=APpeQnsAlwaY_aHZPpfMFxLBx_ZBXvbjSg:1791134970915&q=quantum+error+correction+in+the+last+month&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4raMA7wI4dJTxdtC2i79eEnMLJuutXjwdntefp4X_rzaKH-ispX0Vz0pBo7cr4Ejep_5J-mn9WBSJtWS6IioMKK1VMXaqbc3aiD9hFBFu9CcK_aOZauS3bNFDj819S_ktGX9kCPMigFIYWnSF8mR3iqUAnU0i9s6qLcsyqahh7N7pFDFpY11MxgRPjviMPNE-9Cc75O2-y7KgWEJn0ZL3Er1EIGPqxuSTqot2LPtGGbRyNnstbh2cXb_x3ZqCzvFndkcYCIDbWSsN2l20AVFBXtRWmP8iRAmhQxS0Un2yKdsPnbHUscKjWvNgfeFTroFK7nj2uM2tA3dqBjIvMIualRQfLsFk&udm=8&sa=X&ved=2ahUKEwilkL7d8aCXAxUEAHkGHfzlBt4QkbEKegQIHBAF",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&gl=in&google_domain=google.com&hl=en&location=India&q=quantum+error+correction+in+the+last+month&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4raMA7wI4dJTxdtC2i79eEnMLJuutXjwdntefp4X_rzaKH-ispX0Vz0pBo7cr4Ejep_5J-mn9WBSJtWS6IioMKK1VMXaqbc3aiD9hFBFu9CcK_aOZauS3bNFDj819S_ktGX9kCPMigFIYWnSF8mR3iqUAnU0i9s6qLcsyqahh7N7pFDFpY11MxgRPjviMPNE-9Cc75O2-y7KgWEJn0ZL3Er1EIGPqxuSTqot2LPtGGbRyNnstbh2cXb_x3ZqCzvFndkcYCIDbWSsN2l20AVFBXtRWmP8iRAmhQxS0Un2yKdsPnbHUscKjWvNgfeFTroFK7nj2uM2tA3dqBjIvMIualRQfLsFk"
+        }
+      ]
+    }
+  ],
+  "search_information": {
+    "jobs_results_state": "Fully empty"
+  },
+  "error": "Google hasn't returned any results for this query."
+}

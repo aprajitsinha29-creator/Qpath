@@ -1,0 +1,944 @@
+{
+  "search_metadata": {
+    "id": "6ac28ce6b9fc5f4204881e51",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/3OGcve4uXvWfSgDWAvKZIPvXqBE8HMMYo4klZxJZAog/6ac28ce6b9fc5f4204881e51.json",
+    "markdown_endpoint": "https://serpapi.com/searches/3OGcve4uXvWfSgDWAvKZIPvXqBE8HMMYo4klZxJZAog/6ac28ce6b9fc5f4204881e51.md",
+    "created_at": "2026-10-04 17:29:10 UTC",
+    "processed_at": "2026-10-04 17:29:10 UTC",
+    "google_jobs_url": "https://www.google.com/search?q=post-quantum+cryptography&hl=en&udm=8",
+    "raw_html_file": "https://serpapi.com/searches/3OGcve4uXvWfSgDWAvKZIPvXqBE8HMMYo4klZxJZAog/6ac28ce6b9fc5f4204881e51.html",
+    "total_time_taken": 18.21
+  },
+  "search_parameters": {
+    "q": "post-quantum cryptography",
+    "engine": "google_jobs",
+    "google_domain": "google.com",
+    "hl": "en"
+  },
+  "filters": [
+    {
+      "name": "Remote",
+      "parameters": {
+        "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rqi--IS5qqFykt0uxkCtW_EKOXigXDgX0cqJudrizeJ9Iqk9PRrt_qciRr-EKJ1k0ofmcMTVevkZlbnz-GVnCo4-x2evDOfGIn5aOWzYJkU_i50s0DAL-2CX0WiLMbI2hmG2FJdzcFK0RqP7n_iHBPiiWioN9-Oh7nrI5nzmWBLjBpbyw",
+        "q": "post-quantum cryptography remote"
+      },
+      "link": "https://www.google.com/search?sca_esv=fa8fc3aacbaacd94&hl=en&sxsrf=APpeQntocMtk4sd6KW096y_JlG2ar7BX6w:1791134967980&q=post-quantum+cryptography+remote&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rqi--IS5qqFykt0uxkCtW_EKOXigXDgX0cqJudrizeJ9Iqk9PRrt_qciRr-EKJ1k0ofmcMTVevkZlbnz-GVnCo4-x2evDOfGIn5aOWzYJkU_i50s0DAL-2CX0WiLMbI2hmG2FJdzcFK0RqP7n_iHBPiiWioN9-Oh7nrI5nzmWBLjBpbyw&udm=8&sa=X&ved=2ahUKEwjBiYvc8aCXAxU6J0QIHcIjALsQxKsJKAB6BAgYEAE&ictx=0",
+      "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=post-quantum+cryptography+remote&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rqi--IS5qqFykt0uxkCtW_EKOXigXDgX0cqJudrizeJ9Iqk9PRrt_qciRr-EKJ1k0ofmcMTVevkZlbnz-GVnCo4-x2evDOfGIn5aOWzYJkU_i50s0DAL-2CX0WiLMbI2hmG2FJdzcFK0RqP7n_iHBPiiWioN9-Oh7nrI5nzmWBLjBpbyw"
+    },
+    {
+      "name": "No degree",
+      "parameters": {
+        "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rHlcD8FLtMwo1T10KpL1XB7L1fAcdO0QhuBJN6JXSs469eUWbnNtsOBo8ZcHKqPqm-CzUNylo-W7diAXCvrb-XlksKtPEer99No0DyeXRCFxKLYtiWCX07blUt3uinHXBhQ3LVh-njj3bxRdO0175BjZb02NcwfKq_D9XX0RtneRASDJ6",
+        "q": "post-quantum cryptography no degree"
+      },
+      "link": "https://www.google.com/search?sca_esv=fa8fc3aacbaacd94&hl=en&sxsrf=APpeQntocMtk4sd6KW096y_JlG2ar7BX6w:1791134967980&q=post-quantum+cryptography+no+degree&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rHlcD8FLtMwo1T10KpL1XB7L1fAcdO0QhuBJN6JXSs469eUWbnNtsOBo8ZcHKqPqm-CzUNylo-W7diAXCvrb-XlksKtPEer99No0DyeXRCFxKLYtiWCX07blUt3uinHXBhQ3LVh-njj3bxRdO0175BjZb02NcwfKq_D9XX0RtneRASDJ6&udm=8&sa=X&ved=2ahUKEwjBiYvc8aCXAxU6J0QIHcIjALsQxKsJKAF6BAgXEAE&ictx=0",
+      "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=post-quantum+cryptography+no+degree&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rHlcD8FLtMwo1T10KpL1XB7L1fAcdO0QhuBJN6JXSs469eUWbnNtsOBo8ZcHKqPqm-CzUNylo-W7diAXCvrb-XlksKtPEer99No0DyeXRCFxKLYtiWCX07blUt3uinHXBhQ3LVh-njj3bxRdO0175BjZb02NcwfKq_D9XX0RtneRASDJ6"
+    },
+    {
+      "name": "Date posted",
+      "options": [
+        {
+          "name": "Yesterday",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rbEuBYaSZikTI9rl4Hr1eio7vdCLF1Rhgkje293bHRISXl7UOMIP5tBwSbEBiCz7shqnqkUteFfJis-EyQHmouJZvMuDhyLQGRd05oKTfEhn6r8x3TYGBxex9_fIrG1ptqoDFaX07ISGmuMN0-twcQKZAppQlIHuJQ5R62zz-7ZsUvWhHZvtkx8DBJuSeXJvtRF81NbUkbY5w7zZE_fEohB5O-Y-2-WVVBlbdzNx_l_XjspwTUZcK2vWTNPXspsuIa1VBQDvrJy3HA3RT1lh-osz8BBUpxbqhjSOw3oKjL8PugsiS6PhQgQtmQ-s0fL2-CyCoHZsagF1RFwvYGHAn-GNRevc",
+            "q": "post-quantum cryptography since yesterday"
+          },
+          "link": "https://www.google.com/search?sca_esv=fa8fc3aacbaacd94&hl=en&sxsrf=APpeQntocMtk4sd6KW096y_JlG2ar7BX6w:1791134967980&q=post-quantum+cryptography+since+yesterday&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rbEuBYaSZikTI9rl4Hr1eio7vdCLF1Rhgkje293bHRISXl7UOMIP5tBwSbEBiCz7shqnqkUteFfJis-EyQHmouJZvMuDhyLQGRd05oKTfEhn6r8x3TYGBxex9_fIrG1ptqoDFaX07ISGmuMN0-twcQKZAppQlIHuJQ5R62zz-7ZsUvWhHZvtkx8DBJuSeXJvtRF81NbUkbY5w7zZE_fEohB5O-Y-2-WVVBlbdzNx_l_XjspwTUZcK2vWTNPXspsuIa1VBQDvrJy3HA3RT1lh-osz8BBUpxbqhjSOw3oKjL8PugsiS6PhQgQtmQ-s0fL2-CyCoHZsagF1RFwvYGHAn-GNRevc&udm=8&sa=X&ved=2ahUKEwjBiYvc8aCXAxU6J0QIHcIjALsQkbEKegQIGxAC",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=post-quantum+cryptography+since+yesterday&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rbEuBYaSZikTI9rl4Hr1eio7vdCLF1Rhgkje293bHRISXl7UOMIP5tBwSbEBiCz7shqnqkUteFfJis-EyQHmouJZvMuDhyLQGRd05oKTfEhn6r8x3TYGBxex9_fIrG1ptqoDFaX07ISGmuMN0-twcQKZAppQlIHuJQ5R62zz-7ZsUvWhHZvtkx8DBJuSeXJvtRF81NbUkbY5w7zZE_fEohB5O-Y-2-WVVBlbdzNx_l_XjspwTUZcK2vWTNPXspsuIa1VBQDvrJy3HA3RT1lh-osz8BBUpxbqhjSOw3oKjL8PugsiS6PhQgQtmQ-s0fL2-CyCoHZsagF1RFwvYGHAn-GNRevc"
+        },
+        {
+          "name": "Last 3 days",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4r3M11scUDrwafc40twrp9Cc8lNYR4xk-_6kaf_xpf1budVgU2-CxiKghGuGZxrmzDgJxjbykmKpNyq_ts-98pL6hD1NnvpYAsoW59o9FeT9YqpOSFYW072Sb7LFe8TS6PJUzf0RfTA1yz-sHKnlOgfs_UwgrDDdQHmtpPyXR7mo0OR4Go6TCJGsGvcXhjOrLn2_4hqigLYGfJIC1p5TkBLOTBGMz7BgglX8ZSehkYq6SV336_79wJ5cpRslbu7KcjdCmPOjv84d5JUi_F2CeW9uMJ4yoOY1FTH_FFZUIK9e5Y51KEk3I4tUvoG3MF8cCaA9PPBEQOf9bx9fUW_xNvdObzZUg",
+            "q": "post-quantum cryptography in the last 3 days"
+          },
+          "link": "https://www.google.com/search?sca_esv=fa8fc3aacbaacd94&hl=en&sxsrf=APpeQntocMtk4sd6KW096y_JlG2ar7BX6w:1791134967980&q=post-quantum+cryptography+in+the+last+3+days&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r3M11scUDrwafc40twrp9Cc8lNYR4xk-_6kaf_xpf1budVgU2-CxiKghGuGZxrmzDgJxjbykmKpNyq_ts-98pL6hD1NnvpYAsoW59o9FeT9YqpOSFYW072Sb7LFe8TS6PJUzf0RfTA1yz-sHKnlOgfs_UwgrDDdQHmtpPyXR7mo0OR4Go6TCJGsGvcXhjOrLn2_4hqigLYGfJIC1p5TkBLOTBGMz7BgglX8ZSehkYq6SV336_79wJ5cpRslbu7KcjdCmPOjv84d5JUi_F2CeW9uMJ4yoOY1FTH_FFZUIK9e5Y51KEk3I4tUvoG3MF8cCaA9PPBEQOf9bx9fUW_xNvdObzZUg&udm=8&sa=X&ved=2ahUKEwjBiYvc8aCXAxU6J0QIHcIjALsQkbEKegQIGxAD",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=post-quantum+cryptography+in+the+last+3+days&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r3M11scUDrwafc40twrp9Cc8lNYR4xk-_6kaf_xpf1budVgU2-CxiKghGuGZxrmzDgJxjbykmKpNyq_ts-98pL6hD1NnvpYAsoW59o9FeT9YqpOSFYW072Sb7LFe8TS6PJUzf0RfTA1yz-sHKnlOgfs_UwgrDDdQHmtpPyXR7mo0OR4Go6TCJGsGvcXhjOrLn2_4hqigLYGfJIC1p5TkBLOTBGMz7BgglX8ZSehkYq6SV336_79wJ5cpRslbu7KcjdCmPOjv84d5JUi_F2CeW9uMJ4yoOY1FTH_FFZUIK9e5Y51KEk3I4tUvoG3MF8cCaA9PPBEQOf9bx9fUW_xNvdObzZUg"
+        },
+        {
+          "name": "Last week",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rssXSLnlwh_Uqo_dly6Sqr_p2fktdF3hSYkVAfoPkVZ5YMZm8AImOxd9POx7hmg-LTYyHtdHexYRWEQ0UGN5klNTkMkJSaXUgbmvN0XB2UvQP8Wr6b41Q6SKpeVKyoLs4TvWujUYjm8Ivanl8UFRnwlNGV8KGEA9g1l57xug3wakvgWFbaXnU0D_dOk-ZPguBaj1AqMLKRJ_h-OkUeGlA4G8e4xXSu8WM9Zn4bZ9mQIIfsxHMuLWIDTzcb6NuTQv7x0z1LPB5KUZ_9jevfmE4LKMHr2DSBh00DMcn1QHLbrxMelP2nZmJRDrpEo06cfcqoseG2qbi45Xp7FAigSHfPiGvxoo",
+            "q": "post-quantum cryptography in the last week"
+          },
+          "link": "https://www.google.com/search?sca_esv=fa8fc3aacbaacd94&hl=en&sxsrf=APpeQntocMtk4sd6KW096y_JlG2ar7BX6w:1791134967980&q=post-quantum+cryptography+in+the+last+week&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rssXSLnlwh_Uqo_dly6Sqr_p2fktdF3hSYkVAfoPkVZ5YMZm8AImOxd9POx7hmg-LTYyHtdHexYRWEQ0UGN5klNTkMkJSaXUgbmvN0XB2UvQP8Wr6b41Q6SKpeVKyoLs4TvWujUYjm8Ivanl8UFRnwlNGV8KGEA9g1l57xug3wakvgWFbaXnU0D_dOk-ZPguBaj1AqMLKRJ_h-OkUeGlA4G8e4xXSu8WM9Zn4bZ9mQIIfsxHMuLWIDTzcb6NuTQv7x0z1LPB5KUZ_9jevfmE4LKMHr2DSBh00DMcn1QHLbrxMelP2nZmJRDrpEo06cfcqoseG2qbi45Xp7FAigSHfPiGvxoo&udm=8&sa=X&ved=2ahUKEwjBiYvc8aCXAxU6J0QIHcIjALsQkbEKegQIGxAE",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=post-quantum+cryptography+in+the+last+week&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rssXSLnlwh_Uqo_dly6Sqr_p2fktdF3hSYkVAfoPkVZ5YMZm8AImOxd9POx7hmg-LTYyHtdHexYRWEQ0UGN5klNTkMkJSaXUgbmvN0XB2UvQP8Wr6b41Q6SKpeVKyoLs4TvWujUYjm8Ivanl8UFRnwlNGV8KGEA9g1l57xug3wakvgWFbaXnU0D_dOk-ZPguBaj1AqMLKRJ_h-OkUeGlA4G8e4xXSu8WM9Zn4bZ9mQIIfsxHMuLWIDTzcb6NuTQv7x0z1LPB5KUZ_9jevfmE4LKMHr2DSBh00DMcn1QHLbrxMelP2nZmJRDrpEo06cfcqoseG2qbi45Xp7FAigSHfPiGvxoo"
+        },
+        {
+          "name": "Last month",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rhwv6lC8BOkQKjt06vuXHMQ3QAWXsR7ZhSx58FQ5a0i4HYjVWhCa6VuGiiJv0htwZ4aUJLt1hNJ8e9PQIVSThIn4pzkVBerIdFlwk79y6K6g3fxF0J7kevcGJW86zsFBhqITkX96iDx6Lb8iK-MkcqWBIXg9Y4js6zuhAobYWrmYFHtJuJsZPu3LmG9GkhBJddNUfLbN_l97BLXnRwsDWbl3mXIAj4DHROBV2pq74zfheTgGljK05psdOcKkaC1jJE13YcniqESYCOVrUZAbCOws3hRwDRe8G2i8LCXAwxdbqm5JDmKUZqNbAzRtLh8raK3QRNfpfIFDdJrJyzOrhB5ipQBU",
+            "q": "post-quantum cryptography in the last month"
+          },
+          "link": "https://www.google.com/search?sca_esv=fa8fc3aacbaacd94&hl=en&sxsrf=APpeQntocMtk4sd6KW096y_JlG2ar7BX6w:1791134967980&q=post-quantum+cryptography+in+the+last+month&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rhwv6lC8BOkQKjt06vuXHMQ3QAWXsR7ZhSx58FQ5a0i4HYjVWhCa6VuGiiJv0htwZ4aUJLt1hNJ8e9PQIVSThIn4pzkVBerIdFlwk79y6K6g3fxF0J7kevcGJW86zsFBhqITkX96iDx6Lb8iK-MkcqWBIXg9Y4js6zuhAobYWrmYFHtJuJsZPu3LmG9GkhBJddNUfLbN_l97BLXnRwsDWbl3mXIAj4DHROBV2pq74zfheTgGljK05psdOcKkaC1jJE13YcniqESYCOVrUZAbCOws3hRwDRe8G2i8LCXAwxdbqm5JDmKUZqNbAzRtLh8raK3QRNfpfIFDdJrJyzOrhB5ipQBU&udm=8&sa=X&ved=2ahUKEwjBiYvc8aCXAxU6J0QIHcIjALsQkbEKegQIGxAF",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=post-quantum+cryptography+in+the+last+month&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rhwv6lC8BOkQKjt06vuXHMQ3QAWXsR7ZhSx58FQ5a0i4HYjVWhCa6VuGiiJv0htwZ4aUJLt1hNJ8e9PQIVSThIn4pzkVBerIdFlwk79y6K6g3fxF0J7kevcGJW86zsFBhqITkX96iDx6Lb8iK-MkcqWBIXg9Y4js6zuhAobYWrmYFHtJuJsZPu3LmG9GkhBJddNUfLbN_l97BLXnRwsDWbl3mXIAj4DHROBV2pq74zfheTgGljK05psdOcKkaC1jJE13YcniqESYCOVrUZAbCOws3hRwDRe8G2i8LCXAwxdbqm5JDmKUZqNbAzRtLh8raK3QRNfpfIFDdJrJyzOrhB5ipQBU"
+        }
+      ]
+    },
+    {
+      "name": "Date posted",
+      "options": [
+        {
+          "name": "Yesterday",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rbEuBYaSZikTI9rl4Hr1eio7vdCLF1Rhgkje293bHRISXl7UOMIP5tBwSbEBiCz7shqnqkUteFfJis-EyQHmouJZvMuDhyLQGRd05oKTfEhn6r8x3TYGBxex9_fIrG1ptqoDFaX07ISGmuMN0-twcQKZAppQlIHuJQ5R62zz-7ZsUvWhHZvtkx8DBJuSeXJvtRF81NbUkbY5w7zZE_fEohB5O-Y-2-WVVBlbdzNx_l_XjspwTUZcK2vWTNPXspsuIa1VBQDvrJy3HA3RT1lh-osz8BBUpxbqhjSOw3oKjL8PugsiS6PhQgQtmQ-s0fL2-CyCoHZsagF1RFwvYGHAn-GNRevc",
+            "q": "post-quantum cryptography since yesterday"
+          },
+          "link": "https://www.google.com/search?sca_esv=fa8fc3aacbaacd94&hl=en&sxsrf=APpeQntocMtk4sd6KW096y_JlG2ar7BX6w:1791134967980&q=post-quantum+cryptography+since+yesterday&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rbEuBYaSZikTI9rl4Hr1eio7vdCLF1Rhgkje293bHRISXl7UOMIP5tBwSbEBiCz7shqnqkUteFfJis-EyQHmouJZvMuDhyLQGRd05oKTfEhn6r8x3TYGBxex9_fIrG1ptqoDFaX07ISGmuMN0-twcQKZAppQlIHuJQ5R62zz-7ZsUvWhHZvtkx8DBJuSeXJvtRF81NbUkbY5w7zZE_fEohB5O-Y-2-WVVBlbdzNx_l_XjspwTUZcK2vWTNPXspsuIa1VBQDvrJy3HA3RT1lh-osz8BBUpxbqhjSOw3oKjL8PugsiS6PhQgQtmQ-s0fL2-CyCoHZsagF1RFwvYGHAn-GNRevc&udm=8&sa=X&ved=2ahUKEwjBiYvc8aCXAxU6J0QIHcIjALsQkbEKegQIGxAC",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=post-quantum+cryptography+since+yesterday&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rbEuBYaSZikTI9rl4Hr1eio7vdCLF1Rhgkje293bHRISXl7UOMIP5tBwSbEBiCz7shqnqkUteFfJis-EyQHmouJZvMuDhyLQGRd05oKTfEhn6r8x3TYGBxex9_fIrG1ptqoDFaX07ISGmuMN0-twcQKZAppQlIHuJQ5R62zz-7ZsUvWhHZvtkx8DBJuSeXJvtRF81NbUkbY5w7zZE_fEohB5O-Y-2-WVVBlbdzNx_l_XjspwTUZcK2vWTNPXspsuIa1VBQDvrJy3HA3RT1lh-osz8BBUpxbqhjSOw3oKjL8PugsiS6PhQgQtmQ-s0fL2-CyCoHZsagF1RFwvYGHAn-GNRevc"
+        },
+        {
+          "name": "Last 3 days",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4r3M11scUDrwafc40twrp9Cc8lNYR4xk-_6kaf_xpf1budVgU2-CxiKghGuGZxrmzDgJxjbykmKpNyq_ts-98pL6hD1NnvpYAsoW59o9FeT9YqpOSFYW072Sb7LFe8TS6PJUzf0RfTA1yz-sHKnlOgfs_UwgrDDdQHmtpPyXR7mo0OR4Go6TCJGsGvcXhjOrLn2_4hqigLYGfJIC1p5TkBLOTBGMz7BgglX8ZSehkYq6SV336_79wJ5cpRslbu7KcjdCmPOjv84d5JUi_F2CeW9uMJ4yoOY1FTH_FFZUIK9e5Y51KEk3I4tUvoG3MF8cCaA9PPBEQOf9bx9fUW_xNvdObzZUg",
+            "q": "post-quantum cryptography in the last 3 days"
+          },
+          "link": "https://www.google.com/search?sca_esv=fa8fc3aacbaacd94&hl=en&sxsrf=APpeQntocMtk4sd6KW096y_JlG2ar7BX6w:1791134967980&q=post-quantum+cryptography+in+the+last+3+days&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r3M11scUDrwafc40twrp9Cc8lNYR4xk-_6kaf_xpf1budVgU2-CxiKghGuGZxrmzDgJxjbykmKpNyq_ts-98pL6hD1NnvpYAsoW59o9FeT9YqpOSFYW072Sb7LFe8TS6PJUzf0RfTA1yz-sHKnlOgfs_UwgrDDdQHmtpPyXR7mo0OR4Go6TCJGsGvcXhjOrLn2_4hqigLYGfJIC1p5TkBLOTBGMz7BgglX8ZSehkYq6SV336_79wJ5cpRslbu7KcjdCmPOjv84d5JUi_F2CeW9uMJ4yoOY1FTH_FFZUIK9e5Y51KEk3I4tUvoG3MF8cCaA9PPBEQOf9bx9fUW_xNvdObzZUg&udm=8&sa=X&ved=2ahUKEwjBiYvc8aCXAxU6J0QIHcIjALsQkbEKegQIGxAD",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=post-quantum+cryptography+in+the+last+3+days&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r3M11scUDrwafc40twrp9Cc8lNYR4xk-_6kaf_xpf1budVgU2-CxiKghGuGZxrmzDgJxjbykmKpNyq_ts-98pL6hD1NnvpYAsoW59o9FeT9YqpOSFYW072Sb7LFe8TS6PJUzf0RfTA1yz-sHKnlOgfs_UwgrDDdQHmtpPyXR7mo0OR4Go6TCJGsGvcXhjOrLn2_4hqigLYGfJIC1p5TkBLOTBGMz7BgglX8ZSehkYq6SV336_79wJ5cpRslbu7KcjdCmPOjv84d5JUi_F2CeW9uMJ4yoOY1FTH_FFZUIK9e5Y51KEk3I4tUvoG3MF8cCaA9PPBEQOf9bx9fUW_xNvdObzZUg"
+        },
+        {
+          "name": "Last week",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rssXSLnlwh_Uqo_dly6Sqr_p2fktdF3hSYkVAfoPkVZ5YMZm8AImOxd9POx7hmg-LTYyHtdHexYRWEQ0UGN5klNTkMkJSaXUgbmvN0XB2UvQP8Wr6b41Q6SKpeVKyoLs4TvWujUYjm8Ivanl8UFRnwlNGV8KGEA9g1l57xug3wakvgWFbaXnU0D_dOk-ZPguBaj1AqMLKRJ_h-OkUeGlA4G8e4xXSu8WM9Zn4bZ9mQIIfsxHMuLWIDTzcb6NuTQv7x0z1LPB5KUZ_9jevfmE4LKMHr2DSBh00DMcn1QHLbrxMelP2nZmJRDrpEo06cfcqoseG2qbi45Xp7FAigSHfPiGvxoo",
+            "q": "post-quantum cryptography in the last week"
+          },
+          "link": "https://www.google.com/search?sca_esv=fa8fc3aacbaacd94&hl=en&sxsrf=APpeQntocMtk4sd6KW096y_JlG2ar7BX6w:1791134967980&q=post-quantum+cryptography+in+the+last+week&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rssXSLnlwh_Uqo_dly6Sqr_p2fktdF3hSYkVAfoPkVZ5YMZm8AImOxd9POx7hmg-LTYyHtdHexYRWEQ0UGN5klNTkMkJSaXUgbmvN0XB2UvQP8Wr6b41Q6SKpeVKyoLs4TvWujUYjm8Ivanl8UFRnwlNGV8KGEA9g1l57xug3wakvgWFbaXnU0D_dOk-ZPguBaj1AqMLKRJ_h-OkUeGlA4G8e4xXSu8WM9Zn4bZ9mQIIfsxHMuLWIDTzcb6NuTQv7x0z1LPB5KUZ_9jevfmE4LKMHr2DSBh00DMcn1QHLbrxMelP2nZmJRDrpEo06cfcqoseG2qbi45Xp7FAigSHfPiGvxoo&udm=8&sa=X&ved=2ahUKEwjBiYvc8aCXAxU6J0QIHcIjALsQkbEKegQIGxAE",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=post-quantum+cryptography+in+the+last+week&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rssXSLnlwh_Uqo_dly6Sqr_p2fktdF3hSYkVAfoPkVZ5YMZm8AImOxd9POx7hmg-LTYyHtdHexYRWEQ0UGN5klNTkMkJSaXUgbmvN0XB2UvQP8Wr6b41Q6SKpeVKyoLs4TvWujUYjm8Ivanl8UFRnwlNGV8KGEA9g1l57xug3wakvgWFbaXnU0D_dOk-ZPguBaj1AqMLKRJ_h-OkUeGlA4G8e4xXSu8WM9Zn4bZ9mQIIfsxHMuLWIDTzcb6NuTQv7x0z1LPB5KUZ_9jevfmE4LKMHr2DSBh00DMcn1QHLbrxMelP2nZmJRDrpEo06cfcqoseG2qbi45Xp7FAigSHfPiGvxoo"
+        },
+        {
+          "name": "Last month",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rhwv6lC8BOkQKjt06vuXHMQ3QAWXsR7ZhSx58FQ5a0i4HYjVWhCa6VuGiiJv0htwZ4aUJLt1hNJ8e9PQIVSThIn4pzkVBerIdFlwk79y6K6g3fxF0J7kevcGJW86zsFBhqITkX96iDx6Lb8iK-MkcqWBIXg9Y4js6zuhAobYWrmYFHtJuJsZPu3LmG9GkhBJddNUfLbN_l97BLXnRwsDWbl3mXIAj4DHROBV2pq74zfheTgGljK05psdOcKkaC1jJE13YcniqESYCOVrUZAbCOws3hRwDRe8G2i8LCXAwxdbqm5JDmKUZqNbAzRtLh8raK3QRNfpfIFDdJrJyzOrhB5ipQBU",
+            "q": "post-quantum cryptography in the last month"
+          },
+          "link": "https://www.google.com/search?sca_esv=fa8fc3aacbaacd94&hl=en&sxsrf=APpeQntocMtk4sd6KW096y_JlG2ar7BX6w:1791134967980&q=post-quantum+cryptography+in+the+last+month&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rhwv6lC8BOkQKjt06vuXHMQ3QAWXsR7ZhSx58FQ5a0i4HYjVWhCa6VuGiiJv0htwZ4aUJLt1hNJ8e9PQIVSThIn4pzkVBerIdFlwk79y6K6g3fxF0J7kevcGJW86zsFBhqITkX96iDx6Lb8iK-MkcqWBIXg9Y4js6zuhAobYWrmYFHtJuJsZPu3LmG9GkhBJddNUfLbN_l97BLXnRwsDWbl3mXIAj4DHROBV2pq74zfheTgGljK05psdOcKkaC1jJE13YcniqESYCOVrUZAbCOws3hRwDRe8G2i8LCXAwxdbqm5JDmKUZqNbAzRtLh8raK3QRNfpfIFDdJrJyzOrhB5ipQBU&udm=8&sa=X&ved=2ahUKEwjBiYvc8aCXAxU6J0QIHcIjALsQkbEKegQIGxAF",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=post-quantum+cryptography+in+the+last+month&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rhwv6lC8BOkQKjt06vuXHMQ3QAWXsR7ZhSx58FQ5a0i4HYjVWhCa6VuGiiJv0htwZ4aUJLt1hNJ8e9PQIVSThIn4pzkVBerIdFlwk79y6K6g3fxF0J7kevcGJW86zsFBhqITkX96iDx6Lb8iK-MkcqWBIXg9Y4js6zuhAobYWrmYFHtJuJsZPu3LmG9GkhBJddNUfLbN_l97BLXnRwsDWbl3mXIAj4DHROBV2pq74zfheTgGljK05psdOcKkaC1jJE13YcniqESYCOVrUZAbCOws3hRwDRe8G2i8LCXAwxdbqm5JDmKUZqNbAzRtLh8raK3QRNfpfIFDdJrJyzOrhB5ipQBU"
+        }
+      ]
+    },
+    {
+      "name": "Job type",
+      "options": [
+        {
+          "name": "Full time",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4r2YIQD5S0wiJLM8D3QoSGRe1AJhVNAAStBw3t2nAvFNtMUhzQ80-UShjSNBwerbZzgYNqytVKa3Gp6CNXcbfJuRdLD_r23BevSuEXsDagN8B7RZeivkwA7g9qw9mGmD7Zxr7Ct0IrBXJWtEurV1HfIBtSZvZNNT5U3Xn7vaixXYTDs5Mr9qSVP3fjxDobNYjFEhB5GY5wdJ9PxJ0XCscn_B4NAXaYfowiGzlRB1Jp06v_YObnwU33V7dXpucGGJcKJrqoqm--3Wt0G0Pq1S0ZR-2in0LNQAvaJYy7xfu4V0aWdRXQGuEQrElpTBVZenOagXwBsmKR7EmWfaBJnQdXs397aHE",
+            "q": "post-quantum cryptography full time"
+          },
+          "link": "https://www.google.com/search?sca_esv=fa8fc3aacbaacd94&hl=en&sxsrf=APpeQntocMtk4sd6KW096y_JlG2ar7BX6w:1791134967980&q=post-quantum+cryptography+full+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r2YIQD5S0wiJLM8D3QoSGRe1AJhVNAAStBw3t2nAvFNtMUhzQ80-UShjSNBwerbZzgYNqytVKa3Gp6CNXcbfJuRdLD_r23BevSuEXsDagN8B7RZeivkwA7g9qw9mGmD7Zxr7Ct0IrBXJWtEurV1HfIBtSZvZNNT5U3Xn7vaixXYTDs5Mr9qSVP3fjxDobNYjFEhB5GY5wdJ9PxJ0XCscn_B4NAXaYfowiGzlRB1Jp06v_YObnwU33V7dXpucGGJcKJrqoqm--3Wt0G0Pq1S0ZR-2in0LNQAvaJYy7xfu4V0aWdRXQGuEQrElpTBVZenOagXwBsmKR7EmWfaBJnQdXs397aHE&udm=8&sa=X&ved=2ahUKEwjBiYvc8aCXAxU6J0QIHcIjALsQkbEKegQIHBAC",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=post-quantum+cryptography+full+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r2YIQD5S0wiJLM8D3QoSGRe1AJhVNAAStBw3t2nAvFNtMUhzQ80-UShjSNBwerbZzgYNqytVKa3Gp6CNXcbfJuRdLD_r23BevSuEXsDagN8B7RZeivkwA7g9qw9mGmD7Zxr7Ct0IrBXJWtEurV1HfIBtSZvZNNT5U3Xn7vaixXYTDs5Mr9qSVP3fjxDobNYjFEhB5GY5wdJ9PxJ0XCscn_B4NAXaYfowiGzlRB1Jp06v_YObnwU33V7dXpucGGJcKJrqoqm--3Wt0G0Pq1S0ZR-2in0LNQAvaJYy7xfu4V0aWdRXQGuEQrElpTBVZenOagXwBsmKR7EmWfaBJnQdXs397aHE"
+        },
+        {
+          "name": "Part time",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4r2YIQD5S0wiJLM8D3QoSGRe1AJhVNAAStBw3t2nAvFNtMUhzQ80-UShjSNBwerbZzPOaSO8N2_A-6sCR7zdZ32wqs--_9il6Wa4sKpqxyQIhM2rSjkLyDX4eB5PTWBgUQz3VEIPwNhh99haqBn7aBsBEyCrml37mQWaQQzYPh2-cQ92lxiPxYT7Q3k-GrdZY9m1cTKOhBzbqz4-cPWtSLv4Q5yO93HQ4r2mchzMEKg2pM3JbOh4wF0l6JI6m19DiZhq6vYKE0ODf9OqNQTD38XOw_Q0ZO_wcCA7-89sfEuTacjFMVR5Q0BhkGGX3amy2yuuLGXA2znesPWMjXfjPQCiRXapA",
+            "q": "post-quantum cryptography part time"
+          },
+          "link": "https://www.google.com/search?sca_esv=fa8fc3aacbaacd94&hl=en&sxsrf=APpeQntocMtk4sd6KW096y_JlG2ar7BX6w:1791134967980&q=post-quantum+cryptography+part+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r2YIQD5S0wiJLM8D3QoSGRe1AJhVNAAStBw3t2nAvFNtMUhzQ80-UShjSNBwerbZzPOaSO8N2_A-6sCR7zdZ32wqs--_9il6Wa4sKpqxyQIhM2rSjkLyDX4eB5PTWBgUQz3VEIPwNhh99haqBn7aBsBEyCrml37mQWaQQzYPh2-cQ92lxiPxYT7Q3k-GrdZY9m1cTKOhBzbqz4-cPWtSLv4Q5yO93HQ4r2mchzMEKg2pM3JbOh4wF0l6JI6m19DiZhq6vYKE0ODf9OqNQTD38XOw_Q0ZO_wcCA7-89sfEuTacjFMVR5Q0BhkGGX3amy2yuuLGXA2znesPWMjXfjPQCiRXapA&udm=8&sa=X&ved=2ahUKEwjBiYvc8aCXAxU6J0QIHcIjALsQkbEKegQIHBAD",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=post-quantum+cryptography+part+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r2YIQD5S0wiJLM8D3QoSGRe1AJhVNAAStBw3t2nAvFNtMUhzQ80-UShjSNBwerbZzPOaSO8N2_A-6sCR7zdZ32wqs--_9il6Wa4sKpqxyQIhM2rSjkLyDX4eB5PTWBgUQz3VEIPwNhh99haqBn7aBsBEyCrml37mQWaQQzYPh2-cQ92lxiPxYT7Q3k-GrdZY9m1cTKOhBzbqz4-cPWtSLv4Q5yO93HQ4r2mchzMEKg2pM3JbOh4wF0l6JI6m19DiZhq6vYKE0ODf9OqNQTD38XOw_Q0ZO_wcCA7-89sfEuTacjFMVR5Q0BhkGGX3amy2yuuLGXA2znesPWMjXfjPQCiRXapA"
+        },
+        {
+          "name": "Contract",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4r_fsZOgCf8TVkDLsBPFXvEsewn4yja8djHF3esppIZ0SoyzpS3IKh-3cGxKY9D-rEJLlA8rP8ZxbazlDyWevFzqxkafTPdV31iGk8Aq9wGLP3lNh3EzfaFBHNTYoCcQIYl3GzT0EM_6A2iOoJKX9eAASQTZkZTwpXMEk78CfkopLTOVO2AMWhdMY55KGHOLu_jd-cNLF2T-8grTFpSLhnEjgP21clOVjMsCs2ZgbQdtI62-6jiuVTAfd7lmdfGpuFRI0P-kekDt8RVQYylxDMLiSHb5oQwDUFaA9WNngu4Emum_mq2kxY_RHJ9rEc28Wdiy6cQw",
+            "q": "post-quantum cryptography contract"
+          },
+          "link": "https://www.google.com/search?sca_esv=fa8fc3aacbaacd94&hl=en&sxsrf=APpeQntocMtk4sd6KW096y_JlG2ar7BX6w:1791134967980&q=post-quantum+cryptography+contract&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r_fsZOgCf8TVkDLsBPFXvEsewn4yja8djHF3esppIZ0SoyzpS3IKh-3cGxKY9D-rEJLlA8rP8ZxbazlDyWevFzqxkafTPdV31iGk8Aq9wGLP3lNh3EzfaFBHNTYoCcQIYl3GzT0EM_6A2iOoJKX9eAASQTZkZTwpXMEk78CfkopLTOVO2AMWhdMY55KGHOLu_jd-cNLF2T-8grTFpSLhnEjgP21clOVjMsCs2ZgbQdtI62-6jiuVTAfd7lmdfGpuFRI0P-kekDt8RVQYylxDMLiSHb5oQwDUFaA9WNngu4Emum_mq2kxY_RHJ9rEc28Wdiy6cQw&udm=8&sa=X&ved=2ahUKEwjBiYvc8aCXAxU6J0QIHcIjALsQkbEKegQIHBAE",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=post-quantum+cryptography+contract&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r_fsZOgCf8TVkDLsBPFXvEsewn4yja8djHF3esppIZ0SoyzpS3IKh-3cGxKY9D-rEJLlA8rP8ZxbazlDyWevFzqxkafTPdV31iGk8Aq9wGLP3lNh3EzfaFBHNTYoCcQIYl3GzT0EM_6A2iOoJKX9eAASQTZkZTwpXMEk78CfkopLTOVO2AMWhdMY55KGHOLu_jd-cNLF2T-8grTFpSLhnEjgP21clOVjMsCs2ZgbQdtI62-6jiuVTAfd7lmdfGpuFRI0P-kekDt8RVQYylxDMLiSHb5oQwDUFaA9WNngu4Emum_mq2kxY_RHJ9rEc28Wdiy6cQw"
+        },
+        {
+          "name": "Internship",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rAcot_iWY5OTyFR6kR7h3sXuviiW9JBE0LyeG73Bs1vstTOA4gw0Z6W8F-StOwEC-oAu771vMphXGQ9N1O_NjymSxhjYRFIGkPU8W2PCHQWVtgHorCpkOwJtz0VCoO2p2Ix_2jwg9grg-9ErzBuA3Mq8fD3lz5syTfbK1tHPR0xnoduOIefCnkcloDXRjoZG4Wdc29Ypuz8nYxDSE_fxQ6FlIdldO4vdcsN5XRVEYgVqZjhrlZLZm4Q1xn7dKR-SzHkev3OWWtOaRN7QSUarFe-6P92ZAw0b94NntzWr_RVUZI72GJ7aJgkLd4O4TiTkeUZvweQ",
+            "q": "post-quantum cryptography internship"
+          },
+          "link": "https://www.google.com/search?sca_esv=fa8fc3aacbaacd94&hl=en&sxsrf=APpeQntocMtk4sd6KW096y_JlG2ar7BX6w:1791134967980&q=post-quantum+cryptography+internship&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rAcot_iWY5OTyFR6kR7h3sXuviiW9JBE0LyeG73Bs1vstTOA4gw0Z6W8F-StOwEC-oAu771vMphXGQ9N1O_NjymSxhjYRFIGkPU8W2PCHQWVtgHorCpkOwJtz0VCoO2p2Ix_2jwg9grg-9ErzBuA3Mq8fD3lz5syTfbK1tHPR0xnoduOIefCnkcloDXRjoZG4Wdc29Ypuz8nYxDSE_fxQ6FlIdldO4vdcsN5XRVEYgVqZjhrlZLZm4Q1xn7dKR-SzHkev3OWWtOaRN7QSUarFe-6P92ZAw0b94NntzWr_RVUZI72GJ7aJgkLd4O4TiTkeUZvweQ&udm=8&sa=X&ved=2ahUKEwjBiYvc8aCXAxU6J0QIHcIjALsQkbEKegQIHBAF",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=post-quantum+cryptography+internship&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rAcot_iWY5OTyFR6kR7h3sXuviiW9JBE0LyeG73Bs1vstTOA4gw0Z6W8F-StOwEC-oAu771vMphXGQ9N1O_NjymSxhjYRFIGkPU8W2PCHQWVtgHorCpkOwJtz0VCoO2p2Ix_2jwg9grg-9ErzBuA3Mq8fD3lz5syTfbK1tHPR0xnoduOIefCnkcloDXRjoZG4Wdc29Ypuz8nYxDSE_fxQ6FlIdldO4vdcsN5XRVEYgVqZjhrlZLZm4Q1xn7dKR-SzHkev3OWWtOaRN7QSUarFe-6P92ZAw0b94NntzWr_RVUZI72GJ7aJgkLd4O4TiTkeUZvweQ"
+        }
+      ]
+    },
+    {
+      "name": "Job type",
+      "options": [
+        {
+          "name": "Full time",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4r2YIQD5S0wiJLM8D3QoSGRe1AJhVNAAStBw3t2nAvFNtMUhzQ80-UShjSNBwerbZzgYNqytVKa3Gp6CNXcbfJuRdLD_r23BevSuEXsDagN8B7RZeivkwA7g9qw9mGmD7Zxr7Ct0IrBXJWtEurV1HfIBtSZvZNNT5U3Xn7vaixXYTDs5Mr9qSVP3fjxDobNYjFEhB5GY5wdJ9PxJ0XCscn_B4NAXaYfowiGzlRB1Jp06v_YObnwU33V7dXpucGGJcKJrqoqm--3Wt0G0Pq1S0ZR-2in0LNQAvaJYy7xfu4V0aWdRXQGuEQrElpTBVZenOagXwBsmKR7EmWfaBJnQdXs397aHE",
+            "q": "post-quantum cryptography full time"
+          },
+          "link": "https://www.google.com/search?sca_esv=fa8fc3aacbaacd94&hl=en&sxsrf=APpeQntocMtk4sd6KW096y_JlG2ar7BX6w:1791134967980&q=post-quantum+cryptography+full+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r2YIQD5S0wiJLM8D3QoSGRe1AJhVNAAStBw3t2nAvFNtMUhzQ80-UShjSNBwerbZzgYNqytVKa3Gp6CNXcbfJuRdLD_r23BevSuEXsDagN8B7RZeivkwA7g9qw9mGmD7Zxr7Ct0IrBXJWtEurV1HfIBtSZvZNNT5U3Xn7vaixXYTDs5Mr9qSVP3fjxDobNYjFEhB5GY5wdJ9PxJ0XCscn_B4NAXaYfowiGzlRB1Jp06v_YObnwU33V7dXpucGGJcKJrqoqm--3Wt0G0Pq1S0ZR-2in0LNQAvaJYy7xfu4V0aWdRXQGuEQrElpTBVZenOagXwBsmKR7EmWfaBJnQdXs397aHE&udm=8&sa=X&ved=2ahUKEwjBiYvc8aCXAxU6J0QIHcIjALsQkbEKegQIHBAC",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=post-quantum+cryptography+full+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r2YIQD5S0wiJLM8D3QoSGRe1AJhVNAAStBw3t2nAvFNtMUhzQ80-UShjSNBwerbZzgYNqytVKa3Gp6CNXcbfJuRdLD_r23BevSuEXsDagN8B7RZeivkwA7g9qw9mGmD7Zxr7Ct0IrBXJWtEurV1HfIBtSZvZNNT5U3Xn7vaixXYTDs5Mr9qSVP3fjxDobNYjFEhB5GY5wdJ9PxJ0XCscn_B4NAXaYfowiGzlRB1Jp06v_YObnwU33V7dXpucGGJcKJrqoqm--3Wt0G0Pq1S0ZR-2in0LNQAvaJYy7xfu4V0aWdRXQGuEQrElpTBVZenOagXwBsmKR7EmWfaBJnQdXs397aHE"
+        },
+        {
+          "name": "Part time",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4r2YIQD5S0wiJLM8D3QoSGRe1AJhVNAAStBw3t2nAvFNtMUhzQ80-UShjSNBwerbZzPOaSO8N2_A-6sCR7zdZ32wqs--_9il6Wa4sKpqxyQIhM2rSjkLyDX4eB5PTWBgUQz3VEIPwNhh99haqBn7aBsBEyCrml37mQWaQQzYPh2-cQ92lxiPxYT7Q3k-GrdZY9m1cTKOhBzbqz4-cPWtSLv4Q5yO93HQ4r2mchzMEKg2pM3JbOh4wF0l6JI6m19DiZhq6vYKE0ODf9OqNQTD38XOw_Q0ZO_wcCA7-89sfEuTacjFMVR5Q0BhkGGX3amy2yuuLGXA2znesPWMjXfjPQCiRXapA",
+            "q": "post-quantum cryptography part time"
+          },
+          "link": "https://www.google.com/search?sca_esv=fa8fc3aacbaacd94&hl=en&sxsrf=APpeQntocMtk4sd6KW096y_JlG2ar7BX6w:1791134967980&q=post-quantum+cryptography+part+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r2YIQD5S0wiJLM8D3QoSGRe1AJhVNAAStBw3t2nAvFNtMUhzQ80-UShjSNBwerbZzPOaSO8N2_A-6sCR7zdZ32wqs--_9il6Wa4sKpqxyQIhM2rSjkLyDX4eB5PTWBgUQz3VEIPwNhh99haqBn7aBsBEyCrml37mQWaQQzYPh2-cQ92lxiPxYT7Q3k-GrdZY9m1cTKOhBzbqz4-cPWtSLv4Q5yO93HQ4r2mchzMEKg2pM3JbOh4wF0l6JI6m19DiZhq6vYKE0ODf9OqNQTD38XOw_Q0ZO_wcCA7-89sfEuTacjFMVR5Q0BhkGGX3amy2yuuLGXA2znesPWMjXfjPQCiRXapA&udm=8&sa=X&ved=2ahUKEwjBiYvc8aCXAxU6J0QIHcIjALsQkbEKegQIHBAD",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=post-quantum+cryptography+part+time&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r2YIQD5S0wiJLM8D3QoSGRe1AJhVNAAStBw3t2nAvFNtMUhzQ80-UShjSNBwerbZzPOaSO8N2_A-6sCR7zdZ32wqs--_9il6Wa4sKpqxyQIhM2rSjkLyDX4eB5PTWBgUQz3VEIPwNhh99haqBn7aBsBEyCrml37mQWaQQzYPh2-cQ92lxiPxYT7Q3k-GrdZY9m1cTKOhBzbqz4-cPWtSLv4Q5yO93HQ4r2mchzMEKg2pM3JbOh4wF0l6JI6m19DiZhq6vYKE0ODf9OqNQTD38XOw_Q0ZO_wcCA7-89sfEuTacjFMVR5Q0BhkGGX3amy2yuuLGXA2znesPWMjXfjPQCiRXapA"
+        },
+        {
+          "name": "Contract",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4r_fsZOgCf8TVkDLsBPFXvEsewn4yja8djHF3esppIZ0SoyzpS3IKh-3cGxKY9D-rEJLlA8rP8ZxbazlDyWevFzqxkafTPdV31iGk8Aq9wGLP3lNh3EzfaFBHNTYoCcQIYl3GzT0EM_6A2iOoJKX9eAASQTZkZTwpXMEk78CfkopLTOVO2AMWhdMY55KGHOLu_jd-cNLF2T-8grTFpSLhnEjgP21clOVjMsCs2ZgbQdtI62-6jiuVTAfd7lmdfGpuFRI0P-kekDt8RVQYylxDMLiSHb5oQwDUFaA9WNngu4Emum_mq2kxY_RHJ9rEc28Wdiy6cQw",
+            "q": "post-quantum cryptography contract"
+          },
+          "link": "https://www.google.com/search?sca_esv=fa8fc3aacbaacd94&hl=en&sxsrf=APpeQntocMtk4sd6KW096y_JlG2ar7BX6w:1791134967980&q=post-quantum+cryptography+contract&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r_fsZOgCf8TVkDLsBPFXvEsewn4yja8djHF3esppIZ0SoyzpS3IKh-3cGxKY9D-rEJLlA8rP8ZxbazlDyWevFzqxkafTPdV31iGk8Aq9wGLP3lNh3EzfaFBHNTYoCcQIYl3GzT0EM_6A2iOoJKX9eAASQTZkZTwpXMEk78CfkopLTOVO2AMWhdMY55KGHOLu_jd-cNLF2T-8grTFpSLhnEjgP21clOVjMsCs2ZgbQdtI62-6jiuVTAfd7lmdfGpuFRI0P-kekDt8RVQYylxDMLiSHb5oQwDUFaA9WNngu4Emum_mq2kxY_RHJ9rEc28Wdiy6cQw&udm=8&sa=X&ved=2ahUKEwjBiYvc8aCXAxU6J0QIHcIjALsQkbEKegQIHBAE",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=post-quantum+cryptography+contract&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4r_fsZOgCf8TVkDLsBPFXvEsewn4yja8djHF3esppIZ0SoyzpS3IKh-3cGxKY9D-rEJLlA8rP8ZxbazlDyWevFzqxkafTPdV31iGk8Aq9wGLP3lNh3EzfaFBHNTYoCcQIYl3GzT0EM_6A2iOoJKX9eAASQTZkZTwpXMEk78CfkopLTOVO2AMWhdMY55KGHOLu_jd-cNLF2T-8grTFpSLhnEjgP21clOVjMsCs2ZgbQdtI62-6jiuVTAfd7lmdfGpuFRI0P-kekDt8RVQYylxDMLiSHb5oQwDUFaA9WNngu4Emum_mq2kxY_RHJ9rEc28Wdiy6cQw"
+        },
+        {
+          "name": "Internship",
+          "parameters": {
+            "uds": "AJ5uw1_a2D0D09lxm8gpKKOTUn4rAcot_iWY5OTyFR6kR7h3sXuviiW9JBE0LyeG73Bs1vstTOA4gw0Z6W8F-StOwEC-oAu771vMphXGQ9N1O_NjymSxhjYRFIGkPU8W2PCHQWVtgHorCpkOwJtz0VCoO2p2Ix_2jwg9grg-9ErzBuA3Mq8fD3lz5syTfbK1tHPR0xnoduOIefCnkcloDXRjoZG4Wdc29Ypuz8nYxDSE_fxQ6FlIdldO4vdcsN5XRVEYgVqZjhrlZLZm4Q1xn7dKR-SzHkev3OWWtOaRN7QSUarFe-6P92ZAw0b94NntzWr_RVUZI72GJ7aJgkLd4O4TiTkeUZvweQ",
+            "q": "post-quantum cryptography internship"
+          },
+          "link": "https://www.google.com/search?sca_esv=fa8fc3aacbaacd94&hl=en&sxsrf=APpeQntocMtk4sd6KW096y_JlG2ar7BX6w:1791134967980&q=post-quantum+cryptography+internship&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rAcot_iWY5OTyFR6kR7h3sXuviiW9JBE0LyeG73Bs1vstTOA4gw0Z6W8F-StOwEC-oAu771vMphXGQ9N1O_NjymSxhjYRFIGkPU8W2PCHQWVtgHorCpkOwJtz0VCoO2p2Ix_2jwg9grg-9ErzBuA3Mq8fD3lz5syTfbK1tHPR0xnoduOIefCnkcloDXRjoZG4Wdc29Ypuz8nYxDSE_fxQ6FlIdldO4vdcsN5XRVEYgVqZjhrlZLZm4Q1xn7dKR-SzHkev3OWWtOaRN7QSUarFe-6P92ZAw0b94NntzWr_RVUZI72GJ7aJgkLd4O4TiTkeUZvweQ&udm=8&sa=X&ved=2ahUKEwjBiYvc8aCXAxU6J0QIHcIjALsQkbEKegQIHBAF",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&q=post-quantum+cryptography+internship&uds=AJ5uw1_a2D0D09lxm8gpKKOTUn4rAcot_iWY5OTyFR6kR7h3sXuviiW9JBE0LyeG73Bs1vstTOA4gw0Z6W8F-StOwEC-oAu771vMphXGQ9N1O_NjymSxhjYRFIGkPU8W2PCHQWVtgHorCpkOwJtz0VCoO2p2Ix_2jwg9grg-9ErzBuA3Mq8fD3lz5syTfbK1tHPR0xnoduOIefCnkcloDXRjoZG4Wdc29Ypuz8nYxDSE_fxQ6FlIdldO4vdcsN5XRVEYgVqZjhrlZLZm4Q1xn7dKR-SzHkev3OWWtOaRN7QSUarFe-6P92ZAw0b94NntzWr_RVUZI72GJ7aJgkLd4O4TiTkeUZvweQ"
+        }
+      ]
+    }
+  ],
+  "jobs_results": [
+    {
+      "title": "Director, Post-Quantum Cryptography",
+      "company_name": "KPMG LLP",
+      "location": "Dallas, TX",
+      "via": "KPMG Careers",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "Minimum eight years of recent experience with PQC standards (CNSA 2.0, NIST) and implementation strategies at the enterprise level",
+            "Proven ability to build and scale consulting offerings, manage P&L, and lead cross-functional teams in high-growth settings",
+            "Demonstrated success in negotiating and executing partnerships with leading technology vendors, such as Google and IBM",
+            "Awareness of global quantum security regulations and critical infrastructure mandates; strong ability to engage C-suite and board-level audiences, translating complex concepts into actionable business strategies",
+            "Experience crafting go-to-market narratives and building practice visibility through white papers and conference talks",
+            "Travel up to 30%",
+            "Applicants must be authorized to work in the U.S. without the need for employment-based visa sponsorship now or in the future; KPMG LLP will not sponsor applicants for U.S. work visa status for this opportunity (no sponsorship is available for H-1B, L-1, TN, O-1, E-3, H-1B1, F-1, J-1, OPT, CPT or any other employment-based visa)",
+            "These include the duties and responsibilities listed above, as well as the abilities to adhere to company policies, exercise sound judgment, effectively manage stress and work safely and respectfully with others, exhibit trustworthiness, and safeguard business operations and company reputation"
+          ]
+        },
+        {
+          "title": "Benefits",
+          "items": [
+            "Any offered salary is determined based on relevant factors such as applicant's skills, job responsibilities, prior relevant experience, certain degrees and certifications and market considerations",
+            "In addition, KPMG is proud to offer a comprehensive, competitive benefits package, with options designed to help you make the best decisions for yourself, your family, and your lifestyle",
+            "Available benefits are based on eligibility",
+            "Our Total Rewards package includes a variety of medical and dental plans, vision coverage, disability and life insurance, 401(k) plans, and a robust suite of personal well-being benefits to support your mental health",
+            "Depending on job classification, standard work hours, and years of service, KPMG provides Personal Time Off per fiscal year",
+            "KPMG offers a comprehensive compensation and benefits package"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": [
+            "Define the go-to-market strategy for our quantum security offerings; develop and maintain executive-level relationships with key accounts, guiding client engagements with CISOs, CIOs, and other senior stakeholders; deliver compelling presentations and ROI business cases to drive client acquisition",
+            "Build and scale a high-performance delivery team to achieve growth targets while maintaining quality; oversee financial performance, ensuring project margins, resource utilization, and P&L accountability",
+            "Develop thought leadership strategies, including whitepapers and speaking engagements, to enhance KPMG's brand as a quantum security market leader; mentor team members to establish them as recognized industry experts",
+            "Launch new methodologies and scalable service models tailored to quantum security domains, ensuring the delivery of high-quality, differentiated solutions",
+            "Attract and nurture specialized technical talent, fostering a collaborative culture and supporting succession planning through effective mentorship",
+            "Act with integrity, professionalism, and personal responsibility to uphold KPMG's respectful and courteous work environment"
+          ]
+        }
+      ],
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=post-quantum+cryptography&htidocid=qeg1Td1o-xx4NTVwAAAAAA%3D%3D&hl=en-US&shem=epsd1,esd2e,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xXEsQrCMBAAUFz7AQ5ON0vbiOBSxxYKWqGCg1u5hpBU0lzIXaH9DP9YfMPLvrusaqZktFDKoSeW4rlgkGWGOm1RyCaMboMCbjQCG0zaAQVoiaw3h6sTiVwpxexLy4Iy6VLTrCiYkVb1oZH_DewwmehRzHC-nNYyBnvc3_tHC13XwxSgQe-Rc3i9f9AIo5OUAAAA&shmds=v1_ARwrE23eGq51vDqzPVqJ5_wXqzQjOXg0IMkvnHdZaKCjgZ3efw&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=post-quantum+cryptography&htidocid=qeg1Td1o-xx4NTVwAAAAAA%3D%3D",
+      "thumbnail": "https://serpapi.com/searches/6ac28ce6b9fc5f4204881e51/images/MuT6OullRkma3qH_1YywiyOmbZ0Y2YTlCcSptluGjBE.jpeg",
+      "extensions": [
+        "4 days ago",
+        "Full-time",
+        "Health insurance",
+        "Dental insurance"
+      ],
+      "source_link": "https://www.kpmguscareers.com/jobdetail/?jobId=139042",
+      "job_title": "Director, Post-Quantum Cryptography",
+      "description": "The KPMG Advisory practice is at the forefront of transformation, offering excellent opportunities for individuals to advance their careers and expertise with KPMG. Looking ahead, we anticipate continued evolution and success within the practice, fostering both personal and professional development, thereby creating new pathways for growth. In this ever-changing market environment, our professionals must be adaptable and thrive in a collaborative, team-driven culture. At KPMG, our people are our number one priority. With a wealth of learning and career development opportunities, a world-class training facility, and leading market tools, we help our people continue to grow both professionally and personally. If you're looking for a firm with a strong team connection where you can be your whole self, have an impact, advance your skills, deepen your experiences, and have the flexibility and access to constantly find new areas of inspiration and expand your capabilities, then consider a career in Advisory.\n\n \n KPMG is currently seeking a Director, Post-Quantum Cryptography to join our Advisory Services practice.\n\nResponsibilities:Define the go-to-market strategy for our quantum security offerings; develop and maintain executive-level relationships with key accounts, guiding client engagements with CISOs, CIOs, and other senior stakeholders; deliver compelling presentations and ROI business cases to drive client acquisitionBuild and scale a high-performance delivery team to achieve growth targets while maintaining quality; oversee financial performance, ensuring project margins, resource utilization, and P&L accountabilityDevelop thought leadership strategies, including whitepapers and speaking engagements, to enhance KPMG's brand as a quantum security market leader; mentor team members to establish them as recognized industry expertsLaunch new methodologies and scalable service models tailored to quantum security domains, ensuring the delivery of high-quality, differentiated solutionsAttract and nurture specialized technical talent, fostering a collaborative culture and supporting succession planning through effective mentorshipAct with integrity, professionalism, and personal responsibility to uphold KPMG's respectful and courteous work environment\nQualifications:Minimum eight years of recent experience with PQC standards (CNSA 2.0, NIST) and implementation strategies at the enterprise levelBachelor's degree from an accredited college or university is preferred; High school diploma or GED equivalent requiredProven ability to build and scale consulting offerings, manage P&L, and lead cross-functional teams in high-growth settingsDemonstrated success in negotiating and executing partnerships with leading technology vendors, such as Google and IBMAwareness of global quantum security regulations and critical infrastructure mandates; strong ability to engage C-suite and board-level audiences, translating complex concepts into actionable business strategiesExperience crafting go-to-market narratives and building practice visibility through white papers and conference talksTravel up to 30%Applicants must be authorized to work in the U.S. without the need for employment-based visa sponsorship now or in the future; KPMG LLP will not sponsor applicants for U.S. work visa status for this opportunity (no sponsorship is available for H-1B, L-1, TN, O-1, E-3, H-1B1, F-1, J-1, OPT, CPT or any other employment-based visa) \n KPMG LLP and its subsidiaries (“KPMG”) complies with all local/state regulations regarding displaying salary ranges. If required, the ranges displayed below or via the URL below are specifically for those potential hires who will work in the location(s) listed. Any offered salary is determined based on relevant factors such as applicant's skills, job responsibilities, prior relevant experience, certain degrees and certifications and market considerations. In addition, KPMG is proud to offer a comprehensive, competitive benefits package, with options designed to help you make the best decisions for yourself, your family, and your lifestyle. Available benefits are based on eligibility. Our Total Rewards package includes a variety of medical and dental plans, vision coverage, disability and life insurance, 401(k) plans, and a robust suite of personal well-being benefits to support your mental health. Depending on job classification, standard work hours, and years of service, KPMG provides Personal Time Off per fiscal year. Additionally, each year KPMG publishes a calendar of holidays to be observed during the year and provides eligible employees two breaks each year where employees will not be required to use Personal Time Off; one is at year end and the other is around the July 4th holiday. Additional details about our benefits can be found towards the bottom of our KPMG US Careers site at Benefits & How We Work.\nFollow this link to obtain salary ranges by city outside of CA:  \n https://kpmg.com/us/en/how-we-work/pay-transparency.html/?id=M105ADV_2_26 \n  \n KPMG offers a comprehensive compensation and benefits package. KPMG is an equal opportunity employer. KPMG complies with all applicable federal, state and local laws regarding recruitment and hiring. All qualified applicants are considered for employment without regard to race, color, religion, age, sex, sexual orientation, gender identity, national origin, citizenship status, disability, protected veteran status, or any other category protected by applicable federal, state or local laws. The attached link contains further information regarding KPMG's compliance with federal, state and local recruitment and hiring laws. No phone calls or agencies please.\nKPMG recruits on a rolling basis. Candidates are considered as they apply, until the opportunity is filled. Candidates are encouraged to apply expeditiously to any role(s) for which they are qualified that is also of interest to them. \nLos Angeles County applicants: Material job duties for this position are listed above. Criminal history may have a direct, adverse, and negative relationship with some of the material job duties of this position. These include the duties and responsibilities listed above, as well as the abilities to adhere to company policies, exercise sound judgment, effectively manage stress and work safely and respectfully with others, exhibit trustworthiness, and safeguard business operations and company reputation. Pursuant to the California Fair Chance Act, Los Angeles County Fair Chance Ordinance for Employers, Fair Chance Initiative for Hiring Ordinance, and San Francisco Fair Chance Ordinance, we will consider for employment qualified applicants with arrest and conviction records.",
+      "apply_options": [
+        {
+          "title": "KPMG Careers",
+          "link": "https://www.kpmguscareers.com/jobdetail/?jobId=139042&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "LinkedIn",
+          "link": "https://www.linkedin.com/jobs/view/director-post-quantum-cryptography-at-kpmg-us-4472863373?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "ZipRecruiter",
+          "link": "https://www.ziprecruiter.com/c/KPMG/Job/Director,-Post-Quantum-Cryptography/-in-Dallas,TX?jid=4308dbc6c5a65a22&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Monster",
+          "link": "https://www.monster.com/job-openings/director-post-quantum-cryptography-dallas-tx--dd29e6fd-5a2c-4277-be10-a63d7b66dfa9?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "CareerBuilder",
+          "link": "https://www.careerbuilder.com/job-details/director-post-quantum-cryptography-dallas-tx--dd29e6fd-5a2c-4277-be10-a63d7b66dfa9?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Hispanic Technology Executive Council (HITEC)",
+          "link": "https://careers.hitecglobal.org/job/urruan/director-post-quantum-cryptography/dallas/tx?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Ladders",
+          "link": "https://www.theladders.com/job/director-post-quantum-cryptography-kpmgllp-dallas-tx_89178392?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "BeBee",
+          "link": "https://bebee.com/us/jobs/director-post-quantum-cryptography-kpmg-dallas--jobmesh-480aca1a-426c-49b0-a07b-03be3a03f7e4?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJEaXJlY3RvciwgUG9zdC1RdWFudHVtIENyeXB0b2dyYXBoeSIsImNvbXBhbnlfbmFtZSI6IktQTUcgTExQIiwiaHRpZG9jaWQiOiJxZWcxVGQxby14eDROVFZ3QUFBQUFBPT0iLCJobCI6ImVuIiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwVEROa1lWcERlVkJqZEVSemFGTjNjM2x2UTBOMVJUTnlZVGt4WlV0RWNFMUlNa1JMUVY5eFFsbHBSVkJwYmpsVloxRnNjREpOYTNSb2IzVnpORkJyUVdOdFExVk9OSFoyTVdaWlkzbGhNRWRDTWt0eU9XbHlZMnRXTVRSM1RrcEdUVWcxTlhCd2NGUkJlbGhCU3poWmFWOVNTa1JIY1hnNFEwZDZjWEJyTjB0WWVtOVVUV0lTRnprMGVrTmhiMGQ1VHpkeVQydFFTVkIzYzJWQk1rRnpHaUpCUkhOeU9XWlJRWE5RTUU5VVJGTlJZbVJ2ZVhwNFpuVTNiR0ZLWTE5S2JuTm4iLCJmY3YiOiIzIiwiZmNfaWQiOiJxZWcxVGQxby14eDROVFZ3QUFBQUFBPT0ifQ=="
+    },
+    {
+      "title": "Cryptographic Agility & Post-Quantum (PQC) Engineer",
+      "company_name": "State Street",
+      "location": "Clifton, NJ",
+      "via": "LinkedIn",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "Understanding of modern cryptographic concepts, encryption technologies, PKI, certificate management, and key management systems",
+            "Experience assessing security risks and translating technical findings into actionable remediation plans",
+            "Ability to collaborate effectively across diverse technology and business teams to drive enterprise-wide initiatives",
+            "Strong analytical and problem-solving skills with a structured approach to complex technical challenges",
+            "Curiosity and a desire to stay current with advancements in cybersecurity, cryptography, and quantum computing",
+            "Excellent written and verbal communication skills, including the ability to present technical concepts to both technical and non-technical audiences",
+            "A proactive mindset focused on continuous improvement, operational excellence, and risk reduction"
+          ]
+        },
+        {
+          "title": "Benefits",
+          "items": [
+            "$120,000 - $202,500 Annual",
+            "The range quoted above applies to the role in the primary location specified",
+            "Employees are eligible to participate in State Street’s comprehensive benefits program, which includes: our retirement savings plan (401K) with company match; insurance coverage including basic life, medical, dental, vision, long-term disability, and other optional additional coverages; paid-time off including vacation, sick leave, short term disability, and family care responsibilities; access to our Employee Assistance Program; incentive compensation including eligibility for annual performance-based awards (excluding certain sales roles subject to sales incentive plans); and, eligibility for certain tax advantaged savings plans"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": [
+            "This role is ideal for a cybersecurity professional with a strong foundation in cryptography, encryption technologies, and security engineering who is passionate about preparing the organization for emerging cryptographic threats, including the impact of quantum computing",
+            "The successful candidate will partner across cybersecurity, architecture, engineering, infrastructure, and application teams to establish and operationalize a formal cryptographic agility capability",
+            "You will help ensure the organization can efficiently identify cryptographic dependencies, evaluate emerging standards, and execute controlled transitions to new cryptographic algorithms while maintaining security, compliance, and business continuity",
+            "Mature the enterprise Cryptographic Agility program, enabling the organization to respond effectively to evolving cryptographic risks and industry standards",
+            "Develop and maintain an inventory of cryptographic assets, dependencies, algorithms, protocols, certificates, keys, and related technologies across applications, platforms, and infrastructure",
+            "Identify systems utilizing vulnerable, deprecated, or legacy cryptographic algorithms and define remediation and migration strategies",
+            "Evaluate emerging post-quantum cryptography (PQC) standards and technologies, with a focus on NIST-approved cryptographic algorithms and industry best practices",
+            "Define approved cryptographic migration paths, transition frameworks, and implementation guidance for application and platform teams",
+            "Partner with enterprise architecture, platform engineering, application development, PKI, and infrastructure teams to assess cryptographic readiness and capabilities",
+            "Pilot and validate PQC-enabled technologies, services, and solutions to support future enterprise adoption",
+            "Develop standards, procedures, and technical guidance supporting cryptographic agility and quantum readiness initiatives",
+            "Monitor changes in the cryptographic landscape, including advancements in quantum computing, regulatory expectations, and industry standards",
+            "Produce metrics, dashboards, and executive reporting to track cryptographic risk, migration progress, and PQC readiness across the enterprise",
+            "Contribute to strategic security initiatives focused on strengthening the organization's long-term cryptographic resilience"
+          ]
+        }
+      ],
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=post-quantum+cryptography&htidocid=Xqk7v_fmhjR-V4zWAAAAAA%3D%3D&hl=en-US&shem=epsd1,esd2e,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xXKsQrCMBAAUFz7CbrcJCq2EcFFJykidBBLP6Ck5UwiaS7krtD-kN-pLm962WeRVWWao5BJOlrXw9U472SGNTyJJa9HHWQcYPOsyy3cgnEBMUEOFXXAqFNvgQLciYzH5cWKRD4rxewLw6LF9UVPg6KAHU3qTR3_adnqhNFrwfZ4OkxFDGa3an4foZGEKOAClN69hMIeHtUXPdKpyKkAAAA&shmds=v1_ARwrE22d_nCSuZNBOO2hq3y_qaOM_nHocv2O6mNos3WF-RP9Yw&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=post-quantum+cryptography&htidocid=Xqk7v_fmhjR-V4zWAAAAAA%3D%3D",
+      "thumbnail": "https://serpapi.com/searches/6ac28ce6b9fc5f4204881e51/images/eS563ht2MghmjsuQYqmORVBCjaPUdYPQQVIXud_y1b0.jpeg",
+      "extensions": [
+        "4 days ago",
+        "Full-time",
+        "Paid time off",
+        "Dental insurance",
+        "Health insurance"
+      ],
+      "source_link": "https://www.linkedin.com/jobs/view/cryptographic-agility-post-quantum-pqc-engineer-at-state-street-4473915574",
+      "job_title": "Cryptographic Agility & Post-Quantum (PQC) Engineer",
+      "description": "Who We Are Looking For\n\nState Street is seeking a Cryptographic Agility & Post-Quantum (PQC) Engineer to help shape and deliver the firm's enterprise cryptographic modernization strategy. This role is ideal for a cybersecurity professional with a strong foundation in cryptography, encryption technologies, and security engineering who is passionate about preparing the organization for emerging cryptographic threats, including the impact of quantum computing.\n\nThe successful candidate will partner across cybersecurity, architecture, engineering, infrastructure, and application teams to establish and operationalize a formal cryptographic agility capability. You will help ensure the organization can efficiently identify cryptographic dependencies, evaluate emerging standards, and execute controlled transitions to new cryptographic algorithms while maintaining security, compliance, and business continuity.\n\nWhat You Will Be Responsible For\n\nAs a Cryptographic Agility & PQC Engineer, you will:\n\nMature the enterprise Cryptographic Agility program, enabling the organization to respond effectively to evolving cryptographic risks and industry standards.Develop and maintain an inventory of cryptographic assets, dependencies, algorithms, protocols, certificates, keys, and related technologies across applications, platforms, and infrastructure.Identify systems utilizing vulnerable, deprecated, or legacy cryptographic algorithms and define remediation and migration strategies.Evaluate emerging post-quantum cryptography (PQC) standards and technologies, with a focus on NIST-approved cryptographic algorithms and industry best practices.Define approved cryptographic migration paths, transition frameworks, and implementation guidance for application and platform teams.Partner with enterprise architecture, platform engineering, application development, PKI, and infrastructure teams to assess cryptographic readiness and capabilities.Pilot and validate PQC-enabled technologies, services, and solutions to support future enterprise adoption.Develop standards, procedures, and technical guidance supporting cryptographic agility and quantum readiness initiatives.Monitor changes in the cryptographic landscape, including advancements in quantum computing, regulatory expectations, and industry standards.Produce metrics, dashboards, and executive reporting to track cryptographic risk, migration progress, and PQC readiness across the enterprise.Contribute to strategic security initiatives focused on strengthening the organization's long-term cryptographic resilience.\n\n\nWhat We Value\n\nUnderstanding of modern cryptographic concepts, encryption technologies, PKI, certificate management, and key management systems.Experience assessing security risks and translating technical findings into actionable remediation plans.Ability to collaborate effectively across diverse technology and business teams to drive enterprise-wide initiatives.Strong analytical and problem-solving skills with a structured approach to complex technical challenges.Curiosity and a desire to stay current with advancements in cybersecurity, cryptography, and quantum computing.Excellent written and verbal communication skills, including the ability to present technical concepts to both technical and non-technical audiences.A proactive mindset focused on continuous improvement, operational excellence, and risk reduction.Experience working within highly regulated financial services or other complex enterprise environments is a plus.\n\n\nRequired Qualifications\n\nEducation & Preferred Qualifications\n\nBachelor's degree in Computer Science, Cybersecurity, Information Technology, Engineering, Mathematics, or a related discipline, or equivalent work experience.5+ years of experience in cybersecurity, security engineering, encryption, PKI, key management, infrastructure security, or a related field.Working knowledge of cryptographic algorithms, protocols, and security controls used in enterprise environments.Experience with enterprise operating systems, cloud platforms, and distributed application architectures.Familiarity with cloud platforms such as AWS, Microsoft Azure, OCI, or Google Cloud Platform.Exposure to post-quantum cryptography concepts, cryptographic inventory/discovery tools, or cryptographic risk assessments.Experience supporting security compliance frameworks, cybersecurity standards, and audit activities.Experience developing scripts or automation solutions using languages such as Python, PowerShell, Bash, Java, C#, or Go.Experience with infrastructure-as-code and automation frameworks such as Terraform, Ansible, Jenkins, Harness, or similar CI/CD platforms.Industry certifications such as CISSP, Certified Encryption Specialist (ECES), or similar certifications are desirable.\n\n\nSalary Range\n\n$120,000 - $202,500 Annual\n\nThe range quoted above applies to the role in the primary location specified. If the candidate would ultimately work outside of the primary location above, the applicable range could differ.\n\nEmployees are eligible to participate in State Street’s comprehensive benefits program, which includes: our retirement savings plan (401K) with company match; insurance coverage including basic life, medical, dental, vision, long-term disability, and other optional additional coverages; paid-time off including vacation, sick leave, short term disability, and family care responsibilities; access to our Employee Assistance Program; incentive compensation including eligibility for annual performance-based awards (excluding certain sales roles subject to sales incentive plans); and, eligibility for certain tax advantaged savings plans.\n\nFor a full overview, visit https://hrportal.ehr.com/statestreet/Home.\n\nAbout State Street\n\nAcross the globe, institutional investors rely on us to help them manage risk, respond to challenges, and drive performance and profitability. We keep our clients at the heart of everything we do, and smart, engaged employees are essential to our continued success.\n\nWe are committed to fostering an environment where every employee feels valued and empowered to reach their full potential. As an essential partner in our shared success, you’ll benefit from inclusive development opportunities, flexible work-life support, paid volunteer days, and vibrant employee networks that keep you connected to what matters most. Join us in shaping the future.\n\nAs an Equal Opportunity Employer, we consider all qualified applicants for all positions without regard to race, creed, color, religion, national origin, ancestry, ethnicity, age, disability, genetic information, sex, sexual orientation, gender identity or expression, citizenship, marital status, domestic partnership or civil union status, familial status, military and veteran status, and other characteristics protected by applicable law.\n\nDiscover more information on jobs at StateStreet.com/careers\n\nRead our CEO Statement\n\nJob Application Disclosure\n\nIt is unlawful in Massachusetts to require or administer a lie detector test as a condition of employment or continued employment. An employer who violates this law shall be subject to criminal penalties and civil liability.\n\nJob ID: R-795242",
+      "apply_options": [
+        {
+          "title": "LinkedIn",
+          "link": "https://www.linkedin.com/jobs/view/cryptographic-agility-post-quantum-pqc-engineer-at-state-street-4473915574?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "ZipRecruiter",
+          "link": "https://www.ziprecruiter.com/c/State-Street-Global-Advisors/Job/Cryptographic-Agility-&-Post-Quantum-(PQC)-Engineer/-in-Clifton,NJ?jid=bb3cd2da05a59030&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Monster",
+          "link": "https://www.monster.com/job-openings/cryptographic-agility-post-quantum-pqc-engineer-clifton-nj--8ddafc11-7b66-41ee-87d7-bfc4f8cf67b1?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Ladders",
+          "link": "https://www.theladders.com/job/cryptographic-agility-post-quantum-pqc-engineer-statestreetcorporation-clifton-nj_88145635?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Levels.fyi",
+          "link": "https://www.levels.fyi/jobs?jobId=2dv20isrqytpd&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Jersey Hired",
+          "link": "https://www.jerseyhired.com/jobs/736772753-cryptographic-agility-post-quantum-pqc-engineer?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "LifeworQ",
+          "link": "https://lifeworq.com/job/7e0457ef-e19a-4d48-91e6-d383e521d7c6?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Jobrapido",
+          "link": "https://us.jobrapido.com/jobpreview/8311764057900187648?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJDcnlwdG9ncmFwaGljIEFnaWxpdHkgXHUwMDI2IFBvc3QtUXVhbnR1bSAoUFFDKSBFbmdpbmVlciIsImNvbXBhbnlfbmFtZSI6IlN0YXRlIFN0cmVldCIsImh0aWRvY2lkIjoiWHFrN3ZfZm1oalItVjR6V0FBQUFBQT09IiwiaGwiOiJlbiIsImZjIjoiRXN3QkNvd0JRVXBwVkRSMFMyOW9ORUY1VjJWaGJrMHdlR00zVW1oblZYbEtjVVUyTUc5RFVXNDJXVmRXTjFGblltb3hVVk5JVld4M1VERjBiVUp3ZUhseGRETnFiVFphZUVKRWRVSXlNVmhuWXpaVlUxaFhYMFJaZGpWTmVESkJiRTkwU1hvdGJFeHhNMnRMVFVkdWNuSmtjMHA2ZUdRemNWQlFUWGhQVVZFdGRuaHlYMnRmV0ZGTlgzRlFjMjlrTVhJU0Z6azBla05oYjBkNVR6ZHlUMnRRU1ZCM2MyVkJNa0Z6R2lKQlJITnlPV1pTV0UxMmNUVmlSakZLUVRremVESXdaMHRyU2pWNVFWWlZUakZCIiwiZmN2IjoiMyIsImZjX2lkIjoiWHFrN3ZfZm1oalItVjR6V0FBQUFBQT09In0="
+    },
+    {
+      "title": "Cryptographic Agility & Post-Quantum (PQC) Engineer",
+      "company_name": "State Street",
+      "location": "Quincy, MA",
+      "via": "State Street Careers",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "Understanding of modern cryptographic concepts, encryption technologies, PKI, certificate management, and key management systems",
+            "Experience assessing security risks and translating technical findings into actionable remediation plans",
+            "Ability to collaborate effectively across diverse technology and business teams to drive enterprise-wide initiatives",
+            "Strong analytical and problem-solving skills with a structured approach to complex technical challenges",
+            "Curiosity and a desire to stay current with advancements in cybersecurity, cryptography, and quantum computing",
+            "Excellent written and verbal communication skills, including the ability to present technical concepts to both technical and non-technical audiences",
+            "A proactive mindset focused on continuous improvement, operational excellence, and risk reduction",
+            "Bachelor's degree in Computer Science, Cybersecurity, Information Technology, Engineering, Mathematics, or a related discipline, or equivalent work experience",
+            "5+ years of experience in cybersecurity, security engineering, encryption, PKI, key management, infrastructure security, or a related field",
+            "Working knowledge of cryptographic algorithms, protocols, and security controls used in enterprise environments",
+            "Experience with enterprise operating systems, cloud platforms, and distributed application architectures",
+            "Familiarity with cloud platforms such as AWS, Microsoft Azure, OCI, or Google Cloud Platform",
+            "Exposure to post-quantum cryptography concepts, cryptographic inventory/discovery tools, or cryptographic risk assessments",
+            "Experience supporting security compliance frameworks, cybersecurity standards, and audit activities",
+            "Experience developing scripts or automation solutions using languages such as Python, PowerShell, Bash, Java, C#, or Go",
+            "Experience with infrastructure-as-code and automation frameworks such as Terraform, Ansible, Jenkins, Harness, or similar CI/CD platforms"
+          ]
+        },
+        {
+          "title": "Benefits",
+          "items": [
+            "$120,000 - $202,500 Annual",
+            "The range quoted above applies to the role in the primary location specified",
+            "Employees are eligible to participate in State Street’s comprehensive benefits program, which includes: our retirement savings plan (401K) with company match; insurance coverage including basic life, medical, dental, vision, long-term disability, and other optional additional coverages; paid-time off including vacation, sick leave, short term disability, and family care responsibilities; access to our Employee Assistance Program; incentive compensation including eligibility for annual performance-based awards (excluding certain sales roles subject to sales incentive plans); and, eligibility for certain tax advantaged savings plans"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": [
+            "This role is ideal for a cybersecurity professional with a strong foundation in cryptography, encryption technologies, and security engineering who is passionate about preparing the organization for emerging cryptographic threats, including the impact of quantum computing",
+            "The successful candidate will partner across cybersecurity, architecture, engineering, infrastructure, and application teams to establish and operationalize a formal cryptographic agility capability",
+            "You will help ensure the organization can efficiently identify cryptographic dependencies, evaluate emerging standards, and execute controlled transitions to new cryptographic algorithms while maintaining security, compliance, and business continuity",
+            "Mature the enterprise Cryptographic Agility program, enabling the organization to respond effectively to evolving cryptographic risks and industry standards",
+            "Develop and maintain an inventory of cryptographic assets, dependencies, algorithms, protocols, certificates, keys, and related technologies across applications, platforms, and infrastructure",
+            "Identify systems utilizing vulnerable, deprecated, or legacy cryptographic algorithms and define remediation and migration strategies",
+            "Evaluate emerging post-quantum cryptography (PQC) standards and technologies, with a focus on NIST-approved cryptographic algorithms and industry best practices",
+            "Define approved cryptographic migration paths, transition frameworks, and implementation guidance for application and platform teams",
+            "Partner with enterprise architecture, platform engineering, application development, PKI, and infrastructure teams to assess cryptographic readiness and capabilities",
+            "Pilot and validate PQC-enabled technologies, services, and solutions to support future enterprise adoption",
+            "Develop standards, procedures, and technical guidance supporting cryptographic agility and quantum readiness initiatives",
+            "Monitor changes in the cryptographic landscape, including advancements in quantum computing, regulatory expectations, and industry standards",
+            "Produce metrics, dashboards, and executive reporting to track cryptographic risk, migration progress, and PQC readiness across the enterprise",
+            "Contribute to strategic security initiatives focused on strengthening the organization's long-term cryptographic resilience"
+          ]
+        }
+      ],
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=post-quantum+cryptography&htidocid=RrwUvShw6rjPbIOOAAAAAA%3D%3D&hl=en-US&shem=epsd1,esd2e,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xXKsQrCMBAAUFz7CU43iYptRXDRqRQRCkJLP6Ck4UgiaS7krtB-kP-pLm962WeTNXVao5BJKlqnoTLOO1lhBy2x5N2sgswT7NuuPsAjGBcQE-TQ0AiMKmkLFOBJZDxu71Yk8q0smX1hWJQ4XWiaSgo40lK-aeQ_A1uVMHolOFyu56WIwRy3_e8j9JIQBVyAbnZBryd4VV_Dd-cqqAAAAA&shmds=v1_ARwrE239AHVUnRSg788jfLfp6RHibdz59Qiero1c5x71b5FXcA&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=post-quantum+cryptography&htidocid=RrwUvShw6rjPbIOOAAAAAA%3D%3D",
+      "thumbnail": "https://serpapi.com/searches/6ac28ce6b9fc5f4204881e51/images/ABNC1EI92-R00BO0wIsjD1SVfH4HjdrlRME9dgPrM-0.png",
+      "extensions": [
+        "2 days ago",
+        "Full-time",
+        "Paid time off",
+        "Health insurance",
+        "Dental insurance"
+      ],
+      "source_link": "https://careers.statestreet.com/global/en/job/STSTGLOBALR795242EXTERNALENGLOBAL/Cryptographic-Agility-Post-Quantum-PQC-Engineer",
+      "job_title": "Cryptographic Agility & Post-Quantum (PQC) Engineer",
+      "description": "Who We Are Looking For\n\nState Street is seeking a Cryptographic Agility & Post-Quantum (PQC) Engineer to help shape and deliver the firm's enterprise cryptographic modernization strategy. This role is ideal for a cybersecurity professional with a strong foundation in cryptography, encryption technologies, and security engineering who is passionate about preparing the organization for emerging cryptographic threats, including the impact of quantum computing.\n\nThe successful candidate will partner across cybersecurity, architecture, engineering, infrastructure, and application teams to establish and operationalize a formal cryptographic agility capability. You will help ensure the organization can efficiently identify cryptographic dependencies, evaluate emerging standards, and execute controlled transitions to new cryptographic algorithms while maintaining security, compliance, and business continuity.\n\n\n\nWhat You Will Be Responsible For\n\nAs a Cryptographic Agility & PQC Engineer, you will:\n\nMature the enterprise Cryptographic Agility program, enabling the organization to respond effectively to evolving cryptographic risks and industry standards.Develop and maintain an inventory of cryptographic assets, dependencies, algorithms, protocols, certificates, keys, and related technologies across applications, platforms, and infrastructure.Identify systems utilizing vulnerable, deprecated, or legacy cryptographic algorithms and define remediation and migration strategies.Evaluate emerging post-quantum cryptography (PQC) standards and technologies, with a focus on NIST-approved cryptographic algorithms and industry best practices.Define approved cryptographic migration paths, transition frameworks, and implementation guidance for application and platform teams.Partner with enterprise architecture, platform engineering, application development, PKI, and infrastructure teams to assess cryptographic readiness and capabilities.Pilot and validate PQC-enabled technologies, services, and solutions to support future enterprise adoption.Develop standards, procedures, and technical guidance supporting cryptographic agility and quantum readiness initiatives.Monitor changes in the cryptographic landscape, including advancements in quantum computing, regulatory expectations, and industry standards.Produce metrics, dashboards, and executive reporting to track cryptographic risk, migration progress, and PQC readiness across the enterprise.Contribute to strategic security initiatives focused on strengthening the organization's long-term cryptographic resilience.\n\nWhat We Value\n\nUnderstanding of modern cryptographic concepts, encryption technologies, PKI, certificate management, and key management systems.Experience assessing security risks and translating technical findings into actionable remediation plans.Ability to collaborate effectively across diverse technology and business teams to drive enterprise-wide initiatives.Strong analytical and problem-solving skills with a structured approach to complex technical challenges.Curiosity and a desire to stay current with advancements in cybersecurity, cryptography, and quantum computing.Excellent written and verbal communication skills, including the ability to present technical concepts to both technical and non-technical audiences.A proactive mindset focused on continuous improvement, operational excellence, and risk reduction.Experience working within highly regulated financial services or other complex enterprise environments is a plus.\n\nEducation & Preferred Qualifications\n\nRequired Qualifications\n\nBachelor's degree in Computer Science, Cybersecurity, Information Technology, Engineering, Mathematics, or a related discipline, or equivalent work experience.5+ years of experience in cybersecurity, security engineering, encryption, PKI, key management, infrastructure security, or a related field.Working knowledge of cryptographic algorithms, protocols, and security controls used in enterprise environments.Experience with enterprise operating systems, cloud platforms, and distributed application architectures.Familiarity with cloud platforms such as AWS, Microsoft Azure, OCI, or Google Cloud Platform.Exposure to post-quantum cryptography concepts, cryptographic inventory/discovery tools, or cryptographic risk assessments.Experience supporting security compliance frameworks, cybersecurity standards, and audit activities.Experience developing scripts or automation solutions using languages such as Python, PowerShell, Bash, Java, C#, or Go.Experience with infrastructure-as-code and automation frameworks such as Terraform, Ansible, Jenkins, Harness, or similar CI/CD platforms.Industry certifications such as CISSP, Certified Encryption Specialist (ECES), or similar certifications are desirable.\n\n\n\nSalary Range: \n\n$120,000 - $202,500 Annual\n\nThe range quoted above applies to the role in the primary location specified. If the candidate would ultimately work outside of the primary location above, the applicable range could differ.\n\n\n\nEmployees are eligible to participate in State Street’s comprehensive benefits program, which includes: our retirement savings plan (401K) with company match; insurance coverage including basic life, medical, dental, vision, long-term disability, and other optional additional coverages; paid-time off including vacation, sick leave, short term disability, and family care responsibilities; access to our Employee Assistance Program; incentive compensation including eligibility for annual performance-based awards (excluding certain sales roles subject to sales incentive plans); and, eligibility for certain tax advantaged savings plans.\n\nFor a full overview, visit https://hrportal.ehr.com/statestreet/Home.\n\n\n\nAbout State Street\n\nAcross the globe, institutional investors rely on us to help them manage risk, respond to challenges, and drive performance and profitability. We keep our clients at the heart of everything we do, and smart, engaged employees are essential to our continued success.\n\n\n\nWe are committed to fostering an environment where every employee feels valued and empowered to reach their full potential. As an essential partner in our shared success, you’ll benefit from inclusive development opportunities, flexible work-life support, paid volunteer days, and vibrant employee networks that keep you connected to what matters most. Join us in shaping the future.\n\n\n\nAs an Equal Opportunity Employer, we consider all qualified applicants for all positions without regard to race, creed, color, religion, national origin, ancestry, ethnicity, age, disability, genetic information, sex, sexual orientation, gender identity or expression, citizenship, marital status, domestic partnership or civil union status, familial status, military and veteran status, and other characteristics protected by applicable law.\n\n\n\nDiscover more information on jobs at StateStreet.com/careers\n\n\n\nRead our CEO Statement\n\n\n\nJob Application Disclosure: \n\nIt is unlawful in Massachusetts to require or administer a lie detector test as a condition of employment or continued employment. An employer who violates this law shall be subject to criminal penalties and civil liability.",
+      "apply_options": [
+        {
+          "title": "State Street Careers",
+          "link": "https://careers.statestreet.com/global/en/job/STSTGLOBALR795242EXTERNALENGLOBAL/Cryptographic-Agility-Post-Quantum-PQC-Engineer?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "LinkedIn",
+          "link": "https://www.linkedin.com/jobs/view/cryptographic-agility-post-quantum-pqc-engineer-at-state-street-4473932080?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Workday",
+          "link": "https://statestreet.wd1.myworkdayjobs.com/global/job/Cryptographic-Agility---Post-Quantum--PQC--Engineer_R-795242-1?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "ZipRecruiter",
+          "link": "https://www.ziprecruiter.com/c/State-Street-Global-Advisors/Job/Cryptographic-Agility-&-Post-Quantum-(PQC)-Engineer/-in-Quincy,MA?jid=125cd08ff2f1298d&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Ladders",
+          "link": "https://www.theladders.com/job/cryptographic-agility-post-quantum-pqc-engineer-statestreetcorporation-quincy-ma_88145634?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Levels.fyi",
+          "link": "https://www.levels.fyi/jobs?jobId=1cdglpv4cvf7e&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Mass Fintech Careers - Mass Fintech Hub",
+          "link": "https://careers.massfintechhub.com/companies/state-street-2/jobs/87971953-cryptographic-agility-post-quantum-pqc-engineer?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Monster",
+          "link": "https://www.monster.com/job-openings/cryptographic-agility-post-quantum-pqc-engineer-quincy-ma--74ab2478-0604-4eaf-a560-eebf6b243874?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJDcnlwdG9ncmFwaGljIEFnaWxpdHkgXHUwMDI2IFBvc3QtUXVhbnR1bSAoUFFDKSBFbmdpbmVlciIsImNvbXBhbnlfbmFtZSI6IlN0YXRlIFN0cmVldCIsImh0aWRvY2lkIjoiUnJ3VXZTaHc2cmpQYklPT0FBQUFBQT09IiwiaGwiOiJlbiIsImZjIjoiRXN3QkNvd0JRVXBwVkRSMFMyRkNNMGwzV2t0VllqQk1SMEV5ZUdRMWRGQktUMmxZV2xwME5Fc3RjMXBmUkdOQ1kxWmtZMHB6WTNreVpHOW1jR2xmUkdac1QxZHlOVmd3YmpkcWRYY3lhakJLZWpoS1ZXeGtVMTgzU0dReVIwMWtYMWRMTkhoMVVXcGpPR0pvY2xONFNuZHhSV2h6U1dWUWRqRTFWbmh0WTBSS1VVOU9jSGRuTTI4M01WbzBhbmx0UVhZU0Z6azBla05oYjBkNVR6ZHlUMnRRU1ZCM2MyVkJNa0Z6R2lKQlJITnlPV1pTWmxReVEwWlVWamRQVm1saFJVbE1kRkpYVDNoUlVWWkhNemwzIiwiZmN2IjoiMyIsImZjX2lkIjoiUnJ3VXZTaHc2cmpQYklPT0FBQUFBQT09In0="
+    },
+    {
+      "title": "Remote Post-Quantum Cryptography Director",
+      "company_name": "Booz Allen Hamilton",
+      "location": "United States",
+      "via": "BeBee",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "8+ years of experience leading technical teams across Post-Quantum Cryptography, Classical Cryptography, or Secure Communications",
+            "5+ years of experience with infrastructure component management or design with hardware or software, including interoperability of cryptographic protocols",
+            "Experience presenting recommendations and roadmaps to executive stakeholders",
+            "Experience developing and testing interoperability of quantum resistant algorithms",
+            "Experience leading teams in the implementation of large-scale software or hardware deployments"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": [
+            "Establish and grow Booz Allen's Commercial Post Quantum Cryptography (PQC) practice",
+            "Define the PQC team's direction, standards and requirements for services, and solutions sold to Booz Allen Commercial customers",
+            "Enable businesses to understand risks and overall security posture of their existing and new quantum cryptography constructs",
+            "Educate and influence client executive and engineering teams on PQC best practices",
+            "Work proactively with leaders across all levels to design, implement, and support solutions that ensure clients have a quantum-resistant and best practice approach across their enterprise",
+            "Work jointly with leaders across products, IT, networking, infrastructure, and other teams to ensure architectures, systems, and designs properly consider PQC best practices",
+            "Lead, hire, and inspire teams of PQC experts to perform security reviews, develop cryptographic inventories, develop and implement PQC pilots, and migrate tools and technology to be quantum resistant",
+            "Lead the delivery of assessments of cryptographic environments, provide recommendation and remediation plans along with development, implementation, and support of operational models supporting solutions and services meeting client requirements"
+          ]
+        }
+      ],
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=post-quantum+cryptography&htidocid=nAHLkyX6RgsildTwAAAAAA%3D%3D&hl=en-US&shem=epsd1,esd2e,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xXMvQrCMBAAYFz7CE43OAltRHDRxT9QnPzBuaT1SCJJLuSu0Po-vqd1-cav-E6K7R0DCcKVWMpbp6N0AQ55SEIm62QHOLqMrVCGEi7UAKPOrQWKcCIyHqcbK5J4rRSzrwyLFtdWLQVFERvq1Zsa_lOz1RmT14L1crXoqxTNfLYn-sDOe4xw1sF5GWMX4Rmd4Ase44b8A03YSluoAAAA&shmds=v1_ARwrE237vxrfEo4pPB8TvivlvrtDr9pu0vBeV5lf6m1hNT9inQ&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=post-quantum+cryptography&htidocid=nAHLkyX6RgsildTwAAAAAA%3D%3D",
+      "extensions": [
+        "2 days ago",
+        "Full-time",
+        "No degree mentioned"
+      ],
+      "detected_extensions": {
+        "qualifications": "No degree mentioned"
+      },
+      "source_link": "https://bebee.com/us/jobs/remote-post-quantum-cryptography-director-booz-allen-hamilton-jacksonville--lensa-19327_6bfb9473e2d0ce74a0a452c9783f1de96960dc75ac265cfef69d3269b81cbd0c",
+      "job_title": "Remote Post-Quantum Cryptography Director",
+      "description": "Job Number: R0230280\nCommercial Post Quantum Cryptography Director The Opportunity:\n\n\nEstablish and grow Booz Allen's Commercial Post Quantum Cryptography (PQC) practice.Define the PQC team's direction, standards and requirements for services, and solutions sold to Booz Allen Commercial customers. Enable businesses to understand risks and overall security posture of their existing and new quantum cryptography constructs. Educate and influence client executive and engineering teams on PQC best practices.\n\n\nWork proactively with leaders across all levels to design, implement, and support solutions that ensure clients have a quantum-resistant and best practice approach across their enterprise. Work jointly with leaders across products, IT, networking, infrastructure, and other teams to ensure architectures, systems, and designs properly consider PQC best practices. Lead, hire, and inspire teams of PQC experts to perform security reviews, develop cryptographic inventories, develop and implement PQC pilots, and migrate tools and technology to be quantum resistant.\n\n\nLead the delivery of assessments of cryptographic environments, provide recommendation and remediation plans along with development, implementation, and support of operational models supporting solutions and services meeting client requirements.\n\n\nYou Have:\n 8+ years of experience leading technical teams across Post-Quantum Cryptography, Classical Cryptography, or Secure Communications\n\n\n 5+ years of experience with infrastructure component management or design with hardware or software, including interoperability of cryptographic protocols\n\n\n Experience presenting recommendations and roadmaps to executive stakeholders\n\n\n Experience developing and testing interoperability of quantum resistant algorithms\n\n\n Experience leading teams in the implementation of large-scale software or hardware deployments",
+      "apply_options": [
+        {
+          "title": "BeBee",
+          "link": "https://bebee.com/us/jobs/remote-post-quantum-cryptography-director-booz-allen-hamilton-jacksonville--lensa-19327_6bfb9473e2d0ce74a0a452c9783f1de96960dc75ac265cfef69d3269b81cbd0c?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "JobLeads",
+          "link": "https://www.jobleads.com/us/job/remote-practice-director-post-quantum-cryptography-advisory--united-states--e02f447b7dc72976801a9ef3d58e3ef7e?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Learn4Good",
+          "link": "https://www.learn4good.com/jobs/online_remote/management_and_managerial/5495459286/e/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Jobilize",
+          "link": "https://www.jobilize.com/amp/job/us-post-quantum-cryptography-solutions-architect-fully-remote-united?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJSZW1vdGUgUG9zdC1RdWFudHVtIENyeXB0b2dyYXBoeSBEaXJlY3RvciIsImNvbXBhbnlfbmFtZSI6IkJvb3ogQWxsZW4gSGFtaWx0b24iLCJodGlkb2NpZCI6Im5BSExreVg2UmdzaWxkVHdBQUFBQUE9PSIsImhsIjoiZW4iLCJmYyI6IkVzd0JDb3dCUVVwcFZEUjBURE5xUlVsSk1VMDNVVmRpZGtwWlZVa3RTMDh4TjBwWWF6a3RSamh1Y0dsU1JtTnZka2xGVVhOdldUVlZVbE53YldkUFltRkNXbTFvT0UxT1F6RlNWbTF0WVZGb1dGTkVNRUZqZUVWdWFrZEhlblJ5WkhGYWNITjNWMDVyVEMxWmFtVjZZV2x2VDBadVVWb3piSGRYZGxwR016QlZXVlZEUlZsclMxb3lWSEU1UlRsM0xURVNGemswZWtOaGIwZDVUemR5VDJ0UVNWQjNjMlZCTWtGekdpSkJSSE55T1daVGMwY3hkRmgyZFVwVlZqZENUbmRUWjJ4aVRXZFZRVTVPTTNKUiIsImZjdiI6IjMiLCJmY19pZCI6Im5BSExreVg2UmdzaWxkVHdBQUFBQUE9PSJ9"
+    },
+    {
+      "title": "Remote Quantum Cryptography Engineer — PQC & Post-Quantum",
+      "company_name": "Syms Strategic Group",
+      "location": "Manhattan, KS",
+      "via": "JobLeads",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "No; Public Trust — Level 4 clearance; W-2 employment; candidates must be U.S. citizens"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": [
+            "The role emphasizes implementing and testing cryptographic algorithms, PQC migrations, and communicating quantum risk to leadership while aligning with NIST PQC standards"
+          ]
+        }
+      ],
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=post-quantum+cryptography&htidocid=zBCxYUIfv3umriHNAAAAAA%3D%3D&hl=en-US&shem=epsd1,esd2e,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_zXKMQrCQBBAUWw9gtU0WogmIthoGURQhMQcQCZh2I0kM8vOBEznITyM5_EkamHzi8cfv0bjy4U6MYKiR7a-gywOwcRFDH6APbuGiSK8H0_IiwxmkIva8j8v4SgVKGGsPQjDQcS1NNl5s6DbNFVtE6eG1tRJLV0qTJXc05tU-stVPUYKLRpd15vVPQns5tNy6BRKi191TQ2HKH2AhuGM7NEMeQGn8gOzMVyUuwAAAA&shmds=v1_ARwrE22fHsH_QQF6IUF2bHMMmk8xew85N4m5bLzSCLGFqR_n7w&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=post-quantum+cryptography&htidocid=zBCxYUIfv3umriHNAAAAAA%3D%3D",
+      "extensions": [
+        "3 days ago",
+        "150K–190K a year",
+        "Full-time",
+        "No degree mentioned"
+      ],
+      "detected_extensions": {
+        "qualifications": "No degree mentioned"
+      },
+      "source_link": "https://www.jobleads.com/us/job/remote-quantum-cryptography-engineer-pqc-post-quantum--manhattan--e64bdb258af829e2b32d5cce4cfd1c151",
+      "job_title": "Remote Quantum Cryptography Engineer — PQC & Post-Quantum",
+      "description": "Syms Strategic Group is seeking a Quantum Computing/Cryptography Engineer for a 100% US-based remote role on a Federal Government client project. The position requires a Top Secret? No; Public Trust — Level 4 clearance; W-2 employment; candidates must be U.S. citizens.\n\nThe role emphasizes implementing and testing cryptographic algorithms, PQC migrations, and communicating quantum risk to leadership while aligning with NIST PQC standards.",
+      "apply_options": [
+        {
+          "title": "JobLeads",
+          "link": "https://www.jobleads.com/us/job/remote-quantum-cryptography-engineer-pqc-post-quantum--manhattan--e64bdb258af829e2b32d5cce4cfd1c151?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJSZW1vdGUgUXVhbnR1bSBDcnlwdG9ncmFwaHkgRW5naW5lZXIg4oCUIFBRQyBcdTAwMjYgUG9zdC1RdWFudHVtIiwiY29tcGFueV9uYW1lIjoiU3ltcyBTdHJhdGVnaWMgR3JvdXAiLCJodGlkb2NpZCI6InpCQ3hZVUlmdjN1bXJpSE5BQUFBQUE9PSIsImhsIjoiZW4iLCJmYyI6IkVzd0JDb3dCUVVwcFZEUjBUR1ZrUjJ4MlEwZ3hPVVJpWTBGUlptVm9lV0ZvVGpodFoxUkZVVUp2T0hSelRWbE1OVVZZVVUxbU4wTXhhRm8yT0ZJMlVYZDJNMUZpVFVKNGFEbGtZMU5YY1RoUlpWSjRObGhyTVVoTUxXTTJUVjlaTUdSVVlsUXlkekUyU1ROS2FXOW1VMFp0ZUhoblpFbDJjRlZ5ZW5BMVpEbFhRbmRVYkMxTWJuTXpSREZRVXpVM1F6SVNGemswZWtOaGIwZDVUemR5VDJ0UVNWQjNjMlZCTWtGekdpSkJSSE55T1daU1Ewc3laamhOZFRoNWJWaHpiV3hwUmkxMmJtbHJNbmRrWHpWMyIsImZjdiI6IjMiLCJmY19pZCI6InpCQ3hZVUlmdjN1bXJpSE5BQUFBQUE9PSJ9"
+    },
+    {
+      "title": "Remote Quantum Computing Post-Quantum Cryptography Engineer",
+      "company_name": "engineeringjobs.net, Inc.",
+      "location": "Orlando, FL",
+      "via": "BeBee",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "The role requires deep expertise across quantum algorithms, programming languages, and cryptographic standards, with remote work being supported for qualified US-based candidates"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": [
+            "You will apply quantum theory, develop migration plans, and ensure alignment with NIST PQC standards while communicating risk to leadership"
+          ]
+        }
+      ],
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=post-quantum+cryptography&htidocid=59U7vvAo2oHvr1DFAAAAAA%3D%3D&hl=en-US&shem=epsd1,esd2e,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_z2OQQrCMBBFcdsjuJqlSJuI4EaXoqIIai9Q0jokkXYmJFNoz-bltCBu_uLxePzsPcvKEjsWhEdvSPoO9tyFXjxZuHOS4o_jGIRtNMGNcCDrCTFCAReuIaGJjQMmODHbFuc7JxLSVuuUWmWTGPGNarjTTFjzoF9cp2mq5EzE0BrBar1ZDSqQXS7wV_9-mERFKDmcqVHgCW6xNfTkHI7XD-qkfuu-AAAA&shmds=v1_ARwrE21S_c1Gc-VlsPYFkISVemQAG5cS74ejUSq6lrljkDFeUQ&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=post-quantum+cryptography&htidocid=59U7vvAo2oHvr1DFAAAAAA%3D%3D",
+      "extensions": [
+        "2 days ago",
+        "Full-time",
+        "No degree mentioned"
+      ],
+      "detected_extensions": {
+        "qualifications": "No degree mentioned"
+      },
+      "source_link": "https://bebee.com/us/jobs/remote-quantum-computing-post-quantum-cryptography-engineer-engineeringjobsnet-inc-orlando--lensa-7428_29ee324dabd3e8b4611b1a2afd3c7151b3dc476499abfb8c8a1d41a57370744c",
+      "job_title": "Remote Quantum Computing Post-Quantum Cryptography Engineer",
+      "description": "Syms Strategic Group seeks a seasoned Quantum Computing/Cryptography Engineer to advance cryptographic modernization and PQC strategies for a federal government client. You will apply quantum theory, develop migration plans, and ensure alignment with NIST PQC standards while communicating risk to leadership.The role requires deep expertise across quantum algorithms, programming languages, and cryptographic standards, with remote work being supported for qualified US-based candidates. U.S.",
+      "apply_options": [
+        {
+          "title": "BeBee",
+          "link": "https://bebee.com/us/jobs/remote-quantum-computing-post-quantum-cryptography-engineer-engineeringjobsnet-inc-orlando--lensa-7428_29ee324dabd3e8b4611b1a2afd3c7151b3dc476499abfb8c8a1d41a57370744c?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "JobLeads",
+          "link": "https://www.jobleads.com/us/job/remote-quantum-computing-post-quantum-cryptography-engineer--orlando--e7b613efef859d79851f52c7ddaf2042d?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Jobrapido",
+          "link": "https://us.jobrapido.com/jobpreview/5013420489595420672?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Learn4Good",
+          "link": "https://www.learn4good.com/jobs/online_remote/info_technology/5506896751/e/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJSZW1vdGUgUXVhbnR1bSBDb21wdXRpbmcgUG9zdC1RdWFudHVtIENyeXB0b2dyYXBoeSBFbmdpbmVlciIsImNvbXBhbnlfbmFtZSI6ImVuZ2luZWVyaW5nam9icy5uZXQsIEluYy4iLCJodGlkb2NpZCI6IjU5VTd2dkFvMm9IdnIxREZBQUFBQUE9PSIsImhsIjoiZW4iLCJmYyI6IkVzd0JDb3dCUVVwcFZEUjBTV2wyYWtKTWFYSnpOM1JUU21kSVVXNDJWR1ExYUZWSGRFMUZaRzVGYmxRd1JWZzNTbloxTld3eFQwSnVWRWRTT0ROMk1IRkxha3RqU0d3Mk5taFJOMVZMWTNGVlJuRkRNMVF4YVVjeGJuTnRXVXBvYkZRek1uUk9TWGxzUXpGc1ZYZDBkRXRIU210elRsbGlhamRKV2t0T2QyNXBTR2R6VlVkdlQxVlRiVVZ1VVd0eExXZ1NGemswZWtOaGIwZDVUemR5VDJ0UVNWQjNjMlZCTWtGekdpSkJSSE55T1daVVVWazNRVTEyVlRSSlJVVTVYMDFYTkdwV1RFcEhja2s1VG01MyIsImZjdiI6IjMiLCJmY19pZCI6IjU5VTd2dkFvMm9IdnIxREZBQUFBQUE9PSJ9"
+    },
+    {
+      "title": "Post-Quantum Cryptography Solutions Architect",
+      "company_name": "Quantum Sky",
+      "location": "Reston, VA",
+      "via": "Lensa",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "Advanced Academic Background: BS/MS in Cryptography, Computer Science, Computer Engineering, or related field, with a solid working understanding of cryptographic and PQC algorithms",
+            "Federal Cyber Experience: 3+ years of experience in federal cybersecurity, including direct involvement in NSA/NIST pilots",
+            "Cryptographic Engineering: 5+ years of experience in encryption/secure systems engineering, PKI, and key management solutions, including 2-3 years of hands-on involvement in PQC migration planning or implementation",
+            "PQC Knowledge: Working knowledge of NIST PQC algorithms (e.g., ML-KEM, ML-DSA) and how key material is generated, distributed, and consumed within cryptographic systems and cryptonets",
+            "Communication: Demonstrated ability to communicate technical cryptographic concepts to both engineering teams and executive/business audiences, and to operate effectively across customer organizational levels",
+            "Strategic Partnering: Proven ability to curate and manage partners for inventorying, distributed key management, software-defined cryptography, and quantum-resistant solutions",
+            "No clearance required to apply",
+            "Must be a U.S. citizen and eligible for TS/SCI"
+          ]
+        },
+        {
+          "title": "Benefits",
+          "items": [
+            "Compensation is unique to each candidate and relative to the skills and experience they bring to the position",
+            "The salary range for this position is typically between $175,000-$215,000",
+            "This does not guarantee a specific salary as compensation is based upon multiple factors such as education, experience, certifications, and other requirements, and may fall outside of the above-stated range",
+            "Highlights of our benefits include Health/Dental/Vision, 401(k) match, Paid Time Off, STD/LTD/Life Insurance, Referral Bonuses, professional development reimbursement, and parental leave"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": [
+            "This role bridges strategy and delivery - translating customer requirements and organizational roadmaps into actionable engineering backlogs, driving business development through proposal responses and product demonstrations, and directly advising customers on their cryptographic transition and migration planning",
+            "Ability to help build actionable PQC migration roadmaps and action plans tailored to their environment and risk tolerance",
+            "Partner with the Director to guide development teams in building out PQC product offerings",
+            "Translate customer and market requirements into well-defined epics, user stories, and a prioritized development backlog",
+            "Provide technical oversight to ensure implementations align with NIST PQC standards and sound cryptographic engineering practice",
+            "Contribute technical and market insight to inform PQC offering strategy and roadmap",
+            "Contribute technical responses including solution architecture to BAAs, RFIs, and RFPs",
+            "Guide customers through PQC transition and migration planning, including cryptographic inventory, risk prioritization, phased migration roadmaps and action plans, orchestration, implementation, and continuous monitoring",
+            "Assess and communicate cryptographic and key management risk",
+            "Advise on prioritization frameworks for migration based on data sensitivity, system criticality, and crypto-agility"
+          ]
+        }
+      ],
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=post-quantum+cryptography&htidocid=BZqqXFp5urwCkX8gAAAAAA%3D%3D&hl=en-US&shem=epsd1,esd2e,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_zXNsQrCMBCAYVz7BjrdLLYRwUWnoiA4qQXXkoaQpKZ3IXeF9mV8VnVw-Ydv-Yv3ojjfiKW8jxplHOCU5yTksk5-hobiKIGQoc7GB7FGoIQrdcBWfwUI4ULkol0dvUjig1LMsXIsWoKpDA2K0HY0qZ46_qVlr7NNUYttd_vtVCV06-X_3rxmCAgPy0K4gWf9Ae4sJrChAAAA&shmds=v1_ARwrE21mliXTuijREnvfuPyWgoOtj-epDyNqKV-kP22B3RfSBw&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=post-quantum+cryptography&htidocid=BZqqXFp5urwCkX8gAAAAAA%3D%3D",
+      "extensions": [
+        "2 days ago",
+        "Full-time",
+        "Paid time off",
+        "Dental insurance",
+        "Health insurance"
+      ],
+      "source_link": "https://lensa.com/job-v1/quantum-sky/reston-va/solutions-architect/4dde0fc409939680e0392f0e1ba06472",
+      "job_title": "Post-Quantum Cryptography Solutions Architect",
+      "description": "Description\n\n\nQuantum Sky is seeking a Principal Solutions Architect to drive the technical execution of our Post-Quantum Cryptography offerings. This role bridges strategy and delivery - translating customer requirements and organizational roadmaps into actionable engineering backlogs, driving business development through proposal responses and product demonstrations, and directly advising customers on their cryptographic transition and migration planning. Ability to help build actionable PQC migration roadmaps and action plans tailored to their environment and risk tolerance.\n\n\nResponsibilities:\n\n\n\n\nPartner with the Director to guide development teams in building out PQC product offerings.\n\n\n\n\nTranslate customer and market requirements into well-defined epics, user stories, and a prioritized development backlog.\n\n\n\n\nProvide technical oversight to ensure implementations align with NIST PQC standards and sound cryptographic engineering practice.\n\n\n\n\nContribute technical and market insight to inform PQC offering strategy and roadmap.\n\n\n\n\nContribute technical responses including solution architecture to BAAs, RFIs, and RFPs.\n\n\n\n\nGuide customers through PQC transition and migration planning, including cryptographic inventory, risk prioritization, phased migration roadmaps and action plans, orchestration, implementation, and continuous monitoring.\n\n\n\n\nAssess and communicate cryptographic and key management risk\n\n\n\n\nAdvise on prioritization frameworks for migration based on data sensitivity, system criticality, and crypto-agility.\n\n\n\n\nQualifications\n\n\nRequired:\n\n\n\n\nAdvanced Academic Background: BS/MS in Cryptography, Computer Science, Computer Engineering, or related field, with a solid working understanding of cryptographic and PQC algorithms.\n\n\n\n\nFederal Cyber Experience: 3+ years of experience in federal cybersecurity, including direct involvement in NSA/NIST pilots.\n\n\n\n\nCryptographic Engineering: 5+ years of experience in encryption/secure systems engineering, PKI, and key management solutions, including 2-3 years of hands-on involvement in PQC migration planning or implementation.\n\n\n\n\nPQC Knowledge: Working knowledge of NIST PQC algorithms (e.g., ML-KEM, ML-DSA) and how key material is generated, distributed, and consumed within cryptographic systems and cryptonets.\n\n\n\n\nCommunication: Demonstrated ability to communicate technical cryptographic concepts to both engineering teams and executive/business audiences, and to operate effectively across customer organizational levels.\n\n\n\n\nStrategic Partnering: Proven ability to curate and manage partners for inventorying, distributed key management, software-defined cryptography, and quantum-resistant solutions.\n\n\n\n\nDesired:\n\n\n\n\nExperience with distributed key management architectures and crypto-inventory tooling.\n\n\n\n\nExperience with PQC deployments or PQC implementations in constrained/tactical DoW/IC environments.\n\n\n\n\nFamiliarity with AI/ML applications in cyber operations or PQC migration tooling.\n\n\n\n\nPrior experience developing roadmaps, maturity models, or migration playbooks.\n\n\n\n\nPublications, conference talks, or community contributions in PQC and applied cryptography.\n\n\n\n\nClearance\n\n\n\n\nNo clearance required to apply.\n\n\n\n\nMust be a U.S. citizen and eligible for TS/SCI.\n\n\n\n\nActive security clearance is a plus.\n\n\n\n\nLocation\n\n\n\nUS, Remote\n\nAbout Quantum Sky\n\n\nCompensation:\n\n\n\nCompensation is unique to each candidate and relative to the skills and experience they bring to the position. The salary range for this position is typically between $175,000-$215,000. This does not guarantee a specific salary as compensation is based upon multiple factors such as education, experience, certifications, and other requirements, and may fall outside of the above-stated range.\n\nBenefits:\n\n\n\nHighlights of our benefits include Health/Dental/Vision, 401(k) match, Paid Time Off, STD/LTD/Life Insurance, Referral Bonuses, professional development reimbursement, and parental leave.\n\nThe world the mission operates in is going post-quantum, contested, and machine-speed. Quantum Sky engineers the advantage across cyber, networks, software, and quantum because the mission demands dominance, not parity. We don't follow the map. We draw it.\n\n\nAt Quantum Sky, we believe that success starts with our people. We foster a collaborative, innovative, and mission-driven environment where every team member plays a critical role in shaping the future of technology. Are you ready to join #TeamQuantumSky?\n\n\nQuantum Sky Engineering LLC is an Equal Opportunity Employer; all qualified applicants will receive consideration for employment without regard to race, color, religion, sex, [sexual orientation, gender identity,] national origin, disability, status as a protected veteran, or any characteristic protected by applicable law.\n\n\nSubmit a Referral (https://careers-quantumsky.icims.com/jobs/2180/post-quantum-cryptography-solutions-architect/job?mode=apply&apply=yes&in_iframe=1&hashed=-1834326889)\n\n\nSoftware Powered by ICIMS\n\n\nLocation US-Remote\n\n\nID 2026-2180\n\n\nCategory Quantum\n\n\nPosition Type Full-Time",
+      "apply_options": [
+        {
+          "title": "Lensa",
+          "link": "https://lensa.com/job-v1/quantum-sky/reston-va/solutions-architect/4dde0fc409939680e0392f0e1ba06472?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Jobrapido",
+          "link": "https://us.jobrapido.com/jobpreview/686699503943680000?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Jobilize",
+          "link": "https://www.jobilize.com/amp/job/us-va-reston-post-quantum-cryptography-solutions-architect-sky-hiring?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJQb3N0LVF1YW50dW0gQ3J5cHRvZ3JhcGh5IFNvbHV0aW9ucyBBcmNoaXRlY3QiLCJjb21wYW55X25hbWUiOiJRdWFudHVtIFNreSIsImh0aWRvY2lkIjoiQlpxcVhGcDV1cndDa1g4Z0FBQUFBQT09IiwiaGwiOiJlbiIsImZjIjoiRXN3QkNvd0JRVXBwVkRSMFNqSkRORXRYTlVweE5YRTRhekpOWTNCMVRHZHdiVkppUVVSdWRYaG9UV1JQWDBsUVJFOVZOMVJOYnpscFlWQmxkMHN5V1VZdFYzUjVUbUZ0WWtjNGJIWXlkMVI1VjNJNWFXYzJZVFJRTkhoYU4yZzJVelF6TURWUldFMXJNMmsxYmpSMWJVVjZjbTFEWkZSU1REaExMVTVuWHpaRVJrWlNibG81Wlc1cFlURnRNRUpNYURVU0Z6azBla05oYjBkNVR6ZHlUMnRRU1ZCM2MyVkJNa0Z6R2lKQlJITnlPV1pVTldKU2VrOXVVa0Z4U1ZOUE1uQmhkMDR0TnpWamVrdFBOM1JSIiwiZmN2IjoiMyIsImZjX2lkIjoiQlpxcVhGcDV1cndDa1g4Z0FBQUFBQT09In0="
+    },
+    {
+      "title": "Post Quantum Cryptography Project Control Specialist",
+      "company_name": "Booz Allen Hamilton",
+      "location": "Arlington, VA",
+      "via": "JobLeads",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "Experience with team leadership, including tracking, coordinating, and communicating tasks and due dates on delivery schedule",
+            "Experience integrating activities across organizations, compiling supporting data, producing final reports and memoranda, and providing developmental support to client and stakeholders",
+            "Experience with an enterprise task management system",
+            "Experience supporting and communicating with senior leaders",
+            "Experience developing briefings, talking points, and presentations for clients",
+            "Knowledge of the Department of War and its components",
+            "Knowledge of cybersecurity policies and principles",
+            "Ability to balance multiple workstreams and work collaboratively across teams",
+            "TS/SCI clearance",
+            "Bachelor's degree and 14+ years of experience in a professional work environment,",
+            "Master’s degree and 12+ years of experience in a professional work environment,",
+            "or 18+ years of experience in a professional work environment in lieu of a degree",
+            "Experience in the DoW CIO, OSW, or a Military Command",
+            "Experience with Correspondence and Task Management System (CATMS)",
+            "Knowledge of Post Quantum Cryptography (PQC)",
+            "Possession of excellent verbal, written, and visual communication skills",
+            "Clearance: Applicants selected will be subject to a security investigation and may need to meet eligibility requirements for access to classified information; TS/SCI clearance is required",
+            "You are expected to be on camera during interviews and assessments",
+            "Onsite: If this position is listed as onsite, work will primarily be performed at a Booz Allen office or customer facility, where employees will collaborate directly with colleagues and customers as required by the role"
+          ]
+        },
+        {
+          "title": "Benefits",
+          "items": [
+            "At Booz Allen, we celebrate your contributions, provide you with opportunities and choices, and support your total well-being",
+            "Our offerings include health, life, disability, financial, and retirement benefits, as well as paid leave, professional development, tuition assistance, work-life programs, and dependent care",
+            "Our recognition awards program acknowledges employees for exceptional performance and superior demonstration of our values",
+            "Full-time and part-time employees working at least 20 hours a week on a regular basis are eligible to participate in Booz Allen’s benefit programs",
+            "Individuals that do not meet the threshold are only eligible for select offerings, not inclusive of health benefits",
+            "We encourage you to learn more about our total benefits by visiting the Resource page on our Careers site and reviewing Our Employee Benefits page",
+            "Salary at Booz Allen is determined by various factors, including but not limited to location, the individual’s particular combination of education, knowledge, skills, competencies, and experience, as well as contract-specific affordability and organizational requirements",
+            "The projected compensation range for this position is $55,200.00 to $126,000.00 (annualized USD)",
+            "The estimate displayed represents the typical salary range for this position and is just one component of Booz Allen’s total compensation package for employees"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": [
+            "As a cyber strategic planning and policy development specialist on our team, you’ll lead the assessment of DoW CIOs current cyber policies, the coverage of those policies, and areas of risks",
+            "You’ll evaluate how policies stack up to regulations, best practices, and industry standards",
+            "As you guide your client through understanding acceptable risk and availability, you’ll advance the development of a strategic cyber roadmap",
+            "You’ll work to ensure the client operates securely as they navigate an evolving IT environment",
+            "Work with us as we secure the Department of War's networks through strategic cyber policy development",
+            "To support engagement and effective communication, employees working virtually are generally expected to have their cameras on during meetings",
+            "Remote: If this position is listed as remote, there may still be occasions when you are required to work in person at a Booz Allen or customer facility",
+            "You may also be required to work from or visit a customer facility"
+          ]
+        }
+      ],
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=post-quantum+cryptography&htidocid=RD_31UtKv5QaJnu_AAAAAA%3D%3D&hl=en-US&shem=epsd1,esd2e,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xWMsQrCMBBAce0nON3gJNqI4KJT7aDoUhFcSxpCknK9C8kVrF_lJ1qXBw8er_guinvDWeAxapJxgDpNUdglHf0ETeLeGoGaSRIjPKM1QWOY-y3cuINsdTIemODC7NAuT14k5qNSOWPpsmgJpjQ8KCbb8Vv13OU_2ux1shG12HZ_2L3LSG69OjN_oEK0BFc9BJR5HAiqhIHcLBt4VT8gV68yswAAAA&shmds=v1_ARwrE23Vo2qJZNxb20x1iWsDxyTJaQXpRLXtU3JJG_FMfBV5uw&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=post-quantum+cryptography&htidocid=RD_31UtKv5QaJnu_AAAAAA%3D%3D",
+      "extensions": [
+        "5 days ago",
+        "55K–126K a year",
+        "Full-time",
+        "Health insurance"
+      ],
+      "source_link": "https://www.jobleads.com/us/job/post-quantum-cryptography-project-control-specialist--arlington--edcfffc9b9b80a098e458e13f92a56988",
+      "job_title": "Post Quantum Cryptography Project Control Specialist",
+      "description": "Post Quantum Cryptography Project Control SpecialistThe Opportunity: When our country’s cybersecurity is on the line, simply reacting is not enough—we need a plan. And when that plan needs to support the Department of War's cybersecurity policy, we need strategic policy development. That’s why we need you, a Post Quantum Cryptography Project Control Specialist with the expertise required to analyze the policies that determine our cyber resilience.\n\nAs a cyber strategic planning and policy development specialist on our team, you’ll lead the assessment of DoW CIOs current cyber policies, the coverage of those policies, and areas of risks. You’ll evaluate how policies stack up to regulations, best practices, and industry standards. As you guide your client through understanding acceptable risk and availability, you’ll advance the development of a strategic cyber roadmap. You’ll work to ensure the client operates securely as they navigate an evolving IT environment.\n\nWork with us as we secure the Department of War's networks through strategic cyber policy development.\n\nYou Have:Experience with team leadership, including tracking, coordinating, and communicating tasks and due dates on delivery scheduleExperience integrating activities across organizations, compiling supporting data, producing final reports and memoranda, and providing developmental support to client and stakeholdersExperience with an enterprise task management systemExperience supporting and communicating with senior leadersExperience developing briefings, talking points, and presentations for clientsKnowledge of the Department of War and its componentsKnowledge of cybersecurity policies and principlesAbility to balance multiple workstreams and work collaboratively across teamsTS/SCI clearanceBachelor's degree and 14+ years of experience in a professional work environment,Master’s degree and 12+ years of experience in a professional work environment,or 18+ years of experience in a professional work environment in lieu of a degreeNice If You Have:Experience in the DoW CIO, OSW, or a Military CommandExperience with Correspondence and Task Management System (CATMS)Knowledge of Post Quantum Cryptography (PQC)Possession of excellent verbal, written, and visual communication skillsClearance: Applicants selected will be subject to a security investigation and may need to meet eligibility requirements for access to classified information; TS/SCI clearance is required.\n\nCompensationAt Booz Allen, we celebrate your contributions, provide you with opportunities and choices, and support your total well-being. Our offerings include health, life, disability, financial, and retirement benefits, as well as paid leave, professional development, tuition assistance, work-life programs, and dependent care. Our recognition awards program acknowledges employees for exceptional performance and superior demonstration of our values. Full-time and part-time employees working at least 20 hours a week on a regular basis are eligible to participate in Booz Allen’s benefit programs. Individuals that do not meet the threshold are only eligible for select offerings, not inclusive of health benefits. We encourage you to learn more about our total benefits by visiting the Resource page on our Careers site and reviewing Our Employee Benefits page.\n\nSalary at Booz Allen is determined by various factors, including but not limited to location, the individual’s particular combination of education, knowledge, skills, competencies, and experience, as well as contract-specific affordability and organizational requirements. The projected compensation range for this position is $55,200.00 to $126,000.00 (annualized USD). The estimate displayed represents the typical salary range for this position and is just one component of Booz Allen’s total compensation package for employees. This posting will close within 90 days from the Posting Date.\n\nIdentity StatementAs part of the hiring process, we will ask you to complete an identity verification process that leverages advanced biometrics and artificial intelligence to ensure authenticity and protect against identity fraud. You are expected to be on camera during interviews and assessments. We reserve the right to take your picture to verify your identity and prevent fraud.\n\nCandidate AI Usage PolicyAI is a part of our daily work at Booz Allen, and we are committed to the responsible and ethical use of AI tools. However, we want to ensure a fair candidate process based on your own skills and knowledge. As part of this commitment, the use of artificial intelligence (AI) or other tools to assist with responses during interviews (whether in-person or virtual) is prohibited unless permission is explicitly provided.\n\nWork ModelOur people-first culture prioritizes the benefits of collaboration, whether it occurs in person or virtually. To support engagement and effective communication, employees working virtually are generally expected to have their cameras on during meetings. Remote: If this position is listed as remote, there may still be occasions when you are required to work in person at a Booz Allen or customer facility. Hybrid: If this position is listed as hybrid, you will be expected to work from a Booz Allen facility frequently, in alignment with leadership expectations and the needs of the role. You may also be required to work from or visit a customer facility. Onsite: If this position is listed as onsite, work will primarily be performed at a Booz Allen office or customer facility, where employees will collaborate directly with colleagues and customers as required by the role.\n\nCommitment to Non-DiscriminationAll qualified applicants will receive consideration for employment without regard to disability, status as a protected veteran or any other status protected by applicable federal, state, local, or international law.\n\nAbout Booz AllenBooz Allen is an advanced technology company. We build commercial-grade products and solutions for America’s most critical defense, civil, and national security priorities.\n\nKnow Your Rights Poster AccommodationsApplicants who need a reasonable accommodation for any part of the application, hiring, or employment process because of a disability, a sincerely held religious belief, practice, or observance, or as otherwise required by applicable law should contact the Booz Allen Help Desk by calling 1-877-927-8278 or sending an email to helpdesk@bah.com. We will review requests on an individualized basis and provide reasonable accommodations consistent with applicable law.\n\nData PrivacyFor more information on how Booz Allen uses your information, please see our Careers Privacy Policy.",
+      "apply_options": [
+        {
+          "title": "JobLeads",
+          "link": "https://www.jobleads.com/us/job/post-quantum-cryptography-project-control-specialist--arlington--edcfffc9b9b80a098e458e13f92a56988?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJQb3N0IFF1YW50dW0gQ3J5cHRvZ3JhcGh5IFByb2plY3QgQ29udHJvbCBTcGVjaWFsaXN0IiwiY29tcGFueV9uYW1lIjoiQm9veiBBbGxlbiBIYW1pbHRvbiIsImh0aWRvY2lkIjoiUkRfMzFVdEt2NVFhSm51X0FBQUFBQT09IiwiaGwiOiJlbiIsImZjIjoiRXN3QkNvd0JRVXBwVkRSMFNpMUljM1ozT1dodk1XMXpUMkpSVFZWUmRqaGlYelpGYnpCTlNTMDRkeTFHVkVwWVpWa3RWWFZGU2s5RGNrOUxiamhIVFVaelVGcHdWbXMzVlUxS1J6YzViekJRUW5kUlpubHpaVlpNVm1GWFN6UkxhM0l5WVU0NWVUQmFaR1pFVVVwVlpXY3pkMkZJVkc1bGRsSlNOV05pYW10TWFUQldXVk5DZEdGUE9Ea3dVbHB1ZDBFU0Z6azBla05oYjBkNVR6ZHlUMnRRU1ZCM2MyVkJNa0Z6R2lKQlJITnlPV1pTYm0xQmRtbG9UMmRhUVhGR01sWllXQzFLTjNWTVFuUXRjMWQzIiwiZmN2IjoiMyIsImZjX2lkIjoiUkRfMzFVdEt2NVFhSm51X0FBQUFBQT09In0="
+    },
+    {
+      "title": "Post-Quantum Cryptography (PQC) Sales Engineer",
+      "company_name": "Sectigo",
+      "location": "Anywhere",
+      "via": "Teal",
+      "job_highlights": [
+        {
+          "title": "Qualifications",
+          "items": [
+            "Bachelor's degree in Computer Science, Engineering, Cybersecurity, Information Technology , or equivalent work experience is strongly recommended",
+            "Microsoft Certified Professional (considered an asset)",
+            "Linux/Solaris/UNIX System Administration (considered an asset)",
+            "Azure, AWS, or Google Cloud certification (considered an asset)",
+            "Security, PKI, or cryptography-related certifications (considered an asset)",
+            "Minimum of 7+ years of industry experience , with at least 3-4 years in an enterprise pre-sales environment",
+            "Proven experience as a Sales Engineer, Solutions Engineer, Security Architect, or Professional Services Engineer supporting enterprise security, identity, or cloud solutions",
+            "Strong knowledge of Microsoft Active Directory, Windows Server platforms, Linux environments, and enterprise authentication technologies",
+            "Extensive experience with Certificate Lifecycle Management (CLM), including automated certificate issuance, renewal, revocation, and lifecycle automation",
+            "Expertise establishing and managing Private PKI environments , including Certificate Authorities (CAs), enterprise trust models, and PKI integrations",
+            "Deep understanding of Public Key Infrastructure (PKI), SSL/TLS, X.509 certificates , digital identity, cryptographic principles, and machine identity management",
+            "Strong understanding of cryptographic algorithms, key management, Hardware Security Modules (HSMs), digital signatures, and enterprise trust architectures",
+            "Experience conducting enterprise technical discovery, architecture assessments, and solution design for complex customer environments",
+            "Hands-on experience deploying, configuring, integrating, and validating enterprise security solutions",
+            "Ability and availability to travel: Must be able to travel more than 35% of the time to the assigned regions and/or territories",
+            "Strategic mindset with the ability to guide customers through long-term cryptographic modernization and security transformation initiatives",
+            "Strong consulting skills with the ability to translate complex cryptographic and security concepts into practical business value",
+            "Deep experience in enterprise solution architecture, technical design, and competitive positioning",
+            "Strong hands-on technical capabilities with the ability to deploy, configure, integrate, and validate enterprise security solutions",
+            "Ability to influence customer technical strategy while collaborating effectively with regional Sales Engineers, Product Management, Engineering, Professional Services, and Strategic Alliances",
+            "Excellent verbal and written communication skills, with the ability to communicate effectively with engineers, enterprise architects, PKI administrators, and executive leadership",
+            "Self-starter with strong analytical, troubleshooting, and problem-solving skills, capable of managing multiple strategic opportunities simultaneously",
+            "Demonstrated customer service, account management, and executive presentation skills",
+            "Experience selling Software-as-a-Service (SaaS) technical solutions",
+            "Strong multitasking, troubleshooting, and technical problem-resolution abilities",
+            "English language proficiency required",
+            "(Other languages are considered an asset.)",
+            "Willingness to travel up to 50% of the time if required",
+            "Microsoft Certified Professional",
+            "Linux/Solaris/UNIX System Administration",
+            "Azure, AWS, or Google Cloud certification",
+            "Security, PKI, or cryptography-related certifications",
+            "Working knowledge of cryptographic modernization , crypto-agility principles, and Post-Quantum Cryptography concepts",
+            "Strong cloud experience with Azure, AWS, or Google Cloud",
+            "Proficiency with scripting languages (PowerShell, Python, Bash) and REST APIs",
+            "Other languages"
+          ]
+        },
+        {
+          "title": "Benefits",
+          "items": [
+            "All your information will be kept confidential according to EEO guidelines"
+          ]
+        },
+        {
+          "title": "Responsibilities",
+          "items": [
+            "This individual partners with regional Sales Engineers and Account Executives to articulate the technical value of Sectigo's solutions through customer discovery, solution architecture, technical presentations, cryptographic assessments, Proof of Concepts (PoCs), and hands-on implementation activities",
+            "This senior level professional possesses exceptional technical, presentation, consulting, and communication skills, enabling strategic customers to assess their current cryptographic environments, understand modernization opportunities, and develop practical adoption strategies that align with their security, compliance, and business objectives",
+            "Act as a trusted strategic advisor to CISOs, enterprise architects, PKI administrators, security teams, and executive stakeholders, guiding customers through cryptographic modernization and quantum readiness initiatives",
+            "Partner with regional Sales Engineers and Account Executives to identify, develop, and support strategic opportunities involving cryptographic modernization, Certificate Lifecycle Management (CLM), Private PKI, and Post-Quantum Cryptography (PQC)",
+            "Lead technical discovery engagements to assess customer cryptographic environments, certificate inventories, trust relationships, enterprise PKI architectures, and machine identities",
+            "Conduct cryptographic and quantum readiness assessments, helping customers identify risks, prioritize modernization efforts, and develop practical migration strategies",
+            "Deliver executive presentations, technical workshops, demonstrations, and architectural reviews that communicate both the immediate and long-term value of Sectigo's security solutions",
+            "Provide deep technical guidance during architecture reviews and solution design, ensuring deployments align with customer requirements, security best practices, and enterprise architecture standards",
+            "Lead Proof of Concept (PoC) engagements by planning, deploying, configuring, implementing, and validating Sectigo solutions within customer environments",
+            "Perform hands-on implementation activities including deployment of discovery technologies, technical integrations, connector configuration, and validation as required during customer engagements",
+            "Bridge the gap between technology and business objectives by helping customers understand the value of cryptographic modernization, Certificate Lifecycle Management, and machine identity security",
+            "Assist with sales proposals, Statements of Work (SOWs), Requests for Proposal (RFPs), and Requests for Information (RFIs), ensuring technical accuracy and competitive differentiation",
+            "Develop and refine repeatable methodologies, assessment frameworks, technical playbooks, reference architectures, and best practices supporting Sectigo's cryptographic modernization practice",
+            "Contribute to the SE Readiness Program by developing subject matter expertise, sharing technical best practices, maintaining current knowledge of assigned solutions, and delivering technical enablement to the field organization",
+            "Work closely with Product Management and Engineering, providing field-driven feedback to influence future product capabilities, customer experience, and solution strategy",
+            "Collaborate with Product Marketing, Customer Success, Professional Services, and Strategic Alliances to support solution adoption, partner enablement, and customer success",
+            "Represent Sectigo as a technical thought leader by participating in customer workshops, executive briefings, conferences, webinars, industry events, and technical content development",
+            "Work in a fast-paced environment under minimal supervision",
+            "Willing to travel regionally and internationally for customer-facing activities, strategic partner engagements, conferences, and internal planning sessions",
+            "Participate in strategic alliance initiatives, strengthening relationships with technology partners and strategic customers",
+            "Additional responsibilities and special projects as assigned",
+            "Additional tasks associated with this position may be assigned in response to company initiatives and business needs"
+          ]
+        }
+      ],
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=post-quantum+cryptography&htidocid=wtbUupOU-sP3U74PAAAAAA%3D%3D&hl=en-US&shem=epsd1,esd2e,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_xXMsQrCMBAAUFz7BeJ0owptRHDRsRTBqaU4lzQeSSTNhdwV2p_xW9Xlja_4bIqmJZaym3WUeYI6r0nIZp3cCvu2qw_Q64AMTbQ-ImYo4UEjMOpsHFCEO5ENuLs5kcRXpZhDZVm0eFMZmhRFHGlRbxr5z8BOZ0xBCw7ny2mpUrTHbY9GvCXwEZ7RC76g_w3IX8DWQBWhAAAA&shmds=v1_ARwrE204Sie-YGRGBrdnxqS78wD6gJWKvnKZrqJykIWsX47yOA&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=post-quantum+cryptography&htidocid=wtbUupOU-sP3U74PAAAAAA%3D%3D",
+      "extensions": [
+        "Work from home",
+        "Full-time"
+      ],
+      "source_link": "https://www.tealhq.com/job/post-quantum-cryptography-pqc-sales-engineer_7ea1ad242bc0a0bcb2bf57b6b6731542270dd",
+      "job_title": "Post-Quantum Cryptography (PQC) Sales Engineer",
+      "description": "About the position\n\nThe Post-Quantum Cryptography (PQC) Sales Engineer serves as a specialized overlay technical resource responsible for helping enterprise customers modernize their cryptographic infrastructure and prepare for the transition to quantum-safe security. This individual partners with regional Sales Engineers and Account Executives to articulate the technical value of Sectigo's solutions through customer discovery, solution architecture, technical presentations, cryptographic assessments, Proof of Concepts (PoCs), and hands-on implementation activities. This senior level professional possesses exceptional technical, presentation, consulting, and communication skills, enabling strategic customers to assess their current cryptographic environments, understand modernization opportunities, and develop practical adoption strategies that align with their security, compliance, and business objectives. This is a full-time, remote role, and we’re ideally looking for someone based in the greater London area.\n\nResponsibilities\n\nAct as a trusted strategic advisor to CISOs, enterprise architects, PKI administrators, security teams, and executive stakeholders, guiding customers through cryptographic modernization and quantum readiness initiatives.Partner with regional Sales Engineers and Account Executives to identify, develop, and support strategic opportunities involving cryptographic modernization, Certificate Lifecycle Management (CLM), Private PKI, and Post-Quantum Cryptography (PQC).Lead technical discovery engagements to assess customer cryptographic environments, certificate inventories, trust relationships, enterprise PKI architectures, and machine identities.Conduct cryptographic and quantum readiness assessments, helping customers identify risks, prioritize modernization efforts, and develop practical migration strategies.Deliver executive presentations, technical workshops, demonstrations, and architectural reviews that communicate both the immediate and long-term value of Sectigo's security solutions.Provide deep technical guidance during architecture reviews and solution design, ensuring deployments align with customer requirements, security best practices, and enterprise architecture standards.Lead Proof of Concept (PoC) engagements by planning, deploying, configuring, implementing, and validating Sectigo solutions within customer environments.Perform hands-on implementation activities including deployment of discovery technologies, technical integrations, connector configuration, and validation as required during customer engagements.Bridge the gap between technology and business objectives by helping customers understand the value of cryptographic modernization, Certificate Lifecycle Management, and machine identity security.Assist with sales proposals, Statements of Work (SOWs), Requests for Proposal (RFPs), and Requests for Information (RFIs), ensuring technical accuracy and competitive differentiation.Develop and refine repeatable methodologies, assessment frameworks, technical playbooks, reference architectures, and best practices supporting Sectigo's cryptographic modernization practice.Contribute to the SE Readiness Program by developing subject matter expertise, sharing technical best practices, maintaining current knowledge of assigned solutions, and delivering technical enablement to the field organization.Work closely with Product Management and Engineering, providing field-driven feedback to influence future product capabilities, customer experience, and solution strategy.Collaborate with Product Marketing, Customer Success, Professional Services, and Strategic Alliances to support solution adoption, partner enablement, and customer success.Represent Sectigo as a technical thought leader by participating in customer workshops, executive briefings, conferences, webinars, industry events, and technical content development.Work in a fast-paced environment under minimal supervision.Willing to travel regionally and internationally for customer-facing activities, strategic partner engagements, conferences, and internal planning sessions.Participate in strategic alliance initiatives, strengthening relationships with technology partners and strategic customers.Additional responsibilities and special projects as assigned.Additional tasks associated with this position may be assigned in response to company initiatives and business needs.Requirements\n\nBachelor's degree in Computer Science, Engineering, Cybersecurity, Information Technology , or equivalent work experience is strongly recommended.Microsoft Certified Professional (considered an asset).Linux/Solaris/UNIX System Administration (considered an asset).Azure, AWS, or Google Cloud certification (considered an asset).Security, PKI, or cryptography-related certifications (considered an asset).Minimum of 7+ years of industry experience , with at least 3-4 years in an enterprise pre-sales environment.Proven experience as a Sales Engineer, Solutions Engineer, Security Architect, or Professional Services Engineer supporting enterprise security, identity, or cloud solutions .Strong knowledge of Microsoft Active Directory, Windows Server platforms, Linux environments, and enterprise authentication technologies.Extensive experience with Certificate Lifecycle Management (CLM), including automated certificate issuance, renewal, revocation, and lifecycle automation.Expertise establishing and managing Private PKI environments , including Certificate Authorities (CAs), enterprise trust models, and PKI integrations.Deep understanding of Public Key Infrastructure (PKI), SSL/TLS, X.509 certificates , digital identity, cryptographic principles, and machine identity management.Strong understanding of cryptographic algorithms, key management, Hardware Security Modules (HSMs), digital signatures, and enterprise trust architectures.Working knowledge of cryptographic modernization , crypto-agility principles, and Post-Quantum Cryptography concepts is highly desirable.Experience conducting enterprise technical discovery, architecture assessments, and solution design for complex customer environments.Hands-on experience deploying, configuring, integrating, and validating enterprise security solutions.Strong cloud experience with Azure, AWS, or Google Cloud (preferred).Proficiency with scripting languages (PowerShell, Python, Bash) and REST APIs (preferred).Ability and availability to travel: Must be able to travel more than 35% of the time to the assigned regions and/or territories.Strategic mindset with the ability to guide customers through long-term cryptographic modernization and security transformation initiatives.Strong consulting skills with the ability to translate complex cryptographic and security concepts into practical business value.Deep experience in enterprise solution architecture, technical design, and competitive positioning.Strong hands-on technical capabilities with the ability to deploy, configure, integrate, and validate enterprise security solutions.Ability to influence customer technical strategy while collaborating effectively with regional Sales Engineers, Product Management, Engineering, Professional Services, and Strategic Alliances.Excellent verbal and written communication skills, with the ability to communicate effectively with engineers, enterprise architects, PKI administrators, and executive leadership.Self-starter with strong analytical, troubleshooting, and problem-solving skills, capable of managing multiple strategic opportunities simultaneously.Demonstrated customer service, account management, and executive presentation skills.Experience selling Software-as-a-Service (SaaS) technical solutions.Strong multitasking, troubleshooting, and technical problem-resolution abilities.English language proficiency required. (Other languages are considered an asset.)Willingness to travel up to 50% of the time if required.Nice-to-haves\n\nMicrosoft Certified ProfessionalLinux/Solaris/UNIX System AdministrationAzure, AWS, or Google Cloud certificationSecurity, PKI, or cryptography-related certificationsWorking knowledge of cryptographic modernization , crypto-agility principles, and Post-Quantum Cryptography conceptsStrong cloud experience with Azure, AWS, or Google CloudProficiency with scripting languages (PowerShell, Python, Bash) and REST APIsOther languagesBenefits\n\nAll your information will be kept confidential according to EEO guidelines.",
+      "apply_options": [
+        {
+          "title": "Teal",
+          "link": "https://www.tealhq.com/job/post-quantum-cryptography-pqc-sales-engineer_7ea1ad242bc0a0bcb2bf57b6b6731542270dd?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "BeBee",
+          "link": "https://bebee.com/us/jobs/post-quantum-cryptography-pqc-security-engineer-shorepoint-inc--lensa-7428_852a941d79003cdc23916ce6106f67e3260d6896e479ee178010f4087bfc34f3?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Talents By Vaia",
+          "link": "https://talents.vaia.com/companies/shorepoint-inc/post-quantum-cryptography-pqc-security-engineer-109814439/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "Remote Jobs | Prismjobs",
+          "link": "https://prismjobs.liveblog365.com/remote-jobs/post-quantum-cryptography-pqc-sales-engineer?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "WFZone",
+          "link": "https://wfzone.l4x.html-5.me/remote-jobs/post-quantum-cryptography-pqc-security-engineer?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        },
+        {
+          "title": "HireFast",
+          "link": "https://hirefast.g8r.social-networking.me/remote-jobs/post-quantum-cryptography-pqc-sales-engineer-2?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJQb3N0LVF1YW50dW0gQ3J5cHRvZ3JhcGh5IChQUUMpIFNhbGVzIEVuZ2luZWVyIiwiY29tcGFueV9uYW1lIjoiU2VjdGlnbyIsImh0aWRvY2lkIjoid3RiVXVwT1Utc1AzVTc0UEFBQUFBQT09IiwiaGwiOiJlbiIsImZjIjoiRXN3QkNvd0JRVXBwVkRSMFNsUmpaV05mWkVwVVowNTBVSGw1U0hWeE1GOU1aVVJXWXpWblYyazFXVUpIYlc0MGIzUjFhMjl6YkdwVVVtdDFiVTVUYXpST2VtZExiVFEwWVRSS2RteEVPR05HTlhKb01tdDFlSFZPV1dabE4zcFFjVTl1VFZRMmRtczNaalZpTUdKQlZIaFVOM2hJTWs1NlRFWTFPVVJSWm5jM05UWlZkMjlpWjBwM1NqSnljbXN6YVhJU0Z6azBla05oYjBkNVR6ZHlUMnRRU1ZCM2MyVkJNa0Z6R2lKQlJITnlPV1pSYWtKRGFsbHVOMFkwVUd0UFFqRnNUbEl6VDBsbWFGYzRjRmhCIiwiZmN2IjoiMyIsImZjX2lkIjoid3RiVXVwT1Utc1AzVTc0UEFBQUFBQT09In0="
+    },
+    {
+      "title": "Cryptography Research Intern — Post-Quantum & ZK Signatures",
+      "company_name": "Binance",
+      "location": "Anywhere",
+      "via": "JobLeads",
+      "job_highlights": [
+        {
+          "title": "Benefits",
+          "items": [
+            "The program emphasizes learning, networking, and developing transferable skills through real-world projects and open-source contributions"
+          ]
+        }
+      ],
+      "share_link": "https://www.google.com/search?ibp=htl;jobs&q=post-quantum+cryptography&htidocid=beUUsJjLUpmvC4d3AAAAAA%3D%3D&hl=en-US&shem=epsd1,esd2e,rimspwouoe&shndl=37&shmd=H4sIAAAAAAAA_y3MMQrCQBBAUWxzArGaykJIIoKNdlqI2qjRxiZs4rBZSWaWnQkknYfwGl7Kk6hg87v3o9cgOq9D75VtML7q4YSCJpQVbEkxELwfTziwaHxsDWnbwBiue8icJaNtQIEYdlzAHzHBhtnWOFpWql4WaSpSJ1bUqCuTkpuUCQvu0jsX8ksulQnoa6OYz-bTLvFkJ8OVI0MlgiO4kFO8QfY9oHwAGRJfrrAAAAA&shmds=v1_ARwrE202TE5YMy2VsEVP8OgG5ebRWmrDe_ntY3Q6kJ_LMpMFLg&source=sh/x/job/li/m1/1#fpstate=tldetail&htivrt=jobs&htiq=post-quantum+cryptography&htidocid=beUUsJjLUpmvC4d3AAAAAA%3D%3D",
+      "thumbnail": "https://serpapi.com/images/i/iVBORw0KGgoAAAANSUhEUgAAADgAAAAlCAMAAAAgENppAAAAZlBMVEX___8LDhEAAAAAABH0vAsACREAAxHstgvKysrksAsAAAMABREmIBHd3d0QERHxugvDw8M7LxDV1dVENhAhHBEzKRBEREUtJRFhYmICCAxJOhC7u7uwsLDcqgxVVlc4OTqlpaWVlZawfiM-AAAA50lEQVRIie3UyRKDIAwAUJOAuLQirt209f9_ssBoe-gBTGd6ag7h4psIgSTJP34Y2XIahtOS7WQL2igKl5c91RDPACClTWfE6KoPz6A8HErw9BHnbug-hxTy3CYXeItxx9VVuRB5tcpjBLzj5rTeJN7Drn47pZwkL-sgnB2Uo6tnjK2pRne2OAehd3QRQhsio4W4kJch11hIfUtGGWrXZbR_i00AXhFkp3RPRL1eF9VJwGsA2ibSJIQiIPVaJgq3kl2RvUf2qfL7-HFz0sibw76r_NfBfo_8CcCfOQl7yvmqvLn6j6_iCVanEJYphwGJAAAAAElFTkSuQmCC.png",
+      "extensions": [
+        "4 days ago",
+        "30K–42K a year",
+        "Work from home",
+        "Full-time"
+      ],
+      "source_link": "https://www.jobleads.com/us/job/cryptography-research-intern-post-quantum-zk-signatures--united-states--e3730b6b6c56bcd6465c68e8fa6b237b5",
+      "job_title": "Cryptography Research Intern — Post-Quantum & ZK Signatures",
+      "description": "Binance Accelerator Program offers a structured internship for early-career talent to gain hands-on experience in a fast-moving crypto research environment. You will collaborate with senior researchers to explore modern cryptographic protocols and translate findings into practical blockchain applications.\n\nThe program emphasizes learning, networking, and developing transferable skills through real-world projects and open-source contributions.",
+      "apply_options": [
+        {
+          "title": "JobLeads",
+          "link": "https://www.jobleads.com/us/job/cryptography-research-intern-post-quantum-zk-signatures--united-states--e3730b6b6c56bcd6465c68e8fa6b237b5?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic"
+        }
+      ],
+      "job_id": "eyJqb2JfdGl0bGUiOiJDcnlwdG9ncmFwaHkgUmVzZWFyY2ggSW50ZXJuIOKAlCBQb3N0LVF1YW50dW0gXHUwMDI2IFpLIFNpZ25hdHVyZXMiLCJjb21wYW55X25hbWUiOiJCaW5hbmNlIiwiaHRpZG9jaWQiOiJiZVVVc0pqTFVwbXZDNGQzQUFBQUFBPT0iLCJobCI6ImVuIiwiZmMiOiJFc3dCQ293QlFVcHBWRFIwU1VjMlNYRlBXWFZzY0ZSTVExRlRVRkZwUWpOaGVESm1VRkY0U2xCUk1IVmxlRkpCWTJOTmFqUmpNVTFIYlV0dGVqRmliVVpmWW5Wd0xVWjZjM001ZVV4ZmNVWnJRbWxxWkZKblRHcDBPVk5JTkVKemNVdEliRVJSUmkweFJ6STFUakkwWVc5M1FUbHVNMlV5U3pSVk4xUnBZMEpCUjJKS2EwcEtVV00zWm5kSVMyaEhlRlVTRnprMGVrTmhiMGQ1VHpkeVQydFFTVkIzYzJWQk1rRnpHaUpCUkhOeU9XWlNYMnhCZG5GbVJ6bExNbEpmTWxjNFdIWkdjR1psUlhKS2JXbEIiLCJmY3YiOiIzIiwiZmNfaWQiOiJiZVVVc0pqTFVwbXZDNGQzQUFBQUFBPT0ifQ=="
+    }
+  ],
+  "serpapi_pagination": {
+    "next_page_token": "eyJmYyI6IkV2Y0VDcmNFUVVwcFZEUjBTVjlNZEZKeE9UQTFRakEzVVhkMVJITkNkSEl6ZVZWcE1YSkpWVmxoZFVsRGFucDBkVTAxZVZsUmRqaENSSGwxYUVOQ1RVdG1la1U0VkRKTVJIRkJaM2hNVFd3NFRuVTNWbGhhVmxscExXVklabTVNWDJwdmIzUmtaa2R3YW1wR05sQlljMnB1U2t4elNWTjNRbVIyVkV4NmIzZzBZVTVXZHpndGFXaHVSRU5tTkRGU09FeDRjRWhJU0VOSUxUVkhWWFJaZVhocU5UQnJja05YZEVwTFNEY3phVzlXYmpsVlJVeERYMUYxVGpGRU1GZFVhbUZwTm1Gb0xVbDZSM04yZVZkb2JFNUlXVkZDWVVkNGFtRnhTM2s0YjI5eVJUUjJUSGhCUWt4dVRrdGlTRWh1ZFc4NWVtUjVXRlptV0U1VmREbFdYM2RqYUdWSVFuZEdSMWxGV21WQlN5MU9YelZxZDFkT1FteE9WR0V0TldFNFFrczViR1kwVW14TU9WWlhUbTVpUXpsUVRqZHhTM3BQTkVKc1duaFFUVzB5U0ZSc05qWmhVMFpyZWsxWlUzUTVhbFJvUlROaWJrbHZPVEl4UjJNM1ZVZzVOazlHZW5kSE5GbEtla1ZGV0hKSWJtdHViVGhzVmpkdVpVMUZiRUZzVlhkd1VWRmxaSE5zY2tKSWMyWkxkRmw1VUdkQ2FrVXpjR1pITFVaWk5FNXNhV3BTZUdrelNtcDFjR3cwZFY5WFJHODNZa0pNWlU4dFlqaGpZblJEUjJoRVN6aG9jMFYwWmtwMlNHVlZSMDQ0T0Vwb1lYRlFkalprZEd0eVNEQlNkSEZHVTNOeWNXY3dkbk5TTUVwWU9VWlFRbGg1TVU0NVFVVm1UVTUwTVhwaVRIRlJiRzFtWlhoc1RFTklSVTl5U21GM1NuTjNjbGxXWWpKc056TllRMVpmUzA1V1oyMTRWMGxzYTJKTU1XZHNXQzFtZEdaV1kySlpSbEZORWhjNU5IcERZVzlIZVU4M2NrOXJVRWxRZDNObFFUSkJjeG9pUVVSemNqbG1VMWMxT0ZKU1pEaDRhVzlUWkZSNVVuRnBhRkJIYjJVMWJVZ3hRUSIsImZjdiI6IjMifQ==",
+    "next": "https://serpapi.com/search.json?engine=google_jobs&google_domain=google.com&hl=en&next_page_token=eyJmYyI6IkV2Y0VDcmNFUVVwcFZEUjBTVjlNZEZKeE9UQTFRakEzVVhkMVJITkNkSEl6ZVZWcE1YSkpWVmxoZFVsRGFucDBkVTAxZVZsUmRqaENSSGwxYUVOQ1RVdG1la1U0VkRKTVJIRkJaM2hNVFd3NFRuVTNWbGhhVmxscExXVklabTVNWDJwdmIzUmtaa2R3YW1wR05sQlljMnB1U2t4elNWTjNRbVIyVkV4NmIzZzBZVTVXZHpndGFXaHVSRU5tTkRGU09FeDRjRWhJU0VOSUxUVkhWWFJaZVhocU5UQnJja05YZEVwTFNEY3phVzlXYmpsVlJVeERYMUYxVGpGRU1GZFVhbUZwTm1Gb0xVbDZSM04yZVZkb2JFNUlXVkZDWVVkNGFtRnhTM2s0YjI5eVJUUjJUSGhCUWt4dVRrdGlTRWh1ZFc4NWVtUjVXRlptV0U1VmREbFdYM2RqYUdWSVFuZEdSMWxGV21WQlN5MU9YelZxZDFkT1FteE9WR0V0TldFNFFrczViR1kwVW14TU9WWlhUbTVpUXpsUVRqZHhTM3BQTkVKc1duaFFUVzB5U0ZSc05qWmhVMFpyZWsxWlUzUTVhbFJvUlROaWJrbHZPVEl4UjJNM1ZVZzVOazlHZW5kSE5GbEtla1ZGV0hKSWJtdHViVGhzVmpkdVpVMUZiRUZzVlhkd1VWRmxaSE5zY2tKSWMyWkxkRmw1VUdkQ2FrVXpjR1pITFVaWk5FNXNhV3BTZUdrelNtcDFjR3cwZFY5WFJHODNZa0pNWlU4dFlqaGpZblJEUjJoRVN6aG9jMFYwWmtwMlNHVlZSMDQ0T0Vwb1lYRlFkalprZEd0eVNEQlNkSEZHVTNOeWNXY3dkbk5TTUVwWU9VWlFRbGg1TVU0NVFVVm1UVTUwTVhwaVRIRlJiRzFtWlhoc1RFTklSVTl5U21GM1NuTjNjbGxXWWpKc056TllRMVpmUzA1V1oyMTRWMGxzYTJKTU1XZHNXQzFtZEdaV1kySlpSbEZORWhjNU5IcERZVzlIZVU4M2NrOXJVRWxRZDNObFFUSkJjeG9pUVVSemNqbG1VMWMxT0ZKU1pEaDRhVzlUWkZSNVVuRnBhRkJIYjJVMWJVZ3hRUSIsImZjdiI6IjMifQ%3D%3D&q=post-quantum+cryptography"
+  }
+}
