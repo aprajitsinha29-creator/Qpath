@@ -7,6 +7,7 @@ fixtures from ``tests/fixtures/serpapi/``.
 
 from __future__ import annotations
 
+import json
 from collections.abc import Iterator
 from pathlib import Path
 
@@ -14,9 +15,10 @@ import pytest
 from fastapi.testclient import TestClient
 from sqlalchemy.orm import Session
 
-from app.core.config import get_settings
+from app.core.config import Settings, get_settings
 from app.core.logging import setup_logging
-from app.db.session import get_engine, get_sessionmaker
+from app.db.session import SessionLocal, get_engine, get_sessionmaker
+from app.integrations.serpapi.client import SerpApiClient
 
 
 @pytest.fixture(autouse=True)
@@ -57,3 +59,54 @@ def db_session() -> Iterator[Session]:
         yield session
     finally:
         session.close()
+
+
+@pytest.fixture()
+def _seed_reference_data(db_session: Session) -> None:
+    """Seed taxonomy/careers/skills into the temp DB (opt-in via usefixtures).
+
+    Ingestion and pulse tests need real subfield rows: postings are linked to
+    subfields through a foreign key, so the FK targets must exist.
+    """
+    from app.db.seed import seed_reference_data
+
+    seed_reference_data(db_session)
+
+
+# ---------------------------------------------------------------------------
+# Shared SerpApi test fixtures (fixture-mode client over a per-test dir).
+# Used by the ingestion/pulse integration tests; keeps ONE canonical set.
+# ---------------------------------------------------------------------------
+
+
+@pytest.fixture()
+def fixture_settings() -> Settings:
+    """Settings in fixture mode: no network, no key needed."""
+    return Settings(serpapi_use_fixtures=True, serpapi_api_key="")
+
+
+@pytest.fixture()
+def fixture_dir(tmp_path: Path) -> Path:
+    """Empty per-test fixture directory; tests add the recordings they need."""
+    directory = tmp_path / "fixtures"
+    directory.mkdir(parents=True, exist_ok=True)
+    return directory
+
+
+@pytest.fixture()
+def serpapi_fixture_client(fixture_settings: Settings, fixture_dir: Path) -> SerpApiClient:
+    """A real SerpApiClient in fixture mode over ``fixture_dir`` (no network).
+
+    Named distinctly from the TestClient ``client`` fixture to avoid confusion.
+    """
+    from app.integrations.serpapi.client import SerpApiClient
+
+    return SerpApiClient(fixture_settings, SessionLocal, fixture_dir=fixture_dir)
+
+
+def write_serpapi_fixture(fixture_dir: Path, query: str, variant: str, payload: dict) -> None:
+    """Write one Google Jobs fixture file (the only recordings Phase 1 tests need)."""
+    from app.integrations.serpapi.client import fixture_file_name
+
+    name = fixture_file_name("google_jobs", query, variant)
+    (fixture_dir / name).write_text(json.dumps(payload), encoding="utf-8")

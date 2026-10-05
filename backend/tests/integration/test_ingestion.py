@@ -9,9 +9,8 @@ the real committed fixture set.
 
 from __future__ import annotations
 
-import json
 import time
-from collections.abc import Callable
+from datetime import timedelta
 from pathlib import Path
 from typing import Any
 
@@ -19,58 +18,17 @@ import pytest
 from sqlalchemy import func, select
 from sqlalchemy.orm import Session
 
-from app.core.config import Settings
 from app.db.session import SessionLocal
 from app.integrations.serpapi.client import SerpApiClient
 from app.models import JobPosting, JobPostingSubfield, PulseSnapshot, RefreshRun
 from app.services import ingestion_service
+from tests.conftest import write_serpapi_fixture as write_fixture
 
 EMPTY_RESULT_BODY = {"error": "Google hasn't returned any results for this query."}
 
-
-@pytest.fixture(autouse=True)
-def _seed_reference_data(db_session: Session) -> None:
-    """Ingestion links postings to subfields, so the FK targets must exist."""
-    from app.db.seed import seed_reference_data
-
-    seed_reference_data(db_session)
-
-
-@pytest.fixture()
-def session_factory(db_session: Session) -> Callable[[], Session]:
-    """Session factory pointing at the per-test temp DB (used by the call log)."""
-    return SessionLocal
-
-
-@pytest.fixture()
-def fixture_settings() -> Settings:
-    """Fixture-mode settings; the client never touches the network."""
-    return Settings(serpapi_use_fixtures=True, serpapi_api_key="")
-
-
-@pytest.fixture()
-def fixture_dir(tmp_path: Path) -> Path:
-    """Empty fixture directory; tests add exactly the recordings they need."""
-    return tmp_path / "fixtures"
-
-
-@pytest.fixture()
-def client(
-    fixture_settings: Settings,
-    session_factory: Callable[[], Session],
-    fixture_dir: Path,
-) -> SerpApiClient:
-    """Real SerpApiClient reading from the test's fixture directory."""
-    fixture_dir.mkdir(parents=True, exist_ok=True)
-    return SerpApiClient(fixture_settings, session_factory, fixture_dir=fixture_dir)
-
-
-def write_fixture(fixture_dir: Path, query: str, variant: str, payload: dict[str, Any]) -> None:
-    """Write one fixture file using the same naming convention as the recorder."""
-    from app.integrations.serpapi.client import fixture_file_name
-
-    name = fixture_file_name("google_jobs", query, variant)
-    (fixture_dir / name).write_text(json.dumps(payload), encoding="utf-8")
+# Subfield rows must exist (postings link to them); _seed_reference_data
+# lives in conftest.py and is applied via the pytestmark below.
+pytestmark = pytest.mark.usefixtures("_seed_reference_data")
 
 
 def job(
@@ -100,7 +58,7 @@ def job(
 
 
 def test_refresh_jobs_is_idempotent(
-    client: SerpApiClient, fixture_dir: Path, db_session: Session
+    serpapi_fixture_client: SerpApiClient, fixture_dir: Path, db_session: Session
 ) -> None:
     """Running twice: same row counts, second run reports zero new postings.
 
@@ -120,7 +78,7 @@ def test_refresh_jobs_is_idempotent(
     )
 
     run1 = ingestion_service.refresh_jobs(
-        db_session, client, mode="daily", region="global", subfield_ids=["qec"]
+        db_session, serpapi_fixture_client, mode="daily", region="global", subfield_ids=["qec"]
     )
     postings_after_first = list(db_session.scalars(select(JobPosting)))
     first_seen = {p.id: p.first_seen_at for p in postings_after_first}
@@ -133,7 +91,7 @@ def test_refresh_jobs_is_idempotent(
 
     time.sleep(0.01)  # guarantee the clock moved between runs
     run2 = ingestion_service.refresh_jobs(
-        db_session, client, mode="daily", region="global", subfield_ids=["qec"]
+        db_session, serpapi_fixture_client, mode="daily", region="global", subfield_ids=["qec"]
     )
 
     counts_second = {
@@ -152,7 +110,7 @@ def test_refresh_jobs_is_idempotent(
 
 
 def test_dedupe_across_queries_keeps_core_tier(
-    client: SerpApiClient, fixture_dir: Path, db_session: Session
+    serpapi_fixture_client: SerpApiClient, fixture_dir: Path, db_session: Session
 ) -> None:
     """The same posting found by two queries of one subfield creates ONE row.
 
@@ -175,7 +133,7 @@ def test_dedupe_across_queries_keeps_core_tier(
     )
 
     run = ingestion_service.refresh_jobs(
-        db_session, client, mode="bootstrap", region="global", subfield_ids=["qec"]
+        db_session, serpapi_fixture_client, mode="bootstrap", region="global", subfield_ids=["qec"]
     )
 
     # shared + decoder = 2 unique postings even though 3 raw results were seen
@@ -208,7 +166,7 @@ def test_dedupe_across_queries_keeps_core_tier(
 
 
 def test_pagination_stops_when_fixture_missing(
-    client: SerpApiClient, fixture_dir: Path, db_session: Session
+    serpapi_fixture_client: SerpApiClient, fixture_dir: Path, db_session: Session
 ) -> None:
     """Bootstrap follows next_page_token until a fixture is missing — then stops.
 
@@ -236,7 +194,7 @@ def test_pagination_stops_when_fixture_missing(
     # No global_p3 fixture and no extended-query fixture on purpose.
 
     run = ingestion_service.refresh_jobs(
-        db_session, client, mode="bootstrap", region="global", subfield_ids=["qec"]
+        db_session, serpapi_fixture_client, mode="bootstrap", region="global", subfield_ids=["qec"]
     )
 
     assert run.status == "done"
@@ -246,7 +204,7 @@ def test_pagination_stops_when_fixture_missing(
 
 
 def test_empty_result_fixture_is_zero_postings_not_an_error(
-    client: SerpApiClient, fixture_dir: Path, db_session: Session
+    serpapi_fixture_client: SerpApiClient, fixture_dir: Path, db_session: Session
 ) -> None:
     """The India QEC fixture (the real 'no results' body) ingests as zero.
 
@@ -256,7 +214,7 @@ def test_empty_result_fixture_is_zero_postings_not_an_error(
     write_fixture(fixture_dir, "quantum error correction", "india_p1", EMPTY_RESULT_BODY)
 
     run = ingestion_service.refresh_jobs(
-        db_session, client, mode="daily", region="india", subfield_ids=["qec"]
+        db_session, serpapi_fixture_client, mode="daily", region="india", subfield_ids=["qec"]
     )
 
     assert run.status == "done"
@@ -269,7 +227,7 @@ def test_empty_result_fixture_is_zero_postings_not_an_error(
 
 
 def test_query_failure_is_recorded_and_run_continues(
-    client: SerpApiClient, fixture_dir: Path, db_session: Session
+    serpapi_fixture_client: SerpApiClient, fixture_dir: Path, db_session: Session
 ) -> None:
     """A broken fixture (non-object JSON) fails one query; the other still ingests."""
     write_fixture(
@@ -284,7 +242,11 @@ def test_query_failure_is_recorded_and_run_continues(
     )
 
     run = ingestion_service.refresh_jobs(
-        db_session, client, mode="daily", region="india", subfield_ids=["qec", "software"]
+        db_session,
+        serpapi_fixture_client,
+        mode="daily",
+        region="india",
+        subfield_ids=["qec", "software"],
     )
 
     assert run.status == "partial"
@@ -297,17 +259,21 @@ def test_query_failure_is_recorded_and_run_continues(
 
 
 def test_refresh_jobs_rejects_unknown_mode_and_region(
-    client: SerpApiClient, db_session: Session
+    serpapi_fixture_client: SerpApiClient, db_session: Session
 ) -> None:
     """Unknown mode/region is a caller contract bug and raises immediately."""
     with pytest.raises(ValueError, match="unknown mode"):
-        ingestion_service.refresh_jobs(db_session, client, mode="hourly", region="global")
+        ingestion_service.refresh_jobs(
+            db_session, serpapi_fixture_client, mode="hourly", region="global"
+        )
     with pytest.raises(ValueError, match="unknown region"):
-        ingestion_service.refresh_jobs(db_session, client, mode="daily", region="mars")
+        ingestion_service.refresh_jobs(
+            db_session, serpapi_fixture_client, mode="daily", region="mars"
+        )
 
 
 def test_extended_only_postings_do_not_count_as_active(
-    client: SerpApiClient, fixture_dir: Path, db_session: Session
+    serpapi_fixture_client: SerpApiClient, fixture_dir: Path, db_session: Session
 ) -> None:
     """A posting found ONLY via an extended query is linked but not 'active' demand."""
     write_fixture(
@@ -318,7 +284,7 @@ def test_extended_only_postings_do_not_count_as_active(
     )
 
     run = ingestion_service.refresh_jobs(
-        db_session, client, mode="bootstrap", region="global", subfield_ids=["qec"]
+        db_session, serpapi_fixture_client, mode="bootstrap", region="global", subfield_ids=["qec"]
     )
 
     assert run.details["postings_new"] == 1
@@ -331,7 +297,10 @@ def test_extended_only_postings_do_not_count_as_active(
 
 
 def test_stale_postings_are_deactivated_after_window(
-    client: SerpApiClient, fixture_dir: Path, db_session: Session, monkeypatch: pytest.MonkeyPatch
+    serpapi_fixture_client: SerpApiClient,
+    fixture_dir: Path,
+    db_session: Session,
+    monkeypatch: pytest.MonkeyPatch,
 ) -> None:
     """Postings not re-seen for 14 days become inactive; re-seen ones revive."""
     write_fixture(
@@ -346,15 +315,13 @@ def test_stale_postings_are_deactivated_after_window(
         },
     )
     ingestion_service.refresh_jobs(
-        db_session, client, mode="daily", region="global", subfield_ids=["qec"]
+        db_session, serpapi_fixture_client, mode="daily", region="global", subfield_ids=["qec"]
     )
 
     # Simulate both postings being old enough to be stale...
-    old = ingestion_service.STALE_AFTER_DAYS  # the plan's 14-day window
-    cutoff_shift = old
     for posting in db_session.scalars(select(JobPosting)):
-        posting.last_seen_at = posting.last_seen_at - __import__("datetime").timedelta(
-            days=cutoff_shift + 1
+        posting.last_seen_at = posting.last_seen_at - timedelta(
+            days=ingestion_service.STALE_AFTER_DAYS + 1
         )
     db_session.commit()
 
@@ -366,14 +333,16 @@ def test_stale_postings_are_deactivated_after_window(
         {"jobs_results": [job("QEC Engineer", "Riverlane")]},
     )
     ingestion_service.refresh_jobs(
-        db_session, client, mode="daily", region="global", subfield_ids=["qec"]
+        db_session, serpapi_fixture_client, mode="daily", region="global", subfield_ids=["qec"]
     )
 
     statuses = {p.title: p.is_active for p in db_session.scalars(select(JobPosting))}
     assert statuses == {"QEC Engineer": True, "Decoder Scientist": False}
 
 
-def test_standalone_refresh_uses_its_own_session(client: SerpApiClient, fixture_dir: Path) -> None:
+def test_standalone_refresh_uses_its_own_session(
+    serpapi_fixture_client: SerpApiClient, fixture_dir: Path
+) -> None:
     """The standalone wrapper (scheduler entry point) persists via SessionLocal."""
     write_fixture(
         fixture_dir,
@@ -383,7 +352,7 @@ def test_standalone_refresh_uses_its_own_session(client: SerpApiClient, fixture_
     )
 
     run = ingestion_service.run_refresh_jobs_standalone(
-        client, mode="daily", region="global", subfield_ids=["qec"]
+        serpapi_fixture_client, mode="daily", region="global", subfield_ids=["qec"]
     )
 
     assert run.details["postings_new"] == 1
