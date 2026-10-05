@@ -98,6 +98,14 @@ SCHOLAR_QUERY_PLAN: tuple[ScholarQuerySpec, ...] = (
 # Subfields whose core query is also recorded for India (plan 4.6: 2 India queries).
 _FIXTURE_INDIA_SUBFIELDS = ("qec", "software")
 
+#: Google Jobs region parameter pairs (plan 1.3.1): global = no location,
+#: India = location + gl. ``location`` and ``uule`` are mutually exclusive
+#: (AGENTS 3.4.8) and we never send ``uule``.
+REGION_PARAMS: dict[str, dict[str, str | None]] = {
+    "global": {"location": None, "gl": None},
+    "india": {"location": "India", "gl": "in"},
+}
+
 _FIXTURE_JOB_GLOBAL = tuple(
     FixtureSpec(
         engine="google_jobs",
@@ -136,3 +144,25 @@ FIXTURE_PLAN: tuple[FixtureSpec, ...] = _FIXTURE_JOB_GLOBAL + _FIXTURE_JOB_INDIA
 def estimate_fixture_calls() -> int:
     """Return how many live SerpApi credits a full fixture recording costs."""
     return len(FIXTURE_PLAN) + sum(1 for spec in FIXTURE_PLAN if spec.follow_next_page)
+
+
+def job_fixture_variant(region: str, page: int) -> str:
+    """Return the fixture variant for a jobs query of ``region`` and 1-based ``page``.
+
+    Args:
+        region: ``global`` or ``india``.
+        page: 1-based page number.
+
+    Returns:
+        ``global_p1``/``global_p2``/``india_p1``-style variant name. Recordings
+        only exist for the plan 4.6 set (global pages 1-2 for qec, page 1
+        elsewhere; india page 1 for qec+software), so higher pages naturally
+        produce missing-fixture terminations — that is the intended
+        "no more data" signal in fixture mode, not an error.
+
+    Raises:
+        ValueError: for an unknown region (a programming error, not runtime data).
+    """
+    if region not in REGION_PARAMS:
+        raise ValueError(f"unknown region: {region!r}")
+    return f"{region}_p{page}"
