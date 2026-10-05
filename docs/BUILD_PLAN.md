@@ -453,7 +453,7 @@ VITE_API_BASE_URL=http://localhost:8000/api/v1
 | `career_paths` | `id`, `title`, `subfield_id`, `description`, `typical_titles` (JSON) | Seeded; one path per scored subfield |
 | `questions` | `id`, `subfield_id`, `concept_id`, `difficulty` (1–3), `stem`, `options` (JSON, exactly 4), `correct_index`, `explanation`, `source_refs` (JSON), `verified` (bool), `sort_order` | Seeded from `quiz_questions.json` |
 | `job_postings` | `id`, `dedupe_key` (**unique**), `serp_job_id`, `title`, `company`, `location`, `via`, `description`, `apply_url`, `extensions` (JSON), `is_internship`, `seniority` (nullable), `requires_phd` (nullable bool), `extraction_status` (`pending`/`done`/`failed`), `extraction_attempts`, `first_seen_at`, `last_seen_at`, `is_active` | `dedupe_key` = sha1 of normalized `title+company+location` (SerpApi `job_id` may change between fetches) |
-| `job_posting_subfields` | `posting_id`, `subfield_id`, `region` (`global`/`india`), `source_query`, `first_seen_at`, `last_seen_at` | Subfield tag comes from the query that found it, plus the model's `primary_subfield_id` |
+| `job_posting_subfields` | `posting_id`, `subfield_id`, `region` (`global`/`india`), `tier` (`core`/`extended`), `source_query`, `first_seen_at`, `last_seen_at` | Subfield tag comes from the query that found it, plus the model's `primary_subfield_id`. If a posting is found by both tiers for the same subfield, keep "core". |
 | `job_posting_skills` | `posting_id`, `skill_id` | Only vocabulary ids |
 | `paper_snapshots` | `id`, `subfield_id`, `batch_id`, `query`, `title`, `snippet`, `link`, `publication_summary`, `year` (nullable), `cited_by` (nullable), `fetched_at` | One batch per refresh |
 | `research_themes` | `id`, `subfield_id`, `batch_id`, `themes` (JSON: `[{label, summary, paper_ids}]`), `generated_at`, `model` | |
@@ -504,7 +504,7 @@ Error shape for every failure: `{"error": {"code": "<snake_case>", "message": "<
 **Normalizations**
 - `interest_n = (slider − 1) / 4` for slider 1–5.
 - `readiness_n = readiness_s / 100`.
-- `demand_n(s) = ln(1 + active_s) / ln(1 + max_active)`; `0` if `max_active = 0`. (Log scale stops one big subfield from flattening the rest.) `active_s` = active postings tagged to subfield `s` for the selected region.
+- `demand_n(s) = ln(1 + active_s) / ln(1 + max_active)`; `0` if `max_active = 0`. (Log scale stops one big subfield from flattening the rest.) `active_s` = number of active postings linked to subfield `s` through a CORE-tier query for the selected region. Unequal query counts across subfields would otherwise inflate demand for subfields with more queries.
 
 **Path score** (paths map 1:1 to scored subfields)
 `path_score = 100 × (W_INTEREST × interest_n + W_DEMAND × demand_n + W_READINESS × readiness_n)` with `W_INTEREST = 0.40`, `W_DEMAND = 0.30`, `W_READINESS = 0.30`.
@@ -535,6 +535,7 @@ Rationale: interest should lead (a beginner has low readiness everywhere), deman
 | `qml` | `quantum machine learning` | — |
 | `crypto_net` | `post-quantum cryptography` | `quantum key distribution`, `quantum networking` |
 
+- **Demand fairness note on query counts:** The job query plan has unequal query counts per subfield (hardware 4, qml 1). To keep the demand signal fair, only postings found via a CORE-tier query count toward a subfield's headline and demand figures (postings linked only via extended queries still appear in posting lists).
 - Global run: no location. India run: `location=India`, `gl=in`. All with `hl=en`.
 - **Modes:** `bootstrap` = all queries, follow `next_page_token` up to `SERPAPI_JOBS_MAX_PAGES`; `daily` = core queries, 1 page. Each query's results are tagged with its subfield.
 - Optional: SerpApi's Google Jobs API may support a recency `chips` filter (e.g. date posted). **Verify in the current docs before using; skip if unsupported.**
@@ -811,7 +812,7 @@ Commit and tag `phase-0`.
 
 **Steps**
 
-**1.1 Models:** `job_postings`, `job_posting_subfields`, `refresh_runs`, `pulse_snapshots` (Section 4.3). `dedupe_key` unique.
+**1.1 Models:** `job_postings`, `job_posting_subfields` (includes `tier` column: "core" or "extended"), `refresh_runs`, `pulse_snapshots` (Section 4.3). `dedupe_key` unique.
 
 **1.2 Parsers** (`integrations/serpapi/parsers.py`)
 1. `parse_job_result(raw) -> ParsedJob | None`: requires `title` and `company_name`, otherwise skip + log. Everything else via `.get()` with defaults. `apply_url` = first `apply_options[].link`, else `share_link`, else `source_link`, else `None`. `extensions` normalized to a list of strings.
@@ -821,13 +822,13 @@ Commit and tag `phase-0`.
 
 **1.3 Ingestion service** (`services/ingestion_service.py`)
 1. `refresh_jobs(db, client, *, mode, region, subfield_ids=None)`: `bootstrap` → all queries for the chosen subfields, follow `next_page_token` up to `SERPAPI_JOBS_MAX_PAGES`; `daily` → core queries, 1 page. India region passes `location="India", gl="in"`.
-2. For each parsed job: upsert by `dedupe_key` (insert with `first_seen_at=now`; otherwise update `last_seen_at`, `serp_job_id`, `is_active=true`); link to the subfield with `region` and `source_query`.
+2. For each parsed job: upsert by `dedupe_key` (insert with `first_seen_at=now`; otherwise update `last_seen_at`, `serp_job_id`, `is_active=true`); link to the subfield with `region`, `source_query`, and `tier` recorded from the `QuerySpec` (if a posting is found by both tiers for the same subfield, keep "core").
 3. Per-query `try/except`: one failure (including `FixtureMissingError`, which just ends pagination) never aborts the run; collect errors in `refresh_runs.details`.
 4. After the run: mark postings not seen for 14 days `is_active=false`; compute and upsert today's `pulse_snapshots` per subfield/region.
 5. Write a `refresh_runs` row with call counts and a summary (`postings_seen`, `postings_new`, `errors`).
 
 **1.4 Pulse service** (`services/pulse_service.py`)
-- `get_pulse_cards(db, region)`: per subfield → `active_postings`, `internship_postings`, `top_companies` (top 5), `new_this_week` and `tracking_since`. **`new_this_week` is `null` until the corpus spans ≥ 2 distinct ingestion days**; the UI then shows "tracking since <date>" instead of a misleading number. `low_data = active_postings < 8`.
+- `get_pulse_cards(db, region)`: per subfield → `PulseCard.active_postings` counts core-sourced postings only, and `PulseCard` gets a separate `extra_postings` field (postings linked only via extended queries, which still appear in posting lists), plus `internship_postings`, `top_companies` (top 5), `new_this_week` and `tracking_since`. **`new_this_week` is `null` until the corpus spans ≥ 2 distinct ingestion days**; the UI then shows "tracking since <date>" instead of a misleading number. `low_data = active_postings < 8`.
 - `list_postings(db, subfield_id, region, internship, limit, offset)`.
 
 **1.5 API:** `GET /taxonomy`, `GET /pulse`, `GET /pulse/{subfield_id}/postings`, `GET /meta/serpapi-activity` (today's live calls, cap, last 20 calls, mode), `POST /admin/refresh/jobs` (header `X-Admin-Token`; body `{mode, region, subfield_id?}`; returns the run summary). Schemas: `PulseCard`, `PostingOut` (`id, title, company, location, via, apply_url, is_internship, first_seen_at, snippet` where snippet = first ~240 chars), `RefreshSummary`, `SerpApiActivity`.
@@ -838,7 +839,7 @@ Commit and tag `phase-0`.
 
 **1.7 Tests**
 - Parser tests on the recorded fixtures, including the India fixture that lacks `job_highlights`; malformed item is skipped; `detect_internship` table-driven (`"Quantum Intern"` yes, `"Internal Tools Engineer"` no).
-- `test_refresh_jobs_is_idempotent` (run twice → same row counts, `last_seen_at` moves forward), `test_dedupe_across_queries`, `test_pagination_stops_when_fixture_missing`, `test_new_this_week_is_null_for_single_day_corpus`, `test_pulse_cards_aggregate_counts`.
+- `test_refresh_jobs_is_idempotent` (run twice → same row counts, `last_seen_at` moves forward), `test_dedupe_across_queries`, `test_pagination_stops_when_fixture_missing`, `test_new_this_week_is_null_for_single_day_corpus`, `test_pulse_cards_aggregate_counts`, test proving a subfield with extra extended queries does not get a higher `active_postings` than one with only a core query when their core results are equal.
 - Endpoint tests with `TestClient`: admin endpoint rejects a missing/wrong token; `GET /pulse` returns six cards.
 - Frontend: card renders counts; empty state; region toggle changes the request.
 

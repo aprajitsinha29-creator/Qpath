@@ -141,6 +141,9 @@ Uses `@tailwindcss/vite` plugin (not the old PostCSS/`tailwind.config.js` approa
 ### httpx2 deprecation warning
 Starlette 1.7.0 (shipped with FastAPI 0.142.2) emits `StarletteDeprecationWarning: Using httpx with starlette.testclient is deprecated; install httpx2 instead`. The fix requires adding `httpx2` as a dev dependency. Because `httpx2` is not in the approved stack (AGENTS.md 3.2) and adding it requires owner approval, it is **not installed**. All 40 backend tests pass; the warning is benign. This is documented here so the next agent does not re-investigate.
 
+### Demand fairness via core-tier query counting
+The job query plan has unequal query counts per subfield (e.g. `hardware` has 4 queries, while `qml` has 1). To keep the demand signal fair, only postings found via a CORE-tier query count toward a subfield's headline and demand figures (`active_s` and `PulseCard.active_postings`). Postings discovered only through extended-tier queries are tracked separately in `PulseCard.extra_postings` and remain accessible in posting lists and for skill extraction without inflating comparative demand metrics. If a posting is found by both tiers for the same subfield, the `core` tier is retained in `job_posting_subfields`.
+
 ---
 
 ## Known limits
