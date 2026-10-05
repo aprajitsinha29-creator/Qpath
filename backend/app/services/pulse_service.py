@@ -47,6 +47,34 @@ TOP_COMPANIES_COUNT = 5
 #: How many postings the default list endpoint returns.
 DEFAULT_POSTINGS_LIMIT = 20
 
+#: Length of the posting snippet shown in list views (plan 1.5: ~240 chars).
+SNIPPET_LENGTH = 240
+
+
+def to_posting_out(posting: JobPosting) -> dict[str, object]:
+    """Project a JobPosting row onto the PostingOut schema shape (with snippet).
+
+    Args:
+        posting: an ORM row (never sent to the router directly — AGENTS 3.3.4).
+
+    Returns:
+        A dict matching ``schemas.pulse.PostingOut``; ``snippet`` is the first
+        :data:`SNIPPET_LENGTH` characters of the description, or None.
+    """
+    description = posting.description or ""
+    snippet = description[:SNIPPET_LENGTH] if description else None
+    return {
+        "id": posting.id,
+        "title": posting.title,
+        "company": posting.company,
+        "location": posting.location,
+        "via": posting.via,
+        "apply_url": posting.apply_url,
+        "is_internship": posting.is_internship,
+        "first_seen_at": posting.first_seen_at,
+        "snippet": snippet,
+    }
+
 
 def _active_core_posting_ids(db: Session, subfield_id: str, region: str) -> set[int]:
     """Return ids of active postings linked to the subfield/region via CORE tier.

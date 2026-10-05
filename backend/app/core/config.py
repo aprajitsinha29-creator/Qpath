@@ -46,6 +46,10 @@ class Settings(BaseSettings):
     serpapi_use_fixtures: bool = True
     serpapi_daily_call_cap: int = Field(default=60, gt=0)
     serpapi_jobs_max_pages: int = Field(default=3, gt=0)
+    # Where fixture-mode reads recordings from. Default: the committed
+    # backend/tests/fixtures/serpapi directory (resolved by the client so the
+    # value stays None in config). Tests override it to a tmp_path seam.
+    serpapi_fixture_dir: str | None = None
 
     # --- Gemini (Phase 2; AGENTS.md 3.5) ---
     gemini_api_key: str = ""
