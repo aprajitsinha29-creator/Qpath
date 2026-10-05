@@ -49,11 +49,16 @@ def get_engine() -> Engine:
 
     @event.listens_for(engine, "connect")
     def _sqlite_pragmas(dbapi_connection: Any, connection_record: Any) -> None:
-        """Apply per-connection pragmas: WAL for concurrent readers, foreign keys on."""
+        """Apply per-connection pragmas: WAL, busy timeout and foreign keys."""
         # connection_record is unused; it is part of SQLAlchemy's connect-event signature.
         cursor = dbapi_connection.cursor()
         try:
             cursor.execute("PRAGMA journal_mode=WAL")
+            # WAL allows concurrent readers with one writer, but a second
+            # writer (e.g. the client's call-log session) must wait instead of
+            # failing instantly with 'database is locked' when a refresh is
+            # mid-transaction. 5 s covers every write in this app.
+            cursor.execute("PRAGMA busy_timeout=5000")
             cursor.execute("PRAGMA foreign_keys=ON")
         finally:
             cursor.close()

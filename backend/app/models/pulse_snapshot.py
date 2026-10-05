@@ -7,17 +7,18 @@ endpoint (Phase 5) reads the accumulated series.
 
 from __future__ import annotations
 
-from datetime import UTC, date, datetime
+from datetime import date, datetime
 
 from sqlalchemy import Date, DateTime, Integer, String, UniqueConstraint
 from sqlalchemy.orm import Mapped, mapped_column
 
+from app.core.clock import utc_now
 from app.db.base import Base
 
 
 def _utc_now() -> datetime:
-    """Return a timezone-aware UTC timestamp."""
-    return datetime.now(UTC)
+    """Return the naive-UTC now used for all DB timestamps (see app.core.clock)."""
+    return utc_now()
 
 
 class PulseSnapshot(Base):

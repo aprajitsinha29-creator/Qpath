@@ -16,17 +16,18 @@ schema change later (migrations are a non-goal, AGENTS.md 3.3.8).
 
 from __future__ import annotations
 
-from datetime import UTC, datetime
+from datetime import datetime
 
 from sqlalchemy import JSON, Boolean, DateTime, ForeignKey, Integer, String, Text, UniqueConstraint
 from sqlalchemy.orm import Mapped, mapped_column
 
+from app.core.clock import utc_now
 from app.db.base import Base
 
 
 def _utc_now() -> datetime:
-    """Return a timezone-aware UTC timestamp (comparable across rows)."""
-    return datetime.now(UTC)
+    """Return the naive-UTC now used for all DB timestamps (see app.core.clock)."""
+    return utc_now()
 
 
 class JobPosting(Base):

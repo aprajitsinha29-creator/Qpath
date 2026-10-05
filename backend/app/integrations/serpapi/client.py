@@ -21,7 +21,7 @@ import json
 import logging
 import re
 from collections.abc import Callable
-from datetime import UTC, datetime
+from datetime import datetime
 from pathlib import Path
 from typing import Any
 
@@ -29,6 +29,7 @@ import httpx
 from sqlalchemy import func, select
 from sqlalchemy.orm import Session
 
+from app.core.clock import utc_day_start
 from app.core.config import Settings
 from app.core.errors import FixtureMissingError, SerpApiCapExceeded, SerpApiError
 from app.models import SerpApiCallLog
@@ -266,9 +267,10 @@ class SerpApiClient:
         """Count today's (UTC) live calls and raise when the cap is reached.
 
         Counting uses the call log, so fixture calls and yesterday's live calls
-        never consume credits (plan 3.4.3).
+        never consume credits (plan 3.4.3). Timestamps are naive UTC (see
+        app.core.clock), so the naive day_start compares correctly.
         """
-        day_start = datetime.now(UTC).replace(hour=0, minute=0, second=0, microsecond=0)
+        day_start: datetime = utc_day_start()
         with self._session_factory() as session:
             count = session.scalar(
                 select(func.count())
