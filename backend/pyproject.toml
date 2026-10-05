@@ -50,6 +50,9 @@ select = [
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+# Make the backend root importable under bare `pytest` (as the Makefile runs
+# it), so test modules can share helpers via `from tests.conftest import ...`.
+pythonpath = ["."]
 addopts = "--strict-markers"
 markers = [
     "live: needs real external APIs and credentials; never enabled by default",
