@@ -56,7 +56,30 @@ export interface TaxonomyResponse {
 
 // --------------------------------------------------------------------- pulse
 
-/** One Market Pulse card (backend schemas.pulse.PulseCard). */
+/** One skill share entry (backend schemas.pulse.SkillShare). */
+export interface SkillShare {
+  skill_id: string;
+  name: string;
+  /** Fraction 0–1 of extracted postings mentioning this skill. */
+  share: number;
+}
+
+/** One paper reference inside a theme (backend schemas.pulse.PaperRef). */
+export interface PaperRef {
+  id: number;
+  title: string;
+  link: string | null;
+}
+
+/** One research theme with supporting paper links (backend schemas.pulse.ThemeOut). */
+export interface ThemeOut {
+  label: string;
+  summary: string;
+  papers: PaperRef[];
+}
+
+/** One Market Pulse card (backend schemas.pulse.PulseCard).
+ * Phase 2 adds top_skills and themes as optional additive fields. */
 export interface PulseCard {
   subfield_id: string;
   name: string;
@@ -70,6 +93,29 @@ export interface PulseCard {
   tracking_since: string | null;
   top_companies: string[];
   low_data: boolean;
+  /** Phase 2: top 5 skills extracted from postings. Empty until extraction runs. */
+  top_skills: SkillShare[];
+  /** Phase 2: top 3 research themes from Scholar. Empty until scholar refresh runs. */
+  themes: ThemeOut[];
+}
+
+/**
+ * Full subfield detail (backend schemas.pulse.SubfieldDetail).
+ * Returned by GET /pulse/{subfield_id}.
+ */
+export interface SubfieldDetail extends PulseCard {
+  /** Full skill list (not capped at 5). */
+  top_skills: SkillShare[];
+  /** Per-seniority post counts (keys: intern/entry/mid/senior/lead/postdoc/phd_student/unknown). */
+  seniority_mix: Record<string, number>;
+  /** Fraction 0–1 of postings with requires_phd=true among those that stated it; null if unknown. */
+  phd_share: number | null;
+  /** Fraction 0–1 of all postings that have been extracted. */
+  extraction_coverage: number;
+  /** All research themes with full paper lists. */
+  themes: ThemeOut[];
+  /** Paginated list of job postings. */
+  postings: PostingOut[];
 }
 
 /** One posting in a list view (backend schemas.pulse.PostingOut). */

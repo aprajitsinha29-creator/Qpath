@@ -6,7 +6,14 @@
  */
 
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
-import { getPulseCards, getPostings, getSerpApiActivity, getTaxonomy, refreshJobs } from '../api';
+import {
+  getPulseCards,
+  getPostings,
+  getSerpApiActivity,
+  getSubfieldDetail,
+  getTaxonomy,
+  refreshJobs,
+} from '../api';
 import type { PulseRegion, RefreshJobsRequest } from '../../../types/api';
 
 /** Query hook: the six pulse cards for a region. */
@@ -14,6 +21,14 @@ export function usePulseCards(region: PulseRegion) {
   return useQuery({
     queryKey: ['pulse', 'cards', region],
     queryFn: () => getPulseCards(region),
+  });
+}
+
+/** Query hook: full subfield detail including skills, mix, themes, postings (Phase 2). */
+export function useSubfieldDetail(subfieldId: string, region: PulseRegion) {
+  return useQuery({
+    queryKey: ['pulse', 'detail', subfieldId, region],
+    queryFn: () => getSubfieldDetail(subfieldId, region),
   });
 }
 

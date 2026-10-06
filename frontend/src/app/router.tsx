@@ -4,6 +4,7 @@ import { AppShell } from '../components/layout/AppShell';
 import { MethodPage } from '../pages/MethodPage';
 import { NotFoundPage } from '../pages/NotFoundPage';
 import { PulsePage } from '../pages/PulsePage';
+import { SubfieldDetailPage } from '../pages/SubfieldDetailPage';
 
 export const router = createBrowserRouter([
   {
@@ -17,6 +18,10 @@ export const router = createBrowserRouter([
       {
         path: 'pulse',
         element: <PulsePage />,
+      },
+      {
+        path: 'pulse/:subfieldId',
+        element: <SubfieldDetailPage />,
       },
       {
         path: 'method',

@@ -1,10 +1,13 @@
-// Renders one Market Pulse card: demand counts, tracking info, top companies
-// and an expandable posting list. Needs a PulseCard payload plus the active
-// region and an internship filter to pass through to the posting list.
+// Renders one Market Pulse card: demand counts, tracking info, top companies,
+// top-skills bars, a research-focus strip, and links to the detail page.
+// Needs a PulseCard payload plus the active region and an internship filter.
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { formatNumber } from '../../../lib/format';
 import type { PulseCard as PulseCardType, PulseRegion } from '../../../types/api';
 import { PostingList } from './PostingList';
+import { ResearchFocus } from './ResearchFocus';
+import { SkillBars } from './SkillBars';
 
 interface SubfieldCardProps {
   card: PulseCardType;
@@ -74,14 +77,29 @@ export function SubfieldCard({ card, region, internshipOnly }: SubfieldCardProps
         </div>
       ) : null}
 
-      <button
-        type="button"
-        onClick={() => setExpanded((open) => !open)}
-        aria-expanded={expanded}
-        className="self-start rounded-md border border-slate-700 px-2.5 py-1 text-xs font-medium text-slate-300 transition-colors hover:bg-slate-800 focus:outline-none focus:ring-2 focus:ring-cyan-500"
-      >
-        {expanded ? 'Hide postings' : 'View postings'}
-      </button>
+      {/* Phase 2: skill bars strip (top 5) */}
+      {card.top_skills.length > 0 && <SkillBars skills={card.top_skills} />}
+
+      {/* Phase 2: research focus strip (top 3 themes) */}
+      {card.themes.length > 0 && <ResearchFocus themes={card.themes} />}
+
+      {/* Action row: view postings + link to detail page */}
+      <div className="flex flex-wrap items-center gap-2">
+        <button
+          type="button"
+          onClick={() => setExpanded((open) => !open)}
+          aria-expanded={expanded}
+          className="rounded-md border border-slate-700 px-2.5 py-1 text-xs font-medium text-slate-300 transition-colors hover:bg-slate-800 focus:outline-none focus:ring-2 focus:ring-cyan-500"
+        >
+          {expanded ? 'Hide postings' : 'View postings'}
+        </button>
+        <Link
+          to={`/pulse/${encodeURIComponent(card.subfield_id)}?region=${region}`}
+          className="rounded-md border border-slate-700 px-2.5 py-1 text-xs font-medium text-cyan-400 transition-colors hover:bg-slate-800 focus:outline-none focus:ring-2 focus:ring-cyan-500"
+        >
+          Details →
+        </Link>
+      </div>
 
       {expanded ? (
         <PostingList
