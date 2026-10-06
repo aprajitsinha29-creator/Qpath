@@ -1,8 +1,8 @@
-"""Pulse read endpoints: ``GET /pulse`` and ``GET /pulse/{subfield_id}/postings``.
+"""Pulse read endpoints.
 
-Thin routers per AGENTS.md 3.3.1. The card detail route
-(``GET /pulse/{subfield_id}`` with skills/themes) is deliberately absent until
-Phase 2 — no placeholder, no premature contract.
+Endpoints: ``GET /pulse``, ``GET /pulse/{subfield_id}`` and
+``GET /pulse/{subfield_id}/postings``.
+Thin routers per AGENTS.md 3.3.1.
 """
 
 from __future__ import annotations
@@ -11,7 +11,7 @@ from fastapi import APIRouter, Depends, Query
 from sqlalchemy.orm import Session
 
 from app.db.session import get_db
-from app.schemas.pulse import PostingListResponse, PostingOut, PulseCard
+from app.schemas.pulse import PostingListResponse, PostingOut, PulseCard, SubfieldDetail
 from app.services import pulse_service
 
 router = APIRouter(tags=["pulse"])
@@ -33,6 +33,31 @@ def get_pulse(
     """
     cards = pulse_service.get_pulse_cards(db, region)
     return [PulseCard.model_validate(card) for card in cards]
+
+
+@router.get(
+    "/pulse/{subfield_id}",
+    response_model=SubfieldDetail,
+    summary="Subfield detail: skills, themes, mix, coverage, postings",
+)
+def get_subfield_detail(
+    subfield_id: str,
+    region: str = Query(default="global", pattern="^(global|india)$"),
+    db: Session = Depends(get_db),
+) -> SubfieldDetail:
+    """Return the full intelligence detail for one subfield.
+
+    Args:
+        subfield_id: subfield to detail (404 when unknown).
+        region: ``global`` or ``india``.
+        db: request session.
+
+    Returns:
+        SubfieldDetail with card fields plus top_skills, seniority_mix,
+        phd_share, extraction_coverage, themes with papers, and postings.
+    """
+    detail = pulse_service.get_subfield_detail(db, subfield_id, region)
+    return SubfieldDetail.model_validate(detail)
 
 
 @router.get(

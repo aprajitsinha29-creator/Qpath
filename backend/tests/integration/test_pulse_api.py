@@ -4,6 +4,8 @@ Covers the Phase 1 API surface: taxonomy, pulse cards, posting lists, SerpApi
 activity, and the admin refresh endpoint (token enforcement + fixture-mode
 refresh twice → zero new postings the second time). Admin refreshes run in
 fixture mode with per-test fixture dirs — never the live API (hard rule).
+
+Phase 2 step 2.6 adds the GET /pulse/{subfield_id} detail endpoint tests.
 """
 
 from __future__ import annotations
@@ -12,7 +14,11 @@ from pathlib import Path
 
 import pytest
 from fastapi.testclient import TestClient
+from sqlalchemy import select
+from sqlalchemy.orm import Session
 
+from app.core.clock import utc_now
+from app.models import JobPosting, JobPostingSkill, PaperSnapshot, ResearchTheme
 from tests.conftest import write_serpapi_fixture
 from tests.integration.test_ingestion import job
 
@@ -223,3 +229,181 @@ def test_admin_refresh_rejects_invalid_body(api_client: TestClient) -> None:
         json={"mode": "daily", "region": "mars"},
     )
     assert response.status_code == 422
+
+
+# ------------------------------------------------------------------------ Phase 2: detail endpoint
+
+
+def _seed_and_extract_qec(
+    api_client: TestClient, fixture_dir: Path, db_session: Session, serpapi_fixture_client
+) -> None:
+    """Bootstrap ingest + mark extracted with skills + add research themes."""
+    write_serpapi_fixture(
+        fixture_dir,
+        "quantum error correction",
+        "global_p1",
+        {
+            "jobs_results": [
+                job("QEC Engineer", "Riverlane"),
+                job("QEC Intern", "Riverlane", extensions=["2 days ago", "Internship"]),
+                job("Decoder Scientist", "Alice & Bob"),
+            ]
+        },
+    )
+    write_serpapi_fixture(
+        fixture_dir,
+        "fault tolerant quantum computing",
+        "global_p1",
+        {"jobs_results": [job("FTQC Architect", "PsiQuantum")]},
+    )
+    api_client.post(
+        "/api/v1/admin/refresh/jobs",
+        headers=ADMIN_HEADERS,
+        json={"mode": "bootstrap", "region": "global"},
+    )
+
+    # Mark extracted with skills (simulate extraction service)
+    postings = list(db_session.scalars(select(JobPosting)))
+    for i, p in enumerate(postings[:3]):
+        p.extraction_status = "done"
+        p.extraction_attempts = 0
+        if i == 0:
+            p.seniority = "mid"
+            p.requires_phd = False
+        elif i == 1:
+            p.seniority = "intern"
+            p.requires_phd = False
+        else:
+            p.seniority = "senior"
+            p.requires_phd = True
+
+    for p in postings[:2]:
+        db_session.add(JobPostingSkill(posting_id=p.id, skill_id="python"))
+        db_session.add(JobPostingSkill(posting_id=p.id, skill_id="qiskit"))
+    db_session.add(JobPostingSkill(posting_id=postings[2].id, skill_id="python"))
+    db_session.add(JobPostingSkill(posting_id=postings[2].id, skill_id="stim"))
+    db_session.add(JobPostingSkill(posting_id=postings[3].id, skill_id="cpp"))
+    db_session.commit()
+
+    # Add research theme batch
+    now = utc_now()
+    batch_id = "api-test-batch"
+    p1 = PaperSnapshot(
+        subfield_id="qec",
+        batch_id=batch_id,
+        query="quantum error correction",
+        title="Theme Paper",
+        snippet="theme snippet",
+        link="https://example.com/theme",
+        publication_summary="2024",
+        year=2024,
+        cited_by=0,
+        fetched_at=now,
+    )
+    db_session.add(p1)
+    db_session.flush()
+    db_session.add(
+        ResearchTheme(
+            subfield_id="qec",
+            batch_id=batch_id,
+            themes=[{"label": "Test Theme", "summary": "A test theme.", "paper_ids": [p1.id]}],
+            generated_at=now,
+            model="gemini-test",
+        )
+    )
+    db_session.commit()
+
+
+def test_get_subfield_detail_returns_full_payload(
+    api_client: TestClient, fixture_dir: Path, db_session: Session, serpapi_fixture_client
+) -> None:
+    """GET /pulse/{id} returns card + skills + mix + coverage + themes + postings."""
+    _seed_and_extract_qec(api_client, fixture_dir, db_session, serpapi_fixture_client)
+
+    response = api_client.get("/api/v1/pulse/qec", params={"region": "global"})
+    assert response.status_code == 200
+    detail = response.json()
+
+    # Card fields present
+    assert detail["subfield_id"] == "qec"
+    assert detail["active_postings"] == 3
+    assert detail["extra_postings"] == 1
+    assert detail["internship_postings"] == 1
+    assert detail["low_data"] is True
+
+    # Intelligence fields
+    assert len(detail["top_skills"]) == 3
+    shares = {s["skill_id"]: s["share"] for s in detail["top_skills"]}
+    assert shares["python"] == 1.0
+    assert abs(shares["qiskit"] - 2 / 3) < 0.001
+    assert abs(shares["stim"] - 1 / 3) < 0.001
+
+    assert detail["seniority_mix"]["mid"] == 1
+    assert detail["seniority_mix"]["intern"] == 1
+    assert detail["seniority_mix"]["senior"] == 1
+    assert detail["seniority_mix"]["unknown"] == 1
+    assert detail["phd_share"] == 1 / 3
+
+    assert abs(detail["extraction_coverage"] - 0.75) < 0.001
+
+    assert len(detail["themes"]) == 1
+    assert detail["themes"][0]["label"] == "Test Theme"
+    assert len(detail["themes"][0]["papers"]) == 1
+
+    # Postings list
+    assert len(detail["postings"]) == 4
+
+
+def test_get_subfield_detail_unknown_returns_404(api_client: TestClient) -> None:
+    """Unknown subfield id → 404 with error shape."""
+    response = api_client.get("/api/v1/pulse/nope", params={"region": "global"})
+    assert response.status_code == 404
+    assert response.json()["error"]["code"] == "not_found"
+
+
+def test_get_subfield_detail_region_validation(api_client: TestClient) -> None:
+    """Invalid region rejected by query-param pattern (422)."""
+    assert api_client.get("/api/v1/pulse/qec", params={"region": "global"}).status_code == 200
+    assert api_client.get("/api/v1/pulse/qec", params={"region": "india"}).status_code == 200
+    assert api_client.get("/api/v1/pulse/qec", params={"region": "mars"}).status_code == 422
+
+
+def test_pulse_cards_include_top_skills_and_themes(
+    api_client: TestClient, fixture_dir: Path, db_session: Session, serpapi_fixture_client
+) -> None:
+    """Phase 2: pulse cards include additive top_skills[:5] and themes[:3]."""
+    _seed_and_extract_qec(api_client, fixture_dir, db_session, serpapi_fixture_client)
+
+    response = api_client.get("/api/v1/pulse", params={"region": "global"})
+    assert response.status_code == 200
+    cards = {c["subfield_id"]: c for c in response.json()}
+
+    qec = cards["qec"]
+    # Additive fields with defaults (Phase 1 compatibility)
+    assert "top_skills" in qec
+    assert "themes" in qec
+    assert len(qec["top_skills"]) == 3  # python, qiskit, stim
+    assert len(qec["themes"]) == 1
+
+
+def test_pulse_cards_empty_skills_themes_when_no_extraction(
+    api_client: TestClient, fixture_dir: Path, serpapi_fixture_client
+) -> None:
+    """No extraction → empty lists (valid empty state, never error)."""
+    write_serpapi_fixture(
+        fixture_dir,
+        "quantum error correction",
+        "global_p1",
+        {"jobs_results": [job("QEC Engineer", "Riverlane")]},
+    )
+    api_client.post(
+        "/api/v1/admin/refresh/jobs",
+        headers=ADMIN_HEADERS,
+        json={"mode": "bootstrap", "region": "global", "subfield_id": "qec"},
+    )
+
+    response = api_client.get("/api/v1/pulse", params={"region": "global"})
+    cards = {c["subfield_id"]: c for c in response.json()}
+    qec = cards["qec"]
+    assert qec["top_skills"] == []
+    assert qec["themes"] == []
