@@ -72,6 +72,32 @@ class JobPosting(Base):
         return f"<JobPosting {self.id} {self.dedupe_key[:8]}>"
 
 
+class JobPostingSkill(Base):
+    """Link row: which vocabulary skills were extracted from a posting (Phase 2).
+
+    Only ids from the seeded ``skills`` vocabulary may appear here — the
+    extraction service filters model output before persisting, so an id in
+    this table is by construction a real skill (plan 4.7 post-validation).
+    Rows are written only for postings with ``extraction_status='done'``.
+    """
+
+    __tablename__ = "job_posting_skills"
+    __table_args__ = (
+        # Extract-once semantics (AGENTS 3.3.9): re-running extraction for the
+        # same posting replaces its rows instead of duplicating them.
+        UniqueConstraint("posting_id", "skill_id", name="uq_posting_skill"),
+    )
+
+    posting_id: Mapped[int] = mapped_column(
+        Integer, ForeignKey("job_postings.id"), primary_key=True
+    )
+    skill_id: Mapped[str] = mapped_column(String(64), ForeignKey("skills.id"), primary_key=True)
+
+    def __repr__(self) -> str:
+        """Return a compact debugging representation (ids only)."""
+        return f"<JobPostingSkill posting={self.posting_id} skill={self.skill_id}>"
+
+
 class JobPostingSubfield(Base):
     """Link row: which subfield(s) a posting was found for, by which query.
 
