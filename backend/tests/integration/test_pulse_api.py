@@ -407,3 +407,103 @@ def test_pulse_cards_empty_skills_themes_when_no_extraction(
     qec = cards["qec"]
     assert qec["top_skills"] == []
     assert qec["themes"] == []
+
+
+def test_end_to_end_pulse_detail_pipeline(
+    api_client: TestClient, fixture_dir: Path, db_session: Session, serpapi_fixture_client
+) -> None:
+    """End-to-end fixture test through jobs -> extraction -> scholar -> GET /pulse/{id}."""
+    from app.api.deps import get_structured_llm
+    from app.integrations.gemini.client import FakeStructuredLLM
+    from app.integrations.gemini.schemas import (
+        ExtractionBatch,
+        PostingExtraction,
+        Theme,
+        ThemeSet,
+    )
+    from tests.integration.test_research import _scholar_payload, _write_scholar_fixture
+
+    # 1. Write job fixtures
+    write_serpapi_fixture(
+        fixture_dir,
+        "quantum error correction",
+        "global_p1",
+        {
+            "jobs_results": [
+                job("QEC Engineer", "Riverlane", description="QEC role using Python and Qiskit"),
+            ]
+        },
+    )
+
+    # 2. Write scholar fixture
+    _write_scholar_fixture(fixture_dir, "quantum error correction", _scholar_payload(3))
+
+    # 3. Ingest jobs via admin endpoint
+    res_jobs = api_client.post(
+        "/api/v1/admin/refresh/jobs",
+        headers=ADMIN_HEADERS,
+        json={"mode": "bootstrap", "region": "global", "subfield_id": "qec"},
+    )
+    assert res_jobs.status_code == 200
+
+    # 4. Extract skills via admin endpoint with FakeStructuredLLM
+    postings = list(db_session.scalars(select(JobPosting)))
+    extraction_batch = ExtractionBatch(
+        items=[
+            PostingExtraction(
+                posting_ref=str(p.id),
+                skill_ids=["python", "qiskit"],
+                unmapped_skills=[],
+                seniority="senior",
+                requires_phd=True,
+                is_internship=False,
+                primary_subfield_id="qec",
+            )
+            for p in postings
+        ]
+    )
+    theme_set = ThemeSet(
+        themes=[
+            Theme(
+                label="Surface Codes",
+                summary="Surface codes and fault tolerance.",
+                paper_indexes=[1],
+            )
+        ]
+    )
+    fake_llm = FakeStructuredLLM([extraction_batch, theme_set])
+    api_client.app.dependency_overrides[get_structured_llm] = lambda: fake_llm
+
+    try:
+        res_extract = api_client.post(
+            "/api/v1/admin/extract?limit=10",
+            headers=ADMIN_HEADERS,
+        )
+        assert res_extract.status_code == 200
+        assert res_extract.json()["done"] >= 1
+
+        res_scholar = api_client.post(
+            "/api/v1/admin/refresh/scholar",
+            headers=ADMIN_HEADERS,
+        )
+        assert res_scholar.status_code == 200
+        assert res_scholar.json()["subfields_with_themes"] >= 1
+    finally:
+        api_client.app.dependency_overrides.pop(get_structured_llm, None)
+
+    # 5. Query subfield detail endpoint
+    res_detail = api_client.get("/api/v1/pulse/qec", params={"region": "global"})
+    assert res_detail.status_code == 200
+    detail = res_detail.json()
+
+    assert detail["subfield_id"] == "qec"
+    assert detail["active_postings"] >= 1
+    assert detail["extraction_coverage"] == 1.0
+    assert len(detail["top_skills"]) == 2
+    assert {s["skill_id"] for s in detail["top_skills"]} == {"python", "qiskit"}
+    assert detail["seniority_mix"]["senior"] == 1
+    assert detail["phd_share"] == 1.0
+    assert len(detail["themes"]) == 1
+    assert detail["themes"][0]["label"] == "Surface Codes"
+    assert len(detail["themes"][0]["papers"]) == 1
+    assert len(detail["postings"]) >= 1

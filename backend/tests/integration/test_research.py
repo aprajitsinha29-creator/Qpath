@@ -348,3 +348,30 @@ def test_admin_refresh_scholar_rejects_missing_token(client: TestClient) -> None
     """The Scholar endpoint is admin-guarded like the other admin routes."""
     response = client.post("/api/v1/admin/refresh/scholar")
     assert response.status_code == 401
+
+
+def test_no_code_computes_trends_from_total_results() -> None:
+    """Assert no model or service uses total_results for trends (AGENTS 3.4.9 / plan 2.8).
+
+    Google Scholar total_results is erratic and must never be used to compute
+    trend numbers or growth rates. Only qualitative themes are extracted.
+    """
+    import dataclasses
+
+    from app.integrations.serpapi.parsers import ParsedPaper
+    from app.models.research import PaperSnapshot, ResearchTheme
+
+    # 1. ORM models have no total_results column
+    assert not hasattr(PaperSnapshot, "total_results")
+    assert not hasattr(ResearchTheme, "total_results")
+
+    # 2. ParsedPaper dataclass has no total_results field
+    fields = [f.name for f in dataclasses.fields(ParsedPaper)]
+    assert "total_results" not in fields
+
+    # 3. Raw Scholar result with search_information.total_results is ignored
+    raw_with_total = _paper()
+    raw_with_total["search_information"] = {"total_results": 12345}
+    parsed = parse_scholar_result(raw_with_total)
+    assert parsed is not None
+    assert not hasattr(parsed, "total_results")
