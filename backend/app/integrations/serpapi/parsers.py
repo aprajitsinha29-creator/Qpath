@@ -223,3 +223,127 @@ def parse_next_page_token(payload: Any) -> str | None:
     if not isinstance(token, str) or not token.strip():
         return None
     return token
+
+
+# =========================================================================
+# Google Scholar parsers (Phase 2, plan 2.5.1) — same defensive contract as
+# the job parsers: only ``title`` is required, everything else is optional.
+# Scholar feeds QUALITATIVE research themes only. ``total_results`` is
+# deliberately never read here (it is erratic across re-runs; AGENTS 3.4.9
+# forbids computing trends from it).
+# =========================================================================
+
+
+@dataclass(frozen=True)
+class ParsedPaper:
+    """Typed internal representation of one Scholar organic result.
+
+    Attributes:
+        title: paper title (required; everything else may be None/empty).
+        snippet: result snippet text (contains a date prefix in real data).
+        link: article URL, or None.
+        publication_summary: ``publication_info.summary`` free text (authors,
+            venue, year — e.g. "J Smith - Phys Rev, 2025 - nature.com").
+        year: last 19xx/20xx year found in the summary, else None.
+        cited_by: citation count when present, else None. Stored but never
+            used for trends (new papers have almost no citations; plan 1.5).
+    """
+
+    title: str
+    snippet: str | None
+    link: str | None
+    publication_summary: str | None
+    year: int | None
+    cited_by: int | None
+
+
+_YEAR_PATTERN = re.compile(r"\b(19|20)\d{2}\b")
+
+
+def parse_scholar_year(publication_summary: str | None) -> int | None:
+    """Extract the publication year from a Scholar ``publication_info.summary``.
+
+    Args:
+        publication_summary: free text like ``"A Smith - Phys Rev, 2025 - nature.com"``.
+
+    Returns:
+        The LAST 4-digit year (19xx/20xx) found in the text, or None. The last
+        match wins because summaries end with the source site, and some venue
+        strings contain unrelated numbers earlier (e.g. "Phys Rev A 98, 012345").
+    """
+    if not publication_summary:
+        return None
+    matches = _YEAR_PATTERN.findall(publication_summary)
+    if not matches:
+        return None
+    # findall returns the *group* ("19"/"20") per match; re-scan with spans to
+    # recover full year strings, taking the one with the largest position.
+    best: int | None = None
+    for match in _YEAR_PATTERN.finditer(publication_summary):
+        best = int(match.group(0))
+    return best
+
+
+def parse_scholar_result(raw: Any) -> ParsedPaper | None:
+    """Parse one element of ``organic_results`` into a :class:`ParsedPaper`.
+
+    Args:
+        raw: one raw Scholar result dict (malformed items are logged and
+            skipped, never raised — same policy as :func:`parse_job_result`).
+
+    Returns:
+        A ParsedPaper, or None when the item is not a dict or has no non-empty
+        ``title``.
+    """
+    if not isinstance(raw, dict):
+        logger.warning("skipping malformed scholar result (not an object): %r", raw)
+        return None
+    title = _as_str(raw.get("title"))
+    if not title:
+        logger.warning("skipping scholar result without title")
+        return None
+
+    publication_info = raw.get("publication_info")
+    summary = (
+        _as_str(publication_info.get("summary")) if isinstance(publication_info, dict) else None
+    )
+
+    inline_links = raw.get("inline_links")
+    cited_by_total: int | None = None
+    if isinstance(inline_links, dict):
+        cited_by = inline_links.get("cited_by")
+        if isinstance(cited_by, dict) and isinstance(cited_by.get("total"), int):
+            cited_by_total = cited_by["total"]
+
+    return ParsedPaper(
+        title=title,
+        snippet=_as_str(raw.get("snippet")),
+        link=_as_str(raw.get("link")),
+        publication_summary=summary,
+        year=parse_scholar_year(summary),
+        cited_by=cited_by_total,
+    )
+
+
+def iter_scholar_results(payload: Any) -> list[ParsedPaper]:
+    """Parse a whole Scholar response body into ParsedPapers (empty → empty list).
+
+    Args:
+        payload: a full SerpApi response dict (or None/garbage).
+
+    Returns:
+        Parsed papers in order; items without a title are dropped. A body
+        without ``organic_results`` (the "no results" error body, or any
+        unexpected shape) yields [] — zero papers is a valid outcome.
+    """
+    if not isinstance(payload, dict):
+        return []
+    raw_results = payload.get("organic_results")
+    if not isinstance(raw_results, list):
+        return []
+    papers: list[ParsedPaper] = []
+    for raw in raw_results:
+        parsed = parse_scholar_result(raw)
+        if parsed is not None:
+            papers.append(parsed)
+    return papers

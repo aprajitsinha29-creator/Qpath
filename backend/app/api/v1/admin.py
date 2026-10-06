@@ -1,23 +1,29 @@
-"""Admin endpoints: ``POST /admin/refresh/jobs`` (plan 1.5).
+"""Admin endpoints: jobs refresh (plan 1.5), extraction and Scholar (plan 2.4/2.5).
 
 Guarded by the ``X-Admin-Token`` dependency (AGENTS 3.10.1). The router is
-thin: validate body → build the SerpApi client (composition-root duty) → run
-the ingestion service → map the run row to the summary schema. Scholar and
-extraction admin routes arrive with Phase 2.
+thin: validate input → build integration clients (composition-root duty) →
+call one service → map rows to summary schemas. The structured LLM arrives
+via the ``get_structured_llm`` dependency so tests can inject a fake.
 """
 
 from __future__ import annotations
 
-from fastapi import APIRouter, Depends
+from fastapi import APIRouter, Depends, Query
 from sqlalchemy.orm import Session
 
-from app.api.deps import require_admin_token
+from app.api.deps import get_structured_llm, require_admin_token
 from app.core.config import Settings, get_settings
 from app.db.session import SessionLocal, get_db
+from app.integrations.gemini.client import StructuredLLM
 from app.integrations.serpapi.client import SerpApiClient
 from app.models import RefreshRun
-from app.schemas.admin import RefreshJobsRequest, RefreshSummary
-from app.services import ingestion_service
+from app.schemas.admin import (
+    ExtractionSummary,
+    RefreshJobsRequest,
+    RefreshSummary,
+    ScholarRefreshSummary,
+)
+from app.services import extraction_service, ingestion_service, research_service
 
 router = APIRouter(prefix="/admin", tags=["admin"], dependencies=[Depends(require_admin_token)])
 
@@ -108,3 +114,74 @@ def refresh_jobs(
         # release it so a request thread never leaks sockets.
         client.close()
     return _to_summary(run)
+
+
+@router.post(
+    "/extract",
+    response_model=ExtractionSummary,
+    summary="Run Gemini skill extraction on pending postings",
+)
+def extract_postings(
+    limit: int | None = Query(default=None, ge=1),
+    db: Session = Depends(get_db),
+    llm: StructuredLLM = Depends(get_structured_llm),
+) -> ExtractionSummary:
+    """Extract skills/seniority/PhD flags from postings not yet extracted.
+
+    Args:
+        limit: optional cap on postings processed this run (all pending when
+            omitted).
+        db: request session.
+        llm: injected StructuredLLM (real Gemini client or a test fake).
+
+    Returns:
+        Counts of postings marked done, failed and skipped (plan 2.4.4).
+        Individual batch failures never abort the run — postings whose batch
+        fails twice are marked ``failed`` (up to 3 attempts, plan 4.7).
+
+    Raises:
+        ConfigError (500): Gemini key/model not configured — surfaced before
+            any LLM call is attempted.
+    """
+    counts = extraction_service.run_extraction(db, llm, limit=limit)
+    return ExtractionSummary(**counts)
+
+
+@router.post(
+    "/refresh/scholar",
+    response_model=ScholarRefreshSummary,
+    summary="Fetch recent Scholar papers and generate research themes",
+)
+def refresh_scholar(
+    db: Session = Depends(get_db),
+    llm: StructuredLLM = Depends(get_structured_llm),
+) -> ScholarRefreshSummary:
+    """Run one Scholar refresh: papers per subfield + Gemini research themes.
+
+    Args:
+        db: request session.
+        llm: injected StructuredLLM for theme generation.
+
+    Returns:
+        ScholarRefreshSummary. A subfield with zero results (or a failed
+        theme call) is reported in ``errors``/counts — never a raised HTTP
+        error (plan 2.5; empty Scholar results are valid).
+    """
+    client = _build_client(get_settings())
+    try:
+        run = research_service.refresh_scholar(db, client, llm)
+    finally:
+        client.close()
+    details = run.details or {}
+    return ScholarRefreshSummary(
+        run_id=run.id,
+        kind=run.kind,
+        status=run.status,
+        started_at=run.started_at,
+        finished_at=run.finished_at,
+        serpapi_calls=run.serpapi_calls,
+        papers_stored=int(details.get("papers_stored", 0)),
+        subfields_refreshed=int(details.get("subfields_refreshed", 0)),
+        subfields_with_themes=int(details.get("subfields_with_themes", 0)),
+        errors=list(details.get("errors", [])),
+    )
