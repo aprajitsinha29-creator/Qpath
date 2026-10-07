@@ -111,10 +111,12 @@ service calls llm.generate_structured(prompt, ResponseSchema)
   ├─ FakeStructuredLLM (tests): returns scripted response, no network
   │
   └─ GeminiStructuredLLM (live):
-       RateLimiter: sliding 60 s window check (GEMINI_REQUESTS_PER_MINUTE)
+       RateLimiter: sliding 60 s window check (GEMINI_REQUESTS_PER_MINUTE) enforced on every attempt
        Client call: google-genai client.models.generate_content(...)
          response_mime_type="application/json", response_schema=ResponseSchema
-       Transport retry: on 429 / 5xx up to 3 attempts with exponential backoff (never on other 4xx)
+       Transport retry: up to 3 attempts (never on 4xx except 429)
+         - 429 (quota exhaustion): fixed 30 s backoff (BACKOFF_429_SECONDS) + re-acquire sliding window
+         - 5xx (transient overload): short exponential backoff (1 s, 2 s via BACKOFF_5XX_BASE_SECONDS)
        Schema validation: validate with Pydantic; retry once with error feedback on failure, then LLMOutputError
 ```
 
