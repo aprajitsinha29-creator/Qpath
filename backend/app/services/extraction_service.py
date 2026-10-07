@@ -286,7 +286,7 @@ def run_extraction(
             try:
                 raw = llm.generate_structured(prompt, ExtractionBatch)
             except Exception as exc:  # noqa: BLE001 - recorded, never fatal to the run
-                logger.warning("extraction LLM call failed: %s", type(exc).__name__)
+                logger.warning("extraction LLM call failed: %s (%s)", type(exc).__name__, exc)
                 continue
             corrected = _post_validate_batch(
                 raw,

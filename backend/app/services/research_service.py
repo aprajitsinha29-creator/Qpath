@@ -171,11 +171,13 @@ def _refresh_one_subfield(
             RESEARCH_THEMES_PROMPT.format(papers=_render_papers(snapshots)), ThemeSet
         )
     except Exception as exc:  # noqa: BLE001 - recorded per subfield, run continues
-        logger.warning("theme generation failed for %s: %s", subfield_id, type(exc).__name__)
+        logger.warning(
+            "theme generation failed for %s: %s (%s)", subfield_id, type(exc).__name__, exc
+        )
         return {
             "papers": len(parsed),
             "themes": 0,
-            "error": f"{subfield_id}: llm_output_error: theme generation failed",
+            "error": f"{subfield_id}: llm_output_error: {exc}",
         }
 
     themes = _validate_theme_set(theme_set, snapshots)

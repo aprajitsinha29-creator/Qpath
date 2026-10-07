@@ -8,16 +8,22 @@ Phase 2 step 2.2 (AGENTS 3.5). Three pieces:
   (never the deprecated ``google-generativeai``): one
   ``models.generate_content`` call with ``response_mime_type="application/json"``
   paired with ``response_schema`` (AGENTS 3.5.2), a client-side sliding-window
-  rate limiter at ``GEMINI_REQUESTS_PER_MINUTE``, exponential backoff on
-  429/5xx (max 3 attempts), and Pydantic validation of the response text with
-  **one retry on invalid output** before raising :class:`LLMOutputError`
-  (AGENTS 3.5.3/3.5.4).
+  rate limiter at ``GEMINI_REQUESTS_PER_MINUTE`` (acquired on **every** attempt,
+  including retries), exponential backoff on 5xx (1s/2s) and a dedicated longer
+  backoff on 429 (30s, BACKOFF_429_SECONDS) so quota windows can reset before the
+  next retry, and Pydantic validation of the response text with **one retry on
+  invalid output** before raising :class:`LLMOutputError` (AGENTS 3.5.3/3.5.4).
 - :class:`FakeStructuredLLM` — scripted double for tests and fixture runs.
 
 Model name, key and rate limit all come from Settings (AGENTS 3.3.3) — nothing
 here is hardcoded beyond protocol-level constants (temperature, attempt counts).
 Transport and validation failures both surface as :class:`LLMOutputError` so
 callers handle exactly one LLM failure type; the original cause is always chained.
+
+Root-cause note (fixed here): the original code acquired the rate limiter once
+*before* the retry loop, so 429 retries bypassed the sliding-window gate entirely
+and fired at full speed.  Additionally, both 429 and 5xx shared the same 1s/2s
+backoff — far too short for a per-minute quota reset.
 """
 
 from __future__ import annotations
@@ -41,8 +47,19 @@ TEMPERATURE = 0.1
 #: Transport attempts per generate_content call on 429/5xx (AGENTS 3.5.4).
 MAX_TRANSPORT_ATTEMPTS = 3
 
-#: Exponential backoff base in seconds: wait = BASE * 2**attempt → 1s, 2s, 4s.
-BACKOFF_BASE_SECONDS = 1.0
+#: Exponential backoff base for 5xx (transient server errors): attempt 1 → 1s,
+#: attempt 2 → 2s.  Kept short because 503 "model overloaded" typically resolves
+#: in a few seconds and is unrelated to our quota.
+BACKOFF_5XX_BASE_SECONDS = 1.0
+
+#: Fixed backoff for 429 (quota / rate-limit exceeded).
+#:
+#: Free-tier quota windows reset per minute.  The original 1-2s schedule
+#: guaranteed that every retry hit the same quota wall immediately.  30s gives
+#: the per-minute window enough time to recover without burning all attempts in
+#: under 5 seconds.  Each retry still re-acquires the proactive rate limiter so
+#: the pacing is doubly enforced.
+BACKOFF_429_SECONDS = 30.0
 
 #: Validation attempts per generate_structured call: initial + one retry
 #: on invalid output (AGENTS 3.5.3) before LLMOutputError.
@@ -196,6 +213,17 @@ class GeminiStructuredLLM:
     def _call_with_backoff(self, prompt: str, schema: type[BaseModel]) -> str:
         """Call generate_content once (rate-limited, retried on 429/5xx).
 
+        The rate limiter is acquired **on every attempt** (not just the first).
+        This is the key fix: previously acquire() sat before the retry loop, so
+        the second and third attempts after a 429 fired immediately without any
+        sliding-window gate.  Now each retry is separately paced.
+
+        Backoff strategy:
+        - **429** (quota exhausted): BACKOFF_429_SECONDS (30s fixed) so the
+          per-minute quota window has time to reset before the next attempt.
+        - **5xx** (transient server error): BACKOFF_5XX_BASE_SECONDS exponential
+          (1s, 2s) — kept short because 503 "overloaded" is unrelated to quota.
+
         Args:
             prompt: prompt text.
             schema: response_schema passed to the SDK alongside JSON mime type.
@@ -206,17 +234,23 @@ class GeminiStructuredLLM:
         Raises:
             LLMOutputError: after MAX_TRANSPORT_ATTEMPTS on 429/5xx, or
                 immediately on any other SDK/transport failure. Messages carry
-                only the exception type and status code — never payload text
-                that could embed credentials.
+                the exception type, status code, and SDK error text — never
+                payload text that could embed credentials (AGENTS 3.3.6).
         """
         from google.genai import errors as genai_errors
         from google.genai import types as genai_types
 
-        self._limiter.acquire()
         last_code: int | str | None = None
+        last_sdk_msg: str = ""
         for attempt in range(1, MAX_TRANSPORT_ATTEMPTS + 1):
+            # Acquire a rate-limiter slot on EVERY attempt, including retries.
+            # This ensures that after a 429 backoff sleep the next attempt is
+            # still paced by the sliding window — doubly enforced.
+            self._limiter.acquire()
+
             response = None
             retryable = False
+            is_429 = False
             try:
                 response = self._client.models.generate_content(  # type: ignore[attr-defined]
                     model=self._model_name,
@@ -228,34 +262,49 @@ class GeminiStructuredLLM:
                     ),
                 )
             except genai_errors.ServerError as exc:
-                # 5xx: transient on Google's side — back off and retry.
+                # 5xx: transient on Google's side — short backoff and retry.
                 last_code = exc.code
+                last_sdk_msg = str(exc)
                 retryable = True
             except genai_errors.ClientError as exc:
                 # 429 (quota/rate) is the one retryable 4xx; any other 4xx is
                 # a permanent request problem — never retried (mirrors the
                 # SerpApi client's rule, AGENTS 3.4.6).
                 last_code = exc.code
+                last_sdk_msg = str(exc)
                 if exc.code != 429:
-                    raise LLMOutputError(f"Gemini rejected the request (HTTP {exc.code})") from exc
+                    raise LLMOutputError(
+                        f"Gemini rejected the request (HTTP {exc.code}): {type(exc).__name__}"
+                    ) from exc
+                is_429 = True
                 retryable = True
             except Exception as exc:
                 # Only the exception type is surfaced: SDK messages can embed
                 # request payloads we must not log (AGENTS 3.3.6 spirit).
                 raise LLMOutputError(f"Gemini request failed ({type(exc).__name__})") from exc
+
             if retryable and attempt < MAX_TRANSPORT_ATTEMPTS:
-                delay = BACKOFF_BASE_SECONDS * (2 ** (attempt - 1))
+                # 429 → long fixed delay for quota-window recovery.
+                # 5xx → short exponential delay for transient overload.
+                delay = (
+                    BACKOFF_429_SECONDS
+                    if is_429
+                    else BACKOFF_5XX_BASE_SECONDS * (2 ** (attempt - 1))
+                )
                 logger.warning(
-                    "gemini transport error (code=%s), backing off %.1fs",
+                    "gemini transport error (code=%s, attempt=%d/%d), backing off %.1fs — %s",
                     last_code,
+                    attempt,
+                    MAX_TRANSPORT_ATTEMPTS,
                     delay,
+                    last_sdk_msg,
                 )
                 self._sleeper(delay)
                 continue
             if retryable:
                 raise LLMOutputError(
                     f"Gemini request failed after {MAX_TRANSPORT_ATTEMPTS} attempts "
-                    f"(last status code: {last_code})"
+                    f"(last status code: {last_code}) — {last_sdk_msg}"
                 )
             # Success path: extract text defensively — blocked/empty responses
             # raise or return None depending on SDK version; both mean

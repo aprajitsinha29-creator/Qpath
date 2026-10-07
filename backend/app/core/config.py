@@ -54,7 +54,10 @@ class Settings(BaseSettings):
     # --- Gemini (Phase 2; AGENTS.md 3.5) ---
     gemini_api_key: str = ""
     gemini_model: str = ""
-    gemini_requests_per_minute: int = Field(default=10, gt=0)
+    # Default is conservative (5/min) to stay within the free-tier limit for
+    # gemini-2.5-flash (10 RPM) while leaving headroom for bursts and retries.
+    # Override via GEMINI_REQUESTS_PER_MINUTE in .env for paid-tier accounts.
+    gemini_requests_per_minute: int = Field(default=5, gt=0)
 
     # --- Scheduler (Phase 5) ---
     scheduler_enabled: bool = False

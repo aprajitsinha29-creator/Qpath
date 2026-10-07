@@ -46,7 +46,7 @@ All frontend configuration is read from `frontend/.env` (copy `frontend/.env.exa
 | `SERPAPI_JOBS_MAX_PAGES` | `3` | Max pages per query in bootstrap mode |
 | `GEMINI_API_KEY` | *(empty)* | Gemini API key — required for Phase 2+ extraction |
 | `GEMINI_MODEL` | *(empty)* | Model id, e.g. `gemini-2.5-flash` |
-| `GEMINI_REQUESTS_PER_MINUTE` | `10` | Client-side rate limit |
+| `GEMINI_REQUESTS_PER_MINUTE` | `5` | Client-side rate limit (conservative free-tier default) |
 | `SCHEDULER_ENABLED` | `false` | Keep `false` during development (Phase 5) |
 | `JOBS_DAILY_CRON` | `0 3 * * *` | Daily global job refresh cron (Phase 5) |
 | `JOBS_INDIA_WEEKLY_CRON` | `0 4 * * 1` | Weekly India job refresh cron (Phase 5) |
