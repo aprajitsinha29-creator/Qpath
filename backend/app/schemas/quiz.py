@@ -9,15 +9,18 @@ from __future__ import annotations
 
 from datetime import datetime
 
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, ConfigDict, Field
 
 
 class QuizQuestionOut(BaseModel):
     """One servable quiz question — answer material is stripped by design.
 
-    ``selected_index`` ranges over 0-3; ``selected_index=null`` ("Not sure")
-    is submitted via :class:`AnswerIn` at scoring time.
+    Built from ORM rows (from_attributes); the ORM's ``correct_index`` and
+    ``explanation`` columns are simply not declared here, so they can never
+    serialize (AGENTS.md 3.10.3).
     """
+
+    model_config = ConfigDict(from_attributes=True)  # build from ORM rows
 
     id: str
     subfield_id: str
@@ -84,6 +87,9 @@ class ProfileCreateIn(BaseModel):
 class ProfileOut(BaseModel):
     """Anonymous profile projection; ``id`` is the UUID the client keeps."""
 
-    profile_id: str
+    model_config = ConfigDict(from_attributes=True)  # build from ORM rows
+
+    # The ORM column is ``id``; the wire name is ``profile_id`` for clarity.
+    profile_id: str = Field(validation_alias="id")
     created_at: datetime
     interests: dict[str, int]
