@@ -243,6 +243,9 @@ POST /profiles/{id}/assessment → quiz_service.submit_assessment
 
 ### Known limits (Phase 3)
 
-- `quiz_questions.json` currently contains **0 verified / 18 placeholder** questions (stems prefixed `PLACEHOLDER:`). Phase 3 is functionally complete but **not final**: the owner must verify all 18 (manual task M-08, BUILD_PLAN Section 6) and set `ALLOW_UNVERIFIED_QUESTIONS=false` before submission.
+- `quiz_questions.json` now contains **18 real questions / 0 verified / 0 placeholder** (all stems are real content from docs/quiz_confirmed.md, verified=false awaiting owner sign-off M-08). The bank has exactly 3 questions per scored subfield at difficulties 1, 2, 3.
+- Concept ID choices: algorithms-1 uses `found.qubits_and_gates` because no complexity-class concept exists in taxonomy.json (reported as open question).
+- The seeder now prunes questions whose id is not in the JSON, preventing stale placeholder rows from surviving in existing dev databases.
 - The diagnostic does not yet feed anything downstream: path matching (Phase 4) will consume `readiness_scores` and profile interests.
 - No Gemini usage in this phase (per plan).
+- Owner must still verify all 18 questions (manual task M-08, BUILD_PLAN Section 6) and set `ALLOW_UNVERIFIED_QUESTIONS=false` before submission.
