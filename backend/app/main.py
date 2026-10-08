@@ -18,7 +18,7 @@ from app.api.v1.router import api_router
 from app.core.config import get_settings
 from app.core.errors import register_error_handlers
 from app.core.logging import setup_logging
-from app.db.seed import seed_reference_data
+from app.db.seed import seed_quiz_questions, seed_reference_data
 from app.db.session import SessionLocal, init_db
 
 logger = logging.getLogger(__name__)
@@ -43,6 +43,7 @@ async def lifespan(current_app: FastAPI) -> AsyncIterator[None]:
     init_db()
     with SessionLocal() as db:
         seed_reference_data(db)
+        seed_quiz_questions(db)
     logger.info("database ready (create_all + reference seed)")
     yield
 

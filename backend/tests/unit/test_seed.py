@@ -29,6 +29,11 @@ EXPECTED_COUNTS = {
     "concepts": 34,
     "career_paths": 6,
     "skills": 53,
+    # Quiz/profile tables are seeded elsewhere (Phase 3); reference seeding
+    # does not touch them, so they must stay empty here.
+    "questions": 0,
+    "profiles": 0,
+    "assessments": 0,
 }
 
 

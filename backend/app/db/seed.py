@@ -20,7 +20,7 @@ from sqlalchemy import func, select
 from sqlalchemy.orm import Session
 
 from app.core.errors import SeedDataError
-from app.models import CareerPath, Concept, Skill, Subfield
+from app.models import Assessment, CareerPath, Concept, Profile, Question, Skill, Subfield
 
 logger = logging.getLogger(__name__)
 
@@ -199,6 +199,128 @@ def _has_prerequisite_cycle(prerequisites: dict[str, list[str]]) -> bool:
     return removed != len(prerequisites)
 
 
+def validate_quiz_questions(
+    questions: object, subfield_ids: set[str], concept_ids: set[str]
+) -> list[str]:
+    """Check the quiz-question payload and return every problem found.
+
+    Args:
+        questions: parsed ``quiz_questions.json`` (a list of question objects).
+        subfield_ids: valid subfield ids (from the already-validated taxonomy).
+        concept_ids: valid concept ids (from the already-validated taxonomy).
+
+    Returns:
+        A list of human-readable problems; empty means the bank can be seeded.
+        Per BUILD_PLAN 6.2: exactly 4 options, ``correct_index`` 0-3,
+        ``difficulty`` 1-3, and resolvable ``subfield_id``/``concept_id``.
+    """
+    problems: list[str] = []
+    if not isinstance(questions, list):
+        return ["quiz_questions.json must be a JSON array"]
+
+    seen_ids: set[str] = set()
+    for raw in questions:
+        if not isinstance(raw, dict):
+            problems.append(f"question entry is not an object: {raw!r}")
+            continue
+        qid = raw.get("id")
+        if not isinstance(qid, str) or not qid:
+            problems.append(f"question entry lacks a string id: {raw!r}")
+            continue
+        if qid in seen_ids:
+            problems.append(f"duplicate question id '{qid}'")
+        seen_ids.add(qid)
+
+        sub_ref = raw.get("subfield_id")
+        if sub_ref not in subfield_ids:
+            problems.append(f"question '{qid}' references unknown subfield '{sub_ref}'")
+        concept_ref = raw.get("concept_id")
+        if concept_ref not in concept_ids:
+            problems.append(f"question '{qid}' references unknown concept '{concept_ref}'")
+
+        options = raw.get("options")
+        if (
+            not isinstance(options, list)
+            or len(options) != 4
+            or not all(isinstance(o, str) and o for o in options)
+        ):
+            problems.append(f"question '{qid}' must have exactly 4 non-empty string options")
+
+        correct = raw.get("correct_index")
+        if not isinstance(correct, int) or isinstance(correct, bool) or not 0 <= correct <= 3:
+            problems.append(f"question '{qid}' has invalid correct_index {correct!r} (need 0-3)")
+
+        difficulty = raw.get("difficulty")
+        if (
+            not isinstance(difficulty, int)
+            or isinstance(difficulty, bool)
+            or not 1 <= difficulty <= 3
+        ):
+            problems.append(f"question '{qid}' has invalid difficulty {difficulty!r} (need 1-3)")
+
+        if not isinstance(raw.get("stem"), str) or not raw.get("stem"):
+            problems.append(f"question '{qid}' lacks a stem")
+        # 'verified' may only ever move to true by the owner's hand (M-08); the
+        # seeder merely requires the field to be a bool so serve-time filtering
+        # in quiz_service sees a well-defined flag.
+        if not isinstance(raw.get("verified", False), bool):
+            problems.append(f"question '{qid}' has non-boolean 'verified'")
+
+    return problems
+
+
+def seed_quiz_questions(db: Session) -> None:
+    """Upsert quiz questions from ``app/data/quiz_questions.json``.
+
+    Every question is stored with its owner-controlled ``verified`` flag;
+    whether unverified rows are *served* is decided at request time by
+    ``ALLOW_UNVERIFIED_QUESTIONS`` (quiz_service) so the flag can be flipped
+    without reseeding (deviation from plan 3.1 recorded in ARCHITECTURE.md).
+
+    Args:
+        db: an open session; commits at the end.
+
+    Raises:
+        SeedDataError: when the file is invalid or references unknown ids.
+
+    Safe to run repeatedly: rows are merged by primary key, so replacing a
+    placeholder with verified content and restarting updates it in place
+    (AGENTS.md 3.3.9).
+    """
+    taxonomy = load_reference_json("taxonomy.json")
+    questions = load_reference_json("quiz_questions.json")
+    taxonomy_payload = cast("dict[str, Any]", taxonomy)
+    subfield_ids = {s["id"] for s in taxonomy_payload["subfields"] if isinstance(s, dict)}
+    concept_ids = {c["id"] for c in taxonomy_payload["concepts"] if isinstance(c, dict)}
+
+    problems = validate_quiz_questions(questions, subfield_ids, concept_ids)
+    if problems:
+        raise SeedDataError("Invalid quiz questions: " + "; ".join(problems))
+
+    rows: list[Question] = []
+    for sort_order, raw in enumerate(questions):
+        # list(questions) order is stable, so sort_order is the serve order.
+        rows.append(
+            Question(
+                id=raw["id"],
+                subfield_id=raw["subfield_id"],
+                concept_id=raw["concept_id"],
+                difficulty=raw["difficulty"],
+                stem=raw["stem"],
+                options=raw["options"],
+                correct_index=raw["correct_index"],
+                explanation=raw.get("explanation", ""),
+                source_refs=raw.get("source_refs", []),
+                verified=bool(raw.get("verified", False)),
+                sort_order=raw.get("sort_order", sort_order),
+            )
+        )
+    for row in rows:
+        db.merge(row)
+    db.commit()
+    logger.info("quiz questions seeded: %d rows", len(rows))
+
+
 def seed_reference_data(db: Session) -> None:
     """Upsert taxonomy, career paths and skills from ``app/data/*.json``.
 
@@ -259,7 +381,7 @@ def seed_reference_data(db: Session) -> None:
 def reference_data_counts(db: Session) -> dict[str, int]:
     """Return current row counts per reference table (used by tests and diagnostics)."""
     counts: dict[str, int] = {}
-    for model in (Subfield, Concept, CareerPath, Skill):
+    for model in (Subfield, Concept, CareerPath, Skill, Question, Profile, Assessment):
         total = db.scalar(select(func.count()).select_from(model))
         counts[model.__tablename__] = int(total or 0)
     return counts
