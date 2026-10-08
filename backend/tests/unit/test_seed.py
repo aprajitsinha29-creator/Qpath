@@ -176,6 +176,58 @@ def test_committed_quiz_questions_cover_three_per_scored_subfield() -> None:
     assert all(per_subfield.get(s, 0) >= 3 for s in scored)
 
 
+def test_quiz_bank_has_three_questions_per_subfield_with_difficulties_1_2_3() -> None:
+    """Each scored subfield has exactly 3 questions at difficulties 1, 2, 3 (plan 6.2)."""
+    taxonomy, _, _ = _load_reference()
+    questions = load_reference_json("quiz_questions.json")
+
+    scored = [s["id"] for s in taxonomy["subfields"] if s.get("is_scored", True)]
+    for subfield in scored:
+        subfield_qs = [q for q in questions if q["subfield_id"] == subfield]
+        assert len(subfield_qs) == 3, f"{subfield} should have exactly 3 questions"
+        difficulties = sorted(q["difficulty"] for q in subfield_qs)
+        assert difficulties == [1, 2, 3], f"{subfield} should have difficulties 1, 2, 3"
+
+
+def test_quiz_bank_options_are_four_and_correct_index_in_range() -> None:
+    """Every question has exactly 4 options with correct_index 0-3 (plan 6.2)."""
+    questions = load_reference_json("quiz_questions.json")
+
+    for q in questions:
+        assert len(q["options"]) == 4, f"{q['id']} should have exactly 4 options"
+        assert 0 <= q["correct_index"] <= 3, f"{q['id']} correct_index should be 0-3"
+
+
+def test_quiz_bank_concept_and_subfield_ids_resolve_against_taxonomy() -> None:
+    """Every question references ids that exist in taxonomy.json (plan 6.2)."""
+    taxonomy, _, _ = _load_reference()
+    questions = load_reference_json("quiz_questions.json")
+
+    subfield_ids = {s["id"] for s in taxonomy["subfields"]}
+    concept_ids = {c["id"] for c in taxonomy["concepts"]}
+
+    for q in questions:
+        assert q["subfield_id"] in subfield_ids
+        assert q["concept_id"] in concept_ids
+
+
+def test_quiz_bank_contains_no_placeholder_stems() -> None:
+    """No question stem should start with 'PLACEHOLDER:' (all real questions in place)."""
+    questions = load_reference_json("quiz_questions.json")
+
+    placeholder_stems = [q["id"] for q in questions if q["stem"].startswith("PLACEHOLDER:")]
+    assert placeholder_stems == [], f"Found placeholder stems: {placeholder_stems}"
+
+
+def test_quiz_bank_question_ids_are_unique() -> None:
+    """All 18 question ids must be unique (no duplicates)."""
+    questions = load_reference_json("quiz_questions.json")
+
+    ids = [q["id"] for q in questions]
+    assert len(ids) == len(set(ids)), "Question ids must be unique"
+    assert len(ids) == 18, f"Should have exactly 18 questions, got {len(ids)}"
+
+
 def test_quiz_questions_are_placeholders_not_verified() -> None:
     """Placeholder questions must never ship with verified=true (AGENTS.md 3.11)."""
     questions = load_reference_json("quiz_questions.json")
@@ -221,3 +273,46 @@ def test_seed_quiz_questions_rejects_invalid(tmp_path: Path, monkeypatch, db_ses
         seed_quiz_questions(db_session)
 
     assert reference_data_counts(db_session)["questions"] == 0
+
+
+def test_seed_removes_questions_missing_from_json(
+    db_session: Session, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    """When question ids in the DB are not in the JSON, they are purged (plan 3.6)."""
+    taxonomy, _, _ = _load_reference()
+    seed_reference_data(db_session)
+
+    # Seed the real quiz bank first.
+    seed_quiz_questions(db_session)
+    assert reference_data_counts(db_session)["questions"] == 18
+
+    # Write a bank with a totally different set of ids.
+    new_questions = [
+        {
+            "id": "new-1",
+            "subfield_id": "qec",
+            "concept_id": "qec.decoding",
+            "difficulty": 1,
+            "stem": "new",
+            "options": ["a", "b", "c", "d"],
+            "correct_index": 0,
+            "verified": False,
+        }
+    ]
+    tmp_path2 = Path("/tmp/test_seed_prune")
+    tmp_path2.mkdir(exist_ok=True)
+    (tmp_path2 / "taxonomy.json").write_text(json.dumps(taxonomy), encoding="utf-8")
+    (tmp_path2 / "quiz_questions.json").write_text(json.dumps(new_questions), encoding="utf-8")
+
+    monkeypatch.setattr(seed_module, "DATA_DIR", tmp_path2)
+    seed_quiz_questions(db_session)
+
+    counts = reference_data_counts(db_session)["questions"]
+    # Old 18 placeholders deleted + 1 new question = 1
+    assert counts == 1
+
+    remaining = db_session.execute(
+        seed_module.Question.__table__.select()
+    ).scalars().all()
+    # scalars() returns the first column (id) when selecting from the table directly
+    assert set(remaining) == {"new-1"}
