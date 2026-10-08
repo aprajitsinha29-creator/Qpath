@@ -183,3 +183,55 @@ export interface RefreshSummary {
   queries_run: number;
   errors: string[];
 }
+
+// ----------------------------------------------------------------- quiz (Phase 3)
+
+/** One servable quiz question. The backend NEVER sends answers (AGENTS.md 3.10.3). */
+export interface QuizQuestion {
+  id: string;
+  subfield_id: string;
+  concept_id: string;
+  difficulty: number;
+  stem: string;
+  options: string[];
+}
+
+export interface QuizResponse {
+  questions: QuizQuestion[];
+}
+
+/** One submitted answer; selected_index null = "Not sure". */
+export interface AnswerIn {
+  question_id: string;
+  selected_index: number | null;
+}
+
+export interface AssessmentRequest {
+  interests: Record<string, number>;
+  answers: AnswerIn[];
+}
+
+/** Per-question result, returned only after scoring (never by GET /quiz). */
+export interface PerQuestionFeedback {
+  question_id: string;
+  correct: boolean;
+  explanation: string;
+  concept_id: string;
+}
+
+export interface AssessmentResult {
+  assessment_id: number;
+  profile_id: string;
+  taken_at: string;
+  /** {subfield_id: readiness 0-100} */
+  scores: Record<string, number>;
+  interests: Record<string, number>;
+  per_question: PerQuestionFeedback[];
+  weak_concepts: string[];
+}
+
+export interface ProfileResponse {
+  profile_id: string;
+  created_at: string;
+  interests: Record<string, number>;
+}

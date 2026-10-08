@@ -37,16 +37,9 @@ export function AppShell() {
                 Pulse
               </NavLink>
 
-              <div
-                className="group relative inline-flex items-center gap-1.5 px-3 py-1.5 text-sm font-medium text-slate-500 cursor-not-allowed select-none"
-                aria-disabled="true"
-                tabIndex={-1}
-              >
-                <span>Diagnostic</span>
-                <span className="rounded-full bg-slate-800/80 border border-slate-700/60 px-1.5 py-0.2 text-[10px] font-normal text-slate-400">
-                  coming soon
-                </span>
-              </div>
+              <NavLink to="/diagnostic" className={navLinkClasses}>
+                Diagnostic
+              </NavLink>
 
               <NavLink to="/method" className={navLinkClasses}>
                 Method
