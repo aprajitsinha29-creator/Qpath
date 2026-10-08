@@ -297,6 +297,14 @@ def seed_quiz_questions(db: Session) -> None:
     if problems:
         raise SeedDataError("Invalid quiz questions: " + "; ".join(problems))
 
+    json_ids = {raw["id"] for raw in questions}
+
+    # Prune questions whose id is no longer in the JSON (e.g. placeholder rows
+    # replaced by real content). Without this, stale rows would survive from an
+    # existing dev database and could be served alongside the new bank.
+    result = db.execute(Question.__table__.delete().where(~Question.id.in_(list(json_ids))))
+    pruned = int(result.rowcount)
+
     rows: list[Question] = []
     for sort_order, raw in enumerate(questions):
         # list(questions) order is stable, so sort_order is the serve order.
@@ -318,7 +326,7 @@ def seed_quiz_questions(db: Session) -> None:
     for row in rows:
         db.merge(row)
     db.commit()
-    logger.info("quiz questions seeded: %d rows", len(rows))
+    logger.info("quiz questions seeded: %d rows (pruned %d stale)", len(rows), pruned)
 
 
 def seed_reference_data(db: Session) -> None:
