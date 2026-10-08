@@ -198,3 +198,51 @@ In Phase 2, `PulseCard` schema was extended additively with `top_skills: list[Sk
 - **Scheduler off by default:** `SCHEDULER_ENABLED=false`. Enable only for the demo or final days (Phase 5).
 - **httpx2 warning:** benign StarletteDeprecationWarning from starlette.testclient.
 
+
+---
+
+## Phase 3 — Orientation diagnostic
+
+### What was added
+
+**Backend**
+
+- **Models:** `questions`, `profiles`, `assessments` tables (`app/models/quiz.py`, `app/models/profile.py`). The `profiles` table already carries the Phase 5 columns (`chosen_path_id`, `last_seen_at`, `declared_skills`, `completed_concepts`) to avoid a later schema change.
+- **Seeding:** `seed_quiz_questions` in `app/db/seed.py` validates and upserts `app/data/quiz_questions.json` (exactly 4 options, `correct_index` 0–3, `difficulty` 1–3, resolvable `subfield_id`/`concept_id`), running after the reference seed in the lifespan.
+- **Services:** `services/scoring_service.py` holds the pure scoring functions (difficulty-weighted readiness, `weak_concepts`, `per_question_feedback`); `services/quiz_service.py` handles the servable-question guard, anonymous profiles and assessment persistence.
+- **API:** `GET /quiz`, `POST /profiles`, `GET /profiles/{id}`, `POST /profiles/{id}/assessment`, `GET /profiles/{id}/assessments/latest`. New domain errors: `QuizContentError` (503, `quiz_insufficient_questions`) and `InvalidAssessmentError` (422, `invalid_assessment`).
+
+**Frontend**
+
+- `features/diagnostic/` — `api.ts`, `hooks/useDiagnostic.ts` (TanStack Query), `draft.ts` (sessionStorage draft), and components `InterestStep`, `QuestionStep`, `ReadinessRadar` (Recharts radar + accessible table), `ScoreBars`, `FeedbackList`.
+- `pages/DiagnosticPage.tsx` (stepper: interests → one question per screen → review/confirm → submit) and `pages/ResultsPage.tsx` (radar, bars, feedback, retake). Routes `/diagnostic` and `/diagnostic/results`; the nav item is enabled.
+- `lib/profileId.ts` gained `ensureProfileId()`: the localStorage UUID is synced with the backend via idempotent `POST /profiles`.
+
+### Data flow
+
+```
+GET /quiz → quiz_service.build_quiz
+  ├─ filter questions by Settings.allow_unverified_questions (serve-time)
+  └─ guard: every scored subfield needs ≥ 3 servable questions, else 503
+POST /profiles/{id}/assessment → quiz_service.submit_assessment
+  ├─ validate interests cover exactly the six scored subfields (422)
+  ├─ scoring_service.normalize_selections (unknown id / duplicate → 422)
+  ├─ scoring_service.readiness_scores: readiness_s = 100 × earned / available,
+  │  earned = sum of difficulties of correct answers; null/absent = 0
+  ├─ store raw answers + scores on `assessments`; interests onto `profiles`
+  └─ return AssessmentOut (per-question feedback + weak_concepts)
+```
+
+### Decision log (Phase 3)
+
+- **Serve-time verified filtering (deviation from plan 3.1):** the plan seeds only verified questions; this build seeds **all** questions with their owner-controlled `verified` flag and filters at request time from `Settings`. Same observable behavior, but flipping `ALLOW_UNVERIFIED_QUESTIONS` does not require a reseed. While the bank is placeholder content the dev `.env` sets the flag to `true`; the owner flips it back after M-08.
+- **Answer leakage is structurally impossible:** `QuizQuestionOut` does not declare `correct_index`/`explanation`, so ORM columns cannot serialize; a test asserts the raw response body never contains those keys, and the integration suite re-checks them against the DB directly.
+- **Feedback is derived, not stored:** `GET .../assessments/latest` recomputes per-question feedback from the stored raw answers, so correcting an explanation or key immediately fixes the history view.
+- **Skipping questions is allowed:** "Next" is always available; unanswered questions score 0 like "Not sure", and the review step warns with a count before submission.
+- **Interests are validated strictly:** unknown or missing scored subfields are 422 — a partially-specified diagnostic would silently distort Phase 4 path scores.
+
+### Known limits (Phase 3)
+
+- `quiz_questions.json` currently contains **0 verified / 18 placeholder** questions (stems prefixed `PLACEHOLDER:`). Phase 3 is functionally complete but **not final**: the owner must verify all 18 (manual task M-08, BUILD_PLAN Section 6) and set `ALLOW_UNVERIFIED_QUESTIONS=false` before submission.
+- The diagnostic does not yet feed anything downstream: path matching (Phase 4) will consume `readiness_scores` and profile interests.
+- No Gemini usage in this phase (per plan).
