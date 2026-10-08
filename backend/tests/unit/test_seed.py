@@ -18,7 +18,9 @@ from app.core.errors import SeedDataError
 from app.db.seed import (
     load_reference_json,
     reference_data_counts,
+    seed_quiz_questions,
     seed_reference_data,
+    validate_quiz_questions,
     validate_reference_data,
 )
 
@@ -140,3 +142,82 @@ def test_load_reference_json_missing_file_raises(tmp_path: Path) -> None:
     """A missing reference file is reported as SeedDataError, not a bare OSError."""
     with pytest.raises(SeedDataError, match="not found"):
         load_reference_json("taxonomy.json", directory=tmp_path)
+
+
+# ---------------------------------------------------------------------------
+# Quiz question bank (Phase 3 step 3.1)
+# ---------------------------------------------------------------------------
+
+
+def test_committed_quiz_questions_validate_cleanly() -> None:
+    """The committed quiz bank must satisfy every seeder rule against the taxonomy."""
+    taxonomy, _, _ = _load_reference()
+    questions = load_reference_json("quiz_questions.json")
+
+    problems = validate_quiz_questions(
+        questions,
+        {s["id"] for s in taxonomy["subfields"]},
+        {c["id"] for c in taxonomy["concepts"]},
+    )
+
+    assert problems == []
+
+
+def test_committed_quiz_questions_cover_three_per_scored_subfield() -> None:
+    """Every scored subfield needs >= 3 questions or the quiz endpoint refuses (plan 3.1)."""
+    taxonomy, _, _ = _load_reference()
+    questions = load_reference_json("quiz_questions.json")
+
+    per_subfield: dict[str, int] = {}
+    for q in questions:
+        per_subfield[q["subfield_id"]] = per_subfield.get(q["subfield_id"], 0) + 1
+    scored = [s["id"] for s in taxonomy["subfields"] if s.get("is_scored", True)]
+
+    assert all(per_subfield.get(s, 0) >= 3 for s in scored)
+
+
+def test_quiz_questions_are_placeholders_not_verified() -> None:
+    """Placeholder questions must never ship with verified=true (AGENTS.md 3.11)."""
+    questions = load_reference_json("quiz_questions.json")
+
+    assert all(q["verified"] is False for q in questions)
+
+
+def test_seed_quiz_questions_is_idempotent(db_session: Session) -> None:
+    """Seeding the quiz bank twice must not duplicate rows (AGENTS.md 3.3.9)."""
+    seed_reference_data(db_session)
+    seed_quiz_questions(db_session)
+    first = reference_data_counts(db_session)["questions"]
+    seed_quiz_questions(db_session)
+
+    assert first == 18
+    assert reference_data_counts(db_session)["questions"] == first
+
+
+def test_seed_quiz_questions_rejects_invalid(tmp_path: Path, monkeypatch, db_session) -> None:
+    """A broken bank (bad correct_index / option count) fails loudly, writing nothing."""
+    taxonomy, _, _ = _load_reference()
+    (tmp_path / "taxonomy.json").write_text(json.dumps(taxonomy), encoding="utf-8")
+    (tmp_path / "quiz_questions.json").write_text(
+        json.dumps(
+            [
+                {
+                    "id": "bad-1",
+                    "subfield_id": "qec",
+                    "concept_id": "qec.surface_code",
+                    "difficulty": 2,
+                    "stem": "s",
+                    "options": ["a", "b", "c"],
+                    "correct_index": 9,
+                    "verified": False,
+                }
+            ]
+        ),
+        encoding="utf-8",
+    )
+    monkeypatch.setattr(seed_module, "DATA_DIR", tmp_path)
+
+    with pytest.raises(SeedDataError, match="correct_index"):
+        seed_quiz_questions(db_session)
+
+    assert reference_data_counts(db_session)["questions"] == 0

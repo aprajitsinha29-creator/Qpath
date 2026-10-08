@@ -96,6 +96,26 @@ class SeedDataError(AppError):
     status_code = 500
 
 
+class QuizContentError(AppError):
+    """The quiz cannot be served: some scored subfield has < 3 servable questions (503).
+
+    503 rather than 404: the endpoint exists and works, but the content
+    configuration is not ready (e.g. verified bank missing and unverified
+    questions disallowed). Serving a lopsided quiz would silently bias scores.
+    """
+
+    code = "quiz_insufficient_questions"
+    status_code = 503
+
+
+class InvalidAssessmentError(AppError):
+    """Assessment answers are semantically invalid: unknown question id or a
+    duplicate answer (422)."""
+
+    code = "invalid_assessment"
+    status_code = 422
+
+
 # HTTP errors raised by FastAPI/Starlette itself get a snake_case code too.
 _HTTP_ERROR_CODES: dict[int, str] = {
     400: "bad_request",
