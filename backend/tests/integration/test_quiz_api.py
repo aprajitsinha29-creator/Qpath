@@ -64,7 +64,16 @@ def test_quiz_endpoint_never_returns_correct_answers(client: TestClient) -> None
     body = response.text
     assert "correct_index" not in body
     assert "explanation" not in body
-    assert "correct" not in body  # even a differently-named leak is a failure
+    # Check for answer-revealing patterns, not just the substring "correct"
+    # (real stems may contain "correction" etc.). The JSON keys below are the
+    # actual answer fields that must never appear in GET /quiz.
+    import json
+    data = json.loads(body)
+    for q in data["questions"]:
+        assert "correct_index" not in q
+        assert "explanation" not in q
+        assert "correct_answer" not in q
+        assert "answer" not in q
 
 
 def test_quiz_refuses_when_unverified_questions_disallowed(
