@@ -81,11 +81,22 @@ export function QuestionStep({
             className={`h-full rounded-full bg-cyan-500 transition-all ${progressClass(questionNumber, totalQuestions)}`}
           />
         </div>
-      </div>
-
-      <fieldset className="rounded-xl border border-slate-800 bg-slate-900/50 p-5">
-        <legend className="px-1 text-lg font-semibold text-white">{question.stem}</legend>
-        <div className="mt-3 space-y-2">
+      </div>{' '}
+      {/* Plain <div>/<header> (not fieldset/legend) so the stem sits inside the
+            padded card with the options. A <legend> renders its text outside the
+            fieldset border box, which pushes the stem above/outside the card — the
+            bug described above. */}
+      <div
+        className="rounded-xl border border-slate-800 bg-slate-900/50 p-5"
+        role="group"
+        aria-labelledby={`question-stem-${question.id}`}
+      >
+        {' '}
+        <header id={`question-stem-${question.id}`} className="text-lg font-semibold text-white">
+          {' '}
+          {question.stem}
+        </header>
+        <div className="mt-4 space-y-2">
           {question.options.map((option, index) => (
             <label
               key={index}
@@ -111,17 +122,16 @@ export function QuestionStep({
             type="button"
             onClick={() => onSelect(null)}
             aria-pressed={selectedIndex === null}
-            className={`w-full rounded-lg border p-3 text-sm font-medium transition-colors ${
+            className={
               selectedIndex === null
-                ? 'border-amber-600 bg-amber-950/40 text-amber-200'
-                : 'border-slate-800 bg-slate-900/70 text-slate-400 hover:border-slate-700'
-            }`}
+                ? 'w-full rounded-lg border p-3 text-sm font-medium transition-colors border-amber-600 bg-amber-950/40 text-amber-200'
+                : 'w-full rounded-lg border p-3 text-sm font-medium transition-colors border-slate-800 bg-slate-900/70 text-slate-400 hover:border-slate-700'
+            }
           >
             Not sure
           </button>
         </div>
-      </fieldset>
-
+      </div>
       <div className="flex items-center justify-between">
         <button
           type="button"
