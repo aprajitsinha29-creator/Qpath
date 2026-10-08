@@ -20,7 +20,7 @@
     "sort_order": 0
   },
   {
-    "id": "qec-2",
+    "id": "qec-3",
     "subfield_id": "qec",
     "concept_id": "qec.magic_states",
     "difficulty": 3,
@@ -40,7 +40,7 @@
     "sort_order": 1
   },
   {
-    "id": "qec-3",
+    "id": "qec-2",
     "subfield_id": "qec",
     "concept_id": "qec.magic_states",
     "difficulty": 2,
