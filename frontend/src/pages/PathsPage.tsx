@@ -11,10 +11,19 @@ export function PathsPage() {
   const { data, isLoading, isError, error } = usePaths(profileId);
   const explainMutation = useRequestExplanations(profileId);
 
-  // 409 assessment_required → redirect to diagnostic with a message
+  // 409 assessment_required → redirect to diagnostic with a message (plan 4.6)
   const status = (error as { status?: number } | null)?.status;
   if (isError && status === 409) {
-    return <Navigate to="/diagnostic" replace />;
+    return (
+      <Navigate
+        to="/diagnostic"
+        state={{
+          message:
+            'You need to take the orientation diagnostic first so we can rank career paths based on your readiness and interest.',
+        }}
+        replace
+      />
+    );
   }
 
   if (isLoading) {

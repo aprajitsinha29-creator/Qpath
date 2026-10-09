@@ -2,7 +2,7 @@
 // (one per screen) -> confirm -> submit. Draft answers persist in sessionStorage
 // so a refresh keeps progress (plan 3.5). Needs GET /quiz and the profile UUID.
 import { useMemo, useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { InterestStep } from '../features/diagnostic/components/InterestStep';
 import { QuestionStep } from '../features/diagnostic/components/QuestionStep';
 import {
@@ -20,6 +20,7 @@ import { useTaxonomy } from '../features/pulse/hooks/usePulse';
 
 export function DiagnosticPage() {
   const navigate = useNavigate();
+  const location = useLocation();
   const queryClient = useQueryClient();
   const { data, isLoading, isError, error } = useQuiz();
 
@@ -98,9 +99,25 @@ export function DiagnosticPage() {
   };
 
   const unansweredCount = questions.filter((q) => draft.answers[q.id] === undefined).length;
+  const redirectNotice = (location.state as { message?: string } | null)?.message;
 
   return (
     <div className="mx-auto max-w-2xl space-y-6">
+      {redirectNotice && (
+        <div
+          role="status"
+          className="rounded-xl border border-cyan-800/80 bg-cyan-950/60 p-4 text-sm text-cyan-200 shadow-md"
+        >
+          <div className="flex items-start gap-2.5">
+            <span className="text-lg">ℹ️</span>
+            <div>
+              <p className="font-semibold text-white">Diagnostic required first</p>
+              <p className="mt-0.5 text-xs text-cyan-300/90">{redirectNotice}</p>
+            </div>
+          </div>
+        </div>
+      )}
+
       <div className="space-y-1">
         <h1 className="text-3xl font-bold tracking-tight text-white">Orientation diagnostic</h1>
         <p className="text-sm text-slate-400">

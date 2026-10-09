@@ -143,4 +143,28 @@ describe('DiagnosticPage', () => {
 
     expect(screen.getByText(/2 question\(s\) unanswered/i)).toBeInTheDocument();
   });
+
+  it('renders redirect notification banner when navigated from paths without assessment', () => {
+    const client = new QueryClient({ defaultOptions: { queries: { retry: false } } });
+    render(
+      <QueryClientProvider client={client}>
+        <MemoryRouter
+          initialEntries={[
+            {
+              pathname: '/diagnostic',
+              state: { message: 'You need to take the orientation diagnostic first' },
+            },
+          ]}
+        >
+          <DiagnosticPage />
+        </MemoryRouter>
+      </QueryClientProvider>,
+    );
+
+    expect(screen.getByRole('status')).toBeInTheDocument();
+    expect(screen.getByText(/diagnostic required first/i)).toBeInTheDocument();
+    expect(
+      screen.getByText('You need to take the orientation diagnostic first'),
+    ).toBeInTheDocument();
+  });
 });
