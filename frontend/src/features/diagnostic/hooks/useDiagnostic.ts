@@ -8,6 +8,7 @@
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
 import type { AssessmentRequest } from '../../../types/api';
 import { getLatestAssessment, getQuiz, submitAssessment } from '../api';
+import { getOrCreateProfileId } from '../../../lib/profileId';
 
 /** Query hook: the servable quiz questions. */
 export function useQuiz() {
@@ -32,17 +33,18 @@ export function useLatestAssessment(profileId: string | null) {
  * Mutation hook: submit the diagnostic; invalidates the latest-assessment
  * cache so the results page shows the fresh score.
  */
-export function useSubmitAssessment(profileId: string | null) {
+export function useSubmitAssessment(profileId?: string | null) {
   const queryClient = useQueryClient();
   return useMutation({
     mutationFn: (payload: AssessmentRequest) => {
-      if (profileId === null) {
-        return Promise.reject(new Error('Profile is not ready yet'));
-      }
-      return submitAssessment(profileId, payload);
+      const targetProfileId = profileId ?? getOrCreateProfileId();
+      return submitAssessment(targetProfileId, payload);
     },
     onSuccess: () => {
-      void queryClient.invalidateQueries({ queryKey: ['diagnostic', 'latest', profileId] });
+      const targetProfileId = profileId ?? getOrCreateProfileId();
+      void queryClient.invalidateQueries({
+        queryKey: ['diagnostic', 'latest', targetProfileId],
+      });
     },
   });
 }
