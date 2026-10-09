@@ -235,3 +235,73 @@ export interface ProfileResponse {
   created_at: string;
   interests: Record<string, number>;
 }
+
+// ------------------------------------------------------------------- paths (Phase 4)
+
+/** Skill share entry in a path's evidence panel. */
+export interface PathSkillShare {
+  skill_id: string;
+  name: string;
+  /** Fraction 0–1 of extracted postings mentioning this skill. */
+  share: number;
+  /** Percent rendering of share (1 decimal) — what explanations may cite. */
+  share_pct: number;
+}
+
+/** Live Pulse evidence assembled for one career path. */
+export interface PathEvidence {
+  active_postings: number;
+  internship_postings: number;
+  top_skills: PathSkillShare[];
+  /** Fraction 0–1 of postings requiring a PhD; null when unknown. */
+  phd_share: number | null;
+  /** Percent rendering of phd_share, or null. */
+  phd_share_pct: number | null;
+  sample_postings: PostingOut[];
+}
+
+/** Transparent score breakdown; weights are the same 40/30/30 as percentages. */
+export interface ScoreBreakdown {
+  interest: number;
+  demand: number;
+  readiness: number;
+  weights: Record<string, number>;
+}
+
+/** Grounded Gemini explanation for one path. */
+export interface PathExplanationOut {
+  headline: string;
+  reasons: string[];
+  caveat: string;
+  next_step: string;
+  generated_by: 'llm' | 'template';
+  model: string | null;
+  generated_at: string | null;
+}
+
+/** One ranked career path with score breakdown, evidence, and optional explanation. */
+export interface PathResult {
+  path_id: string;
+  title: string;
+  subfield_id: string;
+  rank: number;
+  score: number;
+  breakdown: ScoreBreakdown;
+  is_top3: boolean;
+  /** active_postings < 8 → demand evidence is thin. */
+  low_data: boolean;
+  /** The subfield's core query hit the page cap in the latest bootstrap. */
+  saturated: boolean;
+  evidence: PathEvidence;
+  /** Null until an explanation has been generated for this path. */
+  explanation: PathExplanationOut | null;
+}
+
+/** GET /profiles/{id}/paths response. */
+export interface PathsOut {
+  profile_id: string;
+  assessment_id: number;
+  region: string;
+  saturation_note: string | null;
+  paths: PathResult[];
+}

@@ -4,6 +4,7 @@ import { AppShell } from '../components/layout/AppShell';
 import { DiagnosticPage } from '../pages/DiagnosticPage';
 import { MethodPage } from '../pages/MethodPage';
 import { NotFoundPage } from '../pages/NotFoundPage';
+import { PathsPage } from '../pages/PathsPage';
 import { PulsePage } from '../pages/PulsePage';
 import { ResultsPage } from '../pages/ResultsPage';
 import { SubfieldDetailPage } from '../pages/SubfieldDetailPage';
@@ -32,6 +33,10 @@ export const router = createBrowserRouter([
       {
         path: 'diagnostic/results',
         element: <ResultsPage />,
+      },
+      {
+        path: 'paths',
+        element: <PathsPage />,
       },
       {
         path: 'method',

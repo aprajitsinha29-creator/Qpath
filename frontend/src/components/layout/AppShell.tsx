@@ -26,7 +26,7 @@ export function AppShell() {
               <div>
                 <span className="font-semibold tracking-tight text-white">Quantum Pathfinder</span>
                 <span className="ml-2 rounded-sm bg-cyan-950 px-1.5 py-0.5 text-[10px] font-mono font-medium text-cyan-400 border border-cyan-800/60">
-                  Phase 0
+                  Phase 4
                 </span>
               </div>
             </NavLink>
@@ -39,6 +39,10 @@ export function AppShell() {
 
               <NavLink to="/diagnostic" className={navLinkClasses}>
                 Diagnostic
+              </NavLink>
+
+              <NavLink to="/paths" className={navLinkClasses}>
+                Paths
               </NavLink>
 
               <NavLink to="/method" className={navLinkClasses}>
