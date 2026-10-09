@@ -118,10 +118,10 @@ The API key is passed only at call time; it is never logged, stored, or committe
 | Phase | Description | Status |
 |---|---|---|
 | **0** | Foundation: backend API, health endpoint, SerpApi client in fixture mode, frontend shell with HealthBadge | ✅ **Done** |
-| 1 | Market Pulse v1: six subfield cards with live/fixture job counts | 🔜 |
-| 2 | Intelligence layer: Gemini skill extraction + Scholar research themes | 🔜 |
-| 3 | Orientation diagnostic: quiz + readiness radar | 🔜 |
-| 4 | Path matcher: deterministic ranked career paths | 🔜 |
+| **1** | Market Pulse v1: six subfield cards with live/fixture job counts | ✅ **Done** |
+| **2** | Intelligence layer: Gemini skill extraction + Scholar research themes | ✅ **Done** |
+| **3** | Orientation diagnostic: quiz + readiness radar | ✅ **Done** |
+| **4** | Path matcher: deterministic ranked career paths + grounded explanations + /paths UI | ✅ **Done** |
 | 5 | Opportunity tracker: scheduler, matched postings, is_new badges | 🔜 |
 | 6 | Gap analysis & learning plan | 🔜 |
 | 7 | Submission hardening: method page, demo script, secret scan | 🔜 |
