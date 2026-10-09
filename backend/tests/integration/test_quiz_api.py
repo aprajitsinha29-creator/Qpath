@@ -68,6 +68,7 @@ def test_quiz_endpoint_never_returns_correct_answers(client: TestClient) -> None
     # (real stems may contain "correction" etc.). The JSON keys below are the
     # actual answer fields that must never appear in GET /quiz.
     import json
+
     data = json.loads(body)
     for q in data["questions"]:
         assert "correct_index" not in q

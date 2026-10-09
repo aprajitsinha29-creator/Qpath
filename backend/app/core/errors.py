@@ -82,6 +82,17 @@ class LLMOutputError(AppError):
     status_code = 502
 
 
+class GeminiDailyQuotaExhausted(LLMOutputError):
+    """Every transport attempt failed with HTTP 429 — treat as quota exhaustion.
+
+    Subclass of :class:`LLMOutputError` so existing handlers keep working, but
+    distinct so callers that CAN fall back without waiting (the Phase 4
+    explanation service) can skip further retries entirely (design decision 1).
+    """
+
+    code = "gemini_quota_exhausted"
+
+
 class ConfigError(AppError):
     """A feature was invoked with missing/invalid configuration (500)."""
 

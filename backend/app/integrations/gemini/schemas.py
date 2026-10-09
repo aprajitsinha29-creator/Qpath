@@ -77,3 +77,30 @@ class ThemeSet(BaseModel):
     """Theme generation response: 3–5 themes over the supplied papers."""
 
     themes: list[Theme] = Field(default_factory=list)
+
+
+class PathExplanationItem(BaseModel):
+    """One path's grounded explanation as written by the model (plan 4.7).
+
+    Field limits are deliberately LOOSE here: word counts, the exactly-3
+    reasons rule and the numbers-in-evidence check are per-item domain
+    validations in ``explanation_service`` so one bad item falls back to its
+    template without discarding the other five (design decision 1). A strict
+    schema would make the google-genai client reject the whole batch.
+    """
+
+    path_id: str = ""
+    headline: str = ""
+    reasons: list[str] = Field(default_factory=list)
+    caveat: str = ""
+    next_step: str = ""
+
+
+class PathExplanationsBatch(BaseModel):
+    """ONE Gemini call returns explanations for all six paths (design decision 1).
+
+    The Gemini quota is tiny: a batch of six per assessment is one request,
+    and each item is validated — or templated — independently.
+    """
+
+    explanations: list[PathExplanationItem] = Field(default_factory=list)

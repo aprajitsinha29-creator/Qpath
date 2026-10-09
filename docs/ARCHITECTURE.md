@@ -1,6 +1,6 @@
 # Architecture — Quantum Pathfinder
 
-> Last updated: Phase 2 (Intelligence layer). Updated at the end of every phase per AGENTS.md 3.8.7.
+> Last updated: Phase 4 (Path matcher backend). Updated at the end of every phase per AGENTS.md 3.8.7.
 
 ---
 
@@ -249,3 +249,60 @@ POST /profiles/{id}/assessment → quiz_service.submit_assessment
 - The diagnostic does not yet feed anything downstream: path matching (Phase 4) will consume `readiness_scores` and profile interests.
 - No Gemini usage in this phase (per plan).
 - Owner must still verify all 18 questions (manual task M-08, BUILD_PLAN Section 6) and set `ALLOW_UNVERIFIED_QUESTIONS=false` before submission.
+
+
+---
+
+## Phase 4 — Path matcher (backend)
+
+### What was added
+
+**Backend**
+
+- **Models:** `path_explanations` table (`app/models/path_explanation.py`), storing `(profile_id, assessment_id, path_id, evidence_hash)` unique cache keys, JSON payload, and `generated_by` ("llm" | "template").
+- **Scoring:** pure deterministic scoring in `app/services/scoring_service.py`: `interest_n`, `readiness_n`, `demand_n` (log-compressed), `path_score` (40% interest, 30% demand, 30% readiness), `rank_paths` (tie-break: demand desc, then path id), and `saturation_note`.
+- **Services:**
+  - `services/paths_service.py`: `get_ranked_paths`, `get_ranked_paths_with_explanations`, `request_explanation`. Requires diagnostic assessment (409 `assessment_required`). Assembles live Pulse evidence: active postings (core-tier only for fairness), internship count, top skills, PhD share, sample postings, and flags (`low_data`, `saturated`).
+  - `services/explanation_service.py`: batched grounded explanations (`PathExplanationsBatch`). Validates numbers in LLM output against evidence JSON (`validate_numbers`); rejects hallucinations and falls back to deterministic template (`build_template`). Handles `GeminiDailyQuotaExhausted` by immediate degradation to templates without retrying.
+- **API:**
+  - `GET /profiles/{id}/paths`: returns 6 ranked paths with score breakdown, evidence, and cached explanation (if generated) or null.
+  - `POST /profiles/{id}/paths/explanations`: batched explanation generation for all 6 paths; returns all 6 paths with populated explanations.
+  - `POST /profiles/{id}/paths/{path_id}/explanation`: generates batch and returns single path explanation.
+- **Tests:** unit tests for pure scoring & explanation validators (`test_scoring_service.py`, `test_explanation_service.py`), and full integration suite (`test_paths_api.py`) covering 409 guard, evidence assembly, caching, cache invalidation, template fallbacks, and number validation.
+
+### Data flow
+
+```
+GET /profiles/{id}/paths → paths_service.get_ranked_paths
+  ├─ check latest assessment exists (else 409 AssessmentRequiredError)
+  ├─ load 6 scored subfields and linked CareerPath definitions
+  ├─ gather Pulse details: core active postings, internships, top skills, PhD share, samples
+  ├─ scoring_service.rank_paths: 100 * (0.40*interest + 0.30*demand + 0.30*readiness)
+  ├─ explanation_service.cached_explanations: attaches matching hash rows (no LLM call)
+  └─ return PathsOut
+
+POST /profiles/{id}/paths/explanations → paths_service.get_ranked_paths_with_explanations
+  ├─ assemble ranked paths and current evidence hashes
+  ├─ fetch cached rows matching evidence_hash
+  ├─ if any missing:
+  │    ONE batched Gemini call via StructuredLLM for missing paths
+  │    validate each item against word budgets AND validate_numbers (against evidence JSON)
+  │    on schema failure, number hallucination, LLM error, or GeminiDailyQuotaExhausted:
+  │      degrade to build_template (generated_by="template")
+  │    persist fresh cache rows in path_explanations
+  └─ return PathsOut with all explanations populated
+```
+
+### Decision log (Phase 4)
+
+- **Batched explanation endpoint (`POST /profiles/{id}/paths/explanations`):** The build plan specified `POST /profiles/{id}/paths/{path_id}/explanation`. Because Gemini API calls are expensive and subject to strict quotas, `explanation_service` generates explanations for all 6 paths in ONE batched LLM request (`PathExplanationsBatch`). We exposed `POST /profiles/{id}/paths/explanations` as the primary batched endpoint returning all 6 paths with explanations, while preserving `POST /profiles/{id}/paths/{path_id}/explanation` for single-path requests.
+- **Strict numeric grounding (`validate_numbers`):** LLM explanations are only allowed to cite numbers that actually appear in the evidence JSON passed to the model. Any hallucinated number causes the specific path's explanation to be rejected and replaced by a deterministic template (`generated_by="template"`), ensuring factuality.
+- **Zero failure for UI on LLM errors:** The paths and explanation endpoints never return 500 or 502 to the UI due to Gemini issues. When Gemini is unconfigured, raises an error, or hits quota, the deterministic template fallback guarantees a 200 response with transparent provenance.
+- **Core-tier demand isolation:** In alignment with Phase 1 fairness rules, only core-tier query postings feed `active_postings` and normalized demand scoring, preventing query-count imbalances across subfields from distorting rankings.
+
+### Known limits (Phase 4)
+
+- Declared skills picker (`PUT /profiles/{id}/skills`) was intentionally cut from this phase's scope per user instruction.
+- Frontend `/paths` UI is deferred to Phase 4 frontend work.
+- The 18 quiz questions in `quiz_questions.json` remain `verified=false` awaiting owner verification in M-08.
+

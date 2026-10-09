@@ -4,359 +4,401 @@
     "subfield_id": "qec",
     "concept_id": "qec.decoding",
     "difficulty": 1,
-    "stem": "What is the primary role of a decoder in a fault-tolerant quantum error correction system?",
+    "stem": "In a fault-tolerant error-correction cycle, what does the decoder do?",
     "options": [
-      "To map logical qubits onto physical qubits and schedule stabilizer measurements.",
-      "To reset ancilla qubits between every round so each measurement always starts from a known state.",
-      "To infer the likely error from the classical syndrome so a correction can be applied.",
-      "To apply a continuous feedback pulse that inverts the noise channel on data qubits."
-    ],
-    "correct_index": 2,
-    "explanation": "Stabilizer measurements yield a classical *syndrome*. The decoder is a classical algorithm (e.g. minimum-weight perfect matching) that infers the most likely error from that syndrome, and the correction is then applied or tracked in software. A describes encoding and compilation, not decoding. B is a physical reset step with no inference. D is wrong because decoding is discrete and classical, not a continuous physical operation.",
-    "source_refs": ["Terhal, \"Quantum error correction for quantum memories,\" *Rev. Mod. Phys.* 87, 307 (2015)", "Dennis et al., \"Topological quantum memory,\" *J. Math. Phys.* 43, 4452 (2002)"],
-    "verified": false,
-    "verified_by": "",
-    "verified_on": "",
-    "sort_order": 0
-  },
-  {
-    "id": "qec-3",
-    "subfield_id": "qec",
-    "concept_id": "qec.magic_states",
-    "difficulty": 3,
-    "stem": "On a 2D surface code, why can't a logical T gate be implemented by a transversal (constant-depth, local) circuit?",
-    "options": [
-      "Transversal gates destroy the entanglement between qubits that defines the logical code space.",
-      "On 2D topological codes, constant-depth local circuits only reach Clifford gates, and T isn't Clifford.",
-      "T needs mid-circuit measurement feedback, which fault-tolerant protocols cannot support below threshold.",
-      "The surface code allows only Pauli-basis measurements, ruling out any single-qubit rotation."
+      "It resets the ancilla qubits after every round so that the next syndrome measurement can start from a known state.",
+      "It uses the classical syndrome record to infer the most likely error, so a correction can be applied or tracked.",
+      "It encodes the logical qubit into an entangled state of many physical qubits before the computation begins, so errors can be detected.",
+      "It measures the data qubits directly in every round to check whether the encoded logical state has changed."
     ],
     "correct_index": 1,
-    "explanation": "Bravyi and König (2013) showed that on 2D topological stabilizer codes, constant-depth local circuits implement only Clifford gates. T is non-Clifford, so it cannot be transversal here. Non-Clifford gates instead require magic state injection, code switching, or cultivation. A is wrong because transversal gates act independently per qubit and don't spread errors. C is wrong because mid-circuit feedback is routine in fault-tolerant protocols. D is wrong because logical Clifford gates are available via lattice surgery and twist defects; the restriction is specific to T, not a general measurement limitation.",
-    "source_refs": ["Bravyi & König, *Phys. Rev. Lett.* 110, 170503 (2013)", "Eastin & Knill, *Phys. Rev. Lett.* 102, 110502 (2009)"],
+    "explanation": "The decoder is classical software that turns the syndrome (which stabilizer checks flipped) into an inferred error. Measuring the data qubits directly would destroy the encoded state, and ancilla reset and encoding are separate parts of the cycle.",
+    "source_refs": [
+      "Terhal, Rev. Mod. Phys. 87, 307 (2015)",
+      "Dennis, Kitaev, Landahl, Preskill, J. Math. Phys. 43, 4452 (2002)"
+    ],
     "verified": false,
     "verified_by": "",
-    "verified_on": "",
-    "sort_order": 1
+    "verified_on": ""
   },
   {
     "id": "qec-2",
     "subfield_id": "qec",
     "concept_id": "qec.magic_states",
     "difficulty": 2,
-    "stem": "In surface-code fault-tolerant computing, why is magic state distillation the standard way to implement logical T gates despite its overhead?",
+    "stem": "Surface-code computers usually run T gates by consuming distilled magic states. What problem does this solve?",
     "options": [
-      "It reduces noise in syndrome-readout circuits, pushing hardware below the fault-tolerance threshold.",
-      "It dynamically converts 2D surface-code patches into 3D color codes, making T transversal.",
-      "It converts physical Pauli errors into erasure errors, effectively doubling the code's distance.",
-      "Surface-code Cliffords can't make T directly, so noisy |T⟩ states are purified and consumed via teleportation."
+      "Syndrome measurements on the surface code are too noisy, so distillation cleans the measurement record before it reaches the decoder.",
+      "T requires continuous-angle control pulses, which a code can only approximate by averaging many repeated physical rotations.",
+      "The surface code cannot measure ancilla qubits in the X basis, so non-Clifford gates cannot be applied to its qubits directly.",
+      "Clifford operations cannot generate T, so a purified non-Clifford resource state is prepared separately and consumed by teleportation."
     ],
     "correct_index": 3,
-    "explanation": "Clifford operations alone can't give universal computation, so a non-Clifford resource is needed. Distillation (Bravyi–Kitaev, 2005) purifies many noisy |T⟩ copies into fewer high-fidelity ones, which are consumed by gate teleportation to apply a logical T. It is the standard route, not the only one: magic state cultivation (Gidney, Shutty & Jones, 2024) can roughly match the cost of a lattice-surgery CNOT. A, B, and C each describe real but unrelated techniques (readout improvement, code switching, erasure conversion).",
-    "source_refs": ["Bravyi & Kitaev, *Phys. Rev. A* 71, 022316 (2005)", "Gidney, Shutty & Jones, arXiv:2409.17595 (2024)"],
+    "explanation": "The surface code natively supports Clifford operations, which cannot produce T, so a distilled non-Clifford state is supplied and consumed by gate teleportation. Distillation is one route; others include magic state cultivation and code switching.",
+    "source_refs": [
+      "Bravyi & Kitaev, Phys. Rev. A 71, 022316 (2005)",
+      "Litinski, Quantum 3, 205 (2019)",
+      "Gidney, Shutty, Jones, arXiv:2409.17595"
+    ],
     "verified": false,
     "verified_by": "",
-    "verified_on": "",
-    "sort_order": 2
+    "verified_on": ""
   },
   {
-    "id": "hardware-1",
+    "id": "qec-3",
+    "subfield_id": "qec",
+    "concept_id": "qec.surface_code",
+    "difficulty": 3,
+    "stem": "Why can a logical T gate not be applied transversally (constant-depth, local) on a 2D surface code?",
+    "options": [
+      "Constant-depth local circuits on 2D topological codes can only implement Clifford gates (Bravyi–König), and T is not a Clifford gate.",
+      "The Eastin–Knill theorem forbids any code from having transversal gates, so no logical gate can be applied transversally.",
+      "A transversal T would let one physical fault spread to several qubits in the same block, defeating the code distance.",
+      "Applying T requires mid-circuit measurement and classical feedback, which the surface code cannot support while staying fault tolerant."
+    ],
+    "correct_index": 0,
+    "explanation": "Bravyi–König: constant-depth local circuits on 2D topological stabilizer codes implement only Clifford gates, and T is not Clifford. Eastin–Knill is weaker (no code has a universal transversal set), and transversal gates do not spread errors within a block.",
+    "source_refs": [
+      "Bravyi & König, Phys. Rev. Lett. 110, 170503 (2013)",
+      "Eastin & Knill, Phys. Rev. Lett. 102, 110502 (2009)",
+      "Fowler et al., Phys. Rev. A 86, 032324 (2012)"
+    ],
+    "verified": false,
+    "verified_by": "",
+    "verified_on": ""
+  },
+  {
+    "id": "hw-1",
     "subfield_id": "hardware",
     "concept_id": "hw.trapped_ions",
     "difficulty": 1,
-    "stem": "In trapped-ion computing, how are two-qubit gates such as Mølmer–Sørensen typically mediated between ions in the same trap?",
+    "stem": "In a trapped-ion processor, how does a Mølmer–Sørensen gate entangle two ions in the same chain?",
     "options": [
-      "Through shared phonon modes of the ion chain's motion, which lasers couple to internal states.",
-      "Via direct exchange of optical photons through free space between neighboring ions.",
-      "Through capacitive coupling across superconducting transmission lines that connect the ions.",
-      "Via direct magnetic dipole-dipole interactions between nuclear spins, with no motional involvement."
+      "Each ion emits a photon into free space, and the two photons are interfered on a beamsplitter to entangle the ions.",
+      "A superconducting coupler placed between the ions mediates a capacitive interaction, in the same way as in transmon circuits.",
+      "Control fields couple the ions' internal states to a shared vibrational mode of the chain, which carries the interaction between them.",
+      "The ions' nuclear magnetic moments interact directly across the micrometer gap, and the laser only switches that interaction on and off."
     ],
-    "correct_index": 0,
-    "explanation": "Ions in a Paul trap interact via Coulomb repulsion, coupling their motion into shared collective (phonon) modes. A bichromatic field in the Mølmer–Sørensen gate drives motional sidebands, entangling internal states through this shared mode. B is wrong because photon scattering causes decoherence, not coherent gates, within one trap. C describes transmon coupling, not ions. D is far too weak at these separations for fast gates.",
-    "source_refs": ["Mølmer & Sørensen, *Phys. Rev. Lett.* 82, 1835 (1999)", "Bruzewicz et al., \"Trapped-ion quantum computing: Progress and challenges,\" *Appl. Phys. Rev.* 6, 021314 (2019)"],
+    "correct_index": 2,
+    "explanation": "Coulomb repulsion couples the ions' motion into collective vibrational modes that act as a shared bus, and the gate uses a two-tone drive to entangle internal states through that mode. Photon-based links join separate traps, not ions inside one chain.",
+    "source_refs": [
+      "Bruzewicz et al., Appl. Phys. Rev. 6, 021314 (2019)",
+      "Mølmer & Sørensen, Phys. Rev. Lett. 82, 1835 (1999)",
+      "Sørensen & Mølmer, Phys. Rev. Lett. 82, 1971 (1999)"
+    ],
     "verified": false,
     "verified_by": "",
-    "verified_on": "",
-    "sort_order": 3
+    "verified_on": ""
   },
   {
-    "id": "hardware-2",
+    "id": "hw-2",
     "subfield_id": "hardware",
     "concept_id": "hw.neutral_atoms",
     "difficulty": 2,
-    "stem": "Why can neutral-atom processors achieve strong, on-demand two-qubit interactions despite atoms being neutral and weakly interacting in their ground states?",
+    "stem": "Neutral atoms barely interact in their ground states. What makes two-qubit gates possible in Rydberg-atom processors?",
     "options": [
-      "Laser pulses place both atoms in the same tweezer trap, producing direct wavefunction overlap.",
-      "Laser pulses briefly ionize each atom, letting them interact via the Coulomb force.",
-      "Rydberg excitation gives atoms a huge dipole moment, so van der Waals shifts block double excitation.",
-      "An applied magnetic field induces supercurrents inside the atomic nucleus."
+      "Laser pulses briefly ionize both atoms, and the resulting ions interact through the Coulomb force during the gate.",
+      "Exciting an atom to a high-n Rydberg state gives it a huge dipole moment, shifting a nearby atom's excitation out of resonance.",
+      "Atoms are released from their tweezers and collide briefly in free flight, and the collisions entangle their spin states.",
+      "Both atoms are loaded into a single tweezer, where direct wave-function overlap produces an exchange interaction on demand."
     ],
-    "correct_index": 2,
-    "explanation": "A Rydberg atom (high-n state) has a very large dipole moment, and the resulting van der Waals interaction (C₆ ∝ n¹¹) shifts the doubly excited state |rr⟩ far off resonance within a blockade radius r_b = (C₆/ħΩ)^(1/6). Only one atom in the pair can therefore be excited. A is wrong because atoms stay in separate tweezers, several µm apart. B is wrong because ionization would eject atoms from their traps. D has no physical basis.",
-    "source_refs": ["Jaksch et al., *Phys. Rev. Lett.* 85, 2208 (2000)", "Saffman, Walker & Mølmer, *Rev. Mod. Phys.* 82, 2313 (2010)"],
+    "correct_index": 1,
+    "explanation": "A Rydberg electron sits in a huge orbit, so the van der Waals shift (C6 grows as n^11) detunes a second excitation within the blockade radius, and that conditional behavior gives the entangling gate. The atoms stay in separate tweezers a few micrometers apart.",
+    "source_refs": [
+      "Saffman, Walker, Mølmer, Rev. Mod. Phys. 82, 2313 (2010)",
+      "Jaksch et al., Phys. Rev. Lett. 85, 2208 (2000)"
+    ],
     "verified": false,
     "verified_by": "",
-    "verified_on": "",
-    "sort_order": 4
+    "verified_on": ""
   },
   {
-    "id": "hardware-3",
+    "id": "hw-3",
     "subfield_id": "hardware",
     "concept_id": "hw.superconducting",
     "difficulty": 3,
-    "stem": "In a transmon, why is the Josephson junction's nonlinearity essential for using the circuit as a two-level qubit?",
+    "stem": "In a transmon, the Josephson junction's nonlinearity separates the |1⟩→|2⟩ transition from |0⟩→|1⟩. Which statement is correct?",
     "options": [
-      "It keeps the inductance constant regardless of current, stabilizing the resonance frequency.",
-      "It makes energy levels non-equidistant, separating |1⟩→|2⟩ from |0⟩→|1⟩ by about E_C.",
-      "It opens a topological gap that eliminates T₁ relaxation entirely.",
-      "It converts microwave excitations to optical wavelengths for fiber-optic readout."
-    ],
-    "correct_index": 1,
-    "explanation": "A linear LC oscillator has equally spaced levels, so a resonant drive would excite multiple transitions at once. The junction's current-dependent inductance makes the potential anharmonic, separating |1⟩→|2⟩ from |0⟩→|1⟩ by roughly E_C, which is typically a few hundred MHz. This enables selective driving, with shaped pulses such as DRAG limiting leakage. A is backwards, since the defining property is that the inductance varies. C is wrong because T₁ is limited by dielectric loss and Purcell decay, not topology. D is wrong because transmons operate and are read out at microwave frequencies.",
-    "source_refs": ["Koch et al., *Phys. Rev. A* 76, 042319 (2007)", "Krantz et al., \"A quantum engineer's guide to superconducting qubits,\" *Appl. Phys. Rev.* 6, 021318 (2019)"],
-    "verified": false,
-    "verified_by": "",
-    "verified_on": "",
-    "sort_order": 5
-  },
-  {
-    "id": "software-1",
-    "subfield_id": "software",
-    "concept_id": "sw.sdks",
-    "difficulty": 1,
-    "stem": "In Qiskit's V2 primitives, what does an Estimator do that a Sampler doesn't?",
-    "options": [
-      "Returns raw bitstrings from repeated projective measurements of the circuit.",
-      "Predicts the execution time and cost of a circuit before submission.",
-      "Characterizes qubit coherence times by running calibration sequences during a session.",
-      "Computes expectation values of given observables for a circuit, without exposing individual shot bitstrings."
+      "|1⟩→|2⟩ sits somewhat higher in frequency, because the cosine potential is steeper than a parabola, so a |0⟩→|1⟩ pulse mostly avoids it.",
+      "|1⟩→|2⟩ sits at the same frequency as |0⟩→|1⟩, and the qubit is isolated instead by the large E_J/E_C ratio of the circuit.",
+      "|1⟩→|2⟩ is shifted by roughly E_J, many gigahertz away, so leakage out of the qubit subspace is never a concern in practice.",
+      "|1⟩→|2⟩ sits somewhat lower in frequency (roughly E_C below), so a pulse resonant with |0⟩→|1⟩ mostly avoids driving it."
     ],
     "correct_index": 3,
-    "explanation": "The Estimator takes circuits and observables (e.g. Pauli sums) and returns expectation values with uncertainty, making it the natural primitive for variational algorithms such as VQE and QAOA. The V1 primitives were no longer supported after 15 August 2024, so only V2 is available on Qiskit Runtime. A describes the Sampler's job. B and C are not primitive functions; cost estimation and calibration happen elsewhere.",
-    "source_refs": ["IBM Quantum documentation, \"Migrate to the Qiskit Runtime V2 primitives,\" https://quantum.cloud.ibm.com/docs/guides/v2-primitives"],
-    "verified": false,
-    "verified_by": "",
-    "verified_on": "",
-    "sort_order": 6
-  },
-  {
-    "id": "software-2",
-    "subfield_id": "software",
-    "concept_id": "sw.hybrid_workflows",
-    "difficulty": 2,
-    "stem": "In a multi-iteration VQE run, why is transpiling once and rebinding parameter values each iteration far more efficient than re-transpiling every time?",
-    "options": [
-      "Transpilation depends only on circuit structure, so it runs once; iterations just supply new angle values.",
-      "Parameter binding freezes qubit relaxation rates so T₁ decay stops accumulating.",
-      "Parameter binding moves the classical optimizer into the dilution refrigerator.",
-      "Parameter binding converts non-unitary operations into unitary ones before hardware execution."
+    "explanation": "The cosine potential is softer than a parabola, so levels get closer together going up: the anharmonicity is about −E_C, typically a few hundred MHz. That modest gap allows selective driving of 0↔1 but still leaks, which is why shaped pulses such as DRAG are used.",
+    "source_refs": [
+      "Koch et al., Phys. Rev. A 76, 042319 (2007)",
+      "Krantz et al., Appl. Phys. Rev. 6, 021318 (2019)",
+      "Motzoi et al., Phys. Rev. Lett. 103, 110501 (2009)"
     ],
-    "correct_index": 0,
-    "explanation": "Transpilation (layout, routing, decomposition into native gates) is costly, but a VQE ansatz's structure doesn't change between iterations, only the rotation angles. Qiskit V2 primitives support this pattern: transpile once to an ISA circuit, then pass new parameter arrays on each call. B is wrong because binding is purely software and doesn't touch physical qubit properties. C is wrong because the classical optimizer runs outside the cryostat and needs each iteration's result before proceeding. D is wrong because binding only substitutes numeric values.",
-    "source_refs": ["IBM Quantum documentation, \"Migrate to the Qiskit Runtime V2 primitives,\" https://quantum.cloud.ibm.com/docs/guides/v2-primitives"],
     "verified": false,
     "verified_by": "",
-    "verified_on": "",
-    "sort_order": 7
+    "verified_on": ""
   },
   {
-    "id": "software-3",
+    "id": "sw-1",
     "subfield_id": "software",
     "concept_id": "sw.circuit_model",
-    "difficulty": 3,
-    "stem": "Virtual Z gates update a software-tracked phase frame instead of applying a physical pulse. What does this require of later pulses on that qubit?",
+    "difficulty": 1,
+    "stem": "A circuit written with arbitrary gates must be transpiled before it runs on real hardware. What does transpilation do?",
     "options": [
-      "All later pulses on the qubit must be sent at a higher carrier frequency to preserve the phase.",
-      "A physical Rz pulse must play before every Z-basis measurement to fold in the phase.",
-      "The accumulated phase must be added to later X/Y pulses and any two-qubit drive on that qubit.",
-      "All later X and Y rotations must be replaced by projective measurements."
+      "It rewrites the circuit into the device's native gates and maps it onto the qubit connectivity, inserting SWAPs where needed.",
+      "It reduces hardware errors in the output by repeating the run many times and keeping the majority result of the shots.",
+      "It simulates the circuit classically to find the answer, so that the quantum device is only used for verification.",
+      "It converts the circuit into another programming language so that the same circuit can be imported into any other SDK."
+    ],
+    "correct_index": 0,
+    "explanation": "Transpilation adapts a circuit to a specific device: it decomposes gates into the native set, chooses a qubit layout, routes around limited connectivity with SWAPs, and optimizes. It does not correct errors or compute the answer classically.",
+    "source_refs": [
+      "Official transpiler documentation of the SDK you use (Qiskit or Cirq): check the current page at verification time"
+    ],
+    "verified": false,
+    "verified_by": "",
+    "verified_on": ""
+  },
+  {
+    "id": "sw-2",
+    "subfield_id": "software",
+    "concept_id": "sw.transpilation",
+    "difficulty": 2,
+    "stem": "A VQE run on hardware evaluates one parameterized circuit with new angles for hundreds of iterations. Why transpile it once rather than every iteration?",
+    "options": [
+      "Binding new angles resets the qubits' relaxation clocks, so the quantum state stays coherent from one iteration to the next.",
+      "Repeated transpilation would alter the circuit's cost function, which could move the optimizer to a different minimum.",
+      "Layout, routing and gate decomposition depend on the circuit's structure, not its angles, so they only need doing once.",
+      "Re-transpiling resets the device's calibration data, which would force a full recalibration before every single iteration."
     ],
     "correct_index": 2,
-    "explanation": "A virtual Z (McKay et al., 2017) changes the reference frame rather than physically rotating the qubit. It takes zero time and adds no error, but every later pulse, including two-qubit drive tones defined in that qubit's frame, must carry the accumulated phase offset. A is wrong because the frequency of the carrier does not encode the phase in this scheme. B is wrong because Z-basis measurement probabilities are phase-independent, so no physical Rz is needed before readout. D is wrong because later X and Y pulses remain ordinary microwave pulses, just phase-shifted.",
-    "source_refs": ["McKay et al., \"Efficient Z gates for quantum computing,\" *Phys. Rev. A* 96, 022330 (2017)", "Krantz et al., \"A quantum engineer's guide to superconducting qubits,\" *Appl. Phys. Rev.* 6, 021318 (2019)"],
+    "explanation": "Layout, routing and native-gate decomposition depend only on the circuit's structure, which is the same in every iteration; only the rotation angles change. So you transpile once and pass new parameter values each time, which also allows many parameter sets to be batched.",
+    "source_refs": [
+      "Peruzzo et al., Nat. Commun. 5, 4213 (2014)",
+      "Official docs of the SDK you use on parameterized circuits (check current page)"
+    ],
     "verified": false,
     "verified_by": "",
-    "verified_on": "",
-    "sort_order": 8
+    "verified_on": ""
   },
   {
-    "id": "algorithms-1",
-    "subfield_id": "algorithms",
-    "concept_id": "found.qubits_and_gates",
-    "difficulty": 1,
-    "stem": "Which complexity class consists of decision problems solvable by a polynomial-time quantum computer with error probability at most 1/3?",
+    "id": "sw-3",
+    "subfield_id": "software",
+    "concept_id": "sw.hybrid_workflows",
+    "difficulty": 3,
+    "stem": "A 40-parameter ansatz has each parameter in exactly one gate exp(−iθP/2), with P a Pauli operator. How many circuit evaluations does one full parameter-shift gradient need?",
     "options": [
-      "NP",
-      "BQP",
-      "QMA",
-      "PSPACE"
+      "41, because the gradient needs one reference run plus one shifted run for each parameter.",
+      "80, because each parameter needs one evaluation at θ+π/2 and one at θ−π/2.",
+      "1, because a single run provides every partial derivative, as backpropagation does in a classical simulator.",
+      "1,600, because every parameter must be shifted against every other parameter in the circuit."
     ],
     "correct_index": 1,
-    "explanation": "BQP (Bounded-error Quantum Polynomial time) is the class of problems a quantum computer solves in polynomial time with success probability at least 2/3. The proven containments are P ⊆ BPP ⊆ BQP ⊆ PP ⊆ PSPACE. The relationship between NP and BQP is an open problem (A). QMA is the certificate-based analogue of BQP, and BQP ⊆ QMA is proven, while whether QMA ⊆ BQP is not known (C). PSPACE is a proven upper bound on BQP, not a known equality (D).",
-    "source_refs": ["Bernstein & Vazirani, *SIAM J. Comput.* 26(5), 1411 (1997)", "Watrous, \"Quantum Computational Complexity,\" in *Encyclopedia of Complexity and Systems Science* (2009)"],
+    "explanation": "The parameter-shift rule gives each partial derivative exactly from two evaluations at θ±π/2, so 40 parameters need 80 evaluations per gradient (per observable). Backpropagation's single pass is not available on hardware because intermediate quantum states cannot be read out.",
+    "source_refs": [
+      "Mitarai, Negoro, Kitagawa, Fujii, Phys. Rev. A 98, 032309 (2018)",
+      "Schuld et al., Phys. Rev. A 99, 032331 (2019)"
+    ],
     "verified": false,
     "verified_by": "",
-    "verified_on": "",
-    "sort_order": 9
+    "verified_on": ""
   },
   {
-    "id": "algorithms-2",
+    "id": "alg-1",
+    "subfield_id": "algorithms",
+    "concept_id": "alg.grover",
+    "difficulty": 1,
+    "stem": "Grover's algorithm searches an unstructured collection of N items. Roughly how many queries does it need?",
+    "options": [
+      "About log N queries, an exponential speedup over any classical search of the collection.",
+      "About N/2 queries, since a single quantum step halves the search space before measuring.",
+      "About N queries, the same as classical search, but with a much higher success probability.",
+      "About √N queries, a quadratic speedup over the order-N queries a classical search needs."
+    ],
+    "correct_index": 3,
+    "explanation": "Grover's amplitude amplification finds a marked item in about (π/4)√N queries, a quadratic speedup that is provably optimal for unstructured search. It is not an exponential speedup.",
+    "source_refs": [
+      "Grover, Proc. 28th ACM STOC, 212 (1996)",
+      "Bennett, Bernstein, Brassard, Vazirani, SIAM J. Comput. 26, 1510 (1997)",
+      "Nielsen & Chuang, Ch. 6"
+    ],
+    "verified": false,
+    "verified_by": "",
+    "verified_on": ""
+  },
+  {
+    "id": "alg-2",
     "subfield_id": "algorithms",
     "concept_id": "alg.phase_estimation",
     "difficulty": 2,
-    "stem": "In Shor's algorithm, the QFT yields a measurement y close to a multiple of 2ⁿ/r, where r is the unknown period. Which classical step converts y into a candidate for r?",
+    "stem": "In Shor's algorithm, the quantum Fourier transform gives a measurement outcome y close to a multiple of 2ⁿ/r. Which classical step turns y into a candidate period r?",
     "options": [
-      "The Miller–Rabin primality test applied to the measurement outcome.",
-      "Gaussian elimination over GF(2) applied to the measurement outcomes.",
-      "A classical discrete Fourier transform applied to the measurement outcomes.",
-      "The continued fraction expansion of y/2ⁿ, finding the best rational approximation s/r."
+      "A continued-fraction expansion of y/2ⁿ, which recovers a fraction s/r with a small denominator close to the measured value.",
+      "A classical discrete Fourier transform of the measured outcomes, in which the period appears as a single peak.",
+      "Gaussian elimination over GF(2) on the measured bitstrings, as used to recover the hidden string in Simon's algorithm.",
+      "A Grover search over all candidate periods r, checking each candidate against the measured value y."
     ],
-    "correct_index": 3,
-    "explanation": "Since y/2ⁿ ≈ s/r, the continued fraction expansion of y/2ⁿ recovers s/r as a convergent with denominator below N (when 2ⁿ ≥ N²). The candidate r is then verified by checking aʳ ≡ 1 (mod N), and repeats may be needed if s and r share a factor. A tests primality, which is unrelated here. B is used in other algorithms such as Simon's, not in Shor's period extraction. C confuses the quantum step (QFT) with the classical post-processing step.",
-    "source_refs": ["Shor, *SIAM J. Comput.* 26(5), 1484 (1997)", "Nielsen & Chuang, *Quantum Computation and Quantum Information*, Ch. 5"],
+    "correct_index": 0,
+    "explanation": "Since y/2ⁿ ≈ s/r, the continued-fraction expansion finds the fraction with a small denominator, which gives r or a divisor of it. The candidate is then checked with a^r ≡ 1 (mod N), and the run is repeated if it fails.",
+    "source_refs": [
+      "Shor, SIAM J. Comput. 26, 1484 (1997)",
+      "Nielsen & Chuang, Ch. 5 and Appendix 4"
+    ],
     "verified": false,
     "verified_by": "",
-    "verified_on": "",
-    "sort_order": 10
+    "verified_on": ""
   },
   {
-    "id": "algorithms-3",
+    "id": "alg-3",
     "subfield_id": "algorithms",
     "concept_id": "alg.variational",
     "difficulty": 3,
-    "stem": "In QAOA, why does increasing the layer count p theoretically improve solution quality, and what limits this in practice?",
+    "stem": "A researcher increases the QAOA depth p on a Max-Cut instance. Which statement about the best achievable noise-free objective value is correct?",
     "options": [
-      "Best value never decreases with p; as p→∞ QAOA reaches the optimum, but optimization difficulty and noise limit this practically.",
-      "Increasing p turns the cost Hamiltonian into a non-Hermitian operator, speeding convergence via non-unitary dynamics.",
-      "Past a certain depth the output state becomes fully deterministic, so no further measurement is needed.",
-      "Increasing p reduces the number of variational parameters as redundant layers are merged."
+      "It improves strictly with every added layer, so any instance reaches its optimum at a small fixed value of p.",
+      "It can get worse beyond a modest depth, because the added layers over-fit the cost landscape of the instance.",
+      "It never gets worse as p grows, because extra layers can be set to do nothing, though optimizing 2p angles gets harder.",
+      "It is independent of p, because the cost Hamiltonian alone fixes the energy of the final state."
     ],
-    "correct_index": 0,
-    "explanation": "Setting a new layer's angles to zero reproduces the depth-p circuit, so the achievable optimum is non-decreasing in p. As p→∞, QAOA can approach Trotterized adiabatic evolution to the ground state. In practice, the growing parameter landscape is hard to optimize and noise accumulates with depth. B is wrong because the cost Hamiltonian stays Hermitian and QAOA stays unitary at every depth. C is wrong because QAOA always outputs a probability distribution that requires sampling. D is wrong because each layer adds two parameters (γ, β), so the count grows as 2p.",
-    "source_refs": ["Farhi, Goldstone & Gutmann, \"A Quantum Approximate Optimization Algorithm,\" arXiv:1411.4028 (2014)", "Zhou et al., \"Quantum Approximate Optimization Algorithm: Performance, Mechanism, and Implementation on Near-Term Devices,\" *Phys. Rev. X* 10, 021067 (2020)"],
+    "correct_index": 2,
+    "explanation": "Setting a new layer's angles to zero reproduces the depth-p circuit, so the optimum over all angles cannot decrease with p, and as p grows QAOA can reproduce adiabatic evolution. In practice the 2p-angle landscape becomes hard to optimize and noise grows with depth.",
+    "source_refs": [
+      "Farhi, Goldstone, Gutmann, arXiv:1411.4028",
+      "Zhou et al., Phys. Rev. X 10, 021067 (2020)"
+    ],
     "verified": false,
     "verified_by": "",
-    "verified_on": "",
-    "sort_order": 11
+    "verified_on": ""
   },
   {
     "id": "qml-1",
     "subfield_id": "qml",
     "concept_id": "qml.data_encoding",
     "difficulty": 1,
-    "stem": "What is the primary purpose of a quantum feature map in a quantum kernel-based model?",
+    "stem": "In quantum machine learning, what is the purpose of a quantum feature map?",
     "options": [
-      "Compresses high-dimensional quantum states into short classical bitstrings for efficient storage.",
-      "Detects and corrects single-qubit bit-flip errors while a variational classifier runs.",
-      "Encodes classical data into a high-dimensional quantum state so a kernel method can separate non-linear classes.",
-      "Estimates the gradient of a cost function from a single circuit evaluation."
+      "To compress a quantum state into a short classical bitstring that can be stored cheaply and reloaded later on.",
+      "To detect and correct bit-flip errors on the qubits while a variational classifier is being trained on the data.",
+      "To estimate the gradient of the cost function from a single evaluation of the circuit on the training data.",
+      "To encode classical data points into quantum states, so that a kernel method can compare them in a high-dimensional Hilbert space."
     ],
-    "correct_index": 2,
-    "explanation": "A feature map Φ(x) encodes data into a state |Φ(x)⟩ in a 2ⁿ-dimensional Hilbert space. The resulting kernel K(x,x′) = |⟨Φ(x)|Φ(x′)⟩|² lets a classical kernel machine (e.g. an SVM) find a separating hyperplane that is nonlinear in the original input space. A has it backwards, since feature maps expand into a larger space rather than compress. B and D describe unrelated functions (error correction and gradient estimation) that feature maps do not perform.",
-    "source_refs": ["Havlíček et al., \"Supervised learning with quantum-enhanced feature spaces,\" *Nature* 567, 209 (2019)", "Schuld & Killoran, \"Quantum Machine Learning in Feature Hilbert Spaces,\" *Phys. Rev. Lett.* 122, 040504 (2019)"],
+    "correct_index": 3,
+    "explanation": "A feature map is a circuit that loads a classical input x into a state |Φ(x)⟩, and overlaps between such states define a kernel that a classical model such as an SVM can use. A larger Hilbert space alone does not guarantee an advantage.",
+    "source_refs": [
+      "Havlíček et al., Nature 567, 209 (2019)",
+      "Schuld & Killoran, Phys. Rev. Lett. 122, 040504 (2019)"
+    ],
     "verified": false,
     "verified_by": "",
-    "verified_on": "",
-    "sort_order": 12
+    "verified_on": ""
   },
   {
     "id": "qml-2",
     "subfield_id": "qml",
     "concept_id": "qml.barren_plateaus",
     "difficulty": 2,
-    "stem": "A 50-qubit variational circuit uses an alternating layered ansatz of local 2-designs. Which design choice most likely causes an exponentially vanishing-gradient barren plateau, even though the circuit is shallow?",
+    "stem": "A 50-qubit variational circuit uses an alternating layered ansatz of local 2-design blocks. Which choice most likely causes a barren plateau even though the circuit is shallow?",
     "options": [
-      "Defining the cost with a global observable, such as the all-zero projector on 50 qubits.",
-      "Defining the cost as a sum of single-qubit observables, with depth growing only logarithmically.",
-      "Initializing the circuit so sub-blocks start by implementing the identity.",
-      "Training the circuit layer by layer, optimizing small parameter groups sequentially."
+      "An initialization in which sub-blocks of the circuit start out implementing the identity operation on their qubits.",
+      "A cost function built from a global observable, such as the projector onto |0…0⟩ across all 50 qubits.",
+      "A cost function built as a sum of single-qubit observables, with depth growing only logarithmically in qubit count.",
+      "Training the circuit layer by layer, optimizing only a small group of parameters at a time before moving on."
     ],
-    "correct_index": 0,
-    "explanation": "Cerezo et al. (2021) showed that global cost functions on alternating layered ansätze can produce exponentially vanishing gradients, including at shallow depth. B is wrong because local cost functions give at worst polynomially vanishing gradients when depth is O(log n). C and D are mitigation strategies (identity-block initialization and layerwise training), not causes of the plateau.",
-    "source_refs": ["Cerezo et al., \"Cost function dependent barren plateaus in shallow parametrized quantum circuits,\" *Nat. Commun.* 12, 1791 (2021)", "McClean et al., \"Barren plateaus in quantum neural network training landscapes,\" *Nat. Commun.* 9, 4812 (2018)"],
+    "correct_index": 1,
+    "explanation": "For shallow layered ansätze, global cost functions give gradients that vanish exponentially with qubit number, while local costs at logarithmic depth vanish only polynomially. Identity-block initialization and layerwise training are mitigation strategies, not causes.",
+    "source_refs": [
+      "McClean et al., Nat. Commun. 9, 4812 (2018)",
+      "Cerezo et al., Nat. Commun. 12, 1791 (2021)"
+    ],
     "verified": false,
     "verified_by": "",
-    "verified_on": "",
-    "sort_order": 13
+    "verified_on": ""
   },
   {
     "id": "qml-3",
     "subfield_id": "qml",
     "concept_id": "qml.kernels",
     "difficulty": 3,
-    "stem": "Under what condition can a classical algorithm efficiently compute a quantum kernel K(x,x′), removing any quantum advantage from its evaluation?",
+    "stem": "Which property of a quantum feature-map circuit lets a classical computer evaluate the kernel K(x, x′) = |⟨Φ(x)|Φ(x′)⟩|² efficiently?",
     "options": [
-      "When the input data have continuous real values rather than binary entries.",
-      "When the feature map uses highly expressive, deeply entangling quantum circuits.",
-      "When the kernel's Gram matrix is non-symmetric and has complex eigenvalues.",
-      "When the feature-map circuit belongs to a classically simulable class, such as stabilizer circuits."
+      "The input data are real-valued rather than binary, since continuous inputs can be handled with classical floating-point arithmetic.",
+      "The kernel matrix is symmetric and positive semidefinite, so that any classical SVM solver can then use it directly.",
+      "The circuits that prepare |Φ(x)⟩ are classically simulable, for example Clifford-only, matchgate, or low-entanglement tensor-network circuits.",
+      "The training set contains only a few points, since the kernel then needs only a small number of entries."
     ],
-    "correct_index": 3,
-    "explanation": "If the circuit generating |Φ(x)⟩ can be simulated efficiently (e.g. Clifford/stabilizer circuits, product states, or low-entanglement tensor networks), the overlap and therefore the kernel can also be computed efficiently. A is wrong because data type does not determine simulability. B describes the opposite regime: hard-to-simulate circuits are where classical evaluation is not expected to be efficient, though such kernels can suffer exponential concentration instead. C is wrong because fidelity kernels are real, symmetric, and positive semidefinite by construction.",
-    "source_refs": ["Gottesman, \"The Heisenberg Representation of Quantum Computers,\" arXiv:quant-ph/9807006 (1998)", "Thanasilp, Wang, Cerezo & Holmes, \"Exponential concentration in quantum kernel methods,\" *Nat. Commun.* 15 (2024), doi:10.1038/s41467-024-49287-w (preprint: arXiv:2208.11060, \"Exponential concentration and untrainability in quantum kernel methods,\" 2022)"],
+    "correct_index": 2,
+    "explanation": "If the circuits generating |Φ(x)⟩ are efficiently simulable (Gottesman–Knill, matchgates, low entanglement), the overlap can be computed classically, so the kernel offers no computational advantage. Hard-to-simulate circuits are necessary for an advantage but not sufficient, since strong entanglement can also make kernel values concentrate.",
+    "source_refs": [
+      "Gottesman, arXiv:quant-ph/9807006",
+      "Huang et al., Nat. Commun. 12, 2631 (2021)",
+      "Thanasilp et al., arXiv:2208.11060 (check exact title)"
+    ],
     "verified": false,
     "verified_by": "",
-    "verified_on": "",
-    "sort_order": 14
+    "verified_on": ""
   },
   {
-    "id": "crypto_net-1",
+    "id": "cn-1",
     "subfield_id": "crypto_net",
     "concept_id": "cn.pqc",
     "difficulty": 1,
-    "stem": "Which mathematical problem class forms the hardness foundation for the public-key standards NIST finalized in August 2024, ML-KEM (FIPS 203) and ML-DSA (FIPS 204)?",
+    "stem": "ML-KEM, standardized by NIST as FIPS 203, is designed to resist quantum attackers. What is its security based on?",
     "options": [
-      "Integer factorization of semiprimes, as used in RSA.",
-      "Structured lattice problems, namely Module Learning With Errors (and Module-SIS for signatures).",
-      "Discrete logarithms over elliptic curves, as used in ECDSA and ECDH.",
-      "Quantum phase estimation applied to abelian group structure."
+      "The difficulty of solving noisy linear equations over structured lattices (Module-LWE).",
+      "The difficulty of factoring the product of two very large prime numbers.",
+      "The difficulty of computing discrete logarithms on elliptic curves over finite fields.",
+      "The collision resistance of hash functions, combined into trees of one-time signatures."
     ],
-    "correct_index": 1,
-    "explanation": "ML-KEM relies on Module-LWE, and ML-DSA relies on Module-LWE and Module-SIS. Both are conjectured hard against classical and quantum attacks. Of the three standards finalized in August 2024, two are lattice-based; SLH-DSA (FIPS 205) is hash-based. FN-DSA (FIPS 206, based on Falcon and NTRU lattices) is still a draft as of October 2026. A and C name the problems Shor's algorithm breaks in polynomial time. D describes an algorithmic subroutine, not a hardness assumption.",
-    "source_refs": ["NIST, FIPS 203 and FIPS 204 (August 2024)", "Regev, \"On lattices, learning with errors, random linear codes, and cryptography,\" *J. ACM* 56(6), 34 (2009)"],
+    "correct_index": 0,
+    "explanation": "ML-KEM is based on Module-LWE, a structured-lattice problem with no known efficient quantum attack. Factoring and elliptic-curve discrete logarithms fall to Shor's algorithm, and hash-based security underlies a different standard, SLH-DSA.",
+    "source_refs": [
+      "NIST FIPS 203 (2024)",
+      "Langlois & Stehlé, Des. Codes Cryptogr. 75, 565 (2015)"
+    ],
     "verified": false,
     "verified_by": "",
-    "verified_on": "",
-    "sort_order": 15
+    "verified_on": ""
   },
   {
-    "id": "crypto_net-2",
+    "id": "cn-2",
     "subfield_id": "crypto_net",
     "concept_id": "cn.qkd",
     "difficulty": 2,
-    "stem": "In noiseless BB84, Alice and Bob each independently pick one of two conjugate bases (Z, X) with equal probability for every photon. What fraction of raw key bits are discarded during sifting?",
+    "stem": "In BB84, Alice sends photons prepared in one of two random bases, and Bob measures each in a randomly chosen basis. With no noise and no eavesdropper, what fraction of raw key bits is discarded during sifting?",
     "options": [
-      "25%, the fraction of rounds in which both parties chose the Z basis.",
-      "0%, since nothing needs to be discarded without noise or eavesdropping.",
-      "75%, the fraction of rounds in which at least one party chose the X basis.",
-      "50%, the fraction of rounds in which Alice and Bob used different bases."
+      "25%, the share of rounds in which both of them used the Z basis.",
+      "75%, the share of rounds in which at least one of them used the X basis.",
+      "0%, because with no noise or eavesdropper nothing needs to be discarded.",
+      "50%, the share of rounds in which Alice and Bob used different bases."
     ],
     "correct_index": 3,
-    "explanation": "Bases match with probability P(ZZ) + P(XX) = 1/4 + 1/4 = 1/2. The mismatched rounds, half of the total, are discarded because Bob's result there is uncorrelated with Alice's bit. A is just one matching case (ZZ), not the total match rate. B ignores that basis mismatch is intrinsic to BB84 even on a perfect channel. C overcounts, since \"at least one X\" includes some matched (XX) rounds.",
-    "source_refs": ["Bennett & Brassard, \"Quantum cryptography: Public key distribution and coin tossing\" (1984)", "Gisin et al., \"Quantum cryptography,\" *Rev. Mod. Phys.* 74, 145 (2002)"],
+    "explanation": "Bob's basis matches Alice's with probability 1/2, and in the mismatched half his result is random, so those rounds are discarded even on a perfect channel.",
+    "source_refs": [
+      "Bennett & Brassard, Proc. IEEE ICCSP, Bangalore, 175 (1984)",
+      "Gisin et al., Rev. Mod. Phys. 74, 145 (2002)"
+    ],
     "verified": false,
     "verified_by": "",
-    "verified_on": "",
-    "sort_order": 16
+    "verified_on": ""
   },
   {
-    "id": "crypto_net-3",
+    "id": "cn-3",
     "subfield_id": "crypto_net",
     "concept_id": "cn.threat_model",
     "difficulty": 3,
-    "stem": "Why does \"Harvest Now, Decrypt Later\" pose an urgent risk today, even though a cryptographically relevant quantum computer doesn't yet exist?",
+    "stem": "Records must stay confidential for 20 years. They travel over connections that use RSA key exchange to set up AES-256 session keys. Migrating to post-quantum key exchange takes 6 years, and a code-breaking quantum computer is assumed to be 15 years away. What follows?",
     "options": [
-      "Adversaries can record classical ciphertext now and decrypt it later once a capable quantum computer exists.",
-      "Quantum computers in development can send signals back in time to intercept live transmissions.",
-      "Present-day NISQ processors can already break 2048-bit RSA if enough are run in parallel.",
-      "Stored ciphertexts degrade into recoverable plaintext through exposure to cosmic radiation."
+      "They have 9 years before action is needed, because only the 6-year migration has to finish before the 15-year date.",
+      "They are already at risk: attackers can record traffic now and break the RSA key exchange later, and 20 + 6 exceeds 15.",
+      "They are safe, because AES-256 is only weakened to about 128-bit strength by Grover's algorithm, which is still strong.",
+      "They are safe if the traffic is encrypted today, because encrypted records stay protected whatever computers exist later."
     ],
-    "correct_index": 0,
-    "explanation": "HNDL targets public-key schemes (RSA, ECC) that Shor's algorithm will eventually break. Data archived today stays exposed once a capable machine exists, which matters most for data that needs decades of confidentiality. Published resource estimates for RSA-2048 have fallen sharply, from about 20 million noisy qubits (Gidney & Ekerå, 2021) to under 1 million (Gidney, 2025). A 2026 architecture proposal (Pinnacle) reports under 100,000 physical qubits, but only under stated assumptions: a physical error rate of 10⁻³, a 1 µs code cycle, and a 10 µs reaction time, using quantum LDPC codes. All estimates remain far beyond existing hardware. B violates causality. C is wrong because breaking RSA requires error-corrected logical qubits, not many noisy qubits run in parallel. D has no physical basis.",
-    "source_refs": ["Mosca, \"Cybersecurity in an Era with Quantum Computers: Will We Be Ready?\", *IEEE Security & Privacy* 16(5), 38 (2018)", "Gidney & Ekerå, \"How to factor 2048 bit RSA integers in 8 hours using 20 million noisy qubits,\" *Quantum* 5, 433 (2021)", "Gidney, \"How to factor 2048 bit RSA integers with less than a million noisy qubits,\" arXiv:2505.15917 (2025)", "Webster et al., \"The Pinnacle Architecture: Reducing the cost of breaking RSA-2048 to 100 000 physical qubits using quantum LDPC codes,\" arXiv:2602.11457 (2026)"],
+    "correct_index": 1,
+    "explanation": "Mosca's inequality: if data lifetime plus migration time exceeds the time until a capable quantum computer (20 + 6 > 15), recorded traffic is already exposed. The AES-256 session keys are fine against Grover, but the RSA key exchange that protects them falls to Shor's algorithm.",
+    "source_refs": [
+      "Mosca, IEEE Security & Privacy 16(5), 38–41 (2018)",
+      "Shor, SIAM J. Comput. 26, 1484 (1997)",
+      "Gidney & Ekerå, Quantum 5, 433 (2021)"
+    ],
     "verified": false,
     "verified_by": "",
-    "verified_on": "",
-    "sort_order": 17
+    "verified_on": ""
   }
 ]

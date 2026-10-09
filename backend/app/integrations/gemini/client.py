@@ -37,7 +37,7 @@ from typing import Protocol, runtime_checkable
 from pydantic import BaseModel, ValidationError
 
 from app.core.config import Settings
-from app.core.errors import LLMOutputError
+from app.core.errors import GeminiDailyQuotaExhausted, LLMOutputError
 
 logger = logging.getLogger(__name__)
 
@@ -302,7 +302,12 @@ class GeminiStructuredLLM:
                 self._sleeper(delay)
                 continue
             if retryable:
-                raise LLMOutputError(
+                # A 429 that survived every backoff window is quota, not a
+                # blip: raise the dedicated error so callers (Phase 4
+                # explanations) can skip retries and fall back at once
+                # (design decision 1).
+                error_cls = GeminiDailyQuotaExhausted if is_429 else LLMOutputError
+                raise error_cls(
                     f"Gemini request failed after {MAX_TRANSPORT_ATTEMPTS} attempts "
                     f"(last status code: {last_code}) — {last_sdk_msg}"
                 )

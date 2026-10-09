@@ -33,3 +33,20 @@ these recent papers are about.
 PAPERS:
 {papers}
 """
+
+#: Path explanations (plan 4.7): the model only ever sees the backend-computed
+#: evidence JSON and must copy numbers verbatim — the server-side validator
+#: (explanation_service) rejects any number that is not in that JSON.
+PATH_EXPLANATIONS_PROMPT = """\
+You write short, honest career-fit explanations for six quantum career paths.
+Use ONLY the numbers and items in the provided JSON. Do not invent statistics, salaries,
+company claims or URLs. Copy every number exactly as it appears in the JSON — never round,
+convert to a different unit, or introduce a number that is not present. If a path has
+low_data true, say that the demand evidence is thin. If saturated is true, note that
+sampling compresses demand differences.
+Output one item per path, echoing its path_id. For each item: headline (max 12 words);
+reasons (exactly 3, each max 25 words, each tied to a provided number); caveat (max 30
+words); next_step (max 25 words).
+PATHS:
+{paths}
+"""

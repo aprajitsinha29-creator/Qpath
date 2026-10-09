@@ -9,7 +9,7 @@ from __future__ import annotations
 
 from fastapi import APIRouter
 
-from app.api.v1 import admin, health, meta, profiles, pulse, quiz, taxonomy
+from app.api.v1 import admin, health, meta, paths, profiles, pulse, quiz, taxonomy
 
 api_router = APIRouter()
 api_router.include_router(health.router)
@@ -19,3 +19,4 @@ api_router.include_router(meta.router)
 api_router.include_router(admin.router)
 api_router.include_router(quiz.router)
 api_router.include_router(profiles.router)
+api_router.include_router(paths.router)

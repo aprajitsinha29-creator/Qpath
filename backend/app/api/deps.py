@@ -15,7 +15,7 @@ from typing import TYPE_CHECKING
 from fastapi import Header
 
 from app.core.config import get_settings
-from app.core.errors import AppError
+from app.core.errors import AppError, ConfigError
 
 if TYPE_CHECKING:
     from app.integrations.gemini.client import StructuredLLM
@@ -64,3 +64,21 @@ def get_structured_llm() -> StructuredLLM:
     settings = get_settings()
     settings.require_gemini()
     return GeminiStructuredLLM(settings)
+
+
+def get_structured_llm_optional() -> StructuredLLM | None:
+    """Dependency: the Gemini client when configured, else None (Phase 4).
+
+    ``GET /profiles/{id}/paths`` and ``POST .../explanation`` must work with
+    no Gemini key and no quota (design decision 4): the service turns ``None``
+    into deterministic templates instead of failing the request. Tests
+    override THIS dependency to inject a fake.
+
+    Returns:
+        A :class:`StructuredLLM`, or None when GEMINI_API_KEY/GEMINI_MODEL are
+        not configured (ConfigError is expected here, not an HTTP failure).
+    """
+    try:
+        return get_structured_llm()
+    except ConfigError:
+        return None

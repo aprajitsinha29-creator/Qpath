@@ -180,6 +180,9 @@ LOW_DATA_THRESHOLD = 8
 #: page cap in the latest bootstrap (plan 4.5: "≥ 4 of 6 subfields").
 SATURATION_MIN_SUBFIELDS = 4
 
+#: Ranks 1..TOP_3 are highlighted on the results page (plan 4.3 "top 3").
+TOP_3 = 3
+
 #: Normalized components are rounded to this many digits BEFORE scoring, and
 #: the score to this many digits after: the UI displays the rounded values, so
 #: recomputing ``100 * (0.40*i + 0.30*d + 0.30*r)`` from the displayed numbers

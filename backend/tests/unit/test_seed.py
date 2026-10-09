@@ -311,8 +311,6 @@ def test_seed_removes_questions_missing_from_json(
     # Old 18 placeholders deleted + 1 new question = 1
     assert counts == 1
 
-    remaining = db_session.execute(
-        seed_module.Question.__table__.select()
-    ).scalars().all()
+    remaining = db_session.execute(seed_module.Question.__table__.select()).scalars().all()
     # scalars() returns the first column (id) when selecting from the table directly
     assert set(remaining) == {"new-1"}
