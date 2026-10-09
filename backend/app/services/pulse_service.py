@@ -45,11 +45,11 @@ from app.models import (
     Subfield,
 )
 
-logger = logging.getLogger(__name__)
+# The low-data constant lives with the other scoring constants (plan 4.2 —
+# scoring_service is the single source for LOW_DATA_THRESHOLD).
+from app.services.scoring_service import LOW_DATA_THRESHOLD
 
-#: Below this many core-sourced active postings a card is flagged ``low_data``
-#: and the UI must say demand evidence is thin (plan 1.4 / 4.5).
-LOW_DATA_THRESHOLD = 8
+logger = logging.getLogger(__name__)
 
 #: "New this week" window used once the corpus spans ≥ 2 ingestion days.
 NEW_THIS_WEEK_DAYS = 7

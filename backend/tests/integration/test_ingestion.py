@@ -360,3 +360,96 @@ def test_standalone_refresh_uses_its_own_session(
         assert check.scalar(select(func.count()).select_from(JobPosting)) == 1
         runs = list(check.scalars(select(RefreshRun)))
     assert len(runs) == 1
+
+
+# --------------------------------------------------------------------------
+# Page-cap recording (Phase 4 step 4.2: feeds the saturation flag)
+# --------------------------------------------------------------------------
+
+
+def _bootstrap_with_page_cap(
+    fixture_dir: Path,
+    db_session: Session,
+    client: SerpApiClient,
+    monkeypatch: pytest.MonkeyPatch,
+    *,
+    max_pages: str,
+    has_next_page: bool,
+    mode: str = "bootstrap",
+) -> RefreshRun:
+    """Run one QEC refresh whose page 1 may advertise a pending page 2."""
+    payload: dict[str, Any] = {"jobs_results": [job("QEC Engineer", "Riverlane")]}
+    if has_next_page:
+        payload["serpapi_pagination"] = {"next_page_token": "page-2-token"}
+    write_fixture(fixture_dir, "quantum error correction", "global_p1", payload)
+
+    from app.core.config import get_settings
+
+    # refresh_jobs reads the page cap from the cached Settings at call time.
+    monkeypatch.setenv("SERPAPI_JOBS_MAX_PAGES", max_pages)
+    get_settings.cache_clear()
+    try:
+        return ingestion_service.refresh_jobs(
+            db_session, client, mode=mode, region="global", subfield_ids=["qec"]
+        )
+    finally:
+        get_settings.cache_clear()
+
+
+def test_refresh_bootstrap_records_page_cap_subfield(
+    serpapi_fixture_client: SerpApiClient,
+    fixture_dir: Path,
+    db_session: Session,
+    monkeypatch: pytest.MonkeyPatch,
+) -> None:
+    """A core query truncated by SERPAPI_JOBS_MAX_PAGES is recorded as capped."""
+    run = _bootstrap_with_page_cap(
+        fixture_dir,
+        db_session,
+        serpapi_fixture_client,
+        monkeypatch,
+        max_pages="1",
+        has_next_page=True,
+    )
+
+    assert run.mode == "bootstrap"
+    assert run.details["page_cap_subfields"] == ["qec"]
+
+
+def test_refresh_bootstrap_without_pending_page_is_not_capped(
+    serpapi_fixture_client: SerpApiClient,
+    fixture_dir: Path,
+    db_session: Session,
+    monkeypatch: pytest.MonkeyPatch,
+) -> None:
+    """Ending because the results ran out is end-of-data, not saturation."""
+    run = _bootstrap_with_page_cap(
+        fixture_dir,
+        db_session,
+        serpapi_fixture_client,
+        monkeypatch,
+        max_pages="1",
+        has_next_page=False,
+    )
+
+    assert run.details["page_cap_subfields"] == []
+
+
+def test_refresh_daily_never_records_page_cap(
+    serpapi_fixture_client: SerpApiClient,
+    fixture_dir: Path,
+    db_session: Session,
+    monkeypatch: pytest.MonkeyPatch,
+) -> None:
+    """Daily runs fetch exactly one page by design — never a cap hit."""
+    run = _bootstrap_with_page_cap(
+        fixture_dir,
+        db_session,
+        serpapi_fixture_client,
+        monkeypatch,
+        max_pages="1",
+        has_next_page=True,
+        mode="daily",
+    )
+
+    assert run.details["page_cap_subfields"] == []

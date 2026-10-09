@@ -224,6 +224,11 @@ def _ingest_one_query(
     errors: list[str] = []
     next_page_token: str | None = None
     page = 0
+    # True only when pagination stopped because max_pages was reached WHILE a
+    # next page was still pending — i.e. the sample is truncated by the cap
+    # (feeds the Phase 4 saturation flag, plan 4.2). A pending token that ends
+    # in FixtureMissingError or a no-token page is "end of data", not a cap.
+    hit_page_cap = False
 
     while page < max_pages:
         page += 1
@@ -272,8 +277,18 @@ def _ingest_one_query(
         next_page_token = parse_next_page_token(payload)
         if next_page_token is None:
             break
+    else:
+        # while-condition exit (page == max_pages): if a token is still
+        # pending, the cap truncated this query's results.
+        hit_page_cap = next_page_token is not None
 
-    return {"calls": calls, "seen": seen, "new": new, "errors": errors}
+    return {
+        "calls": calls,
+        "seen": seen,
+        "new": new,
+        "errors": errors,
+        "hit_page_cap": hit_page_cap,
+    }
 
 
 def _deactivate_stale_postings(db: Session, now: datetime) -> int:
@@ -386,6 +401,7 @@ def refresh_jobs(
 
     totals = {"postings_seen": 0, "postings_new": 0, "serpapi_calls": 0}
     all_errors: list[str] = []
+    page_capped: set[str] = set()
     for spec in specs:
         result = _ingest_one_query(
             db, client, spec, mode=mode, region=region, seen_at=now, max_pages=max_pages
@@ -394,6 +410,11 @@ def refresh_jobs(
         totals["postings_seen"] += result["seen"]
         totals["postings_new"] += result["new"]
         all_errors.extend(result["errors"])
+        # Saturation (plan 4.2/4.5): only CORE-tier caps count, because demand
+        # is computed from core links — an extended-query cap cannot compress
+        # a subfield's headline count.
+        if result["hit_page_cap"] and spec.tier == "core":
+            page_capped.add(spec.subfield_id)
 
     # Post-run maintenance happens even when some queries failed: partial
     # data is still worth snapshotting (plan 1.3.3/1.3.4).
@@ -413,6 +434,10 @@ def refresh_jobs(
         "region": region,
         "queries_run": len(specs),
         "postings_deactivated": deactivated,
+        # Core queries truncated by SERPAPI_JOBS_MAX_PAGES in this run (always
+        # empty for daily runs — they fetch one page). Read by paths_service
+        # for the Phase 4 saturation flag.
+        "page_cap_subfields": sorted(page_capped),
         "errors": all_errors,
     }
     db.add(run)

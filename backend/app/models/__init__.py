@@ -7,6 +7,7 @@ Importing this package registers every model on ``Base.metadata`` before
 from app.models.career_path import CareerPath
 from app.models.concept import Concept
 from app.models.job_posting import JobPosting, JobPostingSkill, JobPostingSubfield
+from app.models.path_explanation import PathExplanation
 from app.models.profile import Assessment, Profile
 from app.models.pulse_snapshot import PulseSnapshot
 from app.models.quiz import Question
@@ -24,6 +25,7 @@ __all__ = [
     "JobPostingSkill",
     "JobPostingSubfield",
     "PaperSnapshot",
+    "PathExplanation",
     "Profile",
     "PulseSnapshot",
     "Question",

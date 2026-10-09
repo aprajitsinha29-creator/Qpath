@@ -116,6 +116,27 @@ class InvalidAssessmentError(AppError):
     status_code = 422
 
 
+class AssessmentRequiredError(ConflictError):
+    """The profile has no diagnostic submission yet, so paths cannot be ranked (409).
+
+    409 (not 404): the profile exists — the request conflicts with its current
+    state (plan 4.3: code ``assessment_required``).
+    """
+
+    code = "assessment_required"
+
+
+class InvalidSkillsError(AppError):
+    """Declared skill ids are not in the controlled vocabulary (422).
+
+    The vocabulary is the contract for every downstream skill computation, so
+    unknown ids are rejected at the API boundary (plan 4.5).
+    """
+
+    code = "invalid_skills"
+    status_code = 422
+
+
 # HTTP errors raised by FastAPI/Starlette itself get a snake_case code too.
 _HTTP_ERROR_CODES: dict[int, str] = {
     400: "bad_request",
