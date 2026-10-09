@@ -95,7 +95,7 @@ export function ResultsPage() {
             to="/paths"
             className="rounded-md bg-cyan-600 px-4 py-2 text-sm font-semibold text-white hover:bg-cyan-500"
           >
-            See matching paths
+            See your paths
           </Link>
           <Link to="/" className="text-sm text-slate-400 underline hover:text-slate-300">
             Market Pulse
