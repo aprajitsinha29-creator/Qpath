@@ -3,7 +3,7 @@
 // (redirects to /paths when none), owns the region/internship filters, the
 // "Mark all as seen" action, the SkillPicker panel, and loading/empty/error
 // states per frontend rules 3.6.4.
-import { useState } from 'react';
+import { useMemo, useState } from 'react';
 import { Link, Navigate } from 'react-router-dom';
 import { formatRelativeTime } from '../lib/format';
 import { LastRefreshedPill } from '../features/tracker/components/LastRefreshedPill';
@@ -11,7 +11,26 @@ import { OpportunityCard } from '../features/tracker/components/OpportunityCard'
 import { useMarkSeen, useOpportunities } from '../features/tracker/hooks/useTracker';
 import { SkillPicker } from '../features/skills/components/SkillPicker';
 import { useProfile } from '../features/skills/hooks/useSkills';
+import { useTaxonomy } from '../features/pulse/hooks/usePulse';
+import type { OpportunityItem } from '../types/api';
 import { getOrCreateProfileId } from '../lib/profileId';
+
+/**
+ * Feed display order (plan 5.5 + user spec): match desc when skill data
+ * exists, otherwise (no declared skills → match is null for everything)
+ * fall back to first_seen desc so the feed still means "newest first".
+ * Posting id breaks exact-timestamp ties for determinism.
+ */
+function sortForDisplay(items: OpportunityItem[], hasDeclaredSkills: boolean): OpportunityItem[] {
+  const sorted = [...items];
+  if (!hasDeclaredSkills) {
+    return sorted.sort(
+      (a, b) =>
+        Date.parse(b.first_seen_at) - Date.parse(a.first_seen_at) || a.posting_id - b.posting_id,
+    );
+  }
+  return sorted; // backend already sorted: match desc, nulls last, first_seen desc
+}
 
 export function OpportunitiesPage() {
   const profileId = getOrCreateProfileId();
@@ -31,6 +50,16 @@ export function OpportunitiesPage() {
   // Declared skills for the SkillPicker pre-fill; a profile failure here must
   // not break the feed — the panel simply hides.
   const profileQuery = useProfile(profileId);
+  // Path title for the subtitle (id alone reads like jargon); taxonomy cache
+  // is shared with the pulse feature.
+  const taxonomyQuery = useTaxonomy();
+
+  const hasDeclaredSkills = (profileQuery.data?.declared_skills.length ?? 0) > 0;
+  const displayItems = useMemo(
+    () => (data ? sortForDisplay(data.items, hasDeclaredSkills) : []),
+    [data, hasDeclaredSkills],
+  );
+  const pathTitle = taxonomyQuery.data?.career_paths.find((p) => p.id === data?.path_id)?.title;
 
   // 409 path_required → walk the user back to the path matcher (plan 5.5).
   const status = (error as { status?: number } | null)?.status;
@@ -94,8 +123,9 @@ export function OpportunitiesPage() {
       <div className="flex flex-wrap items-start justify-between gap-3">
         <div>
           <h1 className="text-2xl font-bold tracking-tight text-white">Opportunities</h1>
+          {/* Human-readable path title; the raw id never shows in the UI. */}
           <p className="text-sm text-slate-400">
-            {data.path_id ? `Matched to your tracked path (${data.path_id})` : null} ·{' '}
+            {pathTitle ? `Matched to your tracked path: ${pathTitle}` : null} ·{' '}
             {region === 'global' ? 'Global' : 'India'}
           </p>
         </div>
@@ -162,8 +192,9 @@ export function OpportunitiesPage() {
       ) : null}
 
       {/* Declared skills (carry-over): collapsible; after saving, refetch the
-          feed so match scores update with the freshly declared set. */}
-      <div className="rounded-xl border border-slate-800 bg-slate-900/40 p-3">
+          feed so match scores update with the freshly declared set. The id is
+          the anchor OpportunityCard's "add your skills" link scrolls to. */}
+      <div id="skills-panel" className="rounded-xl border border-slate-800 bg-slate-900/40 p-3">
         <button
           type="button"
           onClick={() => setSkillsOpen((open) => !open)}
@@ -198,8 +229,13 @@ export function OpportunitiesPage() {
         </div>
       ) : (
         <div className="space-y-2" aria-label="Opportunities list">
-          {data.items.map((item) => (
-            <OpportunityCard key={item.posting_id} item={item} firstVisit={data.first_visit} />
+          {displayItems.map((item) => (
+            <OpportunityCard
+              key={item.posting_id}
+              item={item}
+              firstVisit={data.first_visit}
+              hasDeclaredSkills={hasDeclaredSkills}
+            />
           ))}
         </div>
       )}

@@ -40,6 +40,25 @@ vi.mock('../features/skills/hooks/useSkills', async () => {
   return actual;
 });
 
+// Taxonomy (path title for the subtitle) — same cache the pulse feature uses.
+vi.mock('../features/pulse/hooks/usePulse', () => ({
+  useTaxonomy: vi.fn(() => ({
+    data: {
+      subfields: [],
+      concepts: [],
+      career_paths: [
+        {
+          id: 'qec_engineer',
+          title: 'QEC Researcher / Engineer',
+          subfield_id: 'qec',
+          description: '',
+          typical_titles: [],
+        },
+      ],
+    },
+  })),
+}));
+
 import { OpportunitiesPage } from './OpportunitiesPage';
 
 /** Build a feed response; items default to one new match with a score. */
@@ -182,6 +201,60 @@ describe('OpportunitiesPage', () => {
       expect(screen.getByText(/First visit/i)).toBeInTheDocument();
     });
     expect(screen.queryByTestId('new-badge')).not.toBeInTheDocument();
+  });
+
+  it('test_subtitle_shows_path_title_not_id', async () => {
+    renderPage();
+    await screen.findByText(/Mark all as seen/i);
+    expect(
+      screen.getByText(/Matched to your tracked path: QEC Researcher \/ Engineer/),
+    ).toBeInTheDocument();
+    expect(screen.queryByText(/qec_engineer/)).not.toBeInTheDocument();
+  });
+
+  it('test_no_declared_skills_sorts_feed_by_first_seen_desc', async () => {
+    // Two postings; the FIRST in the response is the OLDER one. With no
+    // declared skills every match is null, so display falls back to
+    // first_seen desc and the newer posting must come first.
+    mockGetOpportunities.mockResolvedValue(
+      makeFeed({
+        items: [
+          {
+            posting_id: 1,
+            title: 'Older posting',
+            company: 'A',
+            location: null,
+            via: null,
+            apply_url: null,
+            is_internship: false,
+            first_seen_at: '2026-10-01T00:00:00',
+            is_new: false,
+            match: null,
+            matched_skills: [],
+          },
+          {
+            posting_id: 2,
+            title: 'Newer posting',
+            company: 'B',
+            location: null,
+            via: null,
+            apply_url: null,
+            is_internship: false,
+            first_seen_at: '2026-10-09T00:00:00',
+            is_new: true,
+            match: null,
+            matched_skills: [],
+          },
+        ],
+      }),
+    );
+    renderPage();
+
+    // No skills declared (empty mock profile) → newer first.
+    await screen.findByText('Newer posting');
+    const list = screen.getByLabelText('Opportunities list');
+    const firstArticle = list.querySelector('article')?.textContent ?? '';
+    expect(firstArticle).toContain('Newer posting');
   });
 
   it('test_last_refreshed_pill_renders_from_feed', async () => {
