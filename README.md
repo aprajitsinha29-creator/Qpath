@@ -122,7 +122,7 @@ The API key is passed only at call time; it is never logged, stored, or committe
 | **2** | Intelligence layer: Gemini skill extraction + Scholar research themes | ✅ **Done** |
 | **3** | Orientation diagnostic: quiz + readiness radar | ✅ **Done** |
 | **4** | Path matcher: deterministic ranked career paths + grounded explanations + /paths UI (incl. carry-over: declared-skills picker, `PUT /profiles/{id}/skills`, `GET /skills`) | ✅ **Done** |
-| 5 | Opportunity tracker: scheduler, matched postings, is_new badges | 🔜 |
+| **5** | Opportunity tracker: `PUT chosen-path` / `POST seen` / `GET /profiles/{id}/opportunities` feed with match scores & NEW badges, `/opportunities` UI with filters & "Mark all as seen", TrendSparkline on pulse cards, APScheduler (off by default), `GET /meta/refresh-status` + `GET /pulse/{id}/trend` | ✅ **Done** |
 | 6 | Gap analysis & learning plan | 🔜 |
 | 7 | Submission hardening: method page, demo script, secret scan | 🔜 |
 

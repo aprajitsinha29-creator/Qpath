@@ -1,6 +1,6 @@
 # Architecture — Quantum Pathfinder
 
-> Last updated: Phase 4 (Path matcher — backend + frontend). Updated at the end of every phase per AGENTS.md 3.8.7.
+> Last updated: Phase 5 (Opportunity tracker). Updated at the end of every phase per AGENTS.md 3.8.7.
 
 ---
 
@@ -445,3 +445,139 @@ PathsPage → DeclaredSkillsPanel → SkillPicker (GET /skills + useProfile pre-
   yet, per “do not touch Phase 5/6 work”.
 - `GET /skills` has no pagination/filter params — the whole 53-skill vocabulary is served;
   that is intentional at this vocabulary size.
+
+---
+
+## Phase 5 — Opportunity tracker
+
+### What was added
+
+**Backend**
+
+- **Endpoints** (`app/api/v1/profiles.py`, thin):
+  - `PUT /profiles/{id}/chosen-path` body `{path_id}`: valid path → 200; unknown path →
+    422 `invalid_path`; re-PUT switches the tracked path.
+  - `POST /profiles/{id}/seen`: sets `last_seen_at = clock.now()` (injectable via
+    `app/core/clock.py`, naive UTC everywhere).
+  - `GET /profiles/{id}/opportunities?internship=&region=&limit=&offset=`: never writes
+    `last_seen_at`; no chosen path → 409 `path_required`; no assessment → 409
+    `assessment_required`; unknown profile → 404.
+- **New errors** (`app/core/errors.py`): `InvalidPathError` (422), `PathRequiredError` (409).
+- **Services:**
+  - `services/match_service.py` — pure `posting_match`: `match = 100 × (0.6 × skill_overlap
+    + 0.4 × readiness_n)` with named constants `W_SKILL_OVERLAP = 0.6`, `W_READINESS = 0.4`;
+    `None` when the posting has no extracted skills.
+  - `services/tracker_service.py` — chosen-path PUT, POST /seen (injectable clock),
+    `list_opportunities` (read-only feed: both core and extended tiers, strict `is_new`,
+    ordering match desc → nulls last → first_seen_at desc → posting id, total independent
+    of paging, `first_visit`, `last_refreshed_at` = latest successful jobs `refresh_runs`
+    `finished_at`), and `get_trend` + `get_refresh_status`.
+- **Scheduler** (`app/scheduler/jobs.py`, `app/main.py` lifespan): `BackgroundScheduler`
+  created **only when `SCHEDULER_ENABLED=true`** (default false), with three cron jobs read
+  from env (`JOBS_DAILY_CRON`, `JOBS_INDIA_WEEKLY_CRON`, `SCHOLAR_WEEKLY_CRON`) — no hardcoded
+  cron strings. Each job opens its own DB session (context-manager session factory), catches
+  every exception into a failed `refresh_runs` row with a scrubbed error text (repr, truncated,
+  never the request URL), stops cleanly at the SerpApi daily cap, and uses `max_instances=1`,
+  `coalesce=True`; the scheduler shuts down at app exit.
+- **Pulse snapshots:** after every jobs refresh, one `pulse_snapshots` row is upserted per
+  (subfield, UTC date, region) with `active_postings`, `new_postings` (postings whose
+  `first_seen_at` falls on that date), `internship_postings`; unique on (subfield, date,
+  region) so re-runs update, never duplicate. No synthetic rows.
+- **Read endpoints:** `GET /pulse/{subfield_id}/trend?region=` (date-ascending
+  `[{date, active, new, internships}]`; 404 unknown subfield; `[]` with no data) and
+  `GET /meta/refresh-status` (last run per kind `jobs` / `scholar` / `extraction`; null for
+  kinds that never ran; error text contains no key or token).
+- **Schemas:** `app/schemas/opportunities.py` (`ChosenPathIn/Out`, `SeenOut`,
+  `OpportunityItem`, `OpportunitiesOut`), `TrendPoint` (pulse), `RefreshStatus*` (meta);
+  `ProfileOut` gained `chosen_path_id`.
+- **Tests:** `tests/unit/test_match_service.py` (tests 1–7, table-driven) and
+  `tests/integration/test_opportunities_api.py` (tests 8–25),
+  `tests/integration/test_scheduler.py` (tests 26–33).
+
+**Frontend**
+
+- **Feature `src/features/tracker/`**: `api.ts` (`putChosenPath`, `postSeen`,
+  `getOpportunities` — all through `lib/apiClient.ts`), `hooks/useTracker.ts` (`useChosenPath`,
+  `useSetChosenPath`, `useOpportunities`, `useMarkSeen`, `useTrend`), and components:
+  - `TrackPathButton` — “Track this path” / “Tracking ✓” / “Switch to this path”; switching
+    is allowed; mounted on every `PathCard`.
+  - `OpportunityCard` — match badge (`{n}% match` or “Not enough info” for null), NEW badge
+    shown only when `is_new && !first_visit`, apply link with `rel="noopener noreferrer"`.
+  - `LastRefreshedPill` — relative time, or “never refreshed” when null.
+  - `TrendSparkline` — inline SVG (`role="img"` + full text `aria-label`); renders only
+    with ≥ 2 snapshots; 1 shows “tracking started <date>”; 0 shows “no history yet”.
+- **Pages:** `/opportunities` (`OpportunitiesPage`) with region + internship filters,
+  collapsible SkillPicker panel (after saving, opportunities are refetched), “Mark all as
+  seen” (POST /seen → refetch → badges clear), first-visit intro note instead of badges,
+  and loading/empty/error states; 409 `path_required` redirects to `/paths` with a banner.
+- **AppShell:** the “Opportunities” nav item is enabled only once a path is tracked
+  (reads the profile via `useChosenPath`); a non-clickable hint renders otherwise.
+- **Types:** `types/api.ts` mirrors the new backend schemas tracker-section.
+- **Tests:** 23 new frontend tests (`TrackerComponents.test.tsx`, `TrackerGating.test.tsx`,
+  `OpportunitiesPage.test.tsx`) — TrackPathButton PUT + switch, nav gate, NEW-badge gating,
+  mark-as-seen clears badges, match badge, filters change request params, LastRefreshedPill,
+  sparkline states + text alternative, loading/empty/error.
+
+### Data flow
+
+```
+PathsPage ──TrackPathButton──▶ PUT /profiles/{id}/chosen-path ─▶ profile.chosen_path_id
+AppShell ──useChosenPath──▶ profile.chosen_path_id ≠ null ⇒ enable nav “Opportunities”
+
+GET /profiles/{id}/opportunities (read-only; never touches last_seen_at)
+  ├─ tracker_service.list_opportunities(db, profile, region, internship, limit, offset)
+  │    ├─ guard: chosen_path_id (409 path_required), latest assessment (409 assessment_required)
+  │    ├─ active postings of the path's subfield in the region, both tiers
+  │    ├─ match_service.posting_match(posting_skills, declared_skills, readiness_n)
+  │    │    match = 100 × (0.6×overlap + 0.4×readiness_n); None when no extracted skills
+  │    ├─ is_new = first_seen_at > last_seen_at (strict); null last_seen ⇒ all new + first_visit
+  │    └─ sort: match desc (nulls last) → first_seen_at desc → posting_id
+  └─ last_refreshed_at = max successful jobs refresh_runs.finished_at
+“Mark all as seen” ─▶ POST /profiles/{id}/seen ─▶ profile.last_seen_at = now (clock)
+
+Scheduler (SCHEDULER_ENABLED=true only)
+  cron jobs ─▶ own session ─▶ ingestion/extraction/research services
+     ├─ SerpApi daily cap respected; failure → failed refresh_runs row (scrubbed)
+     └─ after jobs refresh: upsert pulse_snapshots per (subfield, UTC date, region)
+GET /pulse/{id}/trend ─▶ snapshot series date-asc ─▶ TrendSparkline (≥ 2 points)
+GET /meta/refresh-status ─▶ last run per kind ─▶ status/admin UI
+```
+
+### Decision log (Phase 5)
+
+- **Match readiness input:** the data model has no posting-level scored primary-subfield
+  column, so readiness_n comes from the tracked path's subfield (plan Section 4.5 fallback
+  branch). Recorded per the phase instructions; a `primary_subfield_id` extraction column
+  would let future phases use the per-posting subfield instead.
+- **Naive UTC everywhere** (`app/core/clock.py`): one convention across services, models and
+  tests; SQLite round-trip comparisons are covered by a dedicated test (test 21).
+- **GET opportunities is strictly read-only:** the frontend explicitly POSTs `/seen` when the
+  user views the list, so a page refresh cannot silently clear NEW badges.
+- **NEW badges gated on `!first_visit`:** on a first visit `last_seen_at` is null and every
+  row qualifies as new; the UI shows an intro note instead of shouting NEW on everything.
+- **`is_new` is strict:** `first_seen_at == last_seen_at` is NOT new; the equal-timestamp
+  behavior is a test-enforced contract (test 8).
+- **Snapshots upsert, never duplicate:** unique (subfield, date, region) with an upsert;
+  re-running the same day updates the row (test 22). No synthetic history — Phase 7 owns
+  demo data.
+- **Scheduler stays OFF by default:** `SCHEDULER_ENABLED=false`; all scheduler tests toggle
+  the flag explicitly. Jobs stop at the daily cap instead of crashing, and failed runs land
+  in `refresh_runs` for `GET /meta/refresh-status`.
+- **Injectable clock, no time library:** tests pass a controlled clock; no `freezegun` or
+  other dependency was added (approved-stack rule).
+- **`useTrend` query per pulse card:** the sparkline fetches
+  `/pulse/{subfield_id}/trend?region=` with a 5-minute staleTime; a missing QueryClient
+  (standalone component tests) degrades to the “no history yet” state instead of crashing.
+
+### Known limits (Phase 5)
+
+- The scheduler keeps data fresh only while the backend runs and `SCHEDULER_ENABLED=true`;
+  during development it is off and refreshes happen via the admin endpoints.
+- `last_refreshed_at` reflects the latest successful **jobs** refresh only (scholar/extraction
+  runs are visible via `/meta/refresh-status`, not on the pill).
+- Opportunities pagination uses limit/offset (default limit 50) but the UI exposes no pager
+  yet; the total is shown so Phase 7 can add one if needed.
+- The sparkline plots `active` only; `new` and `internships` are in the endpoint response and
+  the accessible text alternative but not drawn.
+- Pulse-card sparklines issue one trend query per card (6 on the Pulse page); acceptable at
+  this scale, batched only if it matters.
