@@ -194,7 +194,9 @@ def test_job_stops_at_daily_cap(
             super().__init__()
 
         def __getattr__(self, name: str) -> Any:
-            raise SerpApiCapExceeded("daily call cap reached (60/60)")    # A prior run left the daily call budget spent (60 == default cap).
+            # A prior run left the daily call budget spent (60 == default cap).
+            raise SerpApiCapExceeded("daily call cap reached (60/60)")
+
     with get_sessionmaker()() as db:
         db.add(
             RefreshRun(
