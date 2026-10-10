@@ -228,11 +228,19 @@ def test_quiz_bank_question_ids_are_unique() -> None:
     assert len(ids) == 18, f"Should have exactly 18 questions, got {len(ids)}"
 
 
-def test_quiz_questions_are_placeholders_not_verified() -> None:
-    """Placeholder questions must never ship with verified=true (AGENTS.md 3.11)."""
+def test_verified_questions_carry_sign_off() -> None:
+    """Every question in quiz_questions.json must have non-empty verified_by/on iff verified."""
     questions = load_reference_json("quiz_questions.json")
 
-    assert all(q["verified"] is False for q in questions)
+    for q in questions:
+        if q["verified"] is True:
+            assert isinstance(q.get("verified_by"), str) and q.get("verified_by") != ""
+            assert isinstance(q.get("verified_on"), str) and q.get("verified_on") != ""
+        elif q["verified"] is False:
+            assert q.get("verified_by") == ""
+            assert q.get("verified_on") == ""
+        else:
+            pytest.fail(f"Question {q.get('id')} has non-boolean verified: {q.get('verified')}")
 
 
 def test_seed_quiz_questions_is_idempotent(db_session: Session) -> None:

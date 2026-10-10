@@ -78,9 +78,18 @@ def test_quiz_endpoint_never_returns_correct_answers(client: TestClient) -> None
 
 
 def test_quiz_refuses_when_unverified_questions_disallowed(
-    client: TestClient, monkeypatch: pytest.MonkeyPatch
+    client: TestClient,
+    db_session,
+    monkeypatch: pytest.MonkeyPatch,  # noqa: ANN001
 ) -> None:
-    """With the flag off and zero verified questions, the endpoint refuses clearly."""
+    """With the flag off and all questions unverified, the endpoint refuses clearly."""
+    from sqlalchemy import update
+
+    from app.models import Question
+
+    db_session.execute(update(Question).values(verified=False))
+    db_session.commit()
+
     monkeypatch.setenv("ALLOW_UNVERIFIED_QUESTIONS", "false")
     # Settings is cached from app startup; drop the cache so the service sees
     # the env var set above (env vars win over the dev .env in pydantic-settings).
@@ -94,6 +103,36 @@ def test_quiz_refuses_when_unverified_questions_disallowed(
     error = response.json()["error"]
     assert error["code"] == "quiz_insufficient_questions"
     assert "servable" in error["message"]
+
+
+def test_quiz_serves_when_all_questions_verified(
+    client: TestClient,
+    db_session,
+    monkeypatch: pytest.MonkeyPatch,  # noqa: ANN001
+) -> None:
+    """With flag false and all rows verified, GET /quiz returns 200 without answers."""
+    from sqlalchemy import update
+
+    from app.models import Question
+
+    db_session.execute(update(Question).values(verified=True))
+    db_session.commit()
+
+    monkeypatch.setenv("ALLOW_UNVERIFIED_QUESTIONS", "false")
+    get_settings.cache_clear()
+    try:
+        response = client.get("/api/v1/quiz")
+    finally:
+        get_settings.cache_clear()
+
+    assert response.status_code == 200
+    body = response.text
+    assert "correct_index" not in body
+    assert "explanation" not in body
+    data = response.json()
+    for q in data["questions"]:
+        assert "correct_index" not in q
+        assert "explanation" not in q
 
 
 def test_quiz_refuses_when_a_subfield_has_too_few_questions(

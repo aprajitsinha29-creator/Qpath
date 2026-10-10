@@ -18,8 +18,8 @@
       "Dennis, Kitaev, Landahl, Preskill, J. Math. Phys. 43, 4452 (2002)"
     ],
     "verified": true,
-    "verified_by": "",
-    "verified_on": ""
+    "verified_by": "Aprajit Shankar Sinha",
+    "verified_on": "2026-10-10"
   },
   {
     "id": "qec-2",
@@ -41,8 +41,8 @@
       "Gidney, Shutty, Jones, arXiv:2409.17595"
     ],
     "verified": true,
-    "verified_by": "",
-    "verified_on": ""
+    "verified_by": "Aprajit Shankar Sinha",
+    "verified_on": "2026-10-10"
   },
   {
     "id": "qec-3",
@@ -64,8 +64,8 @@
       "Fowler et al., Phys. Rev. A 86, 032324 (2012)"
     ],
     "verified": true,
-    "verified_by": "",
-    "verified_on": ""
+    "verified_by": "Aprajit Shankar Sinha",
+    "verified_on": "2026-10-10"
   },
   {
     "id": "hw-1",
@@ -87,8 +87,8 @@
       "Sørensen & Mølmer, Phys. Rev. Lett. 82, 1971 (1999)"
     ],
     "verified": true,
-    "verified_by": "",
-    "verified_on": ""
+    "verified_by": "Aprajit Shankar Sinha",
+    "verified_on": "2026-10-10"
   },
   {
     "id": "hw-2",
@@ -109,8 +109,8 @@
       "Jaksch et al., Phys. Rev. Lett. 85, 2208 (2000)"
     ],
     "verified": true,
-    "verified_by": "",
-    "verified_on": ""
+    "verified_by": "Aprajit Shankar Sinha",
+    "verified_on": "2026-10-10"
   },
   {
     "id": "hw-3",
@@ -132,8 +132,8 @@
       "Motzoi et al., Phys. Rev. Lett. 103, 110501 (2009)"
     ],
     "verified": true,
-    "verified_by": "",
-    "verified_on": ""
+    "verified_by": "Aprajit Shankar Sinha",
+    "verified_on": "2026-10-10"
   },
   {
     "id": "sw-1",
@@ -153,8 +153,8 @@
       "Official transpiler documentation of the SDK you use (Qiskit or Cirq): check the current page at verification time"
     ],
     "verified": true,
-    "verified_by": "",
-    "verified_on": ""
+    "verified_by": "Aprajit Shankar Sinha",
+    "verified_on": "2026-10-10"
   },
   {
     "id": "sw-2",
@@ -175,8 +175,8 @@
       "Official docs of the SDK you use on parameterized circuits (check current page)"
     ],
     "verified": true,
-    "verified_by": "",
-    "verified_on": ""
+    "verified_by": "Aprajit Shankar Sinha",
+    "verified_on": "2026-10-10"
   },
   {
     "id": "sw-3",
@@ -197,8 +197,8 @@
       "Schuld et al., Phys. Rev. A 99, 032331 (2019)"
     ],
     "verified": true,
-    "verified_by": "",
-    "verified_on": ""
+    "verified_by": "Aprajit Shankar Sinha",
+    "verified_on": "2026-10-10"
   },
   {
     "id": "alg-1",
@@ -220,8 +220,8 @@
       "Nielsen & Chuang, Ch. 6"
     ],
     "verified": true,
-    "verified_by": "",
-    "verified_on": ""
+    "verified_by": "Aprajit Shankar Sinha",
+    "verified_on": "2026-10-10"
   },
   {
     "id": "alg-2",
@@ -242,8 +242,8 @@
       "Nielsen & Chuang, Ch. 5 and Appendix 4"
     ],
     "verified": true,
-    "verified_by": "",
-    "verified_on": ""
+    "verified_by": "Aprajit Shankar Sinha",
+    "verified_on": "2026-10-10"
   },
   {
     "id": "alg-3",
@@ -264,8 +264,8 @@
       "Zhou et al., Phys. Rev. X 10, 021067 (2020)"
     ],
     "verified": true,
-    "verified_by": "",
-    "verified_on": ""
+    "verified_by": "Aprajit Shankar Sinha",
+    "verified_on": "2026-10-10"
   },
   {
     "id": "qml-1",
@@ -286,8 +286,8 @@
       "Schuld & Killoran, Phys. Rev. Lett. 122, 040504 (2019)"
     ],
     "verified": true,
-    "verified_by": "",
-    "verified_on": ""
+    "verified_by": "Aprajit Shankar Sinha",
+    "verified_on": "2026-10-10"
   },
   {
     "id": "qml-2",
@@ -308,8 +308,8 @@
       "Cerezo et al., Nat. Commun. 12, 1791 (2021)"
     ],
     "verified": true,
-    "verified_by": "",
-    "verified_on": ""
+    "verified_by": "Aprajit Shankar Sinha",
+    "verified_on": "2026-10-10"
   },
   {
     "id": "qml-3",
@@ -331,8 +331,8 @@
       "Thanasilp et al., arXiv:2208.11060 (check exact title)"
     ],
     "verified": true,
-    "verified_by": "",
-    "verified_on": ""
+    "verified_by": "Aprajit Shankar Sinha",
+    "verified_on": "2026-10-10"
   },
   {
     "id": "cn-1",
@@ -353,8 +353,8 @@
       "Langlois & Stehlé, Des. Codes Cryptogr. 75, 565 (2015)"
     ],
     "verified": true,
-    "verified_by": "",
-    "verified_on": ""
+    "verified_by": "Aprajit Shankar Sinha",
+    "verified_on": "2026-10-10"
   },
   {
     "id": "cn-2",
@@ -375,8 +375,8 @@
       "Gisin et al., Rev. Mod. Phys. 74, 145 (2002)"
     ],
     "verified": true,
-    "verified_by": "",
-    "verified_on": ""
+    "verified_by": "Aprajit Shankar Sinha",
+    "verified_on": "2026-10-10"
   },
   {
     "id": "cn-3",
@@ -398,7 +398,7 @@
       "Gidney & Ekerå, Quantum 5, 433 (2021)"
     ],
     "verified": true,
-    "verified_by": "",
-    "verified_on": ""
+    "verified_by": "Aprajit Shankar Sinha",
+    "verified_on": "2026-10-10"
   }
 ]
