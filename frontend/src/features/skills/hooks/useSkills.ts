@@ -45,7 +45,10 @@ export function profileQueryKey(profileId: string) {
 /**
  * Mutation replacing the profile's declared_skills. On success the profile
  * query cache is written with the returned profile, keeping every view of
- * `declared_skills` consistent without an extra fetch.
+ * `declared_skills` consistent without an extra fetch. The opportunities
+ * feed is also invalidated: match scores (0.6 × skill overlap) depend on
+ * declared skills, so the new set must refetch immediately (plan 5.5 —
+ * "after saving, refetch opportunities").
  */
 export function useSaveDeclaredSkills(profileId: string) {
   const queryClient = useQueryClient();
@@ -53,6 +56,8 @@ export function useSaveDeclaredSkills(profileId: string) {
     mutationFn: (skillIds) => putDeclaredSkills(profileId, skillIds),
     onSuccess: (profile) => {
       queryClient.setQueryData<ProfileResponse>(PROFILE_KEY(profileId), profile);
+      // Prefix key: every region/internship variant of the feed is stale.
+      void queryClient.invalidateQueries({ queryKey: ['opportunities'] });
     },
   });
 }
