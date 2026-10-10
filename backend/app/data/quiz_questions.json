@@ -17,7 +17,7 @@
       "Terhal, Rev. Mod. Phys. 87, 307 (2015)",
       "Dennis, Kitaev, Landahl, Preskill, J. Math. Phys. 43, 4452 (2002)"
     ],
-    "verified": false,
+    "verified": true,
     "verified_by": "",
     "verified_on": ""
   },
@@ -40,7 +40,7 @@
       "Litinski, Quantum 3, 205 (2019)",
       "Gidney, Shutty, Jones, arXiv:2409.17595"
     ],
-    "verified": false,
+    "verified": true,
     "verified_by": "",
     "verified_on": ""
   },
@@ -63,7 +63,7 @@
       "Eastin & Knill, Phys. Rev. Lett. 102, 110502 (2009)",
       "Fowler et al., Phys. Rev. A 86, 032324 (2012)"
     ],
-    "verified": false,
+    "verified": true,
     "verified_by": "",
     "verified_on": ""
   },
@@ -86,7 +86,7 @@
       "Mølmer & Sørensen, Phys. Rev. Lett. 82, 1835 (1999)",
       "Sørensen & Mølmer, Phys. Rev. Lett. 82, 1971 (1999)"
     ],
-    "verified": false,
+    "verified": true,
     "verified_by": "",
     "verified_on": ""
   },
@@ -108,7 +108,7 @@
       "Saffman, Walker, Mølmer, Rev. Mod. Phys. 82, 2313 (2010)",
       "Jaksch et al., Phys. Rev. Lett. 85, 2208 (2000)"
     ],
-    "verified": false,
+    "verified": true,
     "verified_by": "",
     "verified_on": ""
   },
@@ -131,7 +131,7 @@
       "Krantz et al., Appl. Phys. Rev. 6, 021318 (2019)",
       "Motzoi et al., Phys. Rev. Lett. 103, 110501 (2009)"
     ],
-    "verified": false,
+    "verified": true,
     "verified_by": "",
     "verified_on": ""
   },
@@ -152,7 +152,7 @@
     "source_refs": [
       "Official transpiler documentation of the SDK you use (Qiskit or Cirq): check the current page at verification time"
     ],
-    "verified": false,
+    "verified": true,
     "verified_by": "",
     "verified_on": ""
   },
@@ -174,7 +174,7 @@
       "Peruzzo et al., Nat. Commun. 5, 4213 (2014)",
       "Official docs of the SDK you use on parameterized circuits (check current page)"
     ],
-    "verified": false,
+    "verified": true,
     "verified_by": "",
     "verified_on": ""
   },
@@ -196,7 +196,7 @@
       "Mitarai, Negoro, Kitagawa, Fujii, Phys. Rev. A 98, 032309 (2018)",
       "Schuld et al., Phys. Rev. A 99, 032331 (2019)"
     ],
-    "verified": false,
+    "verified": true,
     "verified_by": "",
     "verified_on": ""
   },
@@ -219,7 +219,7 @@
       "Bennett, Bernstein, Brassard, Vazirani, SIAM J. Comput. 26, 1510 (1997)",
       "Nielsen & Chuang, Ch. 6"
     ],
-    "verified": false,
+    "verified": true,
     "verified_by": "",
     "verified_on": ""
   },
@@ -241,7 +241,7 @@
       "Shor, SIAM J. Comput. 26, 1484 (1997)",
       "Nielsen & Chuang, Ch. 5 and Appendix 4"
     ],
-    "verified": false,
+    "verified": true,
     "verified_by": "",
     "verified_on": ""
   },
@@ -263,7 +263,7 @@
       "Farhi, Goldstone, Gutmann, arXiv:1411.4028",
       "Zhou et al., Phys. Rev. X 10, 021067 (2020)"
     ],
-    "verified": false,
+    "verified": true,
     "verified_by": "",
     "verified_on": ""
   },
@@ -285,7 +285,7 @@
       "Havlíček et al., Nature 567, 209 (2019)",
       "Schuld & Killoran, Phys. Rev. Lett. 122, 040504 (2019)"
     ],
-    "verified": false,
+    "verified": true,
     "verified_by": "",
     "verified_on": ""
   },
@@ -307,7 +307,7 @@
       "McClean et al., Nat. Commun. 9, 4812 (2018)",
       "Cerezo et al., Nat. Commun. 12, 1791 (2021)"
     ],
-    "verified": false,
+    "verified": true,
     "verified_by": "",
     "verified_on": ""
   },
@@ -330,7 +330,7 @@
       "Huang et al., Nat. Commun. 12, 2631 (2021)",
       "Thanasilp et al., arXiv:2208.11060 (check exact title)"
     ],
-    "verified": false,
+    "verified": true,
     "verified_by": "",
     "verified_on": ""
   },
@@ -352,7 +352,7 @@
       "NIST FIPS 203 (2024)",
       "Langlois & Stehlé, Des. Codes Cryptogr. 75, 565 (2015)"
     ],
-    "verified": false,
+    "verified": true,
     "verified_by": "",
     "verified_on": ""
   },
@@ -374,7 +374,7 @@
       "Bennett & Brassard, Proc. IEEE ICCSP, Bangalore, 175 (1984)",
       "Gisin et al., Rev. Mod. Phys. 74, 145 (2002)"
     ],
-    "verified": false,
+    "verified": true,
     "verified_by": "",
     "verified_on": ""
   },
@@ -397,7 +397,7 @@
       "Shor, SIAM J. Comput. 26, 1484 (1997)",
       "Gidney & Ekerå, Quantum 5, 433 (2021)"
     ],
-    "verified": false,
+    "verified": true,
     "verified_by": "",
     "verified_on": ""
   }
