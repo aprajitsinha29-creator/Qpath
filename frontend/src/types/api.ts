@@ -236,6 +236,8 @@ export interface ProfileResponse {
   interests: Record<string, number>;
   /** Vocabulary-validated skill ids declared via PUT /profiles/{id}/skills (additive). */
   declared_skills: string[];
+  /** The tracked career path (set via PUT /profiles/{id}/chosen-path, Phase 5). */
+  chosen_path_id: string | null;
 }
 
 // --------------------------------------------------------------------- skills (carry-over from Phase 4)
@@ -324,4 +326,73 @@ export interface PathsOut {
   region: string;
   saturation_note: string | null;
   paths: PathResult[];
+}
+
+// --------------------------------------------------------- tracker (Phase 5)
+
+/** PUT /profiles/{id}/chosen-path request/response (plan 5.1). */
+export interface ChosenPathRequest {
+  path_id: string;
+}
+
+export interface ChosenPathResponse {
+  profile_id: string;
+  chosen_path_id: string | null;
+}
+
+/** POST /profiles/{id}/seen response. */
+export interface SeenResponse {
+  profile_id: string;
+  last_seen_at: string | null;
+}
+
+/** One matched posting in the opportunities feed (plan 5.3 item shape). */
+export interface OpportunityItem {
+  posting_id: number;
+  title: string;
+  company: string;
+  location: string | null;
+  via: string | null;
+  apply_url: string | null;
+  is_internship: boolean;
+  first_seen_at: string;
+  is_new: boolean;
+  /** Match 0-100, or null = "not enough information". */
+  match: number | null;
+  matched_skills: string[];
+}
+
+/** GET /profiles/{id}/opportunities response. */
+export interface OpportunitiesResponse {
+  profile_id: string;
+  path_id: string;
+  region: string;
+  first_visit: boolean;
+  total: number;
+  last_seen_at: string | null;
+  last_refreshed_at: string | null;
+  items: OpportunityItem[];
+}
+
+/** One day of a subfield's trend series (plan 5.4). */
+export interface TrendPoint {
+  date: string;
+  active: number;
+  new: number;
+  internships: number;
+}
+
+/** Latest run per refresh kind, for the LastRefreshedPill (plan 5.4). */
+export interface RefreshStatusEntry {
+  time: string | null;
+  status: string | null;
+  serpapi_calls: number | null;
+  counts: Record<string, number>;
+  error: string | null;
+}
+
+export interface RefreshStatusResponse {
+  jobs: RefreshStatusEntry | null;
+  scholar: RefreshStatusEntry | null;
+  extraction: RefreshStatusEntry | null;
 }

@@ -4,6 +4,7 @@ import { AppShell } from '../components/layout/AppShell';
 import { DiagnosticPage } from '../pages/DiagnosticPage';
 import { MethodPage } from '../pages/MethodPage';
 import { NotFoundPage } from '../pages/NotFoundPage';
+import { OpportunitiesPage } from '../pages/OpportunitiesPage';
 import { PathsPage } from '../pages/PathsPage';
 import { PulsePage } from '../pages/PulsePage';
 import { ResultsPage } from '../pages/ResultsPage';
@@ -37,6 +38,10 @@ export const router = createBrowserRouter([
       {
         path: 'paths',
         element: <PathsPage />,
+      },
+      {
+        path: 'opportunities',
+        element: <OpportunitiesPage />,
       },
       {
         path: 'method',
