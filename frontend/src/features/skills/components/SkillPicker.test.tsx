@@ -32,6 +32,8 @@ const VOCABULARY: SkillsListResponse = [
     aliases: ['FPGA', 'Verilog'],
     subfield_ids: ['hardware'],
   },
+  { id: 'cpp', name: 'C++', aliases: ['cplusplus'], subfield_ids: ['hardware'] },
+  { id: 'zzz_lower', name: 'alpha lowercase skill', aliases: [], subfield_ids: ['software'] },
 ];
 
 function renderPicker(profileSkills: string[] = []) {
@@ -99,6 +101,23 @@ describe('SkillPicker', () => {
     // Case-insensitive on names too.
     fireEvent.change(input, { target: { value: 'PYTHON' } });
     expect(screen.getByRole('checkbox', { name: /^python/i })).toBeInTheDocument();
+  });
+
+  it('test_skill_picker_sorts_vocabulary_case_insensitively', () => {
+    // VOCABULARY arrives deliberately out of order and mixed-case. Under a
+    // raw code-point sort the lowercase 'alpha…' name would be LAST (all
+    // uppercase names sort first); with case-insensitive collation it sits
+    // among the capitalized names instead — that is the contract.
+    renderPicker();
+    const names = screen
+      .getAllByRole('checkbox')
+      .map((el) => (el as HTMLButtonElement).getAttribute('aria-label') ?? '')
+      .map((label) => label.replace(/ (selected|not selected)$/, ''));
+    expect(names[names.length - 1]).not.toBe('alpha lowercase skill');
+    const alphaIndex = names.findIndex((n) => n === 'alpha lowercase skill');
+    const pythonIndex = names.findIndex((n) => n === 'Python');
+    expect(alphaIndex).toBeGreaterThan(-1);
+    expect(alphaIndex).toBeLessThan(pythonIndex);
   });
 
   it('test_skill_picker_select_and_deselect_updates_chips_and_count', () => {

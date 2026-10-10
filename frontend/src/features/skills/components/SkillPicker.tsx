@@ -25,13 +25,18 @@ export function SkillPicker({ profileId, profileSkills }: SkillPickerProps) {
   const [query, setQuery] = useState('');
   const [confirmed, setConfirmed] = useState(false);
 
+  // Case-insensitive alphabetical display order (user spec): the backend
+  // sorts by raw code points, so "C++" would land after "applied" names —
+  // localeCompare with sensitivity 'base' keeps it stable and human.
   const options: SkillOption[] = useMemo(
     () =>
-      (data ?? []).map((skill) => ({
-        id: skill.id,
-        name: skill.name,
-        haystack: `${skill.name} ${skill.aliases.join(' ')}`.toLowerCase(),
-      })),
+      (data ?? [])
+        .map((skill) => ({
+          id: skill.id,
+          name: skill.name,
+          haystack: `${skill.name} ${skill.aliases.join(' ')}`.toLowerCase(),
+        }))
+        .sort((a, b) => a.name.localeCompare(b.name, undefined, { sensitivity: 'base' })),
     [data],
   );
 
