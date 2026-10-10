@@ -1,8 +1,17 @@
-// Renders application shell with header navigation, health badge, and routed main content.
+// Renders application shell with header navigation, health badge, and routed
+// main content. The Opportunities nav item is enabled only once a path is
+// tracked (plan 5.5); it reads GET /profiles/{id} via useChosenPath and
+// renders a non-clickable hint otherwise.
 import { NavLink, Outlet } from 'react-router-dom';
 import { HealthBadge } from '../../features/health/components/HealthBadge';
+import { useChosenPath } from '../../features/tracker/hooks/useTracker';
+import { getOrCreateProfileId } from '../../lib/profileId';
 
 export function AppShell() {
+  const profileId = getOrCreateProfileId();
+  const { data: chosenPath } = useChosenPath(profileId);
+  const pathTracked = Boolean(chosenPath?.chosen_path_id);
+
   const navLinkClasses = ({ isActive }: { isActive: boolean }) =>
     `px-3 py-1.5 rounded-md text-sm font-medium transition-colors ${
       isActive
@@ -28,7 +37,8 @@ export function AppShell() {
               </div>
             </NavLink>
 
-            {/* Navigation items per BUILD_PLAN.md 0.6.3 */}
+            {/* Navigation items per BUILD_PLAN.md 0.6.3; the Opportunities item
+                is gated on a tracked path (plan 5.5). */}
             <nav className="flex items-center gap-2" aria-label="Main Navigation">
               <NavLink to="/" end className={navLinkClasses}>
                 Pulse
@@ -41,6 +51,24 @@ export function AppShell() {
               <NavLink to="/paths" className={navLinkClasses}>
                 Paths
               </NavLink>
+
+              {pathTracked ? (
+                <NavLink to="/opportunities" className={navLinkClasses}>
+                  Opportunities
+                </NavLink>
+              ) : (
+                // Gate: visible but not clickable until a path is tracked —
+                // the hint keeps the route discoverable without promising data
+                // the feed cannot compute yet (GET would 409 path_required).
+                <span
+                  data-testid="opportunities-nav-gate"
+                  aria-disabled="true"
+                  title="Track a path on the Paths page to unlock Opportunities"
+                  className="cursor-not-allowed px-3 py-1.5 text-sm font-medium text-slate-600"
+                >
+                  Opportunities
+                </span>
+              )}
 
               <NavLink to="/method" className={navLinkClasses}>
                 Method
