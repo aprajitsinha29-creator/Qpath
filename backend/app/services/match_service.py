@@ -58,6 +58,10 @@ def posting_match(
         return None
     if readiness_score is None:
         return None
+    # Nothing declared -> overlap is undefined, not zero: the 0.4×readiness
+    # remainder would masquerade as a real match opinion the user never gave.
+    if not declared_skill_ids:
+        return None
 
     declared = set(declared_skill_ids)
     overlap = len(declared.intersection(posting_skill_ids)) / max(1, len(posting_skill_ids))

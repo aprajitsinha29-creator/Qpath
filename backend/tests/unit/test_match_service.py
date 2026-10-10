@@ -16,7 +16,6 @@ CASES = [
     ("no_overlap_readiness_1", [" Stim".strip()], ["python"], 100.0, 40.0),
     ("one_of_two_declared_readiness_half", ["a", "b"], ["a"], 50.0, 50.0),
     ("one_of_three_declared_readiness_75", ["a", "b", "c"], ["a"], 75.0, 50.0),
-    ("no_declared_no_readiness", ["python"], [], 0.0, 0.0),
     ("declared_superset_overlap_one", ["python"], ["python", "qiskit", "stim"], 100.0, 100.0),
 ]
 
@@ -37,3 +36,11 @@ def test_posting_match_no_extracted_skills_returns_none() -> None:
     """Case 7: None (not enough info), never 0 — the caller distinguishes the two."""
     assert posting_match([], ["python"], 100.0) is None
     assert posting_match(None, ["python"], 100.0) is None
+
+
+def test_posting_match_no_declared_skills_returns_none() -> None:
+    """No declared skills -> None, not 0.4×readiness: overlap is undefined,
+    not zero, and the readiness remainder would fake a match opinion."""
+    assert posting_match(["python", "stim"], [], 100.0) is None
+    assert posting_match(["python"], [], 50.0) is None
+    assert posting_match(["python", "qiskit"], [], 0.0) is None
