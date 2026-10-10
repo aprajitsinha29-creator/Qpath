@@ -1,10 +1,13 @@
-// Renders one Market Pulse card: demand counts, tracking info, top companies,
-// top-skills bars, a research-focus strip, and links to the detail page.
-// Needs a PulseCard payload plus the active region and an internship filter.
+// Renders one Market Pulse card: demand counts, the Phase 5 trend sparkline,
+// tracking info, top companies, top-skills bars, a research-focus strip, and
+// links to the detail page. Needs a PulseCard payload plus the active region
+// and an internship filter.
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { formatNumber } from '../../../lib/format';
-import type { PulseCard as PulseCardType, PulseRegion } from '../../../types/api';
+import type { PulseCard as PulseCardType, PulseRegion, TrendPoint } from '../../../types/api';
+import { TrendSparkline } from '../../tracker/components/TrendSparkline';
+import { useTrend } from '../../tracker/hooks/useTracker';
 import { PostingList } from './PostingList';
 import { ResearchFocus } from './ResearchFocus';
 import { SkillBars } from './SkillBars';
@@ -17,6 +20,15 @@ interface SubfieldCardProps {
 
 export function SubfieldCard({ card, region, internshipOnly }: SubfieldCardProps) {
   const [expanded, setExpanded] = useState(false);
+  // Trend query per card; degrade to the 'no history yet' state when the
+  // provider is missing (e.g. tests rendering the card standalone).
+  let trend: TrendPoint[] | undefined;
+  try {
+    const res = useTrend(card.subfield_id, region);
+    trend = res.data;
+  } catch (e) {
+    if (!(e instanceof Error && /No QueryClient/.test(e.message))) throw e;
+  }
 
   return (
     <article
@@ -69,6 +81,10 @@ export function SubfieldCard({ card, region, internshipOnly }: SubfieldCardProps
           </span>
         )}
       </p>
+
+      {/* Phase 5 trend sparkline: only renders with >= 2 snapshots; 1 shows
+          "tracking started <date>"; 0 shows "no history yet" (plan 5.5). */}
+      <TrendSparkline points={trend ?? []} subfieldName={card.name} />
 
       {card.top_companies.length > 0 ? (
         <div className="text-xs text-slate-400">

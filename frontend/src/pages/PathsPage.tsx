@@ -6,6 +6,7 @@ import { PathCard } from '../features/paths/components/PathCard';
 import { usePaths, useRequestExplanations } from '../features/paths/hooks/usePaths';
 import { DeclaredSkillsPanel } from '../features/skills/components/DeclaredSkillsPanel';
 import { useProfile } from '../features/skills/hooks/useSkills';
+import { useChosenPath } from '../features/tracker/hooks/useTracker';
 import { getOrCreateProfileId } from '../lib/profileId';
 
 export function PathsPage() {
@@ -15,6 +16,9 @@ export function PathsPage() {
   // Declared-skills panel (optional): its own query — a profile failure here
   // must not break the paths view; the picker is simply not rendered.
   const profileQuery = useProfile(profileId);
+  // Tracked path id (Phase 5) feeds the TrackPathButton on each card; a
+  // failed profile query only costs the button state, not the page.
+  const chosenPathQuery = useChosenPath(profileId);
 
   // 409 assessment_required → redirect to diagnostic with a message (plan 4.6)
   const status = (error as { status?: number } | null)?.status;
@@ -135,7 +139,13 @@ export function PathsPage() {
       {/* Path cards */}
       <div className="space-y-4" aria-label="Ranked career paths">
         {data.paths.map((path) => (
-          <PathCard key={path.path_id} path={path} explanationLoading={explainMutation.isPending} />
+          <PathCard
+            key={path.path_id}
+            path={path}
+            explanationLoading={explainMutation.isPending}
+            trackedPathId={chosenPathQuery.data?.chosen_path_id ?? null}
+            profileId={profileId}
+          />
         ))}
       </div>
 

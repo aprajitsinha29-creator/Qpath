@@ -1,8 +1,11 @@
 // Renders one ranked career path card: rank badge (top-3 highlighted),
-// total score, ScoreBreakdown bars, EvidencePanel, ExplanationBlock, and
-// LowDataNotice. Needs a PathResult and an explanationLoading flag.
+// total score, ScoreBreakdown bars, EvidencePanel, ExplanationBlock,
+// LowDataNotice, and the Phase 5 TrackPathButton. Needs a PathResult, an
+// explanationLoading flag, and the profile's currently tracked path id
+// (null until one is tracked) to label the button.
 import { useState } from 'react';
 import type { PathResult } from '../../../types/api';
+import { TrackPathButton } from '../../tracker/components/TrackPathButton';
 import { EvidencePanel } from './EvidencePanel';
 import { ExplanationBlock } from './ExplanationBlock';
 import { LowDataNotice } from './LowDataNotice';
@@ -12,9 +15,13 @@ interface Props {
   path: PathResult;
   /** True while the batched explanation mutation is in-flight. */
   explanationLoading: boolean;
+  /** Profile's tracked path id (Phase 5); null unless one is tracked. */
+  trackedPathId?: string | null;
+  /** Anonymous profile id the tracking mutation is keyed on. */
+  profileId?: string;
 }
 
-export function PathCard({ path, explanationLoading }: Props) {
+export function PathCard({ path, explanationLoading, trackedPathId = null, profileId }: Props) {
   const [evidenceOpen, setEvidenceOpen] = useState(false);
   const [explanationOpen, setExplanationOpen] = useState(false);
 
@@ -58,6 +65,17 @@ export function PathCard({ path, explanationLoading }: Props) {
           <span className="text-[11px] text-slate-500">/ 100</span>
         </div>
       </header>
+
+      {/* Track-this-path / Tracking button (plan 5.5); switching is allowed. */}
+      {profileId && (
+        <div>
+          <TrackPathButton
+            profileId={profileId}
+            pathId={path.path_id}
+            trackedPathId={trackedPathId}
+          />
+        </div>
+      )}
 
       {/* Low-data notice */}
       {path.low_data && <LowDataNotice />}
