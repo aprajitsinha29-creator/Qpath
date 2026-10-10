@@ -93,3 +93,7 @@ class ProfileOut(BaseModel):
     profile_id: str = Field(validation_alias="id")
     created_at: datetime
     interests: dict[str, int]
+    # Carry-over from Phase 4 scope: vocabulary-validated skill ids declared by
+    # the user via PUT /profiles/{id}/skills. Additive only — ranking does not
+    # read this field (test_declared_skills_do_not_change_ranked_paths).
+    declared_skills: list[str] = Field(default_factory=list)
