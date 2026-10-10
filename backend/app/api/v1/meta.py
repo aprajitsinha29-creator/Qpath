@@ -1,7 +1,7 @@
-"""Meta endpoints: ``GET /meta/serpapi-activity`` (plan 1.5).
+"""Meta endpoints: ``GET /meta/serpapi-activity`` (plan 1.5),
+``GET /meta/refresh-status`` (plan 5.4) and ``GET /meta/method`` (plan 7).
 
-``GET /meta/refresh-status`` is intentionally deferred to Phase 5 with the
-scheduler; adding it now would return empty rows nobody consumes.
+Thin routers: parse nothing, delegate to a service, return schemas.
 """
 
 from __future__ import annotations
@@ -10,7 +10,7 @@ from fastapi import APIRouter, Depends
 from sqlalchemy.orm import Session
 
 from app.db.session import get_db
-from app.schemas.meta import RefreshStatus, SerpApiActivity
+from app.schemas.meta import MethodStats, RefreshStatus, SerpApiActivity
 from app.services import meta_service, tracker_service
 
 router = APIRouter(tags=["meta"])
@@ -36,6 +36,24 @@ def get_refresh_status(db: Session = Depends(get_db)) -> RefreshStatus:
         scholar=latest.get("scholar"),  # type: ignore[arg-type]
         extraction=latest.get("extraction"),  # type: ignore[arg-type]
     )
+
+
+@router.get(
+    "/meta/method",
+    response_model=MethodStats,
+    summary="Method-page live numbers",
+)
+def get_method_stats(db: Session = Depends(get_db)) -> MethodStats:
+    """Return honest corpus/usage stats for the Method page (plan 7).
+
+    Args:
+        db: request session.
+
+    Returns:
+        MethodStats — SerpApi calls by engine (live vs recorded), posting
+        totals, extraction count, theme count and last refresh timestamps.
+    """
+    return meta_service.get_method_stats(db)
 
 
 @router.get(
