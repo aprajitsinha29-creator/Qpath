@@ -1,8 +1,8 @@
 // One matched posting in the opportunities feed (plan 5.5). Needs an
-// OpportunityItem plus the response's first_visit flag; the match badge
-// renders the score or "Not enough info" for null, and the NEW badge shows
-// only when is_new && !first_visit (plan 5.5 — no badge shouting on first
-// visit, an intro note covers that on the page instead).
+// OpportunityItem plus the feed's first_visit and has_declared_skills flags;
+// the match badge renders the score, "Not enough info" (no extracted skills),
+// or an "Add your skills to see a match" link pointing at the on-page skills
+// panel; NEW badge shows only when is_new && !first_visit.
 import type { OpportunityItem } from '../../../types/api';
 
 interface OpportunityCardProps {
@@ -10,10 +10,24 @@ interface OpportunityCardProps {
   item: OpportunityItem;
   /** True when the whole feed is a first visit — NEW badges are suppressed. */
   firstVisit: boolean;
+  /**
+   * False when the profile declared no skills at all: a null match then means
+   * "we can't compute one yet", so the card invites the user to the panel.
+   */
+  hasDeclaredSkills: boolean;
 }
 
-export function OpportunityCard({ item, firstVisit }: OpportunityCardProps) {
+export function OpportunityCard({ item, firstVisit, hasDeclaredSkills }: OpportunityCardProps) {
   const showNewBadge = item.is_new && !firstVisit;
+  // The skills panel is a sibling on OpportunitiesPage; scroll+focus it so a
+  // keyboard user lands somewhere meaningful, not just at page top.
+  const jumpToSkills = (event: React.MouseEvent<HTMLAnchorElement>) => {
+    event.preventDefault();
+    const target = document.getElementById('skills-panel');
+    target?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    const button = target?.querySelector<HTMLButtonElement>('button');
+    button?.focus();
+  };
 
   return (
     <article
@@ -38,12 +52,27 @@ export function OpportunityCard({ item, firstVisit }: OpportunityCardProps) {
 
       <div className="mt-3 flex flex-wrap gap-2">
         {item.match === null ? (
-          <span
-            data-testid="match-badge"
-            className="rounded-full border border-amber-800/60 bg-amber-950/30 px-2.5 py-0.5 text-[10px] font-medium text-amber-200"
-          >
-            Not enough info
-          </span>
+          hasDeclaredSkills ? (
+            // Profile declared skills but this posting has none extracted:
+            // honest "we don't know" rather than a fabricated 0.
+            <span
+              data-testid="match-badge"
+              className="rounded-full border border-amber-800/60 bg-amber-950/30 px-2.5 py-0.5 text-[10px] font-medium text-amber-200"
+            >
+              Not enough info
+            </span>
+          ) : (
+            // No skills declared at all: match cannot exist — invite the user
+            // to the skills panel instead of showing a percentage.
+            <a
+              href="#skills-panel"
+              data-testid="match-badge"
+              onClick={jumpToSkills}
+              className="rounded-full border border-cyan-800/60 bg-cyan-950/30 px-2.5 py-0.5 text-[10px] font-medium text-cyan-200 hover:border-cyan-700 hover:bg-cyan-900/40"
+            >
+              Add your skills to see a match
+            </a>
+          )
         ) : (
           <span
             data-testid="match-badge"
