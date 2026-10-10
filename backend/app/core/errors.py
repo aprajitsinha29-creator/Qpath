@@ -148,6 +148,27 @@ class InvalidSkillsError(AppError):
     status_code = 422
 
 
+class InvalidPathError(AppError):
+    """A referenced career path id does not exist in the seeded taxonomy (422).
+
+    422 rather than 404: the path collection is a fixed reference set, so an
+    unknown id means the client sent an invalid value (plan 5.1).
+    """
+
+    code = "invalid_path"
+    status_code = 422
+
+
+class PathRequiredError(ConflictError):
+    """The profile has not tracked a career path yet (409 ``path_required``).
+
+    409 (not 404): the profile exists — the request conflicts with its current
+    state (plan 5.1), same reasoning as ``AssessmentRequiredError``.
+    """
+
+    code = "path_required"
+
+
 # HTTP errors raised by FastAPI/Starlette itself get a snake_case code too.
 _HTTP_ERROR_CODES: dict[int, str] = {
     400: "bad_request",

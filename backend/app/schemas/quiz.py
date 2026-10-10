@@ -97,3 +97,7 @@ class ProfileOut(BaseModel):
     # the user via PUT /profiles/{id}/skills. Additive only — ranking does not
     # read this field (test_declared_skills_do_not_change_ranked_paths).
     declared_skills: list[str] = Field(default_factory=list)
+    # Phase 5: the tracked career path (set via PUT /profiles/{id}/chosen-path).
+    # last_seen_at and completed_concepts stay unexposed — nothing consumes them
+    # yet and they are internal bookkeeping.
+    chosen_path_id: str | None = None

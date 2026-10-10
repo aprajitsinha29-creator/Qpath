@@ -11,8 +11,14 @@ from fastapi import APIRouter, Depends, Query
 from sqlalchemy.orm import Session
 
 from app.db.session import get_db
-from app.schemas.pulse import PostingListResponse, PostingOut, PulseCard, SubfieldDetail
-from app.services import pulse_service
+from app.schemas.pulse import (
+    PostingListResponse,
+    PostingOut,
+    PulseCard,
+    SubfieldDetail,
+    TrendPoint,
+)
+from app.services import pulse_service, tracker_service
 
 router = APIRouter(tags=["pulse"])
 
@@ -58,6 +64,33 @@ def get_subfield_detail(
     """
     detail = pulse_service.get_subfield_detail(db, subfield_id, region)
     return SubfieldDetail.model_validate(detail)
+
+
+@router.get(
+    "/pulse/{subfield_id}/trend",
+    response_model=list[TrendPoint],
+    summary="Daily snapshot series for a subfield",
+)
+def get_trend(
+    subfield_id: str,
+    region: str = Query(default="global", pattern="^(global|india)$"),
+    db: Session = Depends(get_db),
+) -> list[TrendPoint]:
+    """Return the subfield's snapshot series, date ascending (plan 5.4).
+
+    Args:
+        subfield_id: taxonomy id (404 when unknown).
+        region: region to filter on (default global).
+        db: request session.
+
+    Returns:
+        [{date, active, new, internships}] oldest-first; [] if no data yet.
+
+    Raises:
+        NotFoundError: unknown subfield (404).
+    """
+    points = tracker_service.get_trend(db, subfield_id, region=region)
+    return [TrendPoint.model_validate(point) for point in points]
 
 
 @router.get(

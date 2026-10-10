@@ -95,6 +95,15 @@ class PostingOut(BaseModel):
     snippet: str | None
 
 
+class TrendPoint(BaseModel):
+    """One day of snapshot data in a subfield's trend series (plan 5.4)."""
+
+    date: str  # ISO YYYY-MM-DD
+    active: int
+    new: int
+    internships: int
+
+
 class PostingListResponse(BaseModel):
     """Page of postings plus the unpaginated total for pagination UI."""
 

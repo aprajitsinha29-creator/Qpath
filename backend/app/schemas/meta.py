@@ -9,7 +9,28 @@ from __future__ import annotations
 
 from datetime import datetime
 
-from pydantic import BaseModel, ConfigDict
+from pydantic import BaseModel, ConfigDict, Field
+
+
+class RefreshStatusEntry(BaseModel):
+    """Summary of the latest run of one kind (jobs/scholar/extraction, plan 5.4)."""
+
+    time: datetime | None = None
+    status: str | None = None
+    serpapi_calls: int | None = None
+    counts: dict[str, float] = Field(default_factory=dict)
+    error: str | None = None
+
+
+class RefreshStatus(BaseModel):
+    """``GET /meta/refresh-status`` response: latest run per kind (plan 5.4).
+
+    Kinds never run are null, so the shape is stable for the UI.
+    """
+
+    jobs: RefreshStatusEntry | None = None
+    scholar: RefreshStatusEntry | None = None
+    extraction: RefreshStatusEntry | None = None
 
 
 class SerpApiCallOut(BaseModel):

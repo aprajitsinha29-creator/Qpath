@@ -6,13 +6,21 @@ schema. Scoring happens inside the service — never here.
 
 from __future__ import annotations
 
-from fastapi import APIRouter, Depends
+from typing import Literal
+
+from fastapi import APIRouter, Depends, Query
 from sqlalchemy.orm import Session
 
 from app.db.session import get_db
+from app.schemas.opportunities import (
+    ChosenPathIn,
+    ChosenPathOut,
+    OpportunitiesOut,
+    SeenOut,
+)
 from app.schemas.quiz import AssessmentIn, AssessmentOut, ProfileCreateIn, ProfileOut
 from app.schemas.skills import DeclaredSkillsIn
-from app.services import quiz_service, skills_service
+from app.services import quiz_service, skills_service, tracker_service
 
 router = APIRouter(prefix="/profiles", tags=["profiles"])
 
@@ -33,6 +41,85 @@ def create_profile(
     """
     profile_id = body.profile_id if body is not None else None
     return quiz_service.create_profile(db, profile_id)
+
+
+@router.put(
+    "/{profile_id}/chosen-path",
+    response_model=ChosenPathOut,
+    summary="Track (or switch) a career path",
+)
+def set_chosen_path(
+    profile_id: str, payload: ChosenPathIn, db: Session = Depends(get_db)
+) -> ChosenPathOut:
+    """Track a career path for this profile (plan 5.1); re-PUT switches it.
+
+    Args:
+        profile_id: UUID path parameter.
+        payload: {"path_id": <seeded career path id>}.
+        db: request session.
+
+    Returns:
+        ChosenPathOut with the tracked path.
+
+    Raises:
+        NotFoundError: unknown profile (404).
+        InvalidPathError: unknown path id (422 ``invalid_path``).
+    """
+    return tracker_service.set_chosen_path(db, profile_id, payload.path_id)
+
+
+@router.post("/{profile_id}/seen", response_model=SeenOut, summary="Mark the feed as seen")
+def mark_seen(profile_id: str, db: Session = Depends(get_db)) -> SeenOut:
+    """Set last_seen_at = now (explicit; GET /opportunities never does this).
+
+    Args:
+        profile_id: UUID path parameter.
+        db: request session.
+
+    Returns:
+        SeenOut with the new marker.
+
+    Raises:
+        NotFoundError: unknown profile (404).
+    """
+    return tracker_service.mark_seen(db, profile_id)
+
+
+@router.get(
+    "/{profile_id}/opportunities",
+    response_model=OpportunitiesOut,
+    summary="Matched postings for the tracked path",
+)
+def get_opportunities(
+    profile_id: str,
+    region: Literal["global", "india"] = Query("global"),
+    internship: bool | None = Query(default=None),
+    limit: int = Query(default=20, ge=1, le=100),
+    offset: int = Query(default=0, ge=0),
+    db: Session = Depends(get_db),
+) -> OpportunitiesOut:
+    """List matched postings for the tracked path's subfield (plan 5.3).
+
+    Read-only: NEVER updates last_seen_at — the client calls POST /seen.
+
+    Args:
+        profile_id: UUID path parameter.
+        region: global or india (default global).
+        internship: optional internship filter (null = both).
+        limit/offset: pagination (total is independent of paging).
+        db: request session.
+
+    Returns:
+        OpportunitiesOut sorted match desc, first_seen desc, id.
+
+    Raises:
+        NotFoundError: unknown profile (404).
+        PathRequiredError: no tracked path (409 ``path_required``).
+        AssessmentRequiredError: no diagnostic (409 ``assessment_required``).
+    """
+    return tracker_service.get_opportunities(
+        db, profile_id, region=region, internship=internship, limit=limit, offset=offset
+    )
 
 
 @router.put("/{profile_id}/skills", response_model=ProfileOut, summary="Replace declared skills")
