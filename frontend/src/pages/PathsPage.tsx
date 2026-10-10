@@ -4,12 +4,17 @@
 import { Link, Navigate } from 'react-router-dom';
 import { PathCard } from '../features/paths/components/PathCard';
 import { usePaths, useRequestExplanations } from '../features/paths/hooks/usePaths';
+import { DeclaredSkillsPanel } from '../features/skills/components/DeclaredSkillsPanel';
+import { useProfile } from '../features/skills/hooks/useSkills';
 import { getOrCreateProfileId } from '../lib/profileId';
 
 export function PathsPage() {
   const profileId = getOrCreateProfileId();
   const { data, isLoading, isError, error } = usePaths(profileId);
   const explainMutation = useRequestExplanations(profileId);
+  // Declared-skills panel (optional): its own query — a profile failure here
+  // must not break the paths view; the picker is simply not rendered.
+  const profileQuery = useProfile(profileId);
 
   // 409 assessment_required → redirect to diagnostic with a message (plan 4.6)
   const status = (error as { status?: number } | null)?.status;
@@ -116,6 +121,15 @@ export function PathsPage() {
         >
           Explanation generation failed. Try again or see the template summaries below.
         </div>
+      )}
+
+      {/* Declared skills (carry-over): pre-filled from the profile; only rendered
+          when the profile loads — the panel hides quietly otherwise */}
+      {profileQuery.data && (
+        <DeclaredSkillsPanel
+          profileId={profileId}
+          profileSkills={profileQuery.data.declared_skills}
+        />
       )}
 
       {/* Path cards */}

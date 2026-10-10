@@ -234,6 +234,28 @@ export interface ProfileResponse {
   profile_id: string;
   created_at: string;
   interests: Record<string, number>;
+  /** Vocabulary-validated skill ids declared via PUT /profiles/{id}/skills (additive). */
+  declared_skills: string[];
+}
+
+// --------------------------------------------------------------------- skills (carry-over from Phase 4)
+
+/** One vocabulary entry returned by GET /skills. */
+export interface SkillOut {
+  id: string;
+  name: string;
+  aliases: string[];
+  subfield_ids: string[];
+}
+
+/** GET /skills response: full vocabulary sorted by name. */
+export interface SkillsListResponse {
+  skills: SkillOut[];
+}
+
+/** PUT /profiles/{id}/skills request body: the complete replacement list. */
+export interface DeclaredSkillsRequest {
+  skill_ids: string[];
 }
 
 // ------------------------------------------------------------------- paths (Phase 4)
