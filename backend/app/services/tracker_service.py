@@ -121,8 +121,9 @@ def get_opportunities(
     Source: active postings linked to the chosen path's subfield in the
     requested region, BOTH tiers (tiers exist to keep demand fair, not to
     hide listings from a user). Per item, ``match`` is ``None`` ("not enough
-    information") when the posting was never successfully extracted or has no
-    extracted skills. ``readiness_n`` input comes from the LATEST assessment
+    information") when the profile declared no skills, the posting was never
+    successfully extracted, or it has no extracted skills — never a partial
+    score built from readiness alone. ``readiness_n`` input comes from the LATEST assessment
     for the TRACKED PATH's subfield: the data model stores no posting-level
     primary subfield that is scored, so the tracked path's subfield is the
     fallback — recorded in ARCHITECTURE.md decision log.
