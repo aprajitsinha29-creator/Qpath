@@ -121,7 +121,7 @@ The API key is passed only at call time; it is never logged, stored, or committe
 | **1** | Market Pulse v1: six subfield cards with live/fixture job counts | ✅ **Done** |
 | **2** | Intelligence layer: Gemini skill extraction + Scholar research themes | ✅ **Done** |
 | **3** | Orientation diagnostic: quiz + readiness radar | ✅ **Done** |
-| **4** | Path matcher: deterministic ranked career paths + grounded explanations + /paths UI | ✅ **Done** |
+| **4** | Path matcher: deterministic ranked career paths + grounded explanations + /paths UI (incl. carry-over: declared-skills picker, `PUT /profiles/{id}/skills`, `GET /skills`) | ✅ **Done** |
 | 5 | Opportunity tracker: scheduler, matched postings, is_new badges | 🔜 |
 | 6 | Gap analysis & learning plan | 🔜 |
 | 7 | Submission hardening: method page, demo script, secret scan | 🔜 |

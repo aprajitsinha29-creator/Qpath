@@ -302,7 +302,8 @@ POST /profiles/{id}/paths/explanations → paths_service.get_ranked_paths_with_e
 
 ### Known limits (Phase 4)
 
-- Declared skills picker (`PUT /profiles/{id}/skills`) was intentionally cut from this phase's scope per user instruction.
+- Declared skills carry-over (implemented after the phase, on branch `skillp`): `PUT /profiles/{id}/skills` and the frontend `SkillPicker` are now DONE — the cut item below no longer applies.
+  - ~~Declared skills picker (`PUT /profiles/{id}/skills`) was intentionally cut from this phase's scope per user instruction.~~ (Reimplemented as the Phase 4 carry-over; see decision log below.)
 - The 18 quiz questions in `quiz_questions.json` remain `verified=false` awaiting owner verification in M-08.
 
 ---
@@ -355,9 +356,91 @@ PathsPage
 - **"See your paths" button:** Prominent button on `ResultsPage` linking directly to `/paths`.
 - **Diagnostic redirect banner:** If `/paths` receives HTTP 409 (`assessment_required`), it redirects to `/diagnostic` passing notification state, rendering an informative banner explaining that the orientation diagnostic is required first.
 - **Profile ID resolution in `useSubmitAssessment`:** Fixed `useSubmitAssessment` to resolve `getOrCreateProfileId()` from storage when `profileId` is omitted or null, preventing "Profile is not ready yet" mutation rejections on submission.
-- **SkillPicker cut:** `PUT /profiles/{id}/skills` and the frontend skills multi-select were intentionally cut per user instruction.
+- **SkillPicker cut:** ~~`PUT /profiles/{id}/skills` and the frontend skills multi-select were intentionally cut per user instruction.~~ Reimplemented later as the Phase 4 carry-over on branch `skillp` (see Phase 4 carry-over section below).
+- **Known limits (Phase 4 frontend):** the 18 quiz questions in `quiz_questions.json` remain `verified=false` awaiting owner verification in M-08.
 
 ### Known limits (Phase 4 frontend)
 
 - `ExplanationBlock` collapses by default; users can click "Show explanation" to inspect.
 - The 18 quiz questions in `quiz_questions.json` remain `verified=false` awaiting owner verification in M-08.
+
+---
+
+## Phase 4 carry-over — declared skills (branch `skillp`)
+
+> The one item cut from Phase 4, implemented afterwards per user instruction. NOT a new
+> phase: no scoring/ranking/explanation logic changed, and no Phase 5/6 work started.
+
+### What was added
+
+**Backend**
+
+- `app/schemas/skills.py`: `SkillOut`, `SkillsListResponse`, `DeclaredSkillsIn`.
+- `app/services/skills_service.py`: `list_skills` (vocabulary sorted by name, ties by id) and
+  `replace_declared_skills` (atomic: profile resolved first, then vocabulary validation; only
+  `declared_skills` is assigned — interests, `last_seen_at`, `chosen_path_id`,
+  `completed_concepts` and assessment history are never touched). Duplicates are removed
+  keeping first-seen order; an empty list clears the list; no hardcoded cap — the only upper
+  bound is the size of the vocabulary (53 entries in `skills_vocab.json`).
+- `app/api/v1/skills.py` + router wiring: read-only `GET /skills` returning
+  `[{id, name, aliases, subfield_ids}]` sorted by name.
+- `PUT /profiles/{id}/skills` (thin route on the profiles router) with body
+  `{"skill_ids": [str, ...]}`. Validation errors: unknown ids → 422 `invalid_skills` listing
+  the offending ids, nothing written; missing/non-string items → 422 `validation_error` at the
+  schema boundary; unknown profile → the existing 404 `not_found`.
+- `ProfileOut` now exposes `declared_skills` (additive field, defaults to `[]`).
+
+**Frontend**
+
+- `features/skills/` (new feature): `api.ts` (GET /skills, PUT declared skills),
+  `hooks/useSkills.ts` (`useSkills` with 1-hour staleTime; `useProfile`; `useSaveDeclaredSkills`
+  updating the profile query cache on success), `components/SkillPicker.tsx` (searchable
+  multi-select; filter is case-insensitive over name AND aliases — typing “mwpm” finds
+  PyMatching; removable chips; Save button; saved confirmation; aria-live selection count;
+  loading/empty/error-with-retry states; fully keyboard-operable with accessible names),
+  `components/DeclaredSkillsPanel.tsx` (collapsible panel “Skills you already have (optional)”).
+- Mounted on `/paths` (`PathsPage`), pre-filled from the profile. Copy is honest: the list is
+  saved to the profile and does NOT change the ranking.
+- `types/api.ts`: `SkillOut`, `SkillsListResponse`, `DeclaredSkillsRequest` added;
+  `ProfileResponse` gained `declared_skills`.
+
+### Data flow
+
+```
+GET  /skills                        → skills_service.list_skills → vocabulary (sorted by name)
+PUT  /profiles/{id}/skills          → skills_service.replace_declared_skills
+                                       ├─ quiz_service.get_profile (404 gate)
+                                       ├─ vocabulary validation (dedupe, 422 invalid_skills)
+                                       └─ profile.declared_skills = validated → commit
+PathsPage → DeclaredSkillsPanel → SkillPicker (GET /skills + useProfile pre-fill)
+                                       └─ Save → PUT → profile query cache updated
+```
+
+### Decision log (carry-over)
+
+- **`GET /skills` added outside the plan's API table.** The build plan's Section 4.4 surface
+  does not list a vocabulary endpoint, but the frontend must show the controlled vocabulary
+  and no endpoint exposed it. Recorded here as the required addition: read-only, derived
+  entirely from the seeded `skills` table, no SerpApi/Gemini involvement.
+- **`ProfileOut` gained `declared_skills` (additive).** The picker pre-fills from the profile;
+  until now no endpoint returned `declared_skills`. Phase 5 fields (`chosen_path_id`,
+  `last_seen_at`, `completed_concepts`) are deliberately NOT exposed yet — the task scoped the
+  change to declared skills only.
+- **Ranking isolation is a tested contract.** `declared_skills` is stored on the profile but
+  `paths_service.build_ranked_paths` never reads it; `test_declared_skills_do_not_change_ranked_paths`
+  compares the full `GET /profiles/{id}/paths` response before and after the PUT and requires
+  byte-identical output.
+- **Atomicity via validate-then-mutate.** Vocabulary validation runs before any attribute
+  assignment; SQLite single-file transactions make the commit all-or-nothing, so the
+  “writes nothing on 422” behavior is test-enforced rather than assumed.
+- **Tests: backend `tests/integration/test_skills_api.py` (10 tests covering the full required
+  list) + frontend `SkillPicker.test.tsx` (8 tests covering loading/error/retry, alias search,
+  chips/count, pre-fill, exact save payload + confirmation, 422 message with selection kept,
+  keyboard operation).**
+
+### Known limits (Phase 4 carry-over)
+
+- The picker is purely declarative today: nothing computed (Phase 6 gap analysis) consumes it
+  yet, per “do not touch Phase 5/6 work”.
+- `GET /skills` has no pagination/filter params — the whole 53-skill vocabulary is served;
+  that is intentional at this vocabulary size.
