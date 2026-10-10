@@ -1,29 +1,41 @@
-// Renders Methodology & Data Sources information page (Phase 7 placeholder).
+// Renders the Data & Methodology page (plan 7): the verbatim
+// docs/DATA_AND_METHOD.md sections plus a "Live numbers" block from
+// GET /meta/method (loading, error, and empty states included). Needs the
+// meta/method query only; document sections are static content.
+import { LiveNumbers } from '../features/meta/components/LiveNumbers';
+import { DATA_AND_METHOD_SECTIONS, MethodDocSection } from '../features/meta/components/MethodDoc';
+import { useMethodStats } from '../features/meta/hooks/useMeta';
+
 export function MethodPage() {
+  const stats = useMethodStats();
+
   return (
-    <div className="space-y-6">
-      <div className="rounded-xl border border-slate-800 bg-slate-900/50 p-8 shadow-xl">
+    <div className="mx-auto max-w-3xl space-y-8">
+      <header className="space-y-2">
         <h1 className="text-2xl font-bold tracking-tight text-white sm:text-3xl">
-          Data & Methodology
+          Data &amp; Methodology
         </h1>
-        <p className="mt-3 text-slate-300">
-          Quantum Pathfinder grounds career navigation in real market data gathered through SerpApi
-          (Google Jobs and Google Scholar) and structured intelligence extracted with Gemini.
+        <p className="text-sm text-slate-400">
+          Where our market data comes from, what the AI is allowed to do, and the numbers behind
+          this instance — stated honestly.
         </p>
-        <div className="mt-6 rounded-lg border border-slate-800 bg-slate-950 p-4 text-xs font-mono text-slate-400 space-y-2">
-          <p className="text-cyan-400 font-medium">Core principles:</p>
-          <p>
-            1. Deterministic scoring: All scores and ranks use pure formulas; AI never decides
-            numbers.
-          </p>
-          <p>
-            2. Honest limits: Sampled posting counts are clearly indicated with low-data badges.
-          </p>
-          <p>
-            3. Controlled vocabulary: AI skill extraction maps only to predefined taxonomy
-            identifiers.
-          </p>
-        </div>
+      </header>
+
+      {/* Document sections: verbatim text from docs/DATA_AND_METHOD.md. */}
+      <div className="space-y-8 rounded-xl border border-slate-800 bg-slate-900/50 p-6">
+        {DATA_AND_METHOD_SECTIONS.map((section) => (
+          <MethodDocSection key={section.title} section={section} />
+        ))}
+      </div>
+
+      {/* Live numbers from the backend (facts, not derived claims). */}
+      <div className="rounded-xl border border-slate-800 bg-slate-900/50 p-6">
+        <LiveNumbers
+          data={stats.data}
+          isLoading={stats.isLoading}
+          isError={stats.isError}
+          onRetry={() => stats.refetch()}
+        />
       </div>
     </div>
   );

@@ -396,3 +396,21 @@ export interface RefreshStatusResponse {
   scholar: RefreshStatusEntry | null;
   extraction: RefreshStatusEntry | null;
 }
+
+/** Per-engine SerpApi call split (backend schemas.meta.EngineCallCounts). */
+export interface EngineCallCounts {
+  live: number;
+  fixture: number;
+}
+
+/** GET /meta/method response: honest Method-page numbers (mirror of the Pydantic schema). */
+export interface MethodStatsResponse {
+  /** {engine: {live, fixture}} call totals over all time. */
+  serpapi_calls: Record<string, EngineCallCounts>;
+  postings_total: number;
+  postings_active: number;
+  extraction_done: number;
+  themes_count: number;
+  last_jobs_refresh: string | null;
+  last_scholar_refresh: string | null;
+}
