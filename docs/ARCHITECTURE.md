@@ -375,15 +375,16 @@ PathsPage
 
 **Backend**
 
-- `app/schemas/skills.py`: `SkillOut`, `SkillsListResponse`, `DeclaredSkillsIn`.
+- `app/schemas/skills.py`: `SkillOut`, `DeclaredSkillsIn`.
 - `app/services/skills_service.py`: `list_skills` (vocabulary sorted by name, ties by id) and
   `replace_declared_skills` (atomic: profile resolved first, then vocabulary validation; only
   `declared_skills` is assigned — interests, `last_seen_at`, `chosen_path_id`,
   `completed_concepts` and assessment history are never touched). Duplicates are removed
   keeping first-seen order; an empty list clears the list; no hardcoded cap — the only upper
   bound is the size of the vocabulary (53 entries in `skills_vocab.json`).
-- `app/api/v1/skills.py` + router wiring: read-only `GET /skills` returning
-  `[{id, name, aliases, subfield_ids}]` sorted by name.
+- `app/api/v1/skills.py` + router wiring: read-only `GET /skills` returning a bare list
+  `[{id, name, aliases, subfield_ids}]` sorted by name (exactly the shapes the task spec named;
+  no wrapper object), recorded here because it is not in the Section 4.4 API table.
 - `PUT /profiles/{id}/skills` (thin route on the profiles router) with body
   `{"skill_ids": [str, ...]}`. Validation errors: unknown ids → 422 `invalid_skills` listing
   the offending ids, nothing written; missing/non-string items → 422 `validation_error` at the

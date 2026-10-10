@@ -21,12 +21,6 @@ class SkillOut(BaseModel):
     subfield_ids: list[str]
 
 
-class SkillsListResponse(BaseModel):
-    """Full vocabulary, sorted by name — the frontend picker's data source."""
-
-    skills: list[SkillOut]
-
-
 class DeclaredSkillsIn(BaseModel):
     """``PUT /profiles/{id}/skills`` body: the complete replacement list."""
 

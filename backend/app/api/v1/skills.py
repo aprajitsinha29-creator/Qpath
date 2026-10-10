@@ -11,20 +11,21 @@ from fastapi import APIRouter, Depends
 from sqlalchemy.orm import Session
 
 from app.db.session import get_db
-from app.schemas.skills import SkillsListResponse
+from app.schemas.skills import SkillOut
 from app.services import skills_service
 
 router = APIRouter(prefix="/skills", tags=["skills"])
 
 
-@router.get("", response_model=SkillsListResponse, summary="Full skills vocabulary")
-def get_skills(db: Session = Depends(get_db)) -> SkillsListResponse:
+@router.get("", response_model=list[SkillOut], summary="Full skills vocabulary")
+def get_skills(db: Session = Depends(get_db)) -> list[SkillOut]:
     """Return the entire seeded skills vocabulary sorted by name.
 
     Args:
         db: request session.
 
     Returns:
-        SkillsListResponse with every skill: id, name, aliases, subfield_ids.
+        A bare list of skills (id, name, aliases, subfield_ids), sorted by
+        name — the interface the frontend picker consumes.
     """
-    return SkillsListResponse(skills=skills_service.list_skills(db))
+    return skills_service.list_skills(db)

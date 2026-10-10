@@ -23,18 +23,16 @@ import { useSaveDeclaredSkills, useSkills } from '../hooks/useSkills';
 const mockUseSkills = vi.mocked(useSkills);
 const mockUseSave = vi.mocked(useSaveDeclaredSkills);
 
-const VOCABULARY: SkillsListResponse = {
-  skills: [
-    { id: 'python', name: 'Python', aliases: ['py'], subfield_ids: ['software'] },
-    { id: 'pymatching', name: 'PyMatching', aliases: ['MWPM'], subfield_ids: ['qec'] },
-    {
-      id: 'control_electronics',
-      name: 'Control electronics & FPGAs',
-      aliases: ['FPGA', 'Verilog'],
-      subfield_ids: ['hardware'],
-    },
-  ],
-};
+const VOCABULARY: SkillsListResponse = [
+  { id: 'python', name: 'Python', aliases: ['py'], subfield_ids: ['software'] },
+  { id: 'pymatching', name: 'PyMatching', aliases: ['MWPM'], subfield_ids: ['qec'] },
+  {
+    id: 'control_electronics',
+    name: 'Control electronics & FPGAs',
+    aliases: ['FPGA', 'Verilog'],
+    subfield_ids: ['hardware'],
+  },
+];
 
 function renderPicker(profileSkills: string[] = []) {
   const client = new QueryClient({ defaultOptions: { queries: { retry: false } } });

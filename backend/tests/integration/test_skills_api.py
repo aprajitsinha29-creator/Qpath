@@ -11,6 +11,7 @@ from pathlib import Path
 
 import pytest
 from fastapi.testclient import TestClient
+from sqlalchemy import select
 from sqlalchemy.orm import Session
 
 from app.models import Assessment, Profile
@@ -131,7 +132,8 @@ def test_put_skills_leaves_other_profile_fields_untouched(
     old_last_seen = profile.last_seen_at
     db_session.add(Assessment(profile_id=profile_id, answers=[], scores={"qec": 60.0}))
     db_session.commit()
-    assessment_count = len(db_session.query(Assessment).filter_by(profile_id=profile_id).all())
+    still_there = db_session.scalars(select(Assessment).where(Assessment.profile_id == profile_id))
+    assessment_count = len(list(still_there))
     interests_before = dict(profile.interests)
 
     res = _put_skills(client, profile_id, ["python", "qiskit"])
@@ -144,9 +146,8 @@ def test_put_skills_leaves_other_profile_fields_untouched(
     assert fresh.last_seen_at == old_last_seen
     assert fresh.chosen_path_id == "qec_engineer"
     assert fresh.completed_concepts == ["superposition"]
-    assert (
-        len(db_session.query(Assessment).filter_by(profile_id=profile_id).all()) == assessment_count
-    )
+    kept = db_session.scalars(select(Assessment).where(Assessment.profile_id == profile_id))
+    assert len(list(kept)) == assessment_count
 
 
 # ---------------------------------------------------------------------------
@@ -170,7 +171,7 @@ def test_get_skills_returns_full_vocabulary(client: TestClient) -> None:
     expected_count = len(json.loads(VOCAB_FILE.read_text(encoding="utf-8")))
     res = client.get("/api/v1/skills")
     assert res.status_code == 200
-    skills = res.json()["skills"]
+    skills = res.json()  # bare list: [{id, name, aliases, subfield_ids}]
     assert len(skills) == expected_count
 
     names = [s["name"] for s in skills]

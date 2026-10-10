@@ -27,7 +27,7 @@ export function SkillPicker({ profileId, profileSkills }: SkillPickerProps) {
 
   const options: SkillOption[] = useMemo(
     () =>
-      (data?.skills ?? []).map((skill) => ({
+      (data ?? []).map((skill) => ({
         id: skill.id,
         name: skill.name,
         haystack: `${skill.name} ${skill.aliases.join(' ')}`.toLowerCase(),

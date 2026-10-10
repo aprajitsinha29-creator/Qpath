@@ -248,10 +248,8 @@ export interface SkillOut {
   subfield_ids: string[];
 }
 
-/** GET /skills response: full vocabulary sorted by name. */
-export interface SkillsListResponse {
-  skills: SkillOut[];
-}
+/** GET /skills returns a bare SkillOut[] sorted by name (mirror of app/schemas/skills.py). */
+export type SkillsListResponse = SkillOut[];
 
 /** PUT /profiles/{id}/skills request body: the complete replacement list. */
 export interface DeclaredSkillsRequest {

@@ -7,11 +7,11 @@
  */
 
 import { apiClient } from '../../lib/apiClient';
-import type { DeclaredSkillsRequest, ProfileResponse, SkillsListResponse } from '../../types/api';
+import type { DeclaredSkillsRequest, ProfileResponse, SkillOut } from '../../types/api';
 
-/** Fetch the full skills vocabulary, sorted by name. */
-export function getSkills(): Promise<SkillsListResponse> {
-  return apiClient.get<SkillsListResponse>('/skills');
+/** Fetch the full skills vocabulary, sorted by name (bare list per backend schema). */
+export function getSkills(): Promise<SkillOut[]> {
+  return apiClient.get<SkillOut[]>('/skills');
 }
 
 /**
