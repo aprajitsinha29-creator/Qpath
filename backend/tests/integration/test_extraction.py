@@ -168,7 +168,9 @@ def test_post_validate_deduplicates_repeated_skill_ids(db_session: Session) -> N
 
 def test_run_extraction_persists_skills_and_marks_done(db_session: Session) -> None:
     """A valid batch writes skill rows, seniority, PhD flag and status=done."""
-    postings = _seed_postings(db_session, 2)
+    # "Senior" in the title is required evidence now: a seniority claim is
+    # persisted only when the text corroborates it (M-10 fix, flag_rules).
+    postings = _seed_postings(db_session, 2, title="Senior Quantum Engineer")
     fake = FakeStructuredLLM(
         [
             _batch(
@@ -195,7 +197,9 @@ def test_run_extraction_persists_skills_and_marks_done(db_session: Session) -> N
         db_session.refresh(posting)
     assert postings[0].extraction_status == "done"
     assert postings[0].seniority == "senior"
-    assert postings[0].requires_phd is False
+    # Model False for an unlabelled posting is not evidence: stays NULL (spec:
+    # requires_phd is False only when the text says no PhD is needed).
+    assert postings[0].requires_phd is None
     assert postings[1].seniority is None  # "unknown" stored as NULL
     skill_ids = {row.skill_id for row in db_session.query(JobPostingSkill).all()}
     assert skill_ids == {"python", "qiskit", "cpp"}

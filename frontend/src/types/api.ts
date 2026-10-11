@@ -106,7 +106,7 @@ export interface PulseCard {
 export interface SubfieldDetail extends PulseCard {
   /** Full skill list (not capped at 5). */
   top_skills: SkillShare[];
-  /** Per-seniority post counts (keys: intern/entry/mid/senior/lead/postdoc/phd_student/unknown). */
+  /** Per-seniority post counts (keys: intern/entry/mid/senior/lead/postdoc/phd_student/faculty/unknown). */
   seniority_mix: Record<string, number>;
   /** Fraction 0–1 of postings with requires_phd=true among those that stated it; null if unknown. */
   phd_share: number | null;

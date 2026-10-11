@@ -430,7 +430,15 @@ def test_end_to_end_pulse_detail_pipeline(
         "global_p1",
         {
             "jobs_results": [
-                job("QEC Engineer", "Riverlane", description="QEC role using Python and Qiskit"),
+                # "Senior" in the title backs the extraction batch's seniority
+                # claim below (M-10 fix: claims persist only with text evidence).
+                job(
+                    "Senior QEC Engineer",
+                    "Riverlane",
+                    # "PhD required" backs the extraction batch's requires_phd
+                    # claim below (M-10 fix: flags persist only with text evidence).
+                    description="QEC role using Python and Qiskit. PhD required.",
+                ),
             ]
         },
     )

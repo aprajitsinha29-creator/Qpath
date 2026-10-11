@@ -17,6 +17,7 @@ const SENIORITY_LABELS: Record<string, string> = {
   lead: 'Lead',
   postdoc: 'Post-doc',
   phd_student: 'PhD student',
+  faculty: 'Faculty',
   unknown: 'Unspecified',
 };
 

@@ -581,3 +581,24 @@ GET /meta/refresh-status ─▶ last run per kind ─▶ status/admin UI
   the accessible text alternative but not drawn.
 - Pulse-card sparklines issue one trend query per card (6 on the Pulse page); acceptable at
   this scale, batched only if it matters.
+
+### Flag derivation fix (post-Phase-5, M-10 follow-up)
+
+- `services/flag_rules.py`: pure, unit-tested evidence rules. A Gemini
+  seniority claim is persisted **only** when the claimed bucket's keyword
+  appears in the title or the first 3,000 description chars; a claim is never
+  remapped to another bucket; "Scientist"/"Engineer" are never seniority
+  evidence. `faculty` was added to the `Seniority` Literal
+  (`integrations/gemini/schemas.py`) and the frontend label map (`MixChips`).
+- `requires_phd` is fully text-derived: True = required-PhD wording or an
+  explicit PhD-student/postdoc role; False = explicit "no PhD" wording;
+  "preferred" and silence → NULL. The model's boolean claim is no longer read.
+- `is_internship` reverts to title+extensions rule only
+  (`parsers.detect_internship`); the old model-OR is gone because the model
+  could flag regular jobs as internships. An internship forces
+  `seniority="intern"`.
+- These evidence rules were prompted by the M-10 spot check (model flags wrong
+  in 15/20 sampled postings); existing tests that asserted model-verbatim
+  persistence were updated to supply keyword evidence instead of loosening
+  assertions. Previously extracted DB rows are unaffected until re-extraction
+  (skills links are replaced, not appended, on any re-run).

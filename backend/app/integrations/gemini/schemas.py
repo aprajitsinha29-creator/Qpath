@@ -21,7 +21,17 @@ from pydantic import BaseModel, Field
 #: Allowed seniority buckets. ``unknown`` is a *value the model may return*
 #: when the posting does not state seniority; it is stored as NULL in the DB
 #: so "unknown" stays distinguishable from "extracted but negative" (plan 4.3).
-Seniority = Literal["intern", "entry", "mid", "senior", "lead", "postdoc", "phd_student", "unknown"]
+Seniority = Literal[
+    "intern",
+    "entry",
+    "mid",
+    "senior",
+    "lead",
+    "postdoc",
+    "phd_student",
+    "faculty",
+    "unknown",
+]
 
 
 class PostingExtraction(BaseModel):

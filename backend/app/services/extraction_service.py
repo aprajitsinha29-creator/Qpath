@@ -17,8 +17,9 @@ Two validation layers, per plan:
 
 Idempotency (AGENTS 3.3.9): ``done`` postings are never re-selected, skill rows
 are replaced (delete-then-insert) per posting, so a partial run followed by a
-re-run cannot duplicate anything. ``is_internship`` is OR-ed: the rule-based
-detection from ingestion can only be strengthened by the model, never undone.
+re-run cannot duplicate anything. ``is_internship`` and the other flags are
+re-derived from posting text via ``app.services.flag_rules`` — no model claim
+reaches the DB unverified (M-10 fix; see the docstring of ``_persist_item``).
 
 The LLM never decides a number or rank here — it only labels postings, and every
 label that reaches the DB is vocabulary- or taxonomy-checked (AGENTS 3.3.10).
@@ -36,6 +37,11 @@ from app.integrations.gemini.client import StructuredLLM
 from app.integrations.gemini.prompts import SKILL_EXTRACTION_PROMPT
 from app.integrations.gemini.schemas import ExtractionBatch, PostingExtraction
 from app.models import JobPosting, JobPostingSkill, Skill, Subfield
+from app.services.flag_rules import (
+    derive_is_internship,
+    derive_requires_phd,
+    derive_seniority,
+)
 
 logger = logging.getLogger(__name__)
 
@@ -150,7 +156,9 @@ def _post_validate_batch(
 
     Correction rules (never trusted silently — AGENTS 3.5.3):
         unknown skill ids are moved to ``unmapped_skills``; an invalid
-        ``primary_subfield_id`` becomes None; duplicate skill ids are dropped.
+        ``primary_subfield_id`` becomes None; duplicate skill ids are dropped;
+        seniority/PhD/internship flags are re-derived from text evidence by
+        :mod:`app.services.flag_rules` (M-10 spot-check fix)
     """
     items = batch.items
     if len(items) != len(expected_refs):
@@ -201,19 +209,38 @@ def _persist_item(db: Session, posting: JobPosting, item: PostingExtraction) -> 
         item: the post-validated extraction for ``posting``.
 
     Notes:
-        - ``seniority == "unknown"`` is stored as NULL so "not stated" stays
-          distinguishable from an extracted negative (plan 4.3).
-        - ``is_internship`` is rule-based OR model: ingestion already flagged
-          obvious internships, and the model may only add to that.
+        - ``seniority`` is evidence-gated by :func:`derive_seniority`: a claim
+          without a matching keyword becomes NULL, an internship is always
+          ``intern``. "Not stated" and "no evidence" are both stored as NULL
+          (plan 4.3: "unknown" stays distinguishable from a negative).
+        - ``requires_phd`` comes from text rules, so "preferred" wording is
+          stored as NULL rather than guessed either way.
+        - ``is_internship`` is rule-based from title+extensions (the model's
+          flag is ignored); a non-intern title is never flagged internship.
         - ``primary_subfield_id`` is NOT used to create links here: subfield
           links come from the discovery queries (ingestion), and re-linking on
           model output would silently change demand counts. The field is
           persisted in a later phase's matching logic; extracting and
           validating it now keeps the batch contract per plan 4.7.
     """
-    posting.seniority = None if item.seniority == "unknown" else item.seniority
-    posting.requires_phd = item.requires_phd
-    posting.is_internship = bool(posting.is_internship) or bool(item.is_internship)
+    # Flag persistence is EVIDENCE-GATED, never taken from the model verbatim
+    # (M-10 spot-check: model claims were wrong in 15/20 sampled postings;
+    # AGENTS 3.3.10 — the LLM never decides a fact shown in the UI):
+    # - seniority survives only when the claimed bucket's keyword appears in
+    #   the title or the first 3000 description chars;
+    # - requires_phd is re-derived from text (True/false/null rules in
+    #   flag_rules.derive_requires_phd);
+    # - is_internship is rule-based from title+extensions ONLY; an internship
+    #   also forces seniority="intern" (consistency rule), and a non-intern
+    #   title can never become an internship — the old model-OR behaviour is
+    #   gone because the model could flag regular jobs as internships.
+    internship = derive_is_internship(posting.title, posting.extensions)
+    if internship:
+        posting.seniority = "intern"
+    else:
+        posting.seniority = derive_seniority(posting.title, posting.description, item.seniority)
+    posting.requires_phd = derive_requires_phd(posting.title, posting.description)
+    posting.is_internship = internship
     posting.extraction_status = STATUS_DONE
 
     # Replace, never append: re-extraction (e.g. after a manual status reset)
