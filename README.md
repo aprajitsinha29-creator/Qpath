@@ -1,142 +1,109 @@
 # Quantum Pathfinder
 
-> A live-data career navigator for quantum computing. Quantum Pathfinder measures what you know, shows where the quantum job market and research are moving, recommends the career paths that fit you, and keeps tracking opportunities for the path you choose.
+> A live-data career navigator for quantum computing: it measures what you know (an 18-question diagnostic), reads the quantum job market and recent research (SerpApi Google Jobs and Google Scholar), recommends career paths with deterministic scoring, and then keeps tracking matched opportunities for the path you choose.
 
-Built for the **SerpApi India Hackathon 2026** (deadline: Oct 10, 2026, 23:59 IST).
-
----
-
-## Quick start (two commands)
-
-```bash
-make setup     # create backend/.venv, install all deps, npm ci for frontend
-```
-
-Copy env files, then start both servers in separate terminals:
-
-```bash
-cp backend/.env.example backend/.env   # fill SERPAPI_API_KEY (optional for fixture mode)
-cp frontend/.env.example frontend/.env
-
-make dev-backend      # http://localhost:8000
-make dev-frontend     # http://localhost:5173
-```
-
-Open `http://localhost:5173`. You should see the app shell with a **"Backend: OK"** badge.
+Built for the **SerpApi India Hackathon 2026**.
 
 ---
+
+## What it is
+
+Quantum Pathfinder is a live-data career navigator for quantum computing: it measures what you know (an 18-question diagnostic), reads the quantum job market and recent research (SerpApi Google Jobs and Google Scholar), recommends career paths with deterministic scoring, and then keeps tracking matched opportunities for the path you choose.
+
+## Quick start
+
+```bash
+make setup        # create backend/.venv, install backend deps, npm ci for frontend
+make dev-backend  # http://localhost:8000 (terminal 1)
+make dev-frontend # http://localhost:5173   (terminal 2)
+```
+
+Open `http://localhost:5173`.
+
+**Fixture mode (default):** with `SERPAPI_USE_FIXTURES=true` (the default in `backend/.env.example`) the app runs entirely offline against recorded real SerpApi responses in `backend/tests/fixtures/serpapi/` — no API key and no credits needed for the backend itself. The Gemini-backed features (skill extraction, research themes, path explanations) additionally need `GEMINI_API_KEY`/`GEMINI_MODEL`; leave them empty and those views fall back to labelled templates or show empty states. Copy `backend/.env.example` → `backend/.env` and `frontend/.env.example` → `frontend/.env` first.
+
+## Features as built
+
+- **Orientation diagnostic** — an 18-question quiz (one per screen, interests first, review before submit). Scoring is deterministic: points earned over points available per subfield, difficulty 1-3 worth 1-3 points; "Not sure" scores 0 and there is no negative marking. Results show a readiness radar plus a per-concept feedback list.
+- **Six career paths** — every path is scored `0.40 × interest + 0.30 × demand + 0.30 × readiness` (log-compressed demand, named constants in the code), ranked server-side, and shown with a score breakdown, evidence panel (posting counts, PhD share, top skills, sample postings) and an honest AI explanation labelled either "AI-generated from the data shown" or "Template fallback (deterministic)". Declaring skills never changes path scores.
+- **Opportunity tracker** — pick a path, then a feed of matched postings with a match badge (`0.6 × skill overlap + 0.4 × readiness`; "Not enough info" when the posting has no extracted skills), region and internship filters, a NEW badge for postings first seen after you last pressed "Mark all as seen", and a trend sparkline on pulse cards (drawn only once at least two days of snapshots exist).
+- **Method page** — the verbatim contents of `docs/DATA_AND_METHOD.md` (sources, formulas, accuracy checks, known limits) plus a live-numbers block read from the backend (SerpApi calls per engine, posting totals, extraction coverage, last refresh times).
+
+## Data sources
+
+- **Google Jobs via SerpApi** — postings per subfield. Each of the six subfields has one *core* search (used for headline counts and demand) and up to three *extended* searches (excluded from headline counts so a subfield with more searches does not look bigger). Postings are de-duplicated by title, company and location.
+- **Google Scholar via SerpApi** — one search per subfield, sorted by date, about 20 recent papers each, used only to extract qualitative research themes. Scholar's result totals are erratic, so the app never computes a trend or growth rate from them.
+- **Daily call cap** — live calls are limited by `SERPAPI_DAILY_CALL_CAP` per UTC day; the cap is counted from the call log and exceeded calls raise an error instead of silently running over.
+- **Call log** — every SerpApi call (live or fixture) is written to the `serpapi_call_log` table with engine, query, source and status; the Method page's live-numbers block and the UI's SerpApi activity panel read from it.
+
+## Limits
+
+- Posting counts are a **sample, not a census**: Google Jobs returns a limited number of pages per search, and busy subfields hit that cap (flagged as saturated).
+- **The India view is thin** and indicative only.
+- **Duplicates and non-quantum leakage**: the same job listed in several locations can appear more than once, and postings leak in when a company name contains the word (for example QuantumBlack, an AI consultancy); some results are academic faculty searches, policy roles or hardware assembly roles. All of these inflate counts a little.
+- **Quiz answers are unverified beyond their drafting**: 18 questions drafted with LLM assistance, reviewed one by one by the author, and cross-checked by answering them without the key in a second model (DeepSeek); all 18 answers matched the key. There was **no external expert review**, and not every citation was checked against its source.
+- The app is a decision aid. It makes no claim about hiring odds or salary.
+- Free-tier Gemini quotas are small, so explanations may fall back to templates.
 
 ## Environment variables
 
-All backend configuration is read from `backend/.env` (copy `backend/.env.example`).
-All frontend configuration is read from `frontend/.env` (copy `frontend/.env.example`).
-
-### Backend (`backend/.env.example`)
+Backend (`backend/.env`, copy `backend/.env.example`):
 
 | Variable | Default | Purpose |
 |---|---|---|
 | `APP_ENV` | `development` | Runtime environment name (shown in `/health`) |
 | `LOG_LEVEL` | `INFO` | Python logging level |
-| `DATABASE_URL` | `sqlite:///./data/pathfinder.db` | SQLite path; `backend/data/` is gitignored |
+| `DATABASE_URL` | `sqlite:///./data/pathfinder.db` | SQLite path (`backend/data/` is gitignored) |
 | `CORS_ORIGINS` | `http://localhost:5173` | Allowed origins for browser requests |
-| `ADMIN_TOKEN` | `change-me` | Token required for `X-Admin-Token` header on admin endpoints |
+| `ADMIN_TOKEN` | `change-me` | Token for `X-Admin-Token` on admin endpoints |
 | `SERPAPI_API_KEY` | *(empty)* | SerpApi key — only needed when `SERPAPI_USE_FIXTURES=false` |
 | `SERPAPI_USE_FIXTURES` | `true` | `true` = read recorded JSON, spend no credits |
 | `SERPAPI_DAILY_CALL_CAP` | `60` | Hard stop for live calls per UTC day |
 | `SERPAPI_JOBS_MAX_PAGES` | `3` | Max pages per query in bootstrap mode |
-| `GEMINI_API_KEY` | *(empty)* | Gemini API key — required for Phase 2+ extraction |
-| `GEMINI_MODEL` | *(empty)* | Model id, e.g. `gemini-2.5-flash` |
-| `GEMINI_REQUESTS_PER_MINUTE` | `5` | Client-side rate limit (conservative free-tier default) |
-| `SCHEDULER_ENABLED` | `false` | Keep `false` during development (Phase 5) |
-| `JOBS_DAILY_CRON` | `0 3 * * *` | Daily global job refresh cron (Phase 5) |
-| `JOBS_INDIA_WEEKLY_CRON` | `0 4 * * 1` | Weekly India job refresh cron (Phase 5) |
-| `SCHOLAR_WEEKLY_CRON` | `0 5 * * 1` | Weekly Scholar refresh cron (Phase 5) |
-| `ALLOW_UNVERIFIED_QUESTIONS` | `false` | `true` only while building quiz UI (Phase 3) |
-| `DEMO_MODE` | `false` | Serve labelled demo history in Phase 7 |
+| `GEMINI_API_KEY` | *(empty)* | Gemini API key (extraction, themes, explanations) |
+| `GEMINI_MODEL` | `gemini-2.5-flash` | Gemini model id |
+| `GEMINI_REQUESTS_PER_MINUTE` | `5` | Client-side rate limit |
+| `SCHEDULER_ENABLED` | `false` | Keep off during development (refreshes via admin endpoints) |
+| `JOBS_DAILY_CRON` | `0 3 * * *` | Daily job refresh (only when `SCHEDULER_ENABLED=true`) |
+| `JOBS_INDIA_WEEKLY_CRON` | `0 4 * * 1` | Weekly job refresh (same gate) |
+| `SCHOLAR_WEEKLY_CRON` | `0 5 * * 1` | Weekly Scholar refresh (same gate) |
+| `ALLOW_UNVERIFIED_QUESTIONS` | `true` | The example ships `true` while quiz answers await sign-off; set `false` for evaluation |
+| `DEMO_MODE` | `false` | Serve labelled demo history |
 
-### Frontend (`frontend/.env.example`)
+Frontend (`frontend/.env`, copy `frontend/.env.example`):
 
 | Variable | Default | Purpose |
 |---|---|---|
 | `VITE_API_BASE_URL` | `http://localhost:8000/api/v1` | FastAPI base URL used by `lib/apiClient.ts` |
 
-**Security:** `backend/.env` is gitignored and must never be committed. `SERPAPI_USE_FIXTURES=true` (the default) lets you develop and run the full test suite with no API keys.
-
----
-
-## Project structure
-
-```
-Qpath/
-├── Makefile                     # All developer entry points
-├── backend/
-│   ├── pyproject.toml           # Python deps, ruff, pytest config
-│   ├── .env.example             # Template — copy to .env, fill real values
-│   ├── app/
-│   │   ├── main.py              # App factory; lifespan creates tables + seeds DB
-│   │   ├── core/                # config.py, logging.py, errors.py
-│   │   ├── db/                  # base.py, session.py (WAL), seed.py
-│   │   ├── models/              # SQLAlchemy ORM models (one file per aggregate)
-│   │   ├── schemas/             # Pydantic request/response models
-│   │   ├── api/v1/              # Thin routers: health, (more in later phases)
-│   │   ├── services/            # Business logic (no HTTP types, no raw API calls)
-│   │   ├── integrations/
-│   │   │   ├── serpapi/         # client.py, queries.py (fixture + live modes)
-│   │   │   └── gemini/          # Phase 2: client.py, prompts.py, schemas.py
-│   │   ├── scheduler/           # Phase 5: APScheduler jobs
-│   │   └── data/                # taxonomy.json, career_paths.json, skills_vocab.json, …
-│   └── tests/
-│       ├── fixtures/serpapi/    # Real recorded responses (no keys)
-│       ├── integration/         # Endpoint tests against a temp SQLite DB
-│       └── unit/                # Parser, seeder, scoring, formula tests
-└── frontend/
-    ├── package.json             # React 19, Vite 7, TypeScript strict, Tailwind v4
-    ├── src/
-    │   ├── app/                 # App.tsx, router.tsx, providers.tsx
-    │   ├── features/            # health/ (HealthBadge) — more in later phases
-    │   ├── components/layout/   # AppShell (header, nav, footer)
-    │   ├── lib/                 # apiClient.ts, format.ts, profileId.ts
-    │   ├── pages/               # PulsePage, MethodPage, NotFoundPage
-    │   └── types/api.ts         # TypeScript mirrors of backend schemas
-```
-
----
-
-## SerpApi usage
-
-Quantum Pathfinder uses two SerpApi engines:
-
-- **Google Jobs** (`engine=google_jobs`) — ingests quantum job postings per subfield (global and India) to power the Market Pulse, career path demand scores, and opportunity tracking.
-- **Google Scholar** (`engine=google_scholar`) — fetches recent papers per subfield (`scisbd=1`) to generate qualitative research themes via Gemini.
-
-The API key is passed only at call time; it is never logged, stored, or committed. Set `SERPAPI_USE_FIXTURES=true` (default) to work offline using the recorded fixtures in `backend/tests/fixtures/serpapi/`.
-
----
+`backend/.env` is gitignored and must never be committed. With `SERPAPI_USE_FIXTURES=true` the whole app and test suite run with no API keys.
 
 ## Status
 
 | Phase | Description | Status |
 |---|---|---|
-| **0** | Foundation: backend API, health endpoint, SerpApi client in fixture mode, frontend shell with HealthBadge | ✅ **Done** |
-| **1** | Market Pulse v1: six subfield cards with live/fixture job counts | ✅ **Done** |
-| **2** | Intelligence layer: Gemini skill extraction + Scholar research themes | ✅ **Done** |
-| **3** | Orientation diagnostic: quiz + readiness radar | ✅ **Done** |
-| **4** | Path matcher: deterministic ranked career paths + grounded explanations + /paths UI (incl. carry-over: declared-skills picker, `PUT /profiles/{id}/skills`, `GET /skills`) | ✅ **Done** |
-| **5** | Opportunity tracker: `PUT chosen-path` / `POST seen` / `GET /profiles/{id}/opportunities` feed with match scores & NEW badges, `/opportunities` UI with filters & "Mark all as seen", TrendSparkline on pulse cards, APScheduler (off by default), `GET /meta/refresh-status` + `GET /pulse/{id}/trend` | ✅ **Done** |
-| 6 | Gap analysis & learning plan | 🔜 |
-| 7 | Submission hardening: method page, demo script, secret scan | 🔜 |
+| **0** | Foundation: FastAPI backend, health endpoint, SerpApi client in fixture mode, frontend shell | ✅ Done |
+| **1** | Market Pulse: six subfield cards, active-posting counts, de-duplication | ✅ Done |
+| **2** | Intelligence layer: Gemini skill extraction + Scholar research themes, pulse detail pages | ✅ Done |
+| **3** | Orientation diagnostic: 18-question quiz, readiness scoring, per-concept feedback | ✅ Done |
+| **4** | Path matcher: deterministic ranked career paths with grounded explanations, declared-skills picker | ✅ Done |
+| **5** | Opportunity tracker: chosen path, seen state, opportunity feed with match scores and NEW badges, trend sparklines, refresh status | ✅ Done |
+| **6** | (section 6 of the build plan — not built) | — Not built |
+| 7 | Submission hardening | — Not built |
 
----
+## AI tools used
+
+- **Google Gemini** (`google-genai` SDK, structured output) is the only LLM integrated in the app, for three jobs: extracting skills/seniority/PhD/internship flags from posting text against a fixed 53-skill vocabulary; proposing 3-5 research themes from supplied Scholar titles and snippets; and writing path explanations from supplied evidence only — it never produces a score or a ranking, every output is schema-validated, and a deterministic template is shown (labelled as a template) when the model output is unusable or the quota is gone.
+- **An LLM coding agent (Codebuff, GLM)** assisted with writing and refactoring the code, the test suites and this documentation; all behavioural logic is reviewed and owned by the author.
+- **DeepSeek** was used once, as a cross-check of the quiz key: the 18 questions were answered again without the key in DeepSeek and all 18 answers matched (author review is the primary verification; there was no external expert review).
+- SerpApi Google Jobs and Google Scholar supplied all market and research data; no other dataset is used.
 
 ## Development commands
 
 ```bash
-make setup            # One-time setup
-make dev-backend      # Backend dev server (auto-reload)
-make dev-frontend     # Frontend dev server
-make test             # Run all tests (backend + frontend)
-make lint             # Lint check (ruff + eslint + prettier)
-make format           # Auto-format all code
+make setup   # one-time setup
+make dev-backend
+make dev-frontend
+make test    # backend pytest + frontend vitest (offline, fixture mode)
+make lint    # ruff + eslint + prettier
 ```
-
-**Tests run in fixture mode** — no API keys required. The full suite passes with `make test` from a clean clone after `make setup`.
