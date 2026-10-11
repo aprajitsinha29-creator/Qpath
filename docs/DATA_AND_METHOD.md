@@ -6,7 +6,7 @@ How to read the numbers in Quantum Pathfinder, where they come from, and where t
 
 - **Google Jobs via SerpApi.** Each of the six subfields has one *core* search (used for headline counts and demand) and up to three *extended* searches (they find more postings, but are excluded from headline counts so a subfield with more searches does not look bigger). Postings are de-duplicated by title, company and location.
 - **Google Scholar via SerpApi.** One search per subfield, sorted by date, about 20 recent papers each. Used only to extract qualitative research themes. Scholar's result totals are erratic (the same query returned 5,250 and 5,040 results on two runs), so the app never computes a trend or growth rate from them.
-- **Data as of:** [FILL: date of the live jobs bootstrap, number of live jobs calls, number of postings]
+- **Data as of:** Live data captured on 10 October 2026 through SerpApi (38 live Google Jobs calls and 12 Google Scholar calls in total during development). 249 postings are stored; this includes postings first captured on 4 October from recorded real responses of the same searches.
 
 ## What the numbers mean
 
@@ -28,7 +28,7 @@ How to read the numbers in Quantum Pathfinder, where they come from, and where t
 ## Accuracy checks
 
 - **Extraction spot check, before the flag fix:** 20 postings sampled at random (seed 42, de-duplicated by title and company), one reviewer (the author), reading the same text the model saw. 13 of 20 had no unsupported skills, 19 of 20 had no clear omission, and 19 of 20 were quantum-related. Seniority, PhD or internship flags were judged wrong in 15 of 20, so flags now follow evidence-based rules. The sample is small: the 95% range for the unsupported-skill rate is about 18-57%.
-- **After the fix:** [FILL: sample size, seed and results of the second spot check]
+- **After the fix:** Not re-measured after the fix; the numbers above describe the earlier extraction.
 - **Quiz:** 18 questions drafted with LLM assistance, reviewed one by one by the author, and cross-checked by answering them without the key in a second model (DeepSeek); all 18 answers matched the key. There was no external expert review, and not every citation was checked against its source.
 
 ## Known limits
