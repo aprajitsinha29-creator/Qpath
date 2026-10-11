@@ -1,6 +1,6 @@
 // MethodPage tests (Phase 7): verbatim document sections, the Live numbers
 // block in loading / error / loaded / empty states, and the header comment
-// contract (no "placeholder" wording anywhere in the page).
+// contract (no "placeholder" wording, no unfilled [FILL markers anywhere).
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { render, screen, waitFor } from '@testing-library/react';
 import { beforeEach, describe, expect, it, vi } from 'vitest';
@@ -61,25 +61,29 @@ beforeEach(() => {
 describe('MethodPage', () => {
   it('test_method_page_renders_document_sections_verbatim', () => {
     renderPage();
+    // Every markdown section heading and bullet appears word for word.
     for (const section of DATA_AND_METHOD_SECTIONS) {
       expect(screen.getByRole('heading', { name: section.title })).toBeInTheDocument();
       for (const paragraph of section.paragraphs) {
-        // Exact strings — the copy must match the markdown word for word.
         expect(screen.getByText(paragraph)).toBeInTheDocument();
+      }
+      for (const bullet of section.bullets ?? []) {
+        expect(screen.getByText(bullet)).toBeInTheDocument();
       }
     }
   });
 
-  it('test_method_page_renders_fill_markers_as_plain_text', () => {
-    // The [FILL: ...] markers need no special handling: they show literally
-    // until the owner edits the source text.
+  it('test_method_page_has_no_fill_markers', () => {
     renderPage();
-    const marker = DATA_AND_METHOD_SECTIONS.flatMap((s) => s.paragraphs).find((p) =>
-      p.includes('[FILL:'),
-    );
-    if (marker) {
-      expect(screen.getByText(marker)).toBeInTheDocument();
+    // [FILL: ...] markers must never appear: the copy is filled with the real
+    // numbers from docs/DATA_AND_METHOD.md (M-10 spot check, quiz check).
+    for (const text of DATA_AND_METHOD_SECTIONS.flatMap((s) => [
+      ...s.paragraphs,
+      ...(s.bullets ?? []),
+    ])) {
+      expect(text).not.toContain('[FILL');
     }
+    expect(screen.queryByText(/\[FILL:/)).not.toBeInTheDocument();
   });
 
   it('test_method_page_is_not_a_placeholder', () => {
@@ -98,8 +102,12 @@ describe('MethodPage', () => {
     });
     renderPage();
     const block = screen.getByTestId('live-numbers');
-    expect(block).toHaveTextContent(/google_jobs — 5 live calls, 120 recorded/);
-    expect(block).toHaveTextContent(/google_scholar — 0 live calls, 60 recorded/);
+    expect(block).toHaveTextContent(
+      /google_jobs — 5 live calls, 120 offline \(recorded fixtures\)/,
+    );
+    expect(block).toHaveTextContent(
+      /google_scholar — 0 live calls, 60 offline \(recorded fixtures\)/,
+    );
     expect(block).toHaveTextContent('Postings captured');
     expect(block).toHaveTextContent('75%'); // 30/40 extraction coverage
     expect(block).toHaveTextContent(/Last jobs refresh/);

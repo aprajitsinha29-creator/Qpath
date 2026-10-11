@@ -1,5 +1,6 @@
 // Renders the "Live numbers" block for the Method page: SerpApi calls by
-// engine (live vs recorded), posting totals, extraction coverage, research
+// engine (live vs offline recorded fixtures), posting totals, extraction
+// coverage, research
 // themes, and last refresh times. Needs the MethodStatsResponse query result
 // (data/loading/error); every number is displayed exactly as returned.
 import { formatDate, formatNumber, formatPercent } from '../../../lib/format';
@@ -57,7 +58,7 @@ export function LiveNumbers({ data, isLoading, isError, onRetry }: LiveNumbersPr
     <section aria-label="Live numbers" data-testid="live-numbers" className="space-y-4">
       <h2 className="text-lg font-semibold text-white">Live numbers</h2>
 
-      {/* SerpApi usage honesty block: per engine, live vs recorded. */}
+      {/* SerpApi usage honesty block: per engine, live vs offline (recorded fixtures). */}
       {engines.length === 0 ? (
         <p role="status" className="text-sm text-slate-400">
           No SerpApi calls logged yet — nothing has been ingested on this instance.
@@ -70,7 +71,8 @@ export function LiveNumbers({ data, isLoading, isError, onRetry }: LiveNumbersPr
               className="rounded-lg border border-slate-800 bg-slate-950/60 px-3 py-2 text-sm text-slate-300"
             >
               <span className="font-medium text-white">{engine}</span> — {formatNumber(counts.live)}{' '}
-              live call{counts.live === 1 ? '' : 's'}, {formatNumber(counts.fixture)} recorded
+              live call{counts.live === 1 ? '' : 's'}, {formatNumber(counts.fixture)} offline
+              (recorded fixtures)
             </li>
           ))}
         </ul>
