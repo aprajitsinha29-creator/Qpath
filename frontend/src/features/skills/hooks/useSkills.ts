@@ -11,6 +11,7 @@ import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
 import { apiClient } from '../../../lib/apiClient';
 import type { ProfileResponse } from '../../../types/api';
 import { getSkills, putDeclaredSkills } from '../api';
+import { opportunitiesPrefixKey } from '../../tracker/hooks/useTracker';
 
 const SKILLS_KEY = ['skills'] as const;
 const PROFILE_KEY = (profileId: string) => ['profile', profileId] as const;
@@ -56,8 +57,12 @@ export function useSaveDeclaredSkills(profileId: string) {
     mutationFn: (skillIds) => putDeclaredSkills(profileId, skillIds),
     onSuccess: (profile) => {
       queryClient.setQueryData<ProfileResponse>(PROFILE_KEY(profileId), profile);
-      // Prefix key: every region/internship variant of the feed is stale.
-      void queryClient.invalidateQueries({ queryKey: ['opportunities'] });
+      // Match scores (0.6 × overlap) read declared skills, so every
+      // region/internship variant of this profile's feed is stale. Scoped
+      // prefix key — cache entries of other profiles stay valid.
+      void queryClient.invalidateQueries({
+        queryKey: opportunitiesPrefixKey(profileId),
+      });
     },
   });
 }

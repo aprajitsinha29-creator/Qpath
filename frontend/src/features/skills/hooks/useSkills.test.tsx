@@ -47,8 +47,11 @@ describe('useSaveDeclaredSkills invalidates the opportunities feed', () => {
     fireEvent.click(screen.getByRole('button', { name: /save skills/i }));
 
     await vi.waitFor(() => {
-      // The prefix key must reach every region/internship variant of the feed.
-      expect(invalidateSpy).toHaveBeenCalledWith({ queryKey: ['opportunities'] });
+      // The scoped prefix must reach every region/internship variant of this
+      // profile's feed (and not other profiles' caches).
+      expect(invalidateSpy).toHaveBeenCalledWith({
+        queryKey: ['opportunities', 'p1'],
+      });
     });
   });
 });

@@ -46,7 +46,7 @@ export function OpportunitiesPage() {
     region,
     internshipParam,
   );
-  const markSeenMutation = useMarkSeen(profileId, region, internshipParam);
+  const markSeenMutation = useMarkSeen(profileId);
   // Declared skills for the SkillPicker pre-fill; a profile failure here must
   // not break the feed — the panel simply hides.
   const profileQuery = useProfile(profileId);

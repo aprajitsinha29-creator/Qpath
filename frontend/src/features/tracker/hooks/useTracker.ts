@@ -6,6 +6,15 @@
  * key so region/internship changes refetch cleanly. useMarkSeen: POST /seen
  * then refetch the feed (badges clear, plan 5.5). useTrend: the pulse
  * sparkline series (plan 5.4).
+ *
+ * Cache-invalidation contract: the opportunities feed depends on the tracked
+ * path and the seen marker, and its key carries only the filter state. So
+ * every mutation that moves those server-side values (chosen path, seen
+ * marker, declared skills — the last one from the skills feature) invalidates
+ * the WHOLE ['opportunities', profileId] prefix, not just the
+ * currently-mounted variant. Prefix invalidation keeps staleTime caching
+ * intact (no staleTime=0) while stale filter variants can never be served
+ * after a path switch.
  */
 
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
@@ -14,11 +23,17 @@ import type { ChosenPathResponse, OpportunitiesResponse, TrendPoint } from '../.
 import { getOpportunities, postSeen, putChosenPath } from '../api';
 
 const CHOSEN_PATH_KEY = (profileId: string) => ['chosenPath', profileId] as const;
+const OPPORTUNITIES_PREFIX_KEY = (profileId: string) => ['opportunities', profileId] as const;
 const OPPORTUNITIES_KEY = (profileId: string, region: string, internship: boolean | null) =>
   ['opportunities', profileId, region, String(internship)] as const;
 
 export function opportunityQueryKey(profileId: string, region: string, internship: boolean | null) {
   return OPPORTUNITIES_KEY(profileId, region, internship);
+}
+
+/** Exported so the skills feature invalidates the same prefix shape. */
+export function opportunitiesPrefixKey(profileId: string) {
+  return OPPORTUNITIES_PREFIX_KEY(profileId);
 }
 
 /** Fetch the tracked path id by reading GET /profiles/{id} (Phase 5 field). */
@@ -44,8 +59,13 @@ export function useSetChosenPath(profileId: string) {
     mutationFn: (pathId) => putChosenPath(profileId, pathId),
     onSuccess: (data) => {
       queryClient.setQueryData(CHOSEN_PATH_KEY(profileId), data);
-      // The nav "Opportunities" gate and others read the profile too.
-      queryClient.invalidateQueries({ queryKey: ['profile', profileId] });
+      // The nav gate and the Opportunities subtitle read the profile; the
+      // chosen-path id is part of the feed's input set, so every variant of
+      // the feed (any region/internship) is stale after a switch.
+      void queryClient.invalidateQueries({ queryKey: ['profile', profileId] });
+      void queryClient.invalidateQueries({
+        queryKey: OPPORTUNITIES_PREFIX_KEY(profileId),
+      });
     },
   });
 }
@@ -62,14 +82,21 @@ export function useOpportunities(profileId: string, region: string, internship: 
   });
 }
 
-/** Mutation: POST /seen then refetch the feed so is_new badges clear. */
-export function useMarkSeen(profileId: string, region: string, internship: boolean | null) {
+/**
+ * Mutation: POST /seen then refetch the feed so is_new badges clear.
+ * The seen marker is profile-wide, not filter-scoped, so the filter params
+ * the hook used to take are gone: the invalidation below covers every
+ * region/internship variant of the feed.
+ */
+export function useMarkSeen(profileId: string) {
   const queryClient = useQueryClient();
   return useMutation({
     mutationFn: () => postSeen(profileId),
     onSuccess: () => {
+      // Every filter variant of the feed shows NEW badges; invalidating only
+      // the mounted one left the others stale (seen marker is profile-wide).
       void queryClient.invalidateQueries({
-        queryKey: OPPORTUNITIES_KEY(profileId, region, internship),
+        queryKey: OPPORTUNITIES_PREFIX_KEY(profileId),
       });
       void queryClient.invalidateQueries({ queryKey: ['profile', profileId] });
     },
