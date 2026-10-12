@@ -33,7 +33,7 @@ export function AppShell() {
                 Ψ
               </span>
               <div>
-                <span className="font-semibold tracking-tight text-white">Quantum Pathfinder</span>
+                <span className="font-semibold tracking-tight text-white">QPath</span>
               </div>
             </NavLink>
 
@@ -91,8 +91,7 @@ export function AppShell() {
       <footer className="border-t border-slate-900 bg-slate-950 py-6 text-center text-xs text-slate-500">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <p>
-            Quantum Pathfinder — Live-data career navigator for quantum computing. Powered by
-            SerpApi and Gemini.
+            QPath — Live-data career navigator for quantum computing. Powered by SerpApi and Gemini.
           </p>
         </div>
       </footer>

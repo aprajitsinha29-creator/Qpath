@@ -1,5 +1,5 @@
 /**
- * Central HTTP client for the Quantum Pathfinder API (AGENTS.md 3.6.2).
+ * Central HTTP client for the QPath API (AGENTS.md 3.6.2).
  *
  * All frontend requests go through this module. Backend error payloads
  * ({"error": {"code", "message"}}) are normalized into thrown ApiError instances.
