@@ -9,7 +9,6 @@ Built for the **SerpApi India Hackathon 2026**.
 ## What it is
 
 QPath is a live-data career navigator for quantum computing: it measures what you know (an 18-question diagnostic), reads the quantum job market and recent research (SerpApi Google Jobs and Google Scholar), recommends career paths with deterministic scoring, and then keeps tracking matched opportunities for the path you choose.
-=======
 Quantum Pathfinder helps a student or early-career person decide where to aim in quantum computing. You answer a short quiz and rate your interest in six subfields (error correction, hardware, software, algorithms, quantum machine learning, communication and networking). The app compares that with live job postings and recent research papers, ranks six career paths, explains each ranking from the evidence, and then lists matching job postings for the path you pick.
 
 Every number and ranking comes from plain, tested functions with named constants. The AI model (Gemini) only extracts structure from text and writes explanations from supplied evidence. It never produces a score or a ranking.
