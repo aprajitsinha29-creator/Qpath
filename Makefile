@@ -1,4 +1,4 @@
-# Makefile — Quantum Pathfinder developer entry points (docs/BUILD_PLAN.md, Phase 0 step 0.1.3).
+# Makefile — QPath developer entry points (docs/BUILD_PLAN.md, Phase 0 step 0.1.3).
 # All Python runs go through backend/.venv; the system pip is externally managed on
 # this machine, so `setup` always builds a project-local venv first.
 #

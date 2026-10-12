@@ -5,7 +5,7 @@ Everything here is a rule, not a suggestion.
 ### 3.1 Repository structure
  
 ```text
-quantum-pathfinder/
+qpath/
 ├── AGENTS.md                        # These rules (Section 3 of the build plan)
 ├── knowledge.md                     # One line: "Read AGENTS.md and docs/BUILD_PLAN.md"
 ├── README.md                        # Setup, architecture summary, SerpApi usage, limits

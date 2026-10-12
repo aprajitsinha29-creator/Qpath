@@ -1,4 +1,4 @@
-# Quantum Pathfinder
+# QPath
 
 > A live-data career navigator for quantum computing: it measures what you know (an 18-question diagnostic), reads the quantum job market and recent research (SerpApi Google Jobs and Google Scholar), recommends career paths with deterministic scoring, and then keeps tracking matched opportunities for the path you choose.
 
@@ -8,7 +8,7 @@ Built for the **SerpApi India Hackathon 2026**.
 
 ## What it is
 
-Quantum Pathfinder is a live-data career navigator for quantum computing: it measures what you know (an 18-question diagnostic), reads the quantum job market and recent research (SerpApi Google Jobs and Google Scholar), recommends career paths with deterministic scoring, and then keeps tracking matched opportunities for the path you choose.
+QPath is a live-data career navigator for quantum computing: it measures what you know (an 18-question diagnostic), reads the quantum job market and recent research (SerpApi Google Jobs and Google Scholar), recommends career paths with deterministic scoring, and then keeps tracking matched opportunities for the path you choose.
 
 ## Quick start
 

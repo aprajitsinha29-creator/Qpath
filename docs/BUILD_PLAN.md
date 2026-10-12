@@ -1,6 +1,6 @@
-# Quantum Pathfinder — Build Plan & Project Context
+# QPath — Build Plan & Project Context
 
-> Working name: **Quantum Pathfinder**. Created 2026-10-03 for the SerpApi India Hackathon 2026.
+> Working name: **QPath** (formerly "Quantum Pathfinder"; renamed 2026-10-12). Created 2026-10-03 for the SerpApi India Hackathon 2026.
 > This file is **self-contained**: a new chat or a new coding agent needs nothing else to understand the project, the decisions behind it, or how to build it.
 
 ---
@@ -82,7 +82,7 @@ Instruction files: Freebuff reads `AGENTS.md` and `knowledge.md`; Copilot reads 
 
 ### 1.1 Builder and situation
 
-- Builder: Aprajit, first-year B.Tech CSE (AI & ML) student. Also building **Ananta Quantum Studio** (a browser-based quantum education/research platform). Quantum Pathfinder is a **separate, standalone project** born from one planned Ananta feature.
+- Builder: Aprajit, first-year B.Tech CSE (AI & ML) student. Also building **Ananta Quantum Studio** (a browser-based quantum education/research platform). QPath is a **separate, standalone project** born from one planned Ananta feature.
 - Uses coding agents heavily ("vibe coding"). Stack chosen: **FastAPI + React**, **Gemini API** (no Claude API keys available), SerpApi keys already obtained.
 - Working style requested: ruthless mentor. Challenge ideas, check the market before building, cite sources, say when unsure.
 
@@ -127,7 +127,7 @@ Instruction files: Freebuff reads `AGENTS.md` and `knowledge.md`; Copilot reads 
 | Generic job-market intelligence dashboard | Hackathon cliché on lablab.ai; GetJobPulse India already live (weekly analysis of thousands of AI/DS listings); AureliusTalent does skill-gap roadmaps |
 | Competitor/price intelligence | Funded SaaS category (Prowl, Competely, Price Sentinel at ~$13k MRR, and more) |
 
-**Closest competitor to the chosen idea:** *qubitsok.com* — a live quantum jobs + research-papers aggregator/newsletter (crawls ~20 sources weekly, classifies with NLP; ~780 job and ~540 paper subscribers at the time checked). It is a **passive aggregator**. Quantum Pathfinder differs by **connecting live signal to a personalized decision**: diagnostic → ranked paths → gap analysis → tracked opportunities. Do **not** drift into "a list of jobs" or "a list of papers" without a decision layer; that shape is already owned.
+**Closest competitor to the chosen idea:** *qubitsok.com* — a live quantum jobs + research-papers aggregator/newsletter (crawls ~20 sources weekly, classifies with NLP; ~780 job and ~540 paper subscribers at the time checked). It is a **passive aggregator**. QPath differs by **connecting live signal to a personalized decision**: diagnostic → ranked paths → gap analysis → tracked opportunities. Do **not** drift into "a list of jobs" or "a list of papers" without a decision layer; that shape is already owned.
 
 ### 1.5 Verified facts about SerpApi data (probe run on 2026-10-02)
 
@@ -155,7 +155,7 @@ From a March 2026 qubitsok.com analysis of ~1,212 job postings and ~15k papers: 
 
 ### 1.8 Relationship to Ananta Quantum Studio
 
-- Submit Quantum Pathfinder as its **own repo**, README and demo. Do **not** demo Ananta (it would dilute the "SerpApi is essential" story). Mention Ananta as related work only; disclose truthfully that Pathfinder is a new project that shares design ideas (the taxonomy) with Ananta.
+- Submit QPath as its **own repo**, README and demo. Do **not** demo Ananta (it would dilute the "SerpApi is essential" story). Mention Ananta as related work only; disclose truthfully that QPath is a new project that shares design ideas (the taxonomy) with Ananta.
 - Later integration: the diagnostic can be replaced by Ananta's mastery graph; the taxonomy in `taxonomy.json` is designed to become that schema. Do not build any Ananta integration now.
 
 ### 1.9 Non-goals (do not build)
@@ -1187,7 +1187,7 @@ Take the quiz yourself and with two friends of different levels. Difficulty-1 qu
 - [ ] Demo video **< 3 minutes**, shows the project **running locally** with SerpApi data driving the main screens; link opens in a private window (M-14).
 - [ ] Track chosen: **Knowledge & Public Interest**.
 - [ ] Project description covers *what it does, who it helps, how SerpApi is used*. Draft:
-  > Quantum Pathfinder helps students and early-career engineers decide where to specialize in quantum computing. It uses SerpApi's **Google Jobs** engine to continuously capture live quantum job and internship postings per subfield (the source of every demand number, skill ranking, tracked opportunity and "new since your last visit" badge) and **Google Scholar** to surface what recent research in each subfield is about. A short diagnostic measures the user's readiness and interests; deterministic scoring combines these with live demand to rank career paths, and Gemini only extracts structure from postings and explains results using the supplied data. Without SerpApi the app would have no market signal to recommend from.
+  > QPath helps students and early-career engineers decide where to specialize in quantum computing. It uses SerpApi's **Google Jobs** engine to continuously capture live quantum job and internship postings per subfield (the source of every demand number, skill ranking, tracked opportunity and "new since your last visit" badge) and **Google Scholar** to surface what recent research in each subfield is about. A short diagnostic measures the user's readiness and interests; deterministic scoring combines these with live demand to rank career paths, and Gemini only extracts structure from postings and explains results using the supplied data. Without SerpApi the app would have no market signal to recommend from.
 - [ ] Pre-existing project? → new project; mention it shares design ideas with Ananta Quantum Studio (M-15).
 - [ ] AI tools disclosed: Freebuff, Antigravity CLI, GitHub Copilot, Claude (planning/consultation), Gemini API (runtime).
 - [ ] Participant details ready; Rules and Terms accepted; **press "Submit project" before Oct 10, 2026, 23:59 IST** (a saved draft does not count).

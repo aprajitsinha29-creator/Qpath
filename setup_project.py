@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""One-shot project setup for Quantum Pathfinder (Qpath).
+"""One-shot project setup for QPath.
 
 Run this once after cloning the repository:
 
@@ -464,7 +464,7 @@ def print_next_steps(args: argparse.Namespace) -> None:
 
 def parse_args() -> argparse.Namespace:
     p = argparse.ArgumentParser(
-        description="Set up Quantum Pathfinder from scratch after cloning the repo.",
+        description="Set up QPath from scratch after cloning the repo.",
     )
     p.add_argument("--with-data", action="store_true",
                    help="load the recorded (offline) SerpApi sample job data into the database")
@@ -481,7 +481,7 @@ def parse_args() -> argparse.Namespace:
 def main() -> None:
     args = parse_args()
     os.chdir(ROOT)
-    print(_c("1", "Quantum Pathfinder - project setup"))
+    print(_c("1", "QPath - project setup"))
     print(f"  repo: {ROOT}\n  system: {platform.system()} {platform.machine()}")
 
     check_repo_layout(args)

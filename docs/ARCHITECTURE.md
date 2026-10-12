@@ -1,4 +1,4 @@
-# Architecture — Quantum Pathfinder
+# Architecture — QPath
 
 > Last updated: Phase 5 (Opportunity tracker). Updated at the end of every phase per AGENTS.md 3.8.7.
 
@@ -6,7 +6,7 @@
 
 ## Overview
 
-Quantum Pathfinder is a live-data career navigator for quantum computing. It pairs real job-market data (via SerpApi Google Jobs and Google Scholar) with deterministic scoring and structured AI output (Gemini) to deliver personalised career path recommendations and skill-gap plans.
+QPath is a live-data career navigator for quantum computing. It pairs real job-market data (via SerpApi Google Jobs and Google Scholar) with deterministic scoring and structured AI output (Gemini) to deliver personalised career path recommendations and skill-gap plans.
 
 ---
 
@@ -158,6 +158,27 @@ GET /pulse/{subfield_id}:
 ---
 
 ## Decision log
+
+### Product renamed to QPath (2026-10-12)
+
+A pure display/branding rename from "Quantum Pathfinder" to "QPath" (capital Q, capital P, no
+space). No behaviour, scoring, data, API shape or test intent changed — only names shown to users
+(header, footer, document title, 404 copy), the FastAPI/OpenAPI title ("QPath API"), package
+description metadata, and documentation sources (README, BUILD_PLAN, DATA_AND_METHOD, AGENTS,
+summary). The Method page still renders `docs/DATA_AND_METHOD.md` verbatim, which was updated in
+place. Regression tests: `test_openapi_title_contains_qpath` (backend, `test_health.py`) and
+`src/AppShellRename.test.tsx` (frontend: header, footer, document title, 404 wordmark).
+
+Identifiers **deliberately kept** (renaming would break behaviour or existing data):
+
+| Identifier | Why kept |
+|---|---|
+| `localStorage`/`sessionStorage` keys `quantum_pathfinder_profile_id` and `quantum_pathfinder_diagnostic_draft` | Renaming orphans every existing profile id and dev admin token (Step 3 freeze) |
+| `pathfinder.db` in the `DATABASE_URL` default and `.env.example` | Default database filename; renaming would point existing environments at an empty DB |
+| npm package names `qpath-frontend`/`qpath-backend` (display metadata only; lock file updated) | Package names are identifiers; the repo URL already says `Qpath` |
+| Python package name `app` | Module name, unrelated to the brand |
+| API routes and JSON field names | Public API contract unchanged |
+| Recorded fixtures and git history | Data never synthesized or rewritten |
 
 ### Sync stack (no async)
 Endpoints are plain `def` (FastAPI runs them in a threadpool), SQLAlchemy sessions are synchronous, and `httpx.Client` is synchronous. This avoids the `async def` + blocking-call pitfall and is fully sufficient for the expected request volume. If async becomes necessary in a future phase it will be recorded here.

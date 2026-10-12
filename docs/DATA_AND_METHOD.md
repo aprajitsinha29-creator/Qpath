@@ -1,6 +1,6 @@
 # Data and method
 
-How to read the numbers in Quantum Pathfinder, where they come from, and where they are weak.
+How to read the numbers in QPath, where they come from, and where they are weak.
 
 ## Sources
 
