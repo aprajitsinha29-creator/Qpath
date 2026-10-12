@@ -1,4 +1,4 @@
-"""Quantum Pathfinder backend package.
+"""QPath backend package.
 
 Installed editable via ``pip install -e ".[dev]"`` (see Makefile target ``setup``).
 ``__version__`` is the source of truth for the API version reported by

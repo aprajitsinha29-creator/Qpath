@@ -91,7 +91,7 @@ def create_app() -> FastAPI:
     settings = get_settings()
     setup_logging(settings.log_level)
     application = FastAPI(
-        title="Quantum Pathfinder API",
+        title="QPath API",
         version=__version__,
         description="Live-data career navigator for quantum computing.",
         lifespan=lifespan,
