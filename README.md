@@ -13,14 +13,22 @@ Quantum Pathfinder is a live-data career navigator for quantum computing: it mea
 ## Quick start
 
 ```bash
-make setup        # create backend/.venv, install backend deps, npm ci for frontend
-make dev-backend  # http://localhost:8000 (terminal 1)
-make dev-frontend # http://localhost:5173   (terminal 2)
+git clone https://github.com/aprajitsinha29-creator/Qpath.git
+cd Qpath
+python setup_project.py
 ```
 
-Open `http://localhost:5173`.
+Then edit `backend/.env` to add your API keys (optional for offline fixture mode).
 
-**Fixture mode (default):** with `SERPAPI_USE_FIXTURES=true` (the default in `backend/.env.example`) the app runs entirely offline against recorded real SerpApi responses in `backend/tests/fixtures/serpapi/` — no API key and no credits needed for the backend itself. The Gemini-backed features (skill extraction, research themes, path explanations) additionally need `GEMINI_API_KEY`/`GEMINI_MODEL`; leave them empty and those views fall back to labelled templates or show empty states. Copy `backend/.env.example` → `backend/.env` and `frontend/.env.example` → `frontend/.env` first.
+Finally, start the app:
+
+```bash
+python setup_project.py --start
+```
+
+Open `http://localhost:5173` in your browser.
+
+**Fixture mode :** with `SERPAPI_USE_FIXTURES=true` (the default in `backend/.env.example`) the app runs entirely offline against recorded real SerpApi responses in `backend/tests/fixtures/serpapi/` — no API key and no credits needed for the backend itself. The Gemini-backed features (skill extraction, research themes, path explanations) additionally need `GEMINI_API_KEY`/`GEMINI_MODEL`; leave them empty and those views fall back to labelled templates or show empty states. Copy `backend/.env.example` → `backend/.env` and `frontend/.env.example` → `frontend/.env` first.
 
 ## Features as built
 
