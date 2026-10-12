@@ -25,6 +25,7 @@ Finally, start the app:
 ```bash
 python setup_project.py --start
 ```
+Run the first refresh to fetch the current live postings via Google jobs using the default admin token : change-me
 
 Open `http://localhost:5173` in your browser.
 
