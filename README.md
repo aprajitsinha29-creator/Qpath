@@ -63,6 +63,7 @@ Keys are your own. Put them in `backend/.env`, never in the frontend, and never 
 
 With `GEMINI_API_KEY` and `GEMINI_MODEL` set in `backend/.env` and the backend restarted, run these once after the first refresh (replace `change-me` if you changed `ADMIN_TOKEN`):
 
+Linux/macos:
 ```bash
 # Extract skills, seniority and PhD flags from the stored postings
 curl -X POST http://localhost:8000/api/v1/admin/extract -H "X-Admin-Token: change-me"
@@ -70,7 +71,7 @@ curl -X POST http://localhost:8000/api/v1/admin/extract -H "X-Admin-Token: chang
 # Fetch recent Scholar papers and generate research themes
 curl -X POST http://localhost:8000/api/v1/admin/refresh/scholar -H "X-Admin-Token: change-me"
 ```
-
+Windows:
 ```powershell
 # Extract skills, seniority and PhD flags from the stored postings
 Invoke-RestMethod -Uri "http://localhost:8000/api/v1/admin/extract" -Method Post -Headers @{ "X-Admin-Token" = "change-me" }
