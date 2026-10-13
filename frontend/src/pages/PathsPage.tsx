@@ -2,12 +2,14 @@
 // grounded AI explanations. Redirects to /diagnostic if no assessment exists.
 // Needs GET /profiles/{id}/paths and POST /profiles/{id}/paths/explanations.
 import { Link, Navigate } from 'react-router-dom';
+import { useLatestAssessment } from '../features/diagnostic/hooks/useDiagnostic';
 import { PathCard } from '../features/paths/components/PathCard';
 import { usePaths, useRequestExplanations } from '../features/paths/hooks/usePaths';
 import { DeclaredSkillsPanel } from '../features/skills/components/DeclaredSkillsPanel';
 import { useProfile } from '../features/skills/hooks/useSkills';
 import { useChosenPath } from '../features/tracker/hooks/useTracker';
 import { getOrCreateProfileId } from '../lib/profileId';
+import { formatDate } from '../lib/format';
 
 export function PathsPage() {
   const profileId = getOrCreateProfileId();
@@ -19,6 +21,10 @@ export function PathsPage() {
   // Tracked path id (Phase 5) feeds the TrackPathButton on each card; a
   // failed profile query only costs the button state, not the page.
   const chosenPathQuery = useChosenPath(profileId);
+  // Taken-at date of the assessment the ranking is based on. The paths
+  // payload itself does not carry the date, so it comes from the latest
+  // assessment query; rendering it is best-effort (hidden while loading/failing).
+  const latestAssessmentQuery = useLatestAssessment(profileId);
 
   // 409 assessment_required → redirect to diagnostic with a message (plan 4.6)
   const status = (error as { status?: number } | null)?.status;
@@ -93,6 +99,11 @@ export function PathsPage() {
           <p className="mt-1 text-sm text-slate-400">
             Ranked by a blend of your interest, field demand, and readiness score.
           </p>
+          {latestAssessmentQuery.data?.taken_at && (
+            <p className="mt-1 text-xs text-slate-500">
+              {`Based on your assessment from ${formatDate(latestAssessmentQuery.data.taken_at)}`}
+            </p>
+          )}
           {data.saturation_note && (
             <p className="mt-1 text-xs text-amber-400">{data.saturation_note}</p>
           )}

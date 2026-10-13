@@ -39,11 +39,13 @@ interface QuestionStepProps {
   question: QuizQuestion;
   questionNumber: number;
   totalQuestions: number;
-  selectedIndex: number | null;
+  /** Selected index, null = "Not sure" chosen, undefined = no selection yet. */
+  selectedIndex: number | null | undefined;
   onSelect: (selectedIndex: number | null) => void;
+  // Going back one step always lands somewhere valid: question 1's Back
+  // returns to step 0, which is the interest sliders screen.
   onBack: () => void;
   onNext: () => void;
-  isFirst: boolean;
 }
 
 export function QuestionStep({
@@ -54,11 +56,11 @@ export function QuestionStep({
   onSelect,
   onBack,
   onNext,
-  isFirst,
 }: QuestionStepProps) {
   // Skipping is allowed: unanswered questions score 0 like "Not sure", and the
-  // review step warns about them before submission (plan 3.5).
-  const answered = selectedIndex !== undefined && selectedIndex !== null;
+  // review step warns about them before submission (plan 3.5). "Not sure" IS
+  // a selection (null), so it makes the Next button say "Next", not "Skip".
+  const answered = selectedIndex !== undefined;
   return (
     <div className="space-y-6">
       {/* Progress bar: text alternative via aria + visible label */}
@@ -136,8 +138,7 @@ export function QuestionStep({
         <button
           type="button"
           onClick={onBack}
-          disabled={isFirst}
-          className="rounded-md border border-slate-700 px-4 py-2 text-sm font-medium text-slate-300 hover:bg-slate-900 disabled:cursor-not-allowed disabled:opacity-40"
+          className="rounded-md border border-slate-700 px-4 py-2 text-sm font-medium text-slate-300 hover:bg-slate-900"
         >
           Back
         </button>

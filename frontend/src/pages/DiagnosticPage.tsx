@@ -8,6 +8,8 @@ import { QuestionStep } from '../features/diagnostic/components/QuestionStep';
 import {
   clearDraft,
   draftToAnswers,
+  emptyDraft,
+  isPristineDraft,
   loadDraft,
   saveDraft,
   type DiagnosticDraft,
@@ -17,6 +19,7 @@ import { ensureProfileId } from '../lib/profileId';
 import { useQueryClient } from '@tanstack/react-query';
 import { useEffect } from 'react';
 import { useTaxonomy } from '../features/pulse/hooks/usePulse';
+import { ApiError } from '../lib/apiClient';
 
 export function DiagnosticPage() {
   const navigate = useNavigate();
@@ -25,13 +28,22 @@ export function DiagnosticPage() {
   const { data, isLoading, isError, error } = useQuiz();
 
   // The draft is loaded once per mount; every change writes it straight back.
+  // Pristine state ("Start over", first visit) clears storage instead so the
+  // tab draft genuinely disappears when there is no progress to keep.
   const [draft, setDraft] = useState<DiagnosticDraft>(() => loadDraft());
   useEffect(() => {
-    saveDraft(draft);
+    if (isPristineDraft(draft)) {
+      clearDraft();
+    } else {
+      saveDraft(draft);
+    }
   }, [draft]);
 
   const [confirming, setConfirming] = useState(false);
   const [submitError, setSubmitError] = useState<string | null>(null);
+  // Set when the backend's 422 points at the interests payload; drives the
+  // "Edit interests" button on the review error panel.
+  const [interestError, setInterestError] = useState(false);
 
   const questions = useMemo(() => data?.questions ?? [], [data]);
 
@@ -84,6 +96,7 @@ export function DiagnosticPage() {
   const startSubmit = async () => {
     setConfirming(false);
     setSubmitError(null);
+    setInterestError(false);
     try {
       await ensureProfileId();
       const result = await submitMutation.mutateAsync({
@@ -94,11 +107,31 @@ export function DiagnosticPage() {
       await queryClient.invalidateQueries({ queryKey: ['diagnostic'] });
       navigate(`/diagnostic/results?assessment=${result.assessment_id}`);
     } catch (err) {
-      setSubmitError(err instanceof Error ? err.message : 'Submitting the diagnostic failed.');
+      if (err instanceof ApiError && err.status === 422 && /interest/i.test(err.message)) {
+        // Backend interest validation failed (should not happen since the
+        // defaults are always submitted); offer a fix instead of raw subfield ids.
+        setSubmitError(
+          'There was a problem with your interest levels. Please review the sliders — each area needs a value from 1 to 5.',
+        );
+        setInterestError(true);
+      } else {
+        setSubmitError(err instanceof Error ? err.message : 'Submitting the diagnostic failed.');
+      }
     }
   };
 
+  // Only questions with no selection at all count as unanswered: "Not sure"
+  // (null) is a deliberate choice that scores 0, not a gap.
   const unansweredCount = questions.filter((q) => draft.answers[q.id] === undefined).length;
+
+  /** Clears the tab draft entirely and returns to the interest sliders. */
+  const startOver = () => {
+    clearDraft();
+    setConfirming(false);
+    setSubmitError(null);
+    setInterestError(false);
+    setDraft(emptyDraft());
+  };
   const redirectNotice = (location.state as { message?: string } | null)?.message;
 
   return (
@@ -131,8 +164,7 @@ export function DiagnosticPage() {
           question={questions[draft.step - 1]}
           questionNumber={draft.step}
           totalQuestions={questions.length}
-          selectedIndex={draft.answers[questions[draft.step - 1].id] ?? null}
-          isFirst={draft.step === 1}
+          selectedIndex={draft.answers[questions[draft.step - 1].id]}
           onSelect={(selectedIndex) =>
             setDraft((d) => ({
               ...d,
@@ -170,26 +202,51 @@ export function DiagnosticPage() {
           <h2 className="text-lg font-semibold text-white">Ready to submit?</h2>
           {unansweredCount > 0 && (
             <p className="text-sm text-amber-300">
-              {`${unansweredCount} question(s) unanswered`} — they will score 0 (same as "Not
-              sure").
+              {`${unansweredCount} question(s) with no answer selected`} — they will score 0 (same
+              as "Not sure").
             </p>
           )}
           {submitError && (
-            <p
+            <div
               role="alert"
               className="rounded-lg border border-rose-900/60 bg-rose-950/40 p-3 text-sm text-rose-200"
             >
-              {submitError}
-            </p>
+              <p>{submitError}</p>
+              {interestError && (
+                <button
+                  type="button"
+                  onClick={() => setDraft((d) => ({ ...d, step: 0 }))}
+                  className="mt-2 rounded-md bg-rose-800 px-3 py-1.5 text-xs font-semibold text-white hover:bg-rose-700"
+                >
+                  Edit interests
+                </button>
+              )}
+            </div>
           )}
           <div className="flex flex-wrap items-center justify-between gap-3">
-            <button
-              type="button"
-              onClick={() => setDraft((d) => ({ ...d, step: questions.length }))}
-              className="rounded-md border border-slate-700 px-4 py-2 text-sm text-slate-300 hover:bg-slate-900"
-            >
-              Back to questions
-            </button>
+            <div className="flex flex-wrap items-center gap-2">
+              <button
+                type="button"
+                onClick={() => setDraft((d) => ({ ...d, step: 0 }))}
+                className="rounded-md border border-slate-700 px-4 py-2 text-sm text-slate-300 hover:bg-slate-900"
+              >
+                Edit interests
+              </button>
+              <button
+                type="button"
+                onClick={() => setDraft((d) => ({ ...d, step: questions.length }))}
+                className="rounded-md border border-slate-700 px-4 py-2 text-sm text-slate-300 hover:bg-slate-900"
+              >
+                Back to questions
+              </button>
+              <button
+                type="button"
+                onClick={startOver}
+                className="rounded-md border border-slate-700 px-4 py-2 text-sm text-slate-300 hover:bg-slate-900"
+              >
+                Start over
+              </button>
+            </div>
             <div className="flex items-center gap-3">
               {!confirming ? (
                 <button

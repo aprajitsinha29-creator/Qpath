@@ -23,6 +23,14 @@ vi.mock('../features/paths/hooks/usePaths', () => ({
   })),
 }));
 
+vi.mock('../features/diagnostic/hooks/useDiagnostic', () => ({
+  useLatestAssessment: vi.fn(() => ({
+    data: { taken_at: '2026-10-01T12:00:00Z' },
+    isLoading: false,
+    isError: false,
+  })),
+}));
+
 vi.mock('../lib/profileId', () => ({
   getOrCreateProfileId: vi.fn(() => 'test-profile'),
 }));
@@ -195,6 +203,17 @@ describe('PathsPage', () => {
     renderPage();
     // Navigate replaces the route with /diagnostic.
     expect(screen.getByText('Diagnostic Page')).toBeInTheDocument();
+  });
+
+  it('test_paths_shows_assessment_date_under_heading', () => {
+    mockUsePaths.mockReturnValue({
+      isLoading: false,
+      isError: false,
+      data: makePathsOut([makePathResult()]),
+      error: null,
+    } as never);
+    renderPage();
+    expect(screen.getByText(/Based on your assessment from Oct 1, 2026/i)).toBeInTheDocument();
   });
 
   it('test_paths_low_data_notice_shown_when_low_data_true', () => {
