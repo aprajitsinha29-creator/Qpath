@@ -25,7 +25,7 @@ Every number and ranking comes from plain, tested functions with named constants
 ```bash
 git clone https://github.com/aprajitsinha29-creator/Qpath.git
 cd Qpath
-python setup_project.py          # one-time setup (use python3 if `python` is not found)
+python3 setup_project.py          # one-time setup (use python3 if `python` is not found)
 ```
 
 The setup script installs the backend and frontend dependencies and creates `backend/.env` and `frontend/.env` from the `.env.example` files. The defaults run the whole app offline, so you can start straight away. Edit `backend/.env` only if you want to add API keys (see [API keys](#api-keys)).
@@ -33,7 +33,7 @@ The setup script installs the backend and frontend dependencies and creates `bac
 Start both servers:
 
 ```bash
-python setup_project.py --start
+python3 setup_project.py --start
 ```
 
 This serves the backend at `http://localhost:8000` and the frontend at `http://localhost:5173`. Press Ctrl+C to stop.
